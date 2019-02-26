@@ -5,10 +5,8 @@ $url64      = $url
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  unzipLocation = $toolsDir
   fileType      = 'exe'
   url           = $url
-  url64bit      = $url64
 
   softwareName  = 'klog*'
 

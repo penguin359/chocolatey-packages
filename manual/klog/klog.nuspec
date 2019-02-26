@@ -37,13 +37,13 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <title>Klog</title>
     <authors>James Robles EA4TV, Akihiro Koda JL3OXR, Andrew Goldie ZL2ACG</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>http://www.klog.xyz/</projectUrl>
+    <projectUrl>https://www.klog.xyz/</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/manual/klog/klog_128x128.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>http://svn.sv.gnu.org/viewvc/?root=klog</projectSourceUrl>
+    <projectSourceUrl>http://svn.sv.gnu.org/viewvc/klog/</projectSourceUrl>
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <mailingListUrl>https://www.klog.xyz/mailing-lists/</mailingListUrl>
     <bugTrackerUrl>https://savannah.nongnu.org/bugs/?group=klog</bugTrackerUrl>

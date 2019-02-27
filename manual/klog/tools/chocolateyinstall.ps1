@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://mirrors.up.pt/pub/nongnu/klog/win/KLog-0.9.6-windows-installer.exe'
+$url        = 'http://download.savannah.gnu.org/releases/klog/win/KLog-0.9.6-windows-installer.exe'
 $url64      = $url
 
 $packageArgs = @{

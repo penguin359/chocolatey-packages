@@ -93,6 +93,7 @@ It has been tested on all Windows operating systems from Windows Vista to the la
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
 <dependencies>
+	<dependency id="dotnet4.6.2" />
 	<dependency id="omnirig" version="1.18" />
 </dependencies>
     <!-- chocolatey-core.extension - https://chocolatey.org/packages/chocolatey-core.extension

@@ -1,14 +1,12 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'http://download.savannah.gnu.org/releases/klog/win/KLog-0.9.6-windows-installer.exe'
-$url64      = $url
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe'
   url           = $url
-  url64bit      = $url64
 
   softwareName  = 'klog*'
 

@@ -45,7 +45,6 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://physics.princeton.edu/pulsar/k1jt/</projectSourceUrl>
     <docsUrl>https://physics.princeton.edu/pulsar/k1jt/wsjtx.html</docsUrl>
-    <mailingListUrl>mailto:wsjtgroup@yahoogroups.com</mailingListUrl>
     <bugTrackerUrl>https://physics.princeton.edu/pulsar/k1jt/support.html</bugTrackerUrl>
     <tags>wsjtx HAM radio amateur FT8 JT4 JT9 JT65 QRA64 ISCAT MSK144 WSPR echo</tags>
     <summary>WSJT-X - Digital Modes for Weak Signal Communicaitons in Amateur Radio</summary>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Read this before creating packages: https://chocolatey.org/docs/create-packages -->
 <!-- It is especially important to read the above link to understand additional requirements when publishing packages to the community feed aka dot org (https://chocolatey.org/packages). -->
 
@@ -93,7 +93,7 @@ It has been tested on all Windows operating systems from Windows Vista to the la
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
 <dependencies>
-	<dependency id="dotnet" version="[4.6.2]" />
+	<dependency id="dotnetfx" version="[4.6.2]" />
 	<dependency id="omnirig" version="1.18" />
 </dependencies>
     <!-- chocolatey-core.extension - https://chocolatey.org/packages/chocolatey-core.extension

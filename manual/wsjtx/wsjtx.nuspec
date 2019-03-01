@@ -22,42 +22,42 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- This section is about this package, although id and version have ties back to the software -->
     <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
     <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
-    <id>omnirig</id>
+    <id>wsjtx</id>
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>1.18</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/omnirig</packageSourceUrl>
+    <version>2.0.1</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/wsjtx</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>chtof</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>OmniRig</title>
-    <authors>Alex Shovkoplyas VE3NEA</authors>
+    <title>WSJT-X</title>
+    <authors>Joe Taylor K1JT</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>http://www.dxatlas.com/omnirig/</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/omnirig.png</iconUrl>-->
-    <copyright>1998-2015 Afreet Software, Inc.</copyright>
+    <projectUrl>https://physics.princeton.edu/pulsar/k1jt/wsjtx.html</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/manual/wsjtx/wsjtx.png</iconUrl>
+    <copyright>©2001-2019  by Joe Taylor, K1JT</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
-    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
-    <projectSourceUrl>https://github.com/VE3NEA/OmniRig</projectSourceUrl>
-    <docsUrl>http://www.dxatlas.com/omnirig/</docsUrl>
-    <mailingListUrl>http://groups.yahoo.com/group/dxatlas_group/</mailingListUrl>
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>omnirig cat control HAM amateur radio</tags>
-    <summary>A COM component for transceiver/receiver CAT control.</summary>
-    <description><![CDATA[
-A COM component for transceiver/receiver CAT control.
-## Features
-- **Multi-threading**: multiple programs, written by different authors in different languages, can control the radio via Omni-Rig at the same time; 
-- **External rig description files**: the support of a new rig model can be implemented just by creating an ini file that describes the CAT commands of the radio.
+    <licenseUrl>https://physics.princeton.edu/pulsar/k1jt/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://physics.princeton.edu/pulsar/k1jt/</projectSourceUrl>
+    <docsUrl>https://physics.princeton.edu/pulsar/k1jt/wsjtx.html</docsUrl>
+    <bugTrackerUrl>https://physics.princeton.edu/pulsar/k1jt/support.html</bugTrackerUrl>
+    <tags>wsjtx HAM radio amateur FT8 JT4 JT9 JT65 QRA64 ISCAT MSK144 WSPR echo</tags>
+    <summary>WSJT-X - Digital Modes for Weak Signal Communicaitons in Amateur Radio</summary>
+    <description>
+WSJT-X implements communication protocols or "modes" called FT8, JT4, JT9, JT65, QRA64, ISCAT, MSK144, and WSPR, as well as one called Echo for detecting and measuring your own radio signals reflected from the Moon.  These modes were all designed for making reliable, confirmed QSOs under extreme weak-signal conditions.  
 
-Please consider participating in the project by testing the code and the rig description files, or by creating your own rig description files.
-]]></description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+JT4, JT9, JT65, and QRA64 use nearly identical message structure and source encoding (the efficient compression of standard messages used for minimal QSOs). They use timed 60-second T/R sequences synchronized with UTC.  JT65 and QRA64 were designed for EME ("moonbounce") on the VHF/UHF bands; JT65 has also proved popular and effective for worldwide QRP communication at HF.  JT9 is optimized for the LF, MF, and HF bands.  It  is about 2 dB more sensitive than JT65 while using less than 10% of the bandwidth.  With either JT9 or JT65, world-wide QSOs are possible with power levels of a few watts and compromise antennas.  JT4 and QRA64 are optimized for EME on the VHF and higher bands, and especially the microwave bands from 2.3 to 24 GHz.  
+
+FT8 is operationally similar but uses T/R cycles only 15 s long.  MSK144 is designed for Meteor Scatter on the VHF bands.  These modes offer enhanced message formats with support for nonstandard callsigns and some popular contests.
+
+As described more fully on its own page, WSPR mode implements a protocol designed for probing potential propagation paths with low-power transmissions.  WSPR is now fully implemented within WSJT-X, including programmable "band-hopping". 
+</description>
+    <releaseNotes>https://physics.princeton.edu/pulsar/k1jt/Release_Notes.txt</releaseNotes>
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->

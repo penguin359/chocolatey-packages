@@ -1,18 +1,18 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://download.savannah.gnu.org/releases/klog/win/KLog-0.9.6-windows-installer.exe'
+$url        = 'https://physics.princeton.edu/pulsar/k1jt/wsjtx-2.0.1-win32.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   fileType      = 'exe'
   url           = $url
 
-  softwareName  = 'klog*'
+  softwareName  = 'wsjtx*'
 
-  checksum      = 'E772C161FA55124FE258F73A3154846BE671960F2A06803495BC03E961905673'
+  checksum      = 'FFAE2C51143D53F899AF704E785C08C31438E682A93CB0BDB26EDEB6ECB0FFAD'
   checksumType  = 'sha256'
-  
-  silentArgs    = "--mode unattended"
+
+  silentArgs    = "/S"
   validExitCodes= @(0, 3010, 1641)
 }
 

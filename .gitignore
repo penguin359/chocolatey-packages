@@ -29,3 +29,7 @@ Update-AUPackages.md
 *.txt
 *.md
 manual/klog/tools/chocolateyuninstall.ps1
+manual/test/test.nuspec
+manual/test/tools/chocolateybeforemodify.ps1
+manual/test/tools/chocolateyinstall.ps1
+manual/test/tools/chocolateyuninstall.ps1

@@ -1,15 +1,15 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://download.savannah.gnu.org/releases/klog/win/KLog-0.9.6-windows-installer.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
+  unzipLocation = $toolsDir
   fileType      = 'exe'
-  url           = $url
+  url           = 'https://download.savannah.gnu.org/releases/klog/win/KLog-0.9.6-windows-installer.exe'
 
   softwareName  = 'klog*'
 
-  checksum      = 'E772C161FA55124FE258F73A3154846BE671960F2A06803495BC03E961905673'
+  checksum      = 'e772c161fa55124fe258f73a3154846be671960f2a06803495bc03e961905673'
   checksumType  = 'sha256'
   
   silentArgs    = "--mode unattended"

@@ -4,7 +4,6 @@ $url        = 'http://download.savannah.gnu.org/releases/klog/win/KLog-0.9.6-win
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  unzipLocation = $toolsDir
   fileType      = 'exe'
   url           = $url
 

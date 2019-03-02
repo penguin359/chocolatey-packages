@@ -6,7 +6,7 @@ function global:au_GetLatest {
      $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	 $regex   = '\.zip$'
 	 $regex_version = "Actual Version is (.*?)<"
-	 $url = $download_page.links | ? href -match $regex | select -First 1 -expand href
+	 $url = $download_page.links | ? href -match $regex | select -Last 1 -expand href
 	 $download_page -match $regex_version
 	 return @{ Version = $matches[1] ; URL32 = $url }
 }

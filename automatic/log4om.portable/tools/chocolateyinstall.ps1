@@ -1,8 +1,4 @@
-﻿$fileName = "LogOMUI.exe"
-$linkName = "LogOMUI.lnk"
-$fileName_Log4OmCommunicator = "Log4OmCommunicator.exe"
-$linkName_Log4OmCommunicator = "Log4OmCommunicator.lnk"
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+﻿$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName  = "log4om.portable"
@@ -18,10 +14,10 @@ Install-ChocolateyZipPackage @packageArgs
 #Install start menu shortcuts
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 
-$shortcutFilePath = Join-Path $programs $linkName
-$targetPath = Join-Path $toolsDir "portable\$fileName"
+$shortcutFilePath = Join-Path $programs "LogOMUI.lnk"
+$targetPath = Join-Path $toolsDir "portable\LogOMUI.exe"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath
 
-$shortcutFilePath = Join-Path $programs $linkName_Log4OmCommunicator
-$targetPath = Join-Path $toolsDir "portable\$fileName_Log4OmCommunicator"
+$shortcutFilePath = Join-Path $programs "Log4OmCommunicator.lnk"
+$targetPath = Join-Path $toolsDir "portable\Log4OmCommunicator.exe"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath

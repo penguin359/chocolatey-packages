@@ -29,4 +29,4 @@ It has been tested on all Windows operating systems from Windows Vista to the la
 - Resources and external services are automatically updated
 - Software Voice Keyer
 
-![screenshot](https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/master/automatic/log4om.portable/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/log4om.portable/screenshot.png)

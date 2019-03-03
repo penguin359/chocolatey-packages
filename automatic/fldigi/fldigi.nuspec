@@ -25,7 +25,7 @@
     <authors>W1HKJ and Associates</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>http://www.w1hkj.com/</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/fldigi.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/fldigi/fldigi.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is is required for the community feed -->
     <licenseUrl>https://sourceforge.net/directory/license:gplv3/</licenseUrl>

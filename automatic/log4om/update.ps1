@@ -1,23 +1,14 @@
-import-module au
+. $PSScriptRoot\..\log4om.install\update.ps1
 
-$releases = 'http://www.log4om.com/dl/'
-
-function global:au_GetLatest {
-     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	 $regex   = '\.zip$'
-	 $regex_version = "Actual Version is (.*?)<"
-	 $url = $download_page.links | ? href -match $regex | select -First 1 -expand href
-	 $download_page -match $regex_version
-	 return @{ Version = $matches[1] ; URL32 = $url }
+function global:au_BeforeUpdate { 
+    cp  $PSScriptRoot\..\log4om.install\README.md $PSScriptRoot\README.md
 }
-
 function global:au_SearchReplace {
-    @{
-        "tools\chocolateyInstall.ps1" = @{
-			"(^\s*url\s*=\s*)('.*')" = "`$1'$($Latest.URL32)'"
-            "(^\s*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
+   @{
+        "$($Latest.PackageName).nuspec" = @{
+            "(\<dependency .+?`"$($Latest.PackageName).install`" version=)`"([^`"]+)`"" = "`$1`"[$($Latest.Version)]`""            
         }
     }
 }
 
-update
+update -ChecksumFor none -NoCheckUrl

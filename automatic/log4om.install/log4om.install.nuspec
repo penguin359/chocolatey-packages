@@ -109,10 +109,5 @@ It has been tested on all Windows operating systems from Windows Vista to the la
     <!--<provides>NOT YET IMPLEMENTED</provides>-->
     <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
     <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
-  </metadata>
-  <files>
-    <!-- this section controls what actually gets packaged into the Chocolatey package -->
-    <file src="tools\**" target="tools" />
-    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
-  </files>
+  </metadata>  
 </package>

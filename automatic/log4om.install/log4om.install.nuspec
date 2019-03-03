@@ -22,23 +22,23 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- This section is about this package, although id and version have ties back to the software -->
     <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
     <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
-    <id>log4om</id>
+    <id>log4om.install</id>
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
     <version>1.36.0</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/log4om</packageSourceUrl>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/log4om.install</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>chtof</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>Log4OM</title>
+    <title>Log4OM (Install)</title>
     <authors>Daniele Pistollato IW3HMH, Terry G4POP, Chuck K7PT , Rolf LA9FFA, Doug W7DRM, Peter G3ZSS, Claus OE6CLD</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.log4om.com</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/manual/log4om/log4om.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/manual/log4om.install/log4om.png</iconUrl>
     <copyright>2011-2012 Daniele Pistollato</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>http://www.pisto.it/LogOm/Log4OM_enu.pdf</licenseUrl>

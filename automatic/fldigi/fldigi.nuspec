@@ -33,7 +33,7 @@
     <projectSourceUrl>https://sourceforge.net/projects/fldigi/files/fldigi/</projectSourceUrl>
     <docsUrl>http://www.w1hkj.com/FldigiHelp</docsUrl>
     <mailingListUrl>https://sourceforge.net/p/fldigi/mailman/</mailingListUrl>    
-    <tags>fldigi HAM radio amateur</tags>
+    <tags>fldigi digital modes HAM radio amateur</tags>
     <summary>Sights and Sounds of Digital Modes</summary>
     <description>
 Fldigi is a modem program for most of the digital modes used by radio amateurs today: CW, PSK, MFSK, RTTY, Hell, DominoEX, Olivia, and Throb are all supported. It can help calibrate a sound card to a time signal and do frequency measurement tests. 

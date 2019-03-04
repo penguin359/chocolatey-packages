@@ -25,7 +25,7 @@
     <authors>https://kmymoney.org/people.php</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://kmymoney.org</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/kmymoney/kmymoney.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kmymoney/kmymoney.png</iconUrl>
     <copyright>Copyright (c) Thomas Baumgart, 2005</copyright>
     <!-- If there is a license Url available, it is is required for the community feed -->
     <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt</licenseUrl>

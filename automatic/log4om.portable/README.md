@@ -1,4 +1,4 @@
-﻿# <img src="https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/log4om.portable/log4om.png" width="48" height="48"/> [log4om.portable](https://chocolatey.org/packages/log4om.portable)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/log4om.portable/log4om.png" width="48" height="48"/> [log4om.portable](https://chocolatey.org/packages/log4om.portable)
 
 Log4OM is developed by **IW3HMH Daniele Pistollato**. 
 
@@ -29,4 +29,4 @@ It has been tested on all Windows operating systems from Windows Vista to the la
 - Resources and external services are automatically updated
 - Software Voice Keyer
 
-![screenshot](https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/log4om.portable/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/log4om.portable/screenshot.png)

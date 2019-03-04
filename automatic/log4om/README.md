@@ -1,4 +1,4 @@
-﻿# <img src="https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/log4om/log4om.png" width="48" height="48"/> [log4om.portable](https://chocolatey.org/packages/log4om)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/log4om/log4om.png" width="48" height="48"/> [log4om.portable](https://chocolatey.org/packages/log4om)
 
 Log4OM is developed by **IW3HMH Daniele Pistollato**. 
 
@@ -33,4 +33,4 @@ It has been tested on all Windows operating systems from Windows Vista to the la
 
 - `--installargs "'/DIR=c:\\path\\to\\folder'"` - Install LogOM in the specified folder.
 
-![screenshot](https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/log4om/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/log4om/screenshot.png)

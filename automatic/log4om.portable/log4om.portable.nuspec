@@ -38,7 +38,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Daniele Pistollato IW3HMH, Terry G4POP, Chuck K7PT , Rolf LA9FFA, Doug W7DRM, Peter G3ZSS, Claus OE6CLD</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.log4om.com</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/log4om.portable/log4om.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/log4om.portable/log4om.png</iconUrl>
     <copyright>2011-2012 Daniele Pistollato</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>http://www.pisto.it/LogOm/Log4OM_enu.pdf</licenseUrl>

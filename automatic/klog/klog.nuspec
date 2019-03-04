@@ -38,7 +38,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>James Robles EA4TV, Akihiro Koda JL3OXR, Andrew Goldie ZL2ACG</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>http://www.klog.xyz/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/manual/klog/klog_128x128.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/klog/klog_128x128.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>

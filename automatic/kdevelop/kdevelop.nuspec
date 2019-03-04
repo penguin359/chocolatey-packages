@@ -25,7 +25,7 @@
     <authors>https://www.kdevelop.org/kdevelop-team</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.kdevelop.org</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/kdevelop/kdevelop.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kdevelop/kdevelop.png</iconUrl>
     <copyright>Copyright 2016 - All rights reserved</copyright>
     <!-- If there is a license Url available, it is is required for the community feed -->
     <licenseUrl>https://github.com/KDE/kdevelop/blob/master/COPYING</licenseUrl>

@@ -50,13 +50,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <tags>klog log HAM radio amateur</tags>
     <summary>KLog is a Ham radio logging program for Linux / OSX / Windows.</summary>
     <description>KLog is the only hamradio logging program that can be executed in several operating systems!</description>
-    <releaseNotes>
-December 2018 – 0.9.6
-– Optimizing the Statistics widget.
-– Added some new Statistics widgets.
-– Fixed some messages with typos.
-– Bugfix: Fixed a bug preventing to modify a QSO. (TNX KB2YSI).
-</releaseNotes>
+    <releaseNotes>http://svn.savannah.gnu.org/viewvc/*checkout*/klog/trunk/Changelog</releaseNotes>
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->

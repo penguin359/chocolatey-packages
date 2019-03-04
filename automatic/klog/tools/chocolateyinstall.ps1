@@ -5,11 +5,11 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe'
-  url           = 'https://download.savannah.gnu.org/releases/klog/win/KLog-0.9.6-windows-installer.exe'
+  url           = 'https://download.savannah.gnu.org/releases/klog/win/KLog-0.9.7-windows-installer.exe'
 
   softwareName  = 'klog*'
 
-  checksum      = 'e772c161fa55124fe258f73a3154846be671960f2a06803495bc03e961905673'
+  checksum      = 'd26c9946bb9cf4594935446ef3d3344b796fdd2dff2959831c2e1e555416a90e'
   checksumType  = 'sha256'
   
   silentArgs    = "--mode unattended"

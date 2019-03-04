@@ -27,7 +27,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
     <version>1.36.0</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/log4om</packageSourceUrl>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/log4om</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>chtof</owners>
     <!-- ============================== -->
@@ -38,7 +38,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Daniele Pistollato IW3HMH, Terry G4POP, Chuck K7PT , Rolf LA9FFA, Doug W7DRM, Peter G3ZSS, Claus OE6CLD</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.log4om.com</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/manual/log4om/log4om.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/log4om/log4om.png</iconUrl>
     <copyright>2011-2012 Daniele Pistollato</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>http://www.pisto.it/LogOm/Log4OM_enu.pdf</licenseUrl>
@@ -97,8 +97,7 @@ It has been tested on all Windows operating systems from Windows Vista to the la
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
 <dependencies>
-	<dependency id="dotnetfx" version="[4.6.2]" />
-	<dependency id="omnirig" version="1.18" />
+	<dependency id="log4om.install" version="[1.36.0]" />	
 </dependencies>
     <!-- chocolatey-core.extension - https://chocolatey.org/packages/chocolatey-core.extension
          - You want to use Get-UninstallRegistryKey on less than 0.9.10 (in chocolateyUninstall.ps1)
@@ -110,9 +109,5 @@ It has been tested on all Windows operating systems from Windows Vista to the la
     <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
     <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
   </metadata>
-  <files>
-    <!-- this section controls what actually gets packaged into the Chocolatey package -->
-    <file src="tools\**" target="tools" />
-    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
-  </files>
+  <files></files>
 </package>

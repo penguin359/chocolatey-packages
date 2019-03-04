@@ -1,0 +1,8 @@
+﻿# <img src="https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/kmymoney/kmymoney.png" width="48" height="48"/> [kmymoney](https://chocolatey.org/packages/kmymoney)
+
+The ultimate objectives of KMyMoney are...
+-**Accuracy.** Using time tested double entry accounting principles KMyMoney can help ensure that your finances are kept in correct order.
+-**Ease of use.** KMyMoney strives to be the easiest open source personal finance manager to use, especially for the non-technical user.
+-**Familiar Features.** KMyMoney intends to provide all important features found in the commercially-available, personal finance managers. The current release is closer than ever to that goal and more improvements are already planned or being tested.
+
+![screenshot](https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/kmymoney/screenshot.png)

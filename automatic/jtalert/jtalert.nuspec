@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Read this before creating packages: https://chocolatey.org/docs/create-packages -->
+<!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <!-- This section is about this package, although id and version have ties back to the software -->
+    <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
+    <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
+    <id>jtalert</id>
+    <!-- version should MATCH as closely as possible with the underlying software -->
+    <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
+    <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
+    <version>2.12.10</version>
+    <!--PackageSourceUrl - Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed-->
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/jtalert</packageSourceUrl>
+    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
+    <owners>chtof</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <!-- This section is about the software itself -->
+    <title>jtalert</title>
+    <authors>Laurie VK3AMA</authors>
+    <!-- projectUrl is required for the community feed -->
+    <projectUrl>http://hamapps.com/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/jtalert/jtalert.png</iconUrl>
+    <copyright>Copyright 2011 - 2018, Laurie VK3AMA, All Rights Reserved.</copyright>
+    <!-- If there is a license Url available, it is is required for the community feed -->
+    <licenseUrl>https://hamapps.com/php/license.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://hamapps.groups.io/</bugTrackerUrl>
+    <tags>jtalert alert jt65hf wsjtx HAM radio amateur</tags>
+    <summary>Audio and Visual alerts for WSJT-X and JT65-HF</summary>
+    <description><![CDATA[Provides several audio and visual alert types based on decoded Callsigns within JT65-HF and WSJT-X.
+== Features
+
+- Audio and visual alerts for several alert conditions
+	- Your Callsign decoded (someone calling you)
+	- CQ & QRZ
+	- Wanted Callsign
+	- Wanted Prefix (by Band/Mode)
+	- Wanted Grid (by Band/Mode)
+	- Wanted US State (by Band/Mode)
+	- Wanted DXCC (by Band/Mode)
+	- Wanted CQ Zone (by Band/Mode)
+	- Wanted Continent (by Band/Mode)
+	- Wanted CQ Marathon (by Band/Mode)
+
+- Automatic logging to these log types when QSO is logged in JT65-HF or WSJT-X
+	- DXLab DXKeeper
+	- ACLog
+	- Log4OM
+	- HRD Log V5/V6
+	- Standard ADIF file
+	- MixW CSV file
+
+- Various Web Services Supported
+	- Online XML Callsign Database lookup. QRZ.com (paid) and HamQTH (free)
+	- Upload logged QSO to Online Logbooks. ClubLog.org and HRDLog.net
+	- Upload all decoded Callsigns with frequency and Signal report to HamSpots.net
+
+- Works with DXLab applications
+	- Automatic log to DXKeeper when JT65-HF or WSJT-X QSO is logged
+	- Automatic post decoded Callsigns to SpotCollector (local spots)
+	- DXKeeper lookup of previous QSOs with decoded Callsign
+	- Send Callsign to Pathfinder for lookup
+
+- Supports user-selectable Sound Card
+	- Each audio alert type has independent volume setting & wave file
+	- LoTW and eQSL membership flagging of decoded callsigns
+	- Band Tracking or alerts. 160m to 2m, including 60m
+	- Disable audio alert for Worked
+]]></description>
+    <releaseNotes>https://hamapps.com/php/notes.php?file=jtalert</releaseNotes>
+    <!-- =============================== -->      
+
+    <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
+    <dependencies>
+      <dependency id="dotnetfx" version="4.7.2" />      
+    </dependencies>
+    <!-- chocolatey-uninstall.extension - If supporting 0.9.9.x (or below) and including a chocolateyUninstall.ps1 file to uninstall an EXE/MSI, you probably want to include chocolatey-uninstall.extension as a dependency. Please verify whether you are using a helper function from that package. -->
+
+    <!--<provides>NOT YET IMPLEMENTED</provides>-->
+    <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
+    <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>

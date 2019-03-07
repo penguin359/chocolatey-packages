@@ -28,7 +28,7 @@ environment:
   mail_user:
     secure: fTI0gMGnBwFMQ3n9W0h7ok0Ue24Hn0934PBr4kDfhKA=
   mail_pass:
-    secure: EFgOxzzPT3SWUS2DIwxFVA5NX1HPuIirMih+vfR/6uY=
+    secure: IVWH/yF+d9IkD7GBfmtX/il7f4R/ymN2mbO/AGdPVto=
   mail_server: smtp.gmail.com
   mail_port: 587
   mail_enablessl: true

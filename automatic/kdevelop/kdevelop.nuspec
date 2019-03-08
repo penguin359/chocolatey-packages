@@ -12,7 +12,7 @@
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>5.3.1</version>
+    <version>5.3.2</version>
     <!--PackageSourceUrl - Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed-->
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/kdevelop</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
@@ -53,7 +53,7 @@ Screenshot of KDevelop 5 under Windows with the native Windows 10 style
 
 ![screenshot](https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/kdevelop/screenshot.png)
 ]]></description>
-    <releaseNotes>https://www.kdevelop.org/news/kdevelop-531-released</releaseNotes>
+    <releaseNotes>https://www.kdevelop.org/news/kdevelop-532-released</releaseNotes>
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
@@ -66,7 +66,5 @@ Screenshot of KDevelop 5 under Windows with the native Windows 10 style
     <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
     <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
   </metadata>
-  <files>
-    <!-- this section controls what actually gets packaged into the Chocolatey package -->
-    <file></files>
+  <files></files>
 </package>

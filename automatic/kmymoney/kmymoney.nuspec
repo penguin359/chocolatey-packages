@@ -28,7 +28,7 @@
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kmymoney/kmymoney.png</iconUrl>
     <copyright>Copyright (c) Thomas Baumgart, 2005</copyright>
     <!-- If there is a license Url available, it is is required for the community feed -->
-    <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt</licenseUrl>
+    <licenseUrl>https://cgit.kde.org/kmymoney.git/tree/COPYING</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://cgit.kde.org/kmymoney.git</projectSourceUrl>
     <docsUrl>https://kmymoney.org/documentation.php</docsUrl>

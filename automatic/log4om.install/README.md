@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/log4om/log4om.png" width="48" height="48"/> [log4om.install](https://chocolatey.org/packages/log4om.install)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/log4om/log4om.png" width="48" height="48"/> [Log4OM](https://chocolatey.org/packages/log4om.install)
 
 Log4OM is developed by **IW3HMH Daniele Pistollato**. 
 

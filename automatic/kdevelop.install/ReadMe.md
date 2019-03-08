@@ -1,4 +1,4 @@
-﻿# <img src="https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/kdevelop/kdevelop.png" width="48" height="48"/> [kdevelop](https://chocolatey.org/packages/kdevelop)
+﻿# <img src="https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/kdevelop/kdevelop.png" width="48" height="48"/> [KDevelop](https://chocolatey.org/packages/kdevelop)
 
 ## Our Philosophy
 Built on modern open source technology, the KDevelop IDE offers a seamless development environment to programmers that work on projects of any size. It helps you get the job done while staying out of your way.

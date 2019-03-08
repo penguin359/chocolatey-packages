@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jtalert/jtalert.png" width="48" height="48"/> [jtalert](https://chocolatey.org/packages/jtalert)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jtalert/jtalert.png" width="48" height="48"/> [JTAlert](https://chocolatey.org/packages/jtalert)
 
 Provides several audio and visual alert types based on decoded Callsigns within JT65-HF and WSJT-X.
 

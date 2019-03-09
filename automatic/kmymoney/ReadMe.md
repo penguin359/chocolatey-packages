@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kmymoney/kmymoney.png" width="48" height="48"/> [kmymoney](https://chocolatey.org/packages/kmymoney)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kmymoney/kmymoney.png" width="48" height="48"/> [KMyMoney](https://chocolatey.org/packages/kmymoney)
 
 ## The ultimate objectives of KMyMoney are...
 

@@ -13,9 +13,12 @@ function global:au_GetLatest {
 
 function global:au_SearchReplace {
     @{
-	    "kdevelop.nuspec" = @{
-			"<releaseNotes>https://www.kdevelop.org/news/kdevelop-(.*?)-released</releaseNotes>" = "<releaseNotes>https://www.kdevelop.org/news/kdevelop-$($Latest.VersionRelease)-released</releaseNotes>"
-        }
+		"tools\chocolateyInstall.ps1" = @{
+			"(^(\s)*url\s*=\s*)('.*')" = "`$1'$($Latest.URL32)'"
+			"(^(\s)*url64bit\s*=\s*)('.*')" = "`$1'$($Latest.URL64)'"
+            "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
+			"(^(\s)*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
+        }		
     }
 }
 

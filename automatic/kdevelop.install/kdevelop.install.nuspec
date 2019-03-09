@@ -1,48 +1,59 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Read this before creating packages: https://chocolatey.org/docs/create-packages -->
 <!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<!-- Do not remove this test for UTF-8: if “Ω” doesn't appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <!-- This section is about this package, although id and version have ties back to the software -->
     <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
     <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
-    <id>kmymoney</id>
+    <id>kdevelop.install</id>
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>4.8.3</version>
+    <version>5.3.1</version>
     <!--PackageSourceUrl - Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed-->
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/kmymoney</packageSourceUrl>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/kdevelop</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>chtof</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>KMyMoney</title>
-    <authors>https://kmymoney.org/people.php</authors>
+    <title>KDevelop (Install)</title>
+    <authors>https://www.kdevelop.org/kdevelop-team</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>https://kmymoney.org</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kmymoney/kmymoney.png</iconUrl>
-    <copyright>Copyright (c) Thomas Baumgart, 2005</copyright>
+    <projectUrl>https://www.kdevelop.org</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kdevelop/kdevelop.png</iconUrl>
+    <copyright>Copyright 2016 - All rights reserved</copyright>
     <!-- If there is a license Url available, it is is required for the community feed -->
-    <licenseUrl>https://cgit.kde.org/kmymoney.git/tree/COPYING</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://cgit.kde.org/kmymoney.git</projectSourceUrl>
-    <docsUrl>https://kmymoney.org/documentation.php</docsUrl>
-    <mailingListUrl>https://mail.kde.org/mailman/listinfo/kmymoney</mailingListUrl>
-    <bugTrackerUrl>https://bugs.kde.org/enter_bug.cgi</bugTrackerUrl>
-    <tags>kmymoney personal finance manager</tags>
-    <summary>The BEST Personal Finance Manager for FREE Users, full stop.</summary>
-    <description><![CDATA[## The ultimate objectives of KMyMoney are...
+    <licenseUrl>https://github.com/KDE/kdevelop/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/KDE/kdevelop</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>https://www.kdevelop.org/support</mailingListUrl>
+    <!-- <bugTrackerUrl></bugTrackerUrl> -->
+    <tags>kdevelop KDE development ide</tags>
+    <summary>KDevelop - A cross-platform IDE for C, C++, Python, QML/JavaScript and PHP</summary>
+    <description><![CDATA[## Our Philosophy
+Built on modern open source technology, the KDevelop IDE offers a seamless development environment to programmers that work on projects of any size. It helps you get the job done while staying out of your way.
 
-- **Accuracy.** Using time tested double entry accounting principles KMyMoney can help ensure that your finances are kept in correct order.
-- **Ease of use.** KMyMoney strives to be the easiest open source personal finance manager to use, especially for the non-technical user.
-- **Familiar Features.** KMyMoney intends to provide all important features found in the commercially-available, personal finance managers. The current release is closer than ever to that goal and more improvements are already planned or being tested.
+At the core of KDevelop lies the combination of an advanced editor with semantic code analysis, which delivers an enriched programming experience thanks to a deep understanding of your project. Additionally, KDevelop offers different workflows to assist the coder during the development process. It helps improve the code's quality, verify its functionality and then deploy it anywhere.
+
+## Free of Charge, Open Source
+KDevelop is available free of charge and is licensed under the GNU GPL.
+We are a proud member of the KDE Community.
+
+## Extensible, Cross-Platform
+KDevelop is a feature-full, plugin extensible IDE for C/C++ and many other programming languages. Supported platforms include Linux, Solaris, FreeBSD, macOS and other Unix flavors as well as Microsoft Windows. It is based on KDevelop Platform (kdevplatform), the KDE Frameworks and the Qt libraries. It is under development since 1998.
+
+## Running under Windows
+Screenshot of KDevelop 5 under Windows with the native Windows 10 style
+
+![screenshot](https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/kdevelop/screenshot.png)
 ]]></description>
-    <releaseNotes>https://kmymoney.org/news.php#itemKMyMoney483released</releaseNotes>
+    <releaseNotes>https://www.kdevelop.org/news/kdevelop-531-released</releaseNotes>
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->

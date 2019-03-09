@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Read this before creating packages: https://chocolatey.org/docs/create-packages -->
 <!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
 <!-- Do not remove this test for UTF-8: if “Ω” doesn't appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
@@ -12,7 +12,7 @@
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>5.3.1</version>
+    <version>5.3.2</version>
     <!--PackageSourceUrl - Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed-->
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/kdevelop</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
@@ -21,7 +21,7 @@
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>kdevelop</title>
+    <title>KDevelop</title>
     <authors>https://www.kdevelop.org/kdevelop-team</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.kdevelop.org</projectUrl>
@@ -36,42 +36,35 @@
     <!-- <bugTrackerUrl></bugTrackerUrl> -->
     <tags>kdevelop KDE development ide</tags>
     <summary>KDevelop - A cross-platform IDE for C, C++, Python, QML/JavaScript and PHP</summary>
-    <description><![CDATA[##Our Philosophy
+    <description><![CDATA[## Our Philosophy
 Built on modern open source technology, the KDevelop IDE offers a seamless development environment to programmers that work on projects of any size. It helps you get the job done while staying out of your way.
 
 At the core of KDevelop lies the combination of an advanced editor with semantic code analysis, which delivers an enriched programming experience thanks to a deep understanding of your project. Additionally, KDevelop offers different workflows to assist the coder during the development process. It helps improve the code's quality, verify its functionality and then deploy it anywhere.
 
-##Free of Charge, Open Source
+## Free of Charge, Open Source
 KDevelop is available free of charge and is licensed under the GNU GPL.
 We are a proud member of the KDE Community.
 
-##Extensible, Cross-Platform
+## Extensible, Cross-Platform
 KDevelop is a feature-full, plugin extensible IDE for C/C++ and many other programming languages. Supported platforms include Linux, Solaris, FreeBSD, macOS and other Unix flavors as well as Microsoft Windows. It is based on KDevelop Platform (kdevplatform), the KDE Frameworks and the Qt libraries. It is under development since 1998.
 
-##Running under Windows
+## Running under Windows
 Screenshot of KDevelop 5 under Windows with the native Windows 10 style
+
+![screenshot](https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/kdevelop/screenshot.png)
 ]]></description>
-    <releaseNotes>https://www.kdevelop.org/news/kdevelop-531-released</releaseNotes>
+    <releaseNotes>https://www.kdevelop.org/news/kdevelop-532-released</releaseNotes>
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
-    <!--<dependencies>
-      <dependency id="" version="__MINIMUM_VERSION__" />
-      <dependency id="" version="[__EXACT_VERSION__]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
-      <dependency id="" />
-      <dependency id="chocolatey-uninstall.extension" />
-    </dependencies>-->
+    <dependencies>
+      <dependency id="kdevelop.install" />
+    </dependencies>
     <!-- chocolatey-uninstall.extension - If supporting 0.9.9.x (or below) and including a chocolateyUninstall.ps1 file to uninstall an EXE/MSI, you probably want to include chocolatey-uninstall.extension as a dependency. Please verify whether you are using a helper function from that package. -->
 
     <!--<provides>NOT YET IMPLEMENTED</provides>-->
     <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
     <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
   </metadata>
-  <files>
-    <!-- this section controls what actually gets packaged into the Chocolatey package -->
-    <file src="tools\**" target="tools" />
-    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
-  </files>
+  <files></files>
 </package>

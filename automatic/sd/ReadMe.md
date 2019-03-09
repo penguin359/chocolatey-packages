@@ -1,0 +1,27 @@
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/sd/sd.png" width="48" height="48"/> [SD](https://chocolatey.org/packages/sd)
+
+== Features
+- SD is an entirely free and unrestricted HF contest logger, with more than 280 templates supplied.
+- SD sets the standard for fast, simple logging and editing in the major HF international contests and in hundreds of others worldwide. It is intended for single-op unassisted entries, on both SSB and CW. There is no easier way to get started in HF contest logging - the manual (included) has only 17 pages.
+- SD supports rig control, serial and parallel keying - and integrates with WinKey to eliminate CW timing issues caused by Windows.
+- SD offers instant "full-screen" editing of any QSO in your log. All SD's files, including the log, are standard ASCII text files and can be viewed with any text editor.
+  Following any QSO edit, no matter how complex, SD checks your complete log for consistency, and instantly updates all relevant QSOs.
+This includes setting and unsetting dupe and multiplier flags, and updating area codes (zones), and points, in all QSOs as required. The information shown in the Summary Score window is correct at all times. Just try this on any other contest logger - and see the difference for yourself.
+- SD is the only contest logger to offer these features, in real-time, as you type individual callsign characters. There's no need to touch another key or memorise Ctrl-This or Alt-That. 
+	- Dupe checking
+	- Country/Band analysis
+	- Check Partial by prefix
+	- Beam headings
+	- Advance flagging of potential multipliers
+	- Band/Mode analysis by callsign
+	- Linked database display
+	- Auto data insert (Zones and area codes)
+	- Countries Worked/Wanted by Continent
+== IOTA Contest
+- SD supports the IOTA contest directly, and includes all the custom features that make it so efficient compared to other loggers. To do well in IOTA, you must work island stations because they're worth many times more than other QSOs. For the first fourteen years of the IOTA contest, from 1993 to 2006 inclusive, SD was the leading logger. Here are some stats.
+- SD sets the standard for instantly showing your band/mode status for island stations, for highlighting multiplier slots, and for ease of data entry of island references. Other loggers can't do this! IOTA is special, it needs the extra features that only SD offers.
+- SD identifies country and call-area, as you type individual callsign letters, and give you a real-time summary of IOTA islands (if any) worked and wanted for that country or call-area - for the current band and mode. When the country is an IOTA island with a single reference, SD auto-fills the reference.
+- SD gives you a worked/wanted analysis for all bands and modes when you type an IOTA reference in the callsign field - there's no need to touch another key or remember function keys or multiple keystrokes.
+- SD is ready now for the 2019 IOTA Contest
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/sd/screenshot.png)

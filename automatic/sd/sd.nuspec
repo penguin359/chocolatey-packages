@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Read this before creating packages: https://chocolatey.org/docs/create-packages -->
+<!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <!-- This section is about this package, although id and version have ties back to the software -->
+    <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
+    <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
+    <id>sd</id>
+    <!-- version should MATCH as closely as possible with the underlying software -->
+    <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
+    <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
+    <version>21.04</version>
+    <!--PackageSourceUrl - Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed-->
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/sd</packageSourceUrl>
+    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
+    <owners>chtof</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <!-- This section is about the software itself -->
+    <title>SD</title>
+    <authors>Paul O'Kane EI5DI</authors>
+    <!-- projectUrl is required for the community feed -->
+    <projectUrl>http://www.ei5di.com/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/sd/sd.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <!-- If there is a license Url available, it is is required for the community feed -->
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>http://www.ei5di.com/</docsUrl>
+    <mailingListUrl>http://lists.contesting.com/mailman/listinfo/sd-user</mailingListUrl>
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>sd log HAM radio amateur</tags>
+    <summary>HF contest logger</summary>
+    <description><![CDATA[== Features
+- SD is an entirely free and unrestricted HF contest logger, with more than 280 templates supplied.
+- SD sets the standard for fast, simple logging and editing in the major HF international contests and in hundreds of others worldwide. It is intended for single-op unassisted entries, on both SSB and CW. There is no easier way to get started in HF contest logging - the manual (included) has only 17 pages.
+- SD supports rig control, serial and parallel keying - and integrates with WinKey to eliminate CW timing issues caused by Windows.
+- SD offers instant "full-screen" editing of any QSO in your log. All SD's files, including the log, are standard ASCII text files and can be viewed with any text editor.
+  Following any QSO edit, no matter how complex, SD checks your complete log for consistency, and instantly updates all relevant QSOs.
+This includes setting and unsetting dupe and multiplier flags, and updating area codes (zones), and points, in all QSOs as required. The information shown in the Summary Score window is correct at all times. Just try this on any other contest logger - and see the difference for yourself.
+- SD is the only contest logger to offer these features, in real-time, as you type individual callsign characters. There's no need to touch another key or memorise Ctrl-This or Alt-That. 
+	- Dupe checking
+	- Country/Band analysis
+	- Check Partial by prefix
+	- Beam headings
+	- Advance flagging of potential multipliers
+	- Band/Mode analysis by callsign
+	- Linked database display
+	- Auto data insert (Zones and area codes)
+	- Countries Worked/Wanted by Continent
+== IOTA Contest
+- SD supports the IOTA contest directly, and includes all the custom features that make it so efficient compared to other loggers. To do well in IOTA, you must work island stations because they're worth many times more than other QSOs. For the first fourteen years of the IOTA contest, from 1993 to 2006 inclusive, SD was the leading logger. Here are some stats.
+- SD sets the standard for instantly showing your band/mode status for island stations, for highlighting multiplier slots, and for ease of data entry of island references. Other loggers can't do this! IOTA is special, it needs the extra features that only SD offers.
+- SD identifies country and call-area, as you type individual callsign letters, and give you a real-time summary of IOTA islands (if any) worked and wanted for that country or call-area - for the current band and mode. When the country is an IOTA island with a single reference, SD auto-fills the reference.
+- SD gives you a worked/wanted analysis for all bands and modes when you type an IOTA reference in the callsign field - there's no need to touch another key or remember function keys or multiple keystrokes.
+- SD is ready now for the 2019 IOTA Contest
+]]></description>
+    <releaseNotes>http://www.ei5di.com/sdhist.html</releaseNotes>
+    <!-- =============================== -->      
+
+    <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>-->
+    <!-- chocolatey-uninstall.extension - If supporting 0.9.9.x (or below) and including a chocolateyUninstall.ps1 file to uninstall an EXE/MSI, you probably want to include chocolatey-uninstall.extension as a dependency. Please verify whether you are using a helper function from that package. -->
+
+    <!--<provides>NOT YET IMPLEMENTED</provides>-->
+    <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
+    <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>

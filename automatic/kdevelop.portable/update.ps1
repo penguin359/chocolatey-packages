@@ -1,12 +1,13 @@
 import-module au
 
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $releases = 'https://www.kdevelop.org/download'
 
 function global:au_GetLatest {
      $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	 $regex   = '-portable\.7z$'
 	 $url = $download_page.links | ? href -match $regex | select -First 2	 
-	 $version = $url -split '-|.exe' | select -Last 1 -Skip 3
+	 $version = $url -split '-|.exe' | select -Last 1 -Skip 2	 
 	 $version_release = $version -replace '[.]',''	 
      return @{ Version = $version ; VersionRelease = $version_release ; URL32 = $url.href[1] ; URL64 = $url.href[0] }
 }

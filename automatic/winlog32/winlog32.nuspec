@@ -41,7 +41,7 @@ This software has been in development for many years and the author (G0CUZ) prov
 
 Although Winlog32 is general purpose logging software, it has a definite slant on DX'ing on both HF and VHF with comprehensive tracking of various awards programs like DXCC, IOTA, WAZ etc. and includes all the features you would expect from good quality logging and DXing software and more.....
 
-== Features
+==Features
 
 **Winlog32 logging software for all Windows platforms.**
 
@@ -58,11 +58,11 @@ Do you want to know if Winlog32 will suit your purposes? - please read on.....
 - Simple and intuitive operation and uncluttered layout
 - Works within single container window
 - Logs
-	- versatile and secure log database system using established MS Access Jet 3.5
-	- multiple logs in each log database
-	- multiple log databases
-	- unlimited number of log entries
-	- remote logging capable
+	- Versatile and secure log database system using established MS Access Jet 3.5
+	- Multiple logs in each log database
+	- Multiple log databases
+	- Unlimited number of log entries
+	- Remote logging capable
 - Separate award tracking for each individual log database
 - Real-time log input
 - Last entered QSOs always displayed

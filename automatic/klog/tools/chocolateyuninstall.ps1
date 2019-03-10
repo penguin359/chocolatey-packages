@@ -1,4 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop';
+
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   softwareName  = 'KLog'

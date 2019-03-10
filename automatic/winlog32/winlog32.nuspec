@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Read this before creating packages: https://chocolatey.org/docs/create-packages -->
+<!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <!-- This section is about this package, although id and version have ties back to the software -->
+    <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
+    <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
+    <id>winlog32</id>
+    <!-- version should MATCH as closely as possible with the underlying software -->
+    <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
+    <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
+    <version>7.3</version>
+    <!--PackageSourceUrl - Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed-->
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/winlog32</packageSourceUrl>
+    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
+    <owners>chtof</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <!-- This section is about the software itself -->
+    <title>winlog32</title>
+    <authors>Colin Morris, G0CUZ</authors>
+    <!-- projectUrl is required for the community feed -->
+    <projectUrl>http://www.winlog32.co.uk/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/winlog32/winlog32.png</iconUrl>
+    <copyright>© Copyright Colin Morris, G0CUZ 1995-2019</copyright>
+    <!-- If there is a license Url available, it is is required for the community feed -->
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>http://help.winlog32.co.uk/</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>http://www.winlog32.co.uk/support.htm</bugTrackerUrl>
+    <tags>winlog32 log HAM radio amateur</tags>
+    <summary>Winlog32 is Amateur Radio Logging software designed and working on all Microsoft Windows platforms, e.g. 95/98/ME/NT4/2000/XP/Vista/W7/W8/W10.</summary>
+    <description><![CDATA[
+This software has been in development for many years and the author (G0CUZ) provides this software FREE to use by all Radio Amateurs and SWL's in true 'Ham Spirit', as such no warranty is implied or given as to it's suitability or reliability.
+
+Although Winlog32 is general purpose logging software, it has a definite slant on DX'ing on both HF and VHF with comprehensive tracking of various awards programs like DXCC, IOTA, WAZ etc. and includes all the features you would expect from good quality logging and DXing software and more.....
+
+== Features
+
+**Winlog32 logging software for all Windows platforms.**
+
+Do you want to know if Winlog32 will suit your purposes? - please read on.....
+
+- FREE, unrestricted use with no limitations of any kind
+- Works on all Windows platforms, 95, 98, ME, 2000, XP, Vista, W7, W8, W8.1, W10
+- Includes all regular logging, DXCluster, rig control features
+- Dedicated web-site, info, download plus well supported Forum
+- Regular updates
+- Well established, respected and has been in development for over 20 years
+- Suitable for general logging purposes, with emphasis on award chasing and HF-VHF DXing
+- Used world-wide for many years
+- Simple and intuitive operation and uncluttered layout
+- Works within single container window
+- Logs
+	- versatile and secure log database system using established MS Access Jet 3.5
+	- multiple logs in each log database
+	- multiple log databases
+	- unlimited number of log entries
+	- remote logging capable
+- Separate award tracking for each individual log database
+- Real-time log input
+- Last entered QSOs always displayed
+- Auto-date and time function
+- Auto-search and display previous QSOs
+- Automatic database updates and checks made during QSO input
+]]></description>
+    <releaseNotes>http://www.winlog32.co.uk/cnews.htm</releaseNotes>
+    <!-- =============================== -->      
+
+    <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>-->
+    <!-- chocolatey-uninstall.extension - If supporting 0.9.9.x (or below) and including a chocolateyUninstall.ps1 file to uninstall an EXE/MSI, you probably want to include chocolatey-uninstall.extension as a dependency. Please verify whether you are using a helper function from that package. -->
+
+    <!--<provides>NOT YET IMPLEMENTED</provides>-->
+    <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
+    <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>

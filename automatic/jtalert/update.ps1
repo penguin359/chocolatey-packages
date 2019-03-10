@@ -21,10 +21,10 @@ function global:au_GetLatest {
 function global:au_SearchReplace {
     @{
         "tools\chocolateyInstall.ps1" = @{
-			"(^(\s)*\`$url\s*=\s*)('.*')" = "`$1'$($Latest.URL32)'"
-            "(^(\s)*\`$checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
-			"(^(\s)*\`$url\s*=\s*)('.*_AL_.*')" = "`$1'$($Latest.URL32_win10)'"
-            "(^(\s)*\`$checksum\s*=\s*)('.*_AL_.*')" = "`$1'$($Latest.Checksum32_win10)'"			
+			"(^(\s)*`$url\s*=\s*)('.*')" = "`$1'$($Latest.URL32)'"
+            "(^(\s)*`$checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
+			"(^(\s)*`$url\s*=\s*)('.*_AL_.*')" = "`$1'$($Latest.URL32_win10)'"
+            "(^(\s)*`$checksum\s*=\s*)('.*_AL_.*')" = "`$1'$($Latest.Checksum32_win10)'"			
         }
     }
 }

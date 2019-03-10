@@ -58,7 +58,7 @@ Screenshot of KDevelop 5 under Windows with the native Windows 10 style
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
     <dependencies>
-      <dependency id="kdevelop.install" />
+      <dependency id="kdevelop.install" version="[5.3.2]" />
     </dependencies>
     <!-- chocolatey-uninstall.extension - If supporting 0.9.9.x (or below) and including a chocolateyUninstall.ps1 file to uninstall an EXE/MSI, you probably want to include chocolatey-uninstall.extension as a dependency. Please verify whether you are using a helper function from that package. -->
 

@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>0.9.7</version>
+    <version>0.9.7.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/klog</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>chtof</owners>
@@ -49,7 +49,10 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <bugTrackerUrl>https://savannah.nongnu.org/bugs/?group=klog</bugTrackerUrl>
     <tags>klog log HAM radio amateur</tags>
     <summary>KLog is a Ham radio logging program for Linux / OSX / Windows.</summary>
-    <description>KLog is the only hamradio logging program that can be executed in several operating systems!</description>
+    <description><![CDATA[KLog is the only hamradio logging program that can be executed in several operating systems!
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/klog/screenshot.png)
+]]></description>
     <releaseNotes>http://svn.savannah.gnu.org/viewvc/*checkout*/klog/trunk/Changelog</releaseNotes>
     <!-- =============================== -->      
 

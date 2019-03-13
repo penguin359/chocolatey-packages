@@ -45,5 +45,3 @@ Here is the GUI of Laragon:
 - Laragon is very easy to install & upgrade. Just download the latest version and click `Next, Next, Next...`
 - Laragon is very easy to use. For almost time, it will work out-of-the-box that you don't need to touch any configuration files.
 - Laragon is very easy to extend. You can add other services to your current stack by just extracting them to `Laragon's bin` folder.
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/laragon.install/screenshot.png)

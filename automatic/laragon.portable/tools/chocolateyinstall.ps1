@@ -6,7 +6,7 @@ $packageArgs = @{
   packageName   = $packageName
   unzipLocation = $toolsDir
   fileType      = 'zip'
-  url           = 'https://sourceforge.net/projects/laragon/files/Portable/laragon.7z'
+  url           = 'https://github.com/leokhoa/laragon/releases/download/4.0.12/laragon.7z'
   file         =  'laragon.exe'  
 
   checksum      = '221FD74474310C1E4756CD6758EB68361635CFB8DB3692173106EA54BF0B0DFC'

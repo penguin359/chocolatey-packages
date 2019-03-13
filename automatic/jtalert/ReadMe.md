@@ -2,7 +2,7 @@
 
 Provides several audio and visual alert types based on decoded Callsigns within JT65-HF and WSJT-X.
 
-== Features
+## Features
 
 - Audio and visual alerts for several alert conditions
 	- Your Callsign decoded (someone calling you)

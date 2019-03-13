@@ -1,7 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageName= 'laragon.install'
 
-
 $packageArgs = @{
   packageName   = $packageName  
   url           = 'https://sourceforge.net/projects/laragon/files/releases/4.0/laragon-full.exe'

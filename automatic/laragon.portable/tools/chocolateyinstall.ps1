@@ -19,5 +19,5 @@ Install-ChocolateyZipPackage @packageArgs
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 
 $shortcutFilePath = Join-Path $programs "Laragon.lnk"
-$targetPath = Join-Path $toolsDir "Laragon.exe"
+$targetPath = Join-Path $toolsDir "laragon.exe"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath

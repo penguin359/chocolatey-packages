@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Read this before creating packages: https://chocolatey.org/docs/create-packages -->
+<!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <!-- This section is about this package, although id and version have ties back to the software -->
+    <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
+    <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
+    <id>laragon.portable</id>
+    <!-- version should MATCH as closely as possible with the underlying software -->
+    <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
+    <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
+    <version>4.0</version>
+    <!--PackageSourceUrl - Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed-->
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/laragon.portable</packageSourceUrl>
+    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
+    <owners>chtof</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <!-- This section is about the software itself -->
+    <title>laragon.portable</title>
+    <authors>Leo Khoa</authors>
+    <!-- projectUrl is required for the community feed -->
+    <projectUrl>https://laragon.org</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/laragon.portable/laragon.portable.png</iconUrl>
+    <copyright>Copyright Â© 2019 leokhoa</copyright>
+    <!-- If there is a license Url available, it is is required for the community feed -->
+    <licenseUrl>https://raw.githubusercontent.com/leokhoa/docs.laragon.org/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/leokhoa/laragon/</projectSourceUrl>
+    <docsUrl>https://laragon.org/docs/</docsUrl>
+    <!-- mailingListUrl></mailingListUrl -->
+    <bugTrackerUrl>https://forum.laragon.org/</bugTrackerUrl>
+    <tags>laragon.portable portable SPACE_SEPARATED</tags>
+    <summary>Modern and Powerful - Easy Operation - Productive. Portable. Fast. Effective. Awesome!</summary>
+    <description><![CDATA[
+# Laragon - The Dev Environment for Web Artisans
+
+## What is Laragon?
+
+Laragon is a portable, isolated, fast & powerful universal development environment for PHP, Node.js, Python, Java, Go, Ruby. It is fast, lightweight, easy-to-use and easy-to-extend.
+
+Laragon is great for building and managing modern web applications. It is focused on performance  - designed around stability, simplicity, flexibility and freedom.
+
+Laragon is very lightweight and will stay as lean as possible. The core binary itself is less than 2MB and uses less than 4MB RAM when running.
+
+Laragon doesn't use Windows services. It has its own `service orchestration` which manages services asynchronously and non-blocking so you'll find things run fast & smoothly with Laragon.
+
+Enjoy!
+
+## Features
+
+- **Pretty URLs**
+  Use `app.test` instead of `localhost/app`.
+- **Portable**
+  You can move Laragon folder around (to another disks, to another laptops, sync to Cloud,...) without any worries. 
+- **Isolated**
+  Laragon has an isolated environment with your OS - it will keep your system clean.
+- **Easy Operation**
+  Unlike others which pre-config for you, Laragon **`auto-configs`** all the complicated things. That why you can add another versions of PHP, Python, Ruby, Java, Go, Apache, Nginx, MySQL, PostgreSQL, MongoDB,... effortlessly.
+- **Modern & Powerful**
+  Laragon comes with modern architect which is suitable to build modern web apps. You can work with both Apache & Nginx as they are fully-managed.
+  Also, Laragon makes things a lot easier:
+  - Wanna have a Wordpress CMS? Just 1 click.
+  - Wanna show your local project to customers? Just 1 click.  
+  - Wanna enable/disable a PHP extension? Just 1 click.
+
+
+
+*Laragon is trully isolated & portable. However, you may need to use the installer as it will detect and install missing run-time components that are required to run C++ applications built using Visual Studio such as `PHP, Apache` for you.*
+
+
+## How fast?
+Laragon starts instantly. You can set Laragon autorun when Windows starts. When running, Laragon uses just a little amount of your RAM.
+Here is the GUI of Laragon:
+![0_1513173700919_01-dashboard.png](https://i.imgur.com/f8rBqSU.png) 
+
+## How easy?
+- Laragon is very easy to install & upgrade. Just download the latest version and click `Next, Next, Next...`
+- Laragon is very easy to use. For almost time, it will work out-of-the-box that you don't need to touch any configuration files.
+- Laragon is very easy to extend. You can add other services to your current stack by just extracting them to `Laragon's bin` folder.
+]]></description>
+    <releaseNotes>https://github.com/leokhoa/laragon/releases</releaseNotes>
+    <!-- =============================== -->      
+
+    <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>-->
+    <!-- chocolatey-uninstall.extension - If supporting 0.9.9.x (or below) and including a chocolateyUninstall.ps1 file to uninstall an EXE/MSI, you probably want to include chocolatey-uninstall.extension as a dependency. Please verify whether you are using a helper function from that package. -->
+
+    <!--<provides>NOT YET IMPLEMENTED</provides>-->
+    <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
+    <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>

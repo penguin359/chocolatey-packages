@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop';
-$packageName= 'laragon.install'
+$packageName = 'laragon.install'
 
 $packageArgs = @{
   packageName   = $packageName  

@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/laragon.install/laragon.install.png" width="48" height="48"/> [Laragon (Install)](https://chocolatey.org/packages/laragon.install)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/laragon/laragon.png" width="48" height="48"/> [Laragon (Install)](https://chocolatey.org/packages/laragon)
 
 # Laragon - The Dev Environment for Web Artisans
 

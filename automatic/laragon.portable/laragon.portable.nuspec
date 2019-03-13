@@ -21,7 +21,7 @@
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>laragon.portable</title>
+    <title>Laragon (Portable)</title>
     <authors>Leo Khoa</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://laragon.org</projectUrl>
@@ -34,7 +34,7 @@
     <docsUrl>https://laragon.org/docs/</docsUrl>
     <!-- mailingListUrl></mailingListUrl -->
     <bugTrackerUrl>https://forum.laragon.org/</bugTrackerUrl>
-    <tags>laragon.portable portable SPACE_SEPARATED</tags>
+    <tags>laragon.portable wamp microservices nodejs javascript development environment</tags>
     <summary>Modern and Powerful - Easy Operation - Productive. Portable. Fast. Effective. Awesome!</summary>
     <description><![CDATA[
 # Laragon - The Dev Environment for Web Artisans

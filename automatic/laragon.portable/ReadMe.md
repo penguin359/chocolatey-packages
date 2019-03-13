@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/laragon.portable/laragon.portable.png" width="48" height="48"/> [Laragon (Portable)](https://chocolatey.org/packages/laragon.portable)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/laragon.portable/laragon.png" width="48" height="48"/> [Laragon (Portable)](https://chocolatey.org/packages/laragon.portable)
 
 # Laragon - The Dev Environment for Web Artisans
 

@@ -25,8 +25,8 @@
     <authors>Leo Khoa</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://laragon.org</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/laragon.install/laragon.install.png</iconUrl>
-    <copyright>Copyright Â© 2019 leokhoa</copyright>
+    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/laragon.install/laragon.png</iconUrl>
+    <copyright>Copyright © 2019 leokhoa</copyright>
     <!-- If there is a license Url available, it is is required for the community feed -->
     <licenseUrl>https://raw.githubusercontent.com/leokhoa/docs.laragon.org/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

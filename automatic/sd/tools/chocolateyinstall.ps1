@@ -1,10 +1,8 @@
-﻿$packageName= 'sd'
-
-$packageArgs = @{
-  packageName   = $packageName  
+﻿$packageArgs = @{
+  packageName   = 'sd'  
   url           = 'http://www.ei5di.com/sd/sdsetup.exe'
   
-  checksum      = '72E2CAEDA83477A3E996F17A23B73B6241662EB7A3EBCA9E9414A3F025427A80'
+  checksum      = '45DB0D4FB43CC1ACCB494A3B1B2B7A7CA2F0CF5378BCE9BA84C6434BD732EB0D'
   checksumType  = 'sha256'
   
   silentArgs	= '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'

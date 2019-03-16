@@ -4,7 +4,7 @@ $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   unzipLocation  = "$( Split-Path -Parent $MyInvocation.MyCommand.Definition )"
   fileType       = 'exe'
-  URL            = 'http://pspad.poradna.net/release/pspad501_setup.exe'
+  url            = 'http://pspad.poradna.net/release/pspad501_setup.exe'
   checksum       = 'DBBD1B7044D925744FE9A873C181CAA2F6F931E02BB316C1A9D08659110C7BDD'
   checksumType   = 'sha256'
 

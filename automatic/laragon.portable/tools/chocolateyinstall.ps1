@@ -9,7 +9,7 @@ $packageArgs = @{
   url           = 'https://github.com/leokhoa/laragon/releases/download/4.0.12/laragon.7z'
   file         =  'laragon.exe'  
 
-  checksum      = '221FD74474310C1E4756CD6758EB68361635CFB8DB3692173106EA54BF0B0DFC'
+  checksum      = '221fd74474310c1e4756cd6758eb68361635cfb8db3692173106ea54bf0b0dfc'
   checksumType  = 'sha256'  
 }
 

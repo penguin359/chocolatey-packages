@@ -5,7 +5,7 @@ $packageArgs = @{
   packageName   = $packageName  
   url           = 'https://github.com/leokhoa/laragon/releases/download/4.0.12/laragon-full.exe'
   
-  checksum      = 'D8718426A5633BD279BB1C7F18E1CC80D63F840D7B38C04ED47F41764A054403'
+  checksum      = 'd8718426a5633bd279bb1c7f18e1cc80d63f840d7b38c04ed47f41764a054403'
   checksumType  = 'sha256'
   
   silentArgs	= '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /components="'

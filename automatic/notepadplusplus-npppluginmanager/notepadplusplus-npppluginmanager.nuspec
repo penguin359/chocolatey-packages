@@ -7,7 +7,7 @@
     <authors>Dave Brotherstone</authors>
     <owners>chtof</owners>
     <projectUrl>https://bruderste.in/npp/pm</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/master/notepadplusplus-nppPluginManager/notepadplusplus-nppPluginManager.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/master/notepadplusplus-npppluginmanager/notepadplusplus-npppluginmanager.png</iconUrl>
 	<licenseUrl>https://raw.githubusercontent.com/bruderstein/nppPluginManager/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<summary>npp Plugin Manager is plugin which allows you to install, update and remove plugins from Notepad++</summary>

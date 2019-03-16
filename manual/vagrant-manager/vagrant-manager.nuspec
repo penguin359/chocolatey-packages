@@ -6,6 +6,7 @@
     <id>vagrant-manager</id>
     <title>Vagrant Manager</title>
     <version>1.0.0.6</version>
+	<packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/vagrant-manager</packageSourceUrl>
     <authors>Lanayo Technology</authors>
     <owners>chtof</owners>
     <summary>Manage your vagrant machines in one place with Vagrant Manager for Windows</summary>
@@ -15,7 +16,7 @@
     <copyright>Copyright © 2019 Lanayo Technologies</copyright>
     <licenseUrl>https://github.com/lanayotech/vagrant-manager-windows/blob/develop/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vagrant-manager/vagrant.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/vagrant-manager/vagrant.png</iconUrl>
     <dependencies>
       <dependency id="vagrant" />
     </dependencies>

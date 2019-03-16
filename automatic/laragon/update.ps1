@@ -1,8 +1,14 @@
-. $PSScriptRoot\..\laragon.install\update.ps1
+import-module au
 
-function global:au_BeforeUpdate { 
-    cp  $PSScriptRoot\..\laragon.install\README.md $PSScriptRoot\README.md
+$releases = 'https://github.com/leokhoa/laragon/releases/latest'
+
+function global:au_GetLatest {
+     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+	 $regex   = '/releases/download/(?<Version>.*?)/laragon-full.exe'
+	 $url = $download_page.links | ? href -match $regex
+     return @{ Version = $matches.Version }
 }
+
 function global:au_SearchReplace {
    @{
         "$($Latest.PackageName).nuspec" = @{

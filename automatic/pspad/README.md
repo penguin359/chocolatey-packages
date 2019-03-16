@@ -1,0 +1,46 @@
+﻿# <img src="https://cdn.rawgit.com/chtof/chocolatey-packages/master/pspad/pspad.png" width="48" height="48"/> [PSPad](https://chocolatey.org/packages/pspad)
+
+[PSPad](http://www.pspad.com/en) is a freeware programmer's editor for Microsoft Windows operating systems, 
+useful for people who:
+
+- work with various programming environments
+- like highlighted syntax in their source code
+- need a small tool with simple controls and the capabilities of a mighty code editor
+- are looking for a tool that handles plain text
+- want to save time - PSPad offers rich text formating functions
+- need a tool that offers user extension capabilities
+- want to save money and still have the functionality of professional products because PSPad is free for commercial and government purposes too
+
+## PSPAD features
+
+- work with projects
+- work with several documents at the same time (MDI)
+- save desktop sessions to later reopen all session files
+- FTP client - edit files directly from the web
+- macro recorder to record, save and load macros
+- search and replace in files
+- text difference with color-coded differences highlighted
+- templates (HTML tags, scripts, code templates...)
+- installation contains templates for HTML, PHP, Pascal, JScript, VBScript, MySQL, MS-Dos, Perl,...
+- syntax highlighting according to file type
+- user-defined highlighters for exotic environments
+- auto correction
+- intelligent internal HTML preview using IE and Mozilla
+- full HEX editor
+- call different external programs for different environments
+- external compiler with output catcher, log window and log parser for an "IDE" effect in every environment
+- color syntax highlight printing and print preview
+- integrated TiDy library for formatting and checking HTML code, conversion to CSS, XML, XHTML
+- integrated free version of the top CSS editor TopStyle Lite
+- export with highlight to RTF, HTML, TeX format to file or clipboard
+- column block select, bookmarks, line numbers, ...
+- reformat and compress HTML code, tag character case change
+- line sorting with ability to sort on defined columns and drop duplicates
+- ASCII chart with HTML entities
+- Code explorer for Pascal, C/C++, INI, HTML, XML, PHP and more in development
+- spell checker
+- internal web browser with APACHE support
+- matching bracket highlighting
+- ...(many more features, too numerous to list)
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pspad/screenshot.png)

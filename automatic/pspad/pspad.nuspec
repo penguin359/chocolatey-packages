@@ -8,10 +8,9 @@
     <owners>chtof</owners>
     <licenseUrl>http://www.pspad.com/en/licence.php</licenseUrl>
     <projectUrl>http://www.pspad.com/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/pspad/pspad.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/master/automatic/pspad/pspad.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description><![CDATA[[PSPad](http://www.pspad.com/en) is a freeware programmer's editor for Microsoft Windows operating systems, 
-useful for people who:
+    <description><![CDATA[[PSPad](http://www.pspad.com/en) is a freeware programmer's editor for Microsoft Windows operating systems, useful for people who:
 
 - work with various programming environments
 - like highlighted syntax in their source code

@@ -1,11 +1,13 @@
 import-module au
 
-$releases = 'http://www.pspad.com/fr/download.php'
+$releases = 'http://www.pspad.com/en/download.php'
 
 function global:au_GetLatest {
-     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	 $regex   = 'pspad(?<Version>\d+)_setup.exe'
-	 $url = $download_page.links | ? href -match $regex	 
+     $download_page = Invoke-WebRequest -Uri $releases
+	 $regex   = 'pspad(\d+)_setup.exe'
+	 $regex_version = 'PSPad - current version (?<Version>[\d\.]+) \('
+	 $url = $download_page.links | ? href -match $regex
+	 $download_page -match $regex_version
      return @{ Version = $matches.Version ; URL32 = $url.href }
 }
 

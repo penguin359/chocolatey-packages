@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/z-cron/z-cron.png" width="48" height="48"/> [Z-Cron](https://chocolatey.org/packages/z-cron)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/zcron/zcron.png" width="48" height="48"/> [Z-Cron](https://chocolatey.org/packages/zcron)
 
 Automate your tasks with Z-Cron â€“ The Task and Backup Scheduler
 With Z-Cron you can plan the execution of commands, programs or scripts, at particular times, so that recurring tasks on your PC are run automatically on schedule. Z-Cron is a central coordinating point for the scheduling or automation of software. Z-Cron can also be installed a system service. A system service is a program that starts automatically when Windows was booted, and runs in the background until Windows is shut down. With the Z-Cron scheduler you can have programs of all kinds started automatically by the system even if no user is logged in â€“ for example nightly data backups with Z-DBackup.
@@ -31,4 +31,4 @@ You can use Z-Cron scheduler in many different ways, for example:
 - Defragmentation and Scandisk
 - Virus scans
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/z-cron/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/zcron/screenshot.png)

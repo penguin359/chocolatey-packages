@@ -13,4 +13,4 @@ Install-ChocolateyZipPackage @packageArgs
 
 # Install in startup menu
 $commonStartupDir = [environment]::GetFolderPath([environment+specialfolder]::CommonStartup)
-New-Item -ItemType SymbolicLink -Path $commonStartupDir -Name "aw-qt.lnk" -Value "$toolsDir\activitywatch\aw-qt.exe"
+cmd /c mklink "$commonStartupDir\aw-qt.lnk" "$toolsDir\activitywatch\aw-qt.exe"

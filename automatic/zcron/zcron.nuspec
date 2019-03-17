@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Read this before creating packages: https://chocolatey.org/docs/create-packages -->
+<!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <!-- This section is about this package, although id and version have ties back to the software -->
+    <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
+    <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
+    <id>zcron</id>
+    <!-- version should MATCH as closely as possible with the underlying software -->
+    <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
+    <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
+    <version>5.6.04</version>
+    <!--PackageSourceUrl - Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed-->
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/z-cron</packageSourceUrl>
+    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
+    <owners>chtof</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <!-- This section is about the software itself -->
+    <title>Z-cron</title>
+    <authors>Andreas Baumann</authors>
+    <!-- projectUrl is required for the community feed -->
+    <projectUrl>https://www.z-cron.com</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/zcron/zcron.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <!-- If there is a license Url available, it is is required for the community feed -->
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>z-cron portable</tags>
+    <summary>Cron-like scheduler for Windows</summary>
+    <description><![CDATA[
+Automate your tasks with Z-Cron â€“ The Task and Backup Scheduler
+With Z-Cron you can plan the execution of commands, programs or scripts, at particular times, so that recurring tasks on your PC are run automatically on schedule. Z-Cron is a central coordinating point for the scheduling or automation of software. Z-Cron can also be installed a system service. A system service is a program that starts automatically when Windows was booted, and runs in the background until Windows is shut down. With the Z-Cron scheduler you can have programs of all kinds started automatically by the system even if no user is logged in â€“ for example nightly data backups with Z-DBackup.
+
+Example tasks that can be scheduled with Z-Cron:
+- Starting and stopping of applications (also with parameters).
+- Calling or saving of Websites.
+- Loading documents.
+- Starting, stopping and monitoring system services (professional version).
+- Copying, moving and deleting files and directories.
+- Cleanup of directories.
+- Archiving and compressing files and directories.
+- Switching computers in a network on or off.
+- Automated switching of electrical devices, e.g. with Z-USBswitch.
+- Establishing and disconnecting internet/VPN connections (Modem/ISDN).
+- Putting computers to standby mode and waking them up automatically.
+
+These tasks can be started automatically at the following points in time:
+- Daily (every x days).
+- Weekly (every x weeks at a weekday you can choose).
+- Monthly (at the x calendar day or the x weekday of a month).
+- Once.
+- After the system startup.
+- In regular intervals (e.g. every 5 minutes, every hour, etc.)
+
+You can use Z-Cron scheduler in many different ways, for example:
+- Regular data backup (for example with Z-DataDVD or Z-DATdump).
+- Automatic switching of electrical equipment or devices (for example with Z-USBswitch/Z-ParSwitch).
+- Automatic FTP data transfer (for example with Z-FTPcopyII).
+- Defragmentation and Scandisk
+- Virus scans
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <!-- =============================== -->      
+
+    <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>-->
+    <!-- chocolatey-uninstall.extension - If supporting 0.9.9.x (or below) and including a chocolateyUninstall.ps1 file to uninstall an EXE/MSI, you probably want to include chocolatey-uninstall.extension as a dependency. Please verify whether you are using a helper function from that package. -->
+
+    <!--<provides>NOT YET IMPLEMENTED</provides>-->
+    <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
+    <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>

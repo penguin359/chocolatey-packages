@@ -6,7 +6,7 @@
     <version>0.7.1</version>    
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/activitywatch</packageSourceUrl>
     <owners>chtof</owners>    
-    <title>activitywatch</title>
+    <title>ActivityWatch</title>
     <authors>ErikBjare</authors>    
     <projectUrl>https://activitywatch.net/</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/activitywatch/activitywatch.png</iconUrl>    

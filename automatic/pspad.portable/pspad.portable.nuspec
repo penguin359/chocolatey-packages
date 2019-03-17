@@ -5,8 +5,7 @@
     <version>5.0.1</version>
     <title>PSPad (Portable)</title>
     <authors>Jan Fiala</authors>
-    <owners>chtof</owners>
-    <licenseUrl>http://www.pspad.com/en/licence.php</licenseUrl>
+    <owners>chtof</owners>    
     <projectUrl>http://www.pspad.com/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/master/pspad.portable/pspad.png</iconUrl>
 	<licenseUrl>http://www.pspad.com/en/licence.php</licenseUrl>

@@ -19,7 +19,17 @@
     <tags>flrig fldigi digital modes HAM radio amateur</tags>
     <summary>Rig control program, cooperates with fldigi.</summary>
     <description><![CDATA[FLRIG is a transceiver control program designed to be used either stand alone or as an adjunct to FLDIGI. Thesupported  transceivers  all  have  some  degree  of  CAT.  The  FLRIG  user  interface  changes  to  accommodate  thedegree of CAT support available for the transceiver in use.
-	![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/flrig/screenshot.png)
+	
+### Package Specific
+#### Package Parameters
+The following package parameter can be set:
+ * `/DIR:` - Where to install the program - defaults to "`$env:programfiles(x86)\flrig-[VERSION]`"
+
+To pass parameters, use `--params "''"` (e.g. `choco install flrig [other options] --params="'/ITEM:value /ITEM2:value2 /FLAG_BOOLEAN'"`).
+** Exemple: `choco install flrig --params="'/DIR:c:\flrig'"` **
+To have choco remember parameters on upgrade, be sure to set `choco feature enable -n=useRememberedArgumentsForUpgrades`.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/flrig/screenshot.png)
 ]]></description>
     <releaseNotes>http://www.w1hkj.com/files/flrig/flrig.txt</releaseNotes>
   </metadata>

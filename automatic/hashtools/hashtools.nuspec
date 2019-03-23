@@ -27,6 +27,8 @@ Windows IntegrationHashTools can also add itself to the Windows Explorer context
 
 ## Completely Free
 Completely FreeHashTools is completely free, now and forever!
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/hashtools/screenshot.png)
 ]]></description>
     <releaseNotes>https://www.binaryfortress.com/HashTools/ChangeLog/</releaseNotes>
 	<dependencies>

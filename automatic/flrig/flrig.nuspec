@@ -23,11 +23,13 @@
 ### Package Specific
 #### Package Parameters
 The following package parameter can be set:
- * `/DIR:` - Where to install the program - defaults to "`$env:programfiles(x86)\flrig-[VERSION]`"
+ * `/DIR:` Where to install the program, defaults to "`C:\Program Files(x86)\flrig-[VERSION]`"
 
-To pass parameters, use `--params "''"` (e.g. `choco install flrig [other options] --params="'/ITEM:value /ITEM2:value2 /FLAG_BOOLEAN'"`).
-** Exemple: `choco install flrig --params="'/DIR:c:\flrig'"` **
-To have choco remember parameters on upgrade, be sure to set `choco feature enable -n=useRememberedArgumentsForUpgrades`.
+To pass parameters, use `--params "''"`
+(e.g  `choco install flrig --params="'/DIR:c:"\flrig" /ITEM2:value2 /FLAG_BOOLEAN'"`).
+
+To have choco remember parameters on upgrade, be sure to set:
+`choco feature enable -n=useRememberedArgumentsForUpgrades`
 ]]></description>
     <releaseNotes>http://www.w1hkj.com/files/flrig/flrig.txt</releaseNotes>
   </metadata>

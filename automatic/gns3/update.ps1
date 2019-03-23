@@ -4,8 +4,6 @@ $releases = "https://github.com/" + $github_repository + "/releases/latest"
 
 function global:au_GetLatest {	
      $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	 https://github.com/GNS3/gns3-gui/releases/download/v2.1.15/GNS3-2.1.15-all-in-one.exe
-	 
 	 $regex   = $github_repository + '/releases/download/.*/GNS3-(?<Version>[\d\.]*)[\w-]*.exe'
 	 $url = $download_page.links | ? href -match $regex
      return @{ Version = $version ; URL32 = "https://github.com" + $url.href }

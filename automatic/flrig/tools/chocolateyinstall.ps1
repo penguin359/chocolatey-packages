@@ -5,7 +5,6 @@ $pp = Get-PackageParameters
 if ($pp['DIR']) {	
   $silentArgs += " /D=`"$($pp['DIR'])`""
 }
-Write-Debug "This would be the Chocolatey Silent Arguments: $silentArgs"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName

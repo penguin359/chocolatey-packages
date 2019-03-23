@@ -1,4 +1,11 @@
 ﻿$ErrorActionPreference = 'Stop';
+$silentArgs = '/S'
+
+$pp = Get-PackageParameters
+if ($pp['DIR']) {	
+  $silentArgs += " /D=`"$($pp['DIR'])`""
+}
+Write-Debug "This would be the Chocolatey Silent Arguments: $silentArgs"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -8,7 +15,7 @@ $packageArgs = @{
   checksum      = '539DEDF22F4C6F28D9ADA852797ABE73747899326FBCDC08A3B714C45BFFFAAF'
   checksumType  = 'sha256'
   
-  silentArgs   = '/S'
+  silentArgs   = $silentArgs
 }
 
 Install-ChocolateyPackage @packageArgs

@@ -2,7 +2,7 @@
 $silentArgs = '/S'
 
 $pp = Get-PackageParameters
-if ($pp['DIR']) {	
+if ($pp['DIR']){	
   $silentArgs += " /D=`"$($pp['DIR'])`""
 }
 

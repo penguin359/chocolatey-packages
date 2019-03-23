@@ -7,16 +7,15 @@
 	<packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/pspad</packageSourceUrl>
 	<owners>chtof</owners>
     <title>PSPad</title>
-    <authors>Jan Fiala</authors>
-    <licenseUrl>http://www.pspad.com/en/licence.php</licenseUrl>
+    <authors>Jan Fiala</authors>    
     <projectUrl>http://www.pspad.com/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pspad/pspad.png</iconUrl>
-	<copyright>Copyright (C) 2001-2015 Jan Fiala</copyright>	
+	<copyright>Copyright (C) 2001-2015 Jan Fiala</copyright>
 	<licenseUrl>http://www.pspad.com/en/licence.php</licenseUrl>
 	<docsUrl>http://www.pspad.com/en/helpfiles.htm</docsUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<tags>pspad admin text editor foss windows freeware development</tags>
-	<summary>PSPad is a freeware programmer's editor for Microsoft Windows operating systems.</summary>    
+	<summary>PSPad is a freeware programmer's editor for Microsoft Windows operating systems.</summary>
 	<description><![CDATA[[PSPad](http://www.pspad.com/en) is a freeware programmer's editor for Microsoft Windows operating systems, useful for people who:
 
 - work with various programming environments
@@ -60,11 +59,10 @@
 - ...(many more features, too numerous to list)
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pspad/screenshot.png)
-
-]]></description>    
+]]></description>
 	<releaseNotes>http://www.pspad.com/en/whatsnew.htm</releaseNotes>
   </metadata>
-  <files>    
-    <file src="tools\**" target="tools" />    
+  <files>
+    <file src="tools\**" target="tools" />
   </files>
 </package>

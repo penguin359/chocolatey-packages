@@ -1,6 +1,5 @@
 $ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -14,7 +13,7 @@ $packageArgs = @{
 
 Get-ChocolateyWebFile @packageArgs
 
-#Install start menu shortcut
+# Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = Join-Path $programs "UNetbootin.lnk"
 $targetPath = Join-Path $toolsDir "unetbootin.exe"

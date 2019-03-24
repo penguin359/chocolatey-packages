@@ -13,7 +13,7 @@ $packageArgs = @{
 }
 
 Install-ChocolateyZipPackage @packageArgs
-    
+
 # Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = Join-Path $programs "Botpress.lnk"

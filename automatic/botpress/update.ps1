@@ -1,7 +1,6 @@
 ﻿import-module au
 $releases = "https://raw.githubusercontent.com/botpress/botpress/master/CHANGELOG.md"
 $releases_download = "https://s3.amazonaws.com/botpress-binaries"
-https://s3.amazonaws.com/botpress-binaries/botpress-v11_6_3-win-x64.zip
 
 function global:au_GetLatest {	
 	$download_page = Invoke-WebRequest -Uri $releases

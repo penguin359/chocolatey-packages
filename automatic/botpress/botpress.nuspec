@@ -20,30 +20,30 @@
     <tags>botpress chat bot</tags>
     <summary>Botpress is an on-prem, open-source bot building platform for businesses</summary>
     <description><![CDATA[
-Features
+## Features
 
 Use the most sophisticated and flexible conversational flow management system on the market.
 
-=== NLU
+### NLU
 
 Natural Language Understanding.
 Deeply understand the meaning and intents behind every messages.
 
-=== Analytics
+### Analytics
 
 See how your bot is being used.
 Quickly and progressively iterate to make your bot smarter every day.
 
-=== Multi-channel
+### Multi-channel
 
 Instantly deliver your bot on all the major messaging channels. We support Messenger, Skype, SMS, Webchat and many more.
 
-=== Authoring UI
+### Authoring UI
 
 Ships with a graphical interface.
 Non-developers can manage the bot post-deployment.
 
-=== SDK & APIs
+### SDK & APIs
 
 Infinitely extensible and customizable.
 We make it really easy to integrate with 3rd-party applications and APIs.

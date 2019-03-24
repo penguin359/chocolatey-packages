@@ -1,5 +1,4 @@
 ﻿$ErrorActionPreference = 'Stop';
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 # Install botpress to its own directory, not in the chocolatey lib folder
 # If requesting per user install use $env:APPDATA else $env:ProgramData
 $botpressDir = Join-Path $env:ProgramData $env:ChocolateyPackageName
@@ -15,9 +14,8 @@ $packageArgs = @{
 
 Install-ChocolateyZipPackage @packageArgs
     
-#Install start menu shortcuts
+# Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
-
 $shortcutFilePath = Join-Path $programs "Botpress.lnk"
 $targetPath = Join-Path $botpressDir "bp.exe"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath

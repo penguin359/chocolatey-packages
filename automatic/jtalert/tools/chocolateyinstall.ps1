@@ -2,13 +2,13 @@
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 if ( [environment]::OSVersion.Version.Major -ge 10 )  {
-    $url_win10 = 'https://dnl.hamapps.com/JTAlert/HamApps_JTAlert_AL_2.13.1_Setup.exe'
-	$checksum_win10 = '045AA74C38AD0F5894CCDACBC57AF3E78F2FE10B0F80E712FDF46CC8126C72FD'
+    $url_win10 = 'https://dnl.hamapps.com/JTAlert/HamApps_JTAlert_AL_2.13.2_Setup.exe'
+	$checksum_win10 = ''
 	$url = $url_win10
 	$checksum = $checksum_win10
   } else {
-    $url = 'https://dnl.hamapps.com/JTAlert/HamApps_JTAlert_2.13.1_Setup.exe'
-	$checksum = '398ff08a0786cc0ed6884260cc1b4bf08b499cc8a5c5c14a9ab5aca6a0fcbf96'
+    $url = 'https://dnl.hamapps.com/JTAlert/HamApps_JTAlert_2.13.2_Setup.exe'
+	$checksum = '88e4d491d5145307c2c036502b1bac8c11aac6895ad7ba2b28e6eeb497a22748'
 }
   
 $packageArgs = @{

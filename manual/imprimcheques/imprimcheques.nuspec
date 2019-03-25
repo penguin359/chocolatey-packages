@@ -28,6 +28,7 @@ See http://lalimacefolle.com/imprimcheques.php for all features (in french).
     <releaseNotes>http://lalimacefolle.com/Historique.TXT</releaseNotes>    
   </metadata>
   <files>
-    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />    
   </files>
 </package>

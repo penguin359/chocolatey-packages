@@ -1,9 +1,9 @@
 #NoEnv
 #NoTrayIcon
 ;#Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetTitleMatchMode, 3  ; A windows's title must start with the specified WinTitle to be a match.
-SetControlDelay -1
+;SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetTitleMatchMode, 1  ; A windows's title must start with the specified WinTitle to be a match.
+SetControlDelay 0
 
 ; GNS3 2.1.15 Uninstall
 winTitle1 = GNS3 2.1.15 Uninstall

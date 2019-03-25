@@ -11,9 +11,6 @@ $packageArgs = @{
   #silentArgs	= "_?=$Env:PROGRAMFILES\GNS3"
 }
 
-# silent install requires AutoHotKey
-$ahkFile = Join-Path $toolsDir 'chocolateyinstall.ahk'
-$ahkEXE = Get-ChildItem "$env:ChocolateyInstall\lib\autohotkey.portable" -Recurse -filter autohotkey.exe
-$ahkProc = Start-Process -FilePath $ahkEXE.FullName -ArgumentList "$ahkFile" -PassThru
+Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyinstall.ahk`""
 
 Install-ChocolateyPackage @packageArgs

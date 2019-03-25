@@ -8,7 +8,8 @@ $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   softwareName  = 'GNS3'
-  fileType      = 'exe'  
+  fileType      = 'exe'
+  silentArgs	= '/S'
 }
 
 $uninstalled = $false

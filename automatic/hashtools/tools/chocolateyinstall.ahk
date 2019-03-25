@@ -8,4 +8,4 @@ SetControlDelay -1
 winTitle1 = HashTools
 WinWait, %winTitle1%, , 60
 WinActivate
-ControlClick, WindowsForms10.BUTTON.app.0.3598b65_r9_ad14, %winTitle1% ahk_class WindowsForms10.Window.8.app.0.3598b65_r9_ad1
+ControlClick, &OK, %winTitle1%

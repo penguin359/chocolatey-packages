@@ -20,7 +20,7 @@
     <tags>imprimcheques print french bank check pay cheque</tags>
     <summary>Printing on french bank cheques.</summary>
     <description><![CDATA[
-ImprimCheques allows to print on french bank cheques: amount, recipient, location and date. It supports almost of french bank cheques formats.
+ImprimChèques allows to print on french bank cheques: amount, recipient, location and date. It supports almost of french bank cheques formats.
 See http://lalimacefolle.com/imprimcheques.php for all features (in french).
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/imprimcheques/screenshot.png)

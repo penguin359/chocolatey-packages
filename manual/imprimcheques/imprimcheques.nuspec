@@ -4,12 +4,12 @@
   <metadata>    
     <id>imprimcheques</id>    
     <version>6.0.0</version>    
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/imprimcheques</packageSourceUrl>    
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/imprimcheques</packageSourceUrl>    
     <owners>chtof</owners>    
     <title>ImprimChèques</title>
     <authors>Auteurs</authors>    
     <projectUrl>http://lalimacefolle.com/imprimcheques.php</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/imprimcheques/imprimcheques.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/manual/imprimcheques/imprimcheques.png</iconUrl>
     <copyright>Copyright © 2002-2019 Lalimacefolle.com - Tous droits réservés</copyright>    
     <licenseUrl>http://lalimacefolle.com/imprimcheques.php</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -23,7 +23,7 @@
 ImprimCheques allows to print on french bank cheques: amount, recipient, location and date. It supports almost of french bank cheques formats.
 See http://lalimacefolle.com/imprimcheques.php for all features (in french).
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/imprimcheques/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/imprimcheques/screenshot.png)
 ]]></description>
     <releaseNotes>http://lalimacefolle.com/Historique.TXT</releaseNotes>    
   </metadata>

@@ -40,4 +40,7 @@ Features
       <dependency id="notepadplusplus.install" version="7.0" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

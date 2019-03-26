@@ -25,7 +25,10 @@ See http://lalimacefolle.com/imprimcheques.php for all features (in french).
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/imprimcheques/screenshot.png)
 ]]></description>
-    <releaseNotes>http://lalimacefolle.com/Historique.TXT</releaseNotes>    
+    <releaseNotes>http://lalimacefolle.com/Historique.TXT</releaseNotes>
+    <dependencies>      
+      <dependency id="autohotkey.install" version="1.1.30" />
+    </dependencies>
   </metadata>
   <files>
     <file src="legal\**" target="legal" />

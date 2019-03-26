@@ -17,7 +17,7 @@ $packageArgs = @{
 }
 
 # ImprimCheques needs "Print Spooler" enabled and running to finalize installation
-if ((Get-Service 'Print Spooler').StartType -eq "Disabled") {
+if ((Get-WmiObject -Query "Select StartMode From Win32_Service Where Name='Spooler'").StartMode -eq "Disabled") {
     Set-Service -Name 'Spooler' -StartupType Automatic
 }
 if ((Get-Service 'Print Spooler').Status -ne "Running") {

@@ -61,4 +61,7 @@
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/pspad.portable</packageSourceUrl>
     <docsUrl>http://www.pspad.com/en/helpfiles.htm</docsUrl>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

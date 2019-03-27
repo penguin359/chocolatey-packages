@@ -9,7 +9,7 @@
     <title>GNS3</title>
     <authors>Galaxy Technologies</authors>    
     <projectUrl>https://www.gns3.com/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/gns3/gns3.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gns3/gns3.png</iconUrl>
     <copyright>© 2019 Galaxy Technologies, LLC. All rights reserved.</copyright>    
     <licenseUrl>https://raw.githubusercontent.com/GNS3/gns3-gui/v2.1.15/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

@@ -9,7 +9,7 @@
     <title>HashTools</title>
     <authors>Binary Fortress Software</authors>    
     <projectUrl>https://www.binaryfortress.com/HashTools/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/hashtools/hashtools.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/hashtools/hashtools.png</iconUrl>
     <copyright>Binary Fortress Software</copyright>    
     <licenseUrl>https://www.binaryfortress.com/HashTools/License/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

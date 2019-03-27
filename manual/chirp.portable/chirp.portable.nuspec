@@ -9,7 +9,7 @@
     <title>CHIRP (Portable)</title>
     <authors>Dan Smith KK7DS with significant contributions from Tom KD7LXL, Marco IZ3GME, Jim KC9HI.</authors>
     <projectUrl>http://chirp.danplanet.com/projects/chirp/wiki/Home</projectUrl>
-	<iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/manual/chirp.portable/chirp.portable.png</iconUrl>        
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/chirp.portable/chirp.portable.png</iconUrl>        
 	<copyright>Copyright 2015 Dan Smith (KK7DS)</copyright>
     <licenseUrl>http://chirp.danplanet.com/projects/chirp/repository/revisions/222c1830b798/entry/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -16,7 +16,7 @@
     <title>Splash</title>
     <authors>Mirillis</authors>    
     <projectUrl>https://mirillis.com/free-hd-video-player</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/splash/splash.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/splash/splash.png</iconUrl>
     <copyright>Copyright © 2019 Mirillis Ltd.</copyright>    
     <licenseUrl>https://mirillis.com/pdf/eula/Splash-free-hd-video-player-eula.pdf</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

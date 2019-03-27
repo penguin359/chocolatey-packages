@@ -9,7 +9,7 @@
     <title>ImprimChèques</title>
     <authors>Auteurs</authors>    
     <projectUrl>http://lalimacefolle.com/imprimcheques.php</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/manual/imprimcheques/imprimcheques.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/imprimcheques/imprimcheques.png</iconUrl>
     <copyright>Copyright © 2002-2019 Lalimacefolle.com - Tous droits réservés</copyright>    
     <licenseUrl>http://lalimacefolle.com/imprimcheques.php</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

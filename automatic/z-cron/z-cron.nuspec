@@ -9,7 +9,7 @@
     <title>Z-Cron</title>
     <authors>Andreas Baumann</authors>    
     <projectUrl>https://www.z-cron.com</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/z-cron/z-cron.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/z-cron/z-cron.png</iconUrl>
     <copyright>© 2000-2018 Andreas Baumann</copyright>    
     <licenseUrl>https://www.z-cron.com/use.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

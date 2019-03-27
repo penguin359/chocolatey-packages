@@ -8,8 +8,8 @@
     <owners>chtof</owners>    
     <title>ActivityWatch</title>
     <authors>ErikBjare</authors>    
-    <projectUrl>https://activitywatch.net/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/activitywatch/activitywatch.png</iconUrl>    
+    <projectUrl>https://activitywatch.net/</projectUrl>    
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/activitywatch/activitywatch.png</iconUrl>
     <licenseUrl>https://github.com/ActivityWatch/activitywatch/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/ActivityWatch/activitywatch</projectSourceUrl>

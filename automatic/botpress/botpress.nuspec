@@ -9,7 +9,7 @@
     <title>Botpress</title>
     <authors>Botpress, Inc.</authors>    
     <projectUrl>https://botpress.io</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/botpress/botpress.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/botpress/botpress.png</iconUrl>
     <copyright>Copyright © 2018 Botpress, Inc.</copyright>    
     <licenseUrl>https://github.com/botpress/botpress/blob/master/README.md#license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

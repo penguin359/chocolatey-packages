@@ -38,7 +38,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Joe Taylor K1JT</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://physics.princeton.edu/pulsar/k1jt/wsjtx.html</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/manual/wsjtx/wsjtx.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/wsjtx/wsjtx.png</iconUrl>
     <copyright>©2001-2019  by Joe Taylor, K1JT</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>https://physics.princeton.edu/pulsar/k1jt/</licenseUrl>

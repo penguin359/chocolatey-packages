@@ -25,7 +25,7 @@
     <authors>Laurie VK3AMA</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>http://hamapps.com/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/jtalert/jtalert.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jtalert/jtalert.png</iconUrl>
     <copyright>Copyright 2011 - 2018, Laurie VK3AMA, All Rights Reserved.</copyright>
     <!-- If there is a license Url available, it is is required for the community feed -->
     <licenseUrl>https://hamapps.com/php/license.php</licenseUrl>

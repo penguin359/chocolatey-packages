@@ -9,7 +9,7 @@
 	<title>UNetbootin</title>
 	<authors>Geza Kovacs</authors>
 	<projectUrl>https://unetbootin.github.io</projectUrl>
-	<iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/unetbootin/unetbootin.png</iconUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/unetbootin/unetbootin.png</iconUrl>
 	<copyright>© 2008 Geza Kovacs</copyright>
     <licenseUrl>http://unetbootin.github.io/#credits</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

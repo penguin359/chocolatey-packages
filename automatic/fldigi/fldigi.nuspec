@@ -9,7 +9,7 @@
     <title>fldigi</title>
     <authors>W1HKJ and Associates</authors>    
     <projectUrl>http://www.w1hkj.com/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/fldigi/fldigi.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/fldigi/fldigi.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->    
     <licenseUrl>https://sourceforge.net/p/fldigi/fldigi/ci/master/tree/COPYING</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

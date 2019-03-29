@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>liberationfonts</id>
+    <version>2.00.5</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/liberationfonts</packageSourceUrl>
+    <owners>chtof</owners> 
+    <title>Liberation Fonts</title>
+    <authors>Pravin Satpute, Steve Matteson (See. https://github.com/liberationfonts/liberation-fonts/blob/devel/AUTHORS)</authors>    
+    <projectUrl>https://github.com/liberationfonts/liberation-fonts</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/liberationfonts/liberationfonts.png</iconUrl>
+    <copyright>Copyright (c) 2012 Red Hat, Inc. with Reserved Font Name Liberation.</copyright>
+    <licenseUrl>https://github.com/liberationfonts/liberation-fonts/blob/devel/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/liberationfonts/liberation-fonts</projectSourceUrl>
+    <docsUrl>https://github.com/liberationfonts/liberation-fonts/blob/devel/README</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/liberationfonts/liberation-fonts/issues</bugTrackerUrl>
+    <tags>liberation font</tags>
+    <summary>The Liberation Fonts, font collection.</summary>
+    <description>The Liberation Fonts is font collection which aims to provide document layout compatibility as usage of Times New Roman, Arial, Courier New.</description>    
+    <releaseNotes>https://github.com/liberationfonts/liberation-fonts/blob/devel/ChangeLog</releaseNotes>    
+  </metadata>
+  <files>    
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,16 +1,20 @@
 #NoEnv
 #NoTrayIcon
 ;#Warn  ; Enable warnings to assist with detecting common errors.
-;SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetTitleMatchMode, 1  ; A windows's title must start with the specified WinTitle to be a match.
 SetControlDelay 0
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+GNS_Version = 2.1.15
 
-; GNS3 2.1.15 Uninstall
-winTitle1 = GNS3 2.1.15 Uninstall
-WinWait, %winTitle1%, Are you sure you want to uninstall GNS3 2.1.15?, 10
-Sleep 350
-ControlClick, &Oui, %winTitle1% ahk_class #32770
+; GNS3 Uninstall
+winTitle1 = GNS3%A_Space%%GNS_Version%%A_Space%Uninstall
+WinWait, %winTitle1%, Are%A_Space%you%A_Space%sure%A_Space%you%A_Space%want%A_Space%to%A_Space%uninstall%A_Space%GNS3%A_Space%%GNS_Version%?, 10
+Sleep 1000
+ControlClick, Button1, %winTitle1% ahk_class #32770
+Sleep 1000
 
 ; GNS3 2.1.15 was successfully removed from your computer.
-WinWait, %winTitle1%, GNS3 2.1.15 was successfully removed from your computer., 10
+WinWait, %winTitle1%, GNS3%A_Space%%GNS_Version%%A_Space%was%A_Space%successfully%A_Space%removed%A_Space%from%A_Space%your%A_Space%computer., 10
+Sleep 500
 ControlClick, OK, %winTitle1% ahk_class #32770

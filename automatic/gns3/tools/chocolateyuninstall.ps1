@@ -1,10 +1,6 @@
-﻿## See https://chocolatey.org/docs/commands-uninstall
-## and https://chocolatey.org/docs/helpers-uninstall-chocolatey-package
+﻿$ErrorActionPreference = 'Stop';
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-## If this is an MSI, ensure 'softwareName' is appropriate, then clean up comments and you are done.
-## If this is an exe, change fileType, silentArgs, and validExitCodes
-
-$ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   softwareName  = 'GNS3'
@@ -18,11 +14,7 @@ $uninstalled = $false
 if ($key.Count -eq 1) {
   $key | % { 
     $packageArgs['file'] = "$($_.UninstallString)"
-    if ($packageArgs['fileType'] -eq 'MSI') {      
-      $packageArgs['silentArgs'] = "$($_.PSChildName) $($packageArgs['silentArgs'])"
-      $packageArgs['file'] = ''
-    }
-
+	Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyuninstall.ahk`""
     Uninstall-ChocolateyPackage @packageArgs
   }
 } elseif ($key.Count -eq 0) {

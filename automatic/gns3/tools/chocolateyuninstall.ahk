@@ -14,7 +14,7 @@ Sleep 1000
 ControlClick, Button1, %winTitle1% ahk_class #32770
 Sleep 1000
 
-; GNS3 2.1.15 was successfully removed from your computer.
+; GNS3 was successfully removed from your computer.
 WinWait, %winTitle1%, GNS3%A_Space%%GNS_Version%%A_Space%was%A_Space%successfully%A_Space%removed%A_Space%from%A_Space%your%A_Space%computer., 10
 Sleep 500
 ControlClick, OK, %winTitle1% ahk_class #32770

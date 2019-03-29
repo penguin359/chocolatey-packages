@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>    
+    <id>azclient</id>    
+    <version>0.5</version>    
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/azclient</packageSourceUrl>    
+    <owners>chtof</owners>    
+    <title>AzireVPN azclient</title>
+    <authors>Netbouncer AB</authors>    
+    <projectUrl>https://www.azirevpn.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/azclient/azclient.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->    
+    <licenseUrl>https://raw.githubusercontent.com/azirevpn/azclient/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/azirevpn/azclient</projectSourceUrl>
+    <docsUrl>https://www.azirevpn.com/docs/tunnels#openvpn</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/azirevpn/azclient/issues</bugTrackerUrl>
+    <tags>azclient vpn privacy</tags>
+    <summary>Open-source VPN client.</summary>
+    <description><![CDATA[Our own client, referred to as azclient, makes it a breeze for you to connect to our service. It features an easy to use graphical interface and ships with the latest OpenVPN binaries files for Windows and macOS.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/azclient/screenshot.png)
+]]></description>
+    <releaseNotes>URL Releases notes</releaseNotes>  
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

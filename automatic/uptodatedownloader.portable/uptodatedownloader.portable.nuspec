@@ -36,8 +36,6 @@ The elements of the download list can be selected and various operations can be 
 
 After starting the download, the number of parallel downloads which start is appropriate to the settings. The program provides various information about each download process and the status of finished downloads. There is also a sound signal at the end of each download.
 
- 
-
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/uptodatedownloader.portable/screenshot2.png)
 
 **Advantages of upToDate Downloader**:

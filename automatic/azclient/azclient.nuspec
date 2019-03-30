@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>    
     <id>azclient</id>    
-    <version>0.5</version>    
+    <version>0.3</version>    
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/azclient</packageSourceUrl>    
     <owners>chtof</owners>    
     <title>AzireVPN azclient</title>
@@ -23,7 +23,10 @@
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/azclient/screenshot.png)
 ]]></description>
-    <releaseNotes>URL Releases notes</releaseNotes>  
+    <releaseNotes>URL Releases notes</releaseNotes>
+    <dependencies>
+      <dependency id="tapwindows" version="9.21.2" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

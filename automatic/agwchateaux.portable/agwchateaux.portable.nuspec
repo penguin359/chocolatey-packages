@@ -6,7 +6,7 @@
     <version>1.7.7</version>    
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/agwchateaux.portable</packageSourceUrl>    
     <owners>chtof</owners>    
-    <title>AGW Châteaux</title>
+    <title>AGW Châteaux (Portable)</title>
     <authors>Jean-Louis Siebert F1AGW</authors>    
     <projectUrl>http://f1agw.free.fr/AGW_Chateaux/JEC.htm</projectUrl>
 	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/agwchateaux.portable/agwchateaux.portable.png</iconUrl>    

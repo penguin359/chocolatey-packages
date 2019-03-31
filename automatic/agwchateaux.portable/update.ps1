@@ -2,13 +2,12 @@
 
 $releases = 'http://f1agw.free.fr/AGW_Chateaux/JEC.htm'
 
-function global:au_GetLatest {
-    http://f1agw.free.fr/AGW_Chateaux/AGW_Chateaux_177_SI.zip
-     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	 $regex   = '\/AGW_Chateaux_(?<Version>[\d]+)_SI.zip$'
-	 $url = $download_page.links | ? href -match $regex
-     $version = ($matches.Version -replace "(\d)","`$1.").substring(0, $matches.Version.length +2 )	      
-     return @{ Version = $version ; URL32 = $url.href }
+function global:au_GetLatest {  
+  $download_page = Invoke-WebRequest -Uri $releases
+  $regex   = 'V([\d\.]+) le '
+  $version = ([regex]::matches($download_page, $regex) | Select-Object -Last 1).Value -replace $regex, "`$1"
+  $version_download = $version -replace "\.", ""
+  return @{ Version = $version ; URL32 = "http://f1agw.free.fr/AGW_Chateaux/AGW_Chateaux_" + $version_download + "_SI.zip" }
 }
 
 function global:au_SearchReplace {

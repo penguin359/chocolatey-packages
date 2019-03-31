@@ -1,4 +1,4 @@
-﻿# [Winlog32](https://chocolatey.org/packages/winlog32)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/winlog32/winlog32.png" width="48" height="48"/> [Winlog32](https://chocolatey.org/packages/winlog32)
 
 This software has been in development for many years and the author (G0CUZ) provides this software FREE to use by all Radio Amateurs and SWL's in true 'Ham Spirit', as such no warranty is implied or given as to it's suitability or reliability.
 

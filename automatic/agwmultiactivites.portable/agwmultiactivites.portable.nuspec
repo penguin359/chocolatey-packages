@@ -9,7 +9,7 @@
     <title>AGW Multi-Activités (Portable)</title>
     <authors>Jean-Louis Siebert F1AGW</authors>    
     <projectUrl>http://f1agw.free.fr/AGW_Multi_Activites/AGW_Multi_Activites.htm</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/agwmultiactivites.portable/agwchateaux.multiactivites.png</iconUrl>    
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/agwmultiactivites.portable/agwmultiactivites.portable.png</iconUrl>    
     <!-- <copyright>Year Software Vendor</copyright> -->    
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
@@ -37,7 +37,7 @@
 - Import from ADIF lof file.
 - Saving of logs in a specified folder.
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/agwchateaux.portable/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/agwmultiactivites.portable/screenshot.png)
 ]]></description>
     <releaseNotes>http://f1agw.free.fr/AGW_Multi_Activites/AGW_Multi_Activites.htm#Avancement</releaseNotes>   
   </metadata>

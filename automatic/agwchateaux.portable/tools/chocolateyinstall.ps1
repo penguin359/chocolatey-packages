@@ -16,4 +16,4 @@ $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 
 $shortcutFilePath = Join-Path $programs "AGW Châteaux.lnk"
 $targetPath = Join-Path "$env:ProgramFiles\AGW_Chateaux" "AGW_Chateaux.exe"
-Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath
+Install-ChocolateyShortcut -RunAsAdmin -shortcutFilePath $shortcutFilePath -targetPath $targetPath

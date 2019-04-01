@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>  
+    <id>agwmultiactivites.portable</id>    
+    <version>1.2.5</version>    
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/agwmultiactivites.portable</packageSourceUrl>    
+    <owners>chtof</owners>    
+    <title>AGW Multi-Activités (Portable)</title>
+    <authors>Jean-Louis Siebert F1AGW</authors>    
+    <projectUrl>http://f1agw.free.fr/AGW_Multi_Activites/AGW_Multi_Activites.htm</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/agwmultiactivites.portable/agwchateaux.multiactivites.png</iconUrl>    
+    <!-- <copyright>Year Software Vendor</copyright> -->    
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>agwmultiactivites.portable french multi activity activities HAM radio amateur</tags>
+    <summary>Logging program to manage HAM (radio amateurs) awards.</summary>
+    <description><![CDATA[
+## Supported awards
+- Awards: DAF DCF DCPF DDFM DFCF DFF DIFI DIFM DLF DMF DOHF DPF DPLF DVFF DYLF PC FFF TDC WLF.
+- Challenges: DFCF DMF.
+
+## Features
+- QSO entries with an automatic search of firstname and department.
+- Add/modify/cancel QSOs.
+- Visualize the details of an activity.
+- Visualize the contacted activations by an activator.
+- Printing, saving or displaying the log of worked activities.
+- Visualize contacted departments on a map.
+- Update of activities list (for DFCF DOHF DCF FFF PC).
+- Direct access to "DXCluster".
+- Export to the ADIF format.
+- Import from ADIF lof file.
+- Saving of logs in a specified folder.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/agwchateaux.portable/screenshot.png)
+]]></description>
+    <releaseNotes>http://f1agw.free.fr/AGW_Multi_Activites/AGW_Multi_Activites.htm#Avancement</releaseNotes>   
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -15,4 +15,4 @@ KDevelop is a feature-full, plugin extensible IDE for C/C++ and many other progr
 ## Running under Windows
 Screenshot of KDevelop 5 under Windows with the native Windows 10 style
 
-![screenshot](https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/kdevelop/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kdevelop/screenshot.png)

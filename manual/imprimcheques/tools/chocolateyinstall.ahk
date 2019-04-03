@@ -6,7 +6,7 @@ SetTitleMatchMode, 1
 SetControlDelay -1
 
 ; First install
-if !FileExist("C:\Users\Chris\AppData\Roaming\ImprimCheques\ImprChq.ini")
+if !FileExist("$Env:APPDATA\ImprimCheques\ImprChq.ini")
 {	
 	winTitle1 = Format d
 	WinWait, %winTitle1%,, 60

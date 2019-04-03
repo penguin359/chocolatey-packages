@@ -25,10 +25,7 @@ If you want to help with translating into your language check [the localisation 
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/myfamilytree-languagepack/screenshot.png)
 ]]></description>
-    <releaseNotes>https://chronoplexsoftware.com/myfamilytree/updates/versionhistory.htm</releaseNotes>
-    <dependencies>
-      <dependency id="myfamilytree" version="[8.6.2.0]" />
-    </dependencies>   
+    <releaseNotes>https://chronoplexsoftware.com/myfamilytree/updates/versionhistory.htm</releaseNotes>     
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

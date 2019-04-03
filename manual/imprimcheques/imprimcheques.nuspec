@@ -20,6 +20,8 @@
     <tags>imprimcheques print french bank check pay cheque</tags>
     <summary>Printing on french bank cheques.</summary>
     <description><![CDATA[
+**Notice: To install ImprimChèques, the Windows service "Print spooler" must be enabled and running. If needed, this service will be automatically enabled and/or started.**
+
 ImprimChèques allows to print on french bank cheques: amount, recipient, location and date. It supports almost of french bank cheques formats.
 See http://lalimacefolle.com/imprimcheques.php for all features (in french).
 
@@ -31,7 +33,6 @@ See http://lalimacefolle.com/imprimcheques.php for all features (in french).
     </dependencies>
   </metadata>
   <files>
-    <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />    
   </files>
 </package>

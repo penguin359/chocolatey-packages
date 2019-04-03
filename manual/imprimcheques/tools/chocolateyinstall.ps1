@@ -16,14 +16,15 @@ $packageArgs = @{
   silentArgs    = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
 }
 
-# ImprimCheques needs "Print Spooler" enabled and running to finalize installation
+# ImprimChèques needs "Print Spooler" enabled and running to be installed
 if ((Get-WmiObject -Query "Select StartMode From Win32_Service Where Name='Spooler'").StartMode -eq "Disabled") {
-    Set-Service -Name 'Spooler' -StartupType Automatic
+  Write-Warning "The Windows service `"Print Spooler`" is being enabled (Needed to install ImprimCheques)"
+  Set-Service -Name 'Spooler' -StartupType Automatic
 }
-if ((Get-Service 'Print Spooler').Status -ne "Running") {
-    Start-Service -Name 'Print Spooler'
+if ((Get-Service -Name 'Spooler').Status -ne "Running") {
+  Write-Warning "The Windows service `"Print Spooler`" is being started (Needed to install ImprimCheques)"  
+  Start-Service -Name 'Spooler'
 }
-
 
 Install-ChocolateyZipPackage @packageArgs
 Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyinstall.ahk`""

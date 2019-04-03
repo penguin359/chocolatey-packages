@@ -5,7 +5,7 @@ $packageArgs = @{
   packageName   = $packageName  
   url           = 'http://www.winlog32.co.uk/files/wl32v73.exe'
     
-  checksum      = 'A434B4D9A9B3D7634705359B8A92CD276F669BD5DB0621DCD2108A9F88E59D60'
+  checksum      = '860069340fb5f1bde2db2964770c29a37404cb3223b5c202dc19d1d2df99a7b5'
   checksumType  = 'sha256'  
   
   silentArgs	= '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'

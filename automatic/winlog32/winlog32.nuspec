@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>winlog32</id>
-    <version>7.3.28</version>
+    <version>7.3.29</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/winlog32</packageSourceUrl>
     <owners>chtof</owners>    
     <title>winlog32</title>
@@ -20,8 +20,7 @@
     <bugTrackerUrl>http://www.winlog32.co.uk/support.htm</bugTrackerUrl>
     <tags>winlog32 log HAM radio amateur</tags>
     <summary>Winlog32 is Amateur Radio Logging software designed and working on all Microsoft Windows platforms, e.g. 95/98/ME/NT4/2000/XP/Vista/W7/W8/W10.</summary>
-    <description><![CDATA[
-This software has been in development for many years and the author (G0CUZ) provides this software FREE to use by all Radio Amateurs and SWL's in true 'Ham Spirit', as such no warranty is implied or given as to it's suitability or reliability.
+    <description><![CDATA[This software has been in development for many years and the author (G0CUZ) provides this software FREE to use by all Radio Amateurs and SWL's in true 'Ham Spirit', as such no warranty is implied or given as to it's suitability or reliability.
 
 Although Winlog32 is general purpose logging software, it has a definite slant on DX'ing on both HF and VHF with comprehensive tracking of various awards programs like DXCC, IOTA, WAZ etc. and includes all the features you would expect from good quality logging and DXing software and more.....
 

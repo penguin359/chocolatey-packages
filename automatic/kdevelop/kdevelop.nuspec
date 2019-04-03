@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Read this before creating packages: https://chocolatey.org/docs/create-packages -->
-<!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
 <!-- Do not remove this test for UTF-8: if “Ω” doesn't appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
-  <metadata>
-    <!-- == PACKAGE SPECIFIC SECTION == -->
-    <!-- This section is about this package, although id and version have ties back to the software -->
-    <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
-    <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
-    <id>kdevelop</id>
-    <!-- version should MATCH as closely as possible with the underlying software -->
-    <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
-    <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
+  <metadata>  
+    <id>kdevelop</id>    
     <version>5.3.2</version>
     <!--PackageSourceUrl - Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed-->
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/kdevelop</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
-    <owners>chtof</owners>
-    <!-- ============================== -->
-
-    <!-- == SOFTWARE SPECIFIC SECTION == -->
-    <!-- This section is about the software itself -->
+    <owners>chtof</owners>    
     <title>KDevelop</title>
-    <authors>https://www.kdevelop.org/kdevelop-team</authors>
+    <authors>KDevelop Team</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.kdevelop.org</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kdevelop/kdevelop.png</iconUrl>
-    <copyright>Copyright 2016 - All rights reserved</copyright>
-    <!-- If there is a license Url available, it is is required for the community feed -->
+    <copyright>Copyright 2016 - All rights reserved</copyright>    
     <licenseUrl>https://github.com/KDE/kdevelop/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/KDE/kdevelop</projectSourceUrl>
@@ -51,20 +37,12 @@ KDevelop is a feature-full, plugin extensible IDE for C/C++ and many other progr
 ## Running under Windows
 Screenshot of KDevelop 5 under Windows with the native Windows 10 style
 
-![screenshot](https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/kdevelop/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kdevelop/screenshot.png)
 ]]></description>
-    <releaseNotes>https://www.kdevelop.org/news/kdevelop-532-released</releaseNotes>
-    <!-- =============================== -->      
-
-    <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
+    <releaseNotes>https://www.kdevelop.org/news/kdevelop-532-released</releaseNotes>    
     <dependencies>
       <dependency id="kdevelop.install" version="[5.3.2]" />
-    </dependencies>
-    <!-- chocolatey-uninstall.extension - If supporting 0.9.9.x (or below) and including a chocolateyUninstall.ps1 file to uninstall an EXE/MSI, you probably want to include chocolatey-uninstall.extension as a dependency. Please verify whether you are using a helper function from that package. -->
-
-    <!--<provides>NOT YET IMPLEMENTED</provides>-->
-    <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
-    <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
+    </dependencies>    
   </metadata>
   <files></files>
 </package>

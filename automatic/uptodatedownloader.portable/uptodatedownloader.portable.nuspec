@@ -4,12 +4,12 @@
   <metadata>    
     <id>uptodatedownloader.portable</id>    
     <version>1.2.0.10</version>    
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/uptodatedownloader</packageSourceUrl>    
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/uptodatedownloader.portable</packageSourceUrl>    
     <owners>chtof</owners>    
     <title>upToDate Downloader (Portable)</title>
     <authors>Peter Panisz</authors>    
     <projectUrl>https://www.wintools.info/index.php/uptodate-downloader</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/uptodatedownloader/uptodatedownloader.png</iconUrl>    
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/uptodatedownloader.portable/uptodatedownloader.portable.png</iconUrl>
     <copyright>© 2019 WinTools.Info</copyright>    
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>-->

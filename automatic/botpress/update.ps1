@@ -14,7 +14,7 @@ function global:au_SearchReplace {
     @{
         "tools\chocolateyinstall.ps1" = @{
 			"(^(\s)*url\s*=\s*)('.*')" = "`$1'$($Latest.URL)'"
-            "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum)'"
+            "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
         }    
         "tools\chocolateyuninstall.ps1" = @{
             '(.*zipFileName\s*=\s*)(".*")' = "`$1`"$($Latest.zipFileName)`""

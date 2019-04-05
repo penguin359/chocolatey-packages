@@ -3,14 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>  
     <id>kdevelop.install</id>    
-    <version>5.3.1</version>    
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/kdevelop</packageSourceUrl>    
+    <version>5.3.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/kdevelop.install</packageSourceUrl>    
     <owners>chtof</owners>    
     <title>KDevelop (Install)</title>
-    <authors>https://www.kdevelop.org/kdevelop-team</authors>
+    <authors>KDevelop Team</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.kdevelop.org</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kdevelop/kdevelop.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kdevelop.install/kdevelop.png</iconUrl>
     <copyright>Copyright 2016 - All rights reserved</copyright>
     <!-- If there is a license Url available, it is is required for the community feed -->
     <licenseUrl>https://github.com/KDE/kdevelop/blob/master/COPYING</licenseUrl>
@@ -36,7 +36,7 @@ KDevelop is a feature-full, plugin extensible IDE for C/C++ and many other progr
 ## Running under Windows
 Screenshot of KDevelop 5 under Windows with the native Windows 10 style
 
-![screenshot](https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/kdevelop/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kdevelop.install/screenshot.png)
 ]]></description>
     <releaseNotes>https://www.kdevelop.org/news/kdevelop-531-released</releaseNotes>    
   </metadata>

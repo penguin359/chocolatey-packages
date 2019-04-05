@@ -8,7 +8,7 @@ $packageArgs = @{
   unzipLocation = $botpressDir
   
   url           = 'https://s3.amazonaws.com/botpress-binaries/botpress-v11_7_2-win-x64.zip'  
-  checksum      = ''
+  checksum      = '40f94c4dc569503ff65bf515024f25a20155544bb2866d9dc90f1fddab84a181'
   checksumType  = 'sha256'
 }
 

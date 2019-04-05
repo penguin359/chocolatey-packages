@@ -2,7 +2,7 @@
 
 Language Pack for "My Family Tree".
 
-== Translations
+## Translations
 If you want to help with translating into your language check [the localisation guide](https://chronoplexsoftware.com/localisation/index.htm) for ways to contribute.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/myfamilytree-languagepack/screenshot.png)

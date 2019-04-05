@@ -19,8 +19,8 @@ function global:au_SearchReplace {
             "(^(\s)*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
         }    
         "myfamilytree.nuspec" = @{            `
-            "(^\s*<dependency id=`"myfamilytree-languagepack`" version=`"\[).*(\]`" />)" = "`$1$($Latest.Version)`$2`
-$2"     }
+            "(^\s*<dependency id=`"myfamilytree-languagepack`" version=`"\[).*(\]`" />)" = "`${1}$($Latest.Version)`${2}"
+         }
     }    
 }
 

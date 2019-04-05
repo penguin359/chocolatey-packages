@@ -18,8 +18,8 @@ function global:au_SearchReplace {
             "(^(\s)*url64bit\s*=\s*)('.*')" = "`$1'$($Latest.URL64)'"
             "(^(\s)*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
         }    
-        "tools\myfamilytree.nuspec" = @{            `
-            "(^\s*<dependency id=`"myfamilytree-languagepack`" version=`"\[).*(\]`" />)" = "`$1'$($Latest.Version)'`$2`
+        "myfamilytree.nuspec" = @{            `
+            "(^\s*<dependency id=`"myfamilytree-languagepack`" version=`"\[).*(\]`" />)" = "`$1$($Latest.Version)`$2`
 $2"     }
     }    
 }

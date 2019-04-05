@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>myfamilytree-languagepack</id>
-    <version>8.6.2.0</version>    
+    <version>8.6.3.0</version>    
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/myfamilytree-languagepack</packageSourceUrl>    
     <owners>chtof</owners>    
     <title>My Family Tree (Language Pack)</title>
@@ -19,8 +19,9 @@
     <bugTrackerUrl>https://chronoplexsoftware.com/myfamilytree/help/index.htm</bugTrackerUrl>
     <tags>myfamilytree-languagepack genealogy family tree language pack</tags>
     <summary>Language Pack for "My Family Tree"</summary>
-    <description><![CDATA[
-Translations
+    <description><![CDATA[Language Pack for "My Family Tree".
+
+== Translations
 If you want to help with translating into your language check [the localisation guide](https://chronoplexsoftware.com/localisation/index.htm) for ways to contribute.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/myfamilytree-languagepack/screenshot.png)

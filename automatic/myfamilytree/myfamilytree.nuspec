@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>    
     <id>myfamilytree</id>    
-    <version>8.6.2.0</version>    
+    <version>8.6.3.0</version>    
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/myfamilytree</packageSourceUrl>    
     <owners>chtof</owners>    
     <title>My Family Tree</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://chronoplexsoftware.com/myfamilytree/help/index.htm</bugTrackerUrl>
     <tags>myfamilytree genealogy family tree</tags>
     <summary>My Family Tree is a genealogy application for Windows®.</summary>
-    <description><![CDATA[
-My Family Tree has been carefully designed to help you quickly create your family tree using a simple and intuitive interface. For those just starting out investigating their family history, it provides an easy way to visualise and share your family tree with photos, stories and basic facts about each person.  More experienced genealogists will find full support for citations and evidence and options to transfer data using the GEDCOM file format.
+    <description><![CDATA[My Family Tree has been carefully designed to help you quickly create your family tree using a simple and intuitive interface. For those just starting out investigating their family history, it provides an easy way to visualise and share your family tree with photos, stories and basic facts about each person.  More experienced genealogists will find full support for citations and evidence and options to transfer data using the GEDCOM file format.
 
 ## Features
 
@@ -74,7 +73,8 @@ Advanced date input with full support for partial dates, date ranges and text on
     <releaseNotes>https://chronoplexsoftware.com/myfamilytree/updates/versionhistory.htm</releaseNotes>
     <dependencies>
       <dependency id="dotnetfx" version="4.6" />
-      <dependency id="myfamilytree-languagepack" version="[8.6.2.0]" />
+      <dependency id="myfamilytree-languagepack" version="[8.6.3.0]" />
+
     </dependencies>
   </metadata>
   <files>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <!-- This section is about this package, although id and version have ties back to the software -->
+    <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
+    <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
+    <id>toff</id>
+    <!-- version should MATCH as closely as possible with the underlying software -->
+    <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
+    <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
+    <version>2.5.8</version>    
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/toff</packageSourceUrl>    
+    <owners>chtof</owners>    
+    <title>TOff</title>
+    <authors>Dennis Babkin</authors>    
+    <projectUrl>https://www.dennisbabkin.com/toff</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/toff/toff.png</iconUrl>    
+    <copyright>(C) 2003-2019 www.dennisbabkin.com. All Rights Reserved.</copyright>    
+    <licenseUrl>https://www.dennisbabkin.com/toff</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://dennisbabkin.com/php/docs.php?what=TOff</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://dennisbabkin.com/sfb</bugTrackerUrl>
+    <tags>toff energy saver</tags>
+    <summary>Advanced power operations to save energy.</summary>
+    <description><![CDATA[
+This utility will be handy for people who would like to leave their computers unattended for some time before automatically turning them off (logging off users, rebooting, hibernating or putting them into sleep mode). TOff can perform these tasks at a certain day and time (one time or every day), as well as after a certain period of mouse & keyboard, CPU or network inactivity with the seconds precision. TOff is unequivocally your ticket to save energy.
+
+Need even more?  [We can customize it specifically for you, to meet your organization's needs](https://dennisbabkin.com/php/fb.php).
+
+But don't wait! Our carbon footprint grows out of control with each day. 
+
+Start small. Let's Save Energy! 
+
+## Special features
+- Can shut down, reboot or log off a user in almost every Windows-based operating system at a desired moment in time, or after a certain condition of inactivity.
+- Any system that supports hibernation can be hibernated on timer.
+(Hibernation is the power mode when your computer turns off having preserved all running programs that can be restored later.)
+- Any system that supports a sleep mode can be sent into it on timer.
+- Keeps track of the last operation, so that you can check if power operation occurred on time.
+- TOff can be set to run every day, or every time a Windows user logs in.
+- TOff can perform all of the above operations after a certain period of PC, CPU, or network inactivity.
+- TOff can run in various safe modes to prevent unsafe execution of power operations.
+- TOff can run from a command line to perform additional operations that gives extended control for developers & advanced users.
+- You can save the state of the program in a Windows batch file to run TOff with the same settings later.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/toff/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>-->
+    <!-- chocolatey-uninstall.extension - If supporting 0.9.9.x (or below) and including a chocolateyUninstall.ps1 file to uninstall an EXE/MSI, you probably want to include chocolatey-uninstall.extension as a dependency. Please verify whether you are using a helper function from that package. -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

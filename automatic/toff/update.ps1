@@ -1,5 +1,5 @@
 ﻿import-module au
-$releases = "https://dennisbabkin.com/toff/"
+$releases = "https://dennisbabkin.com/toff"
 $regex   = 'ver=(?<Version>[\d\.]*)">Report Errors and Glitches'
 
 function global:au_GetLatest {

@@ -24,11 +24,11 @@ Bping (pronounced beeping) is a Windows ping alternative that beeps whenever it 
 
 Has a bunch of enhancements over the regular ping.exe:
 
-- beeps! (but you already knew that). The default sound is from Space Invaders, or you can specify a wav file to play, or use the system speaker. By default it beeps when it gets a response, but it can also beep only when it doesn't.
+- Beeps! (but you already knew that). The default sound is from Space Invaders, or you can specify a wav file to play, or use the system speaker. By default it beeps when it gets a response, but it can also beep only when it doesn't.
 
-- can function as an internet connection tester. Just run bping with no commandline arguments and it'll keep testing your internet connection. This is by far my favorite usage for it.
+- Can function as an internet connection tester. Just run bping with no commandline arguments and it'll keep testing your internet connection. This is by far my favorite usage for it.
 
-- can scan an entire network and tell you at a glance what IP addresses are available and which are taken. See the screenshot below to see what this looks like. My second favorite usage for Bping.
+- Can scan an entire network and tell you at a glance what IP addresses are available and which are taken. See the screenshot below to see what this looks like. My second favorite usage for Bping.
 
 - Note that it doesn't replace the regular ping.exe, just type bping instead of ping whenever you want to use bping.
 

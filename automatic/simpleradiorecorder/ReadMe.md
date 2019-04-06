@@ -17,6 +17,7 @@ Easy-to-understand, step-by-step explanation of how to buy and install necessary
 And best of all - it is FREE if you register your copy within the first 30 days!
 
 _* - Satellite radio receiver and antenna are required for satellite radio recording. Subscription to a service may be required to receive broadcasts._
+
 _** - Minimum hardware installation may be required to begin recording of the sound input off some devices._
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/simpleradiorecorder/screenshot.png)

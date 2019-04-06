@@ -3,8 +3,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  unzipLocation = $toolsDir
-  fileType      = 'zip'
+  unzipLocation = $toolsDir  
   file         =  'toff.exe'
 
   url           = 'https://dennisbabkin.com/php/downloads/TOff.zip'

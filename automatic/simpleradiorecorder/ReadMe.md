@@ -13,11 +13,11 @@ Easy-to-understand, step-by-step explanation of how to buy and install necessary
 - Can set other scheduled events, such as running programs, opening files or Internet pages and playing music, as well as sending the system into suspended power state.
 - Can play back the live sound broadcast over a device connected via a Line-in or a Mic jack.
 - Can be run from a command line to maximize potential application.
-- Does not contain any commercials, pop-ups, crap-ware or any "hidden ware". (If downloaded from this site.)
+- Does not contain any commercials, pop-ups, crap-ware or any "hidden ware".
 And best of all - it is FREE if you register your copy within the first 30 days!
 
-_* - Satellite radio receiver and antenna are required for satellite radio recording. Subscription to a service may be required to receive broadcasts._
+_* Satellite radio receiver and antenna are required for satellite radio recording. Subscription to a service may be required to receive broadcasts._
 
-_** - Minimum hardware installation may be required to begin recording of the sound input off some devices._
+_** Minimum hardware installation may be required to begin recording of the sound input off some devices._
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/simpleradiorecorder/screenshot.png)

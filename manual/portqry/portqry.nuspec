@@ -21,6 +21,7 @@
     <summary>Portqry.exe is a command-line utility that you can use to help troubleshoot TCP/IP connectivity issues.</summary>
     <description><![CDATA[
 Portqry.exe reports the status of a TCP/IP port in one of the following three ways:
+
 - Listening
 
 A process is listening on the port on the computer that you selected. Portqry.exe received a response from the port.

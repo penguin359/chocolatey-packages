@@ -13,8 +13,9 @@ function global:au_GetLatest {
 
 function global:au_SearchReplace {
     @{
-	    "kdevelop.nuspec" = @{
-			"<releaseNotes>https://www.kdevelop.org/news/kdevelop-(.*?)-released</releaseNotes>" = "<releaseNotes>https://www.kdevelop.org/news/kdevelop-$($Latest.VersionRelease)-released</releaseNotes>"
+        "$($Latest.PackageName).nuspec" = @{
+            "<releaseNotes>https://www.kdevelop.org/news/kdevelop-(.*?)-released</releaseNotes>" = "<releaseNotes>https://www.kdevelop.org/news/kdevelop-$($Latest.VersionRelease)-released</releaseNotes>"
+            "(\<dependency .+?`"$($Latest.PackageName).install`" version=)`"([^`"]+)`"" = "`$1`"[$($Latest.Version)]`""            
         }
     }
 }

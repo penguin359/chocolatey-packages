@@ -4,12 +4,12 @@
   <metadata>
     <id>portqry</id>
     <version>2.0</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/portqry</packageSourceUrl>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/portqry</packageSourceUrl>
     <owners>chtof</owners>
     <title>PortQry Command Line Port Scanner</title>
     <authors>Microsoft</authors>
     <projectUrl>https://support.microsoft.com/en-us/help/310099/description-of-the-portqry-exe-command-line-utility</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/portqry/portqry.png</iconUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/portqry/portqry.png</iconUrl>
     <copyright>© Microsoft 2019</copyright>
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
@@ -28,7 +28,7 @@ Not Listening
 
 No process is listening on the target port on the target system. Portqry.exe received an Internet Control Message Protocol (ICMP) Destination
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/portqry/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/portqry/screenshot.png)
 ]]></description>
   </metadata>
   <files>

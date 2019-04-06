@@ -19,9 +19,11 @@ The following command tries to resolve "reskit.com" to an IP address and then qu
 
 `portqry -n reskit.com -p tcp -e 25`
 
+
 The following command tries to resolve "169.254.0.11" to a host name and then queries TCP ports 143,110, and 25 (in that order) on the host that you selected. This command also creates a log file (Portqry.log) that contains a log of the command that you ran and its output.
 
 `portqry -n 169.254.0.11 -p tcp -o 143,110,25 -l portqry.log`
+
 
 The following command tries to resolve
 my_server to an IP address and then queries the specified range of UDP ports (135-139) in sequential order on the corresponding host. This command also creates a log file (my_server.txt) that contains a log of the command that you ran and its output.

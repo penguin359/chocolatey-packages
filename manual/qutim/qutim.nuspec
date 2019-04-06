@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>qutim</id>
+    <version>0.3.2.1</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/qutim</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>qutIM</title>
+    <authors>qutIM Team</authors>
+    <projectUrl>http://www.qutim.org</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/qutim/qutim.png</iconUrl>
+    <copyright>© 2008–2019, Holy qutIM</copyright>
+    <!--<licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance !-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>qutim multiprotocol instant messaging client ICQ Jabber Mail.RU IRC VKontakte</tags>
+    <summary>qutIM is free and open-source multiprotocol (ICQ, Jabber, Mail.Ru, IRC, VKontakte) instant messenger.</summary>
+    <description><![CDATA[
+- qutIM is firstly Open source and free multiprotocol Instant Messaging client. With qutIM you can send and receive messages, participate in group conferences, make video and audio calls (It appears to come in 0.4) and write to different microblogs and social networks.
+- qutIM, extremely extendible client. The suitable API and good documented code makes it easy to write plugins in C++/Qt or Javascript.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/qutim/screenshot.png)
+]]></description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

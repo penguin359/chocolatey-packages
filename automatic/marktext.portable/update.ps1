@@ -4,7 +4,7 @@ $releases = "https://github.com/" + $github_repository + "/releases/latest"
 
 function global:au_GetLatest {	
      $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	 $regex   = $github_repository + '/releases/download/.*/marktext-(?<Version>[\d\.]*)[\w-]*.exe'
+	 $regex   = $github_repository + '/releases/download/.*/marktext-(?<Version>[\d\.]*)[\w-]*.exe$'
 	 $url = $download_page.links | ? href -match $regex
      return @{ Version = $matches.Version ; URL32 = "https://github.com" + $url.href }
 }

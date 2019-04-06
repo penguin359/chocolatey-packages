@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>portqry</id>
+    <version>2.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/portqry</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>PortQry Command Line Port Scanner</title>
+    <authors>Microsoft</authors>
+    <projectUrl>https://support.microsoft.com/en-us/help/310099/description-of-the-portqry-exe-command-line-utility</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/portqry/portqry.png</iconUrl>
+    <copyright>© Microsoft 2019</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://support.microsoft.com/en-us/help/310099/description-of-the-portqry-exe-command-line-utility</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>portqry network troubleshoot connectivity tcp udp</tags>
+    <summary>Portqry.exe is a command-line utility that you can use to help troubleshoot TCP/IP connectivity issues.</summary>
+    <description><![CDATA[
+Portqry.exe reports the status of a TCP/IP port in one of the following three ways:
+Listening
+
+A process is listening on the port on the computer that you selected. Portqry.exe received a response from the port.
+Not Listening
+
+No process is listening on the target port on the target system. Portqry.exe received an Internet Control Message Protocol (ICMP) Destination
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/portqry/screenshot.png)
+]]></description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

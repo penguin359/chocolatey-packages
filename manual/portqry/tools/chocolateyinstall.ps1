@@ -16,8 +16,7 @@ $packageArgs = @{
   packageName   = $packageName
   fileType      = 'exe'
   file          = "$toolsDir\PORTQR~1.EXE"
-  silentArgs    = "/auto"  
-#  softwareName  = 'Bob*'
+  silentArgs    = "/auto"
 }
 
 Install-ChocolateyInstallPackage @packageArgs

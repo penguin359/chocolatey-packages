@@ -2,9 +2,10 @@
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  validExitCodes= @(0, 3010, 1605, 1614, 1641)
+  file          = "$Env:PROGRAMFILES\$packageName\Uninstall.exe"
+  
   silentArgs   = "/S _?=$Env:PROGRAMFILES\$packageName"
-  file			= "$Env:PROGRAMFILES\$packageName\Uninstall.exe"
+  validExitCodes= @(0, 3010, 1605, 1614, 1641)
 }
 
 Uninstall-ChocolateyPackage @packageArgs

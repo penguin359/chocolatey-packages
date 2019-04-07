@@ -6,7 +6,7 @@
     <version>5.15</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/dontsleep.portable</packageSourceUrl>
     <owners>chtof</owners>
-    <title>Don't Sleep</title>
+    <title>Don't Sleep (Portable)</title>
     <authors>Nenad Hrg</authors>
     <projectUrl>http://www.softwareok.com/?seite=Microsoft/DontSleep</projectUrl>
 	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/dontsleep.portable/dontsleep.portable.png</iconUrl>

@@ -34,7 +34,7 @@ A simple and elegant open-source markdown editor that focused on speed and usabi
 ]]></description>
     <releaseNotes>https://github.com/marktext/marktext/releases</releaseNotes>
     <dependencies>
-      <dependency id="marktext" version="[0.13.65]" />
+      <dependency id="marktext.install" version="[0.13.65]" />
     </dependencies>
   </metadata>
   <files></files>

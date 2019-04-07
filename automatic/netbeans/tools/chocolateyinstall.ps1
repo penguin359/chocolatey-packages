@@ -20,4 +20,4 @@ $shortcutFilePath = Join-Path $programs "Apache NetBeans.lnk"
 $targetPath = Join-Path $toolsDir "netbeans\bin\$exe_file"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath
 
-Write-Warn "NetBeans needs JDK 8 and above to be launched."
+Write-Warn "NetBeans needs JDK 8 and above to be used."

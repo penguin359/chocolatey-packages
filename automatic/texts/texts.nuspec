@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>texts</id>
+    <version>1.5</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/texts</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>TEXTS</title>
+    <authors>Text Software Limited</authors>
+    <projectUrl>http://www.texts.io</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/texts/texts.png</iconUrl>
+    <copyright>© 2017 Text Software Limited</copyright>
+    <licenseUrl>http://www.texts.io/tos</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>http://www.texts.io/download</mailingListUrl>
+    <bugTrackerUrl>http://www.texts.io/support</bugTrackerUrl>
+    <tags>texts mardown editor</tags>
+    <summary>Markdown and rich editor for plain text.</summary>
+    <description><![CDATA[
+**Rich Editor _for_ Plain Text.**
+Separate Content from Formatting. Store in Markdown.
+
+TEXTS is rich editor for plain text. Write structured documents. Store in plain text. Publish to many formats.
+
+## FEATURES
+
+### Markdown visual editor
+Write using Markdown - without having to remember the markup. With Texts you can apply styles to words or paragraphs and immediately see the results. Your images and tables are displayed directly within Texts.
+
+### Well-structured content
+Use Texts to create structured documents. You set your titles and headings, and they will stay in place if you export your document to another format.
+
+### Blogging on GitHub Pages
+Content written in Texts can be easily published as a blog on GitHub Pages, with math, tables, footnotes etc.
+
+### Perfect for academics
+Developed to cover all your needs: formulas and footnotes, bibliography and citations, tables and links.
+
+### Single source publishing
+Writing your documents in Texts gives you a lot of flexibility. You can easily convert your words into clean HTML5, professional PDFs, ePub or Word format, or even a presentation.
+
+### Professional typesetting
+Texts produces immaculate PDFs. Everything you create — from paragraphs of text to mathematical formulae — is perfectly typeset. See some sample documents.
+
+### Cross-platform application
+Mac OS X or Windows? Doesn't matter, use Texts on both. The app has native look and feel on each platform, and the document format is common across platforms.
+
+### Custom themes
+Change the appearance of your text editor with themes.
+
+### Export templates
+Adjust style of any published documents with export templates.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/texts/screenshot.png)
+]]></description>
+    <releaseNotes>http://www.texts.io/news/</releaseNotes>
+    <dependencies>
+      <dependency id="pandoc" version="[2.7.1]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

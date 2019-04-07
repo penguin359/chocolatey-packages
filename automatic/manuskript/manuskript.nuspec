@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>manuskript</id>
+    <version>0.9.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/manuskript</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Manuskript</title>
+    <authors>Manuskript Team</authors>
+    <projectUrl>http://www.theologeek.ch/manuskript</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/manuskript/manuskript.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://github.com/olivierkes/manuskript/blob/develop/COPYING</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/olivierkes/manuskript</projectSourceUrl>
+    <docsUrl>http://github.com/olivierkes/manuskript/wiki</docsUrl>
+    <mailingListUrl>http://www.theologeek.ch/manuskript</mailingListUrl>
+    <bugTrackerUrl>https://github.com/olivierkes/manuskript/issues</bugTrackerUrl>
+    <tags>manuskript editor writing writer</tags>
+    <summary>Open-source tool for writers.</summary>
+    <description><![CDATA[
+## FEATURES
+What makes this writing software unique:
+
+### OUTLINER
+Organize your thoughts and snippets in a hierarchical manner. Organize them as you wish, reorganize them on the go.
+ 
+### DISTRACTION-FREE MODE
+Get rid of all distraction while writing. Set personal goal in word count or time before you can leave editor.
+ 
+### NOVEL ASSISTANT
+Use the snowflake method to grow your single genius idea in an coherent whole, with complex characters, intricate plots and detailed universe.
+
+### FREE AS IN FREE SPEECH
+Because free is always better.
+
+## ABOUT
+**Everything you need to unleash the creator within you.**
+Manuskript is a perfect tool for those writer who like to organize and plan everything before writing.
+
+The snowflake method can help you grow your idea into a book, by leading you step by step and asking you questions to go deeper.
+
+While writing, keep track of notes about every characters, plot, event, place in your story. 
+
+Manuskript is still in development, and in need of extensive testing.
+
+### CHARACTERS
+Develop complex characters and keep track of all useful infos.
+
+### PLOTS
+Create intricate plots, linked to your characters, and use them to outline your story.
+
+### WORLD
+Organize your ideas about the world your characters live in.
+
+### WRITE
+Simply start writing.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/manuskript/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/olivierkes/manuskript/blob/master/CHANGELOG.md</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

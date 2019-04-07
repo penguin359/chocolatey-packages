@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>netbeans</id>
+    <version>11.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/netbeans</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Apache NetBeans</title>
+    <authors>NetBeans Team</authors>
+    <projectUrl>https://netbeans.apache.org</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/netbeans/netbeans.png</iconUrl>
+    <copyright>Copyright © 2017-2019 The Apache Software Foundation.</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/apache/incubator-netbeans/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/apache/incubator-netbeans</projectSourceUrl>
+    <docsUrl>https://netbeans.apache.org/help/index.html</docsUrl>
+    <mailingListUrl>https://netbeans.apache.org/community/mailing-lists.html</mailingListUrl>
+    <bugTrackerUrl>https://netbeans.apache.org/participate/report-issue.html</bugTrackerUrl>
+    <tags>netbeans development jave ide environment application framework</tags>
+    <summary>Development environment, tooling platform, application framework.</summary>
+    <description><![CDATA[
+**Fits the Pieces Together**
+
+## FEATURES
+
+### Fast & Smart Editing
+Apache NetBeans is much more than a text editor. It highlights source code syntactically and semantically, lets you easily refactor code, with a range of handy and powerful tools.
+
+### Java, JavaScript, PHP, HTML5, CSS, and More
+Apache NetBeans provides editors, wizards, and templates to help you create applications in Java, PHP and many other languages.
+
+### Cross Platform
+Apache NetBeans can be installed on all operating systems that support Java, i.e, Windows, Linux, Mac OSX and BSD. Write Once, Run Anywhere, applies to NetBeans too.
+
+ 
+### Join us
+Subscribe to our mailing lists, or follow us in Twitter, Slack, FaceBook or YouTube.
+
+ 
+### Participate
+See how you can participate by submitting pull requests, or filing issues.
+ 
+### Learn
+We are currently reviewing the tutorials. See how you can help us review the Java and PHP tutorials.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/netbeans/screenshot.png)
+]]></description>
+    <releaseNotes>https://cwiki.apache.org/confluence/display/NETBEANS/Apache+NetBeans+Releases</releaseNotes>
+    <dependencies>      
+      <dependency id="jdk8" version="8.0.201" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

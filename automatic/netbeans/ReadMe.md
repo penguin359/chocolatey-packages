@@ -25,3 +25,5 @@ See how you can participate by submitting pull requests, or filing issues.
 We are currently reviewing the tutorials. See how you can help us review the Java and PHP tutorials.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/netbeans/screenshot.png)
+
+**Notice: NetBeans needs JDK 8 and above to be used.**

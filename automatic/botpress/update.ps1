@@ -1,7 +1,7 @@
 ﻿import-module au
 $releases = "https://github.com/botpress/botpress/releases"
 $releases_download = "https://s3.amazonaws.com/botpress-binaries/"
-$regex   = ' <a href="/botpress/botpress/releases/tag/v(?<Version>[\d\.]*).zip">'
+$regex   = ' <a href="/botpress/botpress/releases/tag/v(?<Version>[\d\.]*)">'   
 
 function global:au_GetLatest {
 	$download_page = (Invoke-WebRequest -Uri $releases -UseBasicParsing) -match $regex

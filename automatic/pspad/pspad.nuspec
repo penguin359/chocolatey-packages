@@ -4,19 +4,19 @@
   <metadata>
     <id>pspad</id>
     <version>5.0.1</version>
-	<packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/pspad</packageSourceUrl>
-	<owners>chtof</owners>
+	  <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/pspad</packageSourceUrl>
+	  <owners>chtof</owners>
     <title>PSPad</title>
     <authors>Jan Fiala</authors>    
     <projectUrl>http://www.pspad.com/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pspad/pspad.png</iconUrl>
-	<copyright>Copyright (C) 2001-2015 Jan Fiala</copyright>
-	<licenseUrl>http://www.pspad.com/en/licence.php</licenseUrl>
-	<docsUrl>http://www.pspad.com/en/helpfiles.htm</docsUrl>
+    <copyright>Copyright (C) 2001-2015 Jan Fiala</copyright>
+    <licenseUrl>http://www.pspad.com/en/licence.php</licenseUrl>
+    <docsUrl>http://www.pspad.com/en/helpfiles.htm</docsUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<tags>pspad text editor foss windows freeware development</tags>
-	<summary>PSPad is a freeware programmer's editor for Microsoft Windows operating systems.</summary>
-	<description><![CDATA[[PSPad](http://www.pspad.com/en) is a freeware programmer's editor for Microsoft Windows operating systems, useful for people who:
+    <tags>pspad text editor foss windows freeware development</tags>
+    <summary>PSPad is a freeware programmer's editor for Microsoft Windows operating systems.</summary>
+    <description><![CDATA[[PSPad](http://www.pspad.com/en) is a freeware programmer's editor for Microsoft Windows operating systems, useful for people who:
 
 - work with various programming environments
 - like highlighted syntax in their source code

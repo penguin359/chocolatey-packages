@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>omnirig</id>
-    <version>1.18.0.20190228</version>    
+    <version>1.19</version>    
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/omnirig</packageSourceUrl>
     <owners>chtof</owners>
     <title>OmniRig</title>
@@ -20,8 +20,7 @@
     <!-- <bugTrackerUrl></bugTrackerUrl>-->
     <tags>omnirig cat control HAM amateur radio</tags>
     <summary>A COM component for transceiver/receiver CAT control.</summary>
-    <description><![CDATA[
-A COM component for transceiver/receiver CAT control.
+    <description><![CDATA[A COM component for transceiver/receiver CAT control.
 ## Features
 - **Multi-threading**: multiple programs, written by different authors in different languages, can control the radio via Omni-Rig at the same time; 
 - **External rig description files**: the support of a new rig model can be implemented just by creating an ini file that describes the CAT commands of the radio.

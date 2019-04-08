@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/omnirig/omnirig.png" width="48" height="48"/> [PSPad](https://chocolatey.org/packages/omnirig)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/omnirig/omnirig.png" width="48" height="48"/> [OmniRig](https://chocolatey.org/packages/omnirig)
 
 A COM component for transceiver/receiver CAT control.
 ## Features

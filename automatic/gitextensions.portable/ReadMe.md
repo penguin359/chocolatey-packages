@@ -22,24 +22,22 @@
 ## View Commit Log
 The full commit history can be browsed. Branches are shown using a graph which highlights commits that are included in the current revision.
 
-[screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gitextensions.portable/screenshot1.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gitextensions.portable/screenshot1.png)
 
 ## File History
 Explore the history of single files. Renamed and moved files are matched and shown in a single history. You do not need to mark files as renamed/moved. The system detects renamed files automatically.
 
-[screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gitextensions.portable/screenshot2.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gitextensions.portable/screenshot2.png)
 
 ## Blame
 Find the last person that edited a specific part of a file. Double click on the line shows the commit and allows you to drill-down to other files.
 
-[screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gitextensions.portable/screenshot3.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gitextensions.portable/screenshot3.png)
 
 ## Multi Platform
 Git Extensions runs on multiple platforms using Mono.
 
-[screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gitextensions.portable/screenshot4.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gitextensions.portable/screenshot4.png)
 
 ## Active Community
-The active community of Git Extensions is still growing and is supporting Git Extensions
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gitextensions.portable/screenshot.png)
+The active community of Git Extensions is still growing and is supporting Git Extensions.

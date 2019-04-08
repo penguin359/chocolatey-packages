@@ -6,7 +6,7 @@
     <version>1.5</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/texts</packageSourceUrl>
     <owners>chtof</owners>
-    <title>TEXTS</title>
+    <title>Texts</title>
     <authors>Text Software Limited</authors>
     <projectUrl>http://www.texts.io</projectUrl>
 	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/texts/texts.png</iconUrl>
@@ -58,7 +58,7 @@ Adjust style of any published documents with export templates.
 ]]></description>
     <releaseNotes>http://www.texts.io/news/</releaseNotes>
     <dependencies>
-      <dependency id="pandoc" version="[2.7.1]" />
+      <dependency id="pandoc" version="[2.0,2.1)" />
     </dependencies>
   </metadata>
   <files>

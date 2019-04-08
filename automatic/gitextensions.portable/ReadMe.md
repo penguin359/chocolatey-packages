@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gitextensions.portable/gitextensions.portable.png" width="48" height="48"/> [Git Extensions](https://chocolatey.org/packages/gitextensions.portable)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gitextensions.portable/gitextensions.portable.png" width="48" height="48"/> [Git Extensions (Portable)](https://chocolatey.org/packages/gitextensions.portable)
 
 - [Online manual](https://git-extensions-documentation.readthedocs.org/en/latest/)
 - [Issue tracker](http://github.com/gitextensions/gitextensions/issues)

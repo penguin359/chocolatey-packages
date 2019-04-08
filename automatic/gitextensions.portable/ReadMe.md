@@ -1,9 +1,9 @@
 ﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gitextensions.portable/gitextensions.portable.png" width="48" height="48"/> [Git Extensions](https://chocolatey.org/packages/gitextensions.portable)
 
-- [Online manual(https://git-extensions-documentation.readthedocs.org/en/latest/)] 
-- [Issue tracker(http://github.com/gitextensions/gitextensions/issues)]
-- [Gitter channel og Git Extensions(https://gitter.im/gitextensions/gitextensions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)]
-- [Donate to Git Extensions via OpenCollective(https://opencollective.com/gitextensions)]
+- [Online manual](https://git-extensions-documentation.readthedocs.org/en/latest/)
+- [Issue tracker](http://github.com/gitextensions/gitextensions/issues)
+- [Gitter channel og Git Extensions](https://gitter.im/gitextensions/gitextensions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+- [Donate to Git Extensions via OpenCollective](https://opencollective.com/gitextensions)
 
 ## Features
 - Windows Explorer integration for Git

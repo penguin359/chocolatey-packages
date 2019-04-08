@@ -1,11 +1,9 @@
 import-module au
-
 $releases = 'http://www.dxatlas.com/omnirig/'
+$regex   = 'Omni-Rig (.*?)<'
 
 function global:au_GetLatest {
-     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	 $regex   = 'Omni-Rig (.*?)<'
-	 $download_page -match $regex
+     (Invoke-WebRequest -Uri $releases -UseBasicParsing) -match $regex
      return @{ Version = $matches[1] }
 }
 

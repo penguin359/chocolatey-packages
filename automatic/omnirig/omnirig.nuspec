@@ -9,7 +9,7 @@
     <title>OmniRig</title>
     <authors>Alex Shovkoplyas VE3NEA</authors>    
     <projectUrl>http://www.dxatlas.com/omnirig/</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/master/omnirig/omnirig.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/master/automatic/omnirig/omnirig.png</iconUrl>
     <copyright>1998-2015 Afreet Software, Inc.</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>

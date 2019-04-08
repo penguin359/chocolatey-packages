@@ -2,15 +2,14 @@
 $toolsDir = Split-Path -parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
-  packageName	= $ENV:ChocolateyPackageName    
+  packageName	= $ENV:ChocolateyPackageName
+  unzipLocation = $toolsDir
+  file          = Get-Item -path $toolsDir\*.zip
+
   url			= 'https://www.pspad.com/files/pspad/pspad501en.zip'
   checksumType	= 'sha256'
   checksum		= 'D3B19FDC3FF879282C3671081BEE53B4A9CB61D5857DF29DD2D7F2BF81E34EB8'
-  
-  fileType		= 'zip'
-  file			= Get-Item -path $toolsDir\*.zip
-  unzipLocation = $toolsDir
-
+    
   validExitCodes =  @(0)
 }
 

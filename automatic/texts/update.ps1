@@ -1,7 +1,7 @@
 ﻿import-module au
 $projectUrl = 'http://www.texts.io'
 $releases = $projectUrl + '/download/'
-$regex = '\/(?<File>Texts-(?<Version>[\d\.]*).msi)$'
+$regex = '(?<File>\/Texts-(?<Version>[\d\.]*).msi)$'
 
 function global:au_GetLatest {
      $download_page = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex

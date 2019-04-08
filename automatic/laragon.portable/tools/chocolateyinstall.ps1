@@ -3,8 +3,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  unzipLocation = $toolsDir
-  fileType      = 'zip'  
+  unzipLocation = $toolsDir  
   file         =  'laragon.exe'
 
   url           = 'https://github.com/leokhoa/laragon/releases/download/4.0.12/laragon.7z'

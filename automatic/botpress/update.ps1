@@ -1,10 +1,10 @@
 ﻿import-module au
 $releases = "https://github.com/botpress/botpress/releases"
 $releases_download = "https://s3.amazonaws.com/botpress-binaries/"
-$regex   = ' <a href="/botpress/botpress/releases/tag/v(?<Version>[\d\.]*)">'   
+$regex   = ' <a href="/botpress/botpress/releases/tag/v(?<Version>[\d\.]*)">'
 
 function global:au_GetLatest {
-	$download_page = (Invoke-WebRequest -Uri $releases -UseBasicParsing) -match $regex
+	(Invoke-WebRequest -Uri $releases -UseBasicParsing) -match $regex | out-null
 	$version_download = $matches.Version -replace "\.", "_"
 	return @{ Version = $matches.Version ; URL = $releases_download + "botpress-v" + $version_download + "-win-x64.zip" ; zipFileName = "botpress-v" + $version_download + "-win-x64.zip" }
 }

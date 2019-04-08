@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/netbeans/netbeans.png" width="48" height="48"/> [Apache NetBeans](https://chocolatey.org/packages/netbeans)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/apache-netbeans/apache-netbeans.png" width="48" height="48"/> [Apache NetBeans](https://chocolatey.org/packages/apache-netbeans)
 
 **Fits the Pieces Together**
 
@@ -24,6 +24,6 @@ See how you can participate by submitting pull requests, or filing issues.
 ### Learn
 We are currently reviewing the tutorials. See how you can help us review the Java and PHP tutorials.
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/netbeans/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/apache-netbeans/screenshot.png)
 
-**Notice: NetBeans needs JDK 8 and above to be used.**
+**Notice: Apache NetBeans needs JDK 8 and above to be used.**

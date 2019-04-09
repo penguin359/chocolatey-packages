@@ -14,7 +14,7 @@
     <licenseUrl>https://www.dennisbabkin.com/srr</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <docsUrl>https://dennisbabkin.com/php/docs.php?what=srr</docsUrl>
+    <!--<docsUrl></docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://dennisbabkin.com/sfb</bugTrackerUrl>
     <tags>simpleradiorecorder radio podcast pandora spotify satellite sirius xm recorder</tags>

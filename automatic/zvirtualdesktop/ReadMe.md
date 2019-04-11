@@ -2,9 +2,9 @@
 
 This is commercial software. All users will be given a 10 day trial and you will need to purchase a license to continuing using when the trial expires.
 
-# Features  
+### Features  
 
-# Hotkeys:  
+## Hotkeys:  
 
 Hotkeys are not limited to virtual desktops. You can choose any hotkey for any of the following actions  
   
@@ -47,6 +47,54 @@ Below are the default hotkeys for virtual desktops. You can configure these any 
 __Navigate Desktops:__  
 <kbd>WIN</kbd>+<kbd>CTRL</kbd>+<kbd>Numpad</kbd>  
 <kbd>WIN</kbd>+<kbd>CTRL</kbd>+<kbd>NumberKeys</kbd>  
-<kbd>WIN</kbd>+<kbd>CTRL</kbd>+<kbd>LEFT</kbd> or <kbd>RIGHT</kbd> - this is Windows Default and can be overridden to allow Round
+<kbd>WIN</kbd>+<kbd>CTRL</kbd>+<kbd>LEFT</kbd> or <kbd>RIGHT</kbd> - this is Windows Default and can be overridden to allow "Round Robin"   
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/zvirtualdesktop/screenshot.png)
+__Move Windows:__  
+The foreground window will be the window which moves  
+<kbd>WIN</kbd>+<kbd>ALT</kbd>+<kbd>Numpad</kbd>  
+<kbd>WIN</kbd>+<kbd>ALT</kbd>+<kbd>NumberKeys</kbd>  
+<kbd>WIN</kbd>+<kbd>ALT</kbd>+<kbd>LEFT</kbd> or <kbd>RIGHT</kbd>
+
+__Move Window & Follow:__  
+The foreground window will be the window which moves  
+<kbd>WIN</kbd>+<kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Numpad</kbd>  
+<kbd>WIN</kbd>+<kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>NumberKeys</kbd>  
+<kbd>WIN</kbd>+<kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>LEFT</kbd> or <kbd>RIGHT</kbd>
+
+__Pin/Unpin Windows:__  
+The foreground window will be the window which is pinned  
+<kbd>WIN</kbd>+<kbd>ALT</kbd>+<kbd>Z</kbd>
+
+__Pin/Unpin Applications:__  
+The foreground window will be the window which is pinned  
+<kbd>WIN</kbd>+<kbd>ALT</kbd>+<kbd>A</kbd>
+
+__What is the difference between pin app and pin window?__  
+An easy way to imagine this is if you use `pin window` on a chrome browser window, 
+only that window will be visible on all desktops. Any other chrome windows would 
+stay on a single desktop. If you were to `pin application` on a chrome window then 
+all chrome windows would show up on all desktops. This includes new chrome windows.
+
+## System Tray Icon  
+- Choose from several sets of icons  
+- The icons indicate which desktop you are viewing  
+- `Left-Click` the system tray icon to display or hide DesktopView.  
+- `Right-Click` the system tray icon to bring up the main menu.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/z-cron/screenshot1.png)
+
+Make your own icons and attach them to an issue then they will add to the program.  
+[How to submit icon files](https://github.com/mzomparelli/zVirtualDesktop/issues/23)
+
+Download the current icons and alter ones you like.  
+[Icons.zip](https://github.com/mzomparelli/zVirtualDesktop/blob/master/zVirtualDesktop/Icons.zip?raw=true)
+
+## Wallpapers  
+- Set a different wallpaper for each desktop  
+- Specify the style for each (Center, Stretch, or Tile)
+
+## Desktop Names  
+- Rename desktops directly in DesktopView or in the settings window   
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/z-cron/screenshot2.gif)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/z-cron/screenshot3.gif)

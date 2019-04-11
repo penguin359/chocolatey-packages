@@ -64,14 +64,6 @@ Sublime Merge performs full syntax highlighting identically to Sublime Text for 
 
 We'll even use any extra syntax definitions that we find in your Sublime Text installation for syntax highlighting!
 
-### COMMAND LINE INTEGRATION
-Sublime Merge is designed to work hand in hand with the command line. All changes to the repository are updated live and everything works the same way whether it's triggered from the command line or the UI. Use the terminal where it makes sense and use the GUI where it works best.
-
-Use the smerge tool that comes with Sublime Merge to interact with it from the command line: open repositories, blame files or search for commits
-
-### REAL GIT
-Sublime Merge uses the same terminology as Git, and doesn't make use of any state beyond Git itself. When you're working with Sublime Merge, you're working with Real Git, not a simplified version
-
-You can also hover over most buttons to see which git command it will run.
+And more... See all features on https://www.sublimemerge.com.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/sublimemerge/screenshot.png)

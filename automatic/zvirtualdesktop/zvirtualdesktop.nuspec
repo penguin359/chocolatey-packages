@@ -65,29 +65,29 @@ Hotkeys are not limited to virtual desktops. You can choose any hotkey for any o
 Below are the default hotkeys for virtual desktops. You can configure these any way you'd like.
 
 __Navigate Desktops:__  
-<kbd>WIN</kbd>+<kbd>CTRL</kbd>+<kbd>Numpad</kbd>  
-<kbd>WIN</kbd>+<kbd>CTRL</kbd>+<kbd>NumberKeys</kbd>  
-<kbd>WIN</kbd>+<kbd>CTRL</kbd>+<kbd>LEFT</kbd> or <kbd>RIGHT</kbd> - this is Windows Default and can be overridden to allow "Round Robin"   
+__WIN__+__CTRL__+__Numpad__  
+__WIN__+__CTRL__+__NumberKeys__  
+__WIN__+__CTRL__+__LEFT__ or __RIGHT__ - this is Windows Default and can be overridden to allow "Round Robin"   
 
 __Move Windows:__  
 The foreground window will be the window which moves  
-<kbd>WIN</kbd>+<kbd>ALT</kbd>+<kbd>Numpad</kbd>  
-<kbd>WIN</kbd>+<kbd>ALT</kbd>+<kbd>NumberKeys</kbd>  
-<kbd>WIN</kbd>+<kbd>ALT</kbd>+<kbd>LEFT</kbd> or <kbd>RIGHT</kbd>
+__WIN__+__ALT__+__Numpad__  
+__WIN__+__ALT__+__NumberKeys__  
+__WIN__+__ALT__+__LEFT__ or __RIGHT__
 
 __Move Window & Follow:__  
 The foreground window will be the window which moves  
-<kbd>WIN</kbd>+<kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Numpad</kbd>  
-<kbd>WIN</kbd>+<kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>NumberKeys</kbd>  
-<kbd>WIN</kbd>+<kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>LEFT</kbd> or <kbd>RIGHT</kbd>
+__WIN__+__CTRL__+__ALT__+__Numpad__  
+__WIN__+__CTRL__+__ALT__+__NumberKeys__  
+__WIN__+__CTRL__+__ALT__+__LEFT__ or __RIGHT__
 
 __Pin/Unpin Windows:__  
 The foreground window will be the window which is pinned  
-<kbd>WIN</kbd>+<kbd>ALT</kbd>+<kbd>Z</kbd>
+__WIN__+__ALT__+__Z__
 
 __Pin/Unpin Applications:__  
 The foreground window will be the window which is pinned  
-<kbd>WIN</kbd>+<kbd>ALT</kbd>+<kbd>A</kbd>
+__WIN__+__ALT__+__A__
 
 __What is the difference between pin app and pin window?__  
 An easy way to imagine this is if you use `pin window` on a chrome browser window, 

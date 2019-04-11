@@ -6,7 +6,7 @@
     <version>2.15.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/logisim-evolution</packageSourceUrl>
     <owners>chtof</owners>
-    <title>Logisim</title>
+    <title>Logisim Evolution</title>
     <authors>Carl Burch - Hendrix College - USA, Haute École Spécialisée Bernoise - Switzerland, Haute École du paysage, d'ingénierie et d'architecture de Genève - Switzerland, Haute École d'Ingénierie et de Gestion du Canton de Vaud - Switzerland, Theldo Cruz Franqueira - Pontifícia Universidade Católica de Minas Gerais - Brasil, Moshe Berman - Brooklyn College</authors>
     <projectUrl>https://github.com/reds-heig/logisim-evolution</projectUrl>
 	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/logisim-evolution/logisim-evolution.png</iconUrl>

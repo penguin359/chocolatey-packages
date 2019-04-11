@@ -14,7 +14,7 @@
     <licenseUrl>https://github.com/reds-heig/logisim-evolution/blob/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/reds-heig/logisim-evolution</projectSourceUrl>
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <docsUrl>http://reds-data.heig-vd.ch/logisim-evolution/IntroToLogisimEnglish.pdf</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/reds-heig/logisim-evolution/issues</bugTrackerUrl>
     <tags>logisim-evolution digital logic designer simulator</tags>

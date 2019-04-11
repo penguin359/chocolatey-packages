@@ -25,16 +25,9 @@ Locale Emulator is a tool similar to MS AppLocale and NTLEA, providing a simulat
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/locale-emulator/screenshot.png)
 ]]></description>
     <releaseNotes>https://github.com/xupefei/Locale-Emulator/releases</releaseNotes>
-    <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
-    <!--<dependencies>
-      <dependency id="" version="__MINIMUM_VERSION__" />
-      <dependency id="" version="[__EXACT_VERSION__]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
-      <dependency id="" />
-      <dependency id="chocolatey-uninstall.extension" />
-    </dependencies>-->
-    <!-- chocolatey-uninstall.extension - If supporting 0.9.9.x (or below) and including a chocolateyUninstall.ps1 file to uninstall an EXE/MSI, you probably want to include chocolatey-uninstall.extension as a dependency. Please verify whether you are using a helper function from that package. -->
+    <dependencies>
+      <dependency id="autohotkey.install" version="1.1.30" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

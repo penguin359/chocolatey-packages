@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/zvirtualdesktop/zvirtualdesktop.png" width="48" height="48"/> [zVirtualDesktop](https://chocolatey.org/packages/zvirtualdesktop)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/zvirtualdesktop/packageDefaultIcon.png" width="48" height="48"/> [zVirtualDesktop](https://chocolatey.org/packages/zvirtualdesktop)
 
 This is commercial software. All users will be given a 10 day trial and you will need to purchase a license to continuing using when the trial expires.
 

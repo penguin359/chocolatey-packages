@@ -1,6 +1,7 @@
 ﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/sublimemerge/sublimemerge.png" width="48" height="48"/> [Sublime Merge](https://chocolatey.org/packages/sublimemerge)
 
-__Meet a new Git Client, from the makers of Sublime Text.__
+___Meet a new Git Client, from the makers of Sublime Text.___
+
 A snappy UI, three-way merge tool,
 side-by-side diffs, syntax highlighting, and more. Evaluate for free – no account, tracking, or time limits.
 Interested? Read the [release announcement](https://www.sublimetext.com/blog/articles/sublime-merge).
@@ -58,11 +59,6 @@ The dark theme is only available with a valid license key.
 
 ### EXTENSIBILITY
 Just like Sublime Text, just about everything in Sublime Merge is extensible. Key bindings, menus, theming, and the command palette are all customizable with simple JSON files.
-
-### SYNTAX HIGHLIGHTING
-Sublime Merge performs full syntax highlighting identically to Sublime Text for every line of code you see.
-
-We'll even use any extra syntax definitions that we find in your Sublime Text installation for syntax highlighting!
 
 And more... See all features on https://www.sublimemerge.com.
 

@@ -44,13 +44,6 @@ We have decided to release this new Logisim version under the name logisim-evolu
 * code refactoring
 * ...
 
-## Running logisim-evolution
-You can find an already compiled **stable** version of the code [here](http://reds-data.heig-vd.ch/logisim-evolution/logisim-evolution.jar).
-To execute it, run the downloaded file or type in a console/terminal:
-```bash
-java -jar logisim-evolution.jar
-```
-
 ## Testing logisim-evolution
 As logisim-evolution needs updates (new features and patches) and currently lacks unit tests, the *testing* branch was created.
 The goal of this branch is to add new features/patches without affecting the release on branch master.

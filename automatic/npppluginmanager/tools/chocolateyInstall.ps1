@@ -20,7 +20,7 @@ $assetsToCopy = 'updater', 'plugins'
 $ignoreShims = 'updater/gpup.exe'
 
 $packageArgs = @{
-  PackageName            = 'notepadplusplus-nppPluginManager'
+  PackageName            = 'nppPluginManager'
   UnzipLocation          = $toolsPath
   Url64bit               = 'https://github.com/bruderstein/nppPluginManager/releases/download/v1.4.12/PluginManager_v1.4.12_x64.zip'
   Checksum64             = 'FEC6D4DAB3095C074C38002F36E6090343E3F95FABCF4AF8A798832E116681FE'

@@ -6,7 +6,7 @@
     <version>2.71</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/phonerlite.install</packageSourceUrl>
     <owners>chtof</owners>
-    <title>PhonerLite</title>
+    <title>PhonerLite (Install)</title>
     <authors>Heiko Sommerfeldt</authors>
     <projectUrl>http://phonerlite.de</projectUrl>
 	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/phonerlite.install/phonerlite.install.png</iconUrl>

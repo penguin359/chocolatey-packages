@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir  
   
   url           = 'https://www.phoner.de/PhonerLite.zip'
-  checksum      = '2E58A59EDF817B3F54D0444B649ADE866ABB51DBA9AD1B13A1F143A8CB37CBB1'
+  checksum      = '18189C34F8EF4BCADB94A96AAE8E6E5DA97ADE060D43F9D0EED78DE316CD9001'
   checksumType  = 'sha256'
 }
 
@@ -15,5 +15,5 @@ Install-ChocolateyZipPackage @packageArgs
 # Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = Join-Path $programs "PhonerLite.lnk"
-$targetPath = Join-Path $toolsDir "PhonerLite\PhonerLite.exe"
+$targetPath = Join-Path $toolsDir "PhonerLite.exe"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath

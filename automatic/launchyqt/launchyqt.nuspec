@@ -6,7 +6,7 @@
     <version>3.0.7</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/launchyqt</packageSourceUrl>
     <owners>chtof</owners>
-    <title>Launchy NG</title>
+    <title>Launchy QT</title>
     <authors>Launchy Team</authors>
     <projectUrl>https://github.com/samsonwang/LaunchyQt</projectUrl>
 	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/launchyqt/launchyqt.png</iconUrl>
@@ -40,7 +40,7 @@ Launchy opening a song using the Black Glass skin:
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/launchyqt/screenshot3.png)
 
 ]]></description>
-    <releaseNotes>https://github.com/samsonwang/LaunchyQt/releases</releaseNotes>   
+    <releaseNotes>https://github.com/samsonwang/LaunchyQt/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

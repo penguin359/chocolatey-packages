@@ -10,7 +10,7 @@
     <authors>Dennis Babkin</authors>
     <projectUrl>https://www.dennisbabkin.com/wosb</projectUrl>
 	  <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/wakeuponstandby/wakeuponstandby.png</iconUrl>
-    <copyright>(C) 2003-2019 www.dennisbabkin.com. All Rights Reserved.</copyright>
+    <copyright>© 2003-2019 www.dennisbabkin.com. All Rights Reserved.</copyright>
     <licenseUrl>https://www.dennisbabkin.com/wosb</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->

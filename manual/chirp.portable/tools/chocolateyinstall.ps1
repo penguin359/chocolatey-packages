@@ -3,11 +3,10 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  unzipLocation = $toolsDir
-  fileType      = 'zip'
+  unzipLocation = $toolsDir  
   file         =  'chirpw.exe'
   
-  url           = 'https://trac.chirp.danplanet.com/chirp_daily/LATEST/chirp-daily-20190411-win32.zip'
+  url           = 'https://trac.chirp.danplanet.com/chirp_daily/daily-20190411/chirp-daily-20190411-win32.zip'
   checksum      = '689be237ca7cd42776e580dff1f07d6719177b89014e744c9eb3dbcbcad93af7'
   checksumType  = 'sha256'  
 }

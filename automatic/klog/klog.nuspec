@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>klog</id>
-    <version>0.9.7.2.20190413</version>
+    <version>0.9.7.200</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/klog</packageSourceUrl>
     <owners>chtof</owners>
     <title>KLog</title>

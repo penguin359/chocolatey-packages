@@ -15,4 +15,3 @@ $packageArgs = @{
 }
 
 Install-ChocolateyZipPackage @packageArgs
-Write-Warning "DNSCrypt Proxy is installed in $toolsDir."

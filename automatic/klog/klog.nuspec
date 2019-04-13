@@ -11,8 +11,7 @@
     <!-- projectUrl is required for the community feed -->
     <projectUrl>http://www.klog.xyz/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/klog/klog.png</iconUrl>
-    <!-- <copyright>Year Software Vendor</copyright> -->
-    <!-- If there is a license Url available, it is required for the community feed -->
+    <!-- <copyright>Year Software Vendor</copyright> -->    
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>http://svn.sv.gnu.org/viewvc/?root=klog</projectSourceUrl>
@@ -21,7 +20,24 @@
     <bugTrackerUrl>https://savannah.nongnu.org/bugs/?group=klog</bugTrackerUrl>
     <tags>klog log HAM radio amateur</tags>
     <summary>KLog is a Ham radio logging program for Linux / OSX / Windows.</summary>
-    <description><![CDATA[KLog is the only hamradio logging program that can be executed in several operating systems!
+    <description><![CDATA[
+KLog is the only hamradio logging program that can be executed in several operating systems!
+
+## Features
+KLog has many features that will help you to manage your radio activity.
+
+Those main features include:
+- [Multilanguage](http://www.klog.xyz/contrib/translations) support.
+- QSO logging, adding, editing, searching, removing…
+- Several logs management.
+- Paper QSL management.
+- [eQSL](http://www.eqsl.cc/), LoTW management (still not fully integrated).
+- [ClubLog](http://www.clublog.org) integration.
+- [DX-Cluster](http://www.klog.xyz/features/dx-cluster) client that will show you the status (worked, needed…) of each spot.
+- DXCC status per band.
+- [ADIF](http://www.adif.org) import and export.
+- [DX Marathon](http://www.dxmarathon.com) basic support.
+- Basic [WSJT-X](https://physics.princeton.edu/pulsar/k1jt/wsjtx.html) integration.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/klog/screenshot.png)
 ]]></description>

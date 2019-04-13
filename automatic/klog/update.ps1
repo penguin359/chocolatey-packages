@@ -1,13 +1,12 @@
 import-module au
-
 $releases = 'https://download.savannah.gnu.org/releases/klog/win/'
+$regex   = 'KLog-(.*)-windows-installer.exe$'
 
 function global:au_GetLatest {
      $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	 $regex   = 'KLog-(.*)-windows-installer.exe$'
 	 $url = $download_page.links | ? href -match $regex | select -Last 1
 	 $version = $url -split '-|.exe' | select -Last 1 -Skip 3
-     return @{ Version = $version ; URL32 = $releases+$url.href }
+     return @{ Version = $version ; URL32 = $releases + $url.href }
 }
 
 function global:au_SearchReplace {

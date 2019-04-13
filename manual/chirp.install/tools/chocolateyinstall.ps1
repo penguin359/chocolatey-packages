@@ -5,8 +5,8 @@ $packageArgs = @{
   softwareName	= 'CHIRP'  
   fileType		= 'exe'
   
-  url           = 'https://trac.chirp.danplanet.com/chirp_daily/daily-20190411/chirp-daily-20190411-installer.exe'
-  checksum      = '8124848005b116d165d69f565260c2b8118d6605ec82dece846c3f80262a7cb0'
+  url           = 'https://trac.chirp.danplanet.com/chirp_daily/daily-20190412/chirp-daily-20190412-installer.exe'
+  checksum      = 'a0b042fd562835ef199ac94fea9154d2767c68764d04e0c7acbd3a35ea20c65b'
   checksumType  = 'sha256' 
   
   silentArgs = '/S'

@@ -10,8 +10,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   fileType      = 'exe'
   
-  url           = 'http://www.w1hkj.com/files/fldigi/fldigi-4.1.01_setup.exe'
-  checksum      = '26986F0938FB51E3E321205EB1509167FA7505D4310BBEB84735E407276D7B3F'
+  url           = 'http://www.w1hkj.com/files/fldigi/fldigi-4.1.02_setup.exe'
+  checksum      = '46b145373aab8b8d8783ea32e783c3a26b6fcd0781bcc260a47c38c70a72adcb'
   checksumType  = 'sha256'
   
   silentArgs	= $silentArgs

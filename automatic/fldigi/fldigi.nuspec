@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn't appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>fldigi</id>    
-    <version>4.1.01.20190324</version>    
+    <version>4.1.02</version>    
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/fldigi</packageSourceUrl>
     <owners>chtof</owners>
     <title>fldigi</title>
@@ -18,22 +18,9 @@
     <mailingListUrl>https://sourceforge.net/p/fldigi/mailman/</mailingListUrl>    
     <tags>fldigi digital modes HAM radio amateur</tags>
     <summary>Sights and Sounds of Digital Modes</summary>
-    <description><![CDATA[
-Fldigi is a modem program for most of the digital modes used by radio amateurs today: CW, PSK, MFSK, RTTY, Hell, DominoEX, Olivia, and Throb are all supported. It can help calibrate a sound card to a time signal and do frequency measurement tests.
+    <description><![CDATA[Fldigi is a modem program for most of the digital modes used by radio amateurs today: CW, PSK, MFSK, RTTY, Hell, DominoEX, Olivia, and Throb are all supported. It can help calibrate a sound card to a time signal and do frequency measurement tests.
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/fldigi/screenshot.png)
-
-### Package Specific
-#### Package Parameters
-The following package parameter can be set:
-
-* `/DIR:` Where to install the program, defaults to "`C:\Program Files(x86)\fldigi-[VERSION]`".
-
-To pass parameters, use `--params "''"`
-(e.g  `choco install flrig --params="'/DIR:c:"\fldigi" /ITEM2:value2 /FLAG_BOOLEAN'"`).
-
-To have choco remember parameters on upgrade, be sure to set:
-`choco feature enable -n=useRememberedArgumentsForUpgrades`
+![screenshot](https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/fldigi/screenshot.png)
 ]]></description>
     <releaseNotes>https://sourceforge.net/p/fldigi/fldigi/ci/master/tree/ChangeLog</releaseNotes>    
   </metadata>

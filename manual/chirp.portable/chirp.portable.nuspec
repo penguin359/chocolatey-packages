@@ -3,17 +3,17 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>chirp.portable</id>
-    <version>2019.04.11</version>	
+    <version>2019.04.12</version>
 	<packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/chirp.portable</packageSourceUrl>
 	<owners>chtof</owners>
     <title>CHIRP (Portable)</title>
     <authors>Dan Smith KK7DS with significant contributions from Tom KD7LXL, Marco IZ3GME, Jim KC9HI.</authors>
     <projectUrl>http://chirp.danplanet.com/projects/chirp/wiki/Home</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/chirp.portable/chirp.portable.png</iconUrl>        
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/chirp.portable/chirp.portable.png</iconUrl>
 	<copyright>Copyright 2015 Dan Smith (KK7DS)</copyright>
     <licenseUrl>http://chirp.danplanet.com/projects/chirp/repository/revisions/222c1830b798/entry/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<projectSourceUrl>http://chirp.danplanet.com/projects/chirp/repository</projectSourceUrl>    
+	<projectSourceUrl>http://chirp.danplanet.com/projects/chirp/repository</projectSourceUrl>
     <docsUrl>http://chirp.danplanet.com/projects/chirp/wiki/Documentation</docsUrl>
 	<mailingListUrl>http://intrepid.danplanet.com/mailman/listinfo/chirp_users</mailingListUrl>
     <bugTrackerUrl>http://chirp.danplanet.com/projects/chirp/issues</bugTrackerUrl>
@@ -24,9 +24,9 @@ CHIRP is distributed as a series of automatically-generated builds. Any time we 
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/chirp.portable/screenshot.png)
 ]]></description>
-    <releaseNotes>http://chirp.danplanet.com/projects/chirp/repository/revisions</releaseNotes>    
+    <releaseNotes>http://chirp.danplanet.com/projects/chirp/repository/revisions</releaseNotes>
   </metadata>
-  <files>    
-    <file src="tools\**" target="tools" />    
+  <files>
+    <file src="tools\**" target="tools" />
   </files>
 </package>

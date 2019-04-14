@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/myrica/myrica.png" width="48" height="48"/> [Myrika](https://chocolatey.org/packages/myrica)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/myrica/myrica.png" width="48" height="48"/> [Myrica](https://chocolatey.org/packages/myrica)
 
 Based on multiple font files, it has been combined / modified to improve visibility and discrimination.
 

@@ -23,7 +23,7 @@ $shell = New-Object -ComObject Shell.Application
 $fontsFolder = $shell.Namespace(0x14)
  
 # Loop the extracted files and install them
-Get-ChildItem -Path $tempPath\Myrica-$($env:ChocolateyPackageVersion)\Work -Recurse -Filter '*.ttf' | ForEach-Object { 
+Get-ChildItem -Path $tempPath\Myrica-$($env:ChocolateyPackageVersion)\Work -Recurse -Filter '*.ttf' -Exclude MyricaM.ttf, MyricaMM.ttf | ForEach-Object { 
     Write-Verbose "Registering font '$($_.Name)'."
     $fontsFolder.CopyHere($_.FullName)  # copying to fonts folder ignores a second param on CopyHere
 }

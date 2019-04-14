@@ -25,14 +25,14 @@ ASCII characters are files based on Inconsolata, and other characters are based 
 The characters are considered to be easy to distinguish for programming.
 
 The ASCII character (0x21-0x7E) has been replaced with "Inconsolata"* and the following changes have been made.  
-__* Inconsolata: Sans serif monospaced Latin font highly regarded for "Top 10 Programming Fonts" and "the best font for programming".__
+_* Inconsolata: Sans serif monospaced Latin font highly regarded for "Top 10 Programming Fonts" and "the best font for programming"._
 
 - r with serif (replaced with another glyph contained in Inconsolata)
 - D with crossbar (replaced with another glyph contained in Inconsolata)
 - Is a break line (replaced by another glyph contained in Inconsolata)
 
 Other than ASCII characters were based on "Genshin Gothic"* or "Mgen +".  
-__* Gengen Gothic: Japanese font created based on “Genno Koji Gothic” Mgen +: Japanese font created based on "M + OUTLINE FONTS".__
+_* Gengen Gothic: Japanese font created based on “Genno Koji Gothic” Mgen +: Japanese font created based on "M + OUTLINE FONTS"._
 
 Some characters have been corrected:
 

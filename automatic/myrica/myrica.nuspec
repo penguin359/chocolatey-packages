@@ -6,7 +6,7 @@
     <version>2.006.20150301</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/myrica</packageSourceUrl>
     <owners>chtof</owners>
-    <title>Myrika</title>
+    <title>Myrica</title>
     <authors>tomokuni</authors>
     <projectUrl>https://myrica.estable.jp</projectUrl>
 	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/myrica/myrica.png</iconUrl>

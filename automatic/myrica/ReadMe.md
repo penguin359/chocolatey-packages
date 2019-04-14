@@ -36,11 +36,11 @@ __* Gengen Gothic: Japanese font created based on “Genno Koji Gothic” Mgen +
 
 Some characters have been corrected:
 
-``- Correct to increase "'`,.:;``
-``- 0x002a *: astarsk (original)``
-``- 0x006c l: small letter l (original)``
-``- 0x2013 –: en dash – (refer to Ricty)``
-``- 0x2014 —: em dash — (refer to Ricty)``
+``- Correct to increase "'`,.:;``  
+``- 0x002a *: astarsk (original)``  
+``- 0x006c l: small letter l (original)``  
+``- 0x2013 –: en dash – (refer to Ricty)``  
+``- 0x2014 —: em dash — (refer to Ricty)``  
 - It is easy to distinguish it as a turbidity point by enlarging the half turbidity point of "Papipupe Papipupepo" (With reference to Migu)
 - Distinguish between "Ka-to-Ki-Echi-ro-to-One-Nii" (Katakana / Kanji) - (With reference to Migu)
 - Distinguishing between "..." (FULLWIDTH TILDE · WAVE DASH) - (With reference to Migu)

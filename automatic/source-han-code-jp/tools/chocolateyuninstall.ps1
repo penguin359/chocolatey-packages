@@ -16,6 +16,6 @@ ForEach ($path in $regPath) {
     }
 }
 
-Get-ChildItem -Path "$([Environment]::GetFolderPath('Fonts'))" -Filter 'Source Han Code JP*.ttf' | Remove-Item -Force
+Get-ChildItem -Path "$([Environment]::GetFolderPath('Fonts'))" -Filter 'Source Han Code JP*.otf' | Remove-Item -Force
 
 Write-Warning 'If you receive any errors uninstalling, please reboot and try again to release the font files.'

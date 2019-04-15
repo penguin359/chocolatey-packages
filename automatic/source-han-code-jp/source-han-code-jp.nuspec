@@ -36,7 +36,7 @@ Version 2.0 supports Greek, Cyrillic, Roman Italic and a few emoji glyphs. Now S
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/source-han-code-jp/screenshot4.png)
 
-## Changes from the original Source Han Sans JP
+### Changes from the original Source Han Sans JP
 Proportional Latin glyphs that were replaced with fixed-width 667-unit versions:
 - [SHC2_Roman_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Roman.pdf)
 
@@ -50,7 +50,7 @@ Proportional glyphs that are removed from the original Source Han Sans JP :
 - [Removed_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/removedGlyphs_fromSHS.pdf)
 Source Han Code JP does not support any GPOS features.
 
-## The original open source fonts from which Source Han Code JP was derived
+### The original open source fonts from which Source Han Code JP was derived
 - [Source Han Sans](https://github.com/adobe-fonts/source-han-sans)
 - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
 - [Updates to Source Code Pro](http://blog.typekit.com/2015/07/17/source-code-pro-italic-greek-cyrillic)

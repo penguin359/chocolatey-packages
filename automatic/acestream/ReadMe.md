@@ -31,5 +31,3 @@ Technical information: [wiki.acestream.org](http://wiki.acestream.org)
 For further information:
 - http://www.acestream.org
 - http://info.acestream.org/#/about/acestream
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/acestream/screenshot.png)

@@ -29,6 +29,6 @@ Get-ChildItem -Path $tempPath\Myrica-$($env:ChocolateyPackageVersion)\Work -Recu
 }
  
 # Remove our temporary files
-# Remove-Item $tempPath -Recurse -ErrorAction SilentlyContinue
+Remove-Item $tempPath -Recurse -ErrorAction SilentlyContinue
  
 Write-Warning 'If the fonts are not available in your applications or receive any errors installing or upgrading, please reboot to release the font files.'

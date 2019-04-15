@@ -22,7 +22,7 @@ $shell = New-Object -ComObject Shell.Application
 $fontsFolder = $shell.Namespace(0x14)
  
 # Loop the extracted files and install them
-Get-ChildItem -Path $tempPath\source-han-code-jp-$($env:ChocolateyPackageVersion)R\OTC -Recurse -Filter '*.ttc' -Exclude MyricaM.ttf, MyricaMM.ttf | ForEach-Object { 
+    Get-ChildItem -Path $tempPath\source-han-code-jp-$($env:ChocolateyPackageVersion)R\OTF -Recurse -Filter '*.otf' | ForEach-Object { 
     Write-Verbose "Registering font '$($_.Name)'."
     $fontsFolder.CopyHere($_.FullName)  # copying to fonts folder ignores a second param on CopyHere
 }

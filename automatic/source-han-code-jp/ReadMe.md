@@ -4,9 +4,17 @@ Source Han Code JP is a derivative of Source Han Sans that replaces its proporti
 
 Source Han Code JP is based on the Japanese subset of Source Han Sans, Source Han Sans JP, whose glyph set supports only Japanese.
 
-- Screenshots for Source Han Code JP:
+## Screenshots for Source Han Code JP
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/source-han-code-jp/screenshot1.png)
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/source-han-code-jp/screenshot2.png)
 
 Version 2.0 supports Greek, Cyrillic, Roman Italic and a few emoji glyphs. Now Source Han Code JP is Non-Iatlic and Italic 14 fonts family. These emojis have been given color versions that will appear in apps or browsers that support OpenType SVG table.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/source-han-code-jp/screenshot3.png)
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/source-han-code-jp/screenshot4.png)
 
 ## Changes from the original Source Han Sans JP
 Proportional Latin glyphs that were replaced with fixed-width 667-unit versions:

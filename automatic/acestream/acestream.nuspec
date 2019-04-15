@@ -54,6 +54,9 @@ For further information:
 
 ]]></description>
     <releaseNotes>http://wiki.acestream.org/wiki/index.php/AceStream_3.0/en#Changelog</releaseNotes>
+    <dependencies>
+     <dependency id="autohotkey.install" version="1.1.30" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

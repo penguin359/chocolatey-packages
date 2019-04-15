@@ -28,6 +28,6 @@ Get-ChildItem -Path $tempPath\source-han-code-jp-$($env:ChocolateyPackageVersion
 }
  
 # Remove our temporary files
-# Remove-Item $tempPath -Recurse -ErrorAction SilentlyContinue
+Remove-Item $tempPath -Recurse -ErrorAction SilentlyContinue
  
 Write-Warning 'If the fonts are not available in your applications or receive any errors installing or upgrading, please reboot to release the font files.'

@@ -3,13 +3,20 @@
   <metadata>
     <id>notepadplusplus-npppluginmanager</id>
     <version>1.14.2</version>
-    <title>Notepad++ Plugin Manager</title>
-    <authors>Dave Brotherstone</authors>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/notepadplusplus-npppluginmanager</packageSourceUrl>
     <owners>chtof</owners>
+    <title>Notepad++ Plugin Manager (Deprecated)</title>
+    <authors>Dave Brotherstone</authors>
     <projectUrl>https://bruderste.in/npp/pm</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/notepadplusplus-npppluginmanager/notepadplusplus-npppluginmanager.png</iconUrl>
-	<licenseUrl>https://raw.githubusercontent.com/bruderstein/notepadplusplus-npppluginmanager/master/LICENSE</licenseUrl>
+    <copyright>© 2011-2018 Dave Brotherstone</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/bruderstein/notepadplusplus-npppluginmanager/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/turboBasic/au-packages/tree/master/notepadplusplus-nppPluginManager</projectSourceUrl>   
+    <!--<docsUrl></docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>notepad++ text editor windows freeware development</tags>
 	<summary>npp Plugin Manager is plugin which allows you to install, update and remove plugins from Notepad++</summary>
     <description><![CDATA[
 [Plugin Manager](https://github.com/notepad-plus-plus/notepad-plus-plus) that allows you to install, update and remove plugins for [Notepad++](https://notepad-plus-plus.org). 
@@ -30,18 +37,10 @@ Features
 - The local plugin list file is only downloaded when something has changed - the MD5sum of the file is compared to the server's version, and if it is different, then a new copy is downloaded.
 - New for 0.9: Works with plugins that are installed multiple times - update them all or individually
 ]]></description>
-    <releaseNotes>https://bruderste.in/npp/pm/#changes</releaseNotes>
-    <copyright>Copyright (C) 2011-2018 Dave Brotherstone</copyright>
-    <tags>notepad++ text editor windows freeware development</tags>
-    <projectSourceUrl>https://github.com/bruderstein/notepadplusplus-npppluginmanager</projectSourceUrl>
-    <packageSourceUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/tree/master/notepadplusplus-npppluginmanager</packageSourceUrl>
-    <docsUrl>https://rawgit.com/bruderstein/notepadplusplus-npppluginmanager/master/doc/index.html</docsUrl>
-    <dependencies>
-      <dependency id="notepadplusplus.install" version="7.0" />
-    </dependencies>
-      <dependencies>
-      <dependency id="npppluginmanager" version="1.4.12" />      
-    </dependencies>
+  <releaseNotes>https://bruderste.in/npp/pm/#changes</releaseNotes>    
+  <dependencies>
+    <dependency id="npppluginmanager" version="1.4.12" />
+  </dependencies>
   </metadata>
   <files></files>
 </package>

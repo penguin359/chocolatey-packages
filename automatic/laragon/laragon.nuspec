@@ -7,17 +7,15 @@
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/laragon</packageSourceUrl>
     <owners>chtof</owners>    
     <title>Laragon</title>
-    <authors>Leo Khoa</authors>
-    <!-- projectUrl is required for the community feed -->
+    <authors>Leo Khoa</authors>    
     <projectUrl>https://laragon.org</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/laragon/laragon.png</iconUrl>
-    <copyright>Copyright © 2019 leokhoa</copyright>
-    <!-- If there is a license Url available, it is is required for the community feed -->
+    <copyright>Copyright © 2019 leokhoa</copyright>    
     <licenseUrl>https://raw.githubusercontent.com/leokhoa/docs.laragon.org/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!-- projectSourceUrl></projectSourceUrl -->
+    <projectSourceUrl>https://github.com/leokhoa/laragon</projectSourceUrl>
     <docsUrl>https://laragon.org/docs/</docsUrl>
-    <!-- mailingListUrl></mailingListUrl -->
+    <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://forum.laragon.org/</bugTrackerUrl>
     <tags>laragon wamp microservices nodejs javascript development environment</tags>
     <summary>Laragon is an universal development environment.</summary>

@@ -22,5 +22,6 @@ ControlClick, Button2, %winTitle1% ahk_class #32770,,,NA ; &Next >
 
 ; Completing Ace Stream Media Setup
 WinWait, %winTitle1%, Completing Ace Stream Media 3.1.32 Setup, 60
-; ControlClick, Button4, %winTitle1% ahk_class #32770,,,NA ; "Visit Ace Stream website and test the installed software"
+Sleep 350
+ControlClick, Button4, %winTitle1% ahk_class #32770,,,NA ; "Visit Ace Stream website and test the installed software"
 ControlClick, Button2, %winTitle1% ahk_class #32770,,,NA ; &Finish

@@ -16,10 +16,10 @@ function global:au_SearchReplace {
             "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
         }
         "tools\chocolateyinstall.ahk" = @{
-            "(^\s*GNS_Version\s*=\s*)" = "`$1'$($Latest.Version)'"
+            "(^\s*GNS_Version\s*=\s)*" = "`$1$($Latest.Version)"
         }
         "tools\chocolateyuninstall.ahk" = @{
-            "(^\s*GNS_Version\s*=\s*)" = "`$1'$($Latest.Version)'"
+            "(^\s*GNS_Version\s*=\s)*" = "`$1$($Latest.Version)"
         }
     }
 }

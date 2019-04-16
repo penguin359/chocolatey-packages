@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/hugin.install/hugin.install.png" width="48" height="48"/> [Hugin](https://chocolatey.org/packages/hugin.install)
+# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/hugin/hugin.png" width="48" height="48"/> [Hugin](https://chocolatey.org/packages/hugin)
 
 With Hugin you can assemble a mosaic of photographs into a complete immersive panorama, stitch any series of overlapping pictures and much more.
 
@@ -17,4 +17,4 @@ Hugin also uses a separate (background) panorama stitcher. This means that you c
 
 Starting with version 2011.2.0, Hugin is scriptable in Python. The scripting functionality is still in its infancy and requires more development and testing. For now it is available only in Linux and Windows, and currently there is no feedback from the plugin apart from it's success or failure, which is communicated in a dialog. If you're on Linux, you can start hugin from the command line and switch to the window you started it from while the plugin is running - then you'll see any console output it may produce.
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/hugin.install/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/hugin/screenshot.png)

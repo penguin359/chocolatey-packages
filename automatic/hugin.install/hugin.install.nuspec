@@ -6,7 +6,7 @@
     <version>2019.0.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/hugin.install</packageSourceUrl>
     <owners>chtof</owners>
-    <title>Hugin</title>
+    <title>Hugin (Install)</title>
     <authors>Pablo d Angelo and Hugin Team</authors>
     <projectUrl>http://hugin.sourceforge.net</projectUrl>
 	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/hugin.install/hugin.install.png</iconUrl>

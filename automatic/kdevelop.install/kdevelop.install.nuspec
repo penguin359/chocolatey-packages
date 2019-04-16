@@ -7,12 +7,10 @@
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/kdevelop.install</packageSourceUrl>    
     <owners>chtof</owners>    
     <title>KDevelop (Install)</title>
-    <authors>KDevelop Team</authors>
-    <!-- projectUrl is required for the community feed -->
+    <authors>KDevelop Team</authors>    
     <projectUrl>https://www.kdevelop.org</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kdevelop.install/kdevelop.png</iconUrl>
-    <copyright>Copyright 2016 - All rights reserved</copyright>
-    <!-- If there is a license Url available, it is is required for the community feed -->
+    <copyright>Copyright 2016 - All rights reserved</copyright>    
     <licenseUrl>https://github.com/KDE/kdevelop/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/KDE/kdevelop</projectSourceUrl>

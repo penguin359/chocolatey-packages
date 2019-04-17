@@ -9,7 +9,9 @@ function global:au_GetLatest {
 	 $version_MM = $matches.date_url.substring($matches.date_url.length-4, 2)
 	 $version_DD = $matches.date_url.substring($matches.date_url.length-2)
 	 $version = $version_YY + "." + $version_MM + "." + $version_DD
-     return @{ Version = $version ; URL32 = $releases + "chirp-daily-" + $matches.date_url + "-installer.exe" }
+     return @{
+        Version = $version
+        URL32 = 'https://trac.chirp.danplanet.com/chirp_daily/daily-' + $matches.date_url + '/chirp-daily-' + $matches.date_url +  '-installer.exe' }
 }
 
 function global:au_SearchReplace {

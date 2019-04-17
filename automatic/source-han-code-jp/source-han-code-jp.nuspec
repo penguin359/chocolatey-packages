@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>source-han-code-jp</id>
+    <version>2.011</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/source-han-code-jp</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Source Han Code JP</title>
+    <authors>adobe-fonts Team</authors>
+    <projectUrl>https://github.com/adobe-fonts/source-han-code-jp</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/source-han-code-jp/source-han-code-jp.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://github.com/adobe-fonts/source-han-code-jp/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/adobe-fonts/source-han-code-jp</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/adobe-fonts/source-han-code-jp/issues</bugTrackerUrl>
+    <tags>source-han-code-jp source han code font japanese</tags>
+    <summary>Source Han Code JP is intended to be used as a UI font for mixed Latin and Japanese text on displays, for programming, editing HTML/CSS, viewing text or inputing to the command line in a terminal app, and so on.</summary>
+    <description><![CDATA[
+Source Han Code JP is a derivative of Source Han Sans that replaces its proportional Latin glyphs with fixed-width 667-unit glyphs from Source Code Pro. The Latin glyphs are scaled to match the glyphs for Japanese kana and kanji, and their widths are adjusted to be exactly 667 units (two-thirds of an EM). Source Han Code JP is intended to be used as a UI font for mixed Latin and Japanese text on displays, for programming, editing HTML/CSS, viewing text or inputing to the command line in a terminal app, and so on.
+
+Source Han Code JP is based on the Japanese subset of Source Han Sans, Source Han Sans JP, whose glyph set supports only Japanese.
+
+## Screenshots for Source Han Code JP
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/source-han-code-jp/screenshot1.png)
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/source-han-code-jp/screenshot2.png)
+
+Version 2.0 supports Greek, Cyrillic, Roman Italic and a few emoji glyphs. Now Source Han Code JP is Non-Iatlic and Italic 14 fonts family. These emojis have been given color versions that will appear in apps or browsers that support OpenType SVG table.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/source-han-code-jp/screenshot3.png)
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/source-han-code-jp/screenshot4.png)
+
+### Changes from the original Source Han Sans JP
+Proportional Latin glyphs that were replaced with fixed-width 667-unit versions:
+- [SHC2_Roman_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Roman.pdf)
+
+Italic glyphs that were added to version 2.0 :
+- [SHC2_Italic_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Italic.pdf)
+
+Full-width emoji glyphs that were added to version 2.0 :
+- [SHC2_Emoji_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/SHC2_Emoji.pdf)
+
+Proportional glyphs that are removed from the original Source Han Sans JP :
+- [Removed_Glyphs](https://github.com/adobe-fonts/source-han-code-jp/raw/master/resources/removedGlyphs_fromSHS.pdf)
+Source Han Code JP does not support any GPOS features.
+
+### The original open source fonts from which Source Han Code JP was derived
+- [Source Han Sans](https://github.com/adobe-fonts/source-han-sans)
+- [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
+- [Updates to Source Code Pro](http://blog.typekit.com/2015/07/17/source-code-pro-italic-greek-cyrillic)
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/source-han-code-jp/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/adobe-fonts/source-han-code-jp</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

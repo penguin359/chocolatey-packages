@@ -3,21 +3,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>laragon.portable</id>
-    <version>4.0.12</version>
-    <!--PackageSourceUrl - Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed-->
+    <version>4.0.12</version>    
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/laragon.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>Laragon (Portable)</title>
-    <authors>Leo Khoa</authors>
-    <!-- projectUrl is required for the community feed -->
+    <authors>Leo Khoa</authors>    
     <projectUrl>https://laragon.org</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/laragon.portable/laragon.png</iconUrl>
     <copyright>Copyright © 2019 leokhoa</copyright>
     <licenseUrl>https://raw.githubusercontent.com/leokhoa/docs.laragon.org/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/leokhoa/laragon/</projectSourceUrl>
+    <projectSourceUrl>https://github.com/leokhoa/laragon</projectSourceUrl>
     <docsUrl>https://laragon.org/docs/</docsUrl>
-    <!-- mailingListUrl></mailingListUrl -->
+    <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://forum.laragon.org/</bugTrackerUrl>
     <tags>laragon.portable wamp microservices nodejs javascript development environment</tags>
     <summary>Laragon is an universal development environment.</summary>
@@ -70,8 +68,6 @@ Here is the GUI of Laragon:
     <releaseNotes>https://github.com/leokhoa/laragon/releases</releaseNotes>
   </metadata>
   <files>
-    <!-- this section controls what actually gets packaged into the Chocolatey package -->
     <file src="tools\**" target="tools" />
-    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
   </files>
 </package>

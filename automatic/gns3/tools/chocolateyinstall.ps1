@@ -1,11 +1,11 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName  
   
-  url           = 'https://github.com/GNS3/gns3-gui/releases/download/v2.1.15/GNS3-2.1.15-all-in-one.exe'
-  checksum      = '98DE258AF4D0190260E232891B44440552E591B6465059A0AE2DE45245BABAEC'
+  url           = 'https://github.com/GNS3/gns3-gui/releases/download/v2.1.16/GNS3-2.1.16-all-in-one.exe'
+  checksum      = '8a6b1a3fee211adac22b5cbccb33b456a393d7017747750c8c9cc25b8c06f54d'
   checksumType  = 'sha256'
 }
 

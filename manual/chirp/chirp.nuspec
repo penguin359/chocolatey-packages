@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>chirp</id>
-    <version>2019.03.21</version>	
+    <version>2019.04.12</version>	
 	<packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/chirp</packageSourceUrl>
 	<owners>chtof</owners>
     <title>CHIRP</title>
@@ -20,13 +20,13 @@
 	<tags>chirp HAM amateur radio</tags>
 	<summary>CHIRP Radio Programmer</summary>
     <description><![CDATA[CHIRP is a free, open-source tool for programming your amateur radio. It supports a large number of manufacturers and models, as well as provides a way to interface with multiple data sources and formats.
-	CHIRP is distributed as a series of automatically-generated builds. Any time we make a change to CHIRP, a build is created for it the next day. Thus, CHIRP is versioned by the date on which it was created, which makes it easy to determine if you have an older build. We don't put experimental things into CHIRP before they are ready, except where specifically called out with a warning. Thus, you do not need to worry about finding a stable version to run. You should always be on the latest build available.
-	
-	![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/chirp.portable/screenshot.png)
+CHIRP is distributed as a series of automatically-generated builds. Any time we make a change to CHIRP, a build is created for it the next day. Thus, CHIRP is versioned by the date on which it was created, which makes it easy to determine if you have an older build. We don't put experimental things into CHIRP before they are ready, except where specifically called out with a warning. Thus, you do not need to worry about finding a stable version to run. You should always be on the latest build available.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/chirp/screenshot.png)
 ]]></description>
     <releaseNotes>http://chirp.danplanet.com/projects/chirp/repository/revisions</releaseNotes>
 	<dependencies>
-      <dependency id="chirp.install" version="[2019.03.21]" />
+      <dependency id="chirp.install" version="[2019.04.12]" />
     </dependencies>
   </metadata>
   <files>  

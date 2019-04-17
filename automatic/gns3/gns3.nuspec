@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata> 
     <id>gns3</id>    
-    <version>2.1.15</version>    
+    <version>2.1.16</version>    
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/gns3</packageSourceUrl>    
     <owners>chtof</owners>    
     <title>GNS3</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/GNS3/gns3-gui/issues</bugTrackerUrl>
     <tags>gns3 emulate configure test troubleshooting virtual real network</tags>
     <summary>Emulate, configure, test and troubleshoot virtual and real networks.</summary>
-    <description><![CDATA[
-GNS3 is used by hundreds of thousands of network engineers worldwide to emulate, configure, test and troubleshoot virtual and real networks. GNS3 allows you to run a small topology consisting of only a few devices on your laptop, to those that have many devices hosted on multiple servers or even hosted in the cloud.
+    <description><![CDATA[GNS3 is used by hundreds of thousands of network engineers worldwide to emulate, configure, test and troubleshoot virtual and real networks. GNS3 allows you to run a small topology consisting of only a few devices on your laptop, to those that have many devices hosted on multiple servers or even hosted in the cloud.
 
 GNS3 is open source, free software that you can download from http://gns3.com
 
@@ -28,7 +27,7 @@ It is actively developed and supported and has a growing community of over 800,0
 
 GNS3 can help you prepare for certification exams such as the Cisco CCNA, but also help you test and verify real world deployments. Jeremy Grossman, the original developer of GNS3 originally created the software to help him study for his CCNP certifications. Because of that original work, you can today use to help you do the same without paying for expensive hardware.
 
-GNS3 has allowed network engineers to virtualize real hardware devices  for over 10 years. Originally only emulating Cisco devices using software called Dynamips, GNS3 has now evolved and supports many devices from multiple network vendors  including Cisco virtual switches, Cisco ASAs, Brocade vRouters, Cumulus Linux switches, Docker instances, HPE VSRs, multiple Linux appliances and many others. Go here to see a list of appliances available: https://gns3.com/marketplace/appliances
+ GNS3 has allowed network engineers to virtualize real hardware devices  for over 10 years. Originally only emulating Cisco devices using software called Dynamips, GNS3 has now evolved and supports many devices from multiple network vendors  including Cisco virtual switches, Cisco ASAs, Brocade vRouters, Cumulus Linux switches, Docker instances, HPE VSRs, multiple Linux appliances and many others. Go here to see a list of appliances available: https://gns3.com/marketplace/appliances
 
 TIP: GNS3 has been around for over 10 years. Some information you will find on the Internet is outdated or unfortunately entirely incorrect. This document will hopefully help answer questions and help you get started on your journey with GNS3.
 

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>stremio</id>
+    <version>4.4.25</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/stremio</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Stremio</title>
+    <authors>Stremio Team</authors>
+    <projectUrl>https://www.stremio.com</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/stremio/stremio.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://www.stremio.com/tos</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://stremio.zendesk.com/hc/en-us/categories/360000745692-Getting-Started-with-Stremio</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://stremio.zendesk.com</bugTrackerUrl>
+    <tags>stremio streaming video multi-source multi-device</tags>
+    <summary>All You Can Watch, All the video content you enjoy in one place.</summary>
+    <description><![CDATA[
+## Features 
+
+### Discover new content with ease
+Easily discover new movies, TV shows, series and channels to watch. Browse by category, genre, rating, recency, etc. or simply type a name to find. Stremio makes finding new video content a piece of cake.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/stremio/screenshot1.png)
+
+### All of your video content on one screen
+See what movies, series or videos you didn’t finish and continue watching them; get notified for new episodes and releases; and browse through the recommendations you will get based on your viewing habits.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/stremio/screenshot2.png)
+
+### Organize your video library
+Add any title to your Stremio library with a single click and find your way around your content, neatly arranged by type, recency, or alphabetical order.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/stremio/screenshot3.png)
+
+### Keep track of everything you watch
+Get a calendar visualization of all the movies and series you add to your library. Export your Stremio calendar and sync it so you always know when a new episode or a premier is due.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/stremio/screenshot4.png)
+
+### Enjoy your video content on a bigger screen
+Cast whatever you are watching to another device - be it a phone, tablet or a TV with a single click.
+
+### Watch video from many different sources
+Install official and community add-ons to enjoy video sourced from many different providers - all in one sleek, easy to use app:
+iTunes, Amazon, Netflix, YouTube...
+]]></description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

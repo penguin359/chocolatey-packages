@@ -2,16 +2,14 @@
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  fileType      = 'exe'
-  url           = 'https://download.savannah.gnu.org/releases/klog/win/KLog-0.9.7.2-windows-installer.exe'
-
   softwareName  = 'KLog'
+  fileType      = 'exe'
 
-  checksum      = '5eacce503b07a20e67f3292d2b61b29dcfd4a97e4c7c02269051e747c78eb5cd'
+  url           = 'https://download.savannah.gnu.org/releases/klog/win/KLog-0.9.7.2-windows-installer.exe'
+  checksum      = '2979BF01310905D48661FE96B38222D3471CF60D6A4BC0C8636FF1A4C53F9761'
   checksumType  = 'sha256'
-  
+
   silentArgs    = "--mode unattended"
-  validExitCodes= @(0, 3010, 1641)
 }
 
 Install-ChocolateyPackage @packageArgs

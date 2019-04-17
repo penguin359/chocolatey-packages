@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Read this before creating packages: https://chocolatey.org/docs/create-packages -->
 <!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
@@ -12,7 +12,7 @@
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>21.04.20190315</version>
+    <version>21.05</version>
     <!--PackageSourceUrl - Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed-->
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/sd</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
@@ -59,6 +59,8 @@ This includes setting and unsetting dupe and multiplier flags, and updating area
 - SD identifies country and call-area, as you type individual callsign letters, and give you a real-time summary of IOTA islands (if any) worked and wanted for that country or call-area - for the current band and mode. When the country is an IOTA island with a single reference, SD auto-fills the reference.
 - SD gives you a worked/wanted analysis for all bands and modes when you type an IOTA reference in the callsign field - there's no need to touch another key or remember function keys or multiple keystrokes.
 - SD is ready now for the 2019 IOTA Contest
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/sd/screenshot.png)
 ]]></description>
     <releaseNotes>http://www.ei5di.com/sdhist.html</releaseNotes>
     <!-- =============================== -->      

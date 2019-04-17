@@ -2,7 +2,7 @@ $packageArgs = @{
     packageName = $env:ChocolateyPackageName
     zipFileName = "liberation-fonts-ttf-$($env:ChocolateyPackageVersion).zip"
 }
-Write-Verbose "Uninstall zip: $($packjageArgs.zipFileName)"
+Write-Verbose "Uninstall zip: $($packageArgs.zipFileName)"
 
 # different fonts path in the registry depending on os architecture
 $regPath = @( 'HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Fonts', 

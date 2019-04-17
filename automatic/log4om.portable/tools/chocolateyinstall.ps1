@@ -11,7 +11,7 @@ $packageArgs = @{
 
 Install-ChocolateyZipPackage @packageArgs
     
-#Install start menu shortcuts
+# Install start menu shortcuts
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 
 $shortcutFilePath = Join-Path $programs "Log4OM.lnk"

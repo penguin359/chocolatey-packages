@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>logisim-evolution</id>
+    <version>2.15.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/logisim-evolution</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Logisim Evolution</title>
+    <authors>Carl Burch - Hendrix College - USA, Haute École Spécialisée Bernoise - Switzerland, Haute École du paysage, d'ingénierie et d'architecture de Genève - Switzerland, Haute École d'Ingénierie et de Gestion du Canton de Vaud - Switzerland, Theldo Cruz Franqueira - Pontifícia Universidade Católica de Minas Gerais - Brasil, Moshe Berman - Brooklyn College</authors>
+    <projectUrl>https://github.com/reds-heig/logisim-evolution</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/logisim-evolution/logisim-evolution.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://github.com/reds-heig/logisim-evolution/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/reds-heig/logisim-evolution</projectSourceUrl>
+    <docsUrl>http://reds-data.heig-vd.ch/logisim-evolution/IntroToLogisimEnglish.pdf</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/reds-heig/logisim-evolution/issues</bugTrackerUrl>
+    <tags>logisim-evolution digital logic designer simulator</tags>
+    <summary>Digital logic designer and simulator</summary>
+    <description><![CDATA[
+Logisim is an educational tool for designing and simulating digital logic circuits.
+It has been originally created by [Dr. Carl Burch](http://www.cburch.com/logisim/) and actively developed until 2011.
+After this date the author focused on other projects, and recently the development has been officially stopped  [(see his message here)](http://www.cburch.com/logisim/retire-note.html).
+
+In the meantime, people from a group of swiss institutes ([Haute École Spécialisée Bernoise](http://www.bfh.ch), [Haute École du paysage, d'ingénierie et d'architecture de Genève](http://hepia.hesge.ch), and [Haute École d'Ingénierie et de Gestion du Canton de Vaud](http://www.heig-vd.ch)) started developing a version of Logisim that fitted their courses, integrating several tools -- for instance a chronogram, the possibility to test the schematics directly on an electronic board, TCL/TK consoles, ...
+
+The project is currently maintained by the [REDS Institute](http://reds.heig-vd.ch), which is part of the [Haute École d'Ingénierie et de Gestion du Canton de Vaud](http://www.heig-vd.ch), Yverdon-les-Bains, Switzerland.
+
+We have decided to release this new Logisim version under the name logisim-evolution, to highlight the large number of changes that occurred in these years, and **we actively seek the contribution of the community**.
+
+## What's new in logisim-evolution
+* chronogram -- to see the evolution of signals in your circuit
+* electronic board integration -- schematics can now be simulated on real hardware!
+* board editor -- to add new electronic boards
+* VHDL component -- a new component type whose behavior is specified in VHDL
+* TCL/TK console -- interfaces between the circuit and the user
+* DIP switches
+* RGB LEDs
+* large number of bug-fixes
+* GUI improvements
+* automatic updates
+* code refactoring
+* ...
+
+## Testing logisim-evolution
+As logisim-evolution needs updates (new features and patches) and currently lacks unit tests, the *testing* branch was created.
+The goal of this branch is to add new features/patches without affecting the release on branch master.
+Users who are willing test new features should checkout the testing branch. The feedback from users is really appreciated as it makes logisim-evolution better. Feel free to use the issue tab to report bugs and suggest features.
+
+Then every semester, the testing branch will be merged in the master for a new release.
+
+## Documentation
+[Here](http://reds-data.heig-vd.ch/logisim-evolution/IntroToLogisimEnglish.pdf) you can find a tutorial (French version [here](http://reds-data.heig-vd.ch/logisim-evolution/tutoLogisim.pdf)) that explains some basic usage of Logisim. The electronic card referenced in the tutorial is a small card we use in our laboratories -- you won't be able to buy it in a store -- but the descriptions should be good enough to be used for another generic board.
+
+Another good reference is [this book](http://www.lulu.com/shop/george-self/exploring-digital-logic-with-logisim-ebook/ebook/product-21118223.html), where basic electronics is explained with the help of Logisim.
+
+## Development
+Logisim-evolution uses gradle for project management which means it can be easily imported into most modern IDEs.
+
+Instructions on how to import a gradle project into Eclipse can be found [here](https://www.eclipse.org/community/eclipse_newsletter/2018/february/buildship.php).
+
+Instructions on how to import a gradle project into IntelliJ IDEA can be found [here](https://www.jetbrains.com/help/idea/gradle.html) under "Importing a project from a Gradle model" title.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/logisim-evolution/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/reds-heig/logisim-evolution/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

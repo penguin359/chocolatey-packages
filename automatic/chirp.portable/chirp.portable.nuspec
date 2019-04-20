@@ -2,18 +2,18 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>chirp.install</id>
-    <version>2019.04.12</version>	
-	<packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/chirp.install</packageSourceUrl>
+    <id>chirp.portable</id>
+    <version>2019.04.12</version>
+	<packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/chirp.portable</packageSourceUrl>
 	<owners>chtof</owners>
-    <title>CHIRP (Install)</title>
+    <title>CHIRP (Portable)</title>
     <authors>Dan Smith KK7DS with significant contributions from Tom KD7LXL, Marco IZ3GME, Jim KC9HI.</authors>
     <projectUrl>http://chirp.danplanet.com/projects/chirp/wiki/Home</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/chirp.install/chirp.install.png</iconUrl>        
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/chirp.portable/chirp.portable.png</iconUrl>
 	<copyright>Copyright 2015 Dan Smith (KK7DS)</copyright>
     <licenseUrl>http://chirp.danplanet.com/projects/chirp/repository/revisions/222c1830b798/entry/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<projectSourceUrl>http://chirp.danplanet.com/projects/chirp/repository</projectSourceUrl>    
+	<projectSourceUrl>http://chirp.danplanet.com/projects/chirp/repository</projectSourceUrl>
     <docsUrl>http://chirp.danplanet.com/projects/chirp/wiki/Documentation</docsUrl>
 	<mailingListUrl>http://intrepid.danplanet.com/mailman/listinfo/chirp_users</mailingListUrl>
     <bugTrackerUrl>http://chirp.danplanet.com/projects/chirp/issues</bugTrackerUrl>
@@ -22,11 +22,11 @@
     <description><![CDATA[CHIRP is a free, open-source tool for programming your amateur radio. It supports a large number of manufacturers and models, as well as provides a way to interface with multiple data sources and formats.
 CHIRP is distributed as a series of automatically-generated builds. Any time we make a change to CHIRP, a build is created for it the next day. Thus, CHIRP is versioned by the date on which it was created, which makes it easy to determine if you have an older build. We don't put experimental things into CHIRP before they are ready, except where specifically called out with a warning. Thus, you do not need to worry about finding a stable version to run. You should always be on the latest build available.
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/chirp.install/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/chirp.portable/screenshot.png)
 ]]></description>
-    <releaseNotes>http://chirp.danplanet.com/projects/chirp/repository/revisions</releaseNotes>    
+    <releaseNotes>http://chirp.danplanet.com/projects/chirp/repository/revisions</releaseNotes>
   </metadata>
-  <files>    
-    <file src="tools\**" target="tools" />    
+  <files>
+    <file src="tools\**" target="tools" />
   </files>
 </package>

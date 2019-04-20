@@ -31,9 +31,10 @@
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/marktext.portable/screenshot.png)
 ]]></description>
-    <releaseNotes>https://github.com/marktext/marktext/releases</releaseNotes>  
+    <releaseNotes>https://github.com/marktext/marktext/releases</releaseNotes>
   </metadata>
   <files>
+    <file src="tools\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>

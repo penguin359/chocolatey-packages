@@ -1,5 +1,5 @@
 ﻿import-module au
-import-module "$PSScriptRoot\..\..\..\Wormies-AU-Helpers\Wormies-AU-Helpers\Wormies-AU-Helpers.psm1"
+import-module Wormies-AU-Helpers
 
 $releases = "https://www.stremio.com"
 $regex = "(https://www.strem.io/download.*)"

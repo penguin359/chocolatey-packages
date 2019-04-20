@@ -1,4 +1,6 @@
 ﻿import-module au
+import-module "$PSScriptRoot\..\..\..\Wormies-AU-Helpers\Wormies-AU-Helpers\Wormies-AU-Helpers.psm1"
+
 $releases = "https://www.stremio.com"
 $regex = "(https://www.strem.io/download.*)"
 $regex_version = "https://dl.strem.io/win/v[\d\.]+/Stremio\+(?<Version>[\d\.]+).exe"

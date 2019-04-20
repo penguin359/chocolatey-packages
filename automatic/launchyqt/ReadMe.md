@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/launchyqt/launchyqt.png" width="48" height="48"/> [Launchy NG](https://chocolatey.org/packages/launchyqt)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/launchyqt/launchyqt.png" width="48" height="48"/> [Launchy QT](https://chocolatey.org/packages/launchyqt)
 
 Launchy is a free cross-platform utility designed to help you forget about your start menu, the icons on your desktop, and even your file manager.
 

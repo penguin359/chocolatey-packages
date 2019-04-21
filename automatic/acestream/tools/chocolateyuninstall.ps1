@@ -23,7 +23,7 @@ $uninstalled = $false
 
 if ($key.Count -eq 1) {
   $key | % {     
-    Uninstall-ChocolateyPackage @packageArgs    
+    Uninstall-ChocolateyPackage @packageArgs
   }
 } elseif ($key.Count -eq 0) {
   Write-Warning "$packageName has already been uninstalled by other means."

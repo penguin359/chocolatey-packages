@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>umbrello.portable</id>
+    <version>2.27.3</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/umbrello.portable</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Umbrello - The UML Modeller (Portable)</title>
+    <authors>Umbrello Team</authors>
+    <projectUrl>https://umbrello.kde.org/</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/umbrello.portable/umbrello.portable.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/KDE/umbrello/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/KDE/umbrello</projectSourceUrl>
+    <docsUrl>https://umbrello.kde.org/documentation.php</docsUrl>
+    <mailingListUrl>https://mail.kde.org/mailman/listinfo/umbrello</mailingListUrl>
+    <bugTrackerUrl>https://bugs.kde.org/enter_bug.cgi?product=umbrello</bugTrackerUrl>
+    <tags>umbrello.portable UML modeller</tags>
+    <summary>Umbrello UML Modeller is a Unified Modelling Language (UML) diagram program based on KDE Technology.</summary>
+    <description><![CDATA[
+UML allows you to create diagrams of software and other systems in a standard format to document or design the structure of your programs.
+
+## Features
+Most umbrello features and diagram types depends on the public UML standards.
+More details [here](https://umbrello.kde.org/features.php).
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/umbrello.portable/screenshot.png)
+]]></description>
+    <releaseNotes>https://umbrello.kde.org/news.php</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

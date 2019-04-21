@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/umbrello.install/umbrello.install.png" width="48" height="48"/> [Umbrello - The UML Modeller (Install)](https://chocolatey.org/packages/umbrello.install)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/umbrello.install/umbrello.install.png" width="48" height="48"/> [Umbrello - The UML Modeller (Portable)](https://chocolatey.org/packages/umbrello.install)
 
 UML allows you to create diagrams of software and other systems in a standard format to document or design the structure of your programs.
 

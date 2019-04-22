@@ -30,6 +30,7 @@ Enjoy a clean, intuitive interface that adjusts itself exactly the way you expec
 |Unmatched precision in any unit (Pixels, MM, CM, etc.) from creation to exporting.|Powerful pages with masters, real layers and symbols to structure your content.|Made for vector with non-destructive booleans, knife tool and path graphs.|Powerful grids, anchors and auto-layouts made for pixel perfect screen designs.|
 
 |![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot5a.png)|![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot6a.png)|![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot7a.png)|![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot8a.png)|
+|---|---|---|---|
 |STYLE|TEXT|EXPORT|ADVANCED|
 |Multiple fills/borders, effects and blending modes together with shared styles.|Handcrafted powerful text engine with text on path, web fonts, styles and much more.|Export high quality PDFs, SVGs and Images using slices and multiple assets.|Presentations, Sketch and EPS import, design templates, transformations, and more.|
 

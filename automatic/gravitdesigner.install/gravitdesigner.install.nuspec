@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gravitdesigner.install</id>
+    <version>3.5.14</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/gravitdesigner.install</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Gravit Designer (Install)</title>
+    <authors>Gravit GmbH, Corel Corporation</authors>
+    <projectUrl>https://www.designer.io</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.install/gravitdesigner.install.png</iconUrl>
+    <copyright>Copyright © 2018 - 2019 Corel Corporation. All rights reserved.</copyright>
+    <licenseUrl>https://www.corel.com/en/eula</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://documentation.designer.io/</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://support.gravit.io/hc/en-us/requests/new</bugTrackerUrl>
+    <tags>gravitdesigner.install gravit designer vector graphic edit svg</tags>
+    <summary>A cross-platform graphic design tool for the 21st century.</summary>
+    <description><![CDATA[
+Gravit Designer is a full-featured vector graphic design app right at your fingertips.
+
+## One design tool to rule them all
+### SCREEN DESIGN
+### HIGH QUALITY ICONS
+### PRESENTATIONS
+### ILLUSTRATION
+### PRINT
+### APP DESIGN
+
+## A smart way to design
+Enjoy a clean, intuitive interface that adjusts itself exactly the way you expect it.
+
+## Powerful graphics tools to unleash your creativity
+### PRECISION
+Unmatched precision in any unit (Pixels, MM, CM, etc.) from creation to exporting.
+### STRUCTURE
+Powerful pages with masters, real layers and symbols to structure your content.
+### VECTOR
+Made for vector with non-destructive booleans, knife tool and path graphs.
+### LAYOUT
+Powerful grids, anchors and auto-layouts made for pixel perfect screen designs.
+### STYLE
+Multiple fills/borders, effects and blending modes together with shared styles.
+### TEXT
+Handcrafted powerful text engine with text on path, web fonts, styles and much more.
+### EXPORT
+Export high quality PDFs, SVGs and Images using slices and multiple assets.
+### ADVANCED
+Presentations, Sketch and EPS import, design templates, transformations, and more.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.install/screenshot.png)
+]]></description>
+    <releaseNotes>https://www.designer.io/changelog</releaseNotes>   
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

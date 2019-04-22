@@ -5,23 +5,14 @@ Gravit Designer is a full-featured vector graphic design app right at your finge
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot.png)
 
 ## One design tool to rule them all
-**SCREEN DESIGN**  
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot1.png)
 
-**HIGH QUALITY ICONS**  
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot2.png)
+|![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot1.png)|![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot2.png)|![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot3.png)|
+|:---:|:---:|:---:|
+|**SCREEN DESIGN**|**HIGH QUALITY ICONS**|**PRESENTATIONS**|
 
-**PRESENTATIONS**  
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot3.png)
-
-**ILLUSTRATION**  
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot4.png)
-
-**PRINT**  
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot5.png)
-
-**APP DESIGN**  
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot6.png)
+|![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot4.png)|![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot5.png)|![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot6.png)|
+|:---:|:---:|:---:|
+|**ILLUSTRATION**|**PRINT**|**APP DESIGN**|
 
 ## A smart way to design
 Enjoy a clean, intuitive interface that adjusts itself exactly the way you expect it.
@@ -39,4 +30,5 @@ Enjoy a clean, intuitive interface that adjusts itself exactly the way you expec
 |:---:|:---:|:---:|:---:|
 |**STYLE**|**TEXT**|**EXPORT**|**ADVANCED**|
 |Multiple fills/borders, effects and blending modes together with shared styles.|Handcrafted powerful text engine with text on path, web fonts, styles and much more.|Export high quality PDFs, SVGs and Images using slices and multiple assets.|Presentations, Sketch and EPS import, design templates, transformations, and more.|
+
 

@@ -9,7 +9,7 @@
     <title>Umbrello - The UML Modeller (Install)</title>
     <authors>Umbrello Team</authors>
     <projectUrl>https://umbrello.kde.org/</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/umbrello.install/umbrello.install.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/umbrello.install/umbrello.install.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://raw.githubusercontent.com/KDE/umbrello/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

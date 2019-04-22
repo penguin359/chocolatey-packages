@@ -30,7 +30,7 @@ More details [here](https://umbrello.kde.org/features.php).
 ]]></description>
     <releaseNotes>https://umbrello.kde.org/news.php</releaseNotes>
     <dependencies>
-      <dependency id="kdevelop.install" version="[2.27.3]" />
+      <dependency id="umbrello.install" version="[2.27.3]" />
     </dependencies>
   </metadata>
   <files></files>

@@ -5,22 +5,22 @@ Gravit Designer is a full-featured vector graphic design app right at your finge
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot.png)
 
 ## One design tool to rule them all
-**SCREEN DESIGN**
+**SCREEN DESIGN**  
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot1.png)
 
-**HIGH QUALITY ICONS**
+**HIGH QUALITY ICONS**  
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot2.png)
 
-**PRESENTATIONS**
+**PRESENTATIONS**  
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot3.png)
 
-**ILLUSTRATION**
+**ILLUSTRATION**  
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot4.png)
 
-**PRINT**
+**PRINT**  
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot5.png)
 
-**APP DESIGN**
+**APP DESIGN**  
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot6.png)
 
 ## A smart way to design

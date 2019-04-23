@@ -53,7 +53,7 @@ Enjoy a clean, intuitive interface that adjusts itself exactly the way you expec
 ]]></description>
     <releaseNotes>https://www.designer.io/changelog</releaseNotes>
     <dependencies>
-      <dependency id="gravitdesigner" version="[2019.1.6]" />
+      <dependency id="gravitdesigner" version="[3.5.14]" />
     </dependencies>
   </metadata>
   <files></files>

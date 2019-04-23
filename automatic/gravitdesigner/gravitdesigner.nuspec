@@ -85,7 +85,7 @@ Presentations, Sketch and EPS import, design templates, transformations, and mor
 ]]></description>
     <releaseNotes>https://www.designer.io/changelog</releaseNotes>
     <dependencies>
-      <dependency id="gravitdesigner" version="[3.5.14]" />
+      <dependency id="gravitdesigner.install" version="[3.5.14]" />
     </dependencies>
   </metadata>
   <files></files>

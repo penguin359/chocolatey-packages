@@ -6,7 +6,7 @@
     <version>0.68.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/uncrustify</packageSourceUrl>
     <owners>chtof</owners>
-    <title>Uncrustify Code Beautifer</title>
+    <title>Uncrustify Code Beautifier</title>
     <authors>Uncrustify Team</authors>
     <projectUrl>http://uncrustify.sourceforge.net</projectUrl>
     <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/uncrustify/uncrustify.png</iconUrl>-->

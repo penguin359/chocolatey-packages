@@ -9,8 +9,8 @@
     <title>Uncrustify Code Beautifer</title>
     <authors>Uncrustify Team</authors>
     <projectUrl>http://uncrustify.sourceforge.net</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/uncrustify/uncrustify.png</iconUrl>
-    <!-- <copyright>Year Software Vendor</copyright> -->
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/uncrustify/uncrustify.png</iconUrl>-->
+    <!--<copyright>Year Software Vendor</copyright>-->
     <licenseUrl>https://raw.githubusercontent.com/uncrustify/uncrustify/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/uncrustify/uncrustify</projectSourceUrl>
@@ -36,8 +36,6 @@ The goals of this project are simple: Create a highly configurable, easily modif
 - Supports embedded SQL 'EXEC SQL' stuff
 - Highly configurable - 655 configurable options as of version 0.68
 - See some example [output](http://uncrustify.sourceforge.net/examples/example.c).
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/uncrustify/screenshot.png)
 ]]></description>
     <releaseNotes>https://raw.githubusercontent.com/uncrustify/uncrustify/master/ChangeLog</releaseNotes>
   </metadata>

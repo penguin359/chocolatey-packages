@@ -1,4 +1,4 @@
-﻿# [Uncrustify Code Beautifer](https://chocolatey.org/packages/uncrustify)
+﻿# [Uncrustify Code Beautifier](https://chocolatey.org/packages/uncrustify)
 
 ## Introduction
 The goals of this project are simple: Create a highly configurable, easily modifiable source code beautifier.

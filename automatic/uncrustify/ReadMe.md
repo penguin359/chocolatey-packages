@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/uncrustify/uncrustify.png" width="48" height="48"/> [Uncrustify Code Beautifer](https://chocolatey.org/packages/uncrustify)
+﻿# [Uncrustify Code Beautifer](https://chocolatey.org/packages/uncrustify)
 
 ## Introduction
 The goals of this project are simple: Create a highly configurable, easily modifiable source code beautifier.
@@ -16,5 +16,3 @@ The goals of this project are simple: Create a highly configurable, easily modif
 - Supports embedded SQL 'EXEC SQL' stuff
 - Highly configurable - 655 configurable options as of version 0.68
 - See some example [output](http://uncrustify.sourceforge.net/examples/example.c).
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/uncrustify/screenshot.png)

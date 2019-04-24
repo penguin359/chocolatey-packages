@@ -6,8 +6,8 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   file         =  'chirpw.exe'
   
-  url           = 'https://trac.chirp.danplanet.com/chirp_daily/daily-20190412/chirp-daily-20190412-win32.zip'
-  checksum      = '952130542668d9dc235ec076239424695b30d799a0fb07af51761e3554a18276'
+  url           = 'https://trac.chirp.danplanet.com/chirp_daily/daily-20190424/chirp-daily-20190424-win32.zip'
+  checksum      = '8c002bf12231ec89aa285776d6e012b5f8216b991e70a450a1e74f60fa2cb114'
   checksumType  = 'sha256'
 }
 

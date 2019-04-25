@@ -28,4 +28,5 @@ Non-developers can manage the bot post-deployment.
 Infinitely extensible and customizable.
 We make it really easy to integrate with 3rd-party applications and APIs.
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/botpress/screenshot.gif)
+
+<img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/botpress/screenshot.gif" width="739"/>

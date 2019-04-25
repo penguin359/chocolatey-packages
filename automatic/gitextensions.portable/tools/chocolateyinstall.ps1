@@ -3,7 +3,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  unzipLocation = $toolsDir  
+  unzipLocation = $toolsDir
   
   url           = 'https://github.com/gitextensions/gitextensions/releases/download/v3.0.2/GitExtensions-Portable-3.0.2.5232.zip'
   checksum      = 'A826E36826296C752EF6F37E8FEC629C4C7AF56DE5755435AE635CF305FF5A06'
@@ -20,7 +20,7 @@ foreach ( $file in 'pageant.exe', 'plink.exe', 'puttygen.exe' ) {
 
 Install-ChocolateyZipPackage @packageArgs
 
-# Install start menu shortcuts
+# Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = Join-Path $programs "Git Extensions.lnk"
 $targetPath = Join-Path $toolsDir "GitExtensions\GitExtensions.exe"

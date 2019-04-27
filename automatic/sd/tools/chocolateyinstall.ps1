@@ -1,11 +1,14 @@
-﻿$packageArgs = @{
-  packageName   = 'sd'  
-  url           = 'http://www.ei5di.com/sd/sdsetup.exe'
-  
-  checksum      = 'ec999737f50b4eaec71e02d1e46bcc1e50f5bfe89cd35e2764735d78fdce5303'
+﻿$ErrorActionPreference = 'Stop';
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+
+$packageArgs = @{
+  packageName   = $env:ChocolateyPackageName
+
+  file          = "$toolsDir\sdsetup.exe"
+  checksum      = 'EC999737F50B4EAEC71E02D1E46BCC1E50F5BFE89CD35E2764735D78FDCE5303'
   checksumType  = 'sha256'
   
   silentArgs	= '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 }
 
-Install-ChocolateyPackage @packageArgs
+Install-ChocolateyInstallPackage @packageArgs

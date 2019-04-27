@@ -7,7 +7,7 @@
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/virtualdub2</packageSourceUrl>
     <owners>chtof</owners>
     <title>VirtualDub2</title>
-    <authors>[[Authors]]</authors>
+    <authors>shekhjkl</authors>
     <projectUrl>http://virtualdub2.com</projectUrl>
 	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/virtualdub2/virtualdub2.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
@@ -40,7 +40,7 @@ All features of original VirtualDub plus:
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/virtualdub2/screenshot.png)
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/virtualdub2/screenshot1.png)
 ]]></description>
-    <releaseNotes>https://sourceforge.net/p/vdfiltermod/wiki/changes/</releaseNotes>
+    <releaseNotes>https://sourceforge.net/p/vdfiltermod/wiki/changes</releaseNotes>
   </metadata>
   <files>
     <file src="legal\**" target="legal" />

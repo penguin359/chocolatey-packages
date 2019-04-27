@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>smtube</id>
+    <version>18.11.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/smtube</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>SMTube - YouTube browser for SMPlayer</title>
+    <authors>Ricardo Villalba</authors>
+    <projectUrl>http://www.smtube.org/</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/smtube/smtube.png</iconUrl>
+    <copyright>© 2015-2018 Ricardo Villalba</copyright>
+    <licenseUrl>http://www.smtube.org</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://sourceforge.net/p/smplayer/bugs</bugTrackerUrl>
+    <tags>smtube smplayer video media player multimedia youtube</tags>
+    <summary>Free media player with support for Youtube.</summary>
+    <description><![CDATA[
+Free media player with support for Youtube
+
+SMPlayer is a free media player for Windows and Linux with built-in codecs that can also play YouTube videos.
+
+One of the most interesting features of SMPlayer: it remembers the settings of all files you play. So you start to watch a movie but you have to leave... don't worry, when you open that movie again it will be resumed at the same point you left it, and with the same settings: audio track, subtitles, volume...
+
+SMPlayer is a graphical user interface (GUI) for the award-winning MPlayer, which is capable of playing almost all known video and audio formats. But apart from providing access for the most common and useful options of MPlayer, SMPlayer adds other interesting features like the possibility to play YouTube videos subtitles. 
+
+Note: for those people complaining about malware in the windows installer: be sure you download SMPlayer from the official website. Our installer is completely safe and free of malware.
+
+## Best image quality
+The performance of the flash or html5 player in a web browser is bad... You'll get much better results by using a real media player: smoother playback, no flickering, no frame drops and HD video in fullscreen, even in old computers. With SMTube you can choose the media player to play your favorite YouTube videos.)) instead of a flash player, this allows better performance, particularly with HD content.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/smtube/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  <dependencies>
+    <dependency id="smplayer" version="[19.1.0]" />
+  </dependencies>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

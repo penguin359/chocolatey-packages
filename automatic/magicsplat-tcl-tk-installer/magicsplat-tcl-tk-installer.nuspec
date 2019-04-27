@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>magicsplat-tcl-tk-installer</id>
+    <version>1.9.1</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/magicsplat-tcl-tk-installer</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Magicsplat Tcl/Tk</title>
+    <authors>Magicsplat tck/tk installer Team</authors>
+    <projectUrl>https://www.magicsplat.com/tcl-installer</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/magicsplat-tcl-tk-installer/magicsplat-tcl-tk-installer.png</iconUrl>
+    <copyright>© 2017 Ashok P. Nadkarni</copyright>
+    <!--<licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://sourceforge.net/p/magicsplat/tickets</bugTrackerUrl>
+    <tags>magicsplat-tcl-tk-installer magicsplat tcl tk installer</tags>
+    <summary>The Magicsplat Tcl/Tk for Windows distribution is a binary Windows Installer based distribution of Tcl/Tk for Windows systems. It includes commonly used libraries, extensions and development tools.</summary>
+    <description><![CDATA[
+## Note
+All binaries and libraries are built with Visual Studio 2017.
+
+## Cryptography legalities
+This software includes functions related to cryptographic operations. Your country of residence may restrict the possession, use, import and export of such software. Please check the laws and regulations of your country accordingly before using the software.
+
+For US export purposes, the Magicsplat Tcl/Tk for Windows distribution is self-classified under Export Commodity Control Number (ECCN) 5D002.C.1. It is eligible for export under Section 742.15 (b) of the Export Administration Regulations (EAR), which exempts publicly available encryption source code from being subject to EAR and Section 734.3 (b)(3) which exempts object code compiled from publicly available source code from being subject to the EAR.
+]]></description>
+    <releaseNotes>https://www.magicsplat.com/tcl-installer/#changes</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

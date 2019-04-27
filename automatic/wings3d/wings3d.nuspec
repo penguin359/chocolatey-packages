@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>wings3d</id>
+    <version>2.2.4</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/wings3d</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Wings 3D</title>
+    <authors>Wings3D Team</authors>
+    <projectUrl>http://www.wings3d.com</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/wings3d/wings3d.png</iconUrl>
+    <copyright>© 2019 Wings 3D</copyright>
+    <licenseUrl>https://sourceforge.net/p/wings/code/ci/master/tree/license.terms?format=raw</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/dgud/wings</projectSourceUrl>
+    <docsUrl>http://www.wings3d.com/?page_id=87</docsUrl>
+    <mailingListUrl>http://www.wings3d.com/forum</mailingListUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/wings/bugs</bugTrackerUrl>
+    <tags>wings3d modeler model modeling wings 3D UV</tags>
+    <summary>Wings 3D is an advanced subdivision modeler that is both powerful and easy to use. Originally inspired by Nendo and Mirai from Izware, Wings 3D has been developed since 2001, when Björn Gustavsson (bjorng) and Dan Gudmundsson (dgud) first started the project. Richard Jones (optigon) maintained Wings and coded many new features between 2006 and 2011. Wings 3D is currently maintained by Dan and Richard with the help of the great community. Wings 3D offers a wide range of modeling tools, a customizable interface, support for lights and materials, and a built-in AutoUV mapping facility. There is no support in Wings for animation.</summary>
+    <description><![CDATA[
+## Features
+
+### Overview
+- Context sensitive interface
+- Configurable interface and hotkeys
+- Wide range of Selection and Mesh tools
+- Exports to common 3d file formats like .obj
+- UV mapper, Vertex Colors, Materials, and Lights
+
+### Intuitive Interface
+Wings has a simple interface. Right-click menus give you easy access to common commands. These menus are context sensitive, so depending on your selection, a different menu pops up.
+
+Hovering over any menu item will display a brief description of the command in the Info Line at the bottom of the main window.
+
+Variations to commands are listed in the Info Line. Many commands let you pick an extra vector or point that the command should operate upon. Command variations are initiated by selecting the command using the different mouse buttons. In the Info Line, the mouse buttons are abbreviated to L, M, and R.
+
+### Tools
+Wings 3D has a comprehensive set of mesh modeling and selection tools.
+
+- Standard tools such as Move, Scale, Rotate, Extrude, Bevel, Bridge, Cut, and Weld.
+- Advanced tools including: Sweep, Plane Cut, Circularise, Intersect, Bend, Shear, and Inset.
+- Magnets and Magnet Masking
+- Virtual Mirror for symmetrical modeling
+- Tweak and Sculpt
+- Edge Loop and Edge Ring selection and navigation tools
+- Smooth Preview
+- Much, MUCH more!
+
+### AutoUV
+Add textures to your model using the AutoUV facility. AutoUV helps you cut and unfold an image of your model’s surface, which you can then export for painting and texturing.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/wings3d/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

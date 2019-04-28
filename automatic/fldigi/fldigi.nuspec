@@ -2,29 +2,30 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn't appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>fldigi</id>    
-    <version>4.1.03</version>    
+    <id>fldigi</id>
+    <version>4.1.01.20190428</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/fldigi</packageSourceUrl>
     <owners>chtof</owners>
     <title>fldigi</title>
-    <authors>W1HKJ and Associates</authors>    
+    <authors>W1HKJ and Associates</authors>
     <projectUrl>http://www.w1hkj.com/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/fldigi/fldigi.png</iconUrl>
-    <!-- <copyright>Year Software Vendor</copyright> -->    
+    <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://sourceforge.net/p/fldigi/fldigi/ci/master/tree/COPYING</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://sourceforge.net/p/fldigi/fldigi/ci/master/tree/</projectSourceUrl>
     <docsUrl>http://www.w1hkj.com/FldigiHelp</docsUrl>
-    <mailingListUrl>https://sourceforge.net/p/fldigi/mailman/</mailingListUrl>    
+    <mailingListUrl>https://sourceforge.net/p/fldigi/mailman/</mailingListUrl>
     <tags>fldigi digital modes HAM radio amateur</tags>
     <summary>Sights and Sounds of Digital Modes</summary>
     <description><![CDATA[Fldigi is a modem program for most of the digital modes used by radio amateurs today: CW, PSK, MFSK, RTTY, Hell, DominoEX, Olivia, and Throb are all supported. It can help calibrate a sound card to a time signal and do frequency measurement tests.
 
 ![screenshot](https://raw.githubusercontent.com/chtof/chocolatey-packages/master/automatic/fldigi/screenshot.png)
 ]]></description>
-    <releaseNotes>https://sourceforge.net/p/fldigi/fldigi/ci/master/tree/ChangeLog</releaseNotes>    
+    <releaseNotes>https://sourceforge.net/p/fldigi/fldigi/ci/master/tree/ChangeLog</releaseNotes>
   </metadata>
-  <files>    
-    <file src="tools\**" target="tools" />    
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
   </files>
 </package>

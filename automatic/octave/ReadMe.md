@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/octave/octave.png" width="48" height="48"/> [GNU Octave (Install)](https://chocolatey.org/packages/octave)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/octave/octave.png" width="48" height="48"/> [GNU Octave](https://chocolatey.org/packages/octave)
 
 - Powerful mathematics-oriented syntax with built-in plotting and visualization tools.
 - Free software, runs on GNU/Linux, macOS, BSD, and Windows.

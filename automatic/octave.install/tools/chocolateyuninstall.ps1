@@ -2,7 +2,7 @@
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'Octave*'
+  softwareName  = 'Octave *'
   fileType      = 'exe'
   silentArgs    = "/S"
 }

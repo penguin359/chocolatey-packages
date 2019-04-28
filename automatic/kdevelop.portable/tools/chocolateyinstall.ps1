@@ -16,10 +16,8 @@ $packageArgs = @{
 
 Install-ChocolateyZipPackage @packageArgs
     
-#Install start menu shortcuts
+#Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
-
 $shortcutFilePath = Join-Path $programs "KDevelop.lnk"
 $targetPath = Join-Path $toolsDir "KDevelop\bin\kdevelop.exe"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath
-

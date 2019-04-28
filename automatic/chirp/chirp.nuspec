@@ -24,10 +24,10 @@ CHIRP is distributed as a series of automatically-generated builds. Any time we 
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/chirp/screenshot.png)
 ]]></description>
-    <releaseNotes>http://chirp.danplanet.com/projects/chirp/repository/revisions</releaseNotes>
+  <releaseNotes>http://chirp.danplanet.com/projects/chirp/repository/revisions</releaseNotes>
 	<dependencies>
-      <dependency id="chirp.install" version="[2019.04.24]" />
-    </dependencies>
+    <dependency id="chirp.install" version="[2019.04.24]" />
+  </dependencies>
   </metadata>
   <files>  
   </files>

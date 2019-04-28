@@ -1,4 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop';
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $silentArgs = '/S'
 
 $pp = Get-PackageParameters
@@ -10,11 +11,11 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   fileType      = 'exe'
   
-  url           = 'http://www.w1hkj.com/files/fldigi/fldigi-4.1.03_setup.exe'
-  checksum      = 'df64c718d880bf6c5884a51a85ef6feb0021d1b2b132ffa5346a57d0ef5c826a'
+  file          = "$toolsDir\fldigi-4.1.01_setup.exe"
+  checksum      = '26986F0938FB51E3E321205EB1509167FA7505D4310BBEB84735E407276D7B3F'
   checksumType  = 'sha256'
   
-  silentArgs	= $silentArgs
+  silentArgs	= "$silentArgs"
 }
 
-Install-ChocolateyPackage @packageArgs
+Install-ChocolateyInstallPackage @packageArgs

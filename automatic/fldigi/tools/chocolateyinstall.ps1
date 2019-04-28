@@ -9,12 +9,8 @@ if ($pp['DIR']){
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  fileType      = 'exe'
-  
-  file          = "$toolsDir\fldigi-4.1.01_setup.exe"
-  checksum      = '26986F0938FB51E3E321205EB1509167FA7505D4310BBEB84735E407276D7B3F'
-  checksumType  = 'sha256'
-  
+  fileType      = 'exe'  
+  file          = "$toolsDir\fldigi-4.1.03_setup_x32.exe"  
   silentArgs	= "$silentArgs"
 }
 

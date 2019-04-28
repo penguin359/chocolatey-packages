@@ -1,6 +1,7 @@
 ﻿import-module au
-
 $releases = 'http://www.w1hkj.com/files/fldigi/'
+
+function global:au_BeforeUpdate { Get-RemoteFiles -Purge }
 
 function global:au_GetLatest {
      $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
@@ -12,11 +13,21 @@ function global:au_GetLatest {
 
 function global:au_SearchReplace {
     @{
-        "tools\chocolateyInstall.ps1" = @{
-			"(^(\s)*url\s*=\s*)('.*')" = "`$1'$($Latest.URL32)'"
-            "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
+        "legal\VERIFICATION.txt"  = @{            
+            "(?i)(x32: ).*"               = "`${1}$($Latest.URL32)"
+            "(?i)(x64: ).*"               = "`${1}$($Latest.URL32)"
+            "(?i)(Get-RemoteChecksum ).*" = "`${1}$($Latest.URL32)"
+            "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
+            "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
+            "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
+        }
+
+        "tools\chocolateyinstall.ps1" = @{        
+          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
         }
     }
 }
 
-update
+if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
+    update -ChecksumFor none
+}

@@ -3,11 +3,8 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  destination   = $toolsDir
-    
-  file          = "$toolsDir\die_win32_portable_2.02.zip"
-  checksum      = '56CE00363C319EE7635A4C7507C8BAED28EE545D6F82B9813C0913AAE0BBE29C'
-  checksumType  = 'sha256'
+  destination   = $toolsDir    
+  file          = "$toolsDir\die_win32_portable_2.02.zip"  
 }
 
 Get-ChocolateyUnzip @packageArgs

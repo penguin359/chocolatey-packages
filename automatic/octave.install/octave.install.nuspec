@@ -51,8 +51,7 @@ Everyone is encouraged to share this software with others under the terms of the
 ]]></description>
     <releaseNotes>https://www.gnu.org/software/octave/news.html</releaseNotes>
   </metadata>
-  <files>
-    <file src="legal\**" target="legal" />
+  <files>    
     <file src="tools\**" target="tools" />
   </files>
 </package>

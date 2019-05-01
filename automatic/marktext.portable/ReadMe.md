@@ -10,4 +10,15 @@ A simple and elegant open-source markdown editor that focused on speed and usabi
 - Various themes: **Cadmium Light**, **Material Dark** etc.
 - Various editing modes: **Source Code mode**, **Typewriter mode**, **Focus mode**.
 
+### Table Block
+Support GFM table block, you can remove/add rows and columns.
+### Diagram
+Support Flowchart, Sequence diagram, Gantt diagram, Vega chart.
+### Inline Formats
+Support CommonMark and GitHub Flavored Markdown Spec.
+### Math Fomula
+Markdown extensions math expressions (KaTeX)
+### Code Block
+Support GFM code fense, highlight by prismjs.
+
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/marktext.portable/screenshot.png)

@@ -66,23 +66,23 @@ Quickly switch between your last used pages: with one simple keyboard shortcut, 
 Have an overview of the different notifications you've received across all your apps. It's as simple as that.
 
 ### Auto Sleep
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot17.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot17.png)  
 Apps are dynamically loaded & unloaded as you use them, making Station lighter on your CPU than most browsers.
 
 ### Easy Bookmark
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot18.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot18.png)  
 Keep any page easily accessible at all times, what else?
 
 ### Team Repository
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot19.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot19.png)  
 Get an overview of all the apps used by your teammates!
 
 ### Public App Store
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot20.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot20.png)  
 With 600 web apps and counting, you'll find all you need in our public app store.
 Centralize everything
 
 ### Custom Apps
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot21.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot21.png)  
 Add public, team specific or private apps to your Station with just a few clicks.
 

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>station</id>
+    <version>1.41.1</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/station</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Station</title>
+    <authors>Station Team</authors>
+    <projectUrl>https://getstation.com</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/station.png</iconUrl>
+    <copyright>© 2019 - Station</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://community.getstation.com/c/bugs</bugTrackerUrl>
+    <tags>station smart browser centralize web application</tags>
+    <summary>One app to rule them all. Station is the first smart browser for busy people. A single place for all of your web applications.</summary>
+    <description><![CDATA[
+## Overview
+
+### Lost in tabs?
+**Stay organized with the smart dock.**
+Station automatically groups your pages by application. Your workspace is cleaner than ever, finding what you need is easy.
+
+### Context-switching is a pain?
+**Multitask like a beast with the quick switch.**
+An easy central way to search across your apps and pages. Any document, to-do list, spreadsheet or conversation is just a click away!
+
+### Getting distracted easily?
+**Get stuff done with the focus mode.**
+Decide when and which applications should send you notifications. Get your best work done away from distractions.
+
+**There’s more!**
+
+### Page autosleep
+We intelligently sleep applications so that slow-downs remain a thing of the past.
+
+### Multi-account
+Log into multiple accounts at the same time, without any hassle.
+
+### Chrome extensions
+1Password, Mixmax, Gmelius, Clearbit and Mailtracker are already supported. Dozens incoming.
+
+## Features Overview
+Check what’s under the hood!
+Pick your superpower
+
+### Smart Dock
+To avoid ending up with 20+ tabs stacking up on top of each other, all pages are automatically grouped by app.
+
+### Do Not Disturb
+Stay focused all day long by muting notifications across all your apps. With just one click.
+
+### App Mute
+Mute some apps notifications while keeping others active. Be interrupted solely for things that matter to you.
+
+### Unified Search for Google Drive
+Easily find any document across all your Google Drive accounts. That spreadsheet, presentation or working paper is just a second away!
+
+### Multi-Account
+Add as many accounts to your Station as you want: your different Gmail, Google Drive or Slack profiles are all neatly integrated.
+Centralize everything
+
+### Recent Documents
+Quickly switch between your last used pages: with one simple keyboard shortcut, you can see all the documents you've been working on.
+
+### Notification Center
+Have an overview of the different notifications you've received across all your apps. It's as simple as that.
+
+### Auto Sleep
+Apps are dynamically loaded & unloaded as you use them, making Station lighter on your CPU than most browsers.
+
+### Easy Bookmark
+Keep any page easily accessible at all times, what else?
+
+### Team Repository
+Get an overview of all the apps used by your teammates!
+
+### Public App Store
+With 600 web apps and counting, you'll find all you need in our public app store.
+Centralize everything
+
+### Custom Apps
+Add public, team specific or private apps to your Station with just a few clicks.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot.png)
+]]></description>
+    <releaseNotes>https://releases.getstation.com</releaseNotes>    
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

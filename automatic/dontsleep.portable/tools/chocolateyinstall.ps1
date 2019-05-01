@@ -6,11 +6,11 @@ $packageArgs = @{
   unzipLocation = $toolsDir
 
   url           = 'https://www.softwareok.com/Download/DontSleep_Portable.zip'
-  checksum      = '4C0C1920743EF5EDCCFAFB443EC56EB044521AC6FB2A941014FCE5584B3637D9'
+  checksum      = 'dec9125c7c2ebdc17e77be0562f324efb5ced8378ae628be6d8c0adcc19864bb'
   checksumType  = 'sha256'
 
   url64bit      = 'https://www.softwareok.com/Download/DontSleep_x64_Portable.zip'  
-  checksum64    = 'A8252DBF0009165F363B96A39B8149AE2A2AF4EE38EE92E80991284FB472C68C'
+  checksum64    = '32bba5f071c9ad3f347a65673e7ba296e084e6dd4651f9f02e5550b10feef4be'
   checksumType64= 'sha256'  
 }
 

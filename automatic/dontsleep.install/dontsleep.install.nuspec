@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dontsleep.install</id>
-    <version>5.15</version>
+    <version>5.16</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/dontsleep.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>Don't Sleep (Install)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://www.softwareok.com/?seite=Kontakt</bugTrackerUrl>
     <tags>dontsleep.install computer sleep control</tags>
     <summary>Don't Sleep is a small portable Windows program to prevent system shutdown, Standby, Hibernate, Turn Off and Restart.</summary>
-    <description><![CDATA[
-Especially when old Programs run on Windows-10 or Windows 8.1 / 7. Here's more aggressive power-saving features with new rules. 
+    <description><![CDATA[Especially when old Programs run on Windows-10 or Windows 8.1 / 7. Here's more aggressive power-saving features with new rules. 
 
 But not only that, it also prevents login off the computer, and the deactivation of the monitor or activation of the screen saver. 
 

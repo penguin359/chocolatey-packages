@@ -1,6 +1,5 @@
 import-module au
-
-$releases = 'https://hamapps.com/'
+$releases = 'https://hamapps.com'
 
 function global:au_GetLatest {
      $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
@@ -15,11 +14,11 @@ function global:au_GetLatest {
 	 $url -split '-|_Setup.exe' | select -First 1
 	 $version = $matches[1];
 	 
-     return @{ Version = $version ; URL32 = $url.href ; Version_win10 = $version_win10 ; URL32_win10 = $url_win10.href}
+     return @{ Version = $version ; URL32 = $url.href ; Version_win10 = $version_win10 ; URL32_win10 = $url_win10.href }
 }
 
 function global:au_SearchReplace {
-    $Checksum32_win10 = Get-RemoteChecksum '$($Latest.URL32_win10)'
+    $Checksum32_win10 = Get-RemoteChecksum "$($Latest.URL32_win10)"
     @{
         "tools\chocolateyInstall.ps1" = @{
 			"(^(\s)*\`$url_others\s*=\s*)('.*')" = "`$1'$($Latest.URL32)'"

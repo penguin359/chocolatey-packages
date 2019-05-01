@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>openmodelica</id>
+    <version>1.13.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/openmodelica</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>OpenModelica</title>
+    <authors>OpenModelica Team</authors>
+    <projectUrl>https://openmodelica.org</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/openmodelica/openmodelica.png</iconUrl>
+    <copyright>Copyright © 2019 OpenModelica. All Rights Reserved.</copyright>
+    <licenseUrl>https://openmodelica.org/developersresources/contributor-license-agreement?id=56:full-license</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/OpenModelica/OpenModelica</projectSourceUrl>
+    <docsUrl>https://openmodelica.org/doc/OpenModelicaUsersGuide/latest</docsUrl>
+    <mailingListUrl>https://openmodelica.org/useresresources/mailing-list</mailingListUrl>
+    <bugTrackerUrl>https://trac.openmodelica.org/OpenModelica/newticket</bugTrackerUrl>
+    <tags>openmodelica modelica modeling simulation environment industrial academic</tags>
+    <summary>OPENMODELICA is an open-source Modelica-based modeling and simulation environment intended for industrial and academic usage. Its long-term development is supported by a non-profit organization – the [Open Source Modelica Consortium (OSMC)](https://openmodelica.org/home/consortium).</summary>
+    <description><![CDATA[
+The goal with the OpenModelica effort is to create a comprehensive Open Source Modelica modeling, compilation and simulation environment based on free software distributed in binary and source code form for research, teaching, and industrial usage. We invite researchers and students, or any interested developer to participate in the project and cooperate around OpenModelica, tools, and applications.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/openmodelica/screenshot.png)
+]]></description>
+    <releaseNotes>https://trac.openmodelica.org/OpenModelica/wiki/ReleaseNotes</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

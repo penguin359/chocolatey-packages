@@ -20,6 +20,10 @@
     <tags>wings3d modeler model modeling wings 3D UV</tags>
     <summary>Wings 3D is an advanced subdivision modeler that is both powerful and easy to use. Originally inspired by Nendo and Mirai from Izware, Wings 3D has been developed since 2001, when Björn Gustavsson (bjorng) and Dan Gudmundsson (dgud) first started the project. Richard Jones (optigon) maintained Wings and coded many new features between 2006 and 2011. Wings 3D is currently maintained by Dan and Richard with the help of the great community. Wings 3D offers a wide range of modeling tools, a customizable interface, support for lights and materials, and a built-in AutoUV mapping facility. There is no support in Wings for animation.</summary>
     <description><![CDATA[
+## Prerequisites
+
+To launch Wings3D, you need OpenGL 2.1 for Windows. See https://www.khronos.org/opengl/wiki/Getting_Started#Downloading_OpenGL
+
 ## Features
 
 ### Overview
@@ -53,7 +57,10 @@ Add textures to your model using the AutoUV facility. AutoUV helps you cut and u
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/wings3d/screenshot.png)
 ]]></description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  <dependencies>
+    <dependency id="vcredist2013" version="12.0.40660.20180427" />
+  </dependencies>
   </metadata>
   <files>
     <file src="legal\**" target="legal" />

@@ -10,3 +10,4 @@ $packageArgs = @{
 }
 
 Install-ChocolateyInstallPackage @packageArgs
+Write-Warning "OpenGL 2.1 for Windows is needed to launch Wings3D. See https://www.khronos.org/opengl/wiki/Getting_Started#Downloading_OpenGL"

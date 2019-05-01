@@ -7,11 +7,11 @@ $packageArgs = @{
   fileType      = 'exe'  
     
   url           = 'https://www.softwareok.com/Download/DontSleep.zip'
-  checksum      = '41B03DDA64701699F1CF91AA297B849F9303ABEF28BFF40BF07F1D1A04BD53DA'
+  checksum      = 'e5ce32b388d7d6c190f5b47407aa5ee6c1b102a300cc090fc0d422f975554a8a'
   checksumType  = 'sha256'
 
   url64bit      = 'https://www.softwareok.com/Download/DontSleep_x64.zip'
-  checksum64    = '6DB37AE36DED2536DE89A3A41AC190BDD8B37BB12BACCD0E89679D4ACB137CA7'
+  checksum64    = 'f13397afe4eea92e976d974c76cb1322643ad5704e33ad76b6bce460d0335372'
   checksumType64= 'sha256'  
 }
 

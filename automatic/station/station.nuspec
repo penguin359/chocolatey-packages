@@ -106,7 +106,7 @@ Centralize everything
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot21.png)  
 Add public, team specific or private apps to your Station with just a few clicks.
 ]]></description>
-    <releaseNotes>https://releases.getstation.com</releaseNotes>    
+    <releaseNotes>https://releases.getstation.com</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

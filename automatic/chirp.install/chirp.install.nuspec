@@ -27,6 +27,7 @@ CHIRP is distributed as a series of automatically-generated builds. Any time we 
     <releaseNotes>http://chirp.danplanet.com/projects/chirp/repository/revisions</releaseNotes>
   </metadata>
   <files>
+    <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>

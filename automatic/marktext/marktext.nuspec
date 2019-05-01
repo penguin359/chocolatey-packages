@@ -8,7 +8,7 @@
     <owners>chtof</owners>
     <title>Mark Text</title>
     <authors>Jocs and contributors</authors>
-    <projectUrl>https://github.com/marktext/marktext</projectUrl>
+    <projectUrl>https://marktext.app</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/marktext/marktext.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://raw.githubusercontent.com/marktext/marktext/master/LICENSE</licenseUrl>

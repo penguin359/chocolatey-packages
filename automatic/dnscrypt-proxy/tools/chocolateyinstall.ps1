@@ -8,4 +8,4 @@ $packageArgs = @{
   file64        = 'https://github.com/jedisct1/dnscrypt-proxy/releases/download/2.0.22/dnscrypt-proxy-win64-2.0.22.zip'
 }
 
-Install-ChocolateyZipPackage @packageArgs
+Get-ChocolateyUnzip @packageArgs

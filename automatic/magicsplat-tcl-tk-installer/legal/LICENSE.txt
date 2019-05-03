@@ -1,0 +1,20 @@
+1. LICENSE
+2. THIRDPARTY LICENSES
+3. NOTICE REGARDING USE OF CRYPTOGRAPHY
+
+1. LICENSE
+The following license applies only to the compilation of software included in this distribution. Individual components in the compilation are covered by their own licenses as noted in the next section.
+© 2017 Ashok P. Nadkarni
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+2. THIRDPARTY LICENSES
+The packages included in the distribution are covered by their own individual licenses. The license associated with each package is available in the licenses subdirectory where the distribution is installed.
+Additionally, the distribution includes two runtime libraries from Microsoft:
+·	The Universal C Runtime dynamic libraries from Microsoft which are covered under the redistribution license available at <http://go.microsoft.com/fwlink/?LinkId=524842>. These are installed in the bin directory and include the files ucrtbase.dll and api-ms-core*.dll.
+·	The Visual C++ runtime files, also installed in the bin directory, concrt*.dll, msvcp*.dll, vccorlib*.dll and vcruntime*.dll, are redistributed under the terms of the license available at https://www.visualstudio.com/license-terms/mlt687465/.
+3. NOTICE REGARDING USE OF CRYPTOGRAPHY
+This software includes functions related to cryptographic operations. Your country of residence may restrict the possession, use, import and export of such software. Please check the laws and regulations of your country accordingly before using the software.
+For US export purposes, the Magicsplat Tcl/Tk for Windows distribution is self-classified under Export Commodity Control Number (ECCN) 5D002.C.1. It is eligible for export under Section 742.15 (b) of the Export Administration Regulations (EAR), which exempts publicly available encryption source code from being subject to EAR and Section 734.3 (b)(3) which exempts object code compiled from publicly available source code from being subject to the EAR. 

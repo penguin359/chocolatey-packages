@@ -26,7 +26,6 @@ ketarin/soluto.xml
 update_vars.ps1
 update_info.xml
 Update-AUPackages.md
-*.txt
 manual/klog/tools/chocolateyuninstall.ps1
 manual/test/test.nuspec
 manual/test/tools/chocolateybeforemodify.ps1

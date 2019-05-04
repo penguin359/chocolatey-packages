@@ -13,5 +13,5 @@ Get-ChocolateyUnzip @packageArgs
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $OSArchitectureWidth = Get-OSArchitectureWidth
 $shortcutFilePath = Join-Path $programs "SSLVerifier.lnk"
-$targetPath = Join-Path $toolsDir "SSLVerifier-x$OSArchitectureWidth"
+$targetPath = Join-Path $toolsDir "SSLVerifier-x{$OSArchitectureWidth}.exe"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath

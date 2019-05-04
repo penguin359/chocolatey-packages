@@ -3,15 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>winlog32</id>
-    <version>7.3.29</version>
+    <version>7.3.29.20190504</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/winlog32</packageSourceUrl>
-    <owners>chtof</owners>    
+    <owners>chtof</owners>
     <title>winlog32</title>
-    <authors>Colin Morris, G0CUZ</authors>    
+    <authors>Colin Morris, G0CUZ</authors>
     <projectUrl>http://www.winlog32.co.uk/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/winlog32/winlog32.png</iconUrl>
-    <copyright>© Copyright Colin Morris, G0CUZ 1995-2019</copyright>
-    <!-- If there is a license Url available, it is is required for the community feed -->
+    <copyright>© Copyright Colin Morris, G0CUZ 1995-2019</copyright>    
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
@@ -55,9 +54,10 @@ Do you want to know if Winlog32 will suit your purposes? - please read on.....
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/winlog32/screenshot.png)
 ]]></description>
-    <releaseNotes>http://www.winlog32.co.uk/cnews.htm</releaseNotes>    
+    <releaseNotes>http://www.winlog32.co.uk/cnews.htm</releaseNotes>
   </metadata>
-  <files>    
-    <file src="tools\**" target="tools" />    
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
   </files>
 </package>

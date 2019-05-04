@@ -12,7 +12,7 @@ It’s easy. Take it slow.
 - Sign in with your cloud service account (Google, Microsoft or Dropbox account)
 - ***RaiDrive DOES NOT save your password***.
 
-**Yeah~ Ready!**
+**Yeah~ Ready!**  
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/raidrive/screenshot3.png)
 You can see the drive you added in the **File Explorer**.
 Use it like a drive right now.

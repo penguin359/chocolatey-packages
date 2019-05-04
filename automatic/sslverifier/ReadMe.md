@@ -1,0 +1,52 @@
+﻿[SSL Certificate Verifier](https://chocolatey.org/packages/sslverifier)
+
+## Features
+- Validates the SSL certificate and validates all certificates in the chain for possible errors;
+- Implements certificate expiration checking. Certificate expiration is checked for all certificates in the chain;
+- The tool also checks certificates for all possible redirection URLs;
+- Writes trace/debug log for each processed entry;
+- Provides an ability to save server list to a file and read the list from a file.
+
+## Main Window
+
+Main window contains a list of remote SSL/TLS servers and control buttons. There are three possible validation outcomes:
+
+- **Ok**
+Client was able to successfully connect to remote server over SSL/TLS and its certificate passed all validation checks based on current settings.
+
+- **Error**
+Client was either, not able to connect to remote server over SSL/TLS or its certificate failed certificate validation checks.
+
+- **Warning**
+Client was able to successfully connect to remote server over SSL/TLS and its certificate passed all validation checks, but its certificate is about to expire:
+
+When selecting particular entry, a trace log with certificate details is shown. Right-click on remote server entry and selecting entry properties it is possible to configure proxy settings if necessary:
+
+## Certificate View
+Additionally, there is certificate view which is located under **Certificates** tab:
+
+Certificate view dialog shows certificate chain and errors. Native errors shows potential issues with selected certificate itself. Propagated errors show potential issues propagated from upper level certificates (intermediate CA certificates). The following image shows errors associated with a certificate that failed validation checks:
+
+By pressing View Certificate button, a certificate UI dialog (provided by operating system) is shown.
+
+## Application Settings
+Application contains several settings, which are invoked via **Options -> Settings**:
+
+In this dialog, you can configure some validation options:
+
+- **Strict EKU validation**
+When enabled, this option will require that entire certificate chain is valid for Server Authentication enhanced key usage. Otherwise, Server Authentication EKU is checked on leaf certificate only.
+
+- **Allow user trust**
+By default, certificate chains are built against trusted root CA store in machine context (local computer). Manually added trusted root CAs in current user store are not trusted by default.
+
+- **Require minimum RSA public key length**
+Enforces RSA public key length which must be equals or greater than specified value. This settings has effect only on RSA public keys. ECC (ellyptic curve cryptography) key length is not enforced.
+
+- **Protocol list**
+Specifies allowed SSL/TLS protocols. SSL Verifier Tool attempts to connect to remote server using the best protocol. If connection fails and there are other allowed protocols, they are attempted until connection succeeds or there are more allowed SSL/TLS protocols, otherwise, connection will fail.
+
+- **Invalidate weak signature algorithm**
+When enabled, specifies a set of disallowed signature algorithm for leaf and intermediate CA certificates. Signature algorithm list is not applied to root (presented in a self-signed form) are not checked.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/sslverifier/screenshot.png)

@@ -1,0 +1,21 @@
+Except where otherwise noted, all of the documentation and software included in the PhonerLite package is copyrighted by Heiko Sommerfeldt.
+
+Copyright (C) 2019 Heiko Sommerfeldt. All rights reserved.
+
+This software is provided "as-is", without any express or implied warranty.
+In no event shall the author be held liable for any damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter and distribute it, provided that the following conditions are met:
+
+    All distributions of the whole package or parts of it must retain all occurrences of the above copyright notice and web site addresses.
+    The origin of this software must not be misrepresented; you must not claim that you wrote the original software.
+    Modified versions must be plainly marked as such, and must not be misrepresented as being the original software.
+    All distributions of the whole package or parts of it must keep free of charge. Commercial distribution needs further inquiry to the author.
+
+Copyright of used libraries:
+
+    oSIP: (C) 2002 Aymeric MOIZARD, http://www.osip.org
+    iLBC: (c) 2000-2003 The iLBCfreeware.org Project, http://www.ilbcfreeware.org
+    Speex: © 2002-2003, Jean-Marc Valin/Xiph.Org Foundation, http://www.speex.org
+    libSRTP: (c) 2001-2005 Cisco Systems, Inc., http://srtp.sourceforge.net/srtp.html
+    OpenSSL: Copyright (c) 1998-2007 The OpenSSL Project, http://www.openssl.org/

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>win-caffeinate</id>
+    <version>1.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/win-caffeinate</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>win-caffeinate</title>
+    <authors>iorate</authors>
+    <projectUrl>https://github.com/iorate/win-caffeinate</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/win-caffeinate/win-caffeinate.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/iorate/win-caffeinate/master/LICENSE_1_0.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/iorate/win-caffeinate</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/iorate/win-caffeinate/issues</bugTrackerUrl>
+    <tags>win-caffeinate display system idle sleeping</tags>
+    <summary>Prevent the display and system from idle sleeping.</summary>
+    <description><![CDATA[
+# win-caffeinate
+A port of `caffeinate` command from macOS to Windows. It can prevent the display and system from idle sleeping.
+
+## Example
+```
+$ caffeinate make
+```
+
+`caffeinate` executes `make` and prevents the system from sleeping while `make` is running.
+
+```
+$ caffeinate -dit3600
+```
+
+`caffeinate` prevents the display and system from sleeping for 3600 seconds.
+
+## Requirements
+To run it, Windows 7 or later is required. To build it, a compiler that supports C++14 is required.
+
+## Usage
+```
+$ caffeinate --help
+Usage: caffeinate [OPTION...] [UTILITY...]
+  prevent the system from sleeping
+
+Options:
+  -h         --help            display this help and exit
+  -v         --version         display the version info and exit
+  -d         --display         prevent the display from sleeping
+  -i         --system-idle     prevent the system from idle sleeping (default)
+  -t PERIOD  --timeout=PERIOD  specify the timeout value in seconds
+  -w PID     --wait=PID        wait for the process with the specified pid to
+                               exit
+```
+
+## Author
+[iorate](https://github.com/iorate) ([Twitter](https://twitter.com/iorate))
+
+## License
+[Boost Software License 1.0](https://github.com/iorate/win-caffeinate/blob/master/LICENSE_1_0.txt)
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/win-caffeinate/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,6 +1,5 @@
 ﻿# [win-caffeinate](https://chocolatey.org/packages/win-caffeinate)
 
-# win-caffeinate
 A port of `caffeinate` command from macOS to Windows. It can prevent the display and system from idle sleeping.
 
 ## Example

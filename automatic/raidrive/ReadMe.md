@@ -13,7 +13,7 @@ It’s easy. Take it slow.
 - ***RaiDrive DOES NOT save your password***.
 
 **Yeah~ Ready!**  
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/raidrive/screenshot3.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/raidrive/screenshot3.png)  
 You can see the drive you added in the **File Explorer**.
 Use it like a drive right now.
 

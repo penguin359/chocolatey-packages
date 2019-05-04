@@ -8,6 +8,7 @@
 - Provides an ability to save server list to a file and read the list from a file.
 
 ## Main Window
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/sslverifier/screenshot1.png)
 
 Main window contains a list of remote SSL/TLS servers and control buttons. There are three possible validation outcomes:
 
@@ -19,18 +20,23 @@ Client was either, not able to connect to remote server over SSL/TLS or its cert
 
 - **Warning**
 Client was able to successfully connect to remote server over SSL/TLS and its certificate passed all validation checks, but its certificate is about to expire:
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/sslverifier/screenshot2.png)
 
 When selecting particular entry, a trace log with certificate details is shown. Right-click on remote server entry and selecting entry properties it is possible to configure proxy settings if necessary:
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/sslverifier/screenshot3.png)
 
 ## Certificate View
 Additionally, there is certificate view which is located under **Certificates** tab:
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/sslverifier/screenshot4.png)
 
 Certificate view dialog shows certificate chain and errors. Native errors shows potential issues with selected certificate itself. Propagated errors show potential issues propagated from upper level certificates (intermediate CA certificates). The following image shows errors associated with a certificate that failed validation checks:
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/sslverifier/screenshot5.png)
 
 By pressing View Certificate button, a certificate UI dialog (provided by operating system) is shown.
 
 ## Application Settings
 Application contains several settings, which are invoked via **Options -> Settings**:
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/sslverifier/screenshot6.png)
 
 In this dialog, you can configure some validation options:
 
@@ -48,5 +54,3 @@ Specifies allowed SSL/TLS protocols. SSL Verifier Tool attempts to connect to re
 
 - **Invalidate weak signature algorithm**
 When enabled, specifies a set of disallowed signature algorithm for leaf and intermediate CA certificates. Signature algorithm list is not applied to root (presented in a self-signed form) are not checked.
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/sslverifier/screenshot.png)

@@ -72,7 +72,7 @@ Do you use Dropbox? Now you can easily use synced files with your smartphone. Yo
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   <dependencies>
     <dependency id="dotnetfx" version="4.7.2" />
-    <!--<dependency id="vcredist2013" version="12.0.40660.20180427" />-->
+    <dependency id="vcredist2013" version="12.0.40660.20180427" />
   </dependencies>
   </metadata>
   <files>

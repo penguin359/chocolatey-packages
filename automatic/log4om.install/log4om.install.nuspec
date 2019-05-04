@@ -2,21 +2,19 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>log4om.install</id>    
-    <version>1.36.0.20190314</version>
+    <id>log4om.install</id>
+    <version>1.36.0.20190504</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/log4om.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>Log4OM (Install)</title>
     <authors>Daniele Pistollato IW3HMH, Terry G4POP, Chuck K7PT , Rolf LA9FFA, Doug W7DRM, Peter G3ZSS, Claus OE6CLD</authors>
-    <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.log4om.com</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/log4om.install/log4om.png</iconUrl>
     <copyright>2011-2012 Daniele Pistollato</copyright>
-    <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>http://www.pisto.it/LogOm/Log4OM_enu.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <docsUrl>http://www.log4om.com/resources/</docsUrl>
+    <docsUrl>http://www.log4om.com/resources</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>http://forum.log4om.com/viewforum.php?f=7</bugTrackerUrl>
     <tags>log4om log HAM radio amateur</tags>
@@ -60,21 +58,14 @@ It has been tested on all Windows operating systems from Windows Vista to the la
 - `--installargs "'/DIR=c:\\path\\to\\folder'"` - Install LogOM in the specified folder.
 ]]></description>
 
-<releaseNotes><![CDATA[
-## MAINTENANCE RELEASE
-
-- Added support to QARTest direct QSO import in Log4OM Communicator (Inbound settings, default port is 9458)
-- Added support to N1MM direct QSO import (UDP Broadgast -> CONTACT option in N1MM settings) in Log4OM Communicator (Inbound settings, default port 12060)
-- Added new CAT mode in settings (Source: N1MM – selection: External) that overrides Omnirig and Hamlib (requires a running communicator instance)
-- Set autofocus over search fields of QSO Management and QSL Management forms
-- Added Aircraft Scatter in the propagation mode list and moved the whole list to external configuration file (propagation.csv)
-]]></releaseNotes>
+<releaseNotes>http://www.log4om.com</releaseNotes>
 <dependencies>
-	<dependency id="dotnetfx" version="[4.6.2,4.6.3)" />
+	<dependency id="dotnetfx" version="4.6.3" />
 	<dependency id="omnirig" version="1.18.0.20190228" />
 </dependencies>
   </metadata>
-  <files>    
-    <file src="tools\**" target="tools" />    
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
   </files>
 </package>

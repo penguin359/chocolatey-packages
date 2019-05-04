@@ -20,7 +20,6 @@
     <tags>win-caffeinate display system idle sleeping</tags>
     <summary>Prevent the display and system from idle sleeping.</summary>
     <description><![CDATA[
-# win-caffeinate
 A port of `caffeinate` command from macOS to Windows. It can prevent the display and system from idle sleeping.
 
 ## Example

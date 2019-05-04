@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/win-caffeinate/win-caffeinate.png" width="48" height="48"/> [win-caffeinate](https://chocolatey.org/packages/win-caffeinate)
+﻿# [win-caffeinate](https://chocolatey.org/packages/win-caffeinate)
 
 # win-caffeinate
 A port of `caffeinate` command from macOS to Windows. It can prevent the display and system from idle sleeping.
@@ -40,5 +40,3 @@ Options:
 
 ## License
 [Boost Software License 1.0](https://github.com/iorate/win-caffeinate/blob/master/LICENSE_1_0.txt)
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/win-caffeinate/screenshot.png)

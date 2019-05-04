@@ -1,13 +1,10 @@
 $ErrorActionPreference = 'Stop';
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-    
-  url           = 'https://www.phoner.de/PhonerLiteSetup_271.exe'
-  checksum      = '2E58A59EDF817B3F54D0444B649ADE866ABB51DBA9AD1B13A1F143A8CB37CBB1'
-  checksumType  = 'sha256'  
-  
+  packageName   = $env:ChocolateyPackageName    
+  file          = "$toolsDir\PhonerLiteSetup_271.exe"    
   silentArgs	= "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
 }
 
-Install-ChocolateyPackage @packageArgs
+Install-ChocolateyInstallPackage @packageArgs

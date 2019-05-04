@@ -119,7 +119,7 @@ Download the current icons and alter ones you like.
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/zvirtualdesktop/screenshot2.gif)
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/zvirtualdesktop/screenshot3.gif)
 ]]></description>
-    <!--<releaseNotes>URL Releases notes</releaseNotes>-->
+  <releaseNotes>https://github.com/mzomparelli/zVirtualDesktop/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>mp3skyperecorder</id>
-    <version>4.50.1</version>
+    <version>4.50.1.20190504</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/mp3skyperecorder</packageSourceUrl>
     <owners>chtof</owners>
     <title>MP3 Skype Recorder</title>
@@ -57,7 +57,10 @@ Please use ***report a bug*** button on the main program screen to report any ki
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/mp3skyperecorder/screenshot.png)
 ]]></description>
-    <releaseNotes>https://voipcallrecording.com/Skype_Call_Recorder_releases</releaseNotes>
+  <releaseNotes>https://voipcallrecording.com/Skype_Call_Recorder_releases</releaseNotes>
+  <dependencies>
+    <dependency id="dotnetfx" version="4.7.2" />
+  </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

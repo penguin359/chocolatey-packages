@@ -43,15 +43,14 @@ Full-time development began in the Spring of 1992. The first alpha release was J
 Since then, Octave has been through several major revisions, is included with [Debian GNU/Linux](https://www.debian.org), [openSUSE](https://www.opensuse.org), and many other GNU/Linux distributions. Octave was reviewed in the in the July, 1997 issue of the [Linux Journal](http://www.linuxjournal.com/article/1225).
 Clearly, Octave is now much more than just another courseware package with limited utility beyond the classroom. Although our initial goals were somewhat vague, we knew that we wanted to create something that would enable students to solve realistic problems, and that they could use for many things other than chemical reactor design problems. Today, thousands of people worldwide are using Octave in teaching, research, and commercial applications.
 
-Just about everyone thinks that the name Octave has something to do with music, but it is actually the name of one of the author’s former professors who wrote a famous textbook on chemical reaction engineering, and who was also well known for his ability to do quick “back of the envelope” calculations. We hope that this software will make it possible for many people to do more ambitious computations just as easily.
-
-Everyone is encouraged to share this software with others under the terms of the [GNU General Public License (GPL)](https://www.gnu.org/copyleft/gpl.html). You are also encouraged to help make Octave more useful by writing and contributing additional functions for it, and by reporting any problems you may have.
-
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/octave.install/screenshot.png)
 ]]></description>
-    <releaseNotes>https://www.gnu.org/software/octave/news.html</releaseNotes>
+  <releaseNotes>https://www.gnu.org/software/octave/news.html</releaseNotes>
+  <dependencies>
+    <dependency id="autohotkey.install" version="1.1.30.03" />
+  </dependencies>
   </metadata>
-  <files>    
+  <files>
     <file src="tools\**" target="tools" />
   </files>
 </package>

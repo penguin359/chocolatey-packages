@@ -6,8 +6,9 @@ $regex_url         = "^(https://zomp.co/Files.aspx\?id=.*)$"
 
 function global:au_GetLatest {	
 	(Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex_version | Out-Null
+    $version = $matches.Version
     $url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex_url
-	return @{ Version = $matches.Version ; URL32 = $url.href }
+	return @{ Version = $version ; URL32 = $url.href }
 }
 
 function global:au_SearchReplace {

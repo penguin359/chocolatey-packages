@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/geometry/geometry.png" width="48" height="48"/> [GeoGebra Geometry (Portable)](https://chocolatey.org/packages/geometry)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/geogebra-geometry/geogebra-geometry.png" width="48" height="48"/> [GeoGebra Geometry (Portable)](https://chocolatey.org/packages/geogebra-geometry)
 
 Construct circles, angles, transformations and more with this free geometry tool.
 
@@ -13,4 +13,4 @@ GeoGebra is free and multi-platform dynamic mathematics software for all levels 
 - Available in many languages for our millions of users around the world
 - Free and open source software
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/geometry/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/geogebra-geometry/screenshot.png)

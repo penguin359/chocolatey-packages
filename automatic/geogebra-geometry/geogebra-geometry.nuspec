@@ -2,14 +2,14 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>geometry</id>
+    <id>geogebra-geometry</id>
     <version>6.0.535.0</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/geometry</packageSourceUrl>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/geogebra-geometry</packageSourceUrl>
     <owners>chtof</owners>
     <title>GeoGebra Geometry (Portable)</title>
     <authors>GeoGebra</authors>
     <projectUrl>https://www.geogebra.org/download</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/geometry/geometry.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/geogebra-geometry/geogebra-geometry.png</iconUrl>
     <copyright>© 2018 GeoGebra</copyright>
     <licenseUrl>https://www.geogebra.org/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -17,7 +17,7 @@
     <docsUrl>https://wiki.geogebra.org/en/Manual</docsUrl>
     <mailingListUrl>https://help.geogebra.org</mailingListUrl>
     <bugTrackerUrl>https://help.geogebra.org/bugs</bugTrackerUrl>
-    <tags>geometry GeoGebra</tags>
+    <tags>geometry GeoGebra circles angles transformations</tags>
     <summary>Construct circles, angles, transformations and more with this free geometry tool.</summary>
     <description><![CDATA[
 Construct circles, angles, transformations and more with this free geometry tool.

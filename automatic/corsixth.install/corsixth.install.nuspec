@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>corsixth.install</id>
+    <version>0.63.1-beta</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/corsixth.install</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>CorsixTH (Install)</title>
+    <authors>CorsixTH</authors>
+    <projectUrl>http://corsixth.com</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/corsixth.install/corsixth.install.png</iconUrl>
+    <copyright>© 2019 CorsixTH</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/CorsixTH/CorsixTH/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/CorsixTH/CorsixTH</projectSourceUrl>
+    <docsUrl>https://github.com/CorsixTH/CorsixTH/wiki</docsUrl>
+    <mailingListUrl>http://forums.corsixth.com</mailingListUrl>
+    <bugTrackerUrl>https://github.com/CorsixTH/CorsixTH/issues/new</bugTrackerUrl>
+    <tags>corsixth.install theme hospital modern reimplementation high resolution</tags>
+    <summary>A reimplementation of the 1997 Bullfrog business sim Theme Hospital. As well as faithfully recreating the original, CorsixTH adds support for modern operating systems (Windows, macOS, Linux and BSD), high resolutions and much more.</summary>
+    <description><![CDATA[
+CorsixTH aims to re-implement the game engine of Theme Hospital, and be able to load the original game data files. This means that you will need a purchased copy of Theme Hospital, or a copy of the demo, in order to use CorsixTH. After most of the original engine has been re-implemented in open source code, the project will serve as a base from which extensions and improvements to the original game can be made.
+
+## Notes
+To play CorsixTH, you will need either the Demo, or the full game of Theme Hospital, available for example at gog.com.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/corsixth.install/screenshot.png)
+]]></description>
+  <releaseNotes>https://github.com/CorsixTH/CorsixTH/releases</releaseNotes>
+  <dependencies>
+    <dependency id="vcredist140" version="14.20.27508.1" />
+  </dependencies>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

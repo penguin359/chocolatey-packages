@@ -50,6 +50,7 @@ This includes setting and unsetting dupe and multiplier flags, and updating area
     <releaseNotes>http://www.ei5di.com/sdhist.html</releaseNotes>
   </metadata>
   <files>
+    <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>

@@ -2,15 +2,7 @@
 
 $releases = 'http://www.ei5di.com'
 
-function global:au_BeforeUpdate {
-    Remove-Item "$PSScriptRoot\tools\*.exe"
-
-    $filePath = "$PSScriptRoot\tools\$($Latest.FileName)"
-    Invoke-WebRequest $Latest.URL32 -OutFile $filePath
-
-    $Latest.ChecksumType = "sha256"
-    $Latest.Checksum = Get-FileHash -Algorithm $Latest.ChecksumType -Path $filePath | ForEach-Object Hash
-}
+function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
      $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
@@ -27,14 +19,10 @@ function global:au_SearchReplace {
             "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
             "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
-        }
-
-        "tools\chocolateyinstall.ps1" = @{			
-            "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
-        }
+        }        
     }
 }
 
 if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none -NoCheckUrl
+    update -ChecksumFor none
 }

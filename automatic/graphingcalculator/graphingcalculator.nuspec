@@ -6,8 +6,8 @@
     <version>6.0.535.001</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/graphingcalculator</packageSourceUrl>
     <owners>chtof</owners>
-    <title>GeoGebra Graphing Calculator (Portable)</title>
-    <authors>[Deprecated] GeoGebra</authors>
+    <title>[Deprecated] GeoGebra Graphing Calculator (Portable)</title>
+    <authors>GeoGebra</authors>
     <projectUrl>https://www.geogebra.org/download</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/graphingcalculator/graphingcalculator.png</iconUrl>
     <copyright>© 2018 GeoGebra</copyright>
@@ -24,7 +24,7 @@
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   <dependencies>
-    <dependency id="geogebra6" />
+    <dependency id="geogebra6" version="6.0.535.0" />
   </dependencies>
   </metadata>
   <files></files>

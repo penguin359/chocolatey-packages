@@ -8,7 +8,7 @@ function global:au_GetLatest {
     $regex_version = '<td>(?<Version>[\d\.]+)</td>'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-    $url = $download_page.links | ? href -match $regex_url | select -Skip 1 First 1
+    $url = $download_page.links | ? href -match $regex_url | select -Skip 1 -First 1
             
     (Invoke-WebRequest -Uri $releases).RawContent -match $regex_version | Out-Null
 

@@ -3,8 +3,7 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  unzipLocation = "$toolsDir"
-  fileType      = 'exe'
+  destination   = "$toolsDir"  
   file          = "$toolsDir\DontSleep.zip"
   file64        = "$toolsDir\DontSleep_x64.zip"
 }

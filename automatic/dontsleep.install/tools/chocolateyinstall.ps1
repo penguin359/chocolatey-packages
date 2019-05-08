@@ -3,22 +3,13 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  unzipLocation = $toolsDir
-  fileType      = 'exe'  
-    
-  url           = 'https://www.softwareok.com/Download/DontSleep.zip'
-  checksum      = 'e5ce32b388d7d6c190f5b47407aa5ee6c1b102a300cc090fc0d422f975554a8a'
-  checksumType  = 'sha256'
-
-  url64bit      = 'https://www.softwareok.com/Download/DontSleep_x64.zip'
-  checksum64    = 'f13397afe4eea92e976d974c76cb1322643ad5704e33ad76b6bce460d0335372'
-  checksumType64= 'sha256'  
+  unzipLocation = "$toolsDir"
+  fileType      = 'exe'
+  file          = "$toolsDir\DontSleep.zip"
+  file64        = "$toolsDir\DontSleep_x64.zip"
 }
 
-Install-ChocolateyZipPackage @packageArgs
-
-#if (Get-OSArchitectureWidth -Compare "32") { $file = "$toolsDir\dontsleep.exe" } else { $file = "$toolsDir\dontsleep_x64.exe" }
-#Install-ChocolateyInstallPackage @packageArgs -File $file
+Get-ChocolateyUnzip @packageArgs
 
 #Install start menu shortcuts
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)

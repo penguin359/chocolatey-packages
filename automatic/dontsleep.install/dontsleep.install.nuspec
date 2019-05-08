@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dontsleep.install</id>
-    <version>5.16</version>
+    <version>5.16.0.20190508</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/dontsleep.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>Don't Sleep (Install)</title>
@@ -60,6 +60,7 @@ Depending on the setting, Don't Sleep reports to the operating system that it ha
     <releaseNotes>http://www.softwareok.com/?seite=Microsoft/DontSleep/History</releaseNotes>
   </metadata>
   <files>
+    <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>

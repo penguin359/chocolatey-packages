@@ -1,0 +1,22 @@
+﻿VERIFICATION
+ 
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+Package can be verified like this:
+ 
+1. Download:
+ 
+   x32: https://www.softwareok.com/Download/DontSleep_Portable.zip
+   x64: https://www.softwareok.com/Download/DontSleep_x64_Portable.zip
+  
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+ 
+   checksum type: sha256
+   checksum32: dec9125c7c2ebdc17e77be0562f324efb5ced8378ae628be6d8c0adcc19864bb
+   checksum64: 32bba5f071c9ad3f347a65673e7ba296e084e6dd4651f9f02e5550b10feef4be
+ 
+File 'LICENSE.txt' is obtained from:
+   http://www.softwareok.com/?seite=Microsoft/DontSleep/Eula

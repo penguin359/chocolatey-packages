@@ -2,14 +2,14 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>graphingcalculator</id>
+    <id>geogebra-geometry</id>
     <version>6.0.535.0</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/graphingcalculator</packageSourceUrl>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/geogebra-geometry</packageSourceUrl>
     <owners>chtof</owners>
-    <title>GeoGebra Graphing Calculator (Portable)</title>
+    <title>GeoGebra Geometry (Portable)</title>
     <authors>GeoGebra</authors>
     <projectUrl>https://www.geogebra.org/download</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/graphingcalculator/graphingcalculator.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/geogebra-geometry/geogebra-geometry.png</iconUrl>
     <copyright>© 2018 GeoGebra</copyright>
     <licenseUrl>https://www.geogebra.org/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -17,10 +17,10 @@
     <docsUrl>https://wiki.geogebra.org/en/Manual</docsUrl>
     <mailingListUrl>https://help.geogebra.org</mailingListUrl>
     <bugTrackerUrl>https://help.geogebra.org/bugs</bugTrackerUrl>
-    <tags>graphingcalculator GeoGebra graphing calculator</tags>
-    <summary>Graph functions, investigate equations, and plot data with this free graphing app.</summary>
+    <tags>geometry GeoGebra circles angles transformations</tags>
+    <summary>Construct circles, angles, transformations and more with this free geometry tool.</summary>
     <description><![CDATA[
-Graph functions, investigate equations, and plot data with this free graphing app.
+Construct circles, angles, transformations and more with this free geometry tool.
 
 ## About GeoGebra
 GeoGebra is free and multi-platform dynamic mathematics software for all levels of education that joins geometry, algebra, tables, graphing, statistics and calculus in one easy-to-use package. It has received several educational software awards in Europe and the USA.
@@ -31,7 +31,7 @@ GeoGebra is free and multi-platform dynamic mathematics software for all levels 
 - Easy-to-use interface, yet many powerful features
 - Authoring tool to create interactive learning materials as web pages
 - Available in many languages for our millions of users around the world
-- Free and open source software
+- Free and open source software        
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   </metadata>

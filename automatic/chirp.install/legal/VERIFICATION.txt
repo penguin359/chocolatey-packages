@@ -18,9 +18,5 @@ Package can be verified like this:
    checksum32: c82d67d0c0600b07d11f5894573aa0630d06d7c2a779e5c41a316a2b5990aab8
    checksum64: c82d67d0c0600b07d11f5894573aa0630d06d7c2a779e5c41a316a2b5990aab8
   
-Using AU:
-  
-   Get-RemoteChecksum https://trac.chirp.danplanet.com/chirp_daily/daily-20190429/chirp-daily-20190429-installer.exe
-  
 File 'LICENSE.txt' is obtained from:
    http://chirp.danplanet.com/projects/chirp/repository/revisions/222c1830b798/entry/COPYING

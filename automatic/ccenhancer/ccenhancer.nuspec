@@ -9,7 +9,7 @@
     <title>CCEnhancer</title>
     <authors>SingularLabs</authors>
     <projectUrl>https://singularlabs.com/software/ccenhancer</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ccenhancer/ccenhancer.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ccenhancer/ccenhancer.png</iconUrl>
     <copyright>© 2019 SingularLabs</copyright>
     <licenseUrl>https://singularlabs.com/legal</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

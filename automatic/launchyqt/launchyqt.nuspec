@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>launchyqt</id>
-    <version>3.0.7</version>
+    <version>3.0.7.20190508</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/launchyqt</packageSourceUrl>
     <owners>chtof</owners>
     <title>Launchy QT</title>
@@ -41,6 +41,7 @@ Launchy opening a song using the Black Glass skin:
     <releaseNotes>https://github.com/samsonwang/LaunchyQt/releases</releaseNotes>
   </metadata>
   <files>
+    <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>

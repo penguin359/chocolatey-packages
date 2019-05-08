@@ -1,5 +1,5 @@
 ﻿# Stop Launchy
-$process = Get-Process Launchy
+$process = Get-Process Launchy | Out-Null
 if ($process) { $process | Stop-Process }
 
 # Remove start menu shortcut

@@ -3,11 +3,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>graphingcalculator</id>
-    <version>6.0.535.0</version>
+    <version>6.0.535.001</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/graphingcalculator</packageSourceUrl>
     <owners>chtof</owners>
     <title>GeoGebra Graphing Calculator (Portable)</title>
-    <authors>GeoGebra</authors>
+    <authors>[Deprecated] GeoGebra</authors>
     <projectUrl>https://www.geogebra.org/download</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/graphingcalculator/graphingcalculator.png</iconUrl>
     <copyright>© 2018 GeoGebra</copyright>
@@ -20,23 +20,12 @@
     <tags>graphingcalculator GeoGebra graphing calculator</tags>
     <summary>Graph functions, investigate equations, and plot data with this free graphing app.</summary>
     <description><![CDATA[
-Graph functions, investigate equations, and plot data with this free graphing app.
-
-## About GeoGebra
-GeoGebra is free and multi-platform dynamic mathematics software for all levels of education that joins geometry, algebra, tables, graphing, statistics and calculus in one easy-to-use package. It has received several educational software awards in Europe and the USA.
-
-## Quick Facts
-
-- Graphics, algebra and tables are connected and fully dynamic
-- Easy-to-use interface, yet many powerful features
-- Authoring tool to create interactive learning materials as web pages
-- Available in many languages for our millions of users around the world
-- Free and open source software
+**For technical reasons, this Chocolatey package is now deprecated under this name and available with the name of geogebra6: https://chocolatey.org/packages/geogebra6**
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  <dependencies>
+    <dependency id="geogebra6" />
+  </dependencies>
   </metadata>
-  <files>
-    <file src="legal\**" target="legal" />
-    <file src="tools\**" target="tools" />
-  </files>
+  <files></files>
 </package>

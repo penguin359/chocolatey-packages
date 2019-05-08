@@ -2,7 +2,7 @@ import-module au
 $releases = "https://trac.chirp.danplanet.com/chirp_daily/LATEST/"
 
 function global:au_GetLatest {	
-     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing	 
+     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	 $regex   = '^chirp-daily-(?<date_url>\d+)-installer.exe$'
 	 $download_page.links | ? href -match $regex
 	 $version_YY = $matches.date_url.substring(0, $matches.date_url.length-4)

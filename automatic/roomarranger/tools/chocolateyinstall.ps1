@@ -3,9 +3,9 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  destination   = $toolsDir    
+  destination   = "$toolsDir"
   file          = "$toolsDir\rooarr955.exe"
-  file64        = "$toolsDir\rooarr955_64bit.exe"  
+  file64        = "$toolsDir\rooarr955_64bit.exe"
   silentArgs	= "/S"
 }
 

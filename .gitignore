@@ -32,5 +32,6 @@ manual/test/tools/chocolateybeforemodify.ps1
 manual/test/tools/chocolateyinstall.ps1
 manual/test/tools/chocolateyuninstall.ps1
 manual/klog/ReadMe.md
+*.7z
 *.zip
 *.exe

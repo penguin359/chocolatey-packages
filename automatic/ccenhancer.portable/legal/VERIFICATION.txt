@@ -17,10 +17,6 @@ Package can be verified like this:
    checksum type: sha256
    checksum32: 582BC3E4F6A07D3F8BB4FA1C58C6261E963C8A427D3F5D7A4A43120AF6507AAF
    checksum64: 582BC3E4F6A07D3F8BB4FA1C58C6261E963C8A427D3F5D7A4A43120AF6507AAF
- 
-Using AU:
- 
-   Get-RemoteChecksum https://singularlabs.com/download/10320/CCEnhancer-multilingual-4.5.4.zip
- 
+
 File 'LICENSE.txt' is obtained from:
    https://singularlabs.com/legal

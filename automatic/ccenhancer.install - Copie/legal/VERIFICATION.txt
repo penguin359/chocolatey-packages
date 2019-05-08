@@ -17,6 +17,10 @@ Package can be verified like this:
    checksum type: sha256
    checksum32: 7C7E2B281FEBB2C6F2CE346601D96F8C667A4C9827EE082DCD2E219F6E49C075
    checksum64: 7C7E2B281FEBB2C6F2CE346601D96F8C667A4C9827EE082DCD2E219F6E49C075
-  
+ 
+Using AU:
+ 
+   Get-RemoteChecksum https://singularlabs.com/download/13238/ccenhancer-install-4.5.4.exe
+ 
 File 'LICENSE.txt' is obtained from:
    https://singularlabs.com/legal

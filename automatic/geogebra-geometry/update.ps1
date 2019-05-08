@@ -1,6 +1,6 @@
 ﻿import-module au
 
-function global:au_BeforeUpdate { Get-RemoteFiles -Purge }
+function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     $url = get-redirectedurl https://download.geogebra.org/package/windows-geometry

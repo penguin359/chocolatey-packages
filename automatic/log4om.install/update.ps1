@@ -3,7 +3,7 @@ $releases      = 'http://www.log4om.com/dl/'
 $regex         = '\.zip$'
 $regex_version = "Actual Version is (.*?)<"
 
-function global:au_BeforeUpdate { Get-RemoteFiles -Purge }
+function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
      $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing

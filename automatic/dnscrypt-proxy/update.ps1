@@ -4,7 +4,7 @@ $releases = "https://github.com/" + $github_repository + "/releases/latest"
 $regex32 = "/dnscrypt-proxy-win32-(?<Version>[\d\.]+).zip$"
 $regex64 = "/dnscrypt-proxy-win64-(?<Version>[\d\.]+).zip$"
 
-function global:au_BeforeUpdate { Get-RemoteFiles -Purge }
+function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {	
      $urls = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links

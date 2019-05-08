@@ -1,6 +1,6 @@
 ﻿import-module au
 
-function global:au_BeforeUpdate { Get-RemoteFiles -FileNameBase 'ccenhancer-install-' -Purge }
+function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     $releases      = 'https://singularlabs.com/software/ccenhancer/download-ccenhancer'

@@ -2,7 +2,7 @@
 $releases = 'http://www.winlog32.co.uk/dl_wl32update.htm'
 $url = 'http://www.winlog32.co.uk/files/'
 
-function global:au_BeforeUpdate { Get-RemoteFiles -Purge }
+function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
      $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing

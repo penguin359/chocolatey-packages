@@ -1,6 +1,6 @@
 ﻿import-module au
 
-function global:au_BeforeUpdate { Get-RemoteFiles -FileNameBase 'ccenhancer-install-' -Purge }
+function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     $releases      = 'https://singularlabs.com/software/ccenhancer/download-ccenhancer'
@@ -12,7 +12,7 @@ function global:au_GetLatest {
             
     (Invoke-WebRequest -Uri $releases).RawContent -match $regex_version | Out-Null
 
-     return @{ Version = $matches.Version ; URL32 = $url.href }
+     return @{ Version = $matches.Version ; URL32 = $url.href + "ccenhancer-install-" + $matches.Version + ".exe" }
 }
 
 function global:au_SearchReplace {

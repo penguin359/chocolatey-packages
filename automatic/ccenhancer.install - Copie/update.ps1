@@ -3,16 +3,16 @@
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-    $releases = 'https://www.softwareok.com/?seite=Microsoft/DontSleep'
-    $regex = "<title>Don't Sleep (?<Version>[\d\.]+) Prevent Shutdown, Stand By, Turn Off, Restart</title>"
-    $urlDownload = 'https://www.softwareok.com/Download/'
-    
-    (Invoke-WebRequest -Uri $releases) -match $regex | out-null     
-     return @{
-        Version = $matches.Version ;
-        URL32 = 'https://www.softwareok.com/Download/DontSleep.zip'
-        URL64 = 'https://www.softwareok.com/Download/DontSleep_x64.zip'
-    }
+    $releases      = 'https://singularlabs.com/software/ccenhancer/download-ccenhancer'
+    $regex_url     = '^(?<Url>https://singularlabs.com/download/\d+/)$'
+    $regex_version = '<td>(?<Version>[\d\.]+)</td>'
+
+    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $url = $download_page.links | ? href -match $regex_url | select -First 1
+            
+    (Invoke-WebRequest -Uri $releases).RawContent -match $regex_version | Out-Null
+
+     return @{ Version = $matches.Version ; URL32 = $url.href }
 }
 
 function global:au_SearchReplace {
@@ -25,9 +25,8 @@ function global:au_SearchReplace {
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum64)"
         }
 
-        "tools\chocolateyinstall.ps1" = @{        
+        "tools\chocolateyinstall.ps1" = @{
           "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
-          "(?i)(^\s*file64\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName64)`""
         }
     }
 }

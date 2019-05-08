@@ -2,7 +2,7 @@ import-module au
 $releases = 'https://download.savannah.gnu.org/releases/klog/win/'
 $regex   = 'KLog-(.*)-windows-installer.exe$'
 
-function global:au_BeforeUpdate { Get-RemoteFiles -Purge }
+function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
      $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing

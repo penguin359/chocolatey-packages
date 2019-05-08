@@ -1,25 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
-  <metadata>
-    <id>ccenhancer.install</id>
-    <version>1.5.4</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/ccenhancer.install</packageSourceUrl>
-    <owners>chtof</owners>
-    <title>CCEnhancer (Install)</title>
-    <authors>SingularLabs</authors>
-    <projectUrl>https://singularlabs.com/software/ccenhancer</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ccenhancer.install/ccenhancer.install.png</iconUrl>
-    <copyright>© 2019 SingularLabs</copyright>
-    <licenseUrl>https://singularlabs.com/legal</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
-    <!--<mailingListUrl></mailingListUrl>-->
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>ccenhancer.install ccleaner enhancer plugin add-on cleaner</tags>
-    <summary>[[Summary]]</summary>
-    <description><![CDATA[
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ccenhancer.install/ccenhancer.install.png" width="48" height="48"/> [CCEnhancer](https://chocolatey.org/packages/ccenhancer.install)
+
 CCEnhancer is a small tool which adds support for over 1,000 new programs into the popular program CCleaner. The tool uses the winapp2.ini system built into CCleaner to easily add new rules and definitions for programs. The rules were sourced mainly from the Piriform Support Forum, with several sourced from other places around the internet. Directly download the winapp2.ini file [here](https://content.thewebatom.net/files/winapp2.ini).
 
 ## Instructions
@@ -36,14 +16,3 @@ The entries created by this tool are not supported by Piriform, the makers of CC
 winapp2.ini is licensed under the [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0) license.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ccenhancer.install/screenshot.png)
-]]></description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
-  <dependencies>
-    <dependency id="ccleaner" version="[5.56.7144]" />
-  </dependencies>
-  </metadata> 
-  <files>
-    <file src="legal\**" target="legal" />
-    <file src="tools\**" target="tools" />
-  </files>
-</package>

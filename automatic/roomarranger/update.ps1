@@ -2,7 +2,7 @@
 $releases = 'http://www.roomarranger.com/whatsnew.txt'
 $regex = 'version (?<Version>[\d\.]+) \('
 
-function global:au_BeforeUpdate { Get-RemoteFiles -Purge }
+function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
      (Invoke-WebRequest -Uri $releases) -match $regex | Out-Null

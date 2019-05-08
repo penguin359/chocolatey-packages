@@ -1,6 +1,6 @@
 ﻿import-module au
 
-function global:au_BeforeUpdate { Get-RemoteFiles -Purge }
+function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     $releases = 'https://www.softwareok.com/?seite=Microsoft/DontSleep'

@@ -32,6 +32,8 @@ GeoGebra is free and multi-platform dynamic mathematics software for all levels 
 - Authoring tool to create interactive learning materials as web pages
 - Available in many languages for our millions of users around the world
 - Free and open source software
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/geogebra6/screenshot.png)
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   </metadata>

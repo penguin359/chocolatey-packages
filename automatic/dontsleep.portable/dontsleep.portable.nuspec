@@ -60,6 +60,7 @@ Depending on the setting, Don't Sleep reports to the operating system that it ha
     <releaseNotes>http://www.softwareok.com/?seite=Microsoft/DontSleep/History</releaseNotes>
   </metadata>
   <files>
+    <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>

@@ -1,5 +1,11 @@
 ﻿import-module au
 
+function global:au_BeforeUpdate {
+    # https://github.com/majkinetor/au/issues/182
+    $Latest.ChecksumType32 = 'sha256'
+    $Latest.Checksum32 = Get-RemoteChecksum $Latest.URL32 -Algorithm $Latest.ChecksumType32
+}
+
 function global:au_GetLatest {
     $releases = 'https://www.designer.io/changelog'
     $regex   = '<h3>Version (?<Version>[\d\.\-]+)</h3>'

@@ -4,7 +4,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
 
   url           = 'https://designer.gravit.io/_downloads/windows/GravitDesignerInstaller.exe'
-  checksum      = '3646791EF3594ACF2ECE00D3FF8DEBA73B739B84CB075E36B5E7D87C497DABD6'
+  checksum      = '71adb16f27ccec9dff09e8b09a9ad2d9ca27a659e6b08e9009b8c0b86ac0ae72'
   checksumType  = 'sha256'
 
   silentArgs	= "/S"

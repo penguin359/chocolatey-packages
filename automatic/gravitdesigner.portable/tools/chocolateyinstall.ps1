@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
@@ -6,7 +6,7 @@ $packageArgs = @{
   fileFullPath  = "$toolsDir\GravitDesigner.exe"
     
   url           = 'https://designer.gravit.io/_downloads/windows/GravitDesigner.exe'
-  checksum      = '37C58CB2F26FEE1DE0FB4CAE99D4956D2BED9BD78B726636B9E9E40D793FD284'
+  checksum      = 'd8507f21dde3a1aedb4b310160995dbb80922df8f1828cf92fe9f036e1db9edc'
   checksumType  = 'sha256'
 }
 

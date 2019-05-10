@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gravitdesigner.portable</id>
-    <version>3.5.14</version>
+    <version>2019.1.8</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/gravitdesigner.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>Gravit Designer (Portable)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://support.gravit.io/hc/en-us/requests/new</bugTrackerUrl>
     <tags>gravitdesigner.portable gravit designer vector graphic edit svg</tags>
     <summary>A cross-platform graphic design tool for the 21st century.</summary>
-    <description><![CDATA[
-Gravit Designer is a full-featured vector graphic design app right at your fingertips.
+    <description><![CDATA[Gravit Designer is a full-featured vector graphic design app right at your fingertips.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot.png)
 
@@ -82,6 +81,7 @@ Export high quality PDFs, SVGs and Images using slices and multiple assets.
 ### ADVANCED
 Presentations, Sketch and EPS import, design templates, transformations, and more.
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot8a.png)
+
 ]]></description>
     <releaseNotes>https://www.designer.io/changelog</releaseNotes>   
   </metadata>

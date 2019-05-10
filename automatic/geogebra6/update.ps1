@@ -9,7 +9,7 @@ function global:au_GetLatest {
     $url -match $regex | Out-Null    
     return @{
         Version = $matches.Version -replace '-', '.'
-        URL32 = 'https://download.geogebra.org/installers/6.0/geometry/GeoGebraGraphing-Windows-Installer-' + $matches.Version + '.exe'
+        URL32 = 'https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-' + $matches.Version + '.exe'
     }
 }
 

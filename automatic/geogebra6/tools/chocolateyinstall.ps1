@@ -4,7 +4,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
-  file          = "$toolsDir\GeoGebraGraphing-Windows-Installer-6-0-535-0.exe"  
+  file          = "$toolsDir\GeoGebraGraphing-Windows-Installer-6-0-535-0.exe"
 }
 
 Install-ChocolateyInstallPackage @packageArgs

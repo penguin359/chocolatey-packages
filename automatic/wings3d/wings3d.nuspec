@@ -9,7 +9,7 @@
     <title>Wings 3D</title>
     <authors>Wings3D Team</authors>
     <projectUrl>http://www.wings3d.com</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/wings3d/wings3d.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/wings3d/wings3d.png</iconUrl>
     <copyright>© 2019 Wings 3D</copyright>
     <licenseUrl>https://sourceforge.net/p/wings/code/ci/master/tree/license.terms?format=raw</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

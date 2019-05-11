@@ -3,14 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>skympc</id>
-    <version>1.6.4</version>
+    <version>1.6.4.20190511</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/skympc</packageSourceUrl>
     <owners>chtof</owners>
     <title>SkyMPC</title>
     <authors>Soramimi Vox</authors>
     <projectUrl>http://www.soramimi.jp/skympc</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/skympc/skympc.png</iconUrl>
-    <copyright>Soramimi Vox, Copyright (C) 1999-2018 S.Fuchita. All rights reserved.</copyright>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/skympc/skympc.png</iconUrl>
+    <copyright>Soramimi Vox, Copyright © 1999-2018 S.Fuchita. All rights reserved.</copyright>
     <licenseUrl>https://raw.githubusercontent.com/soramimi/SkyMPC/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/soramimi/SkyMPC</projectSourceUrl>
@@ -25,6 +25,7 @@
 ]]></description>
   </metadata>
   <files>
+    <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>

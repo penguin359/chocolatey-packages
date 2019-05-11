@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
     
-  url           = 'https://multipar.eu/downloads/1.3.0/MultiPar1304_setup.exe'
-  checksum      = '818C7E9C5FBB7F02623978734BA3A998B0A66C5B5C0A8C895011BBDF7AABAECF'
+  url           = 'https://multipar.eu/downloads/1.3.0/MultiPar1305.zip'
+  checksum      = '8cbcc49e7034bf2b5aae35378e9173e68c03adc269fb2d0a6eb2b2f87d97c7a3'
   checksumType  = 'sha256'  
   
   silentArgs	= "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"

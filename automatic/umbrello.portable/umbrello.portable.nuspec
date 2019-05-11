@@ -3,12 +3,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>umbrello.portable</id>
-    <version>2.27.3</version>
+    <version>2.27.3.20190511</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/umbrello.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>Umbrello - The UML Modeller (Portable)</title>
     <authors>Umbrello Team</authors>
-    <projectUrl>https://umbrello.kde.org/</projectUrl>
+    <projectUrl>https://umbrello.kde.org</projectUrl>
 	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/umbrello.portable/umbrello.portable.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://raw.githubusercontent.com/KDE/umbrello/master/COPYING</licenseUrl>
@@ -31,6 +31,7 @@ More details [here](https://umbrello.kde.org/features.php).
     <releaseNotes>https://umbrello.kde.org/news.php</releaseNotes>
   </metadata>
   <files>
+    <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>

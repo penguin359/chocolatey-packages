@@ -1,0 +1,22 @@
+VERIFICATION
+ 
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+Package can be verified like this:
+ 
+1. Download:
+ 
+   x32: https://download.kde.org/stable/umbrello/latest/win32/umbrello-i686-w64-mingw32-2.27.3-10.4-bin.7z
+   x64: https://download.kde.org/stable/umbrello/latest/win64/umbrello-x86_64-w64-mingw32-2.27.3-82.4-bin.7z
+  
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+ 
+   checksum type: sha256
+   checksum32: A31186E99A82DF32D46B12778F1DB4E19DFFB91F0EB2B9FD20CF9247B553EB21
+   checksum64: 629E445C4EC5E42917F3FCAF154BD0700E9D9F39119155A784777106CD7B8BBF
+ 
+File 'LICENSE.txt' is obtained from:
+   https://raw.githubusercontent.com/KDE/umbrello/master/COPYING

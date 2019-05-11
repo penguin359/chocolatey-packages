@@ -3,10 +3,9 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-destination     = "$toolsDir"
-
-  file          = "$toolsDir\Launchy-3.0.7-win-x86.7z"
-  file64        = "$toolsDir\Launchy-3.0.7-win-amd64.7z"
+  destination   = "$toolsDir"
+  file          = "$toolsDir\Launchy-3.0.8-win-x86.7z"
+  file64        = "$toolsDir\Launchy-3.0.8-win-amd64.7z"
 }
 
 foreach ( $file in 'python.exe', 'pythonw.exe' ) {

@@ -1,4 +1,4 @@
-﻿VERIFICATION
+VERIFICATION
  
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/samsonwang/LaunchyQt/releases/download/v3.0.7/Launchy-3.0.7-win-x86.7z
-   x64: https://github.com/samsonwang/LaunchyQt/releases/download/v3.0.7/Launchy-3.0.7-win-amd64.7z
+   x32: https://github.com/samsonwang/LaunchyQt/releases/download/v3.0.8/Launchy-3.0.8-win-x86.7z
+   x64: https://github.com/samsonwang/LaunchyQt/releases/download/v3.0.8/Launchy-3.0.8-win-amd64.7z
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: C367E422491EBC591B0B57D78D2C18CC63B44BF9C85C1326A121F920896CCB92
-   checksum64: D580F66CDC44335DFDD9489F60417D89150DB255771E2253982500C3F18AF78C
+   checksum32: BD38B853ACF42B34B07EFAE1D6DA952B3837A4B311D1947B3BD6CFC781DD9CDA
+   checksum64: E9A21A30BD1632EE560BBE5F00A498136FAB4D1E0366D30791CA2F36BEF68EBA
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/samsonwang/LaunchyQt/master/LICENSE

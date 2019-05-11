@@ -1,12 +1,13 @@
 ﻿import-module au
-$releases = "http://phonerlite.de/download_en.htm"
-$regex    = '<td>(?<Version>[\d\.]+)</td>'
  
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-     (Invoke-WebRequest -Uri $releases) -match $regex | Out-Null
-     return @{ Version = $matches.Version ; URL32 = 'https://www.phoner.de/PhonerLiteSetup_' + $matches.Version + '.exe' }
+  $releases = "http://phonerlite.de/download_en.htm"
+  $regex    = '<td>(?<Version>[\d\.]+)</td>'
+
+  (Invoke-WebRequest -Uri $releases) -match $regex | Out-Null
+  return @{ Version = $matches.Version ; URL32 = 'https://www.phoner.de/PhonerLiteSetup_' + $matches.Version + '.exe' }
 }
 
 function global:au_SearchReplace {

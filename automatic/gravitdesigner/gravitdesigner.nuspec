@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gravitdesigner</id>
-    <version>2019.1.6</version>
+    <version>2019.1.8</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/gravitdesigner</packageSourceUrl>
     <owners>chtof</owners>
     <title>Gravit Designer</title>
@@ -85,7 +85,7 @@ Presentations, Sketch and EPS import, design templates, transformations, and mor
 ]]></description>
     <releaseNotes>https://www.designer.io/changelog</releaseNotes>
     <dependencies>
-      <dependency id="gravitdesigner.install" version="[2019.1.6]" />
+      <dependency id="gravitdesigner.install" version="[2019.1.8]" />
     </dependencies>
   </metadata>
   <files></files>

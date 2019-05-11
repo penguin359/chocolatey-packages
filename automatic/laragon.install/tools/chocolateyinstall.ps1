@@ -3,9 +3,9 @@ $packageName = 'laragon.install'
 
 $packageArgs = @{
   packageName   = $packageName  
-  url           = 'https://github.com/leokhoa/laragon/releases/download/4.0.12/laragon-full.exe'
+  url           = 'https://github.com/leokhoa/laragon/releases/download/4.0.14/laragon-full.exe'
   
-  checksum      = 'd8718426a5633bd279bb1c7f18e1cc80d63f840d7b38c04ed47f41764a054403'
+  checksum      = '5bd292cacabee81f0606a2527a7f543cc42ecc9970ec0cce5a3cfe44701c78ef'
   checksumType  = 'sha256'
   
   silentArgs	= '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /components="'

@@ -1,5 +1,13 @@
 ﻿import-module au
 
+function global:au_BeforeUpdate {
+    $url = 'https://designer.gravit.io/_downloads/windows/GravitDesigner.exe'
+    
+    # https://github.com/majkinetor/au/issues/182
+    $Latest.ChecksumType32 = 'sha256'
+    $Latest.Checksum32 = Get-RemoteChecksum $url -Algorithm $Latest.ChecksumType32
+}
+
 function global:au_GetLatest {
     $releases = 'https://www.designer.io/changelog'
     $regex   = '<h3>Version (?<Version>[\d\.\-]+)</h3>'
@@ -17,4 +25,4 @@ function global:au_SearchReplace {
     }
 }
 
-update
+update -ChecksumFor none

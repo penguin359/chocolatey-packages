@@ -6,8 +6,8 @@ $packageArgs = @{
   unzipLocation = $toolsDir  
   file         =  'laragon.exe'
 
-  url           = 'https://github.com/leokhoa/laragon/releases/download/4.0.12/laragon.7z'
-  checksum      = '221fd74474310c1e4756cd6758eb68361635cfb8db3692173106ea54bf0b0dfc'
+  url           = 'https://github.com/leokhoa/laragon/releases/download/4.0.14/laragon.7z'
+  checksum      = '65837d2c9daf0994345746a7b405a2a728cc422f15cb8f858f919e68d1f82c02'
   checksumType  = 'sha256'  
 }
 

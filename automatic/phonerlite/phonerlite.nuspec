@@ -81,7 +81,7 @@ See http://phonerlite.de for all information.
 ]]></description>
   <releaseNotes>http://phonerlite.de/download_en.htm</releaseNotes>
   <dependencies>
-    <dependency id="phonerlite.install" version="[2.71]" />
+    <dependency id="phonerlite.install" version="[2.71.20190504]" />
   </dependencies>
   </metadata>
   <files></files>

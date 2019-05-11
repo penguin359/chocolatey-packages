@@ -9,8 +9,7 @@ $packageArgs = @{
 Get-ChocolateyUnzip @packageArgs
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  fileType      = 'exe'
+  packageName   = $env:ChocolateyPackageName  
   file          = "$toolsDir\Log4OM_1_36_0.exe"
   silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /components=""'
 }

@@ -9,6 +9,7 @@ function global:au_GetLatest {
 
   return @{
     Version = $matches.Version
+  }
 }
 
 function global:au_SearchReplace {

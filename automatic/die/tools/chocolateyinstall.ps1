@@ -3,8 +3,8 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  destination   = $toolsDir    
-  file          = "$toolsDir\die_win32_portable_2.02.zip"  
+  destination   = "$toolsDir"
+  file          = "$toolsDir\die_win32_portable_2.02.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs

@@ -19,6 +19,7 @@ function global:au_GetLatest {
     Version = $version
     URL32 = "$releases_32/$file_32.href"
     URL64 = "$releases_64/$file_64.href"
+  }
 }
 
 function global:au_SearchReplace {

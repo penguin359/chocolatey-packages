@@ -1,5 +1,7 @@
 ﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter/voicemeeter.png" width="48" height="48"/> [VOICEMEETER Virtual Audio Mixer](https://chocolatey.org/packages/voicemeeter)
 
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter/screenshot.png)
+
 For first use, it's highly recommended to follow user manual step by step, especially step ZERO of the [documentation](https://www.vb-audio.com/Voicemeeter/#Documentation).
 
 ## Licensing
@@ -47,5 +49,3 @@ By Including various DSP algorithms from VB-Audio, Voicemeeter is a concentrate 
 Voicemeeter is a Unique Application designed for everyone willing to manage audio in a smart way! For VOIP users, Broadcasters, Podcasters, Video gamers, Musicians, DJ's and whatever Sound Lovers, P.A. System tweaker, Home-Cinema audiophiles...
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter/screenshot3.png)
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter/screenshot.png)

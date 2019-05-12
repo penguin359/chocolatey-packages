@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>multipar</id>
-    <version>1.3.0.4</version>
+    <version>1.3.0.5</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/multipar</packageSourceUrl>
     <owners>chtof</owners>
     <title>MultiPar</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://www.livebusinesschat.com/smf/index.php?board=396.0</bugTrackerUrl>
     <tags>multipar parchive NG data protect</tags>
     <summary>MultiPar is the next-generation of Parchive (PAR3) to protect data.</summary>
-    <description><![CDATA[
-MultiPar can do file verification, error detection, correction and recovery to protect your files and folders from deletion, copy errors, download errors, software errors, hardware errors, virus infection, malicious tampering, and all other forms of data corruption.
+    <description><![CDATA[MultiPar can do file verification, error detection, correction and recovery to protect your files and folders from deletion, copy errors, download errors, software errors, hardware errors, virus infection, malicious tampering, and all other forms of data corruption.
 
 MultiPar was made as an alternative to QuickPar.  While it looks like a multi-lingual version of QuickPar, there are some good features; Unicode characters, directory-tree, faster repairing, smaller recovery files, batch scripting, and so on.
 
@@ -33,7 +32,7 @@ See the [Parchive project](http://parchive.sourceforge.net) for details of Parch
 ]]></description>
     <releaseNotes>https://multipar.eu/changelog.html</releaseNotes>
     <dependencies>
-      <dependency id="multipar.install" version="[1.3.0.4]" />
+      <dependency id="multipar.install" version="[1.3.0.5]" />
     </dependencies>
   </metadata>
   <files></files>

@@ -1,13 +1,10 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  destination  = $toolsDir  
-    
-  file          = "$toolsDir\VirtualDub2_43385.zip"
-  checksum      = '9A87A5CD949251616A41D20CD2253BFD1B1E60090ED5BEFF79D9D2F9377F5D41'
-  checksumType  = 'sha256'
+  packageName   = "$env:ChocolateyPackageName"
+  destination   = "$toolsDir"    
+  file          = "$toolsDir\VirtualDub2_43602.zip"  
 }
 
 # Shims

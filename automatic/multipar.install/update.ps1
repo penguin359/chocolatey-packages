@@ -2,7 +2,7 @@
 
 function global:au_GetLatest {
     $releases = 'https://multipar.eu'
-    $regex    = 'MultiPar(?<Version>[\d]+).zip$'
+    $regex    = 'MultiPar(?<Version>[\d]+)_setup.exe$'
 
     $url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex
         

@@ -45,6 +45,7 @@ Voicemeeter is the first Application working as a virtual Mixer, able to manage 
 By Including various DSP algorithms from VB-Audio, Voicemeeter is a concentrate of technology letting you control the sound as you want, without worrying about any limitations. Made it your way and retrieve feeling of vintage analog mixing console !
 
 Voicemeeter is a Unique Application designed for everyone willing to manage audio in a smart way! For VOIP users, Broadcasters, Podcasters, Video gamers, Musicians, DJ's and whatever Sound Lovers, P.A. System tweaker, Home-Cinema audiophiles...
+
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter/screenshot3.png)
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter/screenshot.png)

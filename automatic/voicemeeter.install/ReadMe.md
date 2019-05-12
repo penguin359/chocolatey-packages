@@ -1,26 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
-  <metadata>
-    <id>voicemeeter</id>
-    <version>1.0.6.7</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/voicemeeter</packageSourceUrl>
-    <owners>chtof</owners>
-    <title>Voicemeeter Virtual Audio Mixer</title>
-    <authors>Vincent Burel</authors>
-    <projectUrl>https://www.vb-audio.com/Voicemeeter</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter/voicemeeter.png</iconUrl>
-    <copyright>Copyright V.Burel ©1998-2019. All rights reserved.</copyright>
-    <licenseUrl>https://www.vb-audio.com/Services/licensing.htm</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <docsUrl>https://www.vb-audio.com/Voicemeeter/#Documentation</docsUrl>
-    <!--<mailingListUrl></mailingListUrl>-->
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>voicemeeter audio mixer application</tags>
-    <summary>Voicemeeter is Audio Mixer Application endowed with Virtual Audio Device used as Virtual I/O to mix and manage any audio sources from or to any audio devices or applications.</summary>
-    <description><![CDATA[
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter/screenshot.png)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter.install/voicemeeter.png" width="48" height="48"/> [VOICEMEETER Virtual Audio Mixer](https://chocolatey.org/packages/voicemeeter)
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter.install/screenshot.png)
 
 For first use, it's highly recommended to follow user manual step by step, especially step ZERO of the [documentation](https://www.vb-audio.com/Voicemeeter/#Documentation).
 
@@ -43,12 +23,12 @@ Voicemeeter is an application endowed with Virtual Audio I/O and can be used as 
 ### Voicemeeter Audio Device Mixer
 Universal Virtual Audio Device to connect everything together
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter/screenshot1.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter.install/screenshot1.png)
 
 ### Voicemeeter Virtual I/O
 All Audio Interfaces Support: MME, Direct-X, KS, WaveRT, WASAPI, and ASIO
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter/screenshot2.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter.install/screenshot2.png)
 
 ### Voicemeeter new audio experiences
 
@@ -68,12 +48,4 @@ By Including various DSP algorithms from VB-Audio, Voicemeeter is a concentrate 
 
 Voicemeeter is a Unique Application designed for everyone willing to manage audio in a smart way! For VOIP users, Broadcasters, Podcasters, Video gamers, Musicians, DJ's and whatever Sound Lovers, P.A. System tweaker, Home-Cinema audiophiles...
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter/screenshot3.png)
-]]></description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
-  <dependencies>
-    <dependency id="voicemeeter.install" version="1.0.6.7" />
-  </dependencies>
-  </metadata>
-   <files></files>
-</package>
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter.install/screenshot3.png)

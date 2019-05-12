@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>virtualdub2</id>
-    <version>0.0.43385</version>
+    <version>0.0.43602</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/virtualdub2</packageSourceUrl>
     <owners>chtof</owners>
     <title>VirtualDub2</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://sourceforge.net/p/vdfiltermod/tickets/</bugTrackerUrl>
     <tags>virtualdub2 streamline vide editor tilmeline</tags>
     <summary>An enhanced version of the original VirtualDub.</summary>
-    <description><![CDATA[
-A streamlined video editor with simple frame-by-frame timeline. Free, open-source, portable. 
+    <description><![CDATA[A streamlined video editor with simple frame-by-frame timeline. Free, open-source, portable. 
 The default package is ready for use with many essential plugins included, and can be further extended with 3rd party codecs and filters.
 See Wiki for detailed description: https://sourceforge.net/p/vdfiltermod/wiki.
 

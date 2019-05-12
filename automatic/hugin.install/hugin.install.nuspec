@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>hugin.install</id>
-    <version>2019.0.0</version>
+    <version>2019.0.0.20190512</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/hugin.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>Hugin (Install)</title>
@@ -42,6 +42,7 @@ Starting with version 2011.2.0, Hugin is scriptable in Python. The scripting fun
     <releaseNotes>http://hugin.sourceforge.net/releases</releaseNotes>
   </metadata>
   <files>
+    <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>lean</id>
+    <version>3.4.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/lean</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Lean</title>
+    <authors>Lean Team</authors>
+    <projectUrl>https://leanprover.github.io</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/lean/lean.png</iconUrl>-->
+    <copyright>© 2019 Lean powered by Jekyll + Skinny Bones.</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/leanprover/lean/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/leanprover/lean</projectSourceUrl>
+    <docsUrl>https://leanprover.github.io/documentation</docsUrl>
+    <mailingListUrl>https://groups.google.com/forum/#!forum/lean-user</mailingListUrl>
+    <bugTrackerUrl>https://github.com/leanprover/lean/issues</bugTrackerUrl>
+    <tags>lean open source theorem prover programming language</tags>
+    <summary>Lean is an open source theorem prover and programming language being developed at Microsoft Research.</summary>
+    <description><![CDATA[
+Lean is an open source theorem prover and programming language being developed at Microsoft Research. Lean aims to bridge the gap between interactive and automated theorem proving, by situating automated tools and methods in a framework that supports user interaction and the construction of fully specified axiomatic proofs.
+
+The Lean project was launched by Leonardo de Moura at Microsoft Research in 2013. It is an open source project, hosted on GitHub.
+
+You can experiment with an online version of Lean that runs in your browser, or try the online tutorials listed under documentation.
+
+Several users maintain the mathematical components library mathlib for Lean.
+]]></description>
+    <releaseNotes>https://github.com/leanprover/lean/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

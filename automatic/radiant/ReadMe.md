@@ -1,6 +1,7 @@
 ﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/radiant/radiant.png" width="48" height="48"/> [RadiAnt DICOM Viewer](https://chocolatey.org/packages/radiant)
 
 **Smart. Easy. Fast.**
+
 RadiAnt is a PACS-DICOM viewer for medical images designed to provide you with a unique experience.
 With its intuitive interface and unrivaled performance, you'll never look back.
 

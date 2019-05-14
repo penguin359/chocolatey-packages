@@ -12,4 +12,5 @@ ControlSend,, {Enter}, %winTitle1%
 
 winTitle2 = REBOOT YOUR SYSTEM
 WinWait, %winTitle2%,, 30
+WinActivate
 ControlClick, OK, %winTitle2% ahk_class #32770,,,NA

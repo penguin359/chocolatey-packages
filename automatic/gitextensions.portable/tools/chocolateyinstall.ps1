@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
-  file          = "$toolsDir\GitExtensions-Portable-3.0.2.5232.zip"
+  file          = "$toolsDir\GitExtensions-Portable-3.1.0.5877.zip"
 }
 
 # Prevent chocolatey from creating shims for supplementary executables

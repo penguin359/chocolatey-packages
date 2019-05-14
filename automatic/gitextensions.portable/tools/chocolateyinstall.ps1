@@ -3,11 +3,8 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  unzipLocation = $toolsDir
-  
-  url           = 'https://github.com/gitextensions/gitextensions/releases/download/v3.0.2/GitExtensions-Portable-3.0.2.5232.zip'
-  checksum      = 'A826E36826296C752EF6F37E8FEC629C4C7AF56DE5755435AE635CF305FF5A06'
-  checksumType  = 'sha256'
+  destination   = "$toolsDir"
+  file          = "$toolsDir\GitExtensions-Portable-3.0.2.5232.zip"
 }
 
 # Prevent chocolatey from creating shims for supplementary executables

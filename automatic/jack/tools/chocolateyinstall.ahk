@@ -18,12 +18,14 @@ ControlClick, &Next >, %winTitle%
 
 ; License Agreement
 WinWait, %winTitle%, License Agreement, 10
+Sleep 500
 ControlClick, Button4, %winTitle% ; I &agree with the above terms and conditions
 ControlClick, &Next >, %winTitle%
 
 ; Destination folder
 WinWait, %winTitle%, Destination folder, 10
-ControlClick, Button6, %winTitle%
+Sleep 500
+ControlClick, Button6, %winTitle% ; Launch Jack now
 ControlClick, &Next >, %winTitle%
 
 ; Jack has been successfully installed!

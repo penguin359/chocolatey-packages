@@ -13,7 +13,7 @@ Tools like the disk cleaner and duplicate finder will find files that don't need
 ### Protect Your Privacy
 People are becoming more and more wary about their privacy. Little System Cleaner will help clear identifiable information from your computer.
 
-###Less Time Waiting
+### Less Time Waiting
 With the startup manager, programs that are causing Windows to take longer to load, can easily be removed.
 
 ### Uninstall Unnecessary Software

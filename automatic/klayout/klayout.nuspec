@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>klayout</id>
+    <version>0.25.8</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/klayout</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>KLayout</title>
+    <authors>Matthias Köfferlein</authors>
+    <projectUrl>https://www.klayout.de</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/klayout/klayout.png</iconUrl>
+    <copyright>Copyright © 2006-2018 by Matthias Köfferlein.</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/KLayout/klayout/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/KLayout/klayout</projectSourceUrl>
+    <docsUrl>https://www.klayout.de/doc.html</docsUrl>
+    <mailingListUrl>https://www.klayout.de/forum</mailingListUrl>
+    <bugTrackerUrl>https://github.com/KLayout/klayout/issues</bugTrackerUrl>
+    <tags>klayout layout viewer editor</tags>
+    <summary>High Performance Layout Viewer And Editor</summary>
+    <description><![CDATA[
+## KLayout Highlights
+
+### General
+- Fast and accurate: fast loading and drawing
+- Support of GDS and OASIS file formats with automatic uncompression of zlib compatible formats
+- Full support of properties
+- Full 64 bit support on Linux
+- Extensible and configurable to a large degree by custom ruby scripts
+- Integrated development environment for Ruby scripts
+
+### Viewer
+- Overlay capabilities: multiple layouts can be loaded into one window
+- Very flexible layer configuration: many display options including choice of fill pattern and different frame and fill colors. Animation, transparency, dimming/highlighting ...
+- Layer grouping: the display properties of a group of layers can be changed at once
+- Advanced layer display attributes: layers can be named, they can carry additional transformations, select certain hierarchy levels or select shapes by their properties
+- Copy and paste of layers attributes to other panels
+- Drawing order: select the layer that is show on top
+- Descend into hierarchy: show a cell embedded into it's context
+- Flexible rulers: unlimited count, flexible display styles. Multiple templates can be configured, rules can be edited (move, delete, copy & paste)
+- Shape and instance browsers
+- Bookmarks, various zoom modes, mouse wheel support, screenshot function ...
+- Undo/redo on layer properties, for rulers ...
+- Save: save layout or parts (cells, layers) of it to a different format, with scaling or different database unit.
+- Image overlay capabilities: image files (i.e. jpg, png, gif) can be loaded and placed at an arbitrary position in the layout.
+- Marker browser: certain error report files can be loaded and a browser tool is provided.
+- Global transformation to flip/rotate image
+
+### Editor
+- Smart drawing functions with many options: angle constraints, grid ...
+- True, in-place editing in subcells, variant building function
+- Unlimited undo/redo
+- Smart partial editing function to stretch shapes, move edges or vertices
+- Copy and paste of shapes and whole cells, even to other layouts
+- Many advanced editing functions: hierarchical operations, booleans, clip, corner rounding, sizing, alignment, layer operations ...
+- Support for external libraries dynamically bound to a layout
+- Parametrizable cells
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/klayout/screenshot.png)
+]]></description>
+    <releaseNotes>https://www.klayout.de/development.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

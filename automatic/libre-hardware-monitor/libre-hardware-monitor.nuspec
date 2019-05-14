@@ -6,7 +6,7 @@
     <version>1.0.96</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/libre-hardware-monitor</packageSourceUrl>
     <owners>chtof</owners>
-    <title>Libre HardwareM onitor</title>
+    <title>Libre Hardware Monitor</title>
     <authors>Libre Hardware Monitor Team</authors>
     <projectUrl>https://github.com/libre-hardware-monitor/libre-hardware-monitor</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/libre-hardware-monitor/libre-hardware-monitor.png</iconUrl>

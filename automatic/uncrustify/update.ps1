@@ -11,8 +11,8 @@ function global:au_GetLatest {
   
   return @{
     Version = $version
-    URL32 = $releases + '/uncrustify-' + $version + '/uncrustify-' + $version + '-win32.zip/download'
-    URL64 = $releases + '/uncrustify-' + $version + '/uncrustify-' + $version + '-win64.zip/download'
+    URL32 = $releases + '/uncrustify-' + $version + '/uncrustify-' + $version + '-win32.zip'
+    URL64 = $releases + '/uncrustify-' + $version + '/uncrustify-' + $version + '-win64.zip'
   }
 }
 

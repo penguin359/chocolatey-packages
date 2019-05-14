@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>uncrustify</id>
-    <version>0.68.1.20190512</version>
+    <version>0.69.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/uncrustify</packageSourceUrl>
     <owners>chtof</owners>
     <title>Uncrustify Code Beautifier</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/uncrustify/uncrustify/issues</bugTrackerUrl>
     <tags>uncrustify source code beautifier beautify indent align C C++ C# ObjectiveC D Java Pawn VALA</tags>
     <summary>Source Code Beautifier for C, C++, C#, ObjectiveC, D, Java, Pawn and VALA</summary>
-    <description><![CDATA[
-## Introduction
+    <description><![CDATA[## Introduction
 The goals of this project are simple: Create a highly configurable, easily modifiable source code beautifier.
 
 ## Features

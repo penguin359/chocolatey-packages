@@ -12,15 +12,15 @@ Spacemacs is currently in beta, and contributions are very welcome.
 
 ## Features
 
-- **Great documentation:** access documentation in Emacs with <kbd>SPC h SPC</kbd>.
+- **Great documentation:** access documentation in Emacs with `SPC h SPC`.
 - **Beautiful GUI:** you'll love the distraction free UI and its functional mode-line.
-- **Excellent ergonomics:** all the key bindings are accessible by pressing the <kbd>space bar</kbd> or <kbd>alt-m</kbd>.
-- **Mnemonic key bindings:** commands have mnemonic prefixes like <kbd>SPC b</kbd> for all the buffer commands or <kbd>SPC p</kbd> for the project commands.
+- **Excellent ergonomics:** all the key bindings are accessible by pressing the `space bar` or `alt-m`.
+- **Mnemonic key bindings:** commands have mnemonic prefixes like `SPC b` for all the buffer commands or `SPC p` for the project commands.
 - **Batteries included:** discover hundreds of ready-to-use packages nicely organised in configuration layers following a set of [conventions](http://spacemacs.org/doc/CONVENTIONS).
 
 ## Documentation
 
-Comprehensive documentation is available for each layer by pressing <kbd>SPC h SPC</kbd>.
+Comprehensive documentation is available for each layer by pressing `SPC h SPC`.
 
 You can also check the [general documentation](http://spacemacs.org/doc/DOCUMENTATION), [quick start guide](http://spacemacs.org/doc/QUICK_START) and the [FAQ](http://spacemacs.org/doc/FAQ).
 

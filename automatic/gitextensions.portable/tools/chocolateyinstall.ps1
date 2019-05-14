@@ -1,12 +1,12 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   
-  url           = 'https://github.com/gitextensions/gitextensions/releases/download/v3.0.2/GitExtensions-Portable-3.0.2.5232.zip'
-  checksum      = 'A826E36826296C752EF6F37E8FEC629C4C7AF56DE5755435AE635CF305FF5A06'
+  url           = 'https://github.com/gitextensions/gitextensions/releases/download/v3.1/GitExtensions-Portable-3.1.0.5877.zip'
+  checksum      = '4f460affeb55523ad31cb8fcbe53873ed125d1b1ba3bbc7529e5701925d88a38'
   checksumType  = 'sha256'
 }
 

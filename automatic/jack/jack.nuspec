@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>jack</id>
+    <version>1.9.11</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/jack</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>JACK Audio Connection Kit</title>
+    <authors>JACK Team</authors>
+    <projectUrl>https://jackaudio.github.io</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jack/jack.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/jackaudio/jack1/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/jackaudio/jack2</projectSourceUrl>
+    <docsUrl>https://jackaudio.github.io/api</docsUrl>
+    <mailingListUrl>https://jackaudio.github.io/community.html</mailingListUrl>
+    <bugTrackerUrl>https://github.com/jackaudio/jack1/issues</bugTrackerUrl>
+    <tags>jack programmer developer API audio connection kit</tags>
+    <summary>JACK (JACK Audio Connection Kit) refers to an [API](https://jackaudio.github.io/api) and two implementations of this API, jack1 and jack2. It provides a basic infrastructure for audio applications to communicate with each other and with audio hardware. Through JACK, users are enabled to build powerful systems for signal processing and music production.</summary>
+    <description><![CDATA[
+JACK2 aka jackdmp is a C++ version of the JACK low-latency audio server for multi-processor machines. It is a new implementation of the JACK server core features that aims at removing some limitations of the JACK1 design. The activation system has been changed for a data flow model and lock-free programming techniques for graph access have been used to have a more dynamic and robust system.
+]]></description>
+    <releaseNotes>https://github.com/jackaudio/jack2/releases</releaseNotes>
+  <dependencies>
+    <dependency id="autohotkey.install" version="1.1.30.03" />
+  </dependencies>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

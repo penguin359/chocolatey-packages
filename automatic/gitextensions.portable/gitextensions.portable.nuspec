@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gitextensions.portable</id>
-    <version>3.0.2</version>
+    <version>3.1.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/gitextensions.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>Git Extensions (Portable)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>http://github.com/gitextensions/gitextensions/issues</bugTrackerUrl>
     <tags>gitextensions.portable gitextensions foss cross-platform git graphical user interface gui</tags>
     <summary>Git Extensions is a graphical user interface for Git that allows you to control Git without using the commandline.</summary>
-    <description><![CDATA[
-- [Online manual](https://git-extensions-documentation.readthedocs.org/en/latest/)
+    <description><![CDATA[- [Online manual](https://git-extensions-documentation.readthedocs.org/en/latest/)
 - [Issue tracker](http://github.com/gitextensions/gitextensions/issues)
 - [Gitter channel og Git Extensions](https://gitter.im/gitextensions/gitextensions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 - [Donate to Git Extensions via OpenCollective](https://opencollective.com/gitextensions)

@@ -20,6 +20,9 @@
     <tags>myopenlab java graphical programming</tags>
     <summary>Java® based Software for Graphical Programming.</summary>
     <description><![CDATA[
+## Prerequisites
+**Java needs to be installed to install and use MyOpenLab.**
+
 ## What is MyOpenLab?
 MyOpenLab is a Java-based software, which contains graphic blocks, each one fulfills a specific function and has properties configurable by the user, these components can be joined together to implement in a simple way the graphical part and The logic of an application.
 

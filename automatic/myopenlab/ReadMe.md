@@ -1,5 +1,8 @@
 ﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/myopenlab/myopenlab.png" width="48" height="48"/> [MyOpenLab](https://chocolatey.org/packages/myopenlab)
 
+## Prerequisites
+**Java needs to be installed to install and use MyOpenLab.**
+
 ## What is MyOpenLab?
 MyOpenLab is a Java-based software, which contains graphic blocks, each one fulfills a specific function and has properties configurable by the user, these components can be joined together to implement in a simple way the graphical part and The logic of an application.
 

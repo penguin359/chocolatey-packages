@@ -1,1 +1,1 @@
-pip uninstall numpy -y
+python -m pip uninstall numpy -y

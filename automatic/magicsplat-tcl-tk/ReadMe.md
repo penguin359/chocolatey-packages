@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/magicsplat-tcl-tk-installer/magicsplat-tcl-tk-installer.png" width="48" height="48"/> [Magicsplat Tcl/Tk](https://chocolatey.org/packages/magicsplat-tcl-tk-installer)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/magicsplat-tcl-tk/magicsplat-tcl-tk.png" width="48" height="48"/> [Magicsplat Tcl/Tk](https://chocolatey.org/packages/magicsplat-tcl-tk)
 
 ## Note
 All binaries and libraries are built with Visual Studio 2017.

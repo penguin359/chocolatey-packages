@@ -24,4 +24,3 @@ Using AU:
    Get-RemoteChecksum https://freefr.dl.sourceforge.net/project/magicsplat/magicsplat-tcl/tcl-8.6.9-installer-1.9.1-x64.msi
  
 File 'LICENSE.txt' is obtained from the installer.
-   

@@ -2,14 +2,14 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>magicsplat-tcl-tk-installer</id>
+    <id>magicsplat-tcl-tk</id>
     <version>1.9.1</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/magicsplat-tcl-tk-installer</packageSourceUrl>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/magicsplat-tcl-tk</packageSourceUrl>
     <owners>chtof</owners>
     <title>Magicsplat Tcl/Tk</title>
-    <authors>Magicsplat tck/tk installer Team</authors>
+    <authors>Magicsplat tck/tk Team</authors>
     <projectUrl>https://www.magicsplat.com/tcl-installer</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/magicsplat-tcl-tk-installer/magicsplat-tcl-tk-installer.png</iconUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/magicsplat-tcl-tk/magicsplat-tcl-tk.png</iconUrl>
     <copyright>© 2017 Ashok P. Nadkarni</copyright>
     <!--<licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
@@ -17,7 +17,7 @@
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://sourceforge.net/p/magicsplat/tickets</bugTrackerUrl>
-    <tags>magicsplat-tcl-tk-installer magicsplat tcl tk installer</tags>
+    <tags>magicsplat-tcl-tk magicsplat tcl tk</tags>
     <summary>The Magicsplat Tcl/Tk for Windows distribution is a binary Windows Installer based distribution of Tcl/Tk for Windows systems. It includes commonly used libraries, extensions and development tools.</summary>
     <description><![CDATA[
 ## Note

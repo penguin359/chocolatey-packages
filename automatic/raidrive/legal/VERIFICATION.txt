@@ -22,4 +22,4 @@ Using AU:
  
    Get-RemoteChecksum https://www.raidrive.com/download.latest.php
  
-File 'LICENSE.txt' is obtained from the software.
+File 'LICENSE.txt' is obtained from the software installer.

@@ -1,4 +1,9 @@
-		    GNU GENERAL PUBLIC LICENSE
+		    
+From: https://raw.githubusercontent.com/LuminanceHDR/LuminanceHDR/master/LICENSE
+
+LICENSE
+
+        GNU GENERAL PUBLIC LICENSE
 		       Version 2, June 1991
 
  Copyright (C) 1989, 1991 Free Software Foundation, Inc.

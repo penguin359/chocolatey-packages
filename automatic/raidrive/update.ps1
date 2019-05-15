@@ -1,6 +1,8 @@
 ﻿import-module au
 
-function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
+function global:au_BeforeUpdate { 
+    Invoke-WebRequest -Uri "https://www.raidrive.com/download.latest.php" -Headers @{"Referer"="https://www.raidrive.com/download/"} -OutFile $toolsDir\RaiDrive.exe
+}
 
 function global:au_GetLatest {
     $releases = 'https://www.raidrive.com/download'
@@ -8,21 +10,15 @@ function global:au_GetLatest {
 
     (Invoke-WebRequest -Uri $releases) -match $regex | Out-Null
 
-    return @{ Version = $matches.Version ; URL32 = 'https://www.raidrive.com/download.latest.php' }
+    return @{ Version = $matches.Version }
 }
 
 function global:au_SearchReplace {
     @{
        "legal\VERIFICATION.txt"  = @{            
-            "(?i)(x32: ).*"               = "`${1}$($Latest.URL32)"
-            "(?i)(x64: ).*"               = "`${1}$($Latest.URL32)"            
             "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
             "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
-        }
-
-        "tools\chocolateyinstall.ps1" = @{        
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
         }
     }
 }

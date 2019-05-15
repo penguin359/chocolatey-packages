@@ -7,26 +7,24 @@ function global:au_GetLatest {
   $regex = 'luminance-hdr-(?<Version>[\d\.]+).tar.bz2'
 
   $url -match $regex | Out-Null
-  $version = $matches.Version 
-  
+  $version = $matches.Version
+
   return @{
     Version = $version
-    URL32 = 'https://netix.dl.sourceforge.net/project/qtpfsgui/luminance/' + $version + '/Luminance-HDR-x64-v' + $version + '.zip'
+    URL32   = 'https://netix.dl.sourceforge.net/project/qtpfsgui/luminance/' + $version + '/Luminance-HDR-x64-v' + $version + '.zip'
   }
 }
 
 function global:au_SearchReplace {
     @{
-       "legal\VERIFICATION.txt"  = @{            
-            "(?i)(x32: ).*"               = "`${1}$($Latest.URL32)"
-            "(?i)(x64: ).*"               = "`${1}$($Latest.URL32)"            
-            "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
-            "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
+       "legal\VERIFICATION.txt"  = @{
+            "(?i)(x64: ).*"             = "`${1}$($Latest.URL32)"     
+            "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType64)"
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
         }
 
-        "tools\chocolateyinstall.ps1" = @{        
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
+        "tools\chocolateyinstall.ps1" = @{
+          "(?i)(^\s*file64\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName64)`""
         }
     }
 }

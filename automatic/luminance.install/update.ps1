@@ -8,6 +8,7 @@ function global:au_GetLatest {
 
   $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
   $download_page.links | ? href -match $regex | Out-Null
+  
   return @{ Version = $matches.Version ; URL64 = $matches.Url }
 }
 

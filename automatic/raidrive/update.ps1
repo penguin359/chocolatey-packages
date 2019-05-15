@@ -2,6 +2,7 @@
 
 function global:au_BeforeUpdate { 
     Invoke-WebRequest -Uri "https://www.raidrive.com/download.latest.php" -Headers @{"Referer"="https://www.raidrive.com/download/"} -OutFile $toolsDir\RaiDrive.exe
+    $Latest.Checksum32 = checksum -t sha256 $toolsDir\RaiDrive.exe
 }
 
 function global:au_GetLatest {

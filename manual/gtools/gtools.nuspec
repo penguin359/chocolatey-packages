@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gtools</id>
+    <version>4.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/gtools</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>GTools</title>
+    <authors>Gerson Kurz</authors>
+    <projectUrl>http://www.p-nand-q.com/download/gtools</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/gtools/gtools.png</iconUrl>-->
+    <copyright>Copyright © 2000...∞ by Gerson Kurz</copyright>
+    <!--<licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <projectSourceUrl>https://code.google.com/archive/p/pserv4</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://code.google.com/archive/p/pserv4/issues</bugTrackerUrl>
+    <tags>gtools tools pserv dllusage gkalk regdiff supershell ssupe pathed touch which md5sums</tags>
+    <summary>Set of tools.</summary>
+    <description><![CDATA[
+**GTools include:**
+
+- [pserv](http://www.p-nand-q.com/download/pserv_cpl/index.html)
+- [dllusage](http://www.p-nand-q.com/download/gtools/dllusage.html)
+- [gkalk](http://www.p-nand-q.com/download/gkalk/index.html)
+as well as a couple of command-line only tools:
+
+- [regdiff](http://www.p-nand-q.com/download/regdiff.html)
+- [supershell](http://www.p-nand-q.com/download/gtools/grootshell.html)
+- [ddupe](http://www.p-nand-q.com/download/gtools/detectduplicates.html)
+- [pathed](http://www.p-nand-q.com/download/gtools/pathed.html)
+- [touch](http://www.p-nand-q.com/download/gtools/touch.html)
+- [which](http://www.p-nand-q.com/download/gtools/which.html)
+- [md5sums](http://www.p-nand-q.com/download/gtools/md5sums.html)
+]]></description>
+    <releaseNotes>http://www.p-nand-q.com/download/gtools/history.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,1 @@
+Remove-Item -Path "${env:ProgramFiles(x86)}\p-nand-q.com\GTools" -Force -Recurse

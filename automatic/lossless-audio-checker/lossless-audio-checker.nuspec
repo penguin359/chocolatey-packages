@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>lossless-audio-checker</id>
+    <version>2.0.7</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/lossless-audio-checker</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Lossless Audio Checker</title>
+    <authors>Julien Lacroix and Yann Prime.</authors>
+    <projectUrl>http://losslessaudiochecker.com</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/lossless-audio-checker/lossless-audio-checker.png</iconUrl>
+    <copyright>© 2012-2019 Julien Lacroix and Yann Prime</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>lossless-audio-checker audio wave flack lossless</tags>
+    <summary>A utility to check whether a WAVE or FLAC file is truly lossless or not.</summary>
+    <description><![CDATA[
+## Overview
+Internet music dealers currently sell CD-Quality tracks, or even better (Studio-Master), thanks to lossless audio coding formats (FLAC, ALAC). However, a lossless format does not guarantee that the audio content is what it seems to be. The audio signal may have been upscaled (increasing the resolution), upsampled (increasing the sampling rate) or even transcoded from a lossy to a lossless format. Lossless Audio Checker analyzes lossless audio tracks and detects upscaling, upsampling and transcoding.
+
+## Research papers
+2015-10-30: Julien Lacroix, Yann Prime, Alexandre Remy, Olivier Derrien, [Lossless Audio Checker: A Software for the Detection of Upscaling, Upsampling, and Transcoding in Lossless Musical Tracks](http://www.aes.org/e-lib/browse.cfm?elib=17972). 139th International Audio Engineering Society Convention (AES), New York.
+2019-02-27: Olivier Derrien, [Detection of Genuine Lossless Audio Files: Application to the MPEG-AAC Codec](http://www.aes.org/e-lib/browse.cfm?elib=19892). Journal of the Audio Engineering Society (JAES) Volume 67 Issue 3 pp. 116-123. See here for open access version.
+
+## Detection algorithms
+- Upscaling
+- Upsampling
+- AAC-SIN Transcoding: AAC tracks, encoded using sine windows, transcoded to a lossless format
+]]></description>
+    <releaseNotes>http://losslessaudiochecker.com/dl/CHANGELOG-GUI.md</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

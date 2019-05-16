@@ -1,0 +1,6 @@
+
+From: https://raw.githubusercontent.com/cognidox/OfficeToPDF/master/LICENSE.md
+
+LICENSE
+
+Personal Use Only: Redistribution for commercial use is strictly prohibited.

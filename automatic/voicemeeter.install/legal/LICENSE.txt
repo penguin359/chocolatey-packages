@@ -1,3 +1,8 @@
+
+From: https://www.vb-audio.com/Services/licensing.htm
+
+LICENSE
+
 Voicemeeter Distribution Rules
 
 [1] It's free to distribute or promote Voicemeeter (or Banana) AS IS to End Users if our donationware model stays applicable. " Donationware model is applicable ", means the End User can see and identify Voicemeeter as VB-Audio application AND this End User must be in a position to donate/pay license if finding it useful. You will have to communicate on this and make it clear for your clients by mentioning at least:

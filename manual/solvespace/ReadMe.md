@@ -1,26 +1,5 @@
 ﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/install/solvespace/solvespace.png" width="48" height="48"/> [SolveSpace - Parametric 2d/3d CAD](https://chocolatey.org/packages/solvespace)
 
-<div class=movie>
-    <video preload=metadata height=420 width=620
-           poster=pics/front-page-pic.png onloadedmetadata=videoPrepare(this)>
-        <source src=vids/demo.webm type=video/webm>
-        <source src=vids/demo.mp4 type=video/mp4 onerror=videoFallback(parentNode)>
-
-        <!-- fall back to showing a picture and a download link -->
-        <table cellpadding=0 cellspacing=0>
-        <tr><td>
-            <img src=pics/front-page-pic.png width=548 height=410>
-        </td></tr>
-        <tr><td align=right>
-            [<a href=vids/demo.mp4>download demo video</a>]
-        </td></tr>
-        </table>
-    </video>
-    <a class=playbutton href=# onclick=videoPlay(event) style=display:none>
-        demo video&nbsp;&nbsp;&nbsp;▶
-    </a>
-</div>
-
 ## Features
 
 ### Sketch sections using

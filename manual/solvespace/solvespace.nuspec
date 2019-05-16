@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>solvespace</id>
+    <version>2.3</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/install/solvespace</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>SolveSpace - Parametric 2d/3d CAD</title>
+    <authors>SolveSpace contributors.</authors>
+    <projectUrl>http://solvespace.com</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/install/solvespace/solvespace.png</iconUrl>
+    <copyright>© 2008-2018 SolveSpace contributors.</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/solvespace/solvespace/v2.3/COPYING.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/solvespace/solvespace/tree/v2.3</projectSourceUrl>
+    <docsUrl>http://solvespace.com/ref.pl</docsUrl>
+    <mailingListUrl>http://solvespace.com/forum.pl</mailingListUrl>
+    <bugTrackerUrl>https://github.com/solvespace/solvespace/issues</bugTrackerUrl>
+    <tags>solvespace parametric 2d 3d CAD</tags>
+    <summary>SOLVESPACE is a free (GPLv3) parametric 3d CAD tool.</summary>
+    <description><![CDATA[
+<div class=movie>
+    <video preload=metadata height=420 width=620
+           poster=pics/front-page-pic.png onloadedmetadata=videoPrepare(this)>
+        <source src=vids/demo.webm type=video/webm>
+        <source src=vids/demo.mp4 type=video/mp4 onerror=videoFallback(parentNode)>
+
+        <!-- fall back to showing a picture and a download link -->
+        <table cellpadding=0 cellspacing=0>
+        <tr><td>
+            <img src=pics/front-page-pic.png width=548 height=410>
+        </td></tr>
+        <tr><td align=right>
+            [<a href=vids/demo.mp4>download demo video</a>]
+        </td></tr>
+        </table>
+    </video>
+    <a class=playbutton href=# onclick=videoPlay(event) style=display:none>
+        demo video&nbsp;&nbsp;&nbsp;▶
+    </a>
+</div>
+
+## Features
+
+### Sketch sections using
+
+- lines, rectangles, datum lines and points
+- circles, arcs of a circle, datum circles
+- cubic Bezier segments, C2 interpolating splines
+- text in a TrueType font, exportable as vectors
+- trims to split lines and curves where they intersect
+- tangent arcs, to fillet lines and curves
+- line styles for stroke color, stroke width, fill color
+- adjustable snap grid, for entities and text
+- menu item, keyboard shortcut, or toolbar
+- cut and paste, in plane and from workplane to workplane
+- background image with specified scale, for ease of tracing
+- 3Dconnexion six degree of freedom controllers
+
+### Constraints and dimensions on
+
+- distance (or line length), point-line distance, diameter
+- projected distance, along a line or vector
+- angle, curve-to-curve tangency, parallel, perpendicular
+- horizontal, vertical
+- equal length, equal angle, equal radius, length ratio
+- line length equals arc length
+- point on line, point on circle, point on point, point on face
+- point at midpoint of line, line's midpoint on plane
+- points (or line) symmetric about line or plane
+- 2d (projected into specified plane) and 3d geometry
+- lengths in metric or inch units
+- lengths entered as arithmetic expressions (32.6 + 5/25.4)
+
+### Build solid model with
+
+- extruded or lathed (solid of revolution) sketch
+- Boolean operations: union (add material), difference (remove material)
+- parametric step and repeat (pattern), rotating or translating
+- operations performed on either meshes or NURBS surfaces
+
+### Parametric and associative assembly
+
+- import parts and drag them with six degrees of freedom
+- import mirrored or with arbitrary scale
+- place parts in assembly using constraints
+- import surfaces, and merge them using Boolean operations
+- import lines and curves, for 2d work or solid operations later
+- changes in parts propagate automatically into assembly
+
+### Analyze with
+
+- measurements on a part or assembly (of point coordinates, line length, point-point distance, point-face distance, projected distance, face-face angle, point-line distance)
+- path traced by mechanism, exportable into a spreadsheet
+- area of a plane sketch, volume of a solid shell
+- degrees-of-freedom check to show unconstrained points in sketch
+- interference check for assemblies
+- STL
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/install/solvespace/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

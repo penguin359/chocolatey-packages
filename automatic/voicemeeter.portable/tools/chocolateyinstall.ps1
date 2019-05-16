@@ -11,7 +11,7 @@ Get-ChocolateyUnzip @packageArgs
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName  
-  file          = "$toolsDir\VoicemeeterSetup.exe"
+  fileFullPath  = "$toolsDir\VoicemeeterSetup.exe"
 }
 
 Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyinstall.ahk`""

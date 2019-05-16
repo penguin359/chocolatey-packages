@@ -1,3 +1,8 @@
+
+From: The software installer.
+
+LICENSE
+
 License Terms and Conditions
 Last modified: 2017-05-18
 1.	“RaiDrive Standard Edition” can be used and distributed by anyone without restrictions. However, when you resell the program itself, you must acquire a separate right.

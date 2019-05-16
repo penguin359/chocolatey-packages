@@ -4,12 +4,12 @@
   <metadata>
     <id>solvespace</id>
     <version>2.3</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/install/solvespace</packageSourceUrl>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/solvespace</packageSourceUrl>
     <owners>chtof</owners>
     <title>SolveSpace - Parametric 2d/3d CAD</title>
     <authors>SolveSpace contributors.</authors>
     <projectUrl>http://solvespace.com</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/install/solvespace/solvespace.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/solvespace/solvespace.png</iconUrl>
     <copyright>© 2008-2018 SolveSpace contributors.</copyright>
     <licenseUrl>https://raw.githubusercontent.com/solvespace/solvespace/v2.3/COPYING.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -77,7 +77,7 @@
 - interference check for assemblies
 - STL
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/install/solvespace/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/solvespace/screenshot.png)
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   </metadata>

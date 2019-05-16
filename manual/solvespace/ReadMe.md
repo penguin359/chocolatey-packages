@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/install/solvespace/solvespace.png" width="48" height="48"/> [SolveSpace - Parametric 2d/3d CAD](https://chocolatey.org/packages/solvespace)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/solvespace/solvespace.png" width="48" height="48"/> [SolveSpace - Parametric 2d/3d CAD](https://chocolatey.org/packages/solvespace)
 
 ## Features
 
@@ -57,4 +57,4 @@
 - interference check for assemblies
 - STL
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/install/solvespace/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/solvespace/screenshot.png)

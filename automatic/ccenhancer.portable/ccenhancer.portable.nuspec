@@ -18,7 +18,7 @@
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>ccenhancer.portable ccleaner enhancer plugin add-on cleaner</tags>
-    <summary>[[Summary]]</summary>
+    <summary>CCEnhancer is a small tool which adds support for over 1,000 new programs into the popular program CCleaner.</summary>
     <description><![CDATA[
 CCEnhancer is a small tool which adds support for over 1,000 new programs into the popular program CCleaner. The tool uses the winapp2.ini system built into CCleaner to easily add new rules and definitions for programs. The rules were sourced mainly from the Piriform Support Forum, with several sourced from other places around the internet. Directly download the winapp2.ini file [here](https://content.thewebatom.net/files/winapp2.ini).
 

@@ -9,7 +9,7 @@
     <title>MultiPar (Install)</title>
     <authors>Yukata Sawada</authors>
     <projectUrl>https://multipar.eu</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/multipar.install/multipar.install.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/multipar.install/multipar.install.png</iconUrl>
     <copyright>© 2012 - 2019 Multipar.eu | All rights reserved</copyright>
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->

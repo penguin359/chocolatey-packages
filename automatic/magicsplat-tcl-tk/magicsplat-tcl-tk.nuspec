@@ -9,7 +9,7 @@
     <title>Magicsplat Tcl/Tk</title>
     <authors>Magicsplat tck/tk Team</authors>
     <projectUrl>https://www.magicsplat.com/tcl-installer</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/magicsplat-tcl-tk/magicsplat-tcl-tk.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/magicsplat-tcl-tk/magicsplat-tcl-tk.png</iconUrl>
     <copyright>© 2017 Ashok P. Nadkarni</copyright>
     <!--<licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->

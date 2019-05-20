@@ -33,7 +33,6 @@ TIP: GNS3 has been around for over 10 years. Some information you will find on t
 
 TIP: GNS3 does not only support Cisco devices. Cisco is often discussed because that is what most network engineers are interested in learning about. However, many other commercial and open source vendors are supported today in GNS3. You are now able to test interoperability between many vendors and even try out esoteric setups using network technologies with SDN, NFV, Linux and Docker.
 
-Recommendation: If you are using an older version of GNS3, it is recommended that you upgrade to the current stable release of GNS3 (v 1.5). Once you are more experienced using GNS3 you can start using version 2 which is currently in release candidate.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gns3/screenshot.png)
 ]]></description>

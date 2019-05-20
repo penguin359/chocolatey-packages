@@ -8,7 +8,7 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	$download_page -match $regex | Out-Null
-    return @{ Version = $matches.Version }
+    return @{ Version = $matches.Version ; URL32 = 'http://www.ei5di.com/sd/sdsetup.exe' }
 }
 
 function global:au_SearchReplace {

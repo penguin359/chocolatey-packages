@@ -14,9 +14,9 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
-   checksum type: 
-   checksum32: 
-   checksum64: 
+   checksum type: sha256
+   checksum32: D14A9D3E7907E4EC0887E99B937327120FAD1F264F3D1F2DFAF710467123AC79
+   checksum64: D14A9D3E7907E4EC0887E99B937327120FAD1F264F3D1F2DFAF710467123AC79
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/GNS3/gns3-gui/master/LICENSE

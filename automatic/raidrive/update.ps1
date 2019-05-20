@@ -11,7 +11,10 @@ function global:au_GetLatest {
 
     (Invoke-WebRequest -Uri $releases) -match $regex | Out-Null
 
-    return @{ Version = $matches.Version }
+    return @{
+        Version = $matches.Version
+        URL32 = 'https://www.raidrive.com/download.latest.php'
+    }
 }
 
 function global:au_SearchReplace {

@@ -19,7 +19,6 @@ function global:au_SearchReplace {
             "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
             "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
-            "(https://raw.githubusercontent.com/GNS3/gns3-gui/v)[\d\.]+(/LICENSE)" = "`$1$($Latest.Version)`$2"
         }
 
         "tools\chocolateyinstall.ps1" = @{
@@ -27,15 +26,11 @@ function global:au_SearchReplace {
         }
 
         "tools\chocolateyinstall.ahk" = @{
-            "(^\s*GNS_Version\s*=\s)*" = "`$1$($Latest.Version)"
+            "(^\s*GNS_Version\s*=\s).*" = "`$1$($Latest.Version)"
         }
 
         "tools\chocolateyuninstall.ahk" = @{
-            "(^\s*GNS_Version\s*=\s)*" = "`$1$($Latest.Version)"
-        }
-
-         "$($Latest.PackageName).nuspec" = @{
-            "(\<licenseUrl\>https://raw.githubusercontent.com/GNS3/gns3-gui/v)[\d\.]+(/LICENSE\</licenseUrl\>)" = "`$1$($Latest.Version)`$2"
+            "(^\s*GNS_Version\s*=\s).*" = "`$1$($Latest.Version)"
         }
     }
 }

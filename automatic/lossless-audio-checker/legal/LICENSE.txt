@@ -1,5 +1,5 @@
 
-From: https://raw.githubusercontent.com/cognidox/OfficeToPDF/master/LICENSE.md
+From: http://losslessaudiochecker.com
 
 LICENSE
 

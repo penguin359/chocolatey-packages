@@ -11,8 +11,8 @@
     <projectUrl>http://losslessaudiochecker.com</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/lossless-audio-checker/lossless-audio-checker.png</iconUrl>
     <copyright>© 2012-2019 Julien Lacroix and Yann Prime</copyright>
-    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <licenseUrl>http://losslessaudiochecker.com</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->

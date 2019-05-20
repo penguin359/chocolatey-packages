@@ -1,1 +1,6 @@
+
+From: http://www.ei5di.com
+
+LICENSE
+
 SD is an entirely free and unrestricted HF contest logger, with more than 280 templates supplied.

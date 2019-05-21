@@ -8,9 +8,13 @@ $packageArgs = @{
   file64        = "$toolsDir\Launchy-3.0.9-win-amd64.7z"
 }
 
-if (Get-OSArchitectureWidth -Compare "32") { $arch = 'x86' } else { $arch = 'amd64'}
+if (Get-OSArchitectureWidth -Compare "32") {
+  $arch = 'x86' ; $noarch = 'amd64'
+} else {
+  $arch = 'amd64' ; $noarch = 'x86'
+}
 
-New-Item -path $toolsDir\Launchy-3.0.9-win-${arch} -name "$file.ignore" -type File -force | Out-Null
+New-Item -path $toolsDir\Launchy-3.0.9-win-${noarch} -name "$file.ignore" -type File -force | Out-Null
 
 Get-ChocolateyUnzip @packageArgs
 

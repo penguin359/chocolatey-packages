@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>smtube</id>
-    <version>18.11.0</version>
+    <version>18.11.0.20190521</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/smtube</packageSourceUrl>
     <owners>chtof</owners>
     <title>SMTube - YouTube browser for SMPlayer</title>
     <authors>Ricardo Villalba</authors>
     <projectUrl>http://www.smtube.org</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/smtube/smtube.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/smtube/smtube.png</iconUrl>
     <copyright>© 2015-2018 Ricardo Villalba</copyright>
     <licenseUrl>http://www.smtube.org</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -37,7 +37,7 @@ The performance of the flash or html5 player in a web browser is bad... You'll g
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   <dependencies>
-    <dependency id="smplayer" version="[19.1.0]" />
+    <dependency id="smplayer" version="19.1.0" />
   </dependencies>
   </metadata>
   <files>

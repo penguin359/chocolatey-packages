@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>automouseclick</id>
-    <version>93.1</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/automouseclick</packageSourceUrl>
+    <version>93.1.0.20190522</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/automouseclick</packageSourceUrl>
     <owners>chtof</owners>
     <title>Auto Mouse Click</title>
     <authors>MurGee</authors>
     <projectUrl>https://www.murgee.com/auto-mouse-click</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/automouseclick/automouseclick.png</iconUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/automouseclick/automouseclick.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
@@ -32,7 +32,7 @@ In Order to run Auto Mouse Clicks at a specified date / time, you would need 2 t
 ## Register Auto Mouse Click
 At the end of trial period of the Auto Mouse Click Software utility, a pop up window will appear asking you whether you wish to register the software utility ? Click on Yes and follow on screen prompts.
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/automouseclick/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/automouseclick/screenshot.png)
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->    
   </metadata>

@@ -11,9 +11,8 @@ $packageArgs = @{
 
 Install-ChocolateyZipPackage @packageArgs
 
-# Install start menu shortcuts
+# Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
-
 $shortcutFilePath = Join-Path $programs "AGW Châteaux.lnk"
 $targetPath = Join-Path "$env:ProgramFiles\AGW_Chateaux" "AGW_Chateaux.exe"
 Install-ChocolateyShortcut -RunAsAdmin -shortcutFilePath $shortcutFilePath -targetPath $targetPath

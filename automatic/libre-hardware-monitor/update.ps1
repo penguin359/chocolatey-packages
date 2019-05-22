@@ -3,8 +3,8 @@
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-    $releases = 'https://ci.appveyor.com/project/LibreHardwareMonitor/LibreHardwareMonitor/history'
-    $regex    = 'title="(?<Version>[\d\.]+)"'
+    $releases = 'https://ci.appveyor.com/api/projects/LibreHardwareMonitor/LibreHardwareMonitor/history?recordsNumber=1'
+    $regex    = '"version":"(?<Version>[\d\.]+)"'
 
     (Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null
     
@@ -22,10 +22,6 @@ function global:au_SearchReplace {
             "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
             "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
-        }
-
-        "tools\chocolateyinstall.ps1" = @{        
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
         }
     }
 }

@@ -2,10 +2,10 @@
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  softwareName  = 'GNS3'
-  fileType      = 'exe'
-  silentArgs	= '/S'
+  packageName  = $env:ChocolateyPackageName
+  softwareName = 'GNS3'
+  fileType     = 'exe'
+  silentArgs	 = '/S'
 }
 
 $uninstalled = $false

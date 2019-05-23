@@ -1,3 +1,8 @@
+
+From: https://raw.githubusercontent.com/horsicq/Detect-It-Easy/master/LICENSE
+
+LICENSE
+
 MIT License
 
 Copyright (c) 2012-2019 hors<horsicq@gmail.com>

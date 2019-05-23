@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>station</id>
-    <version>1.41.1</version>
+    <version>1.42.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/station</packageSourceUrl>
     <owners>chtof</owners>
     <title>Station</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://community.getstation.com/c/bugs</bugTrackerUrl>
     <tags>station smart browser centralize web application</tags>
     <summary>One app to rule them all. Station is the first smart browser for busy people. A single place for all of your web applications.</summary>
-    <description><![CDATA[
-## Overview
+    <description><![CDATA[## Overview
 
 ### Lost in tabs?
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot1.png)  

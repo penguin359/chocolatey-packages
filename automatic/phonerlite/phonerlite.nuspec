@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>phonerlite</id>
-    <version>2.71.20190508</version>
+    <version>2.72</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/phonerlite</packageSourceUrl>
     <owners>chtof</owners>
     <title>PhonerLite</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>http://phonerlite.de/contact_en.htm</bugTrackerUrl>
     <tags>phonerlite VoIP softphone</tags>
     <summary>Easy to use VoIP softphone with profile and contact management</summary>
-    <description><![CDATA[
-## What is PhonerLite?
+    <description><![CDATA[## What is PhonerLite?
 PhonerLite is a clearly arranged application for Windows. PhonerLite enables your PC to use it for Internet telephony (VoIP , Voice over IP ). Pre-conditions are a full-duplex sound card , a microphone and speakers (alternatively a headset), an  Internet connection and an account from a provider supporting the protocol SIP . PhonerLite supports several SIP profiles, each configurable independently.
 
 PhonerLite supports state of the art encryption methods like TLS, SRTP and ZRTP.
@@ -81,7 +80,7 @@ See http://phonerlite.de for all information.
 ]]></description>
   <releaseNotes>http://phonerlite.de/download_en.htm</releaseNotes>
   <dependencies>
-    <dependency id="phonerlite.install" version="[2.71.20190504]" />
+    <dependency id="phonerlite.install" version="[2.72]" />
   </dependencies>
   </metadata>
   <files></files>

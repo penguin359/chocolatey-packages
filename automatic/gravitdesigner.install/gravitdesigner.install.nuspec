@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gravitdesigner.install</id>
-    <version>2019.1.8</version>
+    <version>2019.1.9</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/gravitdesigner.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>Gravit Designer (Install)</title>
@@ -81,6 +81,7 @@ Export high quality PDFs, SVGs and Images using slices and multiple assets.
 ### ADVANCED
 Presentations, Sketch and EPS import, design templates, transformations, and more.
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot8a.png)
+
 ]]></description>
     <releaseNotes>https://www.designer.io/changelog</releaseNotes>   
   </metadata>

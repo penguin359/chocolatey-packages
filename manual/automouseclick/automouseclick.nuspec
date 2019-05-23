@@ -9,7 +9,7 @@
     <title>Auto Mouse Click</title>
     <authors>MurGee</authors>
     <projectUrl>https://www.murgee.com/auto-mouse-click</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/automouseclick/automouseclick.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/automouseclick/automouseclick.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->

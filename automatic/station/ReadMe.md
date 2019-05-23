@@ -19,16 +19,16 @@ Decide when and which applications should send you notifications. Get your best 
 
 **There’s more!**
 
-### Page autosleep
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot4.png)  
+### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot4.png) Page autosleep
+
 We intelligently sleep applications so that slow-downs remain a thing of the past.
 
-### Multi-account
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot5.png)  
+### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot5.png) Multi-account
+
 Log into multiple accounts at the same time, without any hassle.
 
-### Chrome extensions
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot6.png)  
+### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/station/screenshot6.png) Chrome extensions
+
 1Password, Mixmax, Gmelius, Clearbit and Mailtracker are already supported. Dozens incoming.
 
 ## Features Overview

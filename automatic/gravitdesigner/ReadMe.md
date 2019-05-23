@@ -31,35 +31,26 @@ Enjoy a clean, intuitive interface that adjusts itself exactly the way you expec
 
 ## Powerful graphics tools to unleash your creativity
 
-### PRECISION
+### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot1a.png) PRECISION
 Unmatched precision in any unit (Pixels, MM, CM, etc.) from creation to exporting.
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot1a.png)
 
-### STRUCTURE
+### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot2a.png) STRUCTURE
 Powerful pages with masters, real layers and symbols to structure your content.
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot2a.png)
 
-### VECTOR
+### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot3a.png) VECTOR
 Made for vector with non-destructive booleans, knife tool and path graphs.
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot3a.png)
 
-### LAYOUT
+### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot4a.png) LAYOUT
 Powerful grids, anchors and auto-layouts made for pixel perfect screen designs.
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot4a.png)
 
-### STYLE
+### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot5a.png) STYLE
 Multiple fills/borders, effects and blending modes together with shared styles.
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot5a.png)
 
-### TEXT
+### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot6a.png) TEXT
 Handcrafted powerful text engine with text on path, web fonts, styles and much more.
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot6a.png)
 
-### EXPORT
+### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot7a.png) EXPORT
 Export high quality PDFs, SVGs and Images using slices and multiple assets.
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot7a.png)
 
-### ADVANCED
+### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot8a.png) ADVANCED
 Presentations, Sketch and EPS import, design templates, transformations, and more.
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gravitdesigner.portable/screenshot8a.png)
-

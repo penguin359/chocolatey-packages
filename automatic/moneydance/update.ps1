@@ -1,14 +1,14 @@
 ﻿import-module au
-$github_repository = "tomokuni/Myrica"
-$releases = "https://github.com/" + $github_repository + "/releases/latest"
-$regex   = "/archive/(?<Version>[\d\.]+).zip$"
 
-function global:au_GetLatest {	
+function global:au_GetLatest {
     $releases = 'https://infinitekind.com/download-moneydance-personal-finance-software'
-    $regex = 'Moneydance\ [\d\.]+\ \((?<Version>\d+)\)'    
-	$url = (Invoke-WebRequest -Uri $releases) -match $regex
+    $regex = '\<span class="download_detail"\>Moneydance [\d\.]+ \((?<Version>\d+)\)\</span\>'
+
+	(Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null
+
 	return @{
-		Version = "0.0." + $matches.Version        
+		Version = "0.0." + $matches.Version
+        URL64   = 'https://infinitekind.com/stabledl/current/Moneydance_windows_amd64.exe'
 	}
 }
 

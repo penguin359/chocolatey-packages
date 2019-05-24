@@ -3,7 +3,7 @@
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-  $releases = "http://phonerlite.de/download_en.htm"
+  $releases = 'http://phonerlite.de/download_en.htm'
   $regex    = '<td>(?<Version>[\d\.]+)</td>'
 
   (Invoke-WebRequest -Uri $releases) -match $regex | Out-Null

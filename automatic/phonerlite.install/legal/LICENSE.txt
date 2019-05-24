@@ -1,3 +1,8 @@
+
+From: http://phonerlite.de/license_en.htm
+
+LICENSE
+
 Except where otherwise noted, all of the documentation and software included in the PhonerLite package is copyrighted by Heiko Sommerfeldt.
 
 Copyright (C) 2019 Heiko Sommerfeldt. All rights reserved.

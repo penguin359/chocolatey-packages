@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/automouseclick/automouseclick.png" width="48" height="48"/> [Auto Mouse Click](https://chocolatey.org/packages/automouseclick)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/automouseclick/automouseclick.png" width="48" height="48"/> [Auto Mouse Click](https://chocolatey.org/packages/automouseclick)
 
 Automate Mouse clicks with Auto Mouse Click Utility. Define Click Type, X Co-ordinates, Y-Co-ordinate and specify whether to return mouse cursor back to original location and automate mouse clicks. Install and try Auto Mouse Click for free. The Auto Mouse Click Utility allows to group Mouse Clicks (let's call the group as Mouse Click Script) and Save them in a File for later use. The Mouse Click Script can be loaded to run at a later time.
 
@@ -12,4 +12,4 @@ In Order to run Auto Mouse Clicks at a specified date / time, you would need 2 t
 ## Register Auto Mouse Click
 At the end of trial period of the Auto Mouse Click Software utility, a pop up window will appear asking you whether you wish to register the software utility ? Click on Yes and follow on screen prompts.
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/automouseclick/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/automouseclick/screenshot.png)

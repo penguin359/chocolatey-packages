@@ -1,3 +1,8 @@
+
+From: https://raw.githubusercontent.com/jackaudio/jack2/develop/windows/Setup/src/COPYING
+
+LICENSE
+
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 

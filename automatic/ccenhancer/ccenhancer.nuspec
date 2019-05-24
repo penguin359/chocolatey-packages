@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ccenhancer</id>
-    <version>4.5.4.20190515</version>
+    <version>4.5.4.20190517</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/ccenhancer</packageSourceUrl>
     <owners>chtof</owners>
     <title>CCEnhancer</title>
@@ -39,7 +39,7 @@ winapp2.ini is licensed under the [Attribution-ShareAlike 4.0 International (CC 
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   <dependencies>
-    <dependency id="ccenhancer.install" version="[4.5.4.20190515]" />
+    <dependency id="ccenhancer.install" version="[4.5.4.20190517]" />
   </dependencies>
   </metadata> 
   <files></files>

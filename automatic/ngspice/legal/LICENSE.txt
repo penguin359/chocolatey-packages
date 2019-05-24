@@ -1,3 +1,8 @@
+
+From: https://sourceforge.net/p/ngspice/ngspice/ci/master/tree/COPYING?format=raw
+
+LICENSE
+
 Ngspice Licensing
 
 Copyright (c) 2018 by ngspice maintainers

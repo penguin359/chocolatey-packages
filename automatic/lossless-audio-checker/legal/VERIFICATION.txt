@@ -19,4 +19,4 @@ Package can be verified like this:
    checksum64: A5370AA6D42086666081FC0626B5C7877EC8FB0BAB21017BF36F6FF1E94B63F7
  
 File 'LICENSE.txt' is obtained from:
-    https://raw.githubusercontent.com/cognidox/OfficeToPDF/master/LICENSE.md
+    http://losslessaudiochecker.com

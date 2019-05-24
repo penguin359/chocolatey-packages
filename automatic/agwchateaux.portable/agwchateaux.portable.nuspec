@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>  
     <id>agwchateaux.portable</id>    
-    <version>1.7.7</version>    
+    <version>1.7.8</version>    
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/agwchateaux.portable</packageSourceUrl>    
     <owners>chtof</owners>    
     <title>AGW Châteaux (Portable)</title>
@@ -19,8 +19,7 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>agwchateaux.portable french castle national day HAM radio amateur</tags>
     <summary>Logging program for national day of french castles (DFCF).</summary>
-    <description><![CDATA[
-## Features
+    <description><![CDATA[## Features
 - Log window, specially designed for the DCCF event.
 - Display contacted departments for each band worked.
 - Display contacted DFCF on a map.

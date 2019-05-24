@@ -2,14 +2,14 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>tusk</id>
+    <id>tusk.install</id>
     <version>0.23.0</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/tusk</packageSourceUrl>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/tusk.install</packageSourceUrl>
     <owners>chtof</owners>
-    <title>Tusk</title>
+    <title>Tusk (Install)</title>
     <authors>Klaus Sinani, Mario Sinani and Thanasis Gkanos.</authors>
     <projectUrl>https://klaussinani.github.io/tusk</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tusk/tusk.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tusk.install/tusk.install.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://raw.githubusercontent.com/klaussinani/tusk/master/license.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -65,12 +65,12 @@ Visit the project [homepage](https://klaussinani.github.io/tusk) to view all fea
 
 ## Screenshot
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tusk/screenshot.gif)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tusk.install/screenshot.gif)
 ]]></description>
     <releaseNotes>https://github.com/klaussinani/tusk/releases</releaseNotes>
-    <dependencies>
-      <dependency id="tusk.install" version="[0.23.0]" />
-    </dependencies>
   </metadata>
-  <files></files>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

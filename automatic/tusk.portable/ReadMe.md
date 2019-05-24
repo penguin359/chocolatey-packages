@@ -1,25 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
-  <metadata>
-    <id>tusk</id>
-    <version>0.23.0</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/tusk</packageSourceUrl>
-    <owners>chtof</owners>
-    <title>Tusk</title>
-    <authors>Klaus Sinani, Mario Sinani and Thanasis Gkanos.</authors>
-    <projectUrl>https://klaussinani.github.io/tusk</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tusk/tusk.png</iconUrl>
-    <!-- <copyright>Year Software Vendor</copyright> -->
-    <licenseUrl>https://raw.githubusercontent.com/klaussinani/tusk/master/license.md</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/klaussinani/tusk</projectSourceUrl>
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
-    <!--<mailingListUrl></mailingListUrl>-->
-    <bugTrackerUrl>https://github.com/klaussinani/tusk/issues</bugTrackerUrl>
-    <tags>tusk evernote</tags>
-    <summary>Refined Evernote desktop app.</summary>
-    <description><![CDATA[
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tusk.portable/tusk.portable.png" width="48" height="48"/> [Tusk (Portable)](https://chocolatey.org/packages/tusk)
+
 Tusk is an unofficial, featureful, open source, community-driven, free Evernote app used by people in more than [140 countries](https://snapcraft.io/tusk).
 
 Tusk is [indicated by Evernote](https://help.evernote.com/hc/en-us/articles/208313748-Evernote-on-Linux) as an alternative client for Linux environments trusted by the open source community.
@@ -65,12 +45,4 @@ Visit the project [homepage](https://klaussinani.github.io/tusk) to view all fea
 
 ## Screenshot
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tusk/screenshot.gif)
-]]></description>
-    <releaseNotes>https://github.com/klaussinani/tusk/releases</releaseNotes>
-    <dependencies>
-      <dependency id="tusk.install" version="[0.23.0]" />
-    </dependencies>
-  </metadata>
-  <files></files>
-</package>
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tusk.portable/screenshot.gif)

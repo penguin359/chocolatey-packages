@@ -12,21 +12,21 @@ function global:au_GetLatest {
 
     return @{
         Version = $version
-        URL32 = 'https://github.com/' + $github_repository + '/releases/download/v' + $version + '/CorsixTH_Windows_Portable.zip'
+        URL32 = 'https://github.com/' + $github_repository + '/releases/download/v' + $version + '/CorsixTH_Windows_Portable_x64.zip'
     }
 }
 
 function global:au_SearchReplace {
     @{
-       "legal\VERIFICATION.txt"  = @{            
-            "(?i)(x32: ).*"               = "`${1}$($Latest.URL32)"
-            "(?i)(x64: ).*"               = "`${1}$($Latest.URL32)"            
+       "legal\VERIFICATION.txt"  = @{
+            "(?i)(x32: ).*"             = "`${1}$($Latest.URL32)"
+            "(?i)(x64: ).*"             = "`${1}$($Latest.URL32)"
             "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
             "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
         }
 
-        "tools\chocolateyinstall.ps1" = @{        
+        "tools\chocolateyinstall.ps1" = @{
           "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`${1}$($Latest.FileName32)`""
         }
     }

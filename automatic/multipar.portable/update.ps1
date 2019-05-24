@@ -5,11 +5,9 @@ function global:au_GetLatest {
     $regex    = 'MultiPar(?<Version>[\d]+).zip$'
     
     $url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex    
-    
-    return @{
-        Version = $matches.Version -replace "(\d+)(\d)(\d)(\d)", '$1.$2.$3.$4'
-        URL32 = $releases + "/" + $url.href
-    }
+    $version = $matches.Version -replace "(\d+)(\d)(\d)(\d)", '$1.$2.$3.$4'
+
+    return @{ Version = $version + "00" ; URL32 = $releases + "/" + $url.href }
 }
 
 function global:au_SearchReplace {

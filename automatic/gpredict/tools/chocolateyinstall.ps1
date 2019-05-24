@@ -7,9 +7,6 @@ $packageArgs = @{
   file          = "$toolsDir\gpredict-win32-2.2.1.zip"
 }
 
-New-Item -path $toolsDir\gpredict-win32-2.2.1 -name "gpredict.exe.ignore" -type File -force | Out-Null
-New-Item -path $toolsDir\gpredict-win32-2.2.1 -name "gpredict-con.exe.ignore" -type File -force | Out-Null
-
 Get-ChocolateyUnzip @packageArgs
 
 # Install start menu shortcut

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pdf2djvu</id>
+    <version>0.9.12</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/pdf2djvu</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>pdf2djvu</title>
+    <authors>Jakub Wilk</authors>
+    <projectUrl>http://jwilk.net/software/pdf2djvu</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pdf2djvu/pdf2djvu.png</iconUrl>-->
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/jwilk/pdf2djvu/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/jwilk/pdf2djvu</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/jwilk/pdf2djvu/issues</bugTrackerUrl>
+    <tags>pdf2djvu pdf djvu converter</tags>
+    <summary>PDF to DjVu converter.</summary>
+    <description><![CDATA[
+## Overview
+**pdf2djvu** creates [DjVu](http://djvu.org) files from PDF files.
+
+It's able to extract:
+
+graphics,
+text layer,
+hyperlinks,
+document outline (bookmarks),
+metadata (including [XMP](https://www.adobe.com/products/xmp.html) metadata).
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pdf2djvu/screenshot.png)
+]]></description>
+    <releaseNotes>https://raw.githubusercontent.com/jwilk/pdf2djvu/master/doc/changelog</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -3,6 +3,13 @@
 function global:au_BeforeUpdate { 
     Invoke-WebRequest -Uri "https://www.raidrive.com/download.latest.php" -Headers @{"Referer"="https://www.raidrive.com/download/"} -OutFile $toolsDir\RaiDrive.exe
     $Latest.Checksum32 = checksum -t sha256 $toolsDir\RaiDrive.exe
+    $Latest.FileName   = 'RaiDrive.exe'
+
+    $releases = 'https://www.raidrive.com/download'
+    $regex   = '\<strong style="font-size: 28px;"\>(?<Version>[\d\.]+)\</strong\>'
+
+    (Invoke-WebRequest -Uri $releases) -match $regex | Out-Null
+    $Latest.Version = $matches.Version    
 }
 
 function global:au_GetLatest {

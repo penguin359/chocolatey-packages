@@ -43,4 +43,6 @@ Visit the project [homepage](https://klaussinani.github.io/tusk) to view all fea
 
 ## [Keyboard shortcuts](https://github.com/klaussinani/tusk#keyboard-shortcuts)
 
+## Screenshot
+
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tusk/screenshot.gif)

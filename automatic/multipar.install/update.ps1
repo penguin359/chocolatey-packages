@@ -7,7 +7,7 @@ function global:au_GetLatest {
     $url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex
         
     return @{
-        Version = $matches.Version -replace "(\d+)(\d)(\d)(\d)", '$1.$2.$3.$4'
+        Version = $matches.Version -replace "(\d+)(\d)(\d)(\d)", '$1.$2.$3.$4' + "00"
         URL32 = $releases + "/" + $url.href
     }
 }

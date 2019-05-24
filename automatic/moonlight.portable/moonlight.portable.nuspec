@@ -58,7 +58,7 @@ Moonlight developers are not accepting monetary donations at this time and curre
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/moonlight.portable/screenshot.png)
 ]]></description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <releaseNotes>https://github.com/moonlight-stream/moonlight-qt/releases</releaseNotes>
   </metadata>
   <files>
     <file src="legal\**" target="legal" />

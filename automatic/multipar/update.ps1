@@ -6,7 +6,7 @@ function global:au_GetLatest {
 
     $url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex
         
-    return @{ Version = $matches.Version -replace "(\d+)(\d)(\d)(\d)", '$1.$2.$3.$4' }
+    return @{ Version = $matches.Version -replace "(\d+)(\d)(\d)(\d)", '$1.$2.$3.$4' + "00" }
 }
 
 function global:au_SearchReplace {

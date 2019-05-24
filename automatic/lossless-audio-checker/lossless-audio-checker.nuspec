@@ -34,8 +34,7 @@ Internet music dealers currently sell CD-Quality tracks, or even better (Studio-
 ]]></description>
     <releaseNotes>http://losslessaudiochecker.com/dl/CHANGELOG-GUI.md</releaseNotes>
   </metadata>
-  <files>
-    <file src="legal\**" target="legal" />
+  <files>    
     <file src="tools\**" target="tools" />
   </files>
 </package>

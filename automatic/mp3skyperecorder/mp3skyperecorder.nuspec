@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>mp3skyperecorder</id>
-    <version>4.51</version>
+    <version>4.52</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/mp3skyperecorder</packageSourceUrl>
     <owners>chtof</owners>
     <title>MP3 Skype Recorder</title>
@@ -19,8 +19,7 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>mp3skyperecorder mp3 skype recorder teams lync</tags>
     <summary>MP3 Skype Recorder is a free for private non-commercial use program which automatically records all your Skype conversations (including conferences).</summary>
-    <description><![CDATA[
-MP3 Skype recorder is free for non-commercial use. For commercial use please get [MP3 Skype recorder Pro Edition](https://mp3skyperecorder.com/?acc=forcom).
+    <description><![CDATA[MP3 Skype recorder is free for non-commercial use. For commercial use please get [MP3 Skype recorder Pro Edition](https://mp3skyperecorder.com/?acc=forcom).
 
 Please read [MP3 Skype Recorder Terms of Use](https://voipcallrecording.com/MP3_Skype_Recorder_TOU) before installing and running this program.
 

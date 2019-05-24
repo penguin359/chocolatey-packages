@@ -1,0 +1,22 @@
+﻿VERIFICATION
+ 
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+Package can be verified like this:
+ 
+1. Download:
+ 
+   x32: https://github.com/toolbox4minecraft/amidst/releases/download/v4.2/amidst-v4-2.exe
+   x64: https://github.com/toolbox4minecraft/amidst/releases/download/v4.2/amidst-v4-2.exe
+  
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+ 
+   checksum type: sha256
+   checksum32: 02F0F4A78AC6985BDA3C42219A47C469B02FA308559F99617DBB1296709CC308
+   checksum64: 02F0F4A78AC6985BDA3C42219A47C469B02FA308559F99617DBB1296709CC308
+ 
+File 'LICENSE.txt' is obtained from:
+   https://raw.githubusercontent.com/toolbox4minecraft/amidst/master/LICENSE.txt

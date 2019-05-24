@@ -5,10 +5,8 @@
 
 It's able to extract:
 
-graphics,
-text layer,
-hyperlinks,
-document outline (bookmarks),
-metadata (including [XMP](https://www.adobe.com/products/xmp.html) metadata).
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pdf2djvu/screenshot.png)
+- graphics,
+- text layer,
+- hyperlinks,
+- document outline (bookmarks),
+- metadata (including [XMP](https://www.adobe.com/products/xmp.html) metadata).

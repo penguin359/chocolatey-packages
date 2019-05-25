@@ -48,14 +48,14 @@ Generate MD5 after the ISO is ready for integrity check.
 
 ### DDP® for replication
 The DDP® can be generated for large production (specification version 2.00)
-
-
+  
+  
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/open-dvd-producer/screenshot3.png)
 
 ### Advanced settings for Menus
 You can set the background image or video. The color and opacity of buttons highlight. Set the buttons directions directly on the screen.
-
-
+  
+  
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/open-dvd-producer/screenshot4.png)
 
 ### Advanced settings for Videos

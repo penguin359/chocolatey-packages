@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>k-meleon.install</id>
+    <version>75.1</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/k-meleon.install</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>K-Meleon (Install)</title>
+    <authors>K-Meleon Team.</authors>
+    <projectUrl>http://kmeleonbrowser.org</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/k-meleon.install/k-meleon.install.png</iconUrl>
+    <copyright>© 2000-2010 kmeleonbrowser.org. All rights reserved.</copyright>
+    <licenseUrl>https://sourceforge.net/directory/license:gpl/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://sourceforge.net/projects/kmeleon/files</projectSourceUrl>
+    <docsUrl>http://kmeleonbrowser.org/docs.php</docsUrl>
+    <mailingListUrl>http://kmeleonbrowser.org/forum</mailingListUrl>
+    <bugTrackerUrl>http://kmeleonbrowser.org/bugs</bugTrackerUrl>
+    <tags>k-meleon.install browser</tags>
+    <summary>K-Meleon is an extremely fast, customizable, lightweight web browser based on the [Gecko](http://developer.mozilla.org/en/docs/Gecko) layout engine developed by [Mozilla](http://www.mozilla.org) which is also used by Firefox. K-Meleon is [Free](http://www.gnu.org/philosophy/free-sw.html), [Open Source](http://www.opensource.org/docs/definition.php) software released under the [GNU General Public License](http://www.gnu.org/licenses/licenses.html) and is designed specifically for Microsoft Windows (Win32) operating systems.</summary>
+    <description><![CDATA[
+K-Meleon - The Browser You Control
+
+K-Meleon is an extremely fast, customizable, lightweight web browser based on the [Gecko](http://developer.mozilla.org/en/docs/Gecko) layout engine developed by [Mozilla](http://www.mozilla.org) which is also used by Firefox. K-Meleon is [Free](http://www.gnu.org/philosophy/free-sw.html), [Open Source](http://www.opensource.org/docs/definition.php) software released under the [GNU General Public License](http://www.gnu.org/licenses/licenses.html) and is designed specifically for Microsoft Windows (Win32) operating systems.
+
+## Features
+
+### Choose Your Desired Bookmarking System
+K-Meleon is the only browser that allows you to use your existing Internet Explorer Favorites or Opera Hotlist in place of or along with Netscape/Mozilla's Bookmarks system.
+
+### Tabbed Browsing
+K-Meleon offers a convenient way to manage the many sites you may visit during a browsing session. Commonly known as tabbed browsing, this feature allows you to keep multiple web pages open simultaneously, navigating easily between them by clicking on each page's tab located beside the others on a separate toolbar within the browser. This can be quite helpful when doing extensive web search as it eliminates the need to go back or forward repeatedly to find a previously viewed page. If you wish to have other applications running, this feature will provide a less cluttered Windows task bar.
+
+### Mouse Gestures
+Introduced and popularized by Opera, mouse gestures are now a common staple among alternative browsers. Through the mouse gestures plugin, K-Meleon offers a quick, easy way to navigate the web by right-clicking on a page while sliding your mouse left or right to go back or forward. Like all of K-Meleon's other features, the mouse gestures plugin is very [customizable](http://kmeleon.sourceforge.net/wiki/index.php?id=MouseGestures) and allows initiation of almost all commands and macros.
+
+### Complete Toolbar, Menu, Context Menu, & Keyboard Shortcut Customization
+One of the defining characteristics of K-Meleon is its extensive user customization feature. You can easily revamp your main menu and context menus by deleting or adding the items of your choice, access any function from your toolbar or assign any keyboard shortcut to any function. There is no need to extract and compile jar files or download various different extensions which may add other unwanted items to a desired feature.
+
+### Block Popup Windows
+A hazard of browsing the web is the annoying popup window advertisement. K-Meleon comes equipped with a Popup Blocking feature that blocks these popups and also allows you to quickly enable popups at a particular site.
+
+### Fast Load Time
+The time it takes for K-Meleon to open from when you click its application icon is the fastest of any Gecko based browser. There is even a symbiotic loader to further reduce start time for older, slower PCs.
+
+### Easy Web Searching
+Click on the Search button in your toolbar to enter items to search for with Google. By default the keyboard shortcut to view the search prompt is Ctrl+G. This, of course, can easily be changed along with the search engine. K-Meleon also supports [searching directly from the URL bar](http://kmeleon.sourceforge.net/wiki/index.php?id=QuickNick) with support for Mozilla [keywords](http://www.mozilla.org/docs/end-user/keywords.html) and Microsoft [Quick Search](http://www.microsoft.com/windows/ie/previous/webaccess/ie5wa.asp).
+
+### Themes & Skins
+K-Meleon is one of the simplest browsers to skin and all of its images can be changed to your liking. Visit the [TutorialSkinning](http://kmeleonbrowser.org/wiki/TutorialSkinning) Guide for instructions. Various user contributed [Themes](http://kmeleonbrowser.org/wiki/KMeleonThemesWiki) and [Skins](http://kmeleonbrowser.org/wiki/SkinsAndThrobbers) are available for download.
+
+### Macros
+K-Meleon's unique macros plugin greatly expands its features and capabilities. Take a look at just some of the many examples in the [MacroLibrary](http://kmeleonbrowser.org/wiki/MacroLibrary). Once you gain a better understanding of the [MacroLanguage](http://kmeleonbrowser.org/wiki/MacroLanguage) you can customize the macros to your liking or submit new macros of your own.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/k-meleon.install/screenshot.png)
+]]></description>
+    <releaseNotes>http://kmeleonbrowser.org</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

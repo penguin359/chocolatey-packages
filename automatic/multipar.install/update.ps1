@@ -8,7 +8,6 @@ function global:au_GetLatest {
     $version = $matches.Version -replace "(\d+)(\d)(\d)(\d)", '$1.$2.$3.$4'
 
     return @{ Version = $version + "00" ; URL32 = $releases + "/" + $url.href }
-    }
 }
 
 function global:au_SearchReplace {

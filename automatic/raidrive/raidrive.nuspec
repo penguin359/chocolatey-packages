@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>raidrive</id>
-    <version>1.6.2.416</version>
+    <version>1.6.4.518</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/raidrive</packageSourceUrl>
     <owners>chtof</owners>
     <title>RaiDrive</title>
@@ -19,8 +19,7 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>raidrive map filesystem cloud storage services google drive photos onedrive onedrive dropbox</tags>
     <summary>RaiDrive is a Windows utility that maps cloud storage services (Google Drive, Google Photos, OneDrive, Dropbox) as Windows drives. It allows for easy integration of cloud-based filesystems to the desktop without having to sync/download all the files in the cloud storage to the local disk.</summary>
-    <description><![CDATA[
-## RaiDrive, How to connect
+    <description><![CDATA[## RaiDrive, How to connect
 It’s easy. Take it slow.
 
 ### STEP1. ADD DRIVE

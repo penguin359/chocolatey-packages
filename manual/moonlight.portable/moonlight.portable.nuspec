@@ -23,9 +23,9 @@
 **This Chocolatey package is now deprecated under this name and available with the name of moonlight-qt.portable: https://chocolatey.org/packages/moonlight-qt.portable**
 ]]></description>
     <releaseNotes>https://github.com/moonlight-stream/moonlight-qt/releases</releaseNotes>
-  <dependencies>
-    <dependency id="moonlight-qt.portable" version="1.0.0" />
-  </dependencies>
+    <dependencies>
+      <dependency id="moonlight-qt.portable" version="1.0.0" />
+    </dependencies>
   </metadata>
   <files></files>
 </package>

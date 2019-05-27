@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>moonlight-qt.portable</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/moonlight-qt.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>Moonlight PC (Portable)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/moonlight-stream/moonlight-qt/issues</bugTrackerUrl>
     <tags>moonlight-qt.portable nvidia gametream client</tags>
     <summary>Open source NVidia Gamestream client.</summary>
-    <description><![CDATA[
-## What is Moonlight?
+    <description><![CDATA[## What is Moonlight?
 Moonlight allows you to play your PC games on almost any device, whether you're in another room or miles away from your gaming rig.
 
 **Moonlight** (formerly Limelight) is an open source implementation of NVIDIA's GameStream protocol. We implemented the protocol used by the NVIDIA Shield and wrote a set of 3rd party clients.

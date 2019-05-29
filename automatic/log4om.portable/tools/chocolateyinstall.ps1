@@ -4,8 +4,8 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
-  url           = 'http://www.log4om.com/log4om/release/Log4OM_1_36_0_Portable.zip'
-  checksum      = 'DF15688CF768556C520DC654508657B78A58F7222DD2B9AC6F2323A5596BDD49'
+  url           = 'http://www.log4om.com/log4om/release/Log4OM_1_37_0_Portable.zip'
+  checksum      = 'd2fa24598845028d1eaf067ffee9ba8d2145fcaf63aa9cd00b3259e5b6c0d0f7'
   checksumType  = 'sha256'
 }
 

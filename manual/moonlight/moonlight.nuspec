@@ -2,14 +2,14 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>moonlight.portable</id>
+    <id>moonlight</id>
     <version>1.0.0</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/moonlight.portable</packageSourceUrl>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/moonlight</packageSourceUrl>
     <owners>chtof</owners>
-    <title>[Deprecated] Moonlight PC (Portable)</title>
+    <title>[Deprecated] Moonlight PC</title>
     <authors>Cameron Gutman, Diego Waxemberg, Aaron Neyer, Michelle Bergeron, Andrew Hennessy and Aidan Campbell.</authors>
     <projectUrl>https://moonlight-stream.org</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/moonlight.portable/moonlight.portable.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/moonlight/moonlight.png</iconUrl>
     <copyright>© 2019. All rights reserved.</copyright>
     <licenseUrl>https://raw.githubusercontent.com/moonlight-stream/moonlight-qt/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -17,14 +17,14 @@
     <docsUrl>https://github.com/moonlight-stream/moonlight-docs/wiki/Setup-Guide</docsUrl>
     <mailingListUrl>https://discord.gg/MySTSdq</mailingListUrl>
     <bugTrackerUrl>https://github.com/moonlight-stream/moonlight-qt/issues</bugTrackerUrl>
-    <tags>moonlight.portable nvidia gametream client</tags>
+    <tags>moonlight nvidia gametream client</tags>
     <summary>Open source NVidia Gamestream client.</summary>
     <description><![CDATA[
-**This Chocolatey package is now deprecated under this name and available with the name of moonlight-qt.portable: https://chocolatey.org/packages/moonlight-qt.portable**
+**This Chocolatey package is now deprecated under this name and available with the name of moonlight-qt: https://chocolatey.org/packages/moonlight-qt**
 ]]></description>
     <releaseNotes>https://github.com/moonlight-stream/moonlight-qt/releases</releaseNotes>
     <dependencies>
-      <dependency id="moonlight-qt.portable" version="1.0.0" />
+      <dependency id="moonlight-qt" version="[1.0.0]" />
     </dependencies>
   </metadata>
   <files></files>

@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>milton.portable</id>
-    <version>1.6.0</version>
+    <version>1.6.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/milton.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>Milton (Portable)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/serge-rgb/milton/issues</bugTrackerUrl>
     <tags>milton.portable draw sketch paint</tags>
     <summary>Milton is a program that lets you draw, sketch and paint.</summary>
-    <description><![CDATA[
-[Milton](https://github.com/serge-rgb/milton) is an open source application that lets you Just Paint.
+    <description><![CDATA[[Milton](https://github.com/serge-rgb/milton) is an open source application that lets you Just Paint.
 
 There are no pixels, you can paint with (almost) infinite detail. It feels raster-based but it works with vectors. It is not an image editor. It is not a vector graphics editor. It is a program that lets you draw, sketch and paint. There is no save button, your work is persistent with unlimited undo.
 

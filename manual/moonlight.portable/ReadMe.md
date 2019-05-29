@@ -1,3 +1,3 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/moonlight.portable/moonlight.portable.png" width="48" height="48"/> [`[Deprecated`] Moonlight PC (Install)](https://chocolatey.org/packages/moonlight.portable)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/moonlight.portable/moonlight.portable.png" width="48" height="48"/> [`[Deprecated`] Moonlight PC (Portable)](https://chocolatey.org/packages/moonlight.portable)
 
 **This Chocolatey package is now deprecated under this name and available with the name of moonlight-qt.portable: https://chocolatey.org/packages/moonlight-qt.portable**

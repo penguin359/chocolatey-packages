@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>log4om.install</id>
-    <version>1.36.0.20190504</version>
+    <version>1.37.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/log4om.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>Log4OM (Install)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>http://forum.log4om.com/viewforum.php?f=7</bugTrackerUrl>
     <tags>log4om log HAM radio amateur</tags>
     <summary>Ham Radio Log Software</summary>
-    <description><![CDATA[
-Log4OM is developed by **IW3HMH Daniele Pistollato**. 
+    <description><![CDATA[Log4OM is developed by **IW3HMH Daniele Pistollato**. 
 
 Software focused on Ham Radio activity and requires very low resources from the host computer.
 
@@ -49,11 +48,11 @@ It has been tested on all Windows operating systems from Windows Vista to the la
 - Resources and external services are automatically updated
 - Software Voice Keyer
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/log4om.install/screenshot.png)
-
 ## Package Parameters
 
 - `--installargs "'/DIR=c:\\path\\to\\folder'"` - Install LogOM in the specified folder.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/log4om.install/screenshot.png)
 ]]></description>
 
 <releaseNotes>http://www.log4om.com</releaseNotes>

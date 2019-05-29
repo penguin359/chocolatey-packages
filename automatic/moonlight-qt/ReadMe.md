@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/moonlight/moonlight.png" width="48" height="48"/> [Moonlight PC](https://chocolatey.org/packages/moonlight)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/moonlight-qt/moonlight-qt.png" width="48" height="48"/> [Moonlight PC](https://chocolatey.org/packages/moonlight-qt)
 
 ## What is Moonlight?
 Moonlight allows you to play your PC games on almost any device, whether you're in another room or miles away from your gaming rig.
@@ -36,4 +36,4 @@ Moonlight was created by Case Western Reserve University students as a project a
 - [Aidan Campbell](https://github.com/raidancampbell)
 Moonlight developers are not accepting monetary donations at this time and currently have no plans to do so. Instead, please direct any donations toward the [Case Western Reserve University Hacker Society](http://hacsoc.org) - the birthplace of Moonlight, Hacker Society is a club for CWRU students of all skill levels and backgrounds to explore computer science outside of school. If you still insist on donating, you [may do so here](https://securelb.imodules.com/s/1526/index.aspx?sid=1526&gid=1&pgid=381). (Choose
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/moonlight/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/moonlight-qt/screenshot.png)

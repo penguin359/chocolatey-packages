@@ -1,5 +1,7 @@
 ﻿import-module au
 
+function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
+
 function global:au_GetLatest {
     $github_repository = "GNS3/gns3-gui"
     $releases = "https://github.com/" + $github_repository + "/releases/latest"
@@ -22,7 +24,7 @@ function global:au_SearchReplace {
         }
 
         "tools\chocolateyinstall.ps1" = @{
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\).*`""   = "`${1}$($Latest.FileName32)`""
+          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\).*" = "`${1}$($Latest.FileName32)`""
         }
 
         "tools\chocolateyinstall.ahk" = @{

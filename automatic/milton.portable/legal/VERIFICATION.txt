@@ -1,4 +1,4 @@
-﻿VERIFICATION
+VERIFICATION
  
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
@@ -7,14 +7,14 @@ Package can be verified like this:
  
 1. Download:
  
-   x64: https://github.com/serge-rgb/milton/releases/download/v1.6.0/Milton_1.6.0_Standalone_x64.zip
+   x64: 
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
-   checksum type: sha256
-   checksum64: e3fa9c63c4c86aa4af7626791c7b0f55dca42c4ebf162b144b4de432224f2b77
+   checksum type: 
+   checksum64: 
 
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/serge-rgb/milton/master/LICENSE.txt

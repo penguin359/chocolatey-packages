@@ -47,7 +47,7 @@ Clearly, Octave is now much more than just another courseware package with limit
 ]]></description>
   <releaseNotes>https://www.gnu.org/software/octave/news.html</releaseNotes>
   <dependencies>
-    <dependency id="phonerlite.install" version="[2.71]" />
+    <dependency id="octave.install" version="[5.10]" />
   </dependencies>
   </metadata>
   <files></files>

@@ -8,7 +8,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 winTitle = Natron Setup
 
-WinWait, %winTitle% ahk_class QWidget,, 90 ; Welcome
+WinWait, %winTitle% ahk_class QWidget,, 180 ; Welcome
 Sleep 350
 ControlClick, x352 y362, %winTitle%,,,, NA ; Next
 

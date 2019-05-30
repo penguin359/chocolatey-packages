@@ -8,7 +8,7 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing	 
     $url = $download_page.links | ? href -match $regex
-    return @{ Version = $matches.Version ; URL32 = "https://github.com" + $url.href }
+    return @{ Version = $matches.Version ; URL64 = "https://github.com" + $url.href }
 }
 
 function global:au_SearchReplace {

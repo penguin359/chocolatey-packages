@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>jekyll</id>
+    <version>3.8.5</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/jekyll</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Jekyll</title>
+    <authors>Jekyll Team</authors>
+    <projectUrl>https://jekyllrb.com</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jekyll/jekyll.png</iconUrl>
+    <copyright>© 2019 under the terms of the MIT License.</copyright>
+    <licenseUrl>https://github.com/jekyll/jekyll/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/jekyll/jekyll</projectSourceUrl>
+    <docsUrl>https://jekyllrb.com/docs</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/jekyll/jekyll/issues</bugTrackerUrl>
+    <tags>jekyll static website blog</tags>
+    <summary>Transform your plain text into static websites and blogs.</summary>
+    <description><![CDATA[
+## Simple
+No more databases, comment moderation, or pesky updates to install—just your content.
+[How Jekyll works →](https://jekyllrb.com/docs/usage)
+
+## Static
+[Markdown](https://daringfireball.net/projects/markdown), [Liquid](https://github.com/Shopify/liquid/wiki), HTML & CSS go in. Static sites come out ready for deployment.
+[Jekyll template guide →](https://jekyllrb.com/docs/templates)
+
+## Blog-aware
+Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here.
+[Migrate your blog →](http://import.jekyllrb.com)
+
+## Free hosting with GitHub Pages
+Sick of dealing with hosting companies? GitHub Pages are powered by Jekyll, so you can easily deploy your site using GitHub for free—custom domain name and all.
+[Learn more about GitHub Pages →](https://pages.github.com)
+
+## [Showcase](https://jekyllrb.com/showcase)
+]]></description>
+  <releaseNotes>https://github.com/jekyll/jekyll/releases</releaseNotes>
+  <dependencies>
+    <dependency id="msys2" version="20180531.0.0" />
+    <dependency id="ruby" version="2.6.3.1" />
+    <dependency id="ruby2.devkit" version="4.7.2.2013022403" />
+  </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

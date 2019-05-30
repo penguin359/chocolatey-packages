@@ -2,7 +2,6 @@
 #Warn  ; Enable warnings to assist with detecting common errors.
 #NoTrayIcon
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetTitleMatchMode, 2  ; 2: A window's title can contain WinTitle anywhere inside it to be a match.
 SetControlDelay -1  
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
@@ -11,7 +10,17 @@ Post_install_scriptDir = C:\Octave\Octave-5.1.0.0\post-install.bat
 
 winTitle = GNU Octave
 
-WinWait, %winTitle%, Welcome to GNU Octave Setup, 240
+SetTitleMatchMode, RegEx
+WinWait, %winTitle%, the installer was unable to find a Java Runtime Environment|Welcome to GNU Octave Setup, 600
+IfWinExist, Title1, the installer was unable to find a Java Runtime Environment
+{
+  ControlClick, Button1, %winTitle%,,,, NA ; &Yes
+  WinWait, %winTitle%, Welcome to GNU Octave Setup, 10
+}
+ControlClick, Button2, %winTitle%,,,, NA ; &Next >
+
+SetTitleMatchMode, 2  ; 2: A window's title can contain WinTitle anywhere inside it to be a match.
+WinWait, %winTitle%, Welcome to GNU Octave Setup, 900
 ControlClick, Button2, %winTitle%,,,, NA ; &Next >
 
 WinWait, %winTitle%, License Agreement, 10

@@ -25,7 +25,6 @@ A hazard of browsing the web is the annoying popup window advertisement. K-Meleo
 The time it takes for K-Meleon to open from when you click its application icon is the fastest of any Gecko based browser. There is even a symbiotic loader to further reduce start time for older, slower PCs.
 
 ### Easy Web Searching
-Click on the Search button in your toolbar to enter items to search for with Google. By default the keyboard shortcut to view the search prompt is Ctrl+G. This, of course, can easily be changed along with the search engine. K-Meleon also supports [searching directly from the URL bar](http://kmeleon.sourceforge.net/wiki/index.php?id=QuickNick) with support for Mozilla [keywords](http://www.mozilla.org/docs/end-user/keywords.html) and Microsoft [Quick Search](http://www.microsoft.com/windows/ie/previous/webaccess/ie5wa.asp).
 
 ### Themes & Skins
 K-Meleon is one of the simplest browsers to skin and all of its images can be changed to your liking. Visit the [TutorialSkinning](http://kmeleonbrowser.org/wiki/TutorialSkinning) Guide for instructions. Various user contributed [Themes](http://kmeleonbrowser.org/wiki/KMeleonThemesWiki) and [Skins](http://kmeleonbrowser.org/wiki/SkinsAndThrobbers) are available for download.

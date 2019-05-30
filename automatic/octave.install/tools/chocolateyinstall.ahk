@@ -25,10 +25,11 @@ ControlClick, Button2, %winTitle%,,,, NA ; &Install
 
 ; https://github.com/chocolatey-community/chocolatey-package-requests/issues/487
 ; PS Installation script can't be finished due to "%MSYSDIR%\bin\bash.exe --login -c echo" in post-install.bat script
-While !FileExist(Post_install_scriptDir) ; Wait for the extraction of post-install.bat script
-{
-    Sleep, 3000 ;
-}
+;While !FileExist(Post_install_scriptDir) ; Wait for the extraction of post-install.bat script
+;{
+;    Sleep, 3000
+;}
+Sleep, 10000
 FileRead, BUFF, %Post_install_scriptDir%
 StringReplace, BUFF, BUFF, `%MSYSDIR`%\bin\bash.exe --login -c echo, REM ** Chocolatey installation fix** `%MSYSDIR`%\bin\bash.exe --login -c echo, All
 FileDelete, %Post_install_scriptDir%

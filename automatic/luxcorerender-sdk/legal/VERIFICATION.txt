@@ -14,7 +14,7 @@ Package can be verified like this:
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256 
-   checksum64: 
+   checksum64: 16251b0e76023019f4f098b374afdd65354bb5a2224b550a489b0e00767f504b
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/LuxCoreRender/LuxCore/master/COPYING.txt

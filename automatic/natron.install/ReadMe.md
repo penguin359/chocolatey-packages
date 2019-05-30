@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/natron.install/natron.install.png" width="48" height="48"/> [Natron](https://chocolatey.org/packages/natron.install)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/natron.install/natron.install.png" width="48" height="48"/> [Natron Open-Source Compositing Software (Install)](https://chocolatey.org/packages/natron.install)
 
 CROSS PLATFORM & OPEN-SOURCE COMPOSITOR 
 FOR VISUAL EFFECTS AND MOTION GRAPHICS INDUSTRY

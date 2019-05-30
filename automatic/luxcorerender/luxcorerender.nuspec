@@ -9,7 +9,7 @@
     <title>LuxCore Render (Standalone release without OpenCL support)</title>
     <authors>LuxCore Render Team.</authors>
     <projectUrl>https://luxcorerender.org</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/luxcorerender/luxcorerender.png</iconUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/luxcorerender/luxcorerender.png</iconUrl>-->
     <copyright>Copyright © 2018 LuxCoreRender project, images used are copyrighted by their respective authors and used with kind permission.</copyright>
     <licenseUrl>https://raw.githubusercontent.com/LuxCoreRender/LuxCore/master/COPYING.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -12,7 +12,7 @@ winTitle = GNU Octave
 
 SetTitleMatchMode, RegEx
 WinWait, %winTitle%, the installer was unable to find a Java Runtime Environment|Welcome to GNU Octave Setup, 600
-IfWinExist, Title1, the installer was unable to find a Java Runtime Environment
+IfWinExist, %winTitle%, the installer was unable to find a Java Runtime Environment
 {
   ControlClick, Button1, %winTitle%,,,, NA ; &Yes
   WinWait, %winTitle%, Welcome to GNU Octave Setup, 10

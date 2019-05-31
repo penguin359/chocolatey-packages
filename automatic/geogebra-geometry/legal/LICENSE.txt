@@ -1,3 +1,8 @@
+
+From: https://www.geogebra.org/license
+
+LICENSE
+
 GeoGebra License
 You are free to copy, distribute and transmit GeoGebra for non-commercial purposes (please see details below).
 

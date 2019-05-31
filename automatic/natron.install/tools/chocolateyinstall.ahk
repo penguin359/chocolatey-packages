@@ -9,25 +9,25 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 winTitle = Natron Setup
 
 WinWait, %winTitle% ahk_class QWidget,, 180 ; Welcome
-Sleep 350
+Sleep 700
 ControlClick, x352 y362, %winTitle%,,,, NA ; Next
 
-Sleep 350
+Sleep 700
 ControlClick, x352 y362, %winTitle%,,,, NA ; Installation folder
 
-Sleep 350
+Sleep 700
 ControlClick, x352 y362, %winTitle%,,,, NA ; Select Components
 
 Sleep 1000
 ControlClick, x42 y302, %winTitle%,,,, NA ; License agreement - I accept the license
-Sleep 350
+Sleep 700
 ControlClick, x352 y362, %winTitle%,,,, NA ; Select Components
 
-Sleep 350
+Sleep 700
 ControlClick, x352 y362, %winTitle%,,,, NA ; Start Menu shortcuts
 
-Sleep 350
+Sleep 700
 ControlClick, x352 y362, %winTitle%,,,, NA ; Ready to install
 
-Sleep 60000 ; As-is Windows Spy does not catch any QWidget controls
+Sleep 75000 ; As-is Windows Spy does not catch any QWidget controls
 ControlClick, x436 y362, %winTitle%,,,, NA ; Completing the Natron Wizard - Finish

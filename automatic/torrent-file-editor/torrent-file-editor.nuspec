@@ -11,7 +11,7 @@
     <projectUrl>https://torrent-file-editor.github.io</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/torrent-file-editor/torrent-file-editor.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
-    <licenseUrl>https://sourceforge.net/projects/torrent-file-editor</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/torrent-file-editor/torrent-file-editor/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/torrent-file-editor/torrent-file-editor</projectSourceUrl>
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->

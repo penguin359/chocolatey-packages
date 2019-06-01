@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>infinitex.install</id>
+    <version>0.9.16</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/infinitex.install</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>InfiniTex (Install)</title>
+    <authors>fetacore</authors>
+    <projectUrl>https://github.com/fetacore/Infinitex</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/infinitex.install/infinitex.install.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/fetacore/Infinitex/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/fetacore/Infinitex</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/fetacore/Infinitex/issues</bugTrackerUrl>
+    <tags>infinitex.install latex wysiwyg editor</tags>
+    <summary>A LaTeX and WYSIWYG editor with academic search functionality and other helpful tools.</summary>
+    <description><![CDATA[
+The one part of the app is a LaTeX editor with search functionality and simplified bibliography and packages handling. The other part is a WYSIWYG editor based on quilljs. The simple part also supports encrypted documents.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/infinitex.install/screenshot.gif)
+]]></description>
+    <releaseNotes>https://github.com/fetacore/Infinitex/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

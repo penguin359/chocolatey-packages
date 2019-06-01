@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>unar</id>
+    <version>1.8.1</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/unar</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>The Unarchiver (command-line)</title>
+    <authors>MacPaw Inc.</authors>
+    <projectUrl>https://theunarchiver.com/command-line</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/unar/unar.png</iconUrl>
+    <copyright>Copyright © 2019</copyright>
+    <licenseUrl>https://macpaw.com/eula</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>unar unarchiver command line</tags>
+    <summary>Extract files from various archive formats.</summary>
+    <description><![CDATA[
+The Unarchiver is a macOS app, but the underlying unarchiving code can run on other OSes, too. There is not yet any GUI app for any other OS, but there are two command-line tools, unar and lsar, which can be used on macOS, Windows and Linux.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/unar/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

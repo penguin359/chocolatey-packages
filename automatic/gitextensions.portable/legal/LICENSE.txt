@@ -1,3 +1,8 @@
+
+From: https://raw.githubusercontent.com/gitextensions/gitextensions/master/LICENSE.md
+
+LICENSE
+
 GNU GENERAL PUBLIC LICENSE
 ==========================
 

@@ -1,0 +1,3 @@
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/unar/unar.png" width="48" height="48"/> [The Unarchiver (command-line)](https://chocolatey.org/packages/unar)
+
+The Unarchiver is a macOS app, but the underlying unarchiving code can run on other OSes, too. There is not yet any GUI app for any other OS, but there are two command-line tools, unar and lsar, which can be used on macOS, Windows and Linux.

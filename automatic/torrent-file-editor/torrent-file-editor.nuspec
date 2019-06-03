@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>torrent-file-editor</id>
+    <version>0.3.15</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/torrent-file-editor</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Torrent File Editor</title>
+    <authors>Torrent File Team</authors>
+    <projectUrl>https://torrent-file-editor.github.io</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/torrent-file-editor/torrent-file-editor.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://sourceforge.net/projects/torrent-file-editor</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/torrent-file-editor/torrent-file-editor</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/torrent-file-editor/torrent-file-editor/issues</bugTrackerUrl>
+    <tags>torrent-file-editor torrent file editor</tags>
+    <summary>Cross-platform application intended to create and edit .torrent and uTorrent .dat files. Replacement for [BEncode Editor](https://sites.google.com/site/ultimasites/bencode-editor) which has modern design and extra features.</summary>
+    <description><![CDATA[
+## Features
+- Create .torrent file from a scratch.
+- Add new files to .torrent file.
+- Removing files from .torrent file.
+- Change files order in .torrent file.
+- Change main .torrent file infomation: name, comment, publisher, url, creation date, trackers and author.
+- Edit data as JSON-format. In this mode non-ASCII symbols not supported.
+- Translated to many languages.
+- Support different encodings.
+- Portable.
+- Edit .torrent file as binary tree.
+- Search and replace in tree.
+- Open files with drag-n-drop.
+- Remove files from file list with filter.
+- Command line mode.
+
+## Translations
+- العربية  Arabic
+- বাংলা  Bengali
+- 简体中文 Chinese Simplified
+- 繁體中文 Chinese Traditional
+- Čeština  Czech
+- Nederlands Dutch
+- English  English
+- Suomi  Finnish
+- Français French
+- Deutsch  German
+- ברית  Hebrew
+- Magyar Hungarian
+- Indonesia  Indonesian
+- Italiano Italian
+- 日本語  Japanese
+- 한국어  Korean
+- Polski Polish
+- Português (Brasil) Portuguese (Brazil)
+- Română Romanian
+- Русский  Russian
+- Español  Spanish
+- Türkçe Turkish
+- Tiếng Việt Vietnamese
+
+## Screenshots
+
+![Main](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/torrent-file-editor/screenshot1.png)
+
+![Files](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/torrent-file-editor/screenshot2.png)
+
+![Tree](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/torrent-file-editor/screenshot3.png)
+
+![Raw](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/torrent-file-editor/screenshot4.png)
+]]></description>
+    <releaseNotes>https://github.com/torrent-file-editor/torrent-file-editor/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

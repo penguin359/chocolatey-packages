@@ -5,7 +5,6 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 function global:au_GetLatest {
     $github_repository = "jonata/opendvdproducer"
     $releases          = "https://github.com/" + $github_repository + "/releases/latest"
-    https://github.com/jonata/opendvdproducer/releases/download/16.11/opendvdproducer_16.11.exe.7z
     $regex             = 'opendvdproducer_(?<Version>[\d\.]+).exe.7z$'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing

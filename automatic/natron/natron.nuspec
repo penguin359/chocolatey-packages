@@ -58,7 +58,7 @@ over 250 and ever increasing community plugins Here
 ]]></description>
   <releaseNotes>https://github.com/NatronGitHub/Natron/releases</releaseNotes>
   <dependencies>
-    <dependency id="natron.install" version="2.3.14" />
+    <dependency id="natron.install" version="[2.3.14]" />
   </dependencies>
   </metadata>
   <files></files>

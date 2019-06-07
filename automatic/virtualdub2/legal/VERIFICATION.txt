@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://sourceforge.net/projects/vdfiltermod/files/VirtualDub%2520pack/version%2020/VirtualDub2_43602.zip
-   x64: https://sourceforge.net/projects/vdfiltermod/files/VirtualDub%2520pack/version%2020/VirtualDub2_43602.zip
+   x32: https://sourceforge.net/projects/vdfiltermod/files/VirtualDub%2520pack/version%2020/VirtualDub2_43702.zip
+   x64: https://sourceforge.net/projects/vdfiltermod/files/VirtualDub%2520pack/version%2020/VirtualDub2_43702.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 980C9890A65A56FCD0228E2A1A88BA850BCEF9841091D4AA219D4B0F1BDB185E
-   checksum64: 980C9890A65A56FCD0228E2A1A88BA850BCEF9841091D4AA219D4B0F1BDB185E
+   checksum32: 49B6B3196F1DAE3894E207B5AA17660D42E69D14B359D2A8382888F3BD766AA7
+   checksum64: 49B6B3196F1DAE3894E207B5AA17660D42E69D14B359D2A8382888F3BD766AA7
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/shekh/VirtualDub2/master/Copying

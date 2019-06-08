@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>libre-hardware-monitor</id>
-    <version>1.0.96</version>
+    <version>1.0.97</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/libre-hardware-monitor</packageSourceUrl>
     <owners>chtof</owners>
     <title>Libre Hardware Monitor</title>
@@ -19,7 +19,8 @@
     <bugTrackerUrl>https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/issues</bugTrackerUrl>
     <tags>librehardwaremonitor hardware monitor</tags>
     <summary>Libre Hardware Monitor, fork of Open Hardware Monitor.</summary>
-    <description>Libre Hardware Monitor, fork of Open Hardware Monitor.</description>
+    <description><![CDATA[Libre Hardware Monitor, fork of Open Hardware Monitor.
+]]></description>
     <releaseNotes>https://ci.appveyor.com/project/LibreHardwareMonitor/LibreHardwareMonitor/history</releaseNotes>
   </metadata>
   <files>

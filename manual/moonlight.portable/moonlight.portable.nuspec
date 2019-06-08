@@ -4,12 +4,12 @@
   <metadata>
     <id>moonlight.portable</id>
     <version>1.0.0</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/moonlight.portable</packageSourceUrl>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/moonlight.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>[Deprecated] Moonlight PC (Portable)</title>
     <authors>Cameron Gutman, Diego Waxemberg, Aaron Neyer, Michelle Bergeron, Andrew Hennessy and Aidan Campbell.</authors>
     <projectUrl>https://moonlight-stream.org</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/moonlight.portable/moonlight.portable.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/moonlight.portable/moonlight.portable.png</iconUrl>
     <copyright>© 2019. All rights reserved.</copyright>
     <licenseUrl>https://raw.githubusercontent.com/moonlight-stream/moonlight-qt/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

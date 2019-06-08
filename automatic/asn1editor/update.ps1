@@ -26,8 +26,9 @@ function global:au_SearchReplace {
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
         }
 
-        "tools\chocolateyinstall.ps1" = @{        
+        "tools\chocolateyinstall.ps1" = @{
           "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
+          "Asn1Editor-v([\d\.]+)\\Asn1Editor-x[$]{OSArchitectureWidth}.exe" = "Asn1Editor-v$($Latest.Version)\Asn1Editor-x`${OSArchitectureWidth}.exe"
         }
     }
 }

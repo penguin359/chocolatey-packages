@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>sublimemerge</id>
-    <version>0.0.1107</version>
+    <version>0.0.1116</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/sublimemerge</packageSourceUrl>
     <owners>chtof</owners>
     <title>Sublime Merge</title>
@@ -19,8 +19,8 @@
     <bugTrackerUrl>https://github.com/sublimehq/sublime_merge/issues</bugTrackerUrl>
     <tags>sublimemerge git client merge tool development syntax highlighting</tags>
     <summary>Git Client, done Sublime.</summary>
-    <description><![CDATA[
-___Meet a new Git Client, from the makers of Sublime Text.___
+    <description><![CDATA[___Meet a new Git Client, from the makers of Sublime Text.___
+
 A snappy UI, three-way merge tool,
 side-by-side diffs, syntax highlighting, and more. Evaluate for free – no account, tracking, or time limits.
 Interested? Read the [release announcement](https://www.sublimetext.com/blog/articles/sublime-merge).

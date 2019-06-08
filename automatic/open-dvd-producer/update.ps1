@@ -1,11 +1,11 @@
-import-module au
+﻿import-module au
 
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-    $github_repository = "klaussinani/tusk"
+    $github_repository = "jonata/opendvdproducer"
     $releases          = "https://github.com/" + $github_repository + "/releases/latest"
-    $regex             = 'tusk-setup-(?<Version>[\d\.]+).exe$'
+    $regex             = 'opendvdproducer_(?<Version>[\d\.]+).exe.7z$'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
     $url = $download_page.links | ? href -match $regex

@@ -19,4 +19,4 @@ Package can be verified like this:
    checksum64: C0FCCB6BCE93128D370370C6930D65ED76B746D46D5F89F3A6944D60BE1865FF
  
 File 'LICENSE.txt' is obtained from:
-   https://www.gnu.org/licenses/gpl-3.0.txt
+   https://raw.githubusercontent.com/torrent-file-editor/torrent-file-editor/master/LICENSE

@@ -1,3 +1,8 @@
+
+From: https://sourceforge.net/p/fldigi/flrig/ci/master/tree/COPYING
+
+LICENSE
+
 		    GNU GENERAL PUBLIC LICENSE
 		       Version 2, June 1991
 

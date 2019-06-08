@@ -1,0 +1,32 @@
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/spacedesk-server/spacedesk-server.png" width="48" height="48"/> [Spacedesk Windows Driver](https://chocolatey.org/packages/spacedesk-server)
+
+## Fatures and System Requirements
+### NETWORK DISPLAY MULTI MONITOR SOFTWARE
+- Windows Desktop Extension (x10-sion)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/spacedesk-server/screenshot1.png)
+- Windows Desktop Duplication (mirroring/cloning)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/spacedesk-server/screenshot2.png)
+- Touchscreen
+- KVM (keyboard and mouse remoting) supported by Windows VIEWER
+
+### PRIMARY MACHINE & SECONDARY MACHINE
+At least two machines are required: PRIMARY machine and SECONDARY machine
+All machines must be connected to a LAN (Local Area Network).
+Network protocol TCP/IP needs to be supported. The connection can be over USB (e.g. tethering), via LAN-cable or wireless.
+
+### PRIMARY MACHINE (Windows PC, laptop and tablet): spacedesk DRIVER
+The primary machine runs a Windows service and the WDDM driver. This appears as an additional graphics adapter to Windows 10 and an additional monitor connection of the existing graphics adapter on Windows 7 and 8.1. This additional virtual graphics adapter or display connector can mirror any other Windows display screen or extend the Windows Desktop. spacedesk software on Primary Machine is capturing the screen content, compressing it and transmitting it over the LAN (Local Area Network) to the spacedesk secondary machines.
+
+- Windows 10 (WDDM IddCx Indirect Display Driver)
+- Windows 8.1 /  7 (WDDM Filter Hook Display Driver)
+
+### SECONDARY MACHINE (PC, laptop, tablet, smartphone and devices)
+- Windows 7 / 8.1 / 10
+- Android (> version 4.1)
+- iOS (> version 9.3)
+- Any other: HTML5 Web browsers ( Chrome (> 16), Safari (> 5.1) Internet Explorer (> 10), Opera (> 27) )
+
+### LOCAL AREA NETWORK (LAN)
+- TCP/IP v4
+- TCP/IP v6 (future versions only)
+- No encryption transmitting data between client and server. Therefore all information transmitted is potentially available to everybody in the network.

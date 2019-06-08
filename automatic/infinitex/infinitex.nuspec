@@ -6,7 +6,7 @@
     <version>0.9.16</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/infinitex</packageSourceUrl>
     <owners>chtof</owners>
-    <title>InfiniTex (Install)</title>
+    <title>InfiniTex</title>
     <authors>fetacore</authors>
     <projectUrl>https://github.com/fetacore/Infinitex</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/infinitex/infinitex.png</iconUrl>

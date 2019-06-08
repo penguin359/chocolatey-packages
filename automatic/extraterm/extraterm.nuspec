@@ -71,8 +71,5 @@ Backwards compatibility with the decades of existing terminal based applications
     <dependency id="extraterm.install" version="[0.42.2-pre]" />
   </dependencies>
   </metadata>
-  <files>
-    <file src="legal\**" target="legal" />
-    <file src="tools\**" target="tools" />
-  </files>
+  <files></files>
 </package>

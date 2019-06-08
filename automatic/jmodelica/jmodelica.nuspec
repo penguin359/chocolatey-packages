@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>jmodelica</id>
+    <version>2.4</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/jmodelica</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>JModelica</title>
+    <authors>[[Authors]]</authors>
+    <projectUrl>https://jmodelica.org</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jmodelica/jmodelica.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://jmodelica.org</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://svn.jmodelica.org</projectSourceUrl>
+    <docsUrl>https://jmodelica.org/downloads/UsersGuide-2.4.pdf</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://trac.jmodelica.org</bugTrackerUrl>
+    <tags>jmodelica modelica optimization simulation analysis complex dynamic system</tags>
+    <summary>JModelica.org is an extensible [Modelica-based](http://www.modelica.org) open source platform for optimization, simulation and analysis of complex dynamic systems.</summary>
+    <description><![CDATA[
+The main objective of the project is to create an industrially viable open source platform for simulation and optimization of Modelica models, while offering a flexible platform serving as a virtual lab for algorithm development and research. As such, JModelica.org provides a platform for technology transfer where industrially relevant problems can inspire new research and where state of the art algorithms can be propagated from academia into industrial use. JModelica.org is a result of research at the [Department of Automatic Control](http://www.control.lth.se), Lund University, and is now maintained and developed by [Modelon AB](http://www.modelon.se) in collaboration with academia. 
+
+JModelica.org is distributed under the GPL v.3 license approved by the [Open Source Initiative](http://www.opensource.org).
+
+JModelica.org at a glance:
+
+- *_Model_* your systems using the object-oriented and equation-based language Modelica
+- *_Solve_* your complex simulation and optimization problems using state of the art numerical algorithms
+- *_Automate_* your work in the Python scripting environment
+- *_Visualize_* your results
+
+JModelica.org is compliant with the Modelica Standard Library.
+]]></description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

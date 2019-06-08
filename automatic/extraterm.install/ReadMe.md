@@ -40,8 +40,3 @@ Or you can edit the command output directly in place and execute the selection w
 The shell integration makes uploading and downloading files easy without requiring additional tools. It works transparently across SSH too.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/extraterm.install/screenshot7.png)
-
-### Compatible
-Backwards compatibility with the decades of existing terminal based applications and your decades of workflows and habits is very important. Extraterm supports your existing applications and doesn’t require you to change your habits.
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/extraterm.install/screenshot8.png)

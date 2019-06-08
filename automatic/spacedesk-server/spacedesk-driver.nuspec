@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>spacedesk-server</id>
+    <version>0.9.18</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/spacedesk-server</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Spacedesk Windows Driver</title>
+    <authors>Datronicsoft</authors>
+    <projectUrl>https://spacedesk.net</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/spacedesk-server/spacedesk-server.png</iconUrl>
+    <copyright>© 2019 – datronicsoft</copyright>
+    <licenseUrl>https://spacedesk.net/#licensing</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://spacedesk.net/user-manual</docsUrl>
+    <mailingListUrl>https://forum.spacedesk.ph</mailingListUrl>
+    <bugTrackerUrl>https://forum.spacedesk.ph</bugTrackerUrl>
+    <tags>spacedesk-server network display software</tags>
+    <summary>Windows network display monitor software.</summary>
+    <description><![CDATA[
+## Fatures and System Requirements
+### NETWORK DISPLAY MULTI MONITOR SOFTWARE
+- Windows Desktop Extension (x10-sion)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/spacedesk-server/screenshot1.png)
+- Windows Desktop Duplication (mirroring/cloning)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/spacedesk-server/screenshot2.png)
+- Touchscreen
+- KVM (keyboard and mouse remoting) supported by Windows VIEWER
+
+### PRIMARY MACHINE & SECONDARY MACHINE
+At least two machines are required: PRIMARY machine and SECONDARY machine
+All machines must be connected to a LAN (Local Area Network).
+Network protocol TCP/IP needs to be supported. The connection can be over USB (e.g. tethering), via LAN-cable or wireless.
+
+### PRIMARY MACHINE (Windows PC, laptop and tablet): spacedesk DRIVER
+The primary machine runs a Windows service and the WDDM driver. This appears as an additional graphics adapter to Windows 10 and an additional monitor connection of the existing graphics adapter on Windows 7 and 8.1. This additional virtual graphics adapter or display connector can mirror any other Windows display screen or extend the Windows Desktop. spacedesk software on Primary Machine is capturing the screen content, compressing it and transmitting it over the LAN (Local Area Network) to the spacedesk secondary machines.
+
+- Windows 10 (WDDM IddCx Indirect Display Driver)
+- Windows 8.1 /  7 (WDDM Filter Hook Display Driver)
+
+### SECONDARY MACHINE (PC, laptop, tablet, smartphone and devices)
+- Windows 7 / 8.1 / 10
+- Android (> version 4.1)
+- iOS (> version 9.3)
+- Any other: HTML5 Web browsers ( Chrome (> 16), Safari (> 5.1) Internet Explorer (> 10), Opera (> 27) )
+
+### LOCAL AREA NETWORK (LAN)
+- TCP/IP v4
+- TCP/IP v6 (future versions only)
+- No encryption transmitting data between client and server. Therefore all information transmitted is potentially available to everybody in the network.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/spacedesk-server/screenshot.png)
+]]></description>
+    <releaseNotes>https://spacedesk.net/#accordion-bc5ma-5</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -10,7 +10,7 @@
     <authors>Michael Zomparelli</authors>
     <projectUrl>https://github.com/mzomparelli/zVirtualDesktop</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/zvirtualdesktop/packageDefaultIcon.png</iconUrl>
-    <copyright>Copyright (c) 2017-2019 Michael Zomparelli</copyright>
+    <copyright>Copyright © 2017-2019 Michael Zomparelli</copyright>
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <projectSourceUrl>https://github.com/mzomparelli/zVirtualDesktop</projectSourceUrl>

@@ -24,7 +24,7 @@
 ]]></description>
     <releaseNotes>https://github.com/moonlight-stream/moonlight-qt/releases</releaseNotes>
     <dependencies>
-      <dependency id="moonlight-qt" version="[1.0.0]" />
+      <dependency id="moonlight-qt" version="1.0.0" />
     </dependencies>
   </metadata>
   <files></files>

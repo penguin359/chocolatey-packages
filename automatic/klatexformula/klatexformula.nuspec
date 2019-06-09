@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>klatexformula</id>
+    <version>4.0.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/klatexformula</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>KLatexFormula</title>
+    <authors>Philippe Faist</authors>
+    <projectUrl>https://klatexformula.sourceforge.io</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/klatexformula/klatexformula.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://sourceforge.net/projects/klatexformula</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://sourceforge.net/p/klatexformula/code/HEAD/tree</projectSourceUrl>
+    <docsUrl>https://klatexformula.sourceforge.io/doc</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://sourceforge.net/projects/klatexformula/support</bugTrackerUrl>
+    <tags>klatexformula latex equation images</tags>
+    <summary>KLatexFormula is an easy-to-use graphical application for generating images (that you can drag and drop, copy and paste or save to disk) from LaTeX equations.</summary>
+    <description><![CDATA[
+This application provides an easy-to-use graphical user interface for generating images from LaTeX equations. These images can be dragged and dropped or copied and pasted into external applications (presentations, text documents, graphics...), or can be saved to disk in a variety of formats (PNG, JPG, BMP, EPS, PDF, etc.). In addition to the graphical user interface, a command-line interface and a C++ library is provided to perform the same job.
+
+KLatexFormula is open-source, released under the [GNU General Public License](https://www.gnu.org/licenses/licenses.html#GPL) (v2 or later).
+
+## Short History
+KLatexFormula was written by Philippe Faist, currently (2017) a post-doc at Caltech, Pasadena, USA. First released in 2006 written in KDE3 environment, the program has seen many improvements and restructuring since then, leading to the current version, written in Qt 5.
+
+_KLatexFormula is a non-KDE application_
+The *K* in the name KLatexFormula is there for historical reasons. Since version 3.0, KLatexFormula is not a KDE-specific application; it is based on Qt (Qt 5 since version 4.0) and runs natively on Linux, Windows, and Mac OS X.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/klatexformula/screenshot.png)
+]]></description>
+  <releaseNotes>https://klatexformula.sourceforge.io/news</releaseNotes>
+  <dependencies>
+    <dependency id="miktex" version="2.9.7086" />
+  </dependencies>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

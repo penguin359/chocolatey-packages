@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
-  file          = "$toolsDir\pdf2djvu-win32-0.9.12.zip"
+  file          = "$toolsDir\pdf2djvu-win32-0.9.13.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs

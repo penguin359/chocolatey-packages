@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>pdf2djvu</id>
-    <version>0.9.12</version>
+    <version>0.9.13</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/pdf2djvu</packageSourceUrl>
     <owners>chtof</owners>
     <title>pdf2djvu</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/jwilk/pdf2djvu/issues</bugTrackerUrl>
     <tags>pdf2djvu pdf djvu converter</tags>
     <summary>PDF to DjVu converter.</summary>
-    <description><![CDATA[
-## Overview
+    <description><![CDATA[## Overview
 **pdf2djvu** creates [DjVu](http://djvu.org) files from PDF files.
 
 It's able to extract:

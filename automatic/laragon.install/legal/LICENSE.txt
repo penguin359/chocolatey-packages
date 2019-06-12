@@ -1,3 +1,8 @@
+
+From: https://raw.githubusercontent.com/leokhoa/docs.laragon.org/master/LICENSE
+
+LICENSE
+
 MIT License
 
 Copyright (c) 2016 Leo Khoa

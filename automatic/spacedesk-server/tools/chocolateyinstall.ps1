@@ -9,7 +9,7 @@ if ( [environment]::OSVersion.Version.Major -ge 10 )  {
   $checksum64_win10 = '5F588A1FB04F1C44F58C7679BA8794FF3CC8803BB544A06AC19A9231E68CF736'
   $url64            = $url64_win10
   $checksum64       = $checksum64_win10
-} else {
+} elseif ( [environment]::OSVersion.Version.Major -ge 7 ) {
   $url32_win7_81      = 'https://spacedesk.datronic.de/download/spacedesk_driver_Win_7_32_v0918_BETA.msi'
   $checksum32_win7_81 = '8e35d2bdace28a7314f4e120666a7190f69b2f404349210d95320b3f4d3df0bc'
   $url32              = $url32_win7_81
@@ -17,8 +17,9 @@ if ( [environment]::OSVersion.Version.Major -ge 10 )  {
   $url64_win10        = 'https://spacedesk.datronic.de/download/spacedesk_driver_Win_7_64_v0918_BETA.msi'
   $checksum64_win7_81 = 'f658eb615555755dd65802655f87929a9a5c4ae0890ba463e255972404b94716'
   $url64              = $url64_win7_81
-  $checksum64         = $checksum64_win7_81
-  
+  $checksum64         = $checksum64_win7_81  
+} else {
+  Write-Error "spacedesk-server runs only with Windows 10, windows 8.1 and windows 7."
 }
 
 $packageArgs = @{

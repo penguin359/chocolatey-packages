@@ -3,10 +3,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>extraterm</id>
-    <version>0.42.2-pre</version>
+    <version>0.42.2.20190612-pre</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/extraterm</packageSourceUrl>
     <owners>chtof</owners>
-    <title>Extraterm (Install)</title>
+    <title>Extraterm</title>
     <authors>Simon Edwards</authors>
     <projectUrl>http://extraterm.org</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/extraterm/extraterm.png</iconUrl>

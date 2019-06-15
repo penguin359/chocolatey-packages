@@ -20,7 +20,10 @@
     <tags>spacedesk-server network display software</tags>
     <summary>Windows network display monitor software.</summary>
     <description><![CDATA[
-## Fatures and System Requirements
+## Prerequisites
+**Spacedesk Driver Software for Windows PRIMARY PC (server)** runs only with Windows 10, windows 8.1 and windows 7.
+
+## Features and System Requirements
 ### NETWORK DISPLAY MULTI MONITOR SOFTWARE
 - Windows Desktop Extension (x10-sion)
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/spacedesk-server/screenshot1.png)

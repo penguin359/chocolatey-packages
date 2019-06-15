@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gbstudio.install</id>
+    <version>1.1.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/gbstudio.install</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>GB Studio (Install)</title>
+    <authors>Chris Maltby</authors>
+    <projectUrl>https://www.gbstudio.dev</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gbstudio.install/gbstudio.install.png</iconUrl>
+    <copyright>© 2019 Chris Maltby</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/chrismaltby/gb-studio/develop/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/chrismaltby/gb-studio</projectSourceUrl>
+    <docsUrl>https://www.gbstudio.dev/docs</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/chrismaltby/gb-studio/issues</bugTrackerUrl>
+    <tags>gbstudio.install retro adventure game creator</tags>
+    <summary>A free and easy to use retro adventure game creator for your favourite handheld video game system.</summary>
+    <description><![CDATA[
+## Create Real ROM files
+Run your games on any compatible emulator, if you've got a flash cart you can play them on a real console!
+
+## Simple Setup
+No complicated dependencies to install, just a single application with everything you need to get started.
+
+## No knowledge required
+Simple visual scripting means you don't need to have made a game already. GB Studio also hides much of the complexity in building GB games so you can concentrate on telling a great story.
+
+## Build for the web
+GB Studio comes with a web based emulator that even works great on mobile. You can quickly export your games to play in a browser or even upload to Itch.io.
+
+## Features
+- Visual game builder with no programming knowledge required.
+- Design your graphics in any editor that can output PNG files e.g. Photoshop, Tiled, Aseprite.
+- Example project included to get started right away.
+- Make top down 2D JRPG style adventure games.
+- Build real GB Rom files which can be played in an emulator or on device using USB Carts.
+- Build a HTML5 playable game that also works on mobile and can deployed to any webserver or uploaded to Itch.io.
+- Built for macOS, Windows and Linux.
+- Supports both macOS light and dark mode.
+- Includes the full tools that were used to build [Untitled GB Game](https://chrismaltby.itch.io/untitled-gb-game), free to play on Itch.io.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gbstudio.install/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/chrismaltby/gb-studio/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

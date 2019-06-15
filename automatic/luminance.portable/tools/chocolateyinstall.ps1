@@ -4,7 +4,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
-  file64        = "$toolsDir\"  
+  file64        = "$toolsDir\luminance-hdr-2.6.0.tar.bz2"  
 }
 
 Get-ChocolateyUnzip @packageArgs

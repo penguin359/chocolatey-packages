@@ -3,12 +3,11 @@
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-  $releases = 'https://sourceforge.net/projects/qtpfsgui/files/luminance'  
-  # $regex    = 'Luminance-HDR-x64-SETUP-v(?<Version>[\d\.]+).exe'
-  $regex    = 'Luminance-HDR_v.(?<Version>[\d\.]+)_Windows_64.exe'  
+  $releases = 'https://sourceforge.net/projects/qtpfsgui'
+  # $regex    = 'Luminance-HDR-x64-SETUP-v(?<Version>[\d\.]+).exe'  
+  $regex    = 'Luminance-HDR_v\.(?<Version>[\d\.]+)_Windows_64.exe'
 
-  $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-  $download_page.links | ? href -match $regex | Out-Null
+  (Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null
   $version = $matches.Version
 
   return @{

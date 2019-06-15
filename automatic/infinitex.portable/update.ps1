@@ -24,7 +24,7 @@ function global:au_SearchReplace {
         }
 
         "tools\chocolateyinstall.ps1" = @{
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
+            "Join-Path [$]toolsDir `"InfiniTex-)[\d\.]+(.exe`")" = "`$1$($Latest.Version)`$2"
         }
     }
 }

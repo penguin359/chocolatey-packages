@@ -47,8 +47,7 @@ GB Studio comes with a web based emulator that even works great on mobile. You c
 ]]></description>
     <releaseNotes>https://github.com/chrismaltby/gb-studio/releases</releaseNotes>
   </metadata>
-  <files>
-    <file src="legal\**" target="legal" />
+  <files>    
     <file src="tools\**" target="tools" />
   </files>
 </package>

@@ -3,24 +3,26 @@
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-  $url = Get-Redirectedurl https://sourceforge.net/projects/qtpfsgui/files/latest/download
-  $regex = 'luminance-hdr-(?<Version>[\d\.]+).tar.bz2'
+  $releases = 'https://sourceforge.net/projects/qtpfsgui/files/luminance'  
+  # $regex    = 'Luminance-HDR-x64-SETUP-v(?<Version>[\d\.]+).exe'
+  $regex    = 'Luminance-HDR_v.(?<Version>[\d\.]+)_Windows_64.exe'  
 
-  $url -match $regex | Out-Null
+  $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+  $download_page.links | ? href -match $regex | Out-Null
   $version = $matches.Version
 
   return @{
-    Version = $version
-    URL32   = 'https://netix.dl.sourceforge.net/project/qtpfsgui/luminance/' + $version + '/Luminance-HDR-x64-v' + $version + '.zip'
+    Version = $version    
+    URL32   = 'https://iweb.dl.sourceforge.net/project/qtpfsgui/luminance/' + $version + '/luminance-hdr-' + $version + '.tar.bz2'
   }
 }
 
 function global:au_SearchReplace {
     @{
        "legal\VERIFICATION.txt"  = @{
-            "(?i)(x64: ).*"             = "`${1}$($Latest.URL32)"     
+            "(?i)(x64: ).*"             = "`${1}$($Latest.URL64)"     
             "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType64)"
-            "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
+            "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum64)"
         }
 
         "tools\chocolateyinstall.ps1" = @{

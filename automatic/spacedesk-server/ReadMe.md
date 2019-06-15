@@ -1,6 +1,9 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/spacedesk-server/spacedesk-server.png" width="48" height="48"/> [Spacedesk Windows Driver](https://chocolatey.org/packages/spacedesk-server)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/spacedesk-server/spacedesk-server.png" width="48" height="48"/> [Spacedesk Driver Software for Windows PRIMARY PC (server)](https://chocolatey.org/packages/spacedesk-server)
 
-## Fatures and System Requirements
+## Prerequisites
+**Spacedesk Driver Software for Windows PRIMARY PC (server)** runs only with Windows 10, windows 8.1 and windows 7.
+
+## Features and System Requirements
 ### NETWORK DISPLAY MULTI MONITOR SOFTWARE
 - Windows Desktop Extension (x10-sion)
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/spacedesk-server/screenshot1.png)

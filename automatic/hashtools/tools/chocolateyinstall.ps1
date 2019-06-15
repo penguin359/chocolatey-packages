@@ -1,11 +1,11 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  url           = 'https://binaryfortressdownloads.com/Download/BFSFiles/109/HashToolsSetup-4.1.exe'
 
-  checksum      = 'E1BA84C5A76EB5EE73BFA1E1BED94141DAB0F6961A29CAF621007A1E0DE185E3'
+  url           = 'https://binaryfortressdownloads.com/Download/BFSFiles/109/HashToolsSetup-4.2.exe'
+  checksum      = 'AE52104E9C51D38A05416BC03D6F7AA4EB6736200259A10012D4D2D23B829883'
   checksumType  = 'sha256'
   
   silentArgs	= '/VERYSILENT /SILENT /SUPPRESSMSGBOXES /NORESTART /SP- /components=""'

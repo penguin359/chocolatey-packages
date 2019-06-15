@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>universal-adb-drivers</id>
+    <version>0.0.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/universal-adb-drivers</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Universal ADB Drivers</title>
+    <authors>Koushik Dutta</authors>
+    <projectUrl>https://adb.clockworkmod.com</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/universal-adb-drivers/universal-adb-drivers.png</iconUrl>-->
+    <copyright>© ClockworkMod</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/koush/UniversalAdbDriver/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/koush/UniversalAdbDriver</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/koush/UniversalAdbDriver/issues</bugTrackerUrl>
+    <tags>universal-adb-drivers universal adb driver</tags>
+    <summary>A single Windows driver that supports the ADB (and fastboot) interface for most Android phones.</summary>
+    <description><![CDATA[
+One size fits all Windows Drivers for Android Debug Bridge.
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

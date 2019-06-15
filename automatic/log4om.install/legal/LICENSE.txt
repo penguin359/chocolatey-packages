@@ -1,3 +1,8 @@
+
+From: http://www.pisto.it/LogOm/Log4OM_enu.pdf
+
+LICENSE
+
 Log4OM
 Copyright (c) 2011- Daniele Pistollato - ALL RIGHTS RESERVED
 WWW:    http://www.log4om.com

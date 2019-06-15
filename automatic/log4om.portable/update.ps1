@@ -1,14 +1,13 @@
 import-module au
 
-$releases = 'http://www.log4om.com/dl/'
-
 function global:au_GetLatest {
-     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	 $regex   = '\.zip$'
-	 $regex_version = "Actual Version is (.*?)<"
-	 $url = $download_page.links | ? href -match $regex | select -Last 1 -expand href
-	 $download_page -match $regex_version
-	 return @{ Version = $matches[1] ; URL32 = $url }
+    $releases = 'http://www.log4om.com/dl/'
+    $regex    = 'Log4OM_(?<Version>[\d_]+)_Portable.zip'
+
+    (Invoke-WebRequest -Uri $releases).RawContent -match $regex | select -First 1
+    $version = $matches.Version -Replace "_", "."
+	
+	return @{ Version = $version ; URL32 = 'http://www.log4om.com/log4om/release/Log4OM_' + $matches.Version + '_Portable.zip' }
 }
 
 function global:au_SearchReplace {

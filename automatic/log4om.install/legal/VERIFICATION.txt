@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: http://www.log4om.com/log4om/release/Log4OM_1_37_0.zip
-   x64: http://www.log4om.com/log4om/release/Log4OM_1_37_0.zip
+   x32: http://www.log4om.com/log4om/release/Log4OM_1_38_0.zip
+   x64: http://www.log4om.com/log4om/release/Log4OM_1_38_0.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 3C18366FE8B1DB4DEF1DDF53342B8061BE48BB9A4B2DB63A19815343459230B5
-   checksum64: 3C18366FE8B1DB4DEF1DDF53342B8061BE48BB9A4B2DB63A19815343459230B5
+   checksum32: 2804C657005D41BAB3583BB1EC84E85E5B29A35A21FA44B30616D3DCC97F7451
+   checksum64: 2804C657005D41BAB3583BB1EC84E85E5B29A35A21FA44B30616D3DCC97F7451
  
 File 'LICENSE.txt' is obtained from:
    http://www.pisto.it/LogOm/Log4OM_enu.pdf

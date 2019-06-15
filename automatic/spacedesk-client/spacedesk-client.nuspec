@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>spacedesk-client</id>
-    <version>0.9.18</version>
+    <version>0.9.15</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/spacedesk-client</packageSourceUrl>
     <owners>chtof</owners>
     <title>Spacedesk Viewer Software for SECONDARY machine (client)</title>
@@ -20,7 +20,7 @@
     <tags>spacedesk-client network display software</tags>
     <summary>Windows network display monitor software.</summary>
     <description><![CDATA[
-## Fatures and System Requirements
+## Features and System Requirements
 ### NETWORK DISPLAY MULTI MONITOR SOFTWARE
 - Windows Desktop Extension (x10-sion)
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/spacedesk-client/screenshot1.png)

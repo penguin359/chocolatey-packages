@@ -6,3 +6,8 @@
 [Update status](https://gist.github.com/chtof/393704c64c2344f0f8e029cd57bebd2b)
 
 <!-- REMOVE THE squiggles "~" surrounding this (this should not be a code block) -->
+
+Welcome on the repository of Chocolatey Packages created and/or maintained by chtof !
+
+* My Patreon account:
+https://www.patreon.com/chtof

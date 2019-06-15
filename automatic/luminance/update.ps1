@@ -1,11 +1,12 @@
 ﻿import-module au
  
 function global:au_GetLatest {
-  $releases = 'http://qtpfsgui.sourceforge.net/?page_id=10'  
-  $regex    = 'Luminance-HDR-x64-SETUP-v(?<Version>[\d\.]+).exe'
+  $releases = 'https://sourceforge.net/projects/qtpfsgui/files/luminance'  
+  # $regex    = 'Luminance-HDR-x64-SETUP-v(?<Version>[\d\.]+).exe'
+  $regex    = 'Luminance-HDR_v.(?<Version>[\d\.]+)_Windows_64.exe'
 
-  $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing 
-  $url = $download_page.links | ? href -match $regex  
+  (Invoke-WebRequest -Uri $releases).RawContent -match $regex
+
   return @{ Version = $matches.Version }
 }
 

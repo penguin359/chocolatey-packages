@@ -19,7 +19,7 @@ if ( [environment]::OSVersion.Version.Major -ge 10 )  {
   $url64              = $url64_win7_81
   $checksum64         = $checksum64_win7_81  
 } else {
-  Write-Error "spacedesk-server runs only with Windows 10, windows 8.1 and windows 7."
+  throw "spacedesk-server runs only with Windows 10, windows 8.1 and windows 7."
 }
 
 $packageArgs = @{

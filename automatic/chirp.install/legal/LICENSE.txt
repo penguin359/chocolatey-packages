@@ -1,3 +1,8 @@
+
+From: http://chirp.danplanet.com/projects/chirp/repository/revisions/222c1830b798/entry/COPYING
+
+LICENSE
+
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 

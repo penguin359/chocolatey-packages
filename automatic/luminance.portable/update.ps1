@@ -13,7 +13,7 @@ function global:au_GetLatest {
 
   return @{
     Version = $version    
-    URL32   = 'https://iweb.dl.sourceforge.net/project/qtpfsgui/luminance/' + $version + '/luminance-hdr-' + $version + '.tar.bz2'
+    URL64   = 'https://iweb.dl.sourceforge.net/project/qtpfsgui/luminance/' + $version + '/luminance-hdr-' + $version + '.tar.bz2'
   }
 }
 

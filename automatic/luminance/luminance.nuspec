@@ -53,7 +53,7 @@ Luminance HDR is available for Linux, Windows and Mac OS X. A [wiki space](https
 ]]></description>
     <releaseNotes>https://raw.githubusercontent.com/LuminanceHDR/LuminanceHDR/master/Changelog</releaseNotes>
     <dependencies>
-      <dependency id="luminance.install" version="[1305]" />
+      <dependency id="luminance.install" version="[2.6.0]" />
     </dependencies>
   </metadata>
   <files></files>

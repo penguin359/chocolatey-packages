@@ -52,7 +52,7 @@ Advanced users will be surprised to find that the spectrogram settings are appli
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ocenaudio/screenshot.png)
 ]]></description>
   <dependencies>
-    <dependency id="ocenaudio" version="[3.6.4]" />
+    <dependency id="ocenaudio.install" version="[3.6.4]" />
   </dependencies>
   </metadata>
   <files></files>

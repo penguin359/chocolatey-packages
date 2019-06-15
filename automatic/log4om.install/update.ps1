@@ -3,15 +3,17 @@ import-module au
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-  $releases      = 'http://www.log4om.com/dl/'
-  $regex         = '\.zip$'
-  $regex_version = "Actual Version is (.*?)<"
+  $releases = 'http://www.log4om.com/dl/'
+  $regex    = 'Log4OM_(?<Version>[\d_]+).zip'
 
-  $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	$url = $download_page.links | ? href -match $regex | select -First 1 -expand href
-	$download_page -match $regex_version
-  
-	return @{ Version = $matches[1] ; URL32 = $url }
+  (Invoke-WebRequest -Uri $releases).RawContent -match $regex | select -First 1
+  $version = $matches.Version -Replace "_", "."
+    
+	return @{
+    Version = $version
+    VersionUrl = $matches.Version
+    URL32 = 'http://www.log4om.com/log4om/release/Log4OM_' + $matches.Version + '.zip'
+  }
 }
 
 function global:au_SearchReplace {
@@ -25,7 +27,8 @@ function global:au_SearchReplace {
         }
 
         "tools\chocolateyinstall.ps1" = @{        
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
+          "(?i)(^\s*fileFullPath\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
+          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1Log4OM_$($Latest.VersionURL).exe`""
         }
     }
 }

@@ -7,14 +7,14 @@ Package can be verified like this:
  
 1. Download:
  
-   x64: http://sourceforge.net/projects/qtpfsgui/files/luminance/2.5.1/Luminance-HDR-x64-SETUP-v2.5.1.exe
+   x64: https://freefr.dl.sourceforge.net/project/qtpfsgui/luminance/2.6.0/Luminance-HDR_v.2.6.0_Windows_64.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum64: A94C49111DBEA9ED304F33D21EBDCD195F8DF9284EC331D77BFB8150DB3833CE
+   checksum64: 37C74F2E84DFC3CB686F7FE5E80E33F97EB8E506EC704BDD02EA90C3B8CA6AF8
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/LuminanceHDR/LuminanceHDR/master/LICENSE

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>scidavis</id>
+    <version>1.25</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/scidavis</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>SciDAVis</title>
+    <authors>SciDAVis Team.</authors>
+    <projectUrl>http://scidavis.sourceforge.net/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/scidavis/scidavis.png</iconUrl>
+    <copyright>Russell Standish 2017-04-06</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/highperformancecoder/scidavis/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/highperformancecoder/scidavis</projectSourceUrl>
+    <docsUrl>https://highperformancecoder.github.io/scidavis-handbook</docsUrl>
+    <mailingListUrl>https://lists.sourceforge.net/lists/listinfo/scidavis-users</mailingListUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/scidavis/_list/tickets</bugTrackerUrl>
+    <tags>scidavis scientific data analysis visualization</tags>
+    <summary>SciDAVis is a free application for Scientific Data Analysis and Visualization.</summary>
+    <description><![CDATA[
+## Features
+
+This is a brief summary of what SciDAVis can do. If you are still unsure whether it meets your needs, you can also take a look at the screenshots or simply download SciDAVis and see for yourself!
+
+- Tables (2D data), matrices (3D data), graphs (2D or 3D plots) and notes (text notes or scripts) are gathered in a Project and can be organized using folders.
+- Data for tables or matrices can be entered directly or imported from ASCII files.
+- Cell values in tables can be computed using standard and special functions (and much more if you have Python installed). Each table cell can be assigned an individual formula.
+- Multi-level undo/redo for tables and matrices.
+- Many built-in analysis operations like column/row statistics, (de)convolution, FFT and FFT-based filters.
+- Extensive support for fitting linear and nonlinear functions to the data, including multi-peak fitting.
+- Publication-quality 2D plots of various types including symbols/lines, bars and pie charts which can be exported to a variety of formats (JPG, PNG, EPS, PDF, SVG and more).
+- Interactive 3D plots with export to a variety of formats, including EPS and PDF.
+- Note windows with support for in-place evaluation of mathematical expressions. With Python installed, you can even access other objects in the project, e.g. for rapidly writing an import filter for a custom data format.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/scidavis/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/highperformancecoder/scidavis/blob/master/ChangeLog.md</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

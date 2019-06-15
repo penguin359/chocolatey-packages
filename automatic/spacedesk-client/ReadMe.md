@@ -1,6 +1,6 @@
 ﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/spacedesk-client/spacedesk-client.png" width="48" height="48"/> [Spacedesk Viewer Software for SECONDARY machine (client)](https://chocolatey.org/packages/spacedesk-client)
 
-## Fatures and System Requirements
+## Features and System Requirements
 ### NETWORK DISPLAY MULTI MONITOR SOFTWARE
 - Windows Desktop Extension (x10-sion)
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/spacedesk-client/screenshot1.png)

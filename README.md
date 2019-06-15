@@ -9,5 +9,5 @@
 
 Welcome on the repository of Chocolatey Packages created and/or maintained by chtof !
 
-* My Patreon account:
-https://www.patreon.com/chtof
+---
+[![Patreonize me!](https://c5.patreon.com/external/logo/downloads_wordmark_white_on_coral.png)](https://www.patreon.com/chtof)

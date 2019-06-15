@@ -1,6 +1,6 @@
 ﻿import-module au
 
-$releases = 'https://www.binaryfortress.com/HashTools/Download/'
+$releases = 'https://www.binaryfortress.com/HashTools/Download'
 
 function global:au_GetLatest {
      $download_page = Invoke-WebRequest -Uri $releases

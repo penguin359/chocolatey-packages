@@ -16,3 +16,5 @@ $packageArgs = @{
 & "C:\Windows\System32\certutil.exe" -addstore "TrustedPublisher" "$toolsDir\certificates\Microchip Technology Inc.cer"
 
 Install-ChocolateyPackage @packageArgs
+
+Write-Warning "Note: atmel-studio needs a reboot to finish automatically the installation."

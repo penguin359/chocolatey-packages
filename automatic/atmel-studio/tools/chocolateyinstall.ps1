@@ -17,4 +17,8 @@ $packageArgs = @{
 
 Install-ChocolateyPackage @packageArgs
 
-Write-Warning "Note: atmel-studio needs a reboot to finish automatically the installation."
+Write-Warning @'
+Notes:
+  - atmel-studio needs a reboot to finish automatically the installation.
+  - atmel-studio shortcut will appear on the desktop after about 5/10 minutes after the restart.
+'@

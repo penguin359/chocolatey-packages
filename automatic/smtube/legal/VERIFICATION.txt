@@ -1,4 +1,4 @@
-﻿VERIFICATION
+VERIFICATION
  
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
@@ -7,15 +7,15 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: http://sourceforge.net/projects/smtube/files/SMTube/18.11.0/smtube-18.11.0-win32.exe
-   x64: http://sourceforge.net/projects/smtube/files/SMTube/18.11.0/smtube-18.11.0-x64.exe
+   x32: http://sourceforge.net/projects/smtube/files/SMTube/19.6.0/smtube-19.6.0-win32.exe
+   x64: http://sourceforge.net/projects/smtube/files/SMTube/19.6.0/smtube-19.6.0-x64.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: CBC15A26411E531D9AEA75B9B0577117DEE93A8656EE4CE6CD7A22848E64E6C3
-   checksum64: DB97AB247F1C391C16AA16057C6FDE34EFB827344E8D8E402C620869889B5A81
+   checksum32: 18A40F231CF8ECDA5F87C00CDDD2284114447C071291C641C65330ED58D002FE
+   checksum64: 033871D1696D80F49595EA89FC858A4C47BF3201B3B7CA293D2D5B61CF6C2980
  
 File 'LICENSE.txt' is obtained from the software folder 'SMPlayer\docs\en\gpl.html'.

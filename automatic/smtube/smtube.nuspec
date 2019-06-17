@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>smtube</id>
-    <version>18.11.0.20190521</version>
+    <version>19.6.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/smtube</packageSourceUrl>
     <owners>chtof</owners>
     <title>SMTube - YouTube browser for SMPlayer</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://sourceforge.net/p/smplayer/bugs</bugTrackerUrl>
     <tags>smtube smplayer video media player multimedia youtube</tags>
     <summary>Free media player with support for Youtube.</summary>
-    <description><![CDATA[
-Free media player with support for Youtube
+    <description><![CDATA[Free media player with support for Youtube
 
 SMPlayer is a free media player for Windows and Linux with built-in codecs that can also play YouTube videos.
 

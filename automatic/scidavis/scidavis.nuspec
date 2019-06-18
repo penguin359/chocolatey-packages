@@ -8,7 +8,7 @@
     <owners>chtof</owners>
     <title>SciDAVis</title>
     <authors>SciDAVis Team.</authors>
-    <projectUrl>http://scidavis.sourceforge.net/</projectUrl>
+    <projectUrl>http://scidavis.sourceforge.net</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/scidavis/scidavis.png</iconUrl>
     <copyright>Russell Standish 2017-04-06</copyright>
     <licenseUrl>https://raw.githubusercontent.com/highperformancecoder/scidavis/master/LICENSE</licenseUrl>

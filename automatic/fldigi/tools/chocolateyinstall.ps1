@@ -10,7 +10,7 @@ if ($pp['DIR']){
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   fileType      = 'exe'  
-  file          = "$toolsDir\fldigi-4.1.03_setup_x32.exe"  
+  file          = "$toolsDir\fldigi-4.1.04_setup.exe"  
   silentArgs	= "$silentArgs"
 }
 

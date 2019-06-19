@@ -3,12 +3,11 @@
 function global:au_GetLatest {
     $releases_version = 'http://www.internetdownloadmanager.com'
     $regex            = 'Internet Download Manager v(?<Version>[\d\.]+)\.'
-    $releases = 'http://www.internetdownloadmanager.com/download.html'
+    $releases         = 'http://www.internetdownloadmanager.com/download.html'
     $regex_url        = 'idman(.*?).exe$'
 
-    (Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null
+    (Invoke-WebRequest -Uri $releases_version).RawContent -match $regex | Out-Null
     $version    = $matches.Version
-    $versionUrl = $matches.version -Replace "\.", ""
 
     $url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex_url | Select -First 1
 

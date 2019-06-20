@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>moneydance</id>
-    <version>0.0.1868</version>
+    <version>0.0.1880</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/moneydance</packageSourceUrl>
     <owners>chtof</owners>
     <title>Moneydance</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://infinitekind.tenderapp.com/discussion/new</bugTrackerUrl>
     <tags>moneydance personal finance manager trial</tags>
     <summary>Moneydance is easy to use personal finance software that is loaded with all the features you need: online banking and bill payment, account management, budgeting and investment tracking. Moneydance handles multiple currencies and virtually any financial task with ease.</summary>
-    <description><![CDATA[
-## Notes
+    <description><![CDATA[## Notes
 It's a free trial of Moneydance, which is fully functional but limited to entering up to 100 manually entered transactions.
 To purchase this product: https://infinitekind.com/purchase
 

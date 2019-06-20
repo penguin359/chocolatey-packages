@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/luxcorerender-opencl-sdk/luxcorerender.png" width="48" height="48"/> [LuxCore Render (LuxCore API SDK release with OpenCL support)](https://chocolatey.org/packages/luxcorerender-opencl-sdk)
+# [LuxCore Render (LuxCore API SDK release with OpenCL support)](https://chocolatey.org/packages/luxcorerender-opencl-sdk)
 
 ## Major features
 LuxCoreRender is a physically based and unbiased rendering engine. Based on state of the art algorithms, LuxCoreRender simulates the flow of light according to physical equations, thus producing realistic images of photographic quality.

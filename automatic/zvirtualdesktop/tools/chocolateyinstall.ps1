@@ -16,5 +16,6 @@ if ((Get-Item "HKLM:SOFTWARE\Microsoft\Windows NT\CurrentVersion").GetValue('Rel
   Install-ChocolateyZipPackage @packageArgs
   Start-Process -FilePath $packageArgs["file"]
 } else {
-  Write-Error "This version of zVirtualDesktop runs only with Windows 10 version 1803 or greater" 
+  Write-Error "This version of zVirtualDesktop runs only with Windows 10 version 1803 or greater"
+  Return
 }

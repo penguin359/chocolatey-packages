@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>spacedesk-client</id>
-    <version>0.9.15</version>
+    <version>0.9.16</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/spacedesk-client</packageSourceUrl>
     <owners>chtof</owners>
     <title>Spacedesk Viewer Software for SECONDARY machine (client)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://forum.spacedesk.ph</bugTrackerUrl>
     <tags>spacedesk-client network display software</tags>
     <summary>Windows network display monitor software.</summary>
-    <description><![CDATA[
-## Features and System Requirements
+    <description><![CDATA[## Features and System Requirements
 ### NETWORK DISPLAY MULTI MONITOR SOFTWARE
 - Windows Desktop Extension (x10-sion)
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/spacedesk-client/screenshot1.png)

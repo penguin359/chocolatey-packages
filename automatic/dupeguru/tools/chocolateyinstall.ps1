@@ -4,7 +4,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
     
   url           = 'https://github.com/arsenetar/dupeguru/releases/download/4.0.4/dupeGuru_win64_4.0.4.exe'
-  checksum      = '72637b8d526d97c7b1836857f4012de831a07b3f156028b1b854f1e6e6fd1d84'
+  checksum      = '72637B8D526D97C7B1836857F4012DE831A07B3F156028B1B854F1E6E6FD1D84'
   checksumType  = 'sha256'
 
   silentArgs	= "/S"

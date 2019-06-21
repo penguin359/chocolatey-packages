@@ -4,15 +4,14 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
   $releases = 'https://sourceforge.net/projects/qtpfsgui'
-  # $regex    = 'Luminance-HDR-x64-SETUP-v(?<Version>[\d\.]+).exe'  
-  $regex    = 'Luminance-HDR_v\.(?<Version>[\d\.]+)_Windows_64.exe'
+  $regex    = 'Luminance-HDR_v\.(?<Version>[\d\.]+)_Windows_64.zip'
 
   (Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null
   $version = $matches.Version
 
   return @{
-    Version = $version    
-    URL64   = 'https://iweb.dl.sourceforge.net/project/qtpfsgui/luminance/' + $version + '/luminance-hdr-' + $version + '.tar.bz2'
+    Version = $version
+    URL64   = 'https://netix.dl.sourceforge.net/project/qtpfsgui/luminance/' + $version + '/Luminance-HDR_v.' + $version + '_Windows_64.zip'
   }
 }
 
@@ -25,7 +24,8 @@ function global:au_SearchReplace {
         }
 
         "tools\chocolateyinstall.ps1" = @{
-          "(?i)(^\s*file64\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName64)`""
+          "(?i)(^\s*file64\s*=\s*`"[$]toolsDir\\)(.*)`""          = "`$1$($Latest.FileName64)`""
+          "([$]toolsDir\\Luminance-HDR_v\.)[\d\.]+(_Windows_64)\ "   = "`${1}$($Latest.Version)`$2 "
         }
     }
 }

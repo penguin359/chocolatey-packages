@@ -1,6 +1,8 @@
-﻿refreshenv
+﻿choco install msys2 --params "/NoUpdate"
+refreshenv
 ridk install 3
-gem install bundler jekyll -v 3.8.5
+gem install bundler
+gem install jekyll -v 3.8.5
 
 Write-Warning @'
 ###    Jekyll - QUICKSTART    ###

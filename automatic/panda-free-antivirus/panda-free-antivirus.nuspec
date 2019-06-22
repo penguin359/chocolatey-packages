@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>panda-free-antivirus</id>
+    <version>18.07.04</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/panda-free-antivirus</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Panda Free Antivirus</title>
+    <authors>Panda Dome</authors>
+    <projectUrl>https://www.pandasecurity.com/france/homeusers/solutions/free-antivirus</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/panda-free-antivirus/panda-free-antivirus.png</iconUrl>
+    <copyright>Panda Security ©2019</copyright>
+    <licenseUrl>https://www.pandasecurity.com/homeusers/media/legal-notice</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>panda-free-antivirus panda free antivirus</tags>
+    <summary>Panda Free Antivirus protects you while you work, play, or browse online.</summary>
+    <description><![CDATA[
+## Secure
+*100% virus detection ratio`** with minimal device impact.
+Stay protected at all times with free, up-to-the-minute updates.
+
+_* AV-Comparatives. Real-World Protection Test, July 2017. [www.av-comparatives.org]_
+
+## Easy
+*Install and forget:* Forget about product updates and complicated settings.
+Simply install the product and enjoy your digital life worry free.
+
+## Light
+All the wotk is done *from the cloud.* You won't notice it's there! (but it is)
+And with no need to store files or perform daily updates!
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/panda-free-antivirus/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  <dependencies>
+    <dependency id="autohotkey.install" version="1.1.30.03" />
+  </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

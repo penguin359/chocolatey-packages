@@ -10,7 +10,7 @@
     <authors>Eclipse Team</authors>
     <projectUrl>https://www.eclipse.org/downloads/packages/release/kepler/sr2/eclipse-ide-cc-developers</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/eclipse-cpp-oxygen/eclipse-cpp-oxygen.png</iconUrl>
-    <copyright>© Copyright Eclipse contributors and others 2000, 2019.  All rights reserved.</copyright>
+    <copyright>© Copyright Eclipse contributors and others 2000, 2019. All rights reserved.</copyright>
     <licenseUrl>https://www.eclipse.org/legal/epl-2.0</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://git.eclipse.org/c</projectSourceUrl>

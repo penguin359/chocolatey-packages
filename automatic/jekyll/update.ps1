@@ -11,7 +11,7 @@ function global:au_GetLatest {
 function global:au_SearchReplace {    
     @{
 	   "tools\chocolateyinstall.ps1" = @{            
-        "(gem install bundler jekyll -v)\s*[\d\.]+.*" = "`$1 $($Latest.Version)"
+        "(gem install jekyll -v)\s*[\d\.]+.*" = "`$1 $($Latest.Version)"
         }
     }
 }

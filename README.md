@@ -3,7 +3,10 @@
 <!-- EDIT ME-->
 
 [![](https://ci.appveyor.com/api/projects/status/github/chtof/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/chtof/chocolatey-packages)
-[Update status](https://gist.github.com/chtof/393704c64c2344f0f8e029cd57bebd2b)
+[![Update status](https://img.shields.io/badge/Update-Status-blue.svg)]
+(https://gist.github.com/chtof/393704c64c2344f0f8e029cd57bebd2b)
+[![](http://transparent-favicon.info/favicon.ico)](#)
+[![chocolatey/chtof](https://img.shields.io/badge/Chocolatey-mkevenaar-yellowgreen.svg)](https://chocolatey.org/profiles/chtof)
 
 <!-- REMOVE THE squiggles "~" surrounding this (this should not be a code block) -->
 

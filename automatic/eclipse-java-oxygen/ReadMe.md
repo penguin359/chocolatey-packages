@@ -34,5 +34,3 @@ This package includes:
 - org.eclipse.mylyn.wikitext_feature
 - org.eclipse.wst.xml_ui.feature
 - org.eclipse.tips.feature
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/eclipse-java-oxygen/screenshot.png)

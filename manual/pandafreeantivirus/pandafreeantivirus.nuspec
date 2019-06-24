@@ -12,7 +12,7 @@
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/pandafreeantivirus/pandafreeantivirus.png</iconUrl>
     <copyright>Panda Security ©2019</copyright>
     <licenseUrl>https://www.pandasecurity.com/homeusers/media/legal-notice</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->

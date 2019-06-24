@@ -1,4 +1,4 @@
-VERIFICATION
+﻿VERIFICATION
  
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: http://www.winlog32.co.uk/files/wl32v73.exe
-   x64: http://www.winlog32.co.uk/files/wl32v73.exe
+   x32: https://github.com/asb2m10/dexed/releases/download/v0.9.4hf1/dexed-0.9.4-win.zip
+   x64: https://github.com/asb2m10/dexed/releases/download/v0.9.4hf1/dexed-0.9.4-win.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 10EF4241E53E68DF7002741A790D4E65823A794089137A1DD2BAE307E4DD241E
-   checksum64: 10EF4241E53E68DF7002741A790D4E65823A794089137A1DD2BAE307E4DD241E
+   checksum32: 7FF0961B775DB8A9AE5E20B558578CD79B9958FB41E2A47525BA8F056A0C65D9
+   checksum64: 7FF0961B775DB8A9AE5E20B558578CD79B9958FB41E2A47525BA8F056A0C65D9
  
 File 'LICENSE.txt' is obtained from:
-   http://www.winlog32.co.uk
+   https://raw.githubusercontent.com/asb2m10/dexed/master/LICENSE

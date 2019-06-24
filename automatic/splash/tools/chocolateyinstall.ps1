@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
 
-  url           = 'https://download.mirillis.com/files/splash_2_6_1_setup.exe'
-  checksum      = 'C81C5D1DCC18CD52C0A3B77836FDAC12B74CBDD4E6EC08C798D80B5FA143A82E'
+  url           = 'http://download.mirillis.com/files/splash_2_7_0_setup.exe'
+  checksum      = '85408a916c456c4adcc02a6b9824daa9b8ff12e2efef6e0a430ccdef59cdba05'
   checksumType  = 'sha256'
   
   silentArgs	= "/S"

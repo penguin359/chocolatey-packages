@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
@@ -10,7 +10,7 @@
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>2.6.1</version>    
+    <version>2.7.0</version>    
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/splash</packageSourceUrl>    
     <owners>chtof</owners>    
     <title>Splash</title>
@@ -26,8 +26,7 @@
     <bugTrackerUrl>https://mirillis.com/forum/viewforum.php?f=15</bugTrackerUrl>
     <tags>splash HD 4K video player converter</tags>
     <summary>HD/4K Video Player, The ultimate HD video player and ultra-fast video converter.</summary>
-    <description><![CDATA[
-- **Open your High Definition** video files in less than 1 second!
+    <description><![CDATA[- **Open your High Definition** video files in less than 1 second!
 - **Watch HD videos** like never before - smooth motion, crisp details and vivid colors
 - **Find specific** movie scenes without interrupting video playback with SmartSeek function.
 - **Stylish, user friendly,** innovative and incredibly responsive user interface.

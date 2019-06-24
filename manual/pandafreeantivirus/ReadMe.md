@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pandafreeantivirus/pandafreeantivirus.png" width="48" height="48"/> [Panda Free Antivirus](https://chocolatey.org/packages/pandafreeantivirus)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/pandafreeantivirus/pandafreeantivirus.png" width="48" height="48"/> [Panda Free Antivirus](https://chocolatey.org/packages/pandafreeantivirus)
 
 ## Secure
 **100% virus detection ratio&ast;** with minimal device impact.
@@ -14,4 +14,4 @@ Simply install the product and enjoy your digital life worry free.
 All the wotk is done **from the cloud.** You won't notice it's there! (but it is)
 And with no need to store files or perform daily updates!
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pandafreeantivirus/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/pandafreeantivirus/screenshot.png)

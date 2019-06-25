@@ -7,7 +7,7 @@ $packageArgs = @{
   checksum      = '52450b81a699cb75086e9d3d62abb2a33f823fcf5395444e57ebb5864cc2fd51'
   checksumType  = 'sha256'
   
-  silentArgs	= "/s"
+  silentArgs    = "/s"
 }
 
 Install-ChocolateyPackage @packageArgs

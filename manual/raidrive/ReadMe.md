@@ -1,19 +1,19 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/raidrive/raidrive.png" width="48" height="48"/> [RaiDrive](https://chocolatey.org/packages/raidrive)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/raidrive/raidrive.png" width="48" height="48"/> [RaiDrive](https://chocolatey.org/packages/raidrive)
 
 ## RaiDrive, How to connect
 It’s easy. Take it slow.
 
 ### STEP1. ADD DRIVE
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/raidrive/screenshot1.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/raidrive/screenshot1.png)
 - Click the Add button to the right of the menu bar
 - After selecting storage, click the OK button
 ### STEP2. CLOUD SIGN-IN
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/raidrive/screenshot2.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/raidrive/screenshot2.png)
 - Sign in with your cloud service account (Google, Microsoft or Dropbox account)
 - ***RaiDrive DOES NOT save your password***.
 
 **Yeah~ Ready!**  
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/raidrive/screenshot3.png)  
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/raidrive/screenshot3.png)  
 You can see the drive you added in the **File Explorer**.
 Use it like a drive right now.
 
@@ -37,14 +37,14 @@ We look forward to adding more features in the future.
 ## Cloud Storage
 You do not need to download any files now. Connect now using RaiDrive.
 
-### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/raidrive/googledrive.png) Google Drive
+### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/raidrive/googledrive.png) Google Drive
 Are you using Gmail? You already have a Google Drive. How much is 15GB. Check it now and connect to your Windows drive.
 
-### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/raidrive/googlephotos.png) Google Photos
+### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/raidrive/googlephotos.png) Google Photos
 Are you using an Android smartphone like Galaxy? You are already getting infinite photo backup service. Check out the memories right now.
 
-### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/raidrive/onedrive.png) OneDrive
+### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/raidrive/onedrive.png) OneDrive
 If you are using Microsoft Windows, you already have OneDrive. You can connect now to the email you used to sign in to Windows.
 
-### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/raidrive/dropbox.png) Dropbox
+### ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/raidrive/dropbox.png) Dropbox
 Do you use Dropbox? Now you can easily use synced files with your smartphone. You can copy or move files with File Explorer.

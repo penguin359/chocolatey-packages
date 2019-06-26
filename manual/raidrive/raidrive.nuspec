@@ -10,7 +10,7 @@
     <authors>OpenBoxLab</authors>
     <projectUrl>https://www.raidrive.com</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/raidrive/raidrive.png</iconUrl>
-    <copyright>Copyright 2018 OpenBoxLab,  All Rights Reserved</copyright>
+    <copyright>Copyright 2018 OpenBoxLab, All Rights Reserved</copyright>
     <!--<licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>-->
     <!--<requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->

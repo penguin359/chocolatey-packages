@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>speedcrunch</id>
-    <version>0.12</version>
+    <version>0.12.20190615</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/speedcrunch</packageSourceUrl>
     <owners>chtof</owners>
     <title>SpeedCrunch</title>

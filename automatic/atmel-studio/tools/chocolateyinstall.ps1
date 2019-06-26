@@ -20,5 +20,5 @@ Install-ChocolateyPackage @packageArgs
 Write-Warning @'
 Notes:
   - atmel-studio needs a reboot to finish automatically the installation.
-  - atmel-studio shortcut will appear on the desktop after about 5/10 minutes after the restart.
+  - atmel-studio shortcut icon will appear on the desktop after about 5/10 minutes after the restart.
 '@

@@ -1,6 +1,4 @@
 ﻿import-module au
-$github_repository = "marktext/marktext"
-$releases = "https://github.com/" + $github_repository + "/releases/latest"
 
 function global:au_BeforeUpdate {
     Remove-Item "$PSScriptRoot\tools\*.exe"
@@ -13,10 +11,14 @@ function global:au_BeforeUpdate {
 }
 
 function global:au_GetLatest {	
-     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	 $regex   = $github_repository + '/releases/download/.*/marktext-(?<Version>[\d\.]*)[\w-]*.exe$'
-	 $url = $download_page.links | ? href -match $regex
-     return @{ Version = $matches.Version ; URL32 = "https://github.com" + $url.href }
+    $github_repository = "marktext/marktext"
+    $releases = "https://github.com/" + $github_repository + "/releases/latest"
+    $regex    = 'marktext-(?<Version>[\d\.]*)[\w-]*.exe$'
+
+    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing	
+	$url = $download_page.links | ? href -match $regex
+
+    return @{ Version = $matches.Version ; URL32 = "https://github.com" + $url.href }
 }
 
 function global:au_SearchReplace {

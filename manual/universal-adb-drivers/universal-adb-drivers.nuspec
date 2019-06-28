@@ -4,12 +4,12 @@
   <metadata>
     <id>universal-adb-drivers</id>
     <version>1.0.4</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/universal-adb-drivers</packageSourceUrl>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/universal-adb-drivers</packageSourceUrl>
     <owners>chtof</owners>
     <title>Universal ADB Drivers</title>
     <authors>Koushik Dutta</authors>
     <projectUrl>https://adb.clockworkmod.com</projectUrl>
-    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/universal-adb-drivers/universal-adb-drivers.png</iconUrl>-->
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/universal-adb-drivers/universal-adb-drivers.png</iconUrl>-->
     <copyright>© ClockworkMod</copyright>
     <licenseUrl>https://raw.githubusercontent.com/koush/UniversalAdbDriver/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

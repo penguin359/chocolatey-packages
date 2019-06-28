@@ -5,7 +5,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName  
   fileType		= 'exe'
   file          = "$toolsDir\chirp-daily-20190626-installer.exe"
-  silentArgs = '/S'
+  silentArgs    = '/S'
 }
 
 Install-ChocolateyInstallPackage @packageArgs

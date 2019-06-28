@@ -18,16 +18,9 @@ ControlClick, x88 y296, %winTitle1% ; Continue
 
 winTitle2 = ahk_class Qt5QWindowIcon ahk_exe Battle.net.exe
 loop {
-  IfWinExist (%winTitle2%)
-  {    
-    Sleep 750
-    WinClose, %winTitle2%
-    break
-  } else {
     ; Install Location
     ControlClick, x633 y423, %winTitle1% ; Continue
     Sleep 1000
-  }
 }
 
 Exit

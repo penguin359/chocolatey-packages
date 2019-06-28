@@ -40,4 +40,4 @@ function Get-MsiProductVersion {
 
 }
 
-Get-MsiProductVersion -Path "C:\Users\Chris\Documents\GitHub\chocolatey-packages\automatic\universal-adb-drivers\tools\UniversalAdbDriverSetup.msi"
+Get-MsiProductVersion -Path "$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\tools\UniversalAdbDriverSetup.msi"

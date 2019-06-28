@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>texmacs</id>
-    <version>1.99.9</version>
+    <version>1.99.10</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/texmacs</packageSourceUrl>
     <owners>chtof</owners>
     <title>TeXmacs</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://savannah.gnu.org/bugs/?group=texmacs</bugTrackerUrl>
     <tags>texmacs editor tex latex</tags>
     <summary>GNU TeXmacs is a free wysiwyw (what you see is what you want) editing platform with special features for scientists.</summary>
-    <description><![CDATA[
-The software aims to provide a unified and user friendly framework for editing structured documents with different types of content (text, graphics, mathematics, interactive content, etc.). The rendering engine uses high-quality typesetting algorithms so as to produce professionally looking documents, which can either be printed out or presented from a laptop.
+    <description><![CDATA[The software aims to provide a unified and user friendly framework for editing structured documents with different types of content (text, graphics, mathematics, interactive content, etc.). The rendering engine uses high-quality typesetting algorithms so as to produce professionally looking documents, which can either be printed out or presented from a laptop.
 
 The software includes a text editor with support for mathematical formulas, a small technical picture editor and a tool for making presentations from a laptop. Moreover, TeXmacs can be used as an interface for many external systems for computer algebra, numerical analysis, statistics, etc. New presentation styles can be written by the user and new features can be added to the editor using the Scheme extension language. A native spreadsheet and tools for collaborative authoring are planned for later.
 

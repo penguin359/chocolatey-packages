@@ -16,7 +16,7 @@ ControlClick, x288 y84, %winTitle1% ; English
 Sleep 750
 ControlClick, x88 y296, %winTitle1% ; Continue
 
-winTitle2 = ahk_class Qt5QWindowIcon ahk_exe Battle.net.exe
+;winTitle2 = ahk_class Qt5QWindowIcon ahk_exe Battle.net.exe
 loop {
     ; Install Location
     ControlClick, x633 y423, %winTitle1% ; Continue

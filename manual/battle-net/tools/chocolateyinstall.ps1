@@ -8,3 +8,7 @@ $packageArgs = @{
 
 Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyinstall.ahk`""
 Install-ChocolateyPackage @packageArgs
+
+# Close AutoHotKey
+$autohotkey = Get-Process AutoHotKey -ErrorAction SilentlyContinue
+if ($autohotkey) { $autohotkey | Stop-Process }

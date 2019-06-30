@@ -2,14 +2,19 @@
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  destination   = "$toolsDir"
-  file          = "$toolsDir\LosslessCut-win32-ia32.zip"
-  file64        = "$toolsDir\LosslessCut-win32-x64.zip"  
+  packageName    = $env:ChocolateyPackageName
+  unzipLocation  = "$toolsDir"
+
+  url            = "https://github.com/mifi/lossless-cut/releases/download/v2.3.0/LosslessCut-win32-ia32.zip"
+  checksum       = "C6590B06BC65D889563A490F861D26DF998B7CFC355B012EC71503EF79FC41CE"
+  checksumType   = "sha256"
+
+  url64          = "https://github.com/mifi/lossless-cut/releases/download/v2.3.0/LosslessCut-win32-x64.zip"
+  checksum64     = "930B2FC7D4F6FB28D20769229CB9A73DBEDFC19983F6F3F18CB9CFB282EE3A24"
+  checksumType64 = "sha256"  
 }
 
-Get-ChocolateyUnzip @packageArgs
-Remove-Item -Path $packageArgs.file,$packageArgs.file64
+Install-ChocolateyZipPackage @packageArgs
 
 # Don't create shims for other executables
 $files = Get-ChildItem "$toolsDir" -Recurse -Include *.exe -Exclude LosslessCut.exe

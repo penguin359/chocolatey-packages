@@ -36,8 +36,7 @@ Simple and ultra fast cross platform tool for lossless trimming/cutting of video
 ]]></description>
     <releaseNotes>https://github.com/mifi/lossless-cut/releases</releaseNotes>
   </metadata>
-  <files>
-    <file src="legal\**" target="legal" />
+  <files>    
     <file src="tools\**" target="tools" />
   </files>
 </package>

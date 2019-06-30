@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/bandlab-assistant/bandlab-assistant.png" width="48" height="48"/> [BandLab Assistant](https://chocolatey.org/packages/bandlab-assistant)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/bandlab-assistant/bandlab-assistant.png" width="48" height="48"/> [BandLab Assistant](https://chocolatey.org/packages/bandlab-assistant)
 
 ## Features
 ### Kickstart your music projects
@@ -12,4 +12,4 @@ Access your recent projects and collaborations more quickly - your central hub o
 ### Thousands of 100% royalty free loops & production-ready sounds
 Choose from our professionally curated selection of premium audio and MIDI samples, sounds and loops. Just drag & drop into your favourite DAW straight from BandLab Assistant.
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/bandlab-assistant/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/bandlab-assistant/screenshot.png)

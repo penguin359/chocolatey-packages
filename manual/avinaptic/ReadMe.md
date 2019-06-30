@@ -1,0 +1,5 @@
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/avinaptic/avinaptic.png" width="48" height="48"/> [AVinaptic](https://chocolatey.org/packages/avinaptic)
+
+AVInaptic is a program with a simple GUI (GTK + 2) that analyzes files of type AVI, ASF / WMV, MP4 / MOV, Matroska (MKV), OGG, OGM and FLV, and shows a lot of information on the technical features (useful to predict if the movie will be read by your stand-alone reader). It also allows you to make simple modifications on the fly, such as setting delays (or advances) on all audio tracks and modifying FourCC; it allows to extract any trace present in the file (video, audio, subtitles, attachments); upon user request, it can perform DRF analysis, ie a complete analysis of the quantization parameters used in MPEG-4 ASP and AVC (H.264) encodings; finally it allows to make simple modifications to subtitles srt to improve compatibility with stand-alone readers.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/avinaptic/screenshot.png)

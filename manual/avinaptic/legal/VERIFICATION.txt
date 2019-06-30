@@ -1,0 +1,21 @@
+﻿VERIFICATION
+ 
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+Package can be verified like this:
+ 
+1. Download:
+ 
+   x32: http://fsinapsi.altervista.org/code/avinaptic/avinaptic2-win32-20111218.zip
+   x64: http://fsinapsi.altervista.org/code/avinaptic/avinaptic2-win32-20111218.zip
+  
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+ 
+   checksum type: sha256
+   checksum32: 715465FDAC576C7A7C177AB35D265B4ECF7D027B5AE3B43183A117127E0DC5E2
+   checksum64: 715465FDAC576C7A7C177AB35D265B4ECF7D027B5AE3B43183A117127E0DC5E2
+ 
+File 'LICENSE.txt' is obtained from: The software zip file.

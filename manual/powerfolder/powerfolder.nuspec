@@ -10,7 +10,7 @@
     <authors>dal33t GmbH</authors>
     <projectUrl>https://www.powerfolder.com</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/powerfolder/powerfolder.png</iconUrl>
-    <copyright>Copyright (C) 2013</copyright>
+    <copyright>Copyright © 2013</copyright>
     <licenseUrl>https://www.powerfolder.com/license</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/powerfolder/PF-CORE</projectSourceUrl>

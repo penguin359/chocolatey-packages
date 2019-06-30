@@ -1,5 +1,4 @@
-﻿choco install msys2 --params "/NoUpdate"
-refreshenv
+﻿refreshenv
 ridk install 3
 gem install bundler
 gem install jekyll -v 3.8.5

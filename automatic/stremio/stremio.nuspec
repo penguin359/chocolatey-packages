@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>stremio</id>
-    <version>4.4.25</version>
+    <version>4.4.77</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/stremio</packageSourceUrl>
     <owners>chtof</owners>
     <title>Stremio</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://stremio.zendesk.com</bugTrackerUrl>
     <tags>stremio streaming video multi-source multi-device</tags>
     <summary>All You Can Watch, All the video content you enjoy in one place.</summary>
-    <description><![CDATA[
-## Features 
+    <description><![CDATA[## Features 
 
 ### Discover new content with ease
 Easily discover new movies, TV shows, series and channels to watch. Browse by category, genre, rating, recency, etc. or simply type a name to find. Stremio makes finding new video content a piece of cake.

@@ -1,11 +1,11 @@
 ﻿if ( [environment]::OSVersion.Version.Major -ge 10 )  {
-  $url_win10      = 'https://dnl.hamapps.com/JTAlert/HamApps_JTAlert_AL_2.13.8_Setup.exe'
-	$checksum_win10 = '785c1aa8d65cebfe74e7a53c7d4a9fb779e49f020289fed3edd98adcd7afbab8'
+  $url_win10      = 'https://dnl.hamapps.com/JTAlert/HamApps_JTAlert_AL_2.13.9_Setup.exe'
+	$checksum_win10 = '0049baf5a77cc52770833ee1749427027cbb4b399b057be9768f4276cf9fc5f4'
 	$url            = $url_win10
 	$checksum       = $checksum_win10
 } else {
-  $url_others     = 'https://dnl.hamapps.com/JTAlert/HamApps_JTAlert_2.13.8_Setup.exe'
-	$checksum_others= 'b8b6d31c29491a8f9352a2698059e47fae5331e7361e94a7dbbd57625bd75735'
+  $url_others     = 'https://dnl.hamapps.com/JTAlert/HamApps_JTAlert_2.13.9_Setup.exe'
+	$checksum_others= '010ad503123be44a8f0943a5568bc5067d6fe0b3cf5a2617d9d6dab95a1e2a29'
   $url            = $url_others
   $checksum       = $checksum_others
 }

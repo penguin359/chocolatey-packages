@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  file          = "$toolsDir\TeXmacs-1.99.9-installer.exe"
-  silentArgs	= "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
+  file          = "$toolsDir\TeXmacs-1.99.10-installer.exe"
+  silentArgs    = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
 }
 
 Install-ChocolateyInstallPackage @packageArgs

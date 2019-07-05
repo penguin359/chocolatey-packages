@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>avinaptic</id>
+    <version>2011.12.18</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/avinaptic</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>AVinaptic</title>
+    <authors>Frank Sinapsi</authors>
+    <projectUrl>http://fsinapsi.altervista.org/code/avinaptic</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/avinaptic/avinaptic.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <projectSourceUrl>http://fsinapsi.altervista.org/code/avinaptic/avinaptic2-20111218.zip</projectSourceUrl>
+    <docsUrl>http://fsinapsi.altervista.org</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>avinaptic video file analyzer</tags>
+    <summary>AVInaptic is a program with a simple GUI (GTK + 2) that analyzes files of type AVI, ASF / WMV, MP4 / MOV, Matroska (MKV), OGG, OGM and FLV, and shows a lot of information on the technical features.</summary>
+    <description><![CDATA[
+AVInaptic is a program with a simple GUI (GTK + 2) that analyzes files of type AVI, ASF / WMV, MP4 / MOV, Matroska (MKV), OGG, OGM and FLV, and shows a lot of information on the technical features (useful to predict if the movie will be read by your stand-alone reader). It also allows you to make simple modifications on the fly, such as setting delays (or advances) on all audio tracks and modifying FourCC; it allows to extract any trace present in the file (video, audio, subtitles, attachments); upon user request, it can perform DRF analysis, ie a complete analysis of the quantization parameters used in MPEG-4 ASP and AVC (H.264) encodings; finally it allows to make simple modifications to subtitles srt to improve compatibility with stand-alone readers.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/avinaptic/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

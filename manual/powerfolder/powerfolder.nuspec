@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>powerfolder</id>
+    <version>14.4.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/powerfolder</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>PowerFolder Sync and Share as Cloud</title>
+    <authors>dal33t GmbH</authors>
+    <projectUrl>https://www.powerfolder.com</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/powerfolder/powerfolder.png</iconUrl>
+    <copyright>Copyright © 2013</copyright>
+    <licenseUrl>https://www.powerfolder.com/license</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/powerfolder/PF-CORE</projectSourceUrl>
+    <docsUrl>https://wiki.powerfolder.com/display/PF/PowerFolder+Documentation+and+Support</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://www.powerfolder.com/contact</bugTrackerUrl>
+    <tags>powerfolder file sync share</tags>
+    <summary>File Sync, Share and Backup solutions for companies in the cloud or as private cloud on-premise. Easy to use and secure Sync and Share for you.</summary>
+    <description><![CDATA[
+## Features 
+- File sync and share to improve collaboration and your productivity
+- Collaborate on files and folders easily
+- Access, distribute and collect documents securely
+- Backup, file versioning and data protection
+- File sync and share solutions for your industry
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/powerfolder/screenshot.png)
+]]></description>
+    <releaseNotes>https://wiki.powerfolder.com/display/PF/Desktop+Client+Release+Notes</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

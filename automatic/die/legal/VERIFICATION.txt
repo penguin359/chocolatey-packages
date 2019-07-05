@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/horsicq/DIE-engine/releases/download/2.03/die_win32_portable_2.03.zip
-   x64: https://github.com/horsicq/DIE-engine/releases/download/2.03/die_win32_portable_2.03.zip
+   x32: https://github.com/horsicq/DIE-engine/releases/download/2.04/die_win32_portable_2.04.zip
+   x64: https://github.com/horsicq/DIE-engine/releases/download/2.04/die_win32_portable_2.04.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: FA1C7C7B42DE2A2A85F3528026FC856778A3801BB72BB9A0BF3D921E02DEF68A
-   checksum64: FA1C7C7B42DE2A2A85F3528026FC856778A3801BB72BB9A0BF3D921E02DEF68A
+   checksum32: A55B795EEBFD2CB610307575D27E0D6FA154284ACD0AA16FF3967D345EDE2EA1
+   checksum64: A55B795EEBFD2CB610307575D27E0D6FA154284ACD0AA16FF3967D345EDE2EA1
  
 Using AU:
  

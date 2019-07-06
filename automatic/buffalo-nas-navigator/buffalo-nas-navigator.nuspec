@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>buffalo-nas-navigator</id>
+    <version>2.97</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/buffalo-nas-navigator</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Buffalo NAS Navigator</title>
+    <authors>Buffalo Americas</authors>
+    <projectUrl>https://www.buffalotech.com/support</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/buffalo-nas-navigator/buffalo-nas-navigator.png</iconUrl>
+    <copyright>© 2019 Buffalo Americas, Inc. All Rights Reserved</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://www.buffalotech.com/support</bugTrackerUrl>
+    <tags>buffalo-nas-navigator buffalo NAS navigator browser</tags>
+    <summary></summary>
+    <description><![CDATA[
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/buffalo-nas-navigator/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <dependencies>
+     <dependency id="autohotkey.install" version="1.1.30.03" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vera</id>
+    <version>1.3.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/vera</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Vera++</title>
+    <authors>Vera Team</authors>
+    <projectUrl>https://bitbucket.org/verateam/vera</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/vera/vera.png</iconUrl>-->
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://bitbucket.org/verateam/vera/raw/cf13c413f641b5816a4fc9cd4b2fb248c81bf2bd/LICENSE_1_0.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://bitbucket.org/verateam/vera/src/master</projectSourceUrl>
+    <docsUrl>https://bitbucket.org/verateam/vera/wiki/Home</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://bitbucket.org/verateam/vera/issues</bugTrackerUrl>
+    <tags>vera++ C++ verification analysis development</tags>
+    <summary>Vera++ is a programmable tool for verification, analysis and transformation of C++ source code. Vera++ is mainly an engine that parses C++ source files and presents the result of this parsing to scripts in the form of various collections - the scripts are actually performing the requested tasks.</summary>
+    <description><![CDATA[
+## Introduction
+Vera++ is a programmable tool for verification, analysis and transformation of C++ source code.
+
+The main usage scenarios that are foreseen for Vera++ are:
+
+- Ensure that the source code complies with the given coding standards and conventions.
+- Provide source code metrics and statistics.
+- Perform automated transformations of the source code, which can range from pretty-printing to diagnostics to fault injection and advanced testing.
+
+The main design idea of Vera++ is to create a generic engine that will be able to parse the C++ code and present it in the form of collections of various objects to user provided scripts that will define the concrete actions to be executed.
+
+Currently the following object collections are provided:
+
+- Collection of source file names.
+- Collection of source lines for each file.
+- Collection of identified tokens in each file.
+**Note:** It is foreseen that future versions of Vera++ will provide also the semantic view on the code.
+
+The most important feature of Vera++ is that all activities other than code parsing are defined by scripts.
+This means that Vera++ is *flexible* and *extensible*.
+
+For example, compliance with coding standards can be expressed in terms of *rules*, each being defined by a separate script. The scripts can access all collections listed above and perform actions related to the given rule. The user can ask to run any given script or some defined set of scripts in a single program execution.
+
+As a simple example, a coding convention that limits the length of the source line can be implemented as a script that traverses the collection of files and the collection of source lines and checks whether each source line fits within the given limits. A report can be generated for each non-conforming line of code so that the user gets a clear information about where the problem is located.
+
+All existing rules present their reports in the format that is compatible with regular compiler's output, so that it is easy to integrate Vera++ with the existing build framework.
+
+Similarly, automated transformation procedures are implemented as separate scripts that scan the above collections and produce another source files according to their algorithms. A simple example of such transformation might be a script that removes empty lines from source code.
+
+The Tcl programming language is currently supported for scripts that run within Vera++.
+
+## Screenshots
+Vera++ is a text only tool with no GUI, but it works smoothly with many graphical tools.
+### QtCreator  
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/vera/screenshot1.png)
+### Microsoft Visual C++ 2010  
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/vera/screenshot2.png)
+### XCode  
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/vera/screenshot3.png)
+### CDash  
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/vera/screenshot4.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -68,20 +68,20 @@ Amidst was moved to a new location, since Skidoodle aka skiphs is too busy to ma
 
 These screenshots are created from the seed 24922 using Amidst v4.0 and Minecraft 1.9.
 
-![default](https://raw.githubusercontent.com/wiki/toolbox4minecraft/amidst/screenshots/screenshot_default_24922_default.png)
+![default](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/amidst/screenshot1.png)
 
 ### The End Dimension
 
-![The End Dimension](https://raw.githubusercontent.com/wiki/toolbox4minecraft/amidst/screenshots/screenshot_default_24922_end.png)
+![The End Dimension](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/amidst/screenshot2.png)
 
 ### Biome Highlighter
 
-![Biome Highlighter](https://raw.githubusercontent.com/wiki/toolbox4minecraft/amidst/screenshots/screenshot_default_24922_biome-highlighter.png)
+![Biome Highlighter](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/amidst/screenshot3.png)
 
 ### Grid
 
-![Grid](https://raw.githubusercontent.com/wiki/toolbox4minecraft/amidst/screenshots/screenshot_default_24922_grid.png)
+![Grid](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/amidst/screenshot4.png)
 
 ### Slime Chunks
 
-![Slime Chunks](https://raw.githubusercontent.com/wiki/toolbox4minecraft/amidst/screenshots/screenshot_default_24922_slime.png)
+![Slime Chunks](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/amidst/screenshot5.png)

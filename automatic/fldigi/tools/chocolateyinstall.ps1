@@ -8,10 +8,10 @@ if ($pp['DIR']){
 }
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  fileType      = 'exe'  
-  file          = "$toolsDir\fldigi-4.1.04_setup.exe"  
-  silentArgs	= "$silentArgs"
+  packageName = $env:ChocolateyPackageName
+  fileType    = 'exe'
+  file        = "$toolsDir\fldigi-4.1.05_setup.exe"
+  silentArgs  = "$silentArgs"
 }
 
 Install-ChocolateyInstallPackage @packageArgs

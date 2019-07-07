@@ -10,21 +10,21 @@ VueScan is an application for scanning documents, photos, film, and slides on Wi
 Whether you’re having trouble getting your scanner connected to your computer, or you want to use the scanner software with the most features, VueScan is the tool for you.
 
 ## Overview
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/phpmyadmin/screenshot1.png) Works on 6000+ scanners
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot1.png) Works on 6000+ scanners
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/phpmyadmin/screenshot2.png) Works on Windows, Mac OS X, and Linux
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot2.png) Works on Windows, Mac OS X, and Linux
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/phpmyadmin/screenshot3.png) Try for free
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot3.png) Try for free
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/phpmyadmin/screenshot4.png) Updated every week or two
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot4.png) Updated every week or two
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/phpmyadmin/screenshot5.png) Advanced Scanning Control
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot5.png) Advanced Scanning Control
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/phpmyadmin/screenshot6.png) Basic Mode
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot6.png) Basic Mode
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/phpmyadmin/screenshot7.png) Works on Flatbed, Document, and Film/Slide Scanner
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot7.png) Works on Flatbed, Document, and Film/Slide Scanner
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/phpmyadmin/screenshot8.png) Translated in to 28+ languages
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot8.png) Translated in to 28+ languages
 
 **The Tool For All Your Scanning Needs**
 VueScan has the features you need no matter what you need to scan
@@ -42,7 +42,7 @@ Whether you need to scan a single page or a hundred page book, VueScan has the t
 
 - Automatic document deskewing
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/phpmyadmin/screenshotA.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshotA.png)
 
 ### SCAN PHOTOS
 Do you have boxes full of photos in a drawer? Use VueScan to get them on your computer, and off your to-do list.
@@ -59,7 +59,7 @@ Do you have boxes full of photos in a drawer? Use VueScan to get them on your co
 
 [Learn more about scanning photos with VueScan »](https://www.hamrick.com/photo-scanning-software.html#features)
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/phpmyadmin/screenshotB.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshotB.png)
 
 ### SCAN FILM AND SLIDES
 VueScan is the ultimate tool for all your film and slide scanning needs.
@@ -76,7 +76,7 @@ VueScan is the ultimate tool for all your film and slide scanning needs.
 
 - Photoshop Integration
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/phpmyadmin/screenshotC.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshotC.png)
 
 **Trusted by over 600,000 customers across the globe**
 Since 1998, VueScan has saved hundreds of thousands scanners from ending up in the landfill.

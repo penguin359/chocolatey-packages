@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>helix-alm-client</id>
+    <version>2019.2.1</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/helix-alm-client</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Helix ALM Desktop Client</title>
+    <authors>Perforce Software</authors>
+    <projectUrl>https://www.perforce.com/downloads/helix-alm-client</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/helix-alm-client/helix-alm-client.png</iconUrl>
+    <copyright>Copyright © 2019 Perforce Software, Inc. All rights reserved.</copyright>
+    <licenseUrl>https://www.perforce.com/terms-use</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>http://help.perforce.com/alm/helixalm/2019.2.1/admin/Content/ServerAdmin/home-halm-admin.htm</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://www.perforce.com/support</bugTrackerUrl>
+    <tags>helix-alm-client lifecycle management tool</tags>
+    <summary>Dektop client for Helix ALM, application lifecycle management tool.</summary>
+    <description><![CDATA[
+Dektop client for Helix ALM, application lifecycle management tool.
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/helix-alm-client/screenshot.png)
+]]></description>
+    <releaseNotes>https://www.perforce.com/products/helix-alm-client/release-notes</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

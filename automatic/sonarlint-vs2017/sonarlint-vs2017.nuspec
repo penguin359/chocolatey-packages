@@ -34,7 +34,7 @@ Simply open a file within a project or a solution, start coding, and you will st
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/sonarlint-vs2017/screenshot.png)
 
-Visit SonarLint website: [https://vs.sonarlint.org]
+Visit SonarLint website: https://vs.sonarlint.org
 
 ## Smart code analysis, on the fly
 **Detect quality issues as you code**

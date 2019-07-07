@@ -60,4 +60,7 @@ With encryption you can protect data with 256 bit AES encryption algorithm. No o
       <dependency id="autohotkey.install" version="1.1.30.03" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

@@ -5,7 +5,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
   file64        = "$toolsDir\Milton_1.6.2_Standalone_x64.zip"
-  silentArgs	= "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
+  silentArgs    = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
 }
 
 Get-ChocolateyUnzip @packageArgs

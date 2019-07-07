@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>buddybackup</id>
+    <version>2.0.2.4</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/buddybackup</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>BuddyBackup</title>
+    <authors>BuddyBackup</authors>
+    <projectUrl>http://www.buddybackup.com</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/buddybackup/buddybackup.png</iconUrl>
+    <copyright>© BuddyBackup</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>http://www.buddybackup.com/help/getting-started.aspx</docsUrl>
+    <mailingListUrl>http://www.buddybackup.com/forum</mailingListUrl>
+    <bugTrackerUrl>http://www.buddybackup.com/download</bugTrackerUrl>
+    <tags>buddybackup online backup</tags>
+    <summary>Free online backup to your buddies</summary>
+    <description><![CDATA[
+## Features
+- Simple, easy to use interface
+- Backup offline to your own drives
+- Download free with unlimited use
+- All backup files are safely encrypted
+- Backup online to your buddies
+- Continuous backups, no loss of data
+
+### Free
+Unlimited online backup to your buddies for free.
+
+### Safe
+Encrypted, off-site backups so your files are safe in the event of disaster.
+
+### Continuous
+Your files are efficiently backed up the moment they are saved.
+
+### Online
+Make easy, secure, off-site backups so you're safe in the event of fire, flood or theft.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/buddybackup/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

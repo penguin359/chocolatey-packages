@@ -1,0 +1,3 @@
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/splint.install/splint.png" width="48" height="48"/> [Splin (Install)](https://chocolatey.org/packages/splint)
+
+Splint is a tool for statically checking C programs for security vulnerabilities and coding mistakes. With minimal effort, Splint can be used as a better lint. If additional effort is invested adding annotations to programs, Splint can perform stronger checking than can be done by any standard lint.

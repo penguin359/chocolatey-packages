@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/battle-net/battle-net.png" width="48" height="48"/> [Blizzard Battle.net Desktop App](https://chocolatey.org/packages/battle-net)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/battle.net/battle.net.png" width="48" height="48"/> [Blizzard Battle.net Desktop App](https://chocolatey.org/packages/battle.net)
 
 Your gateway to all things Blizzard
 - Your games in one place
@@ -41,4 +41,4 @@ The Battle.net Shop is also where you’ll find in-game items such as loot boxes
 ### Exchange digital gifts with friends
 Send and receive digital games and in-game items right from the Battle.net app.
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/battle-net/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/battle.net/screenshot.png)

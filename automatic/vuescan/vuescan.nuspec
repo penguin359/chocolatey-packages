@@ -101,7 +101,7 @@ VueScan is the ultimate tool for all your film and slide scanning needs.
 **Trusted by over 600,000 customers across the globe**
 Since 1998, VueScan has saved hundreds of thousands scanners from ending up in the landfill.
 ]]></description>
-    <releasenotes>https://www.hamrick.com/vuescan/vuescan.htm</releasenotes>
+    <releaseNotes>https://www.hamrick.com/vuescan/vuescan.htm</releaseNotes>
     <dependencies>
       <dependency id="autohotkey.install" version="1.1.30.03" />
     </dependencies>

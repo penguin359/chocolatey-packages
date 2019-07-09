@@ -8,6 +8,7 @@ $packageArgs = @{
 }
 
 Get-ChocolateyUnzip @packageArgs
+Remove-Item -Path $packageArgs.file
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName  

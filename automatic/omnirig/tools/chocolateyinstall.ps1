@@ -12,7 +12,7 @@ $packageArgs = @{
   checksum      = 'be0aba52bcbf6df1b3aa56b51cdeadfc7c955d844cf1cb5099218a1937c296d2'
   checksumType  = 'sha256'
 
-  silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'  
+  silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'  
 }
 
 Install-ChocolateyZipPackage @packageArgs

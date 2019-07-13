@@ -107,7 +107,6 @@ Since 1998, VueScan has saved hundreds of thousands scanners from ending up in t
     </dependencies>
   </metadata>
   <files>    
-    <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>

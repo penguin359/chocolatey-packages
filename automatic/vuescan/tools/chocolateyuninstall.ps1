@@ -1,4 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop';
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -12,8 +13,8 @@ $uninstalled = $false
 
 if ($key.Count -eq 1) {
   $key | % {
-    $packageArgs['file'] = "$($_.UninstallString)" -Replace " `/Remove",""
-    write-warning $packageArgs['file']
+    $packageArgs['file'] = "$($_.UninstallString)" -Replace " `/remove",""    
+    Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyUninstall.ahk`""
     Uninstall-ChocolateyPackage @packageArgs
   }
 } elseif ($key.Count -eq 0) {
@@ -24,3 +25,8 @@ if ($key.Count -eq 1) {
   Write-Warning "Please alert package maintainer the following keys were matched:"
   $key | % {Write-Warning "- $($_.DisplayName)"}
 }
+
+# Remove start menu shortcut
+$programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
+$shortcutFilePath = Join-Path $programs "VueScan.lnk"
+if (Test-Path $shortcutFilePath) { Remove-Item $shortcutFilePath }

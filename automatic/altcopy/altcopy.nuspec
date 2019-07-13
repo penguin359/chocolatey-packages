@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>altcopy</id>
+    <version>1.0.7</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/altcopy</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Alt-C</title>
+    <authors>Can O' Baked Beans Creations</authors>
+    <projectUrl>https://altcopy.net</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/altcopy/altcopy.png</iconUrl>
+    <copyright>© Can O' Baked Beans Creations 2015-2019</copyright>
+    <licenseUrl>http://canobakedbeans.co.za/terms.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://altcopy.net/#howto</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://www.facebook.com/pages/Can-O-Baked-Beans/535503959896968</bugTrackerUrl>
+    <tags>altcopy two-way test copy pc smart device smartphone tablet</tags>
+    <summary>Two-way text copying between your PC and Smart devices</summary>
+    <description><![CDATA[
+Altcopy is a free program that allows you to copy/paste between a Windows PC and a smart device (e.g., phone).
+
+## Features
+
+### Instant two-way copying
+Copy text from your PC to your Smart device's clipboard, and Paste text from your device's clipboard to your PC, instantly! All you need is the PC application, and the Android application on your device. No sign-in required! Click here to see how the initial sync works.
+
+### Over any network
+Text can be copied over any network. As long as your PC and Smart device both have internet connections, you're good to go. Alt-C uses Google Cloud Messaging with SSL connections to copy the text. 
+Alt-C
+
+### From any application
+Text is copied from your PC to your device, or from your device to your PC, with the simple press of a Global Hotkey. On your PC - Select the text in any application, press the Copy Hotkey, and it arrives in your device's clipboard - ready to be pasted! On your Smart Device - copy some text and press the Paste Hotkey on your PC to paste the text!
+
+### Auto Launch Applications
+Configure Alt-C to open specific types of text in various applications. Open URLs in your Web Browser, Email addresses in your email app, GPS co-ordinates in your Maps app, Phone Numbers in the Dialer and Text in your favourite note taking application. Configure your Alt-C Auto Launch experience under Settings! 
+(ALL Text is parsed on the device itself)
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/altcopy/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

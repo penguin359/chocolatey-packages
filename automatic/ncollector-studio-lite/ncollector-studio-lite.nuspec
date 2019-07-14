@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ncollector-studio-lite</id>
+    <version>3.7</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/ncollector-studio-lite</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>NCollector Studio Lite Free</title>
+    <authors>Calluna Software</authors>
+    <projectUrl>http://www.calluna-software.com</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ncollector-studio/ncollector-studio-lite.png</iconUrl>
+    <copyright>© 2007-2018 Calluna Software. All rights reserved</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>http://www.calluna-software.com/Documentation</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>http://www.calluna-software.com/Contact</bugTrackerUrl>
+    <tags>ncollector-studio download web crawler</tags>
+    <summary>NCollector Studio is the easy way to download content from the web to your computer.</summary>
+    <description><![CDATA[
+NCollector Studio is the easy way to download content from the web to your computer. Crawl for specific file types, make any website available for offline browsing or simply download a website to your local computer. NCollector is the all in one solution covering your needs whether you're a professional or home user.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ncollector-studio/screenshot.png)
+]]></description>
+    <releaseNotes>http://www.calluna-software.com/Products/ChangeLog</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

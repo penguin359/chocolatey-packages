@@ -1,0 +1,30 @@
+﻿
+From: The software installer.
+
+LICENSE
+
+NCollector Studio Lite License Agreement
+
+Copyright © 2015 by Calluna Software. All rights reserved.
+
+ATTENTION: READ CAREFULLY: By using, copying, or distributing the accompanying software you indicate your acceptance of the following NCollector Studio Lite License Agreement.
+WARNING:
+"NCollector Studio Lite" may be used to facilitate copying web-content in which you own the copyright or have obtained permission to copy from the copyright owner. If you are not the copyright owner or you have not obtained permission to copy from the copyright owner, you may be violating copyright laws and you may be subject to claims for damages and/or criminal penalties. This program is not meant for those who intend on breaking copyright laws. In no way will we be held responsible if you do. 
+
+Any other illegal use of this program is strictly prohibited.
+
+This program is intended for use in countries where copying WEB-content is legal. Please take the time to find out if it is legal in your country of residence. We are not liable and cannot be hold responsible for your actions. We are not responsible for any direct or indirect loss to the end user by using this program. You agree to waive all liabilities associated with this program to the provider and associates.
+
+LICENSE:
+All copyrights to NCollector Studio Lite are exclusively owned by Calluna Software. 
+
+The NCollector Studio Lite version may be freely distributed, with exceptions noted below, provided the distribution package is not modified in any way. 
+a.	No person or company may distribute separate parts of the package, without written permission of Calluna Software. 
+b.	The NCollector Studio Lite version may not be distributed inside of any other software package without written permission of Calluna Software. 
+c.	Hacks/cracks, keys or key generators may not be included on the same distribution. 
+NCollector Studio Lite is distributed "as is". No warranty of any kind is expressed or implied. You use at your own risk. Neither the author nor the agents of the author will be liable for data loss, damages, loss of profits or any other kind of loss while using or misusing this software. 
+You may not use, copy, emulate, clone, rent, lease, sell, modify, decompile, disassemble, otherwise reverse engineer, or transfer the program, or any subset of the program, except as provided for in this agreement. Any such unauthorized use may result in criminal and/or civil prosecution.
+
+All rights not expressly granted here are reserved by Calluna Software. 
+Installing and using NCollector Studio Lite signifies acceptance of these terms and conditions of the license. 
+If you do not agree with the terms of this license you must remove NCollector Studio Lite files from your storage devices and cease to use the product.

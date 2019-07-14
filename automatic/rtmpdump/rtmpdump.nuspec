@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rtmpdump</id>
+    <version>2.4</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/rtmpdump</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>RTMPDump</title>
+    <authors>RTMPDump Team.</authors>
+    <projectUrl>http://rtmpdump.mplayerhq.hu</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/rtmpdump/rtmpdump.png</iconUrl>-->
+    <copyright>Copyright (C) 2009 Andrej Stepanchuk - Copyright (C) 2010-2011 Howard Chu</copyright>
+    <licenseUrl>http://git.ffmpeg.org/gitweb/rtmpdump.git/blob_plain/HEAD:/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>http://git.ffmpeg.org/gitweb/rtmpdump.git/tree</projectSourceUrl>
+    <docsUrl>http://rtmpdump.mplayerhq.hu/rtmpdump.1.html</docsUrl>
+    <mailingListUrl>https://lists.mplayerhq.hu/mailman/listinfo/rtmpdump</mailingListUrl>
+    <bugTrackerUrl>https://github.com/chocolatey-community/chocolatey-package-requests/issues</bugTrackerUrl>
+    <tags>rtmpdump toolkit rtmp rtmpt rtmpe rtmpte rtmps stream</tags>
+    <summary>rtmpdump is a toolkit for RTMP streams. All forms of RTMP are supported, including rtmp://, rtmpt://, rtmpe://, rtmpte://, and rtmps://.</summary>
+    <description><![CDATA[
+rtmpdump is a toolkit for RTMP streams. All forms of RTMP are supported, including rtmp://, rtmpt://, rtmpe://, rtmpte://, and rtmps://.
+]]></description>
+    <releaseNotes>http://rtmpdump.mplayerhq.hu/ChangeLog</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

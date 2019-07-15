@@ -8,7 +8,7 @@
     <owners>chtof</owners>
     <title>CarotDAV (Install)</title>
     <authors>Hobara Rei</authors>
-    <projectUrl>http://rei.to/carotdav_en.htm</projectUrl>
+    <projectUrl>http://rei.to/carotdav_en.html</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/carotdav.install/carotdav.install.png</iconUrl>
     <copyright>Copyright © 2007-2018 HOBARA REI</copyright>
     <licenseUrl>http://rei.to/carotdav_en.html#license</licenseUrl>

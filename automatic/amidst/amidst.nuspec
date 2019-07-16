@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>amidst</id>
-    <version>4.2</version>
+    <version>4.3</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/amidst</packageSourceUrl>
     <owners>chtof</owners>
     <title>Amidst</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/toolbox4minecraft/amidst/issues</bugTrackerUrl>
     <tags>amidst display minecraft world</tags>
     <summary>Amidst is a tool to display an overview of a Minecraft world, without actually creating it.</summary>
-    <description><![CDATA[
-## What is Amidst?
+    <description><![CDATA[## What is Amidst?
 
 Amidst is a tool to display an overview of a Minecraft world, without actually creating it.
 
@@ -105,7 +104,6 @@ These screenshots are created from the seed 24922 using Amidst v4.0 and Minecraf
 ### Slime Chunks
 
 ![Slime Chunks](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/amidst/screenshot5.png)
-
 ]]></description>
     <releaseNotes>https://github.com/toolbox4minecraft/amidst/releases</releaseNotes>
   </metadata>

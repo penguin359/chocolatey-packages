@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>goodsync</id>
+    <version>10.10</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/goodsync</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>GoodSync</title>
+    <authors>Siber Systems Inc</authors>
+    <projectUrl>https://www.goodsync.com/for-windows-desktop</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/goodsync/goodsync.png</iconUrl>
+    <copyright>Copyright © 2009 - 2019 Siber Systems, Inc. All rights reserved.</copyright>
+    <licenseUrl>https://www.goodsync.com/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://www.goodsync.com/manual</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://www.goodsync.com/php/gsss/main</bugTrackerUrl>
+    <tags>goodsync sync cloud trial</tags>
+    <summary>Reliable, bi-directional synchronization of files between computers and devices.</summary>
+    <description><![CDATA[
+Free with limited functionality: synchronize a maximum of 100 private files via local drives, thumbdrives, network shares, WebDAV, or FTP.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/goodsync/screenshot.png)
+]]></description>
+    <releaseNotes>https://www.goodsync.com/news-windows</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

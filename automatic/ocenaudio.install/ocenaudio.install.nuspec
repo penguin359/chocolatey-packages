@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ocenaudio.install</id>
-    <version>3.6.4</version>
+    <version>3.7.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/ocenaudio.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>Ocenaudio (Install)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://www.ocenaudio.com/feedback</bugTrackerUrl>
     <tags>ocenaudio.install audio editor</tags>
     <summary>ocenaudio is a cross-platform, easy to use, fast and functional audio editor.</summary>
-    <description><![CDATA[
-## Features
+    <description><![CDATA[## Features
 ### VST plugins support
 ocenaudio supports VST (Virtual Studio Technology) plugins, giving its users access to numerous effects. Like the native effects, VST effects can use real-time preview to aide configuration.
 

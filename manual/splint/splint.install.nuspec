@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>splint</id>
+    <version>3.1.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/splint</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Splint</title>
+    <authors>Splint Team</authors>
+    <projectUrl>http://splint.org</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/splint/splint.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/ravenexp/splint/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/ravenexp/splint</projectSourceUrl>
+    <docsUrl>http://www.splint.org/documentation</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/ravenexp/splint/issues</bugTrackerUrl>
+    <tags>splint.install c develoment security vulnerability coding mistake</tags>
+    <summary>Splint is a tool for statically checking C programs for security vulnerabilities and coding mistakes.</summary>
+    <description><![CDATA[
+Splint is a tool for statically checking C programs for security vulnerabilities and coding mistakes. With minimal effort, Splint can be used as a better lint. If additional effort is invested adding annotations to programs, Splint can perform stronger checking than can be done by any standard lint.
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <dependencies>
+      <dependency id="splint.install" version="[3.1.2]" />
+    </dependencies>
+  </metadata>
+  <files></files>
+</package>

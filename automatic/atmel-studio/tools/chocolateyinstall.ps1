@@ -8,14 +8,15 @@ $packageArgs = @{
   checksum      = '4815F78C642968E8727E0B84AC79E8C0D9C8486678BD48224B72685CA4D695AB'
   checksumType  = 'sha256'
   
-  silentArgs	= "-q"
+  silentArgs    = "-q"
 }
 
-# This is needed for unattended installation of Drivers
-& "C:\Windows\System32\certutil.exe" -addstore "TrustedPublisher" "$toolsDir\certificates\Atmel Norway.cer"
-& "C:\Windows\System32\certutil.exe" -addstore "TrustedPublisher" "$toolsDir\certificates\Microchip Technology Inc.cer"
-
+Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyinstall.ahk`""
 Install-ChocolateyPackage @packageArgs
+
+# Close AutoHotKey
+$autohotkey = Get-Process AutoHotKey -ErrorAction SilentlyContinue
+if ($autohotkey) { $autohotkey | Stop-Process }
 
 Write-Warning @'
 Notes:

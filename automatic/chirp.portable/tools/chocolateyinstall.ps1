@@ -4,10 +4,11 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = "$env:ChocolateyPackageName"
   destination   = "$toolsDir"
-  file          = "$toolsDir\chirp-daily-20190703-win32.zip"
+  file          = "$toolsDir\chirp-daily-20190713-win32.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs
+Remove-Item -Path $packageArgs.file
 
 # Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)

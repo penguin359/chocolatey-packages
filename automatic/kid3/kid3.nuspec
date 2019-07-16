@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>kid3</id>
+    <version>3.7.1</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/kid3</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Kid3 - Audio Tagger</title>
+    <authors>Urs Fleisch</authors>
+    <projectUrl>https://kid3.sourceforge.io</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kid3/kid3.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://sourceforge.net/p/kid3/code/ci/master/tree/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://sourceforge.net/p/kid3/code/ci/master/tree</projectSourceUrl>
+    <docsUrl>https://kid3.sourceforge.io/kid3_en.html</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/kid3/discussion</mailingListUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/kid3/_list/tickets</bugTrackerUrl>
+    <tags>kid3 audio tag editor</tags>
+    <summary>If you want to easily tag multiple MP3, Ogg/Vorbis, FLAC, MPC, MP4/AAC, MP2, Opus, Speex, TrueAudio, WavPack, WMA, WAV and AIFF files (e.g. full albums) without typing the same information again and again and have control over both ID3v1 and ID3v2 tags, then Kid3 is the program you are looking for.</summary>
+    <description><![CDATA[
+## Features
+With Kid3 you can:
+
+- Edit ID3v1.1 tags
+- Edit all ID3v2.3 and ID3v2.4 frames
+- Convert between ID3v1.1, ID3v2.3 and ID3v2.4 tags
+- Edit tags in MP3, Ogg/Vorbis, DSF, FLAC, MPC, MP4/AAC, MP2, Opus, Speex, TrueAudio, WavPack, WMA, WAV, AIFF files and tracker modules (MOD, S3M, IT, XM)
+- Edit tags of multiple files, e.g. the artist, album, year and genre of all files of an album typically have the same values and can be set together.
+- Generate tags from filenames
+- Generate tags from the contents of tag fields
+- Generate filenames from tags
+- Rename and create directories from tags
+- Generate playlist files
+- Automatically convert upper and lower case and replace strings
+- Import from [gnudb.org](http://gnudb.org), [TrackType.org](http://tracktype.org), [MusicBrainz](https://musicbrainz.org), [Discogs](https://discogs.com), [Amazon](https://www.amazon.com) and other sources of album data
+- Export tags as CSV, HTML, playlists, Kover XML and in other formats
+- Edit synchronized lyrics and event timing codes, import and export LRC files
+- Automate tasks using QML/JavaScript, D-Bus or the command-line interface
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kid3/screenshot.png)
+]]></description>
+    <releaseNotes>https://sourceforge.net/p/kid3/news</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

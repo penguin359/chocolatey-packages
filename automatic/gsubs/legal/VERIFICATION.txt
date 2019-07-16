@@ -1,0 +1,22 @@
+﻿VERIFICATION
+ 
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+Package can be verified like this:
+ 
+1. Download:
+ 
+   x32: https://github.com/sanjevirau/gsubs/releases/download/v1.0.2/gSubs.Setup.1.0.2.exe
+   x64: https://github.com/sanjevirau/gsubs/releases/download/v1.0.2/gSubs.Setup.1.0.2.exe
+  
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+ 
+   checksum type: sha256
+   checksum32: FF1325B75A7E5C6D4F72F82FA0CF6DB0B4D2624C9626F3F1397D36429F8C0C34
+   checksum64: FF1325B75A7E5C6D4F72F82FA0CF6DB0B4D2624C9626F3F1397D36429F8C0C34
+ 
+File 'LICENSE.txt' is obtained from:
+   https://raw.githubusercontent.com/sanjevirau/gsubs/master/LICENSE

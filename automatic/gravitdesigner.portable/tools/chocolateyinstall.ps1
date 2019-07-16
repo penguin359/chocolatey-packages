@@ -6,7 +6,7 @@ $packageArgs = @{
   fileFullPath  = "$toolsDir\GravitDesigner.exe"
 
   url           = 'https://designer.gravit.io/_downloads/windows/GravitDesigner.exe'
-  checksum      = 'eed5e198f17952a9f747909791168f2f74aacf5270be7b87189a309f564aedf8'
+  checksum      = '941133b4368a1e578954778762f00c9e501ea1dca8043322ca16e1c7ab86c8c0'
   checksumType  = 'sha256'
 }
 

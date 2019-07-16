@@ -36,16 +36,17 @@
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/atmel-studio/screenshot.png)
 ]]></description>
-  <releaseNotes>https://www.microchip.com/mplab/avr-support/atmel-studio-7</releaseNotes>
-  <dependencies>    
-    <dependency id="kb2999226" version="1.0.20181019" />    
-    <dependency id="sql2014.smo" version="12.0.2000.8" />
-    <dependency id="netfx-4.5.1-devpack" version="4.5.50932" />
-    <dependency id="netfx-4.5.2-devpack" version="4.5.5165101.20180721" />
-    <dependency id="vcredist2010" version="10.0.40219.2" />
-    <dependency id="vcredist2013" version="12.0.40660.20180427" />
-    <dependency id="vcredist2015" version="14.0.24215.20170201" />    
-  </dependencies>
+    <releaseNotes>https://www.microchip.com/mplab/avr-support/atmel-studio-7</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.install" version="1.1.30.03" />    
+      <dependency id="kb2999226" version="1.0.20181019" />    
+      <dependency id="sql2014.smo" version="12.0.2000.8" />
+      <dependency id="netfx-4.5.1-devpack" version="4.5.50932" />
+      <dependency id="netfx-4.5.2-devpack" version="4.5.5165101.20180721" />
+      <dependency id="vcredist2010" version="10.0.40219.2" />
+      <dependency id="vcredist2013" version="12.0.40660.20180427" />
+      <dependency id="vcredist2015" version="14.0.24215.20170201" />    
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

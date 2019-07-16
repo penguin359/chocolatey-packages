@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>voicemeeter</id>
-    <version>1.0.6.7</version>
+    <version>1.0.6.8</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/voicemeeter</packageSourceUrl>
     <owners>chtof</owners>
     <title>Voicemeeter Virtual Audio Mixer</title>
@@ -19,8 +19,7 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>voicemeeter audio mixer application</tags>
     <summary>Voicemeeter is Audio Mixer Application endowed with Virtual Audio Device used as Virtual I/O to mix and manage any audio sources from or to any audio devices or applications.</summary>
-    <description><![CDATA[
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter/screenshot.png)
+    <description><![CDATA[![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter/screenshot.png)
 
 For first use, it's highly recommended to follow user manual step by step, especially step ZERO of the [documentation](https://www.vb-audio.com/Voicemeeter/#Documentation).
 
@@ -72,7 +71,7 @@ Voicemeeter is a Unique Application designed for everyone willing to manage audi
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   <dependencies>
-    <dependency id="voicemeeter.install" version="1.0.6.7" />
+    <dependency id="voicemeeter.install" version="[1.0.6.8]" />
   </dependencies>
   </metadata>
    <files></files>

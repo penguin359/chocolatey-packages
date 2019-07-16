@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>b1freearchiver</id>
+    <version>1.7.120</version>
+    <title>B1 Free Archiver</title>
+    <authors>Catalina Group Ltd.</authors>
+    <owners>chtof</owners>
+    <licenseUrl>https://b1.org/eula.jsp</licenseUrl>
+    <projectUrl>https://www.b1.org</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/b1freearchiver/b1freearchiver.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Fast and smart. Works on all platforms. Excellent compression.
+## Features
+
+### 100% Free
+
+B1 Archiver is 100% free archive manager. You can use it on any computer and you don't have to register or pay anything. Feel free to share B1 Archiver with your friends or co-workers.
+
+### Available for all OS
+
+B1 Archiver works on all platforms - Windows, Linux, Mac and Android. You no longer need different software on your PC, smartphone or tablet. B1 is the best unified solution for every device.
+
+### Full-featured
+
+Supports most popular formats - b1, zip, jar, xpi, rar, 7z, arj, bz2, cab, deb, gzip, tgz, iso, lzh, lha, lzma, rpm, tar, xar, z, dmg and others. Works with split and password-protected archives, serves perfectly as a file manager.
+
+### Simple &amp; fast
+
+B1 Archiver is extremely simple to use, you don't need comprehensive manuals or guides. Just install it and enjoy. It also works light speed fast even with large archives and many files.
+
+### Safe &amp; secure
+
+We apply the highest safe standards and care about your privacy. B1 Archiver never gathers any kind of personal information and does not install any malicious software.
+
+## B1 Format
+
+### Best format for everyone
+B1 archive is an open archive format which combines best proven solutions and our new original ideas. It's free and available for both personal and commercial use.
+
+### Open source
+We're happy to share b1 with everyone, so all code is open. You can download sources of all b1 tools and libraries here. Feel free to use them in any of your products or services.
+
+### Developers community
+We developed tools and libraries to work with b1 archives. Please refer to project documentation and discussion group. Feel free to ask for support should you have any questions.
+
+### Best speed to compression ratio
+Though classic LZMA compression has been improving for over a decade, there are still some options to explore. For b1 we designed an improved compression algorithm with much better speed to compression ratio.
+
+### Encryption with password
+With encryption you can protect data with 256 bit AES encryption algorithm. No one will be able to read or extract original files without a password.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/b1freearchiver/screenshot.png)</description>
+    <summary>Most friendly and simple free file archiver.</summary>
+    <copyright>Copyright © Catalina Group Ltd. All Rights Reserved</copyright>
+    <tags>b1freearchiver file archiver</tags>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/b1freearchiver</packageSourceUrl>
+    <bugTrackerUrl>https://b1.org/support.jsp</bugTrackerUrl>
+    <dependencies>
+      <dependency id="autohotkey.install" version="1.1.30.03" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>carotdav.portable</id>
+    <version>1.15.5</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/carotdav.portable</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>CarotDAV (Portable)</title>
+    <authors>Hobara Rei</authors>
+    <projectUrl>http://rei.to/carotdav_en.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/carotdav.portable/carotdav.portable.png</iconUrl>
+    <copyright>Copyright © 2007-2018 HOBARA REI</copyright>
+    <licenseUrl>http://rei.to/carotdav_en.html#license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>carotdav.portable online storage tool webdav ftp sftp</tags>
+    <summary>CarotDAV is a Simple WebDAV / FTP / SFTP / Online Storages client for Windows OS, available free of charge. In addition, simplified WebDAV server for local use are embedded.</summary>
+    <description><![CDATA[
+## Complied Standards, Features
+- HTTP/1.1 (RFC2616)
+- HTTPS (RFC2818)
+- DAV class 1(RFC2518), 3(RFC4918)
+- Authentication Methods: None, Basic(RFC2617), Digest(RFC2617), NTLM, Kerberos, SPNEGO(Negotiate)(Kerberos、NTLM), WSSE, Passport
+- HTTP Proxy
+- Client Certificate
+- Compression/Decompression
+- gzip (RFC1952/RFC2616)
+- zlib (RFC1950/RFC2616) / deflate (RFC1951)
+- Brotli (RFC7932) decompression only
+- FTP (RFC959)
+- FTPS (FTP over TLS) (RFC4217, RFC2228, RFC2246) (Explicit only)
+- zlib compression(IETF Draft draft-preston-ftpext-deflate-03.txt)
+- SFTP (SFTPv3 over SSHv2)
+- [OneDrive](https://onedrive.live.com)
+- [Dropbox](https://www.dropbox.com)
+- [GoogleDrive](https://drive.google.com)
+- [Box](http://www.box.com)
+- [SugarSync](https://www.sugarsync.com)
+- [AmazonCloudDrive](https://www.amazon.com/clouddrive)
+- [HubiC](https://hubic.com)
+- [OpenStack Swift](http://swift.openstack.org)
+- [iCloud Drive](https://www.icloud.com/#iclouddrive)
+- Host-specific file names(RFC1738)
+- support long path > MAX_PATH(260)
+- IMAP4rev1(RFC3501) ReadOnly
+- Resume
+- Download / Upload
+- Auto Split
+- Encrypt / Verify
+- Filename (AES256 CTS)
+- File contents (AES256 CBC)
+- Key and IV creation PBKDF2 (RFC2898)
+- Verification based on Hash (SHA-256)
+- Various charactor encodings (UTF-7/8/16/32, Shift-JIS, ISO-2022-JP, EUC-JP, Big5, EUC-KR, EUC-TW, etc)
+- Unicode Normalization (Unicode Standard Annex #15)
+- Master Password
+- AES256 CBC
+- Key and IV creation PBKDF2 (RFC2898)
+- SSL3.0, TLS 1.0/1.1/1.2
+- simplified WebDAV server for local use
+- GUI and CUI version
+
+## Security/Privacy
+You should take care of below from the point of security / privacy.
+
+### About Security
+#### By default, passwords are saved with no encryption.
+In the setting file, there are login IDs and raw passwords. By default, it is not encrypted. If you want to avoid risk, use master password.
+#### WebDAV server doesn't support user authentication or SSL/TLS.
+Since WebDAV server of CarotDAV is designed for local use, it becomes dangerous if the settings are wrong. Use loopback address(127.0.0.1) to prevent access from others.
+#### During OAuth procedure, CarotDAV shows the other site.
+Some services needs HTTPS server during OAuth. Since this site doesn't support HTTPS, CarotDAV use this page instead. I assure that site is safe in the same way as CarotDAV.
+
+### About Privacy
+CarotDAV accesses version file to confirm update on boot. Below informations are logged on the server at that time.
+- Current version of CarotDAV you use.
+- Access Time.
+- IP Address.
+I keep these logs not to be seen from others as possible. I might use or public these information after statistical processing. I might show these logs to public institution if they claim.
+
+CarotDAV collect no other information.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/carotdav.portable/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

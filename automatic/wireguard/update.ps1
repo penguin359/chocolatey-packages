@@ -12,11 +12,14 @@ function global:au_GetLatest {
 	$url32    = $download_page.links | ? href -match $regex32
     $url64    = $download_page.links | ? href -match $regex64
     $version  = $matches.Version
+    $versionMajor = $version -match "(\d)\..*"
+
+    if ($versionMajor -eq 0) { $versionSuffix = "-pre" } else { $versionSuffix = "" }
 
 	return @{
         Version = $version
-        URL32   = $releases + $url32.href
-        URL64   = $releases + $url64.href
+        URL32   = $releases + $url32.href + $versionSuffix
+        URL64   = $releases + $url64.href + $versionSuffix
     }
 }
 

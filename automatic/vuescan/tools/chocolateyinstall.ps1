@@ -13,8 +13,15 @@ $packageArgs = @{
   checksumType64 = 'sha256'
 }
 
-# This is needed for unattended installation of Drivers
-& "C:\Windows\System32\certutil.exe" -addstore "TrustedPublisher" "$toolsDir\certificates\Hamrick Software.cer" | Out-Null
-
-Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyinstall.ahk`""
+if (Get-ChildItem Cert:\CurrentUser\TrustedPublisher\|Where subject -eq "CN=Hamrick Software, O=Hamrick Software, L=Sunny Isles Beach, S=Florida, C=US") {
+  Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyinstall.ahk`""
+} else {
+  Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyInstallCertificate.ahk`""
+}
 Install-ChocolateyPackage @packageArgs
+
+# Install start menu shortcut
+$programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
+$shortcutFilePath = Join-Path $programs "VueScan.lnk"
+$targetPath = Join-Path $env:ProgramFiles "VueScan\vuescan.exe"
+Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath

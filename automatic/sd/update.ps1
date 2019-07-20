@@ -4,7 +4,7 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     $releases = 'http://www.ei5di.com'
-    $regex   = '<a href="http://www.ei5di.com/sdhist.html"><b>V(?<Version>[0-9\.]+).*</b></a>'
+    $regex    = '<a href="http://www.ei5di.com/sdhist.html"><b>V(?<Version>[0-9\.]+).*</b></a>'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	$download_page -match $regex | Out-Null

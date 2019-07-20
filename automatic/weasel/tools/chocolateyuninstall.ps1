@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  softwareName  = '小狼毫輸入法'
-  fileType      = 'exe'
-  silentArgs    = "/S _?=$Env:PROGRAMFILES\$packageName"
+  packageName  = $env:ChocolateyPackageName
+  softwareName = '小狼毫輸入法'
+  fileType     = 'exe'
+  silentArgs   = "/S _?=$Env:PROGRAMFILES\$packageName"
 }
 
 $uninstalled = $false

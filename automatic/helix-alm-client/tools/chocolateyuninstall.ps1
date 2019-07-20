@@ -1,9 +1,9 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  softwareName  = 'Helix ALM Client'
-  fileType      = 'exe'
+  packageName  = $env:ChocolateyPackageName
+  softwareName = 'Helix ALM Client'
+  fileType     = 'exe'
 }
 
 $uninstalled = $false

@@ -10,24 +10,24 @@ winTitle = Natron Setup
 
 WinWait, %winTitle% ahk_class QWidget,, 180 ; Welcome
 Sleep 700
-ControlClick, x352 y362, %winTitle%,,,, NA ; Next
+ControlClick, x302 y500, %winTitle%,,,, NA ; Next
 
 Sleep 700
-ControlClick, x352 y362, %winTitle%,,,, NA ; Installation folder
+ControlClick, x302 y500, %winTitle%,,,, NA ; Installation folder
 
 Sleep 700
-ControlClick, x352 y362, %winTitle%,,,, NA ; Select Components
+ControlClick, x302 y500, %winTitle%,,,, NA ; Select Components
 
 Sleep 1000
-ControlClick, x42 y302, %winTitle%,,,, NA ; License agreement - I accept the license
+ControlClick, x52 y414, %winTitle%,,,, NA ; License agreement - I accept the license
 Sleep 700
-ControlClick, x352 y362, %winTitle%,,,, NA ; Select Components
+ControlClick, x302 y500, %winTitle%,,,, NA ; Select Components
 
 Sleep 700
-ControlClick, x352 y362, %winTitle%,,,, NA ; Start Menu shortcuts
+ControlClick, x302 y500, %winTitle%,,,, NA ; Start Menu shortcuts
 
 Sleep 700
-ControlClick, x352 y362, %winTitle%,,,, NA ; Ready to install
+ControlClick, x302 y500, %winTitle%,,,, NA ; Ready to install
 
 Sleep 75000 ; As-is Windows Spy does not catch any QWidget controls
-ControlClick, x436 y362, %winTitle%,,,, NA ; Completing the Natron Wizard - Finish
+ControlClick, x434 y500, %winTitle%,,,, NA ; Completing the Natron Wizard - Finish

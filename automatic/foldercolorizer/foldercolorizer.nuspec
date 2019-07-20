@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>foldercolorizer</id>
+    <version>2.3.7</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/foldercolorizer</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Folder Colorizer</title>
+    <authors>Softorino Ltd.</authors>
+    <projectUrl>https://softorino.com/foldercolorizer2</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/foldercolorizer/foldercolorizer.png</iconUrl>-->
+    <copyright>Copyright © 2019 Softorino Ltd.</copyright>
+    <licenseUrl>https://softorino.com/license-agreement</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://softorino.com/howto/#fc2</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://softorino.com/support</bugTrackerUrl>
+    <tags>foldercolorizer folder color</tags>
+    <summary>Change folder color and get organized.</summary>
+    <description><![CDATA[
+Introducing the 2nd iteration of our critically-acclaimed Folder Colorizer. Originally introduced in 2011. The innovation in Folder Colorizer was its straightforward user experience – ability to change folder colour in 1-click, as if it’s pre-built into the system. Now this seems obvious, but in 2011 it was first of its kind. This tiny detail drew extreme attention & organic popularity to the product. Today, it’s reaching 5 million downloads.
+All of this makes Folder Colorizer 2 a perfect way to organize your workflow. Easily label your important folders, improve your navigation & boost your productivity. It’s free!
+We’re proud that the original concept & design of Folder Colorizer 2 is setting a new bar for the entire category of compact Windows Utility Software.
+## The Result
+Your boringly-yellow default Windows folders become colorful & fun. Now you can choose from millions of colors. And your folders will suddenly look like these:
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/foldercolorizer/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

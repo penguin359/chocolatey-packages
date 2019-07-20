@@ -4,7 +4,7 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     $releases = 'https://github.com/leokhoa/laragon/releases/latest'
-    $regex   = '/releases/download/(?<Version>.*?)/laragon.7z'
+    $regex    = '/releases/download/(?<Version>.*?)/laragon.7z'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing	 
     $url = $download_page.links | ? href -match $regex

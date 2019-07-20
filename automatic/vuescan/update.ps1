@@ -12,8 +12,8 @@ function global:au_GetLatest {
 
     return @{
         Version = $matches.Version
-        URL32 = 'https://www.hamrick.com/files/vuex3296.exe'
-        URL64 = 'https://www.hamrick.com/files/vuex6496.exe'
+        URL32   = 'https://www.hamrick.com/files/vuex3296.exe'
+        URL64   = 'https://www.hamrick.com/files/vuex6496.exe'
     }
 }
 

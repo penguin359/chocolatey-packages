@@ -2,9 +2,9 @@
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  softwareName  = 'Voicemeeter, The Virtual Mixing Console'
-  fileType      = 'exe'  
+  packageName  = $env:ChocolateyPackageName
+  softwareName = 'Voicemeeter, The Virtual Mixing Console'
+  fileType     = 'exe'  
 }
 
 $uninstalled = $false

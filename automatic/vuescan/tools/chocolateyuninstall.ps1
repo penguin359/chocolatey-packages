@@ -2,10 +2,10 @@
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  softwareName  = 'VueScan *'
-  fileType      = 'exe'
-  silentArgs    = "/remove"
+  packageName  = $env:ChocolateyPackageName
+  softwareName = 'VueScan *'
+  fileType     = 'exe'
+  silentArgs   = "/remove"
 }
 
 $uninstalled = $false

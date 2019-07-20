@@ -11,8 +11,8 @@ function global:au_GetLatest {
   $version = $matches.Version
 	
 	return @{
-    Version = $version
-    URL32   = 'https://freefr.dl.sourceforge.net/project/kid3/kid3/' + $version + '/kid3-' + $version + '-win32.zip'
+    Version = $version    
+    URL32   = 'https://netcologne.dl.sourceforge.net/project/kid3/kid3/' + $version + '/kid3-' + $version + '-win32.zip'
   }
 }
 

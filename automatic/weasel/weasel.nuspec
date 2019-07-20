@@ -20,7 +20,7 @@
     <tags>weasel rime ink brush</tags>
     <summary>[[Summary]]</summary>
     <description><![CDATA[
-[[Description]]
+Open source technology based on Zhongzhou rhyme input method engine/Rime Input Method Engine.
 ]]></description>
     <releaseNotes>https://github.com/rime/weasel/releases</releaseNotes>
     <dependencies>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿ml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
@@ -9,7 +9,7 @@
     <title>NCollector Studio Lite Free</title>
     <authors>Calluna Software</authors>
     <projectUrl>http://www.calluna-software.com</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ncollector-studio/ncollector-studio-lite.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ncollector-studio-lite/ncollector-studio-lite.png</iconUrl>
     <copyright>© 2007-2018 Calluna Software. All rights reserved</copyright>
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->

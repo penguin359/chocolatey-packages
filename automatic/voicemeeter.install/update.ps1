@@ -3,10 +3,10 @@
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-  $releases       = 'https://www.vb-audio.com/Voicemeeter'  
-  $regex_version  = 'Voicemeeter (?<Version>[\d\.]+).*\(EXE file\)'
+  $releases      = 'https://www.vb-audio.com/Voicemeeter'  
+  $regex_version = 'Voicemeeter (?<Version>[\d\.]+).*\(EXE file\)'
 
-  $download_page  = (Invoke-WebRequest -Uri $releases)
+  $download_page = (Invoke-WebRequest -Uri $releases)
   $download_page.RawContent -match $regex_version
   
   return @{ Version = $matches.Version ; URL32 = 'https://download.vb-audio.com/Download_CABLE/VoicemeeterSetup.exe' }

@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  softwareName  = 'gSubs *'
-  fileType      = 'exe'
-  silentArgs    = "/S /allusers"
+  packageName  = $env:ChocolateyPackageName
+  softwareName = 'gSubs *'
+  fileType     = 'exe'
+  silentArgs   = "/S /allusers"
 }
 
 $uninstalled = $false

@@ -39,7 +39,7 @@ Sick of dealing with hosting companies? GitHub Pages are powered by Jekyll, so y
 ]]></description>
   <releaseNotes>https://github.com/jekyll/jekyll/releases</releaseNotes>
   <dependencies>
-    <!--dependency id="msys2" version="20180531.0.0" />-->
+    <dependency id="msys2" version="20180531.0.0" />
     <dependency id="ruby" version="2.6.3.1" />
     <!--<dependency id="ruby2.devkit" version="4.7.2.2013022403" />-->
   </dependencies>

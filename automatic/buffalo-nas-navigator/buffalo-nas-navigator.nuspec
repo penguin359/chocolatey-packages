@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>buffalo-nas-navigator</id>
-    <version>2.97</version>
+    <version>2.99</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/buffalo-nas-navigator</packageSourceUrl>
     <owners>chtof</owners>
     <title>Buffalo NAS Navigator</title>
@@ -19,8 +19,8 @@
     <bugTrackerUrl>https://www.buffalotech.com/support</bugTrackerUrl>
     <tags>buffalo-nas-navigator buffalo NAS navigator browser</tags>
     <summary>File explorer for Buffalo NAS devices (Terastations and Linkstations).</summary>
-    <description><![CDATA[
-File explorer for Buffalo NAS devices (Terastations and Linkstations).
+    <description><![CDATA[File explorer for Buffalo NAS devices (Terastations and Linkstations).
+
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/buffalo-nas-navigator/screenshot.png)
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->

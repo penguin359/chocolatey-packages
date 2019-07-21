@@ -3,7 +3,7 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  unzipLocation = $toolsDir
+  unzipLocation = "$toolsDir"
   fileType      = 'exe'  
 
   url           = 'https://www.buffalotech.com/support/download/nasnavi-299.zip'
@@ -15,7 +15,7 @@ Install-ChocolateyZipPackage @packageArgs
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName 
   fileType      = 'exe'
-  file          = "$toolsDir\nasnavi-297\NASNaviInst.exe"
+  file          = "$toolsDir\nasnavi-299\NASNaviInst.exe"
 }
 Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyinstall.ahk`""
 Install-ChocolateyInstallPackage @packageArgs

@@ -2,9 +2,9 @@ $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  file          = "$toolsDir\AutoDarkMode_Setup.exe"
-  silentArgs	= "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
+  packageName = $env:ChocolateyPackageName
+  file        = "$toolsDir\AutoDarkMode_Setup.exe"
+  silentArgs  = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
 }
 
 if ( [environment]::OSVersion.Version.Major -ne 10 )  {

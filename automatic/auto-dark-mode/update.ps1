@@ -5,14 +5,14 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 function global:au_GetLatest {
     $github_repository = "Armin2208/Windows-Auto-Night-Mode"
     $releases = "https://github.com/" + $github_repository + "/releases/latest"    
-    $regex = 'Armin2208/Windows-Auto-Night-Mode/tree/(?<Version>[\d\.]+)'
+    $regex    = 'Armin2208/Windows-Auto-Night-Mode/tree/(?<Version>[\d\.]+)'
 
     $download_page = (Invoke-WebRequest -Uri $releases).RawContent -match $regex
     $version = $matches.Version
 
     return @{
         Version = $version
-        URL32 = 'https://github.com/' + $github_repository + '/releases/download/' + $version + '/AutoDarkMode_Setup.exe'
+        URL32   = 'https://github.com/' + $github_repository + '/releases/download/' + $version + '/AutoDarkMode_Setup.exe'
     }
 }
 

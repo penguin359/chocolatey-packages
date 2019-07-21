@@ -18,9 +18,9 @@
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://www.buffalotech.com/support</bugTrackerUrl>
     <tags>buffalo-nas-navigator buffalo NAS navigator browser</tags>
-    <summary></summary>
+    <summary>File explorer for Buffalo NAS devices (Terastations and Linkstations).</summary>
     <description><![CDATA[
-
+File explorer for Buffalo NAS devices (Terastations and Linkstations).
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/buffalo-nas-navigator/screenshot.png)
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->

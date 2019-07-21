@@ -4,12 +4,12 @@
   <metadata>
     <id>splint.portable</id>
     <version>3.1.2</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/splint.portable</packageSourceUrl>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/splint.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>Splint (Portable)</title>
     <authors>Splint Team</authors>
     <projectUrl>http://splint.org</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/splint.portable/splint.portable.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/splint.portable/splint.portable.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://raw.githubusercontent.com/ravenexp/splint/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

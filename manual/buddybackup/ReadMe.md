@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/buddybackup/buddybackup.png" width="48" height="48"/> [BuddyBackup](https://chocolatey.org/packages/buddybackup)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/buddybackup/buddybackup.png" width="48" height="48"/> [BuddyBackup](https://chocolatey.org/packages/buddybackup)
 
 ## Features
 - Simple, easy to use interface
@@ -20,4 +20,4 @@ Your files are efficiently backed up the moment they are saved.
 ### Online
 Make easy, secure, off-site backups so you're safe in the event of fire, flood or theft.
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/buddybackup/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/buddybackup/screenshot.png)

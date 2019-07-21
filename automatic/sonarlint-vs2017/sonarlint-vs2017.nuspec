@@ -62,6 +62,9 @@ SonarLint can be connected to a SonarQube server or SonarCloud to share rulesets
 Learn more about [SonarQube](https://www.sonarqube.org).
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <dependencies>
+      <dependency id="chocolatey-visualstudio.extension" version="1.8.1" />
+    </dependencies>
   </metadata>
   <files>
     <file src="legal\**" target="legal" />

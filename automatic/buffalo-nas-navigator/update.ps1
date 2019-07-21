@@ -3,11 +3,11 @@
 function global:au_GetLatest {
     $releases = 'https://www.buffalotech.com/support'
 
-    $regex    = 'nasnavi-(?<Version>\d+).zip$'
+    $regex    = 'nasnavi-(?<VersionMajor>\d)(?<VersionMinor>\d+).zip$'
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	$url = $download_page.links | ? href -match $regex
 
-    return @{ Version = $version ; URL32 = $url.href }
+    return @{ Version = $matches.VersionMajor + '.' + $matches.VersionMinor ; URL32 = $url.href }
 }
 
 function global:au_SearchReplace {

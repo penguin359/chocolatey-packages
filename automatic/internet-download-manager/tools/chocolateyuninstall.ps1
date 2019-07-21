@@ -2,10 +2,10 @@ $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  softwareName  = 'Internet Download Manager'
-  fileType      = 'exe'
-  silentArgs    = "/skipdlgs"
+  packageName  = $env:ChocolateyPackageName
+  softwareName = 'Internet Download Manager'
+  fileType     = 'exe'
+  silentArgs   = "/skipdlgs"
 }
 
 $uninstalled = $false

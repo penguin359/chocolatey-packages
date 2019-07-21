@@ -14,7 +14,7 @@ function global:au_GetLatest {
     $Latest.ChecksumType = "sha256"
     $Latest.Checksum = Get-FileHash -Algorithm $Latest.ChecksumType -Path "$filePath" | ForEach-Object Hash
 
-    $remote_checksum  = checksum -t sha256 "$filePath"
+    $remote_checksum  = (Get-FileHash -Path "$filePath").Hash
     if ($current_checksum -ne $remote_checksum) {
         Write-Host 'Remote checksum is different then the current one, forcing update'
         $global:au_old_force = $global:au_force

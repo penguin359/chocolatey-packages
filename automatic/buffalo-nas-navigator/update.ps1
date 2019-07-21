@@ -2,12 +2,15 @@
 
 function global:au_GetLatest {
     $releases = 'https://www.buffalotech.com/support'
+    $regex    = 'nasnavi-(?<VersionFile>(?<VersionMajor>\d)(?<VersionMinor>\d\d)).zip$'
 
-    $regex    = 'nasnavi-(?<VersionMajor>\d)(?<VersionMinor>\d\d).zip$'
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	$url = $download_page.links | ? href -match $regex
+    (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Out-Null
 
-    return @{ Version = $matches.VersionMajor + '.' + $matches.VersionMinor ; URL32 = $url.href }
+    return @{
+        Version     = $matches.VersionMajor + '.' + $matches.VersionMinor
+        VersionFile = $matches.VersionFile
+        URL32       = $url.href
+    }
 }
 
 function global:au_SearchReplace {
@@ -15,6 +18,7 @@ function global:au_SearchReplace {
         "tools\chocolateyInstall.ps1" = @{
 			"(^(\s)*url\s*=\s*)('.*')"      = "`$1'$($Latest.URL32)'"
             "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
+            "([$]toolsDir\\nasnavi-)\d+(\\NASNaviInst.exe)" = "`${1}$($Latest.VersionFile)`${2}"
         }
     }
 }

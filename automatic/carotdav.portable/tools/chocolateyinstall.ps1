@@ -1,10 +1,10 @@
 $ErrorActionPreference = 'Stop';
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  destination   = "$toolsDir"
-  file          = "$toolsDir\CarotDAV1.15.5.portable.zip"  
+  packageName = $env:ChocolateyPackageName
+  destination = "$toolsDir"
+  file        = "$toolsDir\CarotDAV1.15.5.portable.zip"  
 }
 
 Get-ChocolateyUnzip @packageArgs

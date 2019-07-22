@@ -17,9 +17,9 @@ function global:au_GetLatest {
 
 function global:au_SearchReplace {
     @{
-        "legal\VERIFICATION.txt"  = @{            
-            "(?i)(x32: ).*"               = "`${1}$($Latest.URL32)"
-            "(?i)(x64: ).*"               = "`${1}$($Latest.URL32)"            
+        "legal\VERIFICATION.txt"  = @{
+            "(?i)(x32: ).*"             = "`${1}$($Latest.URL32)"
+            "(?i)(x64: ).*"             = "`${1}$($Latest.URL32)"
             "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
             "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"

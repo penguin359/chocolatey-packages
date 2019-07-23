@@ -2,15 +2,18 @@
  
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
-function global:au_GetLatest {
-  $releases = 'https://sourceforge.net/projects/qtpfsgui'
-  $regex    = 'Luminance-HDR_v\.(?<Version>[\d\.]+)_Windows_64.zip'
+function global:au_GetLatest {  
+  $releases    = 'https://sourceforge.net/projects/qtpfsgui'
+  $regex       = 'Luminance-HDR_v\.(?<Version>[\d\.]+)_Windows_64.exe'
 
   (Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null
-  $version = $matches.Version
+  #$version = $matches.Version
+
+  #$releasesUrl = 'https://sourceforge.net/projects/qtpfsgui/files/luminance/' + $version
+  #$regexUrl    = 'Luminance-HDR_v\.(?<Version>[\d\.]+)_Windows_64.exe'
 
   return @{
-    Version = $version
+    Version = $matches.Version
     URL64   = 'https://netix.dl.sourceforge.net/project/qtpfsgui/luminance/' + $version + '/Luminance-HDR_v.' + $version + '_Windows_64.zip'
   }
 }

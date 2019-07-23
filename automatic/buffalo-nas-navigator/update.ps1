@@ -9,14 +9,14 @@ function global:au_GetLatest {
     return @{
         Version     = $matches.VersionMajor + '.' + $matches.VersionMinor
         VersionFile = $matches.VersionFile
-        URL32       = $url.href
+        URL         = $url.href
     }
 }
 
 function global:au_SearchReplace {
     @{
         "tools\chocolateyInstall.ps1" = @{
-			"(^(\s)*url\s*=\s*)('.*')"      = "`$1'$($Latest.URL32)'"
+			"(^(\s)*url\s*=\s*)('.*')"      = "`$1'$($Latest.URL)'"
             "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
             "([$]toolsDir\\nasnavi-)\d+(\\NASNaviInst.exe)" = "`${1}$($Latest.VersionFile)`${2}"
         }

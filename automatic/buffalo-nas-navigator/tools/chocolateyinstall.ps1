@@ -13,9 +13,9 @@ $packageArgs = @{
 Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName 
-  fileType      = 'exe'
-  file          = "$toolsDir\nasnavi-299\NASNaviInst.exe"
+  packageName = $env:ChocolateyPackageName 
+  fileType    = 'exe'
+  file        = "$toolsDir\nasnavi-299\NASNaviInst.exe"
 }
 Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyinstall.ahk`""
 Install-ChocolateyInstallPackage @packageArgs

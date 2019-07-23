@@ -9,7 +9,7 @@ function global:au_GetLatest {
     return @{
         Version     = $matches.VersionMajor + '.' + $matches.VersionMinor
         VersionFile = $matches.VersionFile
-        URL         = $url.href
+        URL         = 'https://www.buffalotech.com/support/download/nasnavi-' + $matches.VersionFile + '.zip'
     }
 }
 

@@ -9,7 +9,7 @@ if ($pp['DIR']){
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName  
-  file          = "$toolsDir\flrig-1.3.45_setup.exe"
+  file          = "$toolsDir\flrig-1.3.46_setup.exe"
   silentArgs    = $silentArgs
 }
 

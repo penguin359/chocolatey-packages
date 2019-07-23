@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>rtmpdump</id>
-    <version>2.4</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/rtmpdump</packageSourceUrl>
+    <version>2.4.0.20190723</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/rtmpdump</packageSourceUrl>
     <owners>chtof</owners>
     <title>RTMPDump</title>
     <authors>RTMPDump Team.</authors>
     <projectUrl>http://rtmpdump.mplayerhq.hu</projectUrl>
-    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/rtmpdump/rtmpdump.png</iconUrl>-->
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/rtmpdump/rtmpdump.png</iconUrl>-->
     <copyright>Copyright (C) 2009 Andrej Stepanchuk - Copyright (C) 2010-2011 Howard Chu</copyright>
     <licenseUrl>http://git.ffmpeg.org/gitweb/rtmpdump.git/blob_plain/HEAD:/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

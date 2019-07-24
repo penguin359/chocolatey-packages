@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://bugs.eclipse.org/bugs/query.cgi</bugTrackerUrl>
     <tags>eclipse-java-oxygen eclipse ide java development</tags>
     <summary>The essential tools for any Java developer, including a Java IDE, a Git client, XML Editor, Mylyn, Maven and Gradle integration</summary>
-    <description><![CDATA[
-## Prerequisites
+    <description><![CDATA[## Prerequisites
 You will need a [Java runtime environment (JRE)](https://wiki.eclipse.org/Eclipse/Installation#Install_a_JVM) to use Eclipse (Java SE 8 or greater is recommended). All downloads are provided under the terms and conditions of the [Eclipse Foundation Software User Agreement](https://www.eclipse.org/legal/epl/notice.php) unless otherwise specified.
 
 ## Features

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gnuplot</id>
+    <version>5.2.7</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/gnuplot</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Gnuplot</title>
+    <authors>Thomas Williams, Colin Kelley</authors>
+    <projectUrl>http://gnuplot.sourceforge.net</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gnuplot/gnuplot.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://sourceforge.net/p/gnuplot/gnuplot-main/ci/master/tree/Copyright?format=raw</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://sourceforge.net/p/gnuplot/gnuplot-main/ci/master/tree</projectSourceUrl>
+    <docsUrl>http://gnuplot.sourceforge.net/documentation.html</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/gnuplot/mailman</mailingListUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/gnuplot/_list/tickets</bugTrackerUrl>
+    <tags>gnuplot plot</tags>
+    <summary>A portable, multi-platform, command-line driven graphing utility.</summary>
+    <description><![CDATA[
+A famous scientific plotting package, features include 2D and 3D plotting, a huge number of output formats, interactive input or script-driven options, and a large set of scripted examples.
+It can be used interactively to plot functions and data points in both two- and three-dimensional plots in many different styles and many different output formats. Gnuplot can also be used as a scripting language to automate generation of plots. It is designed primarily for the visual display of scientific data. gnuplot is copyrighted, but freely distributable; you don’t have to pay for it.
+
+## Features
+- Two-dimensional functions and data plots combining many different elements such as points, lines, error bars, filled shapes, labels, arrows, ...
+- Polar axes, log-scaled axes, general nonlinear axis mapping, parametric coordinates
+- Data representations such as heat maps, beeswarm plots, violin plots, histograms, ...
+- Three-dimensional plots of data points, lines, and surfaces in many different styles (contour plot, mesh)
+- Algebraic computation using integer, floating point, or complex arithmetic
+- Data-driven model fitting using Marquardt-Levenberg minimization
+- Support for a large number of operating systems, graphics file formats and output devices
+- Extensive on-line help
+- TEX-like text formatting for labels, titles, axes, data points
+- Interactive command line editing and history
+]]></description>
+    <releaseNotes>https://vorboss.dl.sourceforge.net/project/gnuplot/gnuplot/5.2.7/RELEASE_NOTES_5_2_7</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

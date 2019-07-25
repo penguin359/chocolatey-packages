@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>mboxviewer</id>
-    <version>1.0.3.1</version>
+    <version>1.0.3.2</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/mboxviewer</packageSourceUrl>
     <owners>chtof</owners>
     <title>Mbox Viewer</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://sourceforge.net/p/mbox-viewer/_list/tickets</bugTrackerUrl>
     <tags>mboxviewer mbox viewer</tags>
     <summary>Windows Mbox Viewer.</summary>
-    <description><![CDATA[
-Gain access to mbox archives or single eml messages.
+    <description><![CDATA[Gain access to mbox archives or single eml messages.
 View attachments and export single mails in eml format.
 Access large box files such as Google Takeout or Mozilla Thunderbird Archives.
 

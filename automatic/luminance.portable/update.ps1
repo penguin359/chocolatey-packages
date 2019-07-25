@@ -7,7 +7,7 @@ function global:au_GetLatest {
   $regex       = 'Luminance-HDR_v\.(?<Version>[\d\.]+)_Windows_64.exe'
 
   (Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null
-  #$version = $matches.Version
+  $version = $matches.Version
 
   #$releasesUrl = 'https://sourceforge.net/projects/qtpfsgui/files/luminance/' + $version
   #$regexUrl    = 'Luminance-HDR_v\.(?<Version>[\d\.]+)_Windows_64.exe'

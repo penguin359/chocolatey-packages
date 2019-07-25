@@ -1,5 +1,7 @@
 import-module au
 
+[Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
+
 function global:au_GetLatest {
     $releases = 'https://myopenlab.org/inicio/descargar-myopenlab/'
     $regex = 'MyOpenLab v(?<Version>[\d\.]+)'

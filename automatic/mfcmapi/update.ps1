@@ -34,7 +34,7 @@ function global:au_SearchReplace {
 
         "tools\chocolateyinstall.ps1" = @{
             "(`"[$]toolsDir\\MFCMAPI.exe.)[\d\.]+(.zip`")"    = "`$1$($Latest.Version)`$2"
-            "(`"[$]toolsDir\\MFCMAPI.exe.x64.)[\d\.]+.zip`")" = "`$1$($Latest.Version)`$2"
+            "(`"[$]toolsDir\\MFCMAPI.exe.x64.)[\d\.]+(.zip`")" = "`$1$($Latest.Version)`$2"
         }
     }
 }

@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>mfcmapi</id>
-    <version>2019.0.19115.01</version>
+    <version>2019.2.19207.938</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/mfcmapi</packageSourceUrl>
     <owners>chtof</owners>
     <title>MFCMapi</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/stephenegriffin/mfcmapi/issues</bugTrackerUrl>
     <tags>mfcmapi mfcmapi exchange outlook access MAPI store</tags>
     <summary>MFCMAPI provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers with a sample for MAPI development.</summary>
-    <description><![CDATA[
-MFCMAPI provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers with a sample for MAPI development.
+    <description><![CDATA[MFCMAPI provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers with a sample for MAPI development.
 ]]></description>
     <releaseNotes>https://github.com/stephenegriffin/mfcmapi/releases</releaseNotes>
   </metadata>

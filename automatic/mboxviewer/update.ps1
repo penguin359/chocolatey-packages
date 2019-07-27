@@ -10,21 +10,24 @@ function global:au_GetLatest {
     $url           = $download_page.links | ? href -match $regex | select -First 1
     $version       = $matches.Version
 
-    return @{ Version = $version ; URL = "https://sourceforge.net" + $url.href + "mbox-viewer.exe-v" + $version + ".zip" }
+    return @{
+        Version = $version
+        URL32 = "https://freefr.dl.sourceforge.net/project/mbox-viewer/v" + $version + '/mbox-viewer.exe-v' + $version + '.zip'
+    }
 }
 
 function global:au_SearchReplace {
     @{
        "legal\VERIFICATION.txt"  = @{
-           "(?i)(x32).*"                = "`${1}$($Latest.URL)"
-            "(?i)(x64).*"               = "`${1}$($Latest.URL)"
-            "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType)"
-            "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum)"
-            "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum)"
+           "(?i)(x32).*"                = "`${1} $($Latest.URL32)"
+            "(?i)(x64).*"               = "`${1} $($Latest.URL32)"
+            "(?i)(checksum type:\s+).*" = "`${1} $($Latest.ChecksumType32)"
+            "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
+            "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
         }
 
         "tools\chocolateyinstall.ps1" = @{
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName)`""
+          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
         }
     }
 }

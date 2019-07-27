@@ -30,4 +30,4 @@ Sleep 700
 ControlClick, x302 y500, %winTitle%,,,, NA ; Ready to install
 
 Sleep 75000 ; As-is Windows Spy does not catch any QWidget controls
-ControlClick, x434 y500, %winTitle%,,,, NA ; Completing the Natron Wizard - Finish
+ControlClick, x434 y360, %winTitle%,,,, NA ; Completing the Natron Wizard - Finish

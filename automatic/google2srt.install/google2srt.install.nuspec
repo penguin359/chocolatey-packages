@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>google2srt.install</id>
+    <version>0.7.7</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/google2srt.install</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Google2SRT (Install)</title>
+    <authors>komz</authors>
+    <projectUrl>https://google2srt.sourceforge.io/en</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/google2srt.install/google2srt.install.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://google2srt.sourceforge.io/en/help.html</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://sourceforge.net/p/google2srt/_list/tickets</bugTrackerUrl>
+    <tags>download save convert YouTube Google Video subtitles SubRip srt</tags>
+    <summary>Download, save and convert multiple subtitles from YouTube videos</summary>
+    <description><![CDATA[
+Google2SRT allows you to download, save and convert multiple subtitles and translations from YouTube and Google Video to SubRip (.srt) format, which is recognized by most video players. You can download XML subtitles or simply type video's URL, Google2SRT will do the rest.
+
+## Features
+- Download YouTube subtitles - Closed Captions (CC)
+- Convert YouTube subtitles to SRT (SubRip)
+- Download YouTube subtitle translations
+- Download YouTube ASR (Automatic Speech Recognition) subtitles and their translations
+- Download multiple YouTube subtitles and translations at once
+- Proxy support
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/google2srt.install/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -17,6 +17,7 @@ function global:au_GetLatest {
 
     return @{
         Version = $century + $version
+        VersionFile = $version
         URL32   = "https://github.com" + $url32.href
         URL64   = "https://github.com" + $url64.href
     }
@@ -33,8 +34,8 @@ function global:au_SearchReplace {
         }
 
         "tools\chocolateyinstall.ps1" = @{
-            "(`"[$]toolsDir\\MFCMAPI.exe.)[\d\.]+(.zip`")"    = "`${1}$($Latest.Version)`$2"
-            "(`"[$]toolsDir\\MFCMAPI.exe.x64.)[\d\.]+(.zip`")" = "`${1}$($Latest.Version)`$2"
+            "(`"[$]toolsDir\\MFCMAPI.exe.)[\d\.]+(.zip`")"    = "`${1}$($Latest.VersionFile)`$2"
+            "(`"[$]toolsDir\\MFCMAPI.exe.x64.)[\d\.]+(.zip`")" = "`${1}$($Latest.VersionFile)`$2"
         }
     }
 }

@@ -4,10 +4,11 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
-  file          = "$toolsDir\"
+  file          = "$toolsDir\mbox-viewer.exe-v1.0.3.2.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs
+Remove-Item -Path $packageArgs.file
 
 # Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)

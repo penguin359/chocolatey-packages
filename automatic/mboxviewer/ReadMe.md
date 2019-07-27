@@ -4,7 +4,7 @@ Gain access to mbox archives or single eml messages.
 View attachments and export single mails in eml format.
 Access large box files such as Google Takeout or Mozilla Thunderbird Archives.
 
-Features
+## Features
 - open big mbox files > 4Gb
 - read google mail archives
 - quick access to attachments

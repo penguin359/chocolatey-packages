@@ -16,15 +16,15 @@ function global:au_GetLatest {
 function global:au_SearchReplace {
     @{
        "legal\VERIFICATION.txt"  = @{
-           "(?i)(x32).*"                = "`${1}$($Latest.URL32)"
-            "(?i)(x64).*"               = "`${1}$($Latest.URL32)"
-            "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
-            "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
-            "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
+           "(?i)(x32).*"                = "`${1}$($Latest.URL)"
+            "(?i)(x64).*"               = "`${1}$($Latest.URL)"
+            "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType)"
+            "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum)"
+            "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum)"
         }
 
         "tools\chocolateyinstall.ps1" = @{
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName64)`""
+          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName)`""
         }
     }
 }

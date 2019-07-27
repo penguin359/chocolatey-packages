@@ -1,0 +1,36 @@
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/apo-ok.portable/apo-ok.portable.png" width="48" height="48"/> [AutoPowerOptionsOK (Portable)](https://chocolatey.org/packages/apo-ok.portable)
+
+Automatic Energy Options Customization for Windows is the right tool for Windows if you want to increase energy efficiency! 
+
+### Key features of the automatic energy plan adjustment! 
+
+Activate at keyboard, controller and / or mouse events with adjustable timer:
+- Customizable Auto turn off timer for the monitor!
+- Customizable auto sleep timer for the computer!
+- Auto switching to another energy plan!
+- [Detect Xbox Controller and / or Joystick events](http://www.softwareok.com/?seite=faq-AutoPowerOptionsOK&faq=2)
+
+Other specifications:
+- Very small in size great in power save
+- Low CPU and Memory Usage
+- Fast access via To-Tray
+- Visually impaired friendly (zoom feature)
+- [Multilingual](http://www.softwareok.com/?seite=Microsoft/AutoPowerOptionsOK#ML)
+- Portable
+- etc. ... 
+
+Many user especial on Windows 10, ask for a simple designed program to increase the PC's energy efficiency and less expensive than Don't Sleep! 
+
+**For what, the automatic power options adjustment for Windows!**
+
+On some Windows operating systems, the power options are adjusted, but sometimes not complied with, especially under Windows 10 by the many background apps, without that you can do something as a user on your own PC, with a size of less than 100 KB , that is the Right Tool for this Job to reduce Your Energy Consumption. All PC experts recommends using the 'power down' or ' sleep' mode to save energy when the computer is not in use to protect the hardware, under all Microsoft Windows an other operating systems! 
+
+Even if you have no problems with the energy options, but you have to adjust them often, then you can also do that via the to-tray function. These can be easy used [to changed power options quite quickly](http://www.softwareok.com/?seite=Microsoft/AutoPowerOptionsOK#Image1)!
+
+### About AutoPowerOptionsOK (APO-OK) for Windows! 
+
+The program is suitable for inexperienced Windows PC users and experienced administrators. This is a feature that can be used with Batch files and PowerShell scripts, but why, it's not for everyone, and not necessary with this useful tool. 
+
+Even for a PC beginner, this free program is no problem making the Windows PCs more energy efficient and and is a resource saver.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/apo-ok.portable/screenshot.png)

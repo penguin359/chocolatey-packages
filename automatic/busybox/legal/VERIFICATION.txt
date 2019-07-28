@@ -1,0 +1,22 @@
+﻿VERIFICATION
+ 
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+Package can be verified like this:
+ 
+1. Download:
+ 
+   x32: https://frippery.org/files/busybox/busybox-w32-FRP-3128-g241d4d4ac.exe
+   x64: https://frippery.org/files/busybox/busybox.exehttps://frippery.org/files/busybox/busybox-w32-FRP-3128-g241d4d4ac.exe
+  
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+ 
+   checksum type: sha256
+   checksum32: 06C5460FDEECDD2CDC0613841515E0A7A302D2C33C317060D5304C0D264B8F06
+   checksum64: 06C5460FDEECDD2CDC0613841515E0A7A302D2C33C317060D5304C0D264B8F06
+ 
+File 'LICENSE.txt' is obtained from:
+   https://raw.githubusercontent.com/rmyorston/busybox-w32/master/LICENSE

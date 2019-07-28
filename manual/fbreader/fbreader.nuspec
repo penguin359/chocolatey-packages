@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>fbreader</id>
+    <version>0.12.10</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/fbreader</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>FBReader</title>
+    <authors>Nikolay Pultsin</authors>
+    <projectUrl>http://fbreader.org/win32</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/fbreader/fbreader.png</iconUrl>
+    <copyright>Copyright © 2005-2013 Geometer Plus, LLC - Copyright © 2013-2019 FBReader.ORG Limited</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://fbreader.org/content/documentation</docsUrl>
+    <mailingListUrl>https://www.facebook.com/fbreader</mailingListUrl>
+    <bugTrackerUrl>https://fbreader.org/faq-page#t27n332</bugTrackerUrl>
+    <tags>fbreader FBReader EPUB Reader Books</tags>
+    <summary>Free e-Book Reader</summary>
+    <description><![CDATA[
+## About FBReader
+
+- FBReader is a popular (20+ millions installs) multi-platform ebook reader.
+- Supports popular ebook formats: ePub, fb2, mobi, rtf, html, plain text, and a lot of other formats.
+- Provides access to popular network libraries that contain a large set of ebooks.
+- Download books for free or for a fee. Add your own catalog.Highly customizable. Choose colors, fonts, page turning animations, dictionaries, bookmarks, etc. to make reading as convenient as you want.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/fbreader/screenshot.png)
+]]></description>
+    <releaseNotes>https://fbreader.org/news</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

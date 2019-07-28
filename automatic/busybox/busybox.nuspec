@@ -17,7 +17,7 @@
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/rmyorston/busybox-w32/issues</bugTrackerUrl>
-    <tags>busybox portable SPACE_SEPARATED</tags>
+    <tags>busybox unix tools portable</tags>
     <summary>BusyBox is a single binary that contains many common Unix tools.</summary>
     <description><![CDATA[
 [BusyBox](http://busybox.net) is a single binary that contains many common Unix tools. It's often found in embedded Linux systems like routers, in Android smartphones, in Linux containers and anywhere else it would be handy to have a compact set of Unix command line tools.

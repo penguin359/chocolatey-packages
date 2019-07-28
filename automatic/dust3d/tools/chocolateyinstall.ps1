@@ -15,7 +15,3 @@ $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = Join-Path $programs "Dust3D.lnk"
 $targetPath = Join-Path $toolsDir "dust3d.exe"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath
-# Remove start menu shortcut
-$programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
-$shortcutFilePath = Join-Path $programs "Dust3D.lnk"
-if (Test-Path $shortcutFilePath) { Remove-Item $shortcutFilePath }

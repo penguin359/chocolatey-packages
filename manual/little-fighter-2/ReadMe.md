@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/little-fighter-2/little-fighter-2.png" width="48" height="48"/> [Little Fighter 2](https://chocolatey.org/packages/little-fighter-2)
+﻿# [Little Fighter 2](https://chocolatey.org/packages/little-fighter-2)
 
 Little Fighter 2 (LF2) is a popular freeware PC fighting game for Windows and is the sequel to the game to [Little Fighter 1 (LF1)](http://lf2.net/lf1.html). LF2 was created by [Marti Wong](http://martiwong.com) and [Starsky Wong](http://starsky.lf2.net) in 1999, and released in a long series of updates.
 

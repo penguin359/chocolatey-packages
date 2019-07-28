@@ -1,4 +1,4 @@
-﻿VERIFICATION
+VERIFICATION
  
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/huxingyi/dust3d/releases/download/1.0.0-beta.21/dust3d-1.0.0-beta.21-x86.zip
-   x64: https://github.com/huxingyi/dust3d/releases/download/1.0.0-beta.21/dust3d-1.0.0-beta.21-x86.zip
+   x32: https://github.com/huxingyi/dust3d/releases/download/1.0.0-beta.22/dust3d-1.0.0-beta.22-x86.zip
+   x64: https://github.com/huxingyi/dust3d/releases/download/1.0.0-beta.22/dust3d-1.0.0-beta.22-x86.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: A028DDB3C38DA242FFC9BB7A8FD0FB69F6CFC23B66A853E9F00FEB23CC7EBF8F
-   checksum64: A028DDB3C38DA242FFC9BB7A8FD0FB69F6CFC23B66A853E9F00FEB23CC7EBF8F
+   checksum32: 099F1CD4B8EACE57B9CEEE952AB30352AD79CBACFCE43F3E41F9F0EF4323E521
+   checksum64: 099F1CD4B8EACE57B9CEEE952AB30352AD79CBACFCE43F3E41F9F0EF4323E521
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/huxingyi/dust3d/master/LICENSE

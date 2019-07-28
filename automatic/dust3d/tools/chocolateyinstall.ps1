@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
   destination = "$toolsDir"
-  file        = "$toolsDir\dust3d-1.0.0-beta.21-x86.zip"
+  file        = "$toolsDir\dust3d-1.0.0-beta.22-x86.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs

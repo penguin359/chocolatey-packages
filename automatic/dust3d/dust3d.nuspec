@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dust3d</id>
-    <version>1.0.0.21-beta</version>
+    <version>1.0.0.22-beta</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/dust3d</packageSourceUrl>
     <owners>chtof</owners>
     <title>Dust3D</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/huxingyi/dust3d/issues</bugTrackerUrl>
     <tags>dust3d open-cource modeling software 3D watertight</tags>
     <summary>Dust3D is a cross-platform open-source modeling software.</summary>
-    <description><![CDATA[
-## About
+    <description><![CDATA[## About
 Dust3D is a cross-platform open-source modeling software. It helps you create a 3D watertight model in seconds. Use it to speed up your character modeling in game making, 3D printing, and so on.
 
 ## Free and Open-Source

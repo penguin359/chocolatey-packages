@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>wop</id>
+    <version>1.6</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/wop</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>World of Padman</title>
+    <authors>Ente and his team.</authors>
+    <projectUrl>https://worldofpadman.net</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/wop/worldofpadman.png</iconUrl>
+    <copyright>Copyright © 2019 World of Padman </copyright>
+    <licenseUrl>https://worldofpadman.net/en/about/copyright</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/PadWorld-Entertainment/wop-gamesource</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>https://www.moddb.com/groups/padcommunity/forum</mailingListUrl>
+    <bugTrackerUrl>https://github.com/PadWorld-Entertainment/wop-engine/issues</bugTrackerUrl>
+    <tags>worldofpadman video game fun shooter open source fps first-person</tags>
+    <summary>Freeware fun shooter developed by ENTE and his team.</summary>
+    <description><![CDATA[
+Freeware fun shooter developed by ENTE and his team.
+
+See https://en.wikipedia.org/wiki/World_of_Padman for more details about this game.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/worldofpadman/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

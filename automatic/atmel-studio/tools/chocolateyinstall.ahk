@@ -6,13 +6,12 @@ SetTitleMatchMode, 2  ; A windows's title can contain WinTitle anywhere inside i
 SetControlDelay 0  
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-WinTitle = Windows ahk_class #32770
-
+; Validate Windows security prompts to install driver certificates
 loop
 {
-	if WinExist(%WinTitle%, mshelp)
+	if WinExist("Windows ahk_class #32770", "mshelp")
 	{
 		ControlClick, x460 y130, %winTitle%
 	}
-	Sleep 2000
+	Sleep 1000
 }

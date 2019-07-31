@@ -21,7 +21,16 @@ Sleep 750
 ControlClick, Button1, %winTitle1% ; &Next >
 Sleep 750
 
-; Littkle Fighter has been successfully installed.
+winTitle2 = Little Fighter Install Program ahk_class #32770
+WinWait, %winTitle2%,, 3
+if WinExist(winTitle2)
+{
+	; Create destination directory directory	
+	ControlClick, Button1, %winTitle2% ; &Next >
+	Sleep 750
+}
+
+; Little Fighter has been successfully installed.
 WinWait, %winTitle1%, Launch Little Fighter, 180
 ControlClick, Button5, %winTitle1% ; Disable "Launch Little Fighter"
 Sleep 1000

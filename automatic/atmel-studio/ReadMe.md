@@ -1,6 +1,11 @@
 ﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/atmel-studio/atmel-studio.png" width="48" height="48"/> [Atmel Studio](https://chocolatey.org/packages/atmel-studio)
 
-# Key Features
+## Remark
+**atmel-studio is installed in 2 steps. The second step will be started automatically after a restart of the computer and will prompt you to install 2 certificates from:**
+- Microchip Technology, Inc.
+- Atmel Corporation.
+
+## Key Features
 - Support for 500+ AVR and SAM devices
 - Vast source code library, including drivers, communication stacks, 1,600+ project examples with source code, graphic services and touch functionality through Advanced Software Framework (ASF)
 - IDE extensions through Atmel Gallery, the online apps store, for development tools and embedded software from Microchip and third parties

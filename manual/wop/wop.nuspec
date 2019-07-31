@@ -9,7 +9,7 @@
     <title>World of Padman</title>
     <authors>Ente and his team.</authors>
     <projectUrl>https://worldofpadman.net</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/wop/worldofpadman.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/wop/wop.png</iconUrl>
     <copyright>Copyright © 2019 World of Padman </copyright>
     <licenseUrl>https://worldofpadman.net/en/about/copyright</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

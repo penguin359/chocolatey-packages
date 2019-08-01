@@ -1,11 +1,11 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
 $packageArgs = @{
   packageName  = $env:ChocolateyPackageName
   filetype     = "MSI"
 
-  url          = 'https://www.goodsync.com/download/GoodSync-v10-Setup.msi'
-  checksum     = '153fd5598df51bb7daf9261616b7e9e4c574ca3a65396545d6417a760e5e0b9a'
+  url          = 'https://www.goodsync.com/download/GoodSync-v10-Setup.exe'
+  checksum     = 'B1E93D32F3104C9BB9F472F7196EEC2D52488C1522897AE73139FEDF256AD4FE'
   checksumType = 'sha256'
 
   silentArgs   = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""

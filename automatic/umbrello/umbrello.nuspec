@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>umbrello</id>
-    <version>2.27.3.20190511</version>
+    <version>2.28.3</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/umbrello</packageSourceUrl>
     <owners>chtof</owners>
     <title>Umbrello - The UML Modeller</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://bugs.kde.org/enter_bug.cgi?product=umbrello</bugTrackerUrl>
     <tags>umbrello UML modeller</tags>
     <summary>Umbrello UML Modeller is a Unified Modelling Language (UML) diagram program based on KDE Technology.</summary>
-    <description><![CDATA[
-UML allows you to create diagrams of software and other systems in a standard format to document or design the structure of your programs.
+    <description><![CDATA[UML allows you to create diagrams of software and other systems in a standard format to document or design the structure of your programs.
 
 ## Features
 Most umbrello features and diagram types depends on the public UML standards.
@@ -30,7 +29,7 @@ More details [here](https://umbrello.kde.org/features.php).
 ]]></description>
     <releaseNotes>https://umbrello.kde.org/news.php</releaseNotes>
     <dependencies>
-      <dependency id="umbrello.install" version="[2.27.3.20190511]" />
+      <dependency id="umbrello.install" version="[2.28.3]" />
     </dependencies>
   </metadata>
   <files></files>

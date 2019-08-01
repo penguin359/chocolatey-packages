@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>sonarlint-vs2017</id>
-    <version>4.10.0.9879</version>
+    <version>4.11.1.10027</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/sonarlint-vs2017</packageSourceUrl>
     <owners>chtof</owners>
     <title>SonarLint for Visual Studio 2017</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/SonarSource/sonarlint-visualstudio/issues</bugTrackerUrl>
     <tags>sonarlint-vs2017 static analysis analyzer code quality roslin sonar sonarqube developmment</tags>
     <summary>Roslyn based static code analysis: Find and instantly fix nasty bugs and code smells in C#, VB.Net, C, C++ and JS.</summary>
-    <description><![CDATA[
-## Overview
+    <description><![CDATA[## Overview
 SonarLint spots bugs and quality issues as fast as you code.
 
 - 5 languages supported: C#, VB .Net, C, C++ and Javascript.

@@ -24,7 +24,7 @@ function global:au_SearchReplace {
         }
 
         "tools\chocolateyinstall.ps1" = @{
-          "([$]toolsDir\\SonarLint.VSIX-)[\d\.]+(-2017.vsix)" = "`$1$($Latest.Version)`$2"
+          "([$]toolsDir\\SonarLint.VSIX-)[\d\.]+(-2017.vsix)" = "`${1}$($Latest.Version)`${2}"
         }
     }
 }

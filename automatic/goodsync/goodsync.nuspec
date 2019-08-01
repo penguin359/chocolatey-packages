@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>goodsync</id>
-    <version>10.10</version>
+    <version>10.10.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/goodsync</packageSourceUrl>
     <owners>chtof</owners>
     <title>GoodSync</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://www.goodsync.com/php/gsss/main</bugTrackerUrl>
     <tags>goodsync sync cloud trial</tags>
     <summary>Reliable, bi-directional synchronization of files between computers and devices.</summary>
-    <description><![CDATA[
-Free with limited functionality: synchronize a maximum of 100 private files via local drives, thumbdrives, network shares, WebDAV, or FTP.
+    <description><![CDATA[Free with limited functionality: synchronize a maximum of 100 private files via local drives, thumbdrives, network shares, WebDAV, or FTP.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/goodsync/screenshot.png)
 ]]></description>

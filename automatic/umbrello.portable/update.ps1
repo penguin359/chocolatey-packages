@@ -4,9 +4,9 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
   $releases_32 = 'https://download.kde.org/stable/umbrello/latest/win32'
-  $regex_32    = 'umbrello-i686-w64-mingw32-(?<Version>[\d\.]+).*-bin.7z$'
+  $regex_32    = 'umbrello-(i686-)?(w64-)?mingw32-(?<Version>[\d\.]+).*-bin.7z$'
   $releases_64 = 'https://download.kde.org/stable/umbrello/latest/win64'
-  $regex_64    = 'umbrello-x86_64-w64-mingw32-[\d\.]+.*-bin.7z$'
+  $regex_64    = 'umbrello-(x86_64-)?(w64-)?mingw64-[\d\.]+.*-bin.7z$'
 
   $download_page_32 = (Invoke-WebRequest -Uri $releases_32 -UseBasicParsing)
   $file_32 = $download_page_32.links | ? href -match $regex_32
@@ -34,7 +34,7 @@ function global:au_SearchReplace {
 
         "tools\chocolateyinstall.ps1" = @{
           "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
-          "(?i)(^\s*file64\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName64)`""
+          "(?i)(^\s*file64\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`$1$($Latest.FileName64)`""
           "umbrello-[\d\.]+\\" = "umbrello-$($Latest.Version)\\"
         }
     }

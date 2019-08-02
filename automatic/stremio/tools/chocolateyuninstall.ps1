@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  softwareName  = 'Stremio'
-  fileType      = 'exe'
+  packageName  = $env:ChocolateyPackageName
+  softwareName = 'Stremio'
+  fileType     = 'exe'
 }
 
 $uninstalled = $false

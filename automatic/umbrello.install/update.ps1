@@ -6,7 +6,7 @@ function global:au_GetLatest {
   $releases_32 = 'https://download.kde.org/stable/umbrello/latest/win32'
   $regex_32    = 'umbrello-(i686-)?(w64-)?mingw32-(?<Version>[\d\.]+).*-setup.exe$'
   $releases_64 = 'https://download.kde.org/stable/umbrello/latest/win64'
-  $regex_64    = 'umbrello-(x86_64-)?(w64-)?mingw32-[\d\.]+.*-setup.exe$'
+  $regex_64    = 'umbrello-(x86_64-)?(w64-)?mingw64-[\d\.]+.*-setup.exe$'
 
   $download_page_32 = (Invoke-WebRequest -Uri $releases_32 -UseBasicParsing)
   $file_32 = $download_page_32.links | ? href -match $regex_32

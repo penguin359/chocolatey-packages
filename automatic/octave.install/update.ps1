@@ -1,5 +1,7 @@
 ﻿import-module au
 
+[Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
+
 function global:au_GetLatest {
     $releases = 'https://ftpmirror.gnu.org/octave/windows/'
     $regex32  = 'octave-(?<Version>[\d\.]+)-w32-installer.exe$'

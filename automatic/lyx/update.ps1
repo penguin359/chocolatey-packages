@@ -1,16 +1,18 @@
-﻿import-module au
- 
-[Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
+import-module au
 
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-  $releases = 'https://sourceforge.net/projects/vdfiltermod/files/VirtualDub%20pack'  
-  $regex    = 'href="/projects/vdfiltermod/files/latest/download" title="/VirtualDub pack(?<Url>/version \d+/VirtualDub2_(?<Version>[\d\.]+).zip)'
-  
-  (Invoke-WebRequest -Uri $releases) -match $regex | Out-Null
-  
-  return @{ Version = "0.0." + $matches.Version ; URL32 = [uri]::EscapeUriString($releases + $matches.Url) }
+    $releases = 'https://www.lyx.org/Download'
+    $regex    = 'https://ftp.lip6.fr/pub/lyx/bin/(?<Version>[\d\.]+)/LyX-[\d]+-Installer-(?<VersionMinor>[\d]+).exe$'
+
+    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing	 
+    $url = $download_page.links | ? href -match $regex
+
+    return @{
+        Version = $matches.Version + '.' + $matches.VersionMinor
+        URL32   = $url.href
+    }
 }
 
 function global:au_SearchReplace {
@@ -23,8 +25,8 @@ function global:au_SearchReplace {
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
         }
 
-        "tools\chocolateyinstall.ps1" = @{
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""          
+        "tools\chocolateyinstall.ps1" = @{        
+          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
         }
     }
 }

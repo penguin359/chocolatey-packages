@@ -6,7 +6,7 @@
     <version>1.66</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/apo-ok</packageSourceUrl>
     <owners>chtof</owners>
-    <title>AutoPowerOptionsOK (Install)</title>
+    <title>AutoPowerOptionsOK</title>
     <authors>Nenad Hrg</authors>
     <projectUrl>http://www.softwareok.com/?seite=Microsoft/AutoPowerOptionsOK</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/apo-ok/apo-ok.png</iconUrl>

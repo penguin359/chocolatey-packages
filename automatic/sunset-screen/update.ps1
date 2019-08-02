@@ -6,7 +6,7 @@ function global:au_GetLatest {
 
     (Invoke-WebRequest -Uri $releases) -match $regex | Out-Null
 
-    return @{ Version = $version }
+    return @{ Version = $matches.Version }
 }
 
 function global:au_SearchReplace {

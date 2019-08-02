@@ -1,10 +1,10 @@
 $ErrorActionPreference = 'Stop'
  
 $packageArgs = @{
-    packageName    = $env:ChocolateyPackageName
-    softwareName   = 'Umbrello *'
-    fileType       = 'exe'
-    silentArgs     = '/S'
+    packageName  = $env:ChocolateyPackageName
+    softwareName = 'Umbrello *'
+    fileType     = 'exe'
+    silentArgs   = '/S'
  
     validExitCodes = @(0)
 }

@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/librefox-firefox/librefox-firefox.png" width="48" height="48"/> [Librefox Firefox](https://chocolatey.org/packages/librefox-firefox)
+﻿# [Librefox Firefox](https://chocolatey.org/packages/librefox-firefox)
 
 **Librefox: Browse With Freedom**
 This project aims at enforcing privacy and security of Firefox without forking the project.

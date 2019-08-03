@@ -15,3 +15,15 @@ $packageArgs = @{
 }
 
 Install-ChocolateyZipPackage @packageArgs
+
+# Don't create shims for other executables
+$files = Get-ChildItem "$toolsDir" -Recurse -Include *.exe -Exclude basilisk.exe
+foreach ($file in $files) {
+  New-Item "$file.ignore" -type file -force | Out-Null
+}
+
+# Install start menu shortcut
+$programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
+$shortcutFilePath = Join-Path $programs "Basilisk.lnk"
+$targetPath = Join-Path $toolsDir "basilisk\basilisk.exe"
+Install-ChocolateyShortcut -RunAsAdmin -shortcutFilePath $shortcutFilePath -targetPath $targetPath

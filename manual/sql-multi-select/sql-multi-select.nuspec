@@ -32,7 +32,6 @@ Do you manage **multiple servers** for multiple purposes in your work?  Do you w
 ## Features
 ### Manage multiple servers
 You can set up multiple lists of servers for different purposes.  For e.g. you may have different server lists for test, production, or QA.  
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/sql-multi-select/screenshot1.png)
 
 ### Run sets of scripts
 Don’t limit yourself to a single SQL command, or to a single script.  Run multiple SQL commands in a single script, or even run multiple scripts in a single project.  SQL Multi Select will display all the result sets returned by the commands and scripts.

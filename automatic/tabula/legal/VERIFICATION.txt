@@ -1,0 +1,22 @@
+﻿VERIFICATION
+ 
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+Package can be verified like this:
+ 
+1. Download:
+ 
+   x32: https://github.com/tabulapdf/tabula/releases/download/v1.2.1/tabula-win-1.2.1.zip
+   x64: https://github.com/tabulapdf/tabula/releases/download/v1.2.1/tabula-win-1.2.1.zip
+  
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+ 
+   checksum type: sha256
+   checksum32: A5BD9AFD969C7488F91EA3A7A09D56A1B53FE86EE231B81D205A8C1A9D459A05
+   checksum64: A5BD9AFD969C7488F91EA3A7A09D56A1B53FE86EE231B81D205A8C1A9D459A05
+ 
+File 'LICENSE.txt' is obtained from:
+   https://raw.githubusercontent.com/tabulapdf/tabula/master/LICENSE.md

@@ -1,5 +1,5 @@
-﻿
-From: https://www.gnu.org/licenses/gpl-3.0.txt
+
+From: LICENSE.txt, contained in the zip file.
 
 LICENSE
 

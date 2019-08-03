@@ -20,9 +20,6 @@
     <tags>tabula pdf extract data table</tags>
     <summary>Tabula is a tool for liberating data tables locked inside PDF files.</summary>
     <description><![CDATA[
-## Prerequisites
-Java must be installed to use Tabula.
-
 ## How Can Tabula Help Me?
 If you’ve ever tried to do anything with data provided to you in PDFs, you know how painful it is — there's no easy way to copy-and-paste rows of data out of PDF files. Tabula allows you to extract that data into a CSV or Microsoft Excel spreadsheet using a simple, easy-to-use interface. Tabula works on Mac, Windows and Linux.
 
@@ -36,6 +33,9 @@ And researchers of all kinds use Tabula to turn PDF reports into Excel spreadshe
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tabula/screenshot.png)
 ]]></description>
     <releaseNotes>https://github.com/tabulapdf/tabula/releases</releaseNotes>
+    <dependencies>
+      <dependency id="jre8" version="8.0.221" />
+    </dependencies>
   </metadata>
   <files>
     <file src="legal\**" target="legal" />

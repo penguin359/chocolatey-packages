@@ -1,8 +1,5 @@
 ﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tabula/tabula.png" width="48" height="48"/> [Tabula](https://chocolatey.org/packages/tabula)
 
-## Prerequisites
-Java must be installed to use Tabula.
-
 ## How Can Tabula Help Me?
 If you’ve ever tried to do anything with data provided to you in PDFs, you know how painful it is — there's no easy way to copy-and-paste rows of data out of PDF files. Tabula allows you to extract that data into a CSV or Microsoft Excel spreadsheet using a simple, easy-to-use interface. Tabula works on Mac, Windows and Linux.
 

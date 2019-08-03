@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>concourse</id>
+    <version>5.4.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/concourse</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Concourse</title>
+    <authors>Concourse Team</authors>
+    <projectUrl>https://concourse-ci.org</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/concourse/concourse.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/concourse/concourse/v5.4.0/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/concourse/concourse</projectSourceUrl>
+    <docsUrl>https://github.com/concourse/concourse/wiki</docsUrl>
+    <mailingListUrl>https://discuss.concourse-ci.org</mailingListUrl>
+    <bugTrackerUrl>https://github.com/concourse/concourse/issues</bugTrackerUrl>
+    <tags>concourse continuous thing-doer</tags>
+    <summary>Concourse is an open-source continuous thing-doer.</summary>
+    <description><![CDATA[
+Concourse is an automation system written in Go. It is most commonly used for CI/CD, and is built to scale to any kind of automation pipeline, from simple to complex.
+Concourse is very opinionated about a few things: idempotency, immutability, declarative config, stateless workers, and reproducible builds.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/concourse/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/concourse/concourse/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

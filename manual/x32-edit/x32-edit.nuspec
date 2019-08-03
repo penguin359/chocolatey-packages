@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>x32-edit</id>
+    <version>3.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/x32-edit</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>X32 Edit</title>
+    <authors>Music Tribe Global Brands Ltd.</authors>
+    <projectUrl>https://www.behringer.com/Categories/Behringer/Mixers/Apps/X32-EDIT/p/P0AWF</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/x32-edit/x32-edit.png</iconUrl>
+    <copyright>Copyright © 2019 Music Tribe Global Brands Ltd. All rights reserved.</copyright>
+    <licenseUrl>https://community.musictribe.com/t5/custom/page/page-id/TermsOfUse</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://www.behringer.com/Categories/Behringer/Mixers/Digital-Mixers/X32-COMPACT/p/P0AAP/Downloads</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://www.behringer.com/brand/behringer/support</bugTrackerUrl>
+    <tags>x32-edit x32 compact behringer digital mixer mixing lan wifi</tags>
+    <summary>Powerful software application for editing Behringer Digital Mixers via LAN/Wi-Fi.</summary>
+    <description><![CDATA[
+## Features
+- Provides powerful remote control for all functions of the Behringer X32 digital mixing console
+- Enables off-line editing/show preparation
+- GUI closely emulates the X32 console allowing for operational training sessions when no console is available for hands-on experience
+- Real-time level meters are shown for all audio channels, along with user-defined icons and names
+- Edit several consoles on the same network from just one PC by starting several instances of XControl
+- Up to 4 computers running XControl can edit the same X32 console concurrently with several iOS devices.
+- Executable files can be downloaded from behringer.com free of charge – no registration or installation procedure
+- Windows XP, Vista, Windows7 or Windows8, Mac OSX 10.6.8, 10.7 or 10.8, Linux tested with Ubuntu 12.04 with Wine
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/x32-edit/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

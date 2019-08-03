@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>acronis-vdi</id>
+    <version>1.1.2141</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/acronis-vdi</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Acronis Virtual Disk Driver</title>
+    <authors>Acronis</authors>
+    <projectUrl>https://kb.acronis.com/content/38937</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/acronis-vdi/acronis-vdi.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>https://forum.acronis.com</mailingListUrl>
+    <bugTrackerUrl>https://kb.acronis.com</bugTrackerUrl>
+    <tags>acronis-vdi acronis virtual disk driver</tags>
+    <summary>Solves an issue to install True Image 2013 successfully on a 2 TB+ drive.</summary>
+    <description><![CDATA[
+Solves an issue to install True Image 2013 successfully on a 2 TB+ drive.
+See. https://kb.acronis.com/content/38937
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -2,6 +2,9 @@
 
 Google2SRT allows you to download, save and convert multiple subtitles and translations from YouTube and Google Video to SubRip (.srt) format, which is recognized by most video players. You can download XML subtitles or simply type video's URL, Google2SRT will do the rest.
 
+## Prerequisites
+Java JRE: Google2SRT cannot be installed on systems with JRE version lower than 1.6.
+
 ## Features
 - Download YouTube subtitles - Closed Captions (CC)
 - Convert YouTube subtitles to SRT (SubRip)

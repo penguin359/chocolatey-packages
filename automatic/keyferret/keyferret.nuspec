@@ -2,11 +2,11 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>keyferret.install</id>
+    <id>keyferret</id>
     <version>2.6</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/keyferret.install</packageSourceUrl>
     <owners>chtof</owners>
-    <title>Keyferret (Install)</title>
+    <title>Keyferret</title>
     <authors>Andrew Swaine</authors>
     <projectUrl>https://www.keyferret.com</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/keyferret.install/keyferret.install.png</iconUrl>
@@ -52,9 +52,9 @@ Keyferret is a simple way to type characters that you don't normally find on you
 - Can be natively installed or run as a no-install utility (for example if you don't have administrator privileges).
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <dependencies>
+      <dependency id="keyferret.install" version="[2.6]" />
+    </dependencies>
   </metadata>
-  <files>
-    <file src="legal\**" target="legal" />
-    <file src="tools\**" target="tools" />
-  </files>
+  <files></files>
 </package>

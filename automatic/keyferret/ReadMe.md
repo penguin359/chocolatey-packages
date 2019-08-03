@@ -1,25 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
-  <metadata>
-    <id>keyferret.install</id>
-    <version>2.6</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/keyferret.install</packageSourceUrl>
-    <owners>chtof</owners>
-    <title>Keyferret (Install)</title>
-    <authors>Andrew Swaine</authors>
-    <projectUrl>https://www.keyferret.com</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/keyferret.install/keyferret.install.png</iconUrl>
-    <copyright>Copyright © 2015-2018 Andrew Swaine.</copyright>
-    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
-    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <docsUrl>https://www.keyferret.com/instructions</docsUrl>
-    <!--<mailingListUrl></mailingListUrl>-->
-    <bugTrackerUrl>https://www.keyferret.com/contact</bugTrackerUrl>
-    <tags>keyferret.install unicode keyboard input</tags>
-    <summary>Intuitive Unicode keyboard input. Type accents, symbols, maths, Cyrillic, Greek and IPA in any Windows application.</summary>
-    <description><![CDATA[
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/keyferret.install/keyferret.install.png" width="48" height="48"/> [Keyferret](https://chocolatey.org/packages/keyferret.install)
+
 Keyferret is a simple way to type characters that you don't normally find on your keyboard, in any Windows application, using the Right Alt (AltGr) key. For example:
 
 - à: Type a, then RAlt+\`
@@ -50,11 +30,3 @@ Keyferret is a simple way to type characters that you don't normally find on you
 - Takes advantage of the improved Unicode font support in Windows 10, supporting nearly every character Windows can display that is (according to Unicode) based on the Latin, Cyrillic and Greek alphabets.
 - Enables typing of all characters defined by MUFI (the Medieval Unicode Font Initiative) version 4.0 that are adopted by Unicode. In order to some of them (primarily combining forms of Latin scribal abbreviations) you will need to install the Junicode font.
 - Can be natively installed or run as a no-install utility (for example if you don't have administrator privileges).
-]]></description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
-  </metadata>
-  <files>
-    <file src="legal\**" target="legal" />
-    <file src="tools\**" target="tools" />
-  </files>
-</package>

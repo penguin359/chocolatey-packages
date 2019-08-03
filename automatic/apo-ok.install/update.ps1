@@ -4,7 +4,7 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     $releases = 'https://www.softwareok.com/?seite=Microsoft/AutoPowerOptionsOK'
-    $regex    = "<title>AutoPowerOptionsOK (?<Version>[\d\.]+)</title>"
+    $regex    = "<title>AutoPowerOptionsOK\ (?<Version>[\d\.]+)\ "
 
     (Invoke-WebRequest -Uri $releases) -match $regex | out-null
      return @{

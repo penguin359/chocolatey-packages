@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>zvirtualdesktop</id>
-    <version>1.0.92.8</version>
+    <version>1.0.93.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/zvirtualdesktop</packageSourceUrl>
     <owners>chtof</owners>
     <title>zVirtualDesktop</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/mzomparelli/zVirtualDesktop/issues</bugTrackerUrl>
     <tags>zvirtualdesktop virtual desktop hotkey system tray icon trial</tags>
     <summary>Windows 10 Virtual Desktop Hotkeys and System Tray Icon</summary>
-    <description><![CDATA[
-This is commercial software. All users will be given a 10 day trial and you will need to purchase a license to continuing using when the trial expires.
+    <description><![CDATA[This is commercial software. All users will be given a 10 day trial and you will need to purchase a license to continuing using when the trial expires.
 
 ### Features  
 

@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>acronis-vdi</id>
-    <version>1.1.2141</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/acronis-vdi</packageSourceUrl>
+    <version>1.1.2141.20190805</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/acronis-vdi</packageSourceUrl>
     <owners>chtof</owners>
     <title>Acronis Virtual Disk Driver</title>
     <authors>Acronis</authors>
     <projectUrl>https://kb.acronis.com/content/38937</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/acronis-vdi/acronis-vdi.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/acronis-vdi/acronis-vdi.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->

@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
@@ -8,7 +8,7 @@ $packageArgs = @{
   file          = "$toolsDir\zVirtualDesktop.exe"
 
   url           = 'https://zomp.co/Files.aspx?id=zVD'
-  checksum      = 'E0C15F3A67505C1DDAED0181F074A2D8EE4AA413C7713411EDF72BBA4CBE7114'
+  checksum      = '21651092AB7F1B1BA34490139160884A2DF80C19634844121354B3545340CFA4'
   checksumType  = 'sha256'
 }
 

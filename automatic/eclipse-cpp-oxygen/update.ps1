@@ -1,5 +1,7 @@
 ﻿import-module au
 
+[Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
+
 function global:au_GetLatest {
     $releases = 'https://www.eclipse.org/downloads/packages'
     $regex    = 'eclipse-cpp-(?<VersionUrl>(?<VersionYear>\d+)-(?<VersionMonth>\d+))-R-win32-x86_64.zip$'

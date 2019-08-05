@@ -11,9 +11,9 @@ Get-ChocolateyUnzip @packageArgs
 Remove-Item -Path $packageArgs.file
 
 $packageArgs = @{
-  packageName = $env:ChocolateyPackageName  
-  file        = "$toolsDir\keyferret-setup-2.6.exe"
-  silentArgs  = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+  packageName  = $env:ChocolateyPackageName  
+  fileFullPath = "$toolsDir\keyferret-setup-2.6.exe"
+  silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 }
 
 Install-ChocolateyInstallPackage @packageArgs

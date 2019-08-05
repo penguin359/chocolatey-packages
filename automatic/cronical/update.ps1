@@ -10,7 +10,7 @@ function global:au_GetLatest {
 
     return @{
         Version = $matches.Version
-        URL32   = 'https://github.com/mgefvert/Cronical/blob/master/Binaries/Cronical.exe'
+        URL32   = 'https://github.com/mgefvert/Cronical/raw/master/Binaries/Cronical.exe'
     }
 }
 

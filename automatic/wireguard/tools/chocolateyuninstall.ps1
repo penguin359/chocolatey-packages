@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  softwareName  = 'WireGuard'
-  fileType      = 'MSI'
-  silentArgs    = "/qn /norestart /l*v `"$env:TEMP\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""  
+  packageName  = $env:ChocolateyPackageName
+  softwareName = 'WireGuard'
+  fileType     = 'MSI'
+  silentArgs   = "/qn /norestart /l*v `"$env:TEMP\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""  
 }
 
 $uninstalled = $false
@@ -24,7 +24,7 @@ if ($key.Count -eq 1) {
       # use it instead of the above in silentArgs, still very first
       $packageArgs['file'] = ''
     }
-    
+
     Uninstall-ChocolateyPackage @packageArgs
   }
 } elseif ($key.Count -eq 0) {

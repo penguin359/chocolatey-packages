@@ -8,7 +8,7 @@
     <owners>chtof</owners>
     <title>winlog32</title>
     <authors>Colin Morris, G0CUZ</authors>
-    <projectUrl>http://www.winlog32.co.uk/</projectUrl>
+    <projectUrl>http://www.winlog32.co.uk</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/winlog32/winlog32.png</iconUrl>
     <copyright>© Copyright Colin Morris, G0CUZ 1995-2019</copyright>    
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>

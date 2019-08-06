@@ -3,7 +3,7 @@
 function global:au_GetLatest {
     $releases     = 'https://www.goodsync.com/download?os=windows'
     $regexVersion = 'GoodSync for Windows v (?<Version>[\d\.]+)\<'
-    $regexUrl     = 'GoodSync-v[\d\.]+-Setup.exe$'
+    $regexUrl     = 'GoodSync-v[\d\.]+-Setup.msi$'
 
     (Invoke-WebRequest -Uri $releases).RawContent -match $regexVersion | Out-Null
 	$version = $matches.Version

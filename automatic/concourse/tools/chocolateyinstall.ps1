@@ -8,13 +8,14 @@ $packageArgs = @{
 }
 
 Get-ChocolateyUnzip @packageArgs
+Remove-Item -Path $packageArgs.file64
 
 $installDir = Join-Path $packageArgs.destination $packageArgs.packageName
 
 $flyArgs = @{
-  File  = Join-Path $installDir "fly-assets\fly-windows-amd64.zip"
-  Destination = Join-Path $installDir "bin"
+  destination    = Join-Path $installDir "bin"
+  fileFullPath64 = Join-Path $installDir "fly-assets\fly-windows-amd64.zip"
 }
-Get-ChocolateyUnzip @flyArgs
 
-Remove-Item -Path $packageArgs.file
+Get-ChocolateyUnzip @flyArgs
+Remove-Item -Path $flyArgs.fileFullPath64

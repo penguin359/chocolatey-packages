@@ -2,7 +2,7 @@
 
 function global:au_GetLatest {
     $releases = 'https://github.com/MoonchildProductions/UXP/releases'
-    $regex    = '>Basilisk (?<Version>[\d\.]*)<'
+    $regex    = '\>Basilisk (?<Version>[\d\.]*)\<'
     
     (Invoke-WebRequest -Uri $releases).RawContent -match $regex |`Out-Null
 

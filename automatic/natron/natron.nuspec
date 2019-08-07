@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>natron</id>
-    <version>2.3.14</version>
+    <version>2.3.14.20190807</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/natron</packageSourceUrl>
     <owners>chtof</owners>
     <title>Natron Open-Source Compositing Software</title>
@@ -57,7 +57,7 @@ over 250 and ever increasing community plugins Here
 ]]></description>
   <releaseNotes>https://github.com/NatronGitHub/Natron/releases</releaseNotes>
   <dependencies>
-    <dependency id="natron.install" version="[2.3.14]" />
+    <dependency id="natron.install" version="[2.3.14.20190807]" />
   </dependencies>
   </metadata>
   <files></files>

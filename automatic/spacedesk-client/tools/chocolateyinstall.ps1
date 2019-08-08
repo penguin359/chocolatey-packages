@@ -4,8 +4,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   filetype      = 'MSI'
 
-  url           = 'https://spacedesk.datronic.de/download/spacedeskWindowsVIEWER_v0916_BETA.msi'
-  checksum      = '72FB111E827F912A2E442CDE836C2EB7C979E9C999F8E7D4C4ADC1A7A346B5CE'
+  url           = 'https://spacedesk.datronic.de/download/spacedeskWindowsVIEWER_v0917_BETA.msi'
+  checksum      = 'bea5c897f1bd2336bf4e1e429344f510f944b2fee9cf22fe89a088ce3debc3b4'
   checksumType  = 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""

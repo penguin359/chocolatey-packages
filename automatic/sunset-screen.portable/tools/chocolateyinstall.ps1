@@ -6,7 +6,7 @@ $packageArgs = @{
   filefullpath = "$toolsDir\SunsetScreen.exe"
 
   url          = 'https://www.skytopia.com/software/sunsetscreen/SunsetScreen.exe'
-  checksum     = '87BDB562C6558900C311B0695F9046DC4CC35AFD25B180CE54756D12FC413F9D'
+  checksum     = '68cdb6523e68dd092b4424b31dceec6e6facc22d87b59fd0d6f675e79944e617'
   checksumType = 'sha256'
 }
 Get-ChocolateyWebFile @packageArgs

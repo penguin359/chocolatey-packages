@@ -22,14 +22,14 @@ function global:au_GetLatest {
 function global:au_SearchReplace {
     @{
         "tools\chocolateyinstall.ps1" = @{
-            "(^(\s)*\`$url32_win10\s*=\s*)('.*')"        = "`$1'$($Latest.URL32)'"
-            "(^(\s)*\`$checksum32_win10\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
-            "(^(\s)*\`$url64_win10\s*=\s*)('.*')"        = "`$1'$($Latest.URL32_win10)'"
-            "(^(\s)*\`$checksum64_win10\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32_win10)'"
-            "(^(\s)*\`$url32_win7_81\s*=\s*)('.*')"      = "`$1'$($Latest.URL32_win7_81)'"
-            "(^(\s)*\`$checksum32_win7_81\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32_win7_81)'"
-            "(^(\s)*\`$url64_win7_81\s*=\s*)('.*')"      = "`$1'$($Latest.URL64_win7_81)'"
-            "(^(\s)*\`$checksum64_win7_81\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64_win7_81)'"
+            "(^(\s)*[$]url32_win10\s*=\s*)('.*')"        = "`$1'$($Latest.URL32)'"
+            "(^(\s)*[$]checksum32_win10\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
+            "(^(\s)*[$]url64_win10\s*=\s*)('.*')"        = "`$1'$($Latest.URL32_win10)'"
+            "(^(\s)*[$]checksum64_win10\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32_win10)'"
+            "(^(\s)*[$]url32_win7_81\s*=\s*)('.*')"      = "`$1'$($Latest.URL32_win7_81)'"
+            "(^(\s)*[$]checksum32_win7_81\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32_win7_81)'"
+            "(^(\s)*[$]url64_win7_81\s*=\s*)('.*')"      = "`$1'$($Latest.URL64_win7_81)'"
+            "(^(\s)*[$]checksum64_win7_81\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64_win7_81)'"
         }
     }
 }

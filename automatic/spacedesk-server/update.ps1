@@ -21,7 +21,7 @@ function global:au_GetLatest {
 
 function global:au_SearchReplace {
     @{
-        "tools\chocolateyInstall.ps1" = @{
+        "tools\chocolateyinstall.ps1" = @{
             "(^(\s)*\`$url32_win10\s*=\s*)('.*')"        = "`$1'$($Latest.URL32)'"
             "(^(\s)*\`$checksum32_win10\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
             "(^(\s)*\`$url64_win10\s*=\s*)('.*')"        = "`$1'$($Latest.URL32_win10)'"

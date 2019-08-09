@@ -25,11 +25,11 @@ function global:au_SearchReplace {
             "(^(\s)*\`$url32_win10\s*=\s*)('.*')"        = "`$1'$($Latest.URL32)'"
             "(^(\s)*\`$checksum32_win10\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
             "(^(\s)*\`$url64_win10\s*=\s*)('.*')"        = "`$1'$($Latest.URL32_win10)'"
-            "(^(\s)*\`$checksum64_win10\s*=\s*)('.*')"   = "`$1'$($Checksum32_win10)'"
+            "(^(\s)*\`$checksum64_win10\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32_win10)'"
             "(^(\s)*\`$url32_win7_81\s*=\s*)('.*')"      = "`$1'$($Latest.URL32_win7_81)'"
             "(^(\s)*\`$checksum32_win7_81\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32_win7_81)'"
             "(^(\s)*\`$url64_win7_81\s*=\s*)('.*')"      = "`$1'$($Latest.URL64_win7_81)'"
-            "(^(\s)*\`$checksum64_win7_81\s*=\s*)('.*')" = "`$1'$($Checksum64_win7_81)'"
+            "(^(\s)*\`$checksum64_win7_81\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64_win7_81)'"
         }
     }
 }

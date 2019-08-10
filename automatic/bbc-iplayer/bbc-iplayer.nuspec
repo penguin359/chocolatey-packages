@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>bbc-iplayer</id>
+    <version>2.9.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/bbc-iplayer</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>BBC iPlayer</title>
+    <authors>BBC.</authors>
+    <projectUrl>https://www.bbc.co.uk/iplayer/install</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/bbc-iplayer/bbc-iplayer.png</iconUrl>
+    <copyright>Copyright © 2019 BBC.</copyright>
+    <licenseUrl>https://www.bbc.co.uk/terms</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>bbc-iplayer bbc iplayer</tags>
+    <summary>Downloading allows you to enjoy your favourite BBC programmes without being connected to the Internet.</summary>
+    <description><![CDATA[
+Downloading allows you to enjoy your favourite BBC programmes without being connected to the Internet.
+
+- Watch while downloading
+Now there’s no need to wait for downloads to finish before you start watching.
+
+- Improved downloads library
+Want to sort by series? Or see which download expires first? Now you can.
+
+- In-app episode list
+Watching a series? Download episodes straight from the app. Much simpler.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/bbc-iplayer/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

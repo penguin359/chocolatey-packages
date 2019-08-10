@@ -1,4 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop';
+
 $packageArgs = @{
   packageName  = $env:ChocolateyPackageName
   softwareName = 'Stremio'
@@ -9,7 +10,7 @@ $uninstalled = $false
 [array]$key = Get-UninstallRegistryKey -SoftwareName $packageArgs['softwareName']
 
 if ($key.Count -eq 1) {
-  $key | % { 
+  $key | % {
     $packageArgs['file'] = "$($_.UninstallString)"
     $packageArgs['silentArgs'] = "/S"
     Uninstall-ChocolateyPackage @packageArgs

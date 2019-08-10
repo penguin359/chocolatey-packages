@@ -33,7 +33,6 @@ Before using Huggle, it is recommended that users read the [privacy statement](h
     <releaseNotes>https://github.com/huggle/huggle3-qt-lx/releases</releaseNotes>
   </metadata>
   <files>
-    <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>

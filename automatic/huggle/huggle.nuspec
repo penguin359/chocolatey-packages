@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>huggle</id>
+    <version>3.4.9</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/huggle</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Huggle</title>
+    <authors>Huggle Team.</authors>
+    <projectUrl>https://en.wikipedia.org/wiki/Wikipedia:Huggle</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/huggle/huggle.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/huggle/huggle3-qt-lx/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/huggle/huggle3-qt-lx</projectSourceUrl>
+    <docsUrl>https://www.mediawiki.org/wiki/Manual:Huggle</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://phabricator.wikimedia.org/tag/huggle/</bugTrackerUrl>
+    <tags>huggle wikimedia diff browser</tags>
+    <summary>Huggle is an anti-vandalism tool for use on MediaWiki based projects.</summary>
+    <description><![CDATA[
+**Huggle** is a diff browser intended for dealing with vandalism and other unconstructive edits on Wikimedia projects, written in C++ using the Qt framework. It was originally developed in .NET Framework by [Gurch](https://en.wikipedia.org/wiki/User:Gurch), who is no longer active on this project. Anyone can download Huggle, but rollback permission is required to use the program without restrictions on the English Wikipedia.
+
+The principal idea of Huggle as an anti-vandalism tool is to make it possible for Wikipedia to stay as open and free as possible (allowing everyone to edit without any restrictions), while keeping it clean of any vandalism.
+
+While Huggle can load and review edits made to Wikipedia in real time, it also helps users identify unconstructive edits and allows them to be reverted quickly. Various mechanisms are used to draw conclusions as to whether an edit is constructive or not. It uses a semi-distributed model where edits are retrieved using a provider (this can be anything that is capable of distributing a stream of edit information, such as the Wikipedia API or IRC recent changes feed), pre-parsed and analyzed. This information is then shared with other anti-vandalism tools, such as [ClueBot NG](https://en.wikipedia.org/wiki/User:ClueBot_NG). Huggle also uses a number of self-learning mechanisms, including a global white-list (users that are considered trusted) and user-badness scores that are stored locally on the client's computer.
+
+Before using Huggle, it is recommended that users read the [privacy statement](https://en.wikipedia.org/wiki/Wikipedia:Huggle/Privacy), which contains information about how Huggle stores and manages data. Support and development chat is available on [#huggle](https://webchat.freenode.net/?channels=#huggle). Also, please use it with caution and verify every edit you make.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/huggle/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/huggle/huggle3-qt-lx/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

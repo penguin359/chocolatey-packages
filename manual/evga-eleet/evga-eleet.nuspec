@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>evga-eleet</id>
-    <version>1104.0</version>
+    <version>1.10.4</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/evga-eleet</packageSourceUrl>
     <owners>chtof</owners>
     <title>EVGA E-LEET Tuning Utility</title>
@@ -17,30 +17,29 @@
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <mailingListUrl>http://www.evga.com/forums/tt.aspx?forumid=22</mailingListUrl>
     <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>evga-eleet ecga e-leetx advanced motherboard tuning</tags>
+    <tags>evga-eleet ecga e-leet advanced motherboard tuning</tags>
     <summary>Free EVGA E-LEETX advanced motherboard tuning.</summary>
     <description><![CDATA[
-EVGA E-LEET
 EVGA now gives you more with the EVGA E-LEET Tuning Utility. This utility allows you to easily set your motherboard QPI and system Voltages from within Windows to get your system running at the highest level of performance possible. EVGA E-LEET also includes a validation feature, allowing you to save a CPU screenshot and generates a unique URL, also a Brink OC feature that automatically saves a screenshot with every clockspeed increase.
 
 Increase your voltage to maximize your overclock, or lower your voltage to decrease the operating temperatures.
 
-CPU
+**CPU**
 Familiar and clean interface.
 
-Memory
+**Memory**
 View memory frequency, timings and memory amount.
 
-Monitoring
+**Monitoring**
 Monitor system vitals.
 
-Overclocking
+**Overclocking**
 Overclock on the fly, from within Windows!
 
-Voltages
+**Voltages**
 Adjust system voltages in realtime.
 
-Options
+**Options**
 Setup profiles and assign hotkeys.
 
 ## Features

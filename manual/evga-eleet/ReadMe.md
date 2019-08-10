@@ -1,26 +1,25 @@
 ﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/evga-eleet/evga-eleet.png" width="48" height="48"/> [EVGA E-LEET Tuning Utility](https://chocolatey.org/packages/evga-eleet)
 
-EVGA E-LEET
 EVGA now gives you more with the EVGA E-LEET Tuning Utility. This utility allows you to easily set your motherboard QPI and system Voltages from within Windows to get your system running at the highest level of performance possible. EVGA E-LEET also includes a validation feature, allowing you to save a CPU screenshot and generates a unique URL, also a Brink OC feature that automatically saves a screenshot with every clockspeed increase.
 
 Increase your voltage to maximize your overclock, or lower your voltage to decrease the operating temperatures.
 
-CPU
+**CPU**
 Familiar and clean interface.
 
-Memory
+**Memory**
 View memory frequency, timings and memory amount.
 
-Monitoring
+**Monitoring**
 Monitor system vitals.
 
-Overclocking
+**Overclocking**
 Overclock on the fly, from within Windows!
 
-Voltages
+**Voltages**
 Adjust system voltages in realtime.
 
-Options
+**Options**
 Setup profiles and assign hotkeys.
 
 ## Features

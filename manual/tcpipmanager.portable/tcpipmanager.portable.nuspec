@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tcpipmanager.portable</id>
+    <version>4.1.1</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/tcpipmanager.portable</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>TCP/IP Manager (Portable)</title>
+    <authors>Adrian-Costin Tundrea</authors>
+    <projectUrl>https://tcpipmanager.sourceforge.io</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tcpipmanager.portable/tcpipmanager.portable.png</iconUrl>
+    <copyright>Copyleft 2009-2018 Adrian-Costin Tundrea</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://sourceforge.net/p/tcpipmanager/code/HEAD/tree</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://sourceforge.net/p/tcpipmanager/bugs</bugTrackerUrl>
+    <tags>tcpipmanager.portable tcp ipnetwork  configuration manager</tags>
+    <summary>TCP/IP Manager is designed to help computer users keep track of their network configuration in different locations.</summary>
+    <description><![CDATA[
+TCP/IP Manager is designed to help computer users keep track of their network configuration in different locations. At home or at work, changing network settings is now just one click away!
+
+## Features
+- Save your network settings in an unlimited number of profiles
+- Support for switching TCP/IP settings (including multiple IP/Gateway/DNS servers)
+- Support for switching proxy settings, computer and workgroup names
+- Support for MAC spoofing
+- Easy switching between profiles (with tray icon and hotkeys)
+- Generate batch files from network profiles
+- Import current system settings
+- Very fast and easy to use interface
+- Run at Windows startup
+- WebUpdate (complete with news) and statistics modules
+- Installer and standalone (7z) versions for both 32-bit and 64-bit platforms
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tcpipmanager.portable/screenshot.png)
+]]></description>
+    <releaseNotes>https://sourceforge.net/p/tcpipmanager/news</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

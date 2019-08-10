@@ -7,7 +7,7 @@
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/bbc-iplayer</packageSourceUrl>
     <owners>chtof</owners>
     <title>BBC iPlayer</title>
-    <authors>BBC.</authors>
+    <authors>British Broadcasting Corporation</authors>
     <projectUrl>https://www.bbc.co.uk/iplayer/install</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/bbc-iplayer/bbc-iplayer.png</iconUrl>
     <copyright>Copyright © 2019 BBC.</copyright>
@@ -18,7 +18,7 @@
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>bbc-iplayer bbc iplayer</tags>
-    <summary>Downloading allows you to enjoy your favourite BBC programmes without being connected to the Internet.</summary>
+    <summary>A desktop app to download and watch BBC TV programmes.</summary>
     <description><![CDATA[
 Downloading allows you to enjoy your favourite BBC programmes without being connected to the Internet.
 

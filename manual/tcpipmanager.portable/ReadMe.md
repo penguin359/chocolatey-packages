@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tcpipmanager.portable/tcpipmanager.portable.png" width="48" height="48"/> [TCP/IP Manager (Portable)](https://chocolatey.org/packages/tcpipmanager.portable)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manaual/tcpipmanager.portable/tcpipmanager.portable.png" width="48" height="48"/> [TCP/IP Manager (Portable)](https://chocolatey.org/packages/tcpipmanager.portable)
 
 TCP/IP Manager is designed to help computer users keep track of their network configuration in different locations. At home or at work, changing network settings is now just one click away!
 
@@ -15,4 +15,4 @@ TCP/IP Manager is designed to help computer users keep track of their network co
 - WebUpdate (complete with news) and statistics modules
 - Installer and standalone (7z) versions for both 32-bit and 64-bit platforms
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tcpipmanager.portable/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manaual/tcpipmanager.portable/screenshot.png)

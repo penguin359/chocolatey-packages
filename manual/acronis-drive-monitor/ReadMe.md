@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/acronis-drive-monitor/acronis-drive-monitor.png" width="48" height="48"/> [Acronis Drive Monitor](https://chocolatey.org/packages/acronis-drive-monitor)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/acronis-drive-monitor/acronis-drive-monitor.png" width="48" height="48"/> [Acronis Drive Monitor](https://chocolatey.org/packages/acronis-drive-monitor)
 
 Acronis Drive Monitor is a free, downloadable software application developed by Acronis to monitor server, workstation and PC hard disk drives.
 
@@ -16,4 +16,4 @@ Acronis forum, Acronis knowledge base with dozens of articles and built-in help 
 - Receive alerts immediately
 Sends an email and displays a message on the Windows taskbar when it uncovers a disk-related problem.
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/acronis-drive-monitor/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/acronis-drive-monitor/screenshot.png)

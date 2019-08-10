@@ -4,6 +4,7 @@ $packageArgs = @{
   packageName  = $env:ChocolateyPackageName
   softwareName = 'Huggle *'
   fileType     = 'exe'
+  silentArgs   = '/S'
 }
 
 $uninstalled = $false

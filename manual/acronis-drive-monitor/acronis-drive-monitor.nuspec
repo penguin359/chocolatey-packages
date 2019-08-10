@@ -4,12 +4,12 @@
   <metadata>
     <id>acronis-drive-monitor</id>
     <version>1.0.566</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/acronis-drive-monitor</packageSourceUrl>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/acronis-drive-monitor</packageSourceUrl>
     <owners>chtof</owners>
     <title>Acronis Drive Monitor</title>
     <authors>Acronis</authors>
     <projectUrl>https://kb.acronis.com/content/58078</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/acronis-drive-monitor/acronis-drive-monitor.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/acronis-drive-monitor/acronis-drive-monitor.png</iconUrl>
     <copyright>Copyright © Acronis, 2000-2010. All rights reserved.</copyright>
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
@@ -36,7 +36,7 @@ Acronis forum, Acronis knowledge base with dozens of articles and built-in help 
 - Receive alerts immediately
 Sends an email and displays a message on the Windows taskbar when it uncovers a disk-related problem.
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/acronis-drive-monitor/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/acronis-drive-monitor/screenshot.png)
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <dependencies>

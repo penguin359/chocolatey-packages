@@ -12,8 +12,8 @@ Briss 2.0 is based on Briss 0.9 which is located at sourceforge: http://sourcefo
 ## Screenshots
 Startscreen with drag and drop support:
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/briss/screenshot1.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/briss/screenshot1.png)
 
 Cropping view:
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/briss/screenshot2.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/briss/screenshot2.png)

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>briss</id>
+    <version>2.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/briss</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Briss</title>
+    <authors>Briss Team.</authors>
+    <projectUrl>https://github.com/mbaeuerle/Briss-2.0</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/briss/briss.png</iconUrl>-->
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/mbaeuerle/Briss-2.0/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/mbaeuerle/Briss-2.0</projectSourceUrl>
+    <docsUrl>https://github.com/mbaeuerle/Briss-2.0#commandline</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/mbaeuerle/Briss-2.0/issues</bugTrackerUrl>
+    <tags>briss mass PDF crop</tags>
+    <summary>Briss 2.0 is intended to be a GUI Update for the Briss PDF cropping tool.</summary>
+    <description><![CDATA[
+Briss 2.0 is intended to be a GUI Update for the Briss PDF cropping tool.
+
+Briss 2.0 is based on Briss 0.9 which is located at sourceforge: http://sourceforge.net/projects/briss/
+
+### Things that are done by now
+- Small refinements on gui which improve the workflow
+- Better file chooser than provided by swing
+- Added support for drag and drop
+
+## Screenshots
+Startscreen with drag and drop support:
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/briss/screenshot1.png)
+
+Cropping view:
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/briss/screenshot2.png)
+]]></description>
+    <releaseNotes>https://github.com/mbaeuerle/Briss-2.0/releases</releaseNotes>
+    <dependencies>
+      <dependency id="jre8" version="8.0.221" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

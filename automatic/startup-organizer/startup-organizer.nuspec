@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>startup-organizer</id>
+    <version>2.9.324</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/startup-organizer</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Startup Organizer</title>
+    <authors>MetaProducts Systems.</authors>
+    <projectUrl>https://metaproducts.com/products/startup-organizer</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/startup-organizer/startup-organizer.png</iconUrl>
+    <copyright>Copyright © 1997-2019 MetaProducts Systems. All rights reserved.</copyright>
+    <licenseUrl>https://metaproducts.com/products/startup-organizer</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>https://metaproducts.com/forum/startup-organizer</mailingListUrl>
+    <bugTrackerUrl>https://metaproducts.com/forum/startup-organizer</bugTrackerUrl>
+    <tags>startup-organizer startup organizer trial</tags>
+    <summary>Startup Organizer was developed to provide quick access to all of the programs that are automatically started when you turn on or logon to your computer.</summary>
+    <description><![CDATA[
+Startup Organizer is a Windows 95/98/ME/NT/2000/XP/2003/Vista/7 program that was developed to provide quick access to all of the programs that are automatically started when you turn on or logon to your computer.
+
+Using Startup Organizer, you can inspect, edit, print and/or temporarily disable such programs and make backup configurations.
+
+You may significantly reduce the time required for your system startup by disabling programs that you don`t need all the time.
+
+With RunOnceEx, Services and AutoRunDLL technology support, StartUp Organizer provides you with the most complete control on all methods to start programs automatically.
+
+The **Controlled Startup** feature allows you to skip certain programs during startup if you hold the **[Shift]** key while Windows is logging on.
+
+The new version allows you to choose the key for the Controlled Startup feature. It is also possible now to prompt for a confirmation of whether to start all or each program in the Controlled Startup.
+
+**StartUp Guard** detects non-standard ways to run applications when Windows starts and issues recommendations when it encounters suspicious programs.
+
+Users of Windows NT 4.0/2000/XP/2003/Vista/2008 can benefit from the new ability to work with **other users startup configurations**. StartUp Organizer displays other users among your standard Registry, Controlled Startup and Start menu items. You can view programs of other users, edit them, add new ones and drag programs to them.
+
+You can even **add programs to multiple users** with just a few clicks!
+
+You can also define the **order** in which to run your programs and even set a **delay** when running them consecutively.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/startup-organizer/screenshot.png)
+]]></description>
+    <releaseNotes>https://metaproducts.com/news</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.install" version="1.1.30.03" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

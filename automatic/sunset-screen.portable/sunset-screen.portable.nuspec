@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>sunset-screen.portable</id>
-    <version>1.31</version>
+    <version>1.32</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/sunset-screen.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>Sunset Screen (Portable)</title>
@@ -19,8 +19,7 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>sunset-screen.portable redshift flux blue red screen tint sleep cycle desktop night trial</tags>
     <summary>SunsetScreen allows you to warm the colours of the screen to avoid blue glare and sleep better at night. You can set the colour and times of the sunset and sunrise independently.</summary>
-    <description><![CDATA[
-SunsetScreen is a Windows app which helps take the glare off your your screen in the evening. Scientific research has shown that melatonin - the chemical the brain makes late in the day - is reduced when exposed to blue light. By tempering this blue light, it becomes easier to wind down properly at night, and thus have a more restful sleep.
+    <description><![CDATA[SunsetScreen is a Windows app which helps take the glare off your your screen in the evening. Scientific research has shown that melatonin - the chemical the brain makes late in the day - is reduced when exposed to blue light. By tempering this blue light, it becomes easier to wind down properly at night, and thus have a more restful sleep.
 
 Whether you're a morning lark or night owl, SunsetScreen allows you to set the time of the sunset and sunrise, so you can have full control over your sleep cycle.
 

@@ -1,17 +1,17 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
+  packageName    = $env:ChocolateyPackageName
     
-  url           = 'http://eu.basilisk-browser.org/release/basilisk-latest.win32.installer.exe'
-  checksum      = 'E7B1FAE9EE0953921AEEEE31AB87BCA049139963E1C52B22FF282F793ACD03DD'
-  checksumType  = 'sha256'
-  
-  url64bit      = 'http://eu.basilisk-browser.org/release/basilisk-latest.win64.installer.exe'
-  checksum64    = 'B4E7DEAB74C5DF327E26C074F3A7519863764859AB4694A2E962D3DEFCDA1B65'
-  checksumType64= 'sha256'
+  url            = 'https://eu.basilisk-browser.org/release/basilisk-latest.win32.installer.exe'
+  checksum       = 'e7b1fae9ee0953921aeeee31ab87bca049139963e1c52b22ff282f793acd03dd'
+  checksumType   = 'sha256'
 
-  silentArgs    = "/S"
+  url64          = 'https://eu.basilisk-browser.org/release/basilisk-latest.win64.installer.exe'
+  checksum64     = 'b4e7deab74c5df327e26c074f3a7519863764859ab4694a2e962d3defcda1b65'
+  checksumType64 = 'sha256'
+
+  silentArgs     = "/S"
 }
 
 Install-ChocolateyPackage @packageArgs

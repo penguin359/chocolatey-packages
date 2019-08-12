@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$file = "$toolsDir\SonarLint.VSIX-4.11.1.10027-2017.vsix"
+$file = "$toolsDir\SonarLint.VSIX-4.12.0.10191-2017.vsix"
 
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName

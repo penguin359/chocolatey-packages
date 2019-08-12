@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>evga-eleet</id>
+    <version>1.10.4</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/evga-eleet</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>EVGA E-LEET Tuning Utility</title>
+    <authors>EVGA® Corporation.</authors>
+    <projectUrl>https://www.evga.com/eleet/</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/evga-eleet/evga-eleet.png</iconUrl>
+    <copyright>© 2019 EVGA® Corporation | All Rights Reserved</copyright>
+    <licenseUrl>https://www.evga.com/legal/terms/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>http://www.evga.com/forums/tt.aspx?forumid=22</mailingListUrl>
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>evga-eleet ecga e-leet advanced motherboard tuning</tags>
+    <summary>Free EVGA E-LEETX advanced motherboard tuning.</summary>
+    <description><![CDATA[
+EVGA now gives you more with the EVGA E-LEET Tuning Utility. This utility allows you to easily set your motherboard QPI and system Voltages from within Windows to get your system running at the highest level of performance possible. EVGA E-LEET also includes a validation feature, allowing you to save a CPU screenshot and generates a unique URL, also a Brink OC feature that automatically saves a screenshot with every clockspeed increase.
+
+Increase your voltage to maximize your overclock, or lower your voltage to decrease the operating temperatures.
+
+**CPU**
+Familiar and clean interface.
+
+**Memory**
+View memory frequency, timings and memory amount.
+
+**Monitoring**
+Monitor system vitals.
+
+**Overclocking**
+Overclock on the fly, from within Windows!
+
+**Voltages**
+Adjust system voltages in realtime.
+
+**Options**
+Setup profiles and assign hotkeys.
+
+## Features
+- Real-time monitoring of CPU, Memory and QPI frequencies
+- Real-time monitoring of vital voltages such as: CPU VCore, DRAM Voltage, +12v, etc.
+- Real-time monitoring of each individual core, north bridge and voltages regulator temperatures
+- Real-time adjustments of QPI Base Clocks, CPU Multiplier and PCIe Bus Frequencies
+
+## System Requirements
+- Windows XP, Vista, 7, 8 32/64, 10 32/64
+- EVGA Z390, X299, Z370, H370, B360, Z270, Z170, X99, Z87, X79, X58, P67/Z68, P55* or H57/H55* Motherboards
+  * P55V and H55V Motherboards not supported
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/evga-eleet/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -15,5 +15,10 @@ ControlClick, x362 y362, %winTitle%,,,, NA ; Next
 Sleep 350
 ControlClick, x362 y362, %winTitle%,,,, NA ; Uninstall
 
-Sleep 30000 ; As-is Windows Spy doesn't catch any QWidget controls
+;Sleep 30000 ; As-is Windows Spy doesn't catch any QWidget controls
+;ControlClick, x436 y362, %winTitle%,,,, NA ; Completing the Natron Wizard - Finish
+loop
+{
 ControlClick, x436 y362, %winTitle%,,,, NA ; Completing the Natron Wizard - Finish
+Sleep 2000
+}

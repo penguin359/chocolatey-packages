@@ -1,16 +1,16 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"  
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
 
-  url           = 'http://eu.basilisk-browser.org/release/basilisk-latest.win32.zip'
-  checksum      = 'CF43FA119ABEA7381927163BF359A0B6E0CE27CA4880D4C89438A789C285EA9E'
+  url           = 'https://eu.basilisk-browser.org/release/basilisk-latest.win32.zip'
+  checksum      = 'cf43fa119abea7381927163bf359a0b6e0ce27ca4880d4c89438a789c285ea9e'
   checksumType  = 'sha256'
   
-  url64         = 'http://eu.basilisk-browser.org/release/basilisk-latest.win64.zip'
-  checksum64    = '674A5272F1FE215211ACB5DC6DA0ED7B749DFB74C4D0733EA6922625F5745643'
+  url64         = 'https://eu.basilisk-browser.org/release/basilisk-latest.win64.zip'
+  checksum64    = '674a5272f1fe215211acb5dc6da0ed7b749dfb74c4d0733ea6922625f5745643'
   checksumType64= 'sha256'
 }
 

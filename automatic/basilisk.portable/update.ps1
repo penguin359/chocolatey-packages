@@ -8,8 +8,8 @@ function global:au_GetLatest {
 
 	return @{
         Version = $matches.Version
-        URL32 = 'http://eu.basilisk-browser.org/release/basilisk-latest.win32.zip'
-        URL64 = 'http://eu.basilisk-browser.org/release/basilisk-latest.win64.zip'
+        URL32   = 'https://eu.basilisk-browser.org/release/basilisk-latest.win32.zip'
+        URL64   = 'https://eu.basilisk-browser.org/release/basilisk-latest.win64.zip'
         }
 }
 

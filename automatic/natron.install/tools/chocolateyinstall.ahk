@@ -10,24 +10,40 @@ winTitle = Natron Setup
 
 WinWait, %winTitle% ahk_class QWidget,, 180 ; Welcome
 Sleep 700
-ControlClick, x302 y500, %winTitle%,,,, NA ; Next
+;ControlClick, x302 y500, %winTitle%,,,, NA ; Next
+ControlClick, x355 y363, %winTitle%,,,, NA ; Next
 
 Sleep 700
-ControlClick, x302 y500, %winTitle%,,,, NA ; Installation folder
+;ControlClick, x302 y500, %winTitle%,,,, NA ; Installation folder
+ControlClick, x355 y363, %winTitle%,,,, NA ; Installation folder
 
 Sleep 700
-ControlClick, x302 y500, %winTitle%,,,, NA ; Select Components
+;ControlClick, x302 y500, %winTitle%,,,, NA ; Select Components
+ControlClick, x355 y363, %winTitle%,,,, NA ; Select Components
 
-Sleep 1000
-ControlClick, x52 y414, %winTitle%,,,, NA ; License agreement - I accept the license
-Sleep 700
-ControlClick, x302 y500, %winTitle%,,,, NA ; Select Components
+Sleep 2500
+;ControlClick, x52 y414, %winTitle%,,,, NA ; License agreement - I accept the license
+;ControlClick, x32 y301, %winTitle%,,,, NA ; License agreement - I accept the license
+Sleep 1500
+ControlClick, x41 y301, %winTitle%,,,, NA ; License agreement - I accept the license
+Sleep 1700
+;ControlClick, x32 y301, %winTitle%,,,, NA ; License agreement - I accept the license
+;Sleep 1700
+;ControlClick, x302 y500, %winTitle%,,,, NA ; Select Components
+ControlClick, x355 y363, %winTitle%,,,, NA ; Select Components
 
-Sleep 700
-ControlClick, x302 y500, %winTitle%,,,, NA ; Start Menu shortcuts
+Sleep 1700
+;ControlClick, x302 y500, %winTitle%,,,, NA ; Start Menu shortcuts
+ControlClick, x355 y363, %winTitle%,,,, NA ; Start Menu shortcuts
 
-Sleep 700
-ControlClick, x302 y500, %winTitle%,,,, NA ; Ready to install
+Sleep 1700
+;ControlClick, x302 y500, %winTitle%,,,, NA ; Ready to install
+ControlClick, x355 y363, %winTitle%,,,, NA ; Ready to install
 
 Sleep 75000 ; As-is Windows Spy does not catch any QWidget controls
-ControlClick, x434 y360, %winTitle%,,,, NA ; Completing the Natron Wizard - Finish
+ControlClick, x437 y364, %winTitle%,,,, NA ; Completing the Natron Wizard - Finish
+;loop
+;{
+;ControlClick, x437 y364, %winTitle%,,,, NA ; Completing the Natron Wizard - Finish
+;Sleep 2000
+;}

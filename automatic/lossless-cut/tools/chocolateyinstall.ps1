@@ -6,11 +6,11 @@ $packageArgs = @{
   unzipLocation  = "$toolsDir"
 
   url            = 'https://github.com/mifi/lossless-cut/releases/download/v2.3.0/LosslessCut-win32-ia32.zip'
-  checksum       = 'C6590B06BC65D889563A490F861D26DF998B7CFC355B012EC71503EF79FC41CE'
+  checksum       = 'c6590b06bc65d889563a490f861d26df998b7cfc355b012ec71503ef79fc41ce'
   checksumType   = 'sha256'
 
   url64          = 'https://github.com/mifi/lossless-cut/releases/download/v2.3.0/LosslessCut-win32-x64.zip'
-  checksum64     = '930B2FC7D4F6FB28D20769229CB9A73DBEDFC19983F6F3F18CB9CFB282EE3A24'
+  checksum64     = '930b2fc7d4f6fb28d20769229cb9a73dbedfc19983f6f3f18cb9cfb282ee3a24'
   checksumType64 = 'sha256'
 }
 

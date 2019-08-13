@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>klog</id>
-    <version>0.9.7.201</version>
+    <version>0.9.8</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/klog</packageSourceUrl>
     <owners>chtof</owners>
     <title>KLog</title>
@@ -20,13 +20,14 @@
     <bugTrackerUrl>https://savannah.nongnu.org/bugs/?group=klog</bugTrackerUrl>
     <tags>klog log HAM radio amateur</tags>
     <summary>KLog is a Ham radio logging program for Linux / OSX / Windows.</summary>
-    <description><![CDATA[
-KLog is the only hamradio logging program that can be executed in several operating systems!
+    <description><![CDATA[KLog is the only hamradio logging program that can be executed in several operating systems!
 
 ## Features
+
 KLog has many features that will help you to manage your radio activity.
 
 Those main features include:
+
 - [Multilanguage](http://www.klog.xyz/contrib/translations) support.
 - QSO logging, adding, editing, searching, removing…
 - Several logs management.

@@ -29,6 +29,7 @@ As described more fully on its own page, WSPR mode implements a protocol designe
     <releaseNotes>https://physics.princeton.edu/pulsar/k1jt/Release_Notes.txt</releaseNotes>
   </metadata>
   <files>
+    <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>

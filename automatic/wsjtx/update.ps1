@@ -2,7 +2,7 @@
 
 function global:au_GetLatest {
     $releases = 'https://physics.princeton.edu/pulsar/k1jt/wsjtx.html'
-    $regex   = 'wsjtx-(?<Version>[\d\.]+)-win32.exe$'
+    $regex    = 'wsjtx-(?<Version>[\d\.]+)-win32.exe$'
 
     (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Out-Null
 	

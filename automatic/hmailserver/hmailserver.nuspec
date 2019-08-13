@@ -35,6 +35,9 @@ hMailServer comes with a set of built-in anti spam features such as SPF, SURBL. 
 Any webmail system which supports IMAP and SMTP can be used with hMailServer. RoundCube and SquirrelMail are popular webmail systems which are often used with hMailServer.
 ]]></description>
     <releaseNotes>https://www.hmailserver.com/changelog/?version=5.6.7</releaseNotes>
+    <dependencies>
+      <dependency id="dotnet3.5" version="3.5.20160716" />
+    </dependencies>    
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

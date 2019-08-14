@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>djvu-converter</id>
+    <version>1.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/djvu-converter</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>DjVu Converter</title>
+    <authors>DjVu Converter Team.</authors>
+    <projectUrl>http://www.djvuconverter.com</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/djvu-converter/djvu-converter.png</iconUrl>
+    <copyright>COPYRIGHT © 2014 DJVUCONVERTER.COM, ALL RIGHT RESERVED.</copyright>
+    <licenseUrl>http://www.djvuconverter.com</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>http://www.djvuconverter.com/index.html</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>http://www.djvuconverter.com/feedback.html</bugTrackerUrl>
+    <tags>djvu-converter DjVu image conversion convert PDF EPUB TIFF JPG JPEG TIFF</tags>
+    <summary>DjVu Converter is a free DjVu image conversion software, it can convert DjVu images to PDF documents, EPUB e-books, or TIFF, JPG/JPEG and PNG images.</summary>
+    <description><![CDATA[
+DjVu Converter is a free DjVu image conversion software, it can convert DjVu images to PDF documents, EPUB e-books, or TIFF, JPG/JPEG and PNG images. You can convert all pages or select partial pages, and can control image quality of output image. Software is easy to use, no complicated settings and complex steps, with a few mouse clicks, you can breezed complete DjVu files conversion by yourself.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/djvu-converter/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

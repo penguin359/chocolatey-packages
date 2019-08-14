@@ -1,0 +1,33 @@
+﻿
+From: http://djvu.sourceforge.net/licensing.html
+
+LICENSE
+
+Disclaimer: The following information is provided for information only. The maintainers of DjVuLibre are not employed by Lizardtech and cannot speak for Lizardtech.
+The DjVu Reference Library 3.5 was released by Lizardtech under the GNU General Public License version 2. DjVuLibre-3.5 was developed by Leon Bottou and others as a "Derived Work" of the DjVu Reference Library 3.5. As such, it is also subject to the GNU General Public License version 2.
+
+Several patents apply to two very specific aspects of DjVu and DjVuLibre. The patents cover a particular aspect of the ZP-coder (the arithmetic coder used in DjVu and implemented in libdjvu/ZPCodec.cpp) and the background masking technique used in the IW44 wavelet encoder (implemented in libdjvu/IW44EncodeCodec.cpp).
+
+Most patents are owned by AT&T. LizardTech has very broad rights to them and grants free and permanent licenses to them for the purpose of building GPL software with the DjVu Reference Library. The grant is materialized by two paragraphs in the headers of the DjVu Reference Library source files. Lizardtech also published an official statement about the open source licensing of its DjVu code.
+
+The first version of these two paragraphs, unfortunately, could be interpreted as only granting a patent license for using the unmodified DjVu Reference Library. On July 19th, 2002, Lizardtech authorized us to replace the patent license paragraphs by a new language ( DjVu (21K), Gzipped PS (148K).) The new language reads as follows:
+
+    The computer code originally released by LizardTech under this
+    license and unmodified by other parties is deemed "the LIZARDTECH
+    ORIGINAL CODE."  Subject to any third party intellectual property
+    claims, LizardTech grants recipient a worldwide, royalty-free, 
+    non-exclusive license to make, use, sell, or otherwise dispose of 
+    the LIZARDTECH ORIGINAL CODE or of programs derived from the 
+    LIZARDTECH ORIGINAL CODE in compliance with the terms of the GNU 
+    General Public License.   This grant only confers the right to 
+    infringe patent claims underlying the LIZARDTECH ORIGINAL CODE to 
+    the extent such infringement is reasonably necessary to enable 
+    recipient to make, have made, practice, sell, or otherwise dispose 
+    of the LIZARDTECH ORIGINAL CODE (or portions thereof) and not to 
+    any greater extent that may be necessary to utilize further 
+    modifications or combinations.
+We believe that this text unambiguously says that works derived from the DjVu Reference Library under the GPL are authorized to infringe the DjVu patents to the same extent as the DjVu Reference Library.
+
+This is very similar to the situation of any GPLed program. For instance, everyone is allowed to distribute a modified version of emacs under the GPL, provided that this modified version does not contain patent infringements. In the case of DjVu, everyone is allowed to distribute a modified version of the DjVu Reference Library under the GPL, provided that this modified version does not contain additional patent infringements.
+
+We warmly thank Lizardtech for making this clear.

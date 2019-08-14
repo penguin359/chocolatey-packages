@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>embree</id>
+    <version>3.5.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/embree</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Intel® Embree</title>
+    <authors>Intel Corporation</authors>
+    <projectUrl>https://www.embree.org</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/embree/embree.png</iconUrl>-->
+    <copyright>© 2009–2018 Intel Corporation</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/embree/embree/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/embree/embree</projectSourceUrl>
+    <docsUrl>https://www.embree.org/tutorials.html</docsUrl>
+    <mailingListUrl>https://groups.google.com/d/forum/embree</mailingListUrl>
+    <bugTrackerUrl>https://github.com/embree/embree/issues</bugTrackerUrl>
+    <tags>embree high performance ray tracing kernel intel corporation</tags>
+    <summary>Intel® Embree is a collection of high-performance ray tracing kernels, developed at Intel.</summary>
+    <description><![CDATA[
+**Embree**: High Performance Ray Tracing Kernels 3.6.0-beta.0 % Intel Corporation
+
+## Embree Overview
+Intel® Embree is a collection of high-performance ray tracing kernels, developed at Intel. The target users of Intel® Embree are graphics application engineers who want to improve the performance of their photo-realistic rendering application by leveraging Embree's performance-optimized ray tracing kernels. The kernels are optimized for the latest Intel® processors with support for SSE, AVX, AVX2, and AVX-512 instructions. Intel® Embree supports runtime code selection to choose the traversal and build algorithms that best matches the instruction set of your CPU. We recommend using Intel® Embree through its API to get the highest benefit from future improvements. Intel® Embree is released as Open Source under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0).
+
+Intel® Embree supports applications written with the Intel® SPMD Program Compiler (ISPC, https://ispc.github.io/) by also providing an ISPC interface to the core ray tracing algorithms. This makes it possible to write a renderer in ISPC that automatically vectorizes and leverages SSE, AVX, AVX2, and AVX-512 instructions. ISPC also supports runtime code selection, thus ISPC will select the best code path for your application.
+
+Intel® Embree contains algorithms optimized for incoherent workloads (e.g. Monte Carlo ray tracing algorithms) and coherent workloads (e.g. primary visibility and hard shadow rays).
+
+The single-ray traversal kernels of Intel® Embree provide high performance for incoherent workloads and are very easy to integrate into existing rendering applications. Using the stream kernels, even higher performance for incoherent rays is possible, but integration might require significant code changes to the application to use the stream paradigm. In general for coherent workloads, the stream mode with coherent flag set gives the best performance.
+
+Intel® Embree also supports dynamic scenes by implementing high-performance two-level spatial index structure construction algorithms.
+
+In addition to the ray tracing kernels, Intel® Embree provides some [Embree Tutorials](https://github.com/embree/embree#embree-tutorials) to demonstrate how to use the [Embree API](https://github.com/embree/embree#embree-api).
+
+## Supported Platforms
+Embree supports Windows (32-bit and 64-bit), Linux (64-bit), and macOS (64-bit). The code compiles with the Intel® Compiler, GCC, Clang, and the Microsoft Compiler.
+
+Using the Intel® Compiler improves performance by approximately 10%. Performance also varies across different operating systems, with Linux typically performing best as it supports transparently transitioning to 2MB pages.
+
+Embree is optimized for Intel CPUs supporting SSE, AVX, AVX2, and AVX-512 instructions, and requires at least a CPU with support for SSE2.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/embree/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <dependencies>
+      <dependency id="embree.install" version="[3.5.2]" />
+    </dependencies>
+  </metadata>
+  <files></files>
+</package>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://softorino.com/support</bugTrackerUrl>
     <tags>foldercolorizer folder color</tags>
     <summary>Change folder color and get organized.</summary>
-    <description><![CDATA[
-Introducing the 2nd iteration of our critically-acclaimed Folder Colorizer. Originally introduced in 2011. The innovation in Folder Colorizer was its straightforward user experience – ability to change folder colour in 1-click, as if it’s pre-built into the system. Now this seems obvious, but in 2011 it was first of its kind. This tiny detail drew extreme attention & organic popularity to the product. Today, it’s reaching 5 million downloads.
+    <description><![CDATA[Introducing the 2nd iteration of our critically-acclaimed Folder Colorizer. Originally introduced in 2011. The innovation in Folder Colorizer was its straightforward user experience – ability to change folder colour in 1-click, as if it’s pre-built into the system. Now this seems obvious, but in 2011 it was first of its kind. This tiny detail drew extreme attention & organic popularity to the product. Today, it’s reaching 5 million downloads.
 All of this makes Folder Colorizer 2 a perfect way to organize your workflow. Easily label your important folders, improve your navigation & boost your productivity. It’s free!
 We’re proud that the original concept & design of Folder Colorizer 2 is setting a new bar for the entire category of compact Windows Utility Software.
 ## The Result

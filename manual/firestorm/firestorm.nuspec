@@ -3,10 +3,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>firestorm</id>
-    <version>6.0.2</version>
+    <version>6.0.2.20190815</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/firestorm</packageSourceUrl>
     <owners>chtof</owners>
-    <title>[Deprecated] Firestorm</title>
+    <title>[Deprecated] Firestorm Viewer</title>
     <authors>Firestorm Team.</authors>
     <projectUrl>http://www.firestormviewer.org</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/firestorm/firestorm.png</iconUrl>
@@ -24,8 +24,13 @@
 
 - [Download Firestorm Viewer for Second Life](https://chocolatey.org/packages/firestorm-secondlife).
 - [Download Firestorm Viewer for Open Simulator](https://chocolatey.org/packages/firestorm-opensim).
+
+By default, this package (firestorm) will install Firestorm Viewer for **Open Simulator**.
 ]]></description>
     <releaseNotes>https://www.firestormviewer.org</releaseNotes>
+  <dependencies>
+    <dependency id="firestorm-opensim" version="6.0.2" />
+  </dependencies>
   </metadata>
   <files></files>
 </package>

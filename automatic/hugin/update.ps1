@@ -1,5 +1,7 @@
 ﻿import-module au
 
+[Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
+
 function global:au_GetLatest {
     $releases = 'http://hugin.sourceforge.net/download'
     $regex    = 'https://sourceforge.net/projects/hugin/files/hugin/hugin-[\d\.]+/Hugin-(?<Version>[\d\.]+)-win64.msi/download'

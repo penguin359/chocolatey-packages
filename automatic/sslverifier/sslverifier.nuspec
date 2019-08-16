@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>sslverifier</id>
-    <version>1.3</version>
+    <version>1.3.0.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/sslverifier</packageSourceUrl>
     <owners>chtof</owners>
     <title>SSL Certificate Verifier</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/Crypt32/SSLVerifier.WPF/issues</bugTrackerUrl>
     <tags>sslverifier ssl certificate verifier WPF tool</tags>
     <summary>This is a WPF tool that allows to connect to remote web servers and examine SSL certificates.</summary>
-    <description><![CDATA[
-## Features
+    <description><![CDATA[## Features
 - Validates the SSL certificate and validates all certificates in the chain for possible errors;
 - Implements certificate expiration checking. Certificate expiration is checked for all certificates in the chain;
 - The tool also checks certificates for all possible redirection URLs;

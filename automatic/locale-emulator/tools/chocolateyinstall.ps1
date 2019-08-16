@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"  
 
 $packageArgs = @{
@@ -6,8 +6,8 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   file          = "$toolsDir\LEInstaller.exe"
 
-  url           = 'https://github.com/xupefei/Locale-Emulator/releases/download/v2.4.0.0/Locale.Emulator.2.4.0.0.zip'
-  checksum      = '94FC8351CF99941D1D8739E384753D8A085A075DDA4A86BC6049EE7EC4F49720'
+  url           = 'https://github.com/xupefei/Locale-Emulator/releases/download/v2.4.1.0/Locale.Emulator.2.4.1.0.zip'
+  checksum      = '6c9251cd1b788c1c46be5541fa1895ad88a37a886785038c4188cac80aceaae4'
   checksumType  = 'sha256'   
 }
 

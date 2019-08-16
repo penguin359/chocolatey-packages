@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>firestorm</id>
+    <version>6.0.2.20190815</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/firestorm</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>[Deprecated] Firestorm Viewer</title>
+    <authors>Firestorm Team.</authors>
+    <projectUrl>http://www.firestormviewer.org</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/firestorm/firestorm.png</iconUrl>
+    <copyright>© 2019 Firestorm Viewer - The Phoenix Firestorm Project Inc.</copyright>
+    <licenseUrl>http://hg.phoenixviewer.com/phoenix-firestorm-lgpl/file/9e90285ec915/doc/LGPL-licence.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>http://hg.phoenixviewer.com/phoenix-firestorm-lgpl</projectSourceUrl>
+    <docsUrl>http://wiki.phoenixviewer.com</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://jira.firestormviewer.org/secure/Dashboard.jspa</bugTrackerUrl>
+    <tags>firestorm firestorm secondlife viewer</tags>
+    <summary>[[Summary]]</summary>
+    <description><![CDATA[
+**Firestorm now has separate downloads for Second Life and Open Simulator grids. Please choose which platform you wish to log into for the appropriate viewer. [More info about this change HERE](https://www.firestormviewer.org/second-life-opensim-are-no-longer-joined-at-the-hip).**
+
+- [Download Firestorm Viewer for Second Life](https://chocolatey.org/packages/firestorm-secondlife).
+- [Download Firestorm Viewer for Open Simulator](https://chocolatey.org/packages/firestorm-opensim).
+
+By default, this package (firestorm) will install Firestorm Viewer for **Open Simulator**.
+]]></description>
+    <releaseNotes>https://www.firestormviewer.org</releaseNotes>
+  <dependencies>
+    <dependency id="firestorm-opensim" version="6.0.2" />
+  </dependencies>
+  </metadata>
+  <files></files>
+</package>

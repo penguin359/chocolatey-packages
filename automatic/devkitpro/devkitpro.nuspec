@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>devkitpro</id>
+    <version>3.0.3</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/devkitpro-updater</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>devkitPro Updater</title>
+    <authors>devkitPro Team.</authors>
+    <projectUrl>https://devkitpro.org</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/devkitpro-updater/devkitpro-updater.png</iconUrl>-->
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://devkitpro.org/wiki/Trademarks</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://devkitpro.org/wiki/Getting_Started</docsUrl>
+    <mailingListUrl>https://devkitpro.org/viewforum.php</mailingListUrl>
+    <bugTrackerUrl>https://devkitpro.org/viewforum.php?f=15</bugTrackerUrl>
+    <tags>devkitpro devkitPro GNU cross-compiler toolchains homebrew development games consoles</tags>
+    <summary>devkitPro provide a number of GNU cross-compiler toolchains aimed at homebrew development for games consoles ranging from the Game Boy Advance to the Switch.</summary>
+    <description><![CDATA[
+devkitPro provide a number of GNU cross-compiler toolchains aimed at homebrew development for games consoles ranging from the Game Boy Advance to the Switch.
+]]></description>
+    <releaseNotes>https://github.com/devkitPro/installer/releases</releaseNotes>
+    <dependencies>
+     <dependency id="autohotkey.install" version="1.1.30.03" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

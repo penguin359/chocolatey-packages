@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>fontforge</id>
+    <version>2019.08.01</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/fontforge</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>FontForge</title>
+    <authors>George Williams and the FontForge Project contributors.</authors>
+    <projectUrl>https://fontforge.github.io</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/fontforge/fontforge.png</iconUrl>
+    <copyright>Copyright © 2000 – 2015, George Williams and the FontForge Project contributors. Shared freely under the project license.</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/fontforge/fontforge/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/fontforge</projectSourceUrl>
+    <docsUrl>https://fontforge.github.io/en-US/documentation</docsUrl>
+    <mailingListUrl>https://sourceforge.net/projects/fontforge/lists/fontforge-announce</mailingListUrl>
+    <bugTrackerUrl>https://github.com/fontforge/fontforge/issues</bugTrackerUrl>
+    <tags>fontforge font editor</tags>
+    <summary>Free (libre) font editor for Windows, Mac OS X and GNU+Linux.</summary>
+    <description><![CDATA[
+FontForge allows scripting via python, or with it’s legacy scripter, has built-in error recovery, and allows opening, editing, and converting any of the following formats:
+
+- UFO (Unified Font Object)
+- WOFF (Web Open Format)
+- TrueType
+- OpenType
+- PostScript
+- Multiple-Master
+- CFF
+- SVG
+- Macintosh formats, including dfont and bin
+- Bitmap formats (bdf, FON, NFNT)
+- And its own SFD format.
+
+FontForge can also extract fonts fom PDFs and validate fonts for potential issues.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/fontforge/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/fontforge/fontforge/releases</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.install" version="1.1.30.03" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

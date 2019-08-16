@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>spacedesk-server</id>
-    <version>0.9.18</version>
+    <version>0.9.19</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/spacedesk-server</packageSourceUrl>
     <owners>chtof</owners>
     <title>Spacedesk Driver Software for Windows PRIMARY PC (server)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://forum.spacedesk.ph</bugTrackerUrl>
     <tags>spacedesk-server network display software</tags>
     <summary>Windows network display monitor software.</summary>
-    <description><![CDATA[
-## Prerequisites
+    <description><![CDATA[## Prerequisites
 **Spacedesk Driver Software for Windows PRIMARY PC (server)** runs only with Windows 10, windows 8.1 and windows 7.
 
 ## Features and System Requirements

@@ -1,0 +1,22 @@
+﻿VERIFICATION
+ 
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+Package can be verified like this:
+ 
+1. Download:
+ 
+   x32: https://datapacket.dl.sourceforge.net/project/jpdftweak/jpdftweak/jpdftweak-1.1/jpdftweak-windows-x86-1.1.zip
+   x64: https://netcologne.dl.sourceforge.net/project/jpdftweak/jpdftweak/jpdftweak-1.1/jpdftweak-windows-x64-1.1.zip
+  
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+ 
+   checksum type: sha256
+   checksum32: 49ABD9FFA38F4A7EEC9B77FCA50A1104090CE1E5479AE0D5A21F8DD8E30A22C1
+   checksum64: 965153FB5A76B4545B77E57A6216C4F0B239E310A18132640E8A0A42A0A2B96D
+ 
+File 'LICENSE.txt' is obtained from:
+   https://www.gnu.org/licenses/agpl-3.0.txt

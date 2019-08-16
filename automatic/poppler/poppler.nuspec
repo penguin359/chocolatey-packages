@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>poppler</id>
+    <version>0.68.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/poppler</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Poppler</title>
+    <authors>Derek Noonburg, Albert Astals Cid.</authors>
+    <projectUrl>https://poppler.freedesktop.org</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/poppler/poppler.png</iconUrl>-->
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://cgit.freedesktop.org/poppler/poppler/plain/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://cgit.freedesktop.org/poppler/poppler/tree</projectSourceUrl>
+    <docsUrl>http://freedesktop.org/Software/poppler</docsUrl>
+    <mailingListUrl>http://lists.freedesktop.org/mailman/listinfo/poppler</mailingListUrl>
+    <bugTrackerUrl>https://gitlab.freedesktop.org/users/sign_in</bugTrackerUrl>
+    <tags>poppler PDF rendering library xpdf</tags>
+    <summary>Poppler is a PDF rendering library based on the xpdf-3.0 code base.</summary>
+    <description><![CDATA[
+Poppler is a PDF rendering library based on the [xpdf-3.0](http://www.foolabs.com/xpdf) code base.
+]]></description>
+    <releaseNotes>https://poppler.freedesktop.org/releases.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

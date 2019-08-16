@@ -1,13 +1,14 @@
 import-module au
-$releases = 'https://download.savannah.gnu.org/releases/klog/win/'
-$regex   = 'KLog-(.*)-windows-installer.exe$'
+$releases = 'https://mirrors.up.pt/pub/nongnu/klog/win/'
+$regex    = 'KLog-(.*)-windows-installer.exe$'
 
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
      $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	 $url = $download_page.links | ? href -match $regex | select -Last 1
-	 $version = $url -split '-|.exe' | select -Last 1 -Skip 3
+     $url     = $download_page.links | ? href -match $regex | select -Last 1
+     $version = $url -split '-|.exe' | select -Last 1 -Skip 3
+
      # When the fourth segment is already used, it is recommended to add two zeroes (00) to the end of the version. Then when you need to fix, you just increment that number.
      $versionNbSegment = ($version.ToCharArray() | Where-Object {$_ -eq '.'} | Measure-Object).Count
      if ($versionNbSegment -eq 3) { $version += "00" }
@@ -20,9 +21,9 @@ function global:au_SearchReplace {
             "(?i)(x32: ).*"               = "`${1}$($Latest.URL32)"
             "(?i)(x64: ).*"               = "`${1}$($Latest.URL32)"
             "(?i)(Get-RemoteChecksum ).*" = "`${1}$($Latest.URL32)"
-            "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
-            "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
-            "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
+            "(?i)(checksum type:\s+).*"   = "`${1}$($Latest.ChecksumType32)"
+            "(?i)(checksum32:).*"         = "`${1} $($Latest.Checksum32)"
+            "(?i)(checksum64:).*"         = "`${1} $($Latest.Checksum32)"
         }
 
         "tools\chocolateyinstall.ps1" = @{        

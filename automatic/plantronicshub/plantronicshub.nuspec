@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>plantronicshub</id>
+    <version>3.13.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/plantronicshub</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Plantronics Hub</title>
+    <authors>Plantronics, Inc.</authors>
+    <projectUrl>https://www.plantronics.com/us/en/support/downloads-apps/hub-desktop</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/plantronicshub/plantronicshub.png</iconUrl>
+    <copyright>© 2019 Plantronics, Inc.</copyright>
+    <licenseUrl>https://www.plantronics.com/us/en/legal/terms/terms-of-use</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://www.plantronics.com/content/dam/plantronics/documents-and-guides/user-guides/PLTHubWindowsMacUserGuide.pdf</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://www.plantronics.com/us/en/support/contact</bugTrackerUrl>
+    <tags>plantronicshub plantronics settings control</tags>
+    <summary>Allows end-users to customize their settings and get visible status of their Plantronics audio device on their desktop.</summary>
+    <description><![CDATA[
+## PRODUCTIVITY AND CONTROL
+Plantronics Hub for Windows/Mac, part of the Plantronics software portfolio, is a client application that allows users to control the settings on their Plantronics audio device. Users can customize their ringtone and ring location, configure presence updates, and more. The software enhances the user experience by providing valuable information about the state of their Plantronics audio device, such as mute and battery status, easily visible at the bottom of the desktop.
+
+## CUSTOMIZE THE EXPERIENCE OF YOUR PLANTRONICS AUDIO DEVICE
+- Change device settings
+- Visible mute and battery status
+- Device-level call control with call answer/end, mute, and volume adjust
+- Update your headset firmware
+- Change language option for your voice prompts
+
+*Some features not available on every device. Download Plantronics Hub to see which features you can customize.*
+]]></description>
+    <releaseNotes></releaseNotes>
+    <dependencies>
+      <dependency id="dotnetfx" version="4.7.2.20180712" />
+      <dependency id="vcredist2013" version="12.0.40660.20180427" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>unified-hosts-autoupdate</id>
+    <version>1.25</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/unified-hosts-autoupdate</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Unified Hosts AutoUpdate</title>
+    <authors>ScriptTiger</authors>
+    <projectUrl>https://github.com/ScriptTiger/Unified-Hosts-AutoUpdate</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/unified-hosts-autoupdate/unified-hosts-autoupdate.png</iconUrl>-->
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/ScriptTiger/Unified-Hosts-AutoUpdate/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/ScriptTiger/Unified-Hosts-AutoUpdate</projectSourceUrl>
+    <docsUrl>https://github.com/ScriptTiger/Unified-Hosts-AutoUpdate</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/ScriptTiger/Unified-Hosts-AutoUpdate/issues</bugTrackerUrl>
+    <tags>unified-hosts-autoupdate automatic update Steven Black unified hosts autoupdate</tags>
+    <summary>Quickly and easily install, uninstall, and set up automatic updates for any of Steven Black's unified hosts files.</summary>
+    <description><![CDATA[
+Quickly and easily install, uninstall, and set up automatic updates for any of Steven Black's unified hosts files.
+
+This AutoUpdate project is maintained by ScriptTiger: https://github.com/ScriptTiger/Unified-Hosts-AutoUpdate
+
+The Unified Hosts project is maintained by Steven Black: https://github.com/StevenBlack/hosts
+
+Further project contributors are noted with their contributions in the Unified Hosts data, both available online from Steven Black's project as well as in the data injected into the local hosts file by this script, as it is downloaded directly from Steven Black's most recently pre-generated Unified Hosts files.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/unified-hosts-autoupdate/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

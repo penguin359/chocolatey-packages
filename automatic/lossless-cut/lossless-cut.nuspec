@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>lossless-cut</id>
-    <version>2.3.0</version>
+    <version>2.4.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/lossless-cut</packageSourceUrl>
     <owners>chtof</owners>
     <title>LosslessCut</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/mifi/lossless-cut/issues</bugTrackerUrl>
     <tags>lossless-cut lossless trimming cutting video audio files</tags>
     <summary>Simple and ultra fast cross platform tool for lossless trimming/cutting of video and audio files.</summary>
-    <description><![CDATA[
-Simple and ultra fast cross platform tool for lossless trimming/cutting of video and audio files. Great for saving space by rough cutting your large video files taken from a video camera, GoPro, drone, etc. It lets you quickly extract the good parts from your videos and discard many gigabytes of data without doing a slow re-encode and thereby losing quality. It extremely fast because it does an almost direct data copy. It uses the awesome ffmpeg (included) for doing the grunt work.
+    <description><![CDATA[Simple and ultra fast cross platform tool for lossless trimming/cutting of video and audio files. Great for saving space by rough cutting your large video files taken from a video camera, GoPro, drone, etc. It lets you quickly extract the good parts from your videos and discard many gigabytes of data without doing a slow re-encode and thereby losing quality. It extremely fast because it does an almost direct data copy. It uses the awesome ffmpeg (included) for doing the grunt work.
 ## Features
 - Lossless cutting of common video and audio formats
 - Lossless re-merge of selected segments (for cutting out commercials etc.)

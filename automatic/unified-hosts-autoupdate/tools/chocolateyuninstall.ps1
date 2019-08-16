@@ -1,0 +1,1 @@
+Uninstall-BinFile -Name Hosts_Update.cmd -path "$toolsDir\Unified-Hosts-AutoUpdate-master\Hosts_Update.cmd"

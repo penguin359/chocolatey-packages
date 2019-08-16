@@ -8,7 +8,7 @@ function global:au_GetLatest {
 
     return @{
         Version = $matches.Version
-        URL32   = 'https://developer.nvidia.com/compute/cuda/10.1/Prod/local_installers/' + $matches.File
+        URL32   = 'https://developer.download.nvidia.com/compute/cuda/10.1/Prod/local_installers/' + $matches.File
     }
 }
 

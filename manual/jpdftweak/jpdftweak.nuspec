@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>jpdftweak</id>
+    <version>1.1</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/jpdftweak</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>jPdf Tweak - Swiss Army Knife for PDF files</title>
+    <authors>Michael Schierl, Thanasis Naskos.</authors>
+    <projectUrl>http://jpdftweak.sourceforge.net</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jpdftweak/jpdftweak.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://www.gnu.org/licenses/agpl-3.0.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://sourceforge.net/p/jpdftweak/code/HEAD/tree</projectSourceUrl>
+    <docsUrl>http://jpdftweak.sourceforge.net/manual/index.html</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>jpdftweak tool PDF</tags>
+    <summary>jPDF Tweak is a Java Swing application that can combine, split, rotate, reorder, watermark, encrypt, sign, and otherwise tweak PDF files.</summary>
+    <description><![CDATA[
+jPDF Tweak is a Java Swing application that can combine, split, rotate, reorder, watermark, encrypt, sign, and otherwise tweak PDF files.
+
+You can use it to make printable booklets from your PDFs, to add PDF bookmarks, effects (page transitions), to combine multiple PDF files, to watermark them, to rotate pages that do not fit, to attach files to your PDF, to encrypt and sign your PDFs, to change metadata (like author or keywords), and much more.
+
+You might want to have a look at the [manual](http://jpdftweak.sourceforge.net/manual/index.html).
+
+jPDF Tweak uses the excellent [iText](http://www.lowagie.com/iText) library for manipulating PDF files, and [JGoodies Forms](http://www.jgoodies.com/freeware/forms) for the GUI.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jpdftweak/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -2,6 +2,7 @@
 
 function global:au_BeforeUpdate {
     Remove-Item "$PSScriptRoot\tools\*.zip"
+    Invoke-WebRequest -Uri $Latest.URL32 -OutFile "$PSScriptRoot\tools\$($Latest.FileName32)"
 
     $Latest.ChecksumType32 = 'sha256'
     $Latest.Checksum32     = Get-RemoteChecksum $Latest.URL32 -Algorithm $Latest.ChecksumType32

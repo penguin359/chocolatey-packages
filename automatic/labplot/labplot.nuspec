@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>labplot</id>
+    <version>2.6</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/labplot</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>LabPlot</title>
+    <authors>Stefan Gerlach, Alexander Semke.</authors>
+    <projectUrl>https://labplot.kde.org</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/labplot/labplot.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/KDE/labplot/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/KDE/labplot</projectSourceUrl>
+    <docsUrl>https://labplot.kde.org/documentation</docsUrl>
+    <mailingListUrl>https://mail.kde.org/mailman/listinfo/kde-edu</mailingListUrl>
+    <bugTrackerUrl>https://bugs.kde.org</bugTrackerUrl>
+    <tags>labplot scientific plotting data analysis</tags>
+    <summary>Scientific plotting and data analysis.</summary>
+    <description><![CDATA[
+LabPlot is a KDE-application for interactive graphing and analysis of scientific data. LabPlot provides an easy way to create, manage and edit plots and to perform data analysis.
+
+Visit [LabPlot Homepage](https://labplot.kde.org) for more details.
+
+If you're interested in following the development of the project or would like to contribute, visit https://labplot.kde.org/contribute/.
+
+## [Features](https://labplot.kde.org/features)
+
+## Screenshots
+### Signal Processing
+**Fourier filter:** A time signal containing Morse code is Fourier transformed to frequency space to see the main component. By applying a narrow band pass filter the Morse signal is extracted and a nice ‘SOS’ can be seen:
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/labplot/screenshot1.png)
+
+### Main window of LabPlot showing the application in action
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/labplot/screenshot2.png)
+
+### Plotting of mathematical functions
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/labplot/screenshot3.png)
+
+LabPlot provides support for open-source computer algebra systems and scientific languages like Maxima, Octave, R, etc. and allows to plot the data calculated in these systems/languages: 
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/labplot/screenshot4.png)
+
+For more screenshots, see the [gallery](https://labplot.kde.org/gallery).
+]]></description>
+    <releaseNotes>https://labplot.kde.org/changelog</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

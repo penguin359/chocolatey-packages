@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cudatext-beta</id>
+    <version>1.85.0.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/cudatext-beta</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>CudaText (Beta version)</title>
+    <authors>UVviewsoft</authors>
+    <projectUrl>http://uvviewsoft.com/cudatext</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/cudatext-beta/cudatext-beta.png</iconUrl>
+    <copyright>Copyright © UVviewsoft</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/Alexey-T/CudaText/master/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Alexey-T/CudaText</projectSourceUrl>
+    <docsUrl>https://wiki.freepascal.org/CudaText</docsUrl>
+    <mailingListUrl>http://synwrite.sourceforge.net/forums</mailingListUrl>
+    <bugTrackerUrl>https://github.com/alexey-t/cudatext/issues</bugTrackerUrl>
+    <tags>cudatext-beta cross-platform code editor</tags>
+    <summary>Cross-platform code editor, with syntax highlight for 180+ languages. Has lite interface with tabs. Has JSON config files instead of options-dialog. Supports Python plugins</summary>
+    <description><![CDATA[
+**CudaText** is a cross-platform text editor, written in Lazarus.
+It is fully open source, see [Wiki info](http://wiki.freepascal.org/CudaText#How_to_compile_program).
+It starts quite fast (0.5 sec with ~30 plugins on CPU Intel Core i3 3Hz).
+It is extensible by Python add-ons (plugins, linters, code tree parsers, external tools).
+
+### Package Specific
+#### Package Parameters
+The following package parameter can be set:
+ * `/InstallationPath:` - Where to install the binaries to - defaults to "C:\CudaText"
+
+To pass parameters, use `--params "''"` (e.g. `choco install packageID [other options] --params="'/ITEM:value /ITEM2:value2 /FLAG_BOOLEAN'"`).
+To have choco remember parameters on upgrade, be sure to set `choco feature enable -n=useRememberedArgumentsForUpgrades`.
+
+## Features
+- Syntax highlight for many languages: C, C++, JavaScript, HTML, CSS, PHP, Python, XML etc. 200+ syntax lexers exist.
+- Code tree (tree structure of functions/classes/etc in source).
+- Code folding.
+- Multi-carets and multi-selections.
+- Find/Replace with reg. ex.
+- Configs in JSON format. Including lexer-specific configs.
+- Tabbed UI.
+- Split each tab.
+- Split view for 2/3/4/6 files.
+- Simple auto-completion (fixed list) for some lexers.
+- Command palette (ST3 style).
+- Minimap.
+- Micromap.
+- Show unprinted whitespace.
+- Support for many encodings.
+- Customizable hotkeys.
+- Binary/Hex viewer for files of unlimited size.
+
+### Features for HTML/CSS coding:
+- Smart auto-completion for HTML, CSS.
+- HTML tags completion with Tab-key (Snippets plugin).
+- HTML color codes (#rgb, #rrggbb) underline.
+- Show pictures inside editor area (jpeg/png/gif/bmp/ico).
+- Show tooltip when mouse moves over picture tag, entity, color value.
+]]></description>
+    <releaseNotes>http://uvviewsoft.com/cudatext/history.txt</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

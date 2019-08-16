@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  destination   = "$toolsDir"
-  file          = "$toolsDir\SSLVerifier-v1.3.zip"
+  packageName = $env:ChocolateyPackageName
+  destination = "$toolsDir"
+  file        = "$toolsDir\SSLVerifier-v1.3.0.1.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs

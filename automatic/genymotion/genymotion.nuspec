@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>genymotion</id>
+    <version>3.0.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/genymotion</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Genymotion Desktop</title>
+    <authors>Genymobile</authors>
+    <projectUrl>https://www.genymotion.com</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/genymotion/genymotion.png</iconUrl>
+    <copyright>Copyright © Genymobile 2015. All rights reserved.</copyright>
+    <licenseUrl>https://www.genymotion.com/legal/terms-and-conditions</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://docs.genymotion.com/latest/Content</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://www.genymotion.com/contact/</bugTrackerUrl>
+    <tags>genymotion android emulator</tags>
+    <summary>Android emulator with over 3.000 Android configurations.</summary>
+    <description><![CDATA[
+**Genymotion Desktop:** Develop higher quality apps with Genymotion Desktop!
+Make better apps: Over 3000 Android configurations
+Create any Android device | Emulate all Android versions and screen size
+
+Ensure a better user experience
+- Emulate 3000+ virtual Android device configurations (Android versions, screen size, hardware capacities, etc.)
+- Simulate every imaginable scenarios thanks to our full set of hardware sensors (GPS, network, multitouch, etc.).
+
+### Battery 
+If your app needs to react to various charge level, test it easily.
+### Camera & Capture 
+Use your laptop webcam as the video source or record screencasts of your virtual device.
+### Disk IO throttling 
+Emulate devices with slow internal storage.
+### Accelerometer & Multitouch 
+Forward gyroscope or multi-touch events from any Android device connected to your computer.
+### GPS 
+Use the GPS widget to easily develop and test your location-based apps
+###  Network & WiFi 
+Test Wi-Fi, 4G, 3G, Edge, subway interruptions.
+###  Sms & Call 
+Set up call or sms interruptions and see if your app reacts correctly
+###  Pixel Perfect 
+Display your app on your computer screen exactly at the real size
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/genymotion/screenshot.png)
+]]></description>
+    <releaseNotes>https://www.genymotion.com/product-release-note/desktop</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

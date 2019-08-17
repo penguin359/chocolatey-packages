@@ -4,12 +4,12 @@
   <metadata>
     <id>eddie</id>
     <version>2.16.3</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/eddie.install</packageSourceUrl>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/eddie</packageSourceUrl>
     <owners>chtof</owners>
     <title>Eddie - OpenVPN GUI</title>
     <authors>Eddie Team.</authors>
     <projectUrl>https://github.com/AirVPN/Eddie</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/eddie.install/eddie.install.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/eddie/eddie.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://raw.githubusercontent.com/AirVPN/Eddie/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -17,7 +17,7 @@
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <mailingListUrl>https://airvpn.org/forum/3-airvpn-client</mailingListUrl>
     <bugTrackerUrl>https://github.com/AirVPN/Eddie/issues</bugTrackerUrl>
-    <tags>eddie.install AirVPN client</tags>
+    <tags>eddie AirVPN client</tags>
     <summary>Eddie is developed by and is the official client of AirVPN.</summary>
     <description><![CDATA[
 OpenVPN GUI (open source under GPLv3 license) with additional features like:
@@ -31,7 +31,7 @@ OpenVPN GUI (open source under GPLv3 license) with additional features like:
 - Customizable actions triggered by events
 - CLI edition
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/eddie.install/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/eddie/screenshot.png)
 ]]></description>
     <releaseNotes>https://eddie.website/changelog/?software=client</releaseNotes>
     <dependencies>

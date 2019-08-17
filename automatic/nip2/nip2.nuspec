@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>nip2</id>
+    <version>8.7.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/nip2</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>nip2</title>
+    <authors>John Cupitt, Joe Padfield, Hans Breuer, Rich Lott and Leo Davidson.</authors>
+    <projectUrl>https://github.com/libvips/nip2</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/nip2/nip2.png</iconUrl>-->
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/libvips/nip2/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/libvips/nip2</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/libvips/nip2/issues</bugTrackerUrl>
+    <tags>nip2 gui user interface vips image processing library</tags>
+    <summary>A user interface for the VIPS image processing library.</summary>
+    <description><![CDATA[
+nip2 is a GUI for the [VIPS image processing library](https://libvips.github.io/libvips). It's a little like a spreadsheet: you create a set of formula connecting your objects together, and on a change nip2 recalculates.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/nip2/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/libvips/nip2/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

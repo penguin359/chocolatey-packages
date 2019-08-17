@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/eddie.install/eddie.install.png" width="48" height="48"/> [Eddie - OpenVPN GUI (Install)](https://chocolatey.org/packages/eddie.install)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/eddie/eddie.png" width="48" height="48"/> [Eddie - OpenVPN GUI (Install)](https://chocolatey.org/packages/eddie)
 
 OpenVPN GUI (open source under GPLv3 license) with additional features like:
 
@@ -11,4 +11,4 @@ OpenVPN GUI (open source under GPLv3 license) with additional features like:
 - Customizable actions triggered by events
 - CLI edition
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/eddie.install/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/eddie/screenshot.png)

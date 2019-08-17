@@ -13,7 +13,8 @@ function global:au_GetLatest {
     $regex     = '(?<Filename>Asn1Editor-v(?<Version>[\d\.]+)\.zip)'    
     $regex_url = 'href="(?<Url>.*/download/\d+/)"'
 
-    (Invoke-WebRequest -Uri $releases) -match $regex | Out-Null
+    $download_page = Invoke-WebRequest -Uri $releases
+    $download_page -match $regex | Out-Null
     $version  = $matches.Version
     $filename = $matches.Filename
 

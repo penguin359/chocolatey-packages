@@ -1,5 +1,5 @@
 ﻿import-module au
-$releases = "https://github.com/botpress/botpress/releases"
+$releases = "https://github.com/botpress/botpress/releases/latest"
 $releases_download = "https://s3.amazonaws.com/botpress-binaries/"
 $regex   = ' <a href="/botpress/botpress/releases/tag/v(?<Version>[\d\.]*)">'
 

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>bs1770gain</id>
+    <version>0.5.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/bs1770gain</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>BS1770GAIN</title>
+    <authors>Peter Belkner</authors>
+    <projectUrl>http://bs1770gain.sourceforge.net</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/bs1770gain/bs1770gain.png</iconUrl>-->
+    <copyright>Copyright © 2014-2019 by Peter Belkner</copyright>
+    <licenseUrl>http://bs1770gain.sourceforge.net/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/petterreinholdtsen/bs1770gain</projectSourceUrl>
+    <docsUrl>http://bs1770gain.sourceforge.net/#usage</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>bs1770gain loudness normalizing scanner audio video</tags>
+    <summary>BS1770GAIN is a loudness scanner compliant with ITU-R BS.1770 and its flavors EBU R128, ATSC A/85, and ReplayGain 2.0. It helps normalizing the loudness of audio and video files to the same level.</summary>
+    <description><![CDATA[
+Audio from different sources can be expected to be different loud and it would be nice to automatically adapt all these audio sources to the same loudness. Fortunately the ITU-R in their BS.1770 standard defines an algorithm which makes it possible to measure the loudness of a certain audio source. Based on the ITU-R BS.1770 measure several standards bodys defined what they think is the preferred loudness audio should normalize to, notably
+
+- [EBU R128](https://tech.ebu.ch/loudness) (Europe) says -23.0,
+- [ATSC A/85](http://www.atsc.org/cms/index.php/standards/recommended-practices/185-a85-techniques-for-establishing-and-maintaining-audio-loudness-for-digital-television) (Northern America) says -24.0, and
+- [ReplayGain 2.0] says -18.0.
+BS1770GAIN implements the ITU-R BS.1770 loudness measurement algorithm and makes it accessable to a user in several ways as known from the EBU R128 standard, i.e.
+- measurement of the *integrated loudness,*
+- measurement of the *maximum shortterm loudness,*
+- measurement of the *maximum momentary loudness,* and
+- measurement of the *loudness range.*
+The integrated loudness is the two phase gated measurement of the mean loudness as described by ITU-R BS.1770. All measures are described in detail by EBU R128.
+
+On top of that BS1770GAIN provides to additional measures not related to loudness:
+
+- measurement of the *maximum sample peak* (ordinary peak), and
+- measurement of the *maximum true peak* (peak due to upsampling).
+Besides measuring the loudness BS1770GAIN is also able to adapt it conformant with the above mentioned statndards. There are two ways to achieve this:
+
+- write REPLAYGAIN tags with the respective information to the file and leave the task of applying the gain to the playback device, or
+- actually apply the gain.
+
+## [Usage](http://bs1770gain.sourceforge.net/#usage)
+## [Command-line syntax](http://bs1770gain.sourceforge.net/#cli)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

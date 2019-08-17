@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>busybox</id>
-    <version>3128.0</version>
+    <version>3244.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/busybox</packageSourceUrl>
     <owners>chtof</owners>
     <title>BusyBox-w32</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/rmyorston/busybox-w32/issues</bugTrackerUrl>
     <tags>busybox unix tools portable</tags>
     <summary>BusyBox is a single binary that contains many common Unix tools.</summary>
-    <description><![CDATA[
-[BusyBox](http://busybox.net) is a single binary that contains many common Unix tools. It's often found in embedded Linux systems like routers, in Android smartphones, in Linux containers and anywhere else it would be handy to have a compact set of Unix command line tools.
+    <description><![CDATA[[BusyBox](http://busybox.net) is a single binary that contains many common Unix tools. It's often found in embedded Linux systems like routers, in Android smartphones, in Linux containers and anywhere else it would be handy to have a compact set of Unix command line tools.
 busybox-w32 is a port of BusyBox to the Microsoft Windows WIN32 API. It brings a subset of the functionality of BusyBox to Windows in a single self-contained native executable.
 
 This version of BusyBox implements well over a hundred Unix-style commands. Some of the more significant are:

@@ -3,8 +3,8 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
-  file        = "$toolsDir\davmail-5.3.0-3065-setup.exe"
-  file64      = "$toolsDir\davmail-5.3.0-3065-setup64.exe"
+  file        = "$toolsDir\davmail-5.3.1-3079-setup.exe"
+  file64      = "$toolsDir\davmail-5.3.1-3079-setup64.exe"
   silentArgs  = "/S"
 }
 

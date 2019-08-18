@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>extraterm.install</id>
-    <version>0.42.2-pre</version>
+    <version>0.43.0-pre</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/extraterm.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>Extraterm (Install)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/sedwards2009/extraterm/issues</bugTrackerUrl>
     <tags>extraterm.install terminal emulator</tags>
     <summary>The swiss army chainsaw of terminal emulators</summary>
-    <description><![CDATA[
-## Features
+    <description><![CDATA[## Features
 Extraterm is a open source terminal emulator which aims to add many new features to bring the traditional terminal into the modern era.
 
 It is currently in steady development and although not at a 1.0 release yet, it is generally stable for everyday use provided you can tolerate the occasional bug. (Submit bug reports here .)

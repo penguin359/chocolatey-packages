@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>asn1editor</id>
-    <version>1.3.11.3</version>
+    <version>1.3.11.6</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/asn1editor</packageSourceUrl>
     <owners>chtof</owners>
     <title>ASN.1 Editor</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/Crypt32/Asn1Editor.WPF/issues</bugTrackerUrl>
     <tags>ASN.1 editor display edit format convert ASN.1-encoded data</tags>
     <summary>ASN.1 Editor is a tool that allows you to display, edit, format and convert ASN.1-encoded data.</summary>
-    <description><![CDATA[
-The code consist of two parts:
+    <description><![CDATA[The code consist of two parts:
 
 1. ASN.1 parser library. This library I wrote, is very fast and memory efficient.
 2. Graphical User Interface provided by Windows Presentation Framework (WPF) with MVVM (Model-View-ViewModel) pattern.
@@ -81,7 +80,7 @@ As already said, NULL and constructed types are not editable:
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/asn1editor/screenshot8.png)
 
-**Note**: Node content editor applies restrictions for certain data types. For example, if you are editing numeric strict, the code verifies whether all characters in the text are valid for numeric string.
+**Note**: node content editor applies restrictions for certain data types. For example, if you are editing numeric strict, the code verifies whether all characters in the text are valid for numeric string.
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   </metadata>

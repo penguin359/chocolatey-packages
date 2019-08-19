@@ -64,5 +64,3 @@ Share photos of unforgettable moments.
  Messaging
 
 Send files of all sizes between Jami users. The files .gif, .jpg, jpeg, .png, .webp, .ogg, .mp3, .wav, .flac, .webm, .mp4 and .mkv are automatically downloaded.
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jami/screenshot9.png)

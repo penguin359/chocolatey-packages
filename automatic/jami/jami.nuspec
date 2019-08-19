@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>jami</id>
+    <version>2019.08.16</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/jami</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Jami</title>
+    <authors>Savoir-Faire Linux</authors>
+    <projectUrl>https://jami.net</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jami/jami.png</iconUrl>
+    <copyright>Savoir-Faire LINUX © 2019</copyright>
+    <licenseUrl>https://git.ring.cx/savoirfairelinux/ring-client-windows/blob/master/License.rtf</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://git.ring.cx/explore</projectSourceUrl>
+    <docsUrl>https://jami.net/help</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://git.jami.net/groups/savoirfairelinux/-/issues</bugTrackerUrl>
+    <tags>jami instant messenger universal communication platform user privacy freedom</tags>
+    <summary>Jami is a free and universal communication platform which preserves the user's privacy and freedoms.</summary>
+    <description><![CDATA[
+### Features
+Specific features for each use
+Because Privacy matters on the internet, Jami allows you to communicate freely and will always maintain your privacy whether you want to send a message, start an audio or video call, or share files.
+
+## Audio calls between Jami users
+ Call
+
+Make audio calls between Jami users with 48 kHz audio quality.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jami/screenshot1.gif)
+
+## Audio and video conference calls
+ Call
+
+Enjoy conference calls with an unlimited number of participants with crystal clear Opus audio quality of 48 kHz.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jami/screenshot2.gif)
+
+## HD video calling
+ Video
+
+Experience HD video calls.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jami/screenshot3.gif)
+
+## Instant messaging
+ Messaging
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jami/screenshot4.gif)
+
+Benefit from encrypted and secure text messaging, without any central server, utilizing a distributed network.
+
+## Emojis and animated GIFs
+ Messaging
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jami/screenshot5.png)
+
+Share expressions and emotions using emoji and GIF punctuation.
+
+## Voice messaging
+ Messaging
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jami/screenshot6.gif)
+
+Record your voice in one click. Useful when you have a long story to tell.
+
+## Video messaging
+ Messaging
+
+It is possible to record video messages and send them to Jami users.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jami/screenshot7.gif)
+
+## Photo sharing
+ Messaging
+
+Share photos of unforgettable moments.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jami/screenshot8.gif)
+
+## File sharing
+ Messaging
+
+Send files of all sizes between Jami users. The files .gif, .jpg, jpeg, .png, .webp, .ogg, .mp3, .wav, .flac, .webm, .mp4 and .mkv are automatically downloaded.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jami/screenshot9.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

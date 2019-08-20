@@ -11,7 +11,7 @@
     <projectUrl>https://messenger.softros.com</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/slm/slm.png</iconUrl>
     <copyright>© Softros Systems, Inc. 2019</copyright>
-    <licenseUrl>https://www.softros.com/policies</licenseUrl>
+    <licenseUrl>https://messenger.softros.com/purchase</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->

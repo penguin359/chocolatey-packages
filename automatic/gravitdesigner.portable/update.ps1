@@ -1,5 +1,7 @@
 ﻿import-module au
 
+[Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
+
 function global:au_BeforeUpdate {
     $url = 'https://designer.gravit.io/_downloads/windows/GravitDesigner.exe'
     

@@ -27,8 +27,6 @@ This AutoUpdate project is maintained by ScriptTiger: https://github.com/ScriptT
 The Unified Hosts project is maintained by Steven Black: https://github.com/StevenBlack/hosts
 
 Further project contributors are noted with their contributions in the Unified Hosts data, both available online from Steven Black's project as well as in the data injected into the local hosts file by this script, as it is downloaded directly from Steven Black's most recently pre-generated Unified Hosts files.
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/unified-hosts-autoupdate/screenshot.png)
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   </metadata>

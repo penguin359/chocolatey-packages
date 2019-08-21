@@ -5,12 +5,12 @@ $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   unzipLocation  = "$toolsDir"
 
-  url            = 'https://github.com/mifi/lossless-cut/releases/download/v2.3.0/LosslessCut-win32-ia32.zip'
-  checksum       = 'c6590b06bc65d889563a490f861d26df998b7cfc355b012ec71503ef79fc41ce'
+  url            = 'https://github.com/mifi/lossless-cut/releases/download/v2.4.0/LosslessCut-win32-ia32.zip'
+  checksum       = '0F87BD29D44266F65F30ECE2AF766347B4D4E16FD9CD753F24BC75EE35252F0B'
   checksumType   = 'sha256'
 
-  url64          = 'https://github.com/mifi/lossless-cut/releases/download/v2.3.0/LosslessCut-win32-x64.zip'
-  checksum64     = '930b2fc7d4f6fb28d20769229cb9a73dbedfc19983f6f3f18cb9cfb282ee3a24'
+  url64          = 'https://github.com/mifi/lossless-cut/releases/download/v2.4.0/LosslessCut-win32-x64.zip'
+  checksum64     = '49CF1E1A250FAB8DFD42F33CE4E7D4E1DE19EBD29CAA975CE579CF22E7DC130F'
   checksumType64 = 'sha256'
 }
 

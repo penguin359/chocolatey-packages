@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jpdftweak/jpdftweak.png" width="48" height="48"/> [jPdf Tweak - Swiss Army Knife for PDF files](https://chocolatey.org/packages/jpdftweak)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/jpdftweak/jpdftweak.png" width="48" height="48"/> [jPdf Tweak - Swiss Army Knife for PDF files](https://chocolatey.org/packages/jpdftweak)
 
 jPDF Tweak is a Java Swing application that can combine, split, rotate, reorder, watermark, encrypt, sign, and otherwise tweak PDF files.
 
@@ -8,4 +8,4 @@ You might want to have a look at the [manual](http://jpdftweak.sourceforge.net/m
 
 jPDF Tweak uses the excellent [iText](http://www.lowagie.com/iText) library for manipulating PDF files, and [JGoodies Forms](http://www.jgoodies.com/freeware/forms) for the GUI.
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jpdftweak/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/jpdftweak/screenshot.png)

@@ -21,3 +21,5 @@ $packageArgs = @{
 
 Install-ChocolateyInstallPackage @packageArgs
 Remove-Item -Path $packageArgs.file
+
+Install-BinFile -Name portqry -Path C:\PortQryV2\portqry.exe

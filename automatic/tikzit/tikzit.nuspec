@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tikzit</id>
+    <version>2.1.4</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/tikzit</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>TikZiT</title>
+    <authors>Aleks Kissinger, Alexander Merry, Chris Heunen, and K. Johan Paulsson.</authors>
+    <projectUrl>https://tikzit.github.io</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tikzit/tikzit.png</iconUrl>
+    <copyright>Copyright © 2019. TikZiT project.</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/tikzit/tikzit/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/tikzit/tikzit</projectSourceUrl>
+    <docsUrl>https://tikzit.github.io/#quickstart</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/tikzit/tikzit/issues</bugTrackerUrl>
+    <tags>tikzit GUI editor graphs string diagram</tags>
+    <summary>TikZiT is a super simple GUI editor for graphs and string diagrams.</summary>
+    <description><![CDATA[
+TikZiT is a super simple GUI editor for graphs and string diagrams. Its native file format is a subset of PGF/TikZ, which means TikZiT files can be included directly in papers typeset using [LaTeX](https://www.latex-project.org). Pre-built versions are available for systems running Windows, Linux, or macOS. [Packages](https://tikzit.github.io/#install) are available for some Linux distributions, or you can [build from source](https://github.com/tikzit/tikzit).
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tikzit/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/tikzit/tikzit/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

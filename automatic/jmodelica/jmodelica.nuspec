@@ -7,7 +7,7 @@
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/jmodelica</packageSourceUrl>
     <owners>chtof</owners>
     <title>JModelica</title>
-    <authors>[[Authors]]</authors>
+    <authors>JModelica.org is a result of research at the Department of Automatic Control, Lund University, and is now maintained and developed by Modelon AB in collaboration with academia.</authors>
     <projectUrl>https://jmodelica.org</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jmodelica/jmodelica.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->

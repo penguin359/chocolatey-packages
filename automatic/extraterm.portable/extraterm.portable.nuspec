@@ -1,4 +1,4 @@
-﻿ml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
@@ -55,7 +55,7 @@ The shell integration makes uploading and downloading files easy without requiri
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/extraterm.portable/screenshot7.png)
 
 ### Compatible
-Backwards compatibility with the decades of existing terminal based applications and your decades of workflows and habits is very important. Extraterm supports your existing applications and doesn’t require you to change your habits.
+Backwards compatibility with the decades of existing terminal based applications and your decades of workflows and habits is very important.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/extraterm.portable/screenshot8.gif)
 ]]></description>

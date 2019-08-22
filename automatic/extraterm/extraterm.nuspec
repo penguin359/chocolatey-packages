@@ -43,7 +43,7 @@ Use the shell integration to unlock Extraterm’s power.
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/extraterm/screenshot4.gif)
 
 ### Reusing Command Output
-The “from” command lets you use previous command output as input for terminal commands. This enables new fast “ad hoc” workflows.
+The `from` command lets you use previous command output as input for terminal commands. This enables new fast `ad hoc` workflows.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/extraterm/screenshot5.gif)
 

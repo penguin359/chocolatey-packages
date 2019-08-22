@@ -36,6 +36,6 @@ The shell integration makes uploading and downloading files easy without requiri
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/extraterm.portable/screenshot7.png)
 
 ### Compatible
-Backwards compatibility with the decades of existing terminal based applications and your decades of workflows and habits is very important. Extraterm supports your existing applications and doesn’t require you to change your habits.
+Backwards compatibility with the decades of existing terminal based applications and your decades of workflows and habits is very important.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/extraterm.portable/screenshot8.gif)

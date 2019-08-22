@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
 
-  url           = 'https://jmodelica.org/downloads/JModelica.org-2.4.exe'
-  checksum      = '561F6ED9C0A7CFDCD76764F016B4BB28468D72D505D6C170AD9A94602743C02C'
+  url           = 'https://jmodelica.org/downloads/JModelica.org-2.10.exe'
+  checksum      = 'c790934c761502e0c06f39148fe11ee2341173e680559ef0349df4a0b23fc627'
   checksumType  = 'sha256'
 
   silentArgs	= "/S"

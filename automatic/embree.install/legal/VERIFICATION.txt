@@ -6,8 +6,7 @@ in verifying that this package's contents are trustworthy.
 Package can be verified like this:
  
 1. Download:
- 
-   x32: https://github.com/embree/embree/releases/download/v3.5.2/embree-3.5.2.x64.vc12.msi
+
    x64: https://github.com/embree/embree/releases/download/v3.5.2/embree-3.5.2.x64.vc12.msi
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
@@ -15,7 +14,6 @@ Package can be verified like this:
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: D6BC771862A3D31025651F03661099E17629D8D28BE15E3567A32EF801EBD486
    checksum64: D6BC771862A3D31025651F03661099E17629D8D28BE15E3567A32EF801EBD486
  
 File 'LICENSE.txt' is obtained from:

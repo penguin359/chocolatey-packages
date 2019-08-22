@@ -13,7 +13,7 @@ $packageArgs = @{
   silentArgs   = "/S"
 }
 
-if Get-OSArchitectureWidth -Compare 32 {
+if (Get-OSArchitectureWidth -Compare 32) {
   Install-ChocolateyPackage @packageArgs
 } else {
   Install-ChocolateyInstallPackage @packageArgs

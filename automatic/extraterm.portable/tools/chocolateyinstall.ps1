@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop';
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+﻿$ErrorActionPreference = 'Stop';
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  destination   = "$toolsDir"
-  file          = "$toolsDir\extraterm-0.42.2-win32-x64.zip"  
+  packageName = $env:ChocolateyPackageName
+  destination = "$toolsDir"
+  file        = "$toolsDir\extraterm-0.44.0-win32-x64.zip"  
 }
 
 Get-ChocolateyUnzip @packageArgs
@@ -12,5 +12,5 @@ Get-ChocolateyUnzip @packageArgs
 # Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = Join-Path $programs "Extraterm.lnk"
-$targetPath = Join-Path $toolsDir "extraterm-0.42.2-win32-x64\extraterm.exe"
+$targetPath = Join-Path $toolsDir "extraterm-0.44.0-win32-x64\extraterm.exe"
 Install-ChocolateyShortcut -RunAsAdmin -shortcutFilePath $shortcutFilePath -targetPath $targetPath

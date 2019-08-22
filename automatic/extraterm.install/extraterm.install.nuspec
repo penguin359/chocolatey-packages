@@ -43,7 +43,7 @@ Extraterm supports directly viewing richer content than just text. Works across 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/extraterm.install/screenshot4.gif)
 
 ### Reusing Command Output
-The “from” command lets you use previous command output as input for terminal commands. This enables new fast “ad hoc” workflows.
+The `from` command lets you use previous command output as input for terminal commands. This enables new fast `ad hoc` workflows.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/extraterm.install/screenshot5.gif)
 

@@ -4,7 +4,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
 
   url           = 'https://clockify-resources.s3.eu-central-1.amazonaws.com/downloads/Clockify_Setup.exe'
-  checksum      = '59908E06BEDA29E2E455B056274BDA5B43EBF481D6D980F362F30124A755F40A'
+  checksum      = '68D2A2B1514D54C1A62689C1372C313E60B1AF84DEC2DC34505A284FB5326A3E'
   checksumType  = 'sha256'
 
   silentArgs    = "/S"

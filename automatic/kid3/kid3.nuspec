@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>kid3</id>
-    <version>3.7.1</version>
+    <version>3.8.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/kid3</packageSourceUrl>
     <owners>chtof</owners>
     <title>Kid3 - Audio Tagger</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://sourceforge.net/p/kid3/_list/tickets</bugTrackerUrl>
     <tags>kid3 audio tag editor</tags>
     <summary>If you want to easily tag multiple MP3, Ogg/Vorbis, FLAC, MPC, MP4/AAC, MP2, Opus, Speex, TrueAudio, WavPack, WMA, WAV and AIFF files (e.g. full albums) without typing the same information again and again and have control over both ID3v1 and ID3v2 tags, then Kid3 is the program you are looking for.</summary>
-    <description><![CDATA[
-## Features
+    <description><![CDATA[## Features
 With Kid3 you can:
 
 - Edit ID3v1.1 tags

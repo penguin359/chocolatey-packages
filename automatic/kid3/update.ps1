@@ -11,16 +11,16 @@ function global:au_GetLatest {
 	$download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	$url     = $download_page.links | ? href -match $regex
   $version = $matches.Version
-	
+
 	return @{
-    Version = $version    
+    Version = $version
     URL32   = 'https://netcologne.dl.sourceforge.net/project/kid3/kid3/' + $version + '/kid3-' + $version + '-win32.zip'
   }
 }
 
 function global:au_SearchReplace {
     @{
-       "legal\VERIFICATION.txt"  = @{            
+       "legal\VERIFICATION.txt"  = @{
             "(?i)(x32: ).*"             = "`${1}$($Latest.URL32)"
             "(?i)(x64: ).*"             = "`${1}$($Latest.URL32)"
             "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
@@ -28,8 +28,9 @@ function global:au_SearchReplace {
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
         }
 
-        "tools\chocolateyinstall.ps1" = @{        
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""          
+        "tools\chocolateyinstall.ps1" = @{
+          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
+          "([$]toolsDir `"kid3-)[\d\.]+(-win32\\kid3.exe)`""   = "`${1}$($Latest.Version)`${2}`""          
         }
     }
 }

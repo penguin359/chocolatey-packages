@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>virtualmidisynth</id>
+    <version>2.7.3</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/virtualmidisynth</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>VirtualMIDISynth</title>
+    <authors>Claudio Nicora</authors>
+    <projectUrl>https://coolsoft.altervista.org/en/virtualmidisynth</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/virtualmidisynth/virtualmidisynth.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://coolsoft.altervista.org/en/virtualmidisynth</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://groups.yahoo.com/neo/groups/midkar/conversations/messages/34524</docsUrl>
+    <mailingListUrl>https://coolsoft.altervista.org/forum</mailingListUrl>
+    <bugTrackerUrl>https://coolsoft.altervista.org/forum</bugTrackerUrl>
+    <tags>virtualmidisynth MIDI synthetizer</tags>
+    <summary>VirtualMIDISynth is a software MIDI synthesizer implemented as a Windows multimedia user driver, accessible as a standard MIDI Out device.</summary>
+    <description><![CDATA[
+VirtualMIDISynth is a software MIDI synthesizer implemented as a Windows multimedia user driver, accessible as a standard MIDI Out device.
+
+It works on Windows **XP (SP3) / Vista (SP1) / 7 (SP1) / 8.x / 10 (both x86 and x64)**, and is based on the great [BASS library](http://www.un4seen.com) from un4seen.
+
+## Main features
+- User mode multimedia driver, no reboots, no [BSOD](http://www.wikipedia.org/wiki/BSOD)
+- Directly accessible as MIDI Out device, no need for virtual MIDI cables (like MIDI Yoke, LoopBe1)
+- Supports up to 4 virtual devices, each with its own soundfont configuration *(new in version 2.x)*
+- Virtually unlimited polyphony (limited only by available CPU power)
+- MIDI mixer to set track mute/volume, accessible through systray icon
+- Integrated MIDI converter to easily convert your MIDI files to WAV/MP3/FLAC
+- Lightweight setup (~1.2 MBytes)
+- No DLL cluttering, everything is self contained installation folder (except for MIDI device driver) *(new in version 2.x)*
+- Clean installer, won't affect other MIDI devices
+- Efficient RAM usage (allows using large SoundFonts, > 1GByte)
+- Load soundFonts (up to available memory), enable/disable/chain them at your will; native 64bit version (on x64 OS) is not limited to 4GByte (new in version 2.x)
+- Configure MIDI Mapper default device (this feature is already available in XP, but missing in Vista / Windows 7)
+- Windows 8/10 users can also install [CoolSoft MIDIMapper](https://coolsoft.altervista.org/midimapper) and configure it straight from VirtualMIDISynth configurator to get the well-known MIDI Mapper back to their systems
+- Multilanguage dialogs.
+If you want to help in translation, see [here](https://coolsoft.altervista.org/swtranslate/virtualmidisynth) for status then [get in touch](https://coolsoft.altervista.org/contact) to have access to the online translation system.
+
+Take a look at the [TODO list](https://coolsoft.altervista.org/virtualmidisynth/todo) of what features you'll find in next versions or [propose your ideas](https://coolsoft.altervista.org/forum/virtualmidisynth/wishlist).
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/virtualmidisynth/screenshot.png)
+]]></description>
+    <releaseNotes>https://coolsoft.altervista.org/en/virtualmidisynth#versionhistory</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

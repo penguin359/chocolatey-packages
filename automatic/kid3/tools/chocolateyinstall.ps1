@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
-  file          = "$toolsDir\kid3-3.7.1-win32.zip"
+  file          = "$toolsDir\kid3-3.8.0-win32.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs

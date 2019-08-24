@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>sejda</id>
+    <version>3.2.84</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/sejda</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Sejda SDK Open Source</title>
+    <authors>Sejda Team.</authors>
+    <projectUrl>http://sejda.org</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/sejda/sejda.png</iconUrl>
+    <copyright>© 2016 Sejda, All rights reserved.</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/agpl-3.0.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/torakiki/sejda</projectSourceUrl>
+    <docsUrl>https://github.com/torakiki/sejda/wiki</docsUrl>
+    <mailingListUrl>https://stackoverflow.com/questions/tagged/sejda</mailingListUrl>
+    <bugTrackerUrl>https://github.com/torakiki/sejda/issues</bugTrackerUrl>
+    <tags>sejda PDF editor</tags>
+    <summary>Sejda SDK is an open source, task oriented Java library to edit PDF files</summary>
+    <description><![CDATA[
+Sejda SDK is:
+- open source
+- multi platform
+- task oriented PDF editor
+- SDK library
+- Command line interface
+- written in Java (can be used from any other programming language)
+]]></description>
+    <releaseNotes>https://github.com/torakiki/sejda/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>display-changer</id>
+    <version>4.3.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/display-changer</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Display Changer</title>
+    <authors>12noon</authors>
+    <projectUrl>https://12noon.com/?page_id=80</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/display-changer/display-changer.png</iconUrl>-->
+    <copyright>© 2002-2019 12noon, Stefan Tucker - © 1995-2002 Perpetual Motion Software, Stefan Tucker</copyright>
+    <licenseUrl>https://12noon.com/?page_id=127</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>https://www.facebook.com/12noon</mailingListUrl>
+    <bugTrackerUrl>https://12noon.com/?page_id=216</bugTrackerUrl>
+    <tags>display-changer display resolution</tags>
+    <summary>Display Changer changes the display resolution, runs a program, then restores the original settings.</summary>
+    <description><![CDATA[
+- Display Changer changes your monitor’s resolution.
+- Display Changer runs your application. (optional)
+- Display Changer restores the original resolution. (optional)
+
+Display Changer changes the display resolution, runs a program, then restores the original settings. It can also change the resolution permanently and rearrange monitors in a multiple-monitor setup. This is useful for games and home-theater computers. I wrote Display Changer because there are programs that require 640×480 with 256 colors or home-theater setups that want 1920×1080 with a 24 Hz refresh rate. Instead of changing Windows display settings manually, I wrote Display Changer to do it automatically.
+
+Display Changer changes your desktop width, height, color depth, and refresh rate (frequency) temporarily or permanently (via command line switches). Display Changer can run another application in a specific display resolution and return to the previous resolution when the application finishes. Command line switches let you alter only certain settings and choose the best refresh rate (or a specific one).
+
+
+There are Windows and Console editions for both 32-bit and 64-bit Windows. The Windows edition is best for creating shortcuts that quickly switch to the display configuration you want. The Console edition is best to use in a batch file or script.
+
+## Pricing
+Display Changer is **free** for personal and educational use. If you’d like to use it in a commercial environment (e.g., to release with a product you sell, to release with a product you use internally, or to manage company computers), you must purchase a commercial license. In brief, a commercial license entitles your company to unlimited use of Display Changer.
+
+[Download the Commercial License](https://12noon.com/files/12noon_display_changer_license.pdf)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

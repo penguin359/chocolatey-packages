@@ -1,0 +1,7 @@
+﻿
+From: https://coolsoft.altervista.org/en/virtualmidisynth
+
+LICENSE
+
+VirtualMIDISynth is freeware, use it as you like.
+Donations <https://coolsoft.altervista.org/donate are welcome>, especially if you earn money with it (live performances, public karaoke sessions, ...).

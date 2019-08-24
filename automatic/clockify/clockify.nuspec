@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>clockify</id>
-    <version>1.7.2</version>
+    <version>1.7.3.20190823</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/clockify</packageSourceUrl>
     <owners>chtof</owners>
     <title>Clockify</title>
@@ -19,8 +19,7 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>clockify time tracker team</tags>
     <summary>The only truly free time tracker for teams.</summary>
-    <description><![CDATA[
-Clockify is the only truly free time tracking software. It's a simple time tracker and timesheet app that lets you and your team track work hours across projects. Unlimited users, free forever.
+    <description><![CDATA[Clockify is the only truly free time tracking software. It's a simple time tracker and timesheet app that lets you and your team track work hours across projects. Unlimited users, free forever.
 ## Features
 ### Time tracker
 Start and stop timer as you work, or enter hours manually.

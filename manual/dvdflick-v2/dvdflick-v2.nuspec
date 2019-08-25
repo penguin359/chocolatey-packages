@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dvdflick-v2</id>
+    <version>1.3.1.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/dvdflick-v2</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>DVD Flick v2</title>
+    <authors>DVD Flick Team.</authors>
+    <projectUrl>https://dvdflick-v2.sourceforge.io</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/dvdflick-v2/dvdflick-v2.png</iconUrl>
+    <copyright>© 2007-2010 Dennis Meuwissen</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://sourceforge.net/p/dvdflick-v2/code/HEAD/tree</projectSourceUrl>
+    <docsUrl>http://www.dvdflick.net/guide.php</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/dvdflick-v2/discussion</mailingListUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/dvdflick-v2/tickets</bugTrackerUrl>
+    <tags>dvdflick-v2 DVD Authoring tool</tags>
+    <summary>DVD Flick aims to be a simple but at the same time powerful DVD Authoring tool. It can take a number of video files stored on your computer and turn them into a DVD that will play back on your DVD player, Media Center or Home Cinema Set.</summary>
+    <description><![CDATA[
+As the original DVD Flick project is abandoned, this is a fork of this project to continue with basic support.
+
+DVD Flick aims to be a tool to convert various PC video formats to a DVD that can be played on pretty much any standalone DVD player. Its main target audience is people who know at least the basics about DVDs and video and audio files.
+
+DVD Flick aims to be a simple but at the same time powerful DVD Authoring tool. It can take a number of video files stored on your computer and turn them into a DVD that will play back on your DVD player, Media Center or Home Cinema Set. You can add additional custom audio tracks, subtitles as well as a menu for easier navigation.
+
+## Features
+- Burn near any video file to DVD
+- Support for over 45 file formats
+- Support for over 60 video codecs
+- Support for over 40 audio codecs
+- Easily add a menu
+- Add your own subtitles
+- Easy to use interface
+- Burn your project to disc after encoding
+- Completely free without any adware, spyware or limitations
+For a more detailed list of features, see the [Features](http://www.dvdflick.net/features.php) page.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/dvdflick-v2/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

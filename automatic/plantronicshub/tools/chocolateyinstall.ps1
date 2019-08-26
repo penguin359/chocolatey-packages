@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
 $packageArgs = @{
   packageName  = $env:ChocolateyPackageName
 
   url          = 'https://www.plantronics.com/content/dam/plantronics/software/PlantronicsHubInstaller.exe'
-  checksum     = 'D244626858BC8AACC96457D68B1705ABE6AA720F5C09AAFAE3CF30FB86E8B84B'
+  checksum     = '58c6707c2e687eea4215f4c66adda6fc5f988ac5740470fc72a073f02112fa00'
   checksumType = 'sha256'
 
   silentArgs   = '/install /quiet /norestart'

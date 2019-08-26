@@ -9,7 +9,7 @@ function global:au_GetLatest {
     $regex    = 'labplot-(?<Version>[\d\.]+)-64bit-setup.exe'
 
     (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Select -First 1
-    $version = matches.Version
+    $version = $matches.Version
 
     return @{
         Version = $version

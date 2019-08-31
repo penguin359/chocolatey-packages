@@ -1,17 +1,30 @@
 ﻿import-module au
 
-[Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
+function global:au_BeforeUpdate {
+    $filename       = 'CoolSoft_VirtualMIDISynth_' + $Latest.Version + '.exe'
+    $unixEpochStart = new-object DateTime 1970,1,1,0,0,0,([DateTimeKind]::Utc)
+    $timestamp      = [int]([DateTime]::UtcNow - $unixEpochStart).TotalSeconds
+    $url            = 'https://coolsoft.altervista.org/download/CoolSoft_VirtualMIDISynth_' + $Latest.Version + '.exe'
+    $urlDownload    = $url + '?tckt=' + $timestamp
 
-function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
+    Remove-Item -Path "tools\*.exe"
+    Invoke-WebRequest -Uri $urlDownload -outFile "tools\$filename"
+
+    $Latest.ChecksumType32 = 'sha256'
+    $Latest.Checksum32     = checksum -t sha256 "tools\$filename"
+    $Latest.URL32          = $url
+}
 
 function global:au_GetLatest {
     $releases = 'https://coolsoft.altervista.org/en/virtualmidisynth'
     $regex    = 'CoolSoft_VirtualMIDISynth_(?<Version>[\d\.]+).exe$'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	$url = $download_page.links | ? href -match $regex | Select -First 1
+	$download_page.links | ? href -match $regex | Select -First 1 | Out-Null
 
-    return @{ Version = $matches.Version ; URL32 = $url.href }
+    return @{
+        Version  = $matches.Version
+    }
 }
 
 function global:au_SearchReplace {

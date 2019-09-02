@@ -13,5 +13,5 @@ Remove-Item -Path $packageArgs.file
 # Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = Join-Path $programs "Google2SRT.lnk"
-$targetPath = Join-Path 0.7.8
+$targetPath = Join-Path "$toolsDir" "Google2SRT-0.7.8\\Google2SRT.exe"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath

@@ -1,7 +1,5 @@
 ﻿import-module au
 
-function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
-
 function global:au_GetLatest {
     $github_repository = "embree/embree"
     $releases = "https://github.com/" + $github_repository + "/releases/latest"

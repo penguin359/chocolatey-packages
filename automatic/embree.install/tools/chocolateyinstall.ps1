@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
   filetype    = "MSI"
-  file64      = "$toolsDir\embree-3.5.2.x64.vc12.msi"
+  file64      = "$toolsDir\embree-3.6.1.x64.vc12.msi"
   silentArgs  = "/qn /norestart /l*v `"$env:TEMP\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
 }
 

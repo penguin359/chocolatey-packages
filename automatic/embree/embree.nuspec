@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>embree</id>
-    <version>3.5.2</version>
+    <version>3.6.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/embree</packageSourceUrl>
     <owners>chtof</owners>
     <title>Intel® Embree</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/embree/embree/issues</bugTrackerUrl>
     <tags>embree high performance ray tracing kernel intel corporation</tags>
     <summary>Intel® Embree is a collection of high-performance ray tracing kernels, developed at Intel.</summary>
-    <description><![CDATA[
-**Embree**: High Performance Ray Tracing Kernels 3.6.0-beta.0 % Intel Corporation
+    <description><![CDATA[**Embree**: High Performance Ray Tracing Kernels 3.6.0-beta.0 % Intel Corporation
 
 ## Embree Overview
 Intel® Embree is a collection of high-performance ray tracing kernels, developed at Intel. The target users of Intel® Embree are graphics application engineers who want to improve the performance of their photo-realistic rendering application by leveraging Embree's performance-optimized ray tracing kernels. The kernels are optimized for the latest Intel® processors with support for SSE, AVX, AVX2, and AVX-512 instructions. Intel® Embree supports runtime code selection to choose the traversal and build algorithms that best matches the instruction set of your CPU. We recommend using Intel® Embree through its API to get the highest benefit from future improvements. Intel® Embree is released as Open Source under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0).
@@ -46,7 +45,7 @@ Embree is optimized for Intel CPUs supporting SSE, AVX, AVX2, and AVX-512 instru
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <dependencies>
-      <dependency id="embree.install" version="[3.5.2]" />
+      <dependency id="embree.install" version="[3.6.1]" />
     </dependencies>
   </metadata>
   <files></files>

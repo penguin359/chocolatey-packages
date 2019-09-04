@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>apo-ok</id>
-    <version>1.66</version>
+    <version>1.77</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/apo-ok</packageSourceUrl>
     <owners>chtof</owners>
     <title>AutoPowerOptionsOK</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://www.softwareok.com/?seite=Kontakt</bugTrackerUrl>
     <tags>apo-ok energy saver</tags>
     <summary>Automatic Energy Options Customization for Windows is the right tool for Windows if you want to increase energy efficiency!</summary>
-    <description><![CDATA[
-Automatic Energy Options Customization for Windows is the right tool for Windows if you want to increase energy efficiency! 
+    <description><![CDATA[Automatic Energy Options Customization for Windows is the right tool for Windows if you want to increase energy efficiency! 
 
 ### Key features of the automatic energy plan adjustment! 
 
@@ -57,7 +56,7 @@ Even for a PC beginner, this free program is no problem making the Windows PCs m
 ]]></description>
     <releaseNotes>http://www.softwareok.com/?seite=Microsoft/AutoPowerOptionsOK/History</releaseNotes>
     <dependencies>
-      <dependency id="apo-ok.install" version="[1.66]" />
+      <dependency id="apo-ok.install" version="[1.77]" />
     </dependencies>
   </metadata>
   <files></files>

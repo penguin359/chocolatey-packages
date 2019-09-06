@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dmde</id>
-    <version>3.4.4.740</version>
+    <version>3.6.0.770</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/dmde</packageSourceUrl>
     <owners>chtof</owners>
     <title>DMDE - DM Disk Editor and Data Recovery Software</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://dmde.com/contact.html</bugTrackerUrl>
     <tags>dmde data searching editing recovery disk hdd hard drive sector fat32 ntfs mbr</tags>
     <summary>Data searching, editing, and recovery on disks.</summary>
-    <description><![CDATA[
-DMDE is a powerful software for data searching, editing, and recovery on disks. It may recover directory structure and files in some complicated cases through the use of special algorithms when other software can't help. The software is listed, reviewed, and awarded in [magazines and catalogs](https://dmde.com/ontheweb.php).
+    <description><![CDATA[DMDE is a powerful software for data searching, editing, and recovery on disks. It may recover directory structure and files in some complicated cases through the use of special algorithms when other software can't help. The software is listed, reviewed, and awarded in [magazines and catalogs](https://dmde.com/ontheweb.php).
 
 DMDE has a number of freeware features such as disk editor, simple partition manager (e.g. allows partition undeleting), a tool to create disk images and clones, RAID constructor, file recovery from the current panel. Paid editions support file and directory recovery without the restriction, DMDE Professional Edition has additional features to recover data for clients ([compare editions](https://dmde.com/editions.html)).
 

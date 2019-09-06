@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>egnyte-connect</id>
-    <version>3.4.3.98</version>
+    <version>3.5.0.99</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/egnyte-connect</packageSourceUrl>
     <owners>chtof</owners>
     <title>Egnyte desktop apps</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://helpdesk.egnyte.com/hc/en-us/requests/new</bugTrackerUrl>
     <tags>egnyte-connect egnyte connect desktop app cloud sync file</tags>
     <summary>The Egnyte Connect Desktop App provides fast real-time access to your files and folders stored in the cloud from your computer.</summary>
-    <description><![CDATA[
-The Egnyte Connect Desktop App provides fast real-time access to your files and folders stored in the cloud from your computer. Once connected, all Egnyte content you can access in the cloud will appear in a network drive in Windows Explorer or volume on Mac Finder. You will be able to view all your files and folders in the cloud without having first to sync them to your computer. Furthermore, you'll also be able to select specific folders to be synchronized for access, even when you are offline.
+    <description><![CDATA[The Egnyte Connect Desktop App provides fast real-time access to your files and folders stored in the cloud from your computer. Once connected, all Egnyte content you can access in the cloud will appear in a network drive in Windows Explorer or volume on Mac Finder. You will be able to view all your files and folders in the cloud without having first to sync them to your computer. Furthermore, you'll also be able to select specific folders to be synchronized for access, even when you are offline.
 
 ## Features
 ### Browse and modify cloud data directly from your computer

@@ -3,21 +3,21 @@
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-    $releases = 'https://sourceforge.net/projects/google2srt/files/Google2SRT'
-    $regex    = 'google2srt-(?<Version>[\d\.]+).msi'
+    $github_repository = 'torakiki/sejda'
+    $releases = "https://github.com/" + $github_repository + "/releases/latest"
+    $regex    = 'sejda-console-(?<Version>[\d\.]*)-bin.zip$'
 
-    (Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null
-    $version = $matches.Version
+    $url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Select -First 1
 
     return @{
-        Version = $version
-        URL32   = 'https://freefr.dl.sourceforge.net/project/google2srt/Google2SRT/' + $version + '/Google2SRT-' + $version + '.zip'
+        Version = $matches.Version
+        URL32   = "https://github.com" + $url.href
     }
 }
 
 function global:au_SearchReplace {
     @{
-       "legal\VERIFICATION.txt"  = @{            
+        "legal\VERIFICATION.txt"  = @{            
             "(?i)(x32: ).*"             = "`${1}$($Latest.URL32)"
             "(?i)(x64: ).*"             = "`${1}$($Latest.URL32)"            
             "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
@@ -25,9 +25,9 @@ function global:au_SearchReplace {
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
         }
 
-        "tools\chocolateyinstall.ps1" = @{        
+        "tools\chocolateyinstall.ps1" = @{
           "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`$1$($Latest.FileName32)`""
-          "(`"[$]toolsDir`" `"Google2SRT-)[\d\.]+(\\Google2SRT.exe`")" = "`${1}$($Latest.Version)`${2}"
+          "(`"[$]toolsDir\\sejda-console-)[\d\.]+(\\bin\\sejda-console.bat`")" = "`${1}$($Latest.Version)`${2}"
         }
     }
 }

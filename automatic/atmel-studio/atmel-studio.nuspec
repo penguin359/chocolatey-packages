@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>atmel-studio</id>
-    <version>7.0.1931</version>
+    <version>7.0.1931.20190907</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/atmel-studio</packageSourceUrl>
     <owners>chtof</owners>
     <title>Atmel Studio</title>

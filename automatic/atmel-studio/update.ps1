@@ -3,7 +3,7 @@
 function global:au_GetLatest {
     $releases = 'https://www.microchip.com/mplab/avr-support/atmel-studio-7'
     $regex    = 'as-installer-(?<Version>[\d\.]+)-full.exe'
-    
+
     $ie = New-Object -com internetexplorer.application
     $ie.Visible = $false
     $ie.Navigate($releases)

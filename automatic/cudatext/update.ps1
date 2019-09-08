@@ -19,10 +19,7 @@ function global:au_GetLatest {
     $fileName32 = $matches.fileName
     $downloadPage -match $regexFileName64 | Out-Null
     $fileName64 = $matches.fileName
-    $version    = $match.Version
-
-    $downloadPage -match $regexVersion | Out-Null
-    $version = $matches.Version
+    $version    = $matches.Version 
 
     $jsonRaw = Invoke-WebRequest -Uri "https://api.fosshub.com/download/" -Method "POST" -Headers @{"referer"="https://www.fosshub.com/";"method"="POST"} -ContentType "application/json; charset=UTF-8" -Body "{`"projectId`":`"5c191d1d0b70535796ca860d`",`"releaseId`":`"$releaseId`",`"projectUri`":`"CudaText.html`",`"fileName`":`"$fileName32`",`"source`":`"CF`"}"
     $json32  = ConvertFrom-Json $jsonRaw

@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $pp = Get-PackageParameters
@@ -8,8 +8,8 @@ if (!$pp['InstallationPath']) { $pp['InstallationPath'] = 'C:\CudaText' }
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
   destination = $pp['InstallationPath']
-  file        = "$toolsDir\cudatext-win-x32-1.67.0.0.zip"
-  file64      = "$toolsDir\cudatext-win-x64-1.67.0.0.zip"
+  file        = "$toolsDir\cudatext-win-x32-1.86.0.0.zip"
+  file64      = "$toolsDir\cudatext-win-x64-1.86.0.0.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs

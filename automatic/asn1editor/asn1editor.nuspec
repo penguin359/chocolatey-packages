@@ -8,7 +8,7 @@
     <owners>chtof</owners>
     <title>ASN.1 Editor</title>
     <authors>Vadims Podāns</authors>
-    <projectUrl>https://www.sysadmins.lv/projects/asn1editor/default.aspx</projectUrl>
+    <projectUrl>https://www.pkisolutions.com/tools/asn1editor</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/asn1editor/asn1editor.png</iconUrl>
     <copyright>© 2008 - 2019 - Sysadmins LV. All rights reserved</copyright>
     <licenseUrl>https://github.com/Crypt32/Asn1Editor.WPF/blob/master/LICENSE.md</licenseUrl>

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>djvu-libre</id>
-    <version>3.5.27.411</version>
+    <version>3.5.27.41101</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/djvu-libre</packageSourceUrl>
     <owners>chtof</owners>
     <title>DjVuLibre</title>

@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>bs1770gain</id>
-    <version>0.5.2</version>
+    <version>0.6.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/bs1770gain</packageSourceUrl>
     <owners>chtof</owners>
     <title>BS1770GAIN</title>
@@ -19,8 +19,7 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>bs1770gain loudness normalizing scanner audio video</tags>
     <summary>BS1770GAIN is a loudness scanner compliant with ITU-R BS.1770 and its flavors EBU R128, ATSC A/85, and ReplayGain 2.0. It helps normalizing the loudness of audio and video files to the same level.</summary>
-    <description><![CDATA[
-Audio from different sources can be expected to be different loud and it would be nice to automatically adapt all these audio sources to the same loudness. Fortunately the ITU-R in their BS.1770 standard defines an algorithm which makes it possible to measure the loudness of a certain audio source. Based on the ITU-R BS.1770 measure several standards bodys defined what they think is the preferred loudness audio should normalize to, notably
+    <description><![CDATA[Audio from different sources can be expected to be different loud and it would be nice to automatically adapt all these audio sources to the same loudness. Fortunately the ITU-R in their BS.1770 standard defines an algorithm which makes it possible to measure the loudness of a certain audio source. Based on the ITU-R BS.1770 measure several standards bodys defined what they think is the preferred loudness audio should normalize to, notably
 
 - [EBU R128](https://tech.ebu.ch/loudness) (Europe) says -23.0,
 - [ATSC A/85](http://www.atsc.org/cms/index.php/standards/recommended-practices/185-a85-techniques-for-establishing-and-maintaining-audio-loudness-for-digital-television) (Northern America) says -24.0, and

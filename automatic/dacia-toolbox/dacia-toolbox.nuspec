@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dacia-toolbox</id>
-    <version>2019.07.15</version>
+    <version>2019.09.03</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/dacia-toolbox</packageSourceUrl>
     <owners>chtof</owners>
     <title>Dacia Media Nav Evolution Toolbox</title>
@@ -19,8 +19,7 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>dacia-toolbox dacia navigation gps updater media nav evolution toolbox</tags>
     <summary>DACIA navigation system updater.</summary>
-    <description><![CDATA[
-## Features
+    <description><![CDATA[## Features
 ### Safety
 Option for a safer and more relaxed driving
 If the maps are outdated, your navigation system may frequently provide you with improper instructions. Updated navigation helps safe driving by preparing for unexpected situations arising from changes in the road network. Anyone can encounter annoying mistakes in route planning that are often thought to be the fault of the navigation system. Actually, the most common reason for errors in route calculation is due to the outdated maps.

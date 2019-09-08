@@ -4,8 +4,12 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
   file        = "$toolsDir\DjVuLibre-3.5.27_DjView-4.11_Setup.exe"
-  silentArgs  = "/S"
+  silentArgs  = '/S'
 }
 
 Install-ChocolateyInstallPackage @packageArgs
-Install-ChocolateyPath -PathToInstall "$(${env:ProgramFiles(x86)})\DjVuLibre"
+
+$path = Get-AppInstallLocation DjVuLibre
+if ($path) {
+  Install-ChocolateyPath -PathToInstall "$path"
+}

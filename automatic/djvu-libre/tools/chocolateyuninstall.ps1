@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop';
 
-$pathToRemove = "$(${env:ProgramFiles(x86)})\DjVuLibre"
+$pathToRemove = Get-AppInstallLocation DjVuLibre
 
 foreach ($registryPath in 'hklm:\system\currentcontrolset\control\session manager\environment', 'hkcu:\environment') {
   $p = (Get-Itemproperty -path "$registryPath" -Name Path).Path

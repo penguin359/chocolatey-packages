@@ -8,3 +8,4 @@ $packageArgs = @{
 }
 
 Install-ChocolateyInstallPackage @packageArgs
+Install-ChocolateyPath -PathToInstall "$(${env:ProgramFiles(x86)})\DjVuLibre"

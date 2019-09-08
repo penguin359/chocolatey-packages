@@ -1,8 +1,6 @@
 Import-Module AU
 Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1"
 
-$releases = 'https://www.spotify.com/en/download/windows/'
-
 function global:au_SearchReplace {
   return @{
     ".\tools\chocolateyinstall.ps1" = @{

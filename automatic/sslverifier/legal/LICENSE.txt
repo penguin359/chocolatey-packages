@@ -1,3 +1,8 @@
+
+From: https://raw.githubusercontent.com/Crypt32/SSLVerifier.WPF/master/LICENSE.md
+
+LICENSE
+
 # Microsoft Public License (Ms-PL)
 
 Copyright (c) 2019 Vadims Podans

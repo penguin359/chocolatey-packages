@@ -13,7 +13,8 @@ function global:au_GetLatest {
     $regex     = '(?<Filename>SSLVerifier-v(?<Version>[\d\.]+)\.zip)'
     $regex_url = 'href="(?<Url>.*/download/\d+/)"'
 
-    (Invoke-WebRequest -Uri $releases) -match $regex | Out-Null
+    $download_page = Invoke-WebRequest -Uri $releases
+    $download_page -match $regex | Out-Null
     $version  = $matches.Version
     $filename = $matches.Filename
 
@@ -24,7 +25,7 @@ function global:au_GetLatest {
 
 function global:au_SearchReplace {
     @{
-        "legal\VERIFICATION.txt"  = @{            
+        "legal\VERIFICATION.txt"  = @{
             "(?i)(x32: ).*"             = "`${1}$($Latest.URL32)"
             "(?i)(x64: ).*"             = "`${1}$($Latest.URL32)"
             "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
@@ -32,8 +33,8 @@ function global:au_SearchReplace {
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
         }
 
-        "tools\chocolateyinstall.ps1" = @{        
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
+        "tools\chocolateyinstall.ps1" = @{
+          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`$1$($Latest.FileName32)`""           
         }
     }
 }

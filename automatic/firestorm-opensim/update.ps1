@@ -10,7 +10,7 @@ function global:au_GetLatest {
     $url64 = $download_page.links | ? href -match $regex64
 
     return @{
-        Version = $version -Replace '-','.'
+        Version = $matches.Version -Replace '-','.'
         URL32   = $url32.href
         URL64   = $url64.href
     }

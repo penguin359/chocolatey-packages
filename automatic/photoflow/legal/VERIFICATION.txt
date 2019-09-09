@@ -1,0 +1,22 @@
+﻿VERIFICATION
+ 
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+Package can be verified like this:
+ 
+1. Download:
+ 
+   x32: https://github.com/aferrero2707/PhotoFlow/releases/download/v0.2.8/photoflow-0.2.8.zip
+   x64: https://github.com/aferrero2707/PhotoFlow/releases/download/v0.2.8/photoflow-0.2.8.zip
+  
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+ 
+   checksum type: sha256
+   checksum32: 34420220642CF9FF04689EA93304A78323FDFE0487120B33B1722D2DDC9D3341
+   checksum64: 34420220642CF9FF04689EA93304A78323FDFE0487120B33B1722D2DDC9D3341
+ 
+File 'LICENSE.txt' is obtained from:
+   https://raw.githubusercontent.com/aferrero2707/PhotoFlow/stable/LICENSE

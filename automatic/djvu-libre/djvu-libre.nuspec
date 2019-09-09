@@ -43,6 +43,9 @@ Here is a non exhaustive list of the commands included with DjVuLibre:
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/djvu-libre/screenshot.png)
 ]]></description>
     <releaseNotes>https://sourceforge.net/p/djvu/djvulibre-git/ci/master/tree/NEWS</releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
+    </dependencies>
   </metadata>
   <files>
     <file src="legal\**" target="legal" />

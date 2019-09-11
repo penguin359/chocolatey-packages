@@ -1,21 +1,21 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 if ( [environment]::OSVersion.Version.Major -ge 10 )  {
-  $url32_win10      = 'https://spacedesk.datronic.de/download/spacedesk_driver_Win_10_32_v0919_BETA.msi'
-  $checksum32_win10 = '3CE26195DA8773F4BCB0EBA98B35FFFC88E7DE3A9F11D10914C59A23B9C872A7'
+  $url32_win10      = 'https://spacedesk.datronic.de/download/spacedesk_driver_Win_10_32_v0920_BETA.msi'
+  $checksum32_win10 = ''
   $url32            = $url32_win10
   $checksum32       = $checksum32_win10
-  $url64_win10      = 'https://spacedesk.datronic.de/download/spacedesk_driver_Win_10_64_v0919_BETA.msi'
-  $checksum64_win10 = 'E074797A35D121F306492F17CD4959F217C90C7074D45DAEA6AF593F284329AB'
+  $url64_win10      = 'https://spacedesk.datronic.de/download/spacedesk_driver_Win_10_64_v0920_BETA.msi'
+  $checksum64_win10 = ''
   $url64            = $url64_win10
   $checksum64       = $checksum64_win10
 } elseif ( [environment]::OSVersion.Version.Major -ge 7 ) {
-  $url32_win7_81      = 'https://spacedesk.datronic.de/download/spacedesk_driver_Win_7_32_v0919_BETA.msi'
-  $checksum32_win7_81 = 'd2e52f73734dafc20705568678569efc9cb509608d1893fd753c18f4a54745aa'
+  $url32_win7_81      = 'https://spacedesk.datronic.de/download/spacedesk_driver_Win_7_32_v0920_BETA.msi'
+  $checksum32_win7_81 = '5d4ea40b42146964ca28ea1d587294ba63fdcfe63134f50794f188832d09d021'
   $url32              = $url32_win7_81
   $checksum32         = $checksum32_win7_81
-  $url64_win7_81      = 'https://spacedesk.datronic.de/download/spacedesk_driver_Win_7_64_v0919_BETA.msi'
-  $checksum64_win7_81 = '8fc9c350eb76b1ca38296e3ad7cd4f2b0729b44ac635686a60ccc7c68d08d8f7'
+  $url64_win7_81      = 'https://spacedesk.datronic.de/download/spacedesk_driver_Win_7_64_v0920_BETA.msi'
+  $checksum64_win7_81 = '05f6e627f132df2de6afab5e8daadd7d0601ad2bcdedceb3692de7f91db5cd45'
   $url64              = $url64_win7_81
   $checksum64         = $checksum64_win7_81  
 } else {

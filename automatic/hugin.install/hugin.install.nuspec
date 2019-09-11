@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
@@ -9,7 +9,7 @@
     <title>Hugin (Install)</title>
     <authors>Pablo d Angelo and Hugin Team</authors>
     <projectUrl>http://hugin.sourceforge.net</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/hugin.install/hugin.install.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/hugin.install/hugin.install.png</iconUrl>
     <copyright>© Pablo d'Angelo</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

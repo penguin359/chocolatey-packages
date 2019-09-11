@@ -56,10 +56,10 @@ To choose between the purchase options: [click here](https://secure.internetdown
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/internet-download-manager/screenshot.png)
 ]]></description>
-  <releaseNotes>http://www.internetdownloadmanager.com/news.html</releaseNotes>
-  <dependencies>
-    <dependency id="autohotkey.install" version="1.1.30.03" />
-  </dependencies>
+    <releaseNotes>http://www.internetdownloadmanager.com/news.html</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.install" version="1.1.30.03" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

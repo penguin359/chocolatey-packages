@@ -32,5 +32,10 @@ function global:au_SearchReplace {
 }
 
 if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
+  try {
     update -ChecksumFor none
+  } catch {
+    $ignore = 'The remote server returned an error: (500) Internal Server Error.'
+    if ($_ -match $ignore) { Write-Host $ignore; 'ignore' }  else { throw $_ }
+  }
 }

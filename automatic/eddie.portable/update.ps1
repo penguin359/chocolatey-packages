@@ -35,5 +35,10 @@ function global:au_SearchReplace {
 }
 
 if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none
+    try {
+        update -ChecksumFor none
+    } catch {
+        $ignore = 'The request was aborted: Could not create SSL/TLS secure channel.'
+        if ($_ -match $ignore) { Write-Host $ignore; 'ignore' }  else { throw $_ }
+    }
 }

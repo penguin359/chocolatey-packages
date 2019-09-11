@@ -15,5 +15,10 @@ function global:au_SearchReplace {
         }
     }
 }
-
-update -ChecksumFor none -NoCheckUrl
+    
+try {
+    update -ChecksumFor none -NoCheckUrl
+} catch {
+    $ignore = 'The request was aborted: Could not create SSL/TLS secure channel.'
+    if ($_ -match $ignore) { Write-Host $ignore; 'ignore' }  else { throw $_ }
+}

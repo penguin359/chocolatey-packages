@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>bs1770gain</id>
-    <version>0.6.0</version>
+    <version>0.6.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/bs1770gain</packageSourceUrl>
     <owners>chtof</owners>
     <title>BS1770GAIN</title>

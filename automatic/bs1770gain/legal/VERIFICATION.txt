@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://iweb.dl.sourceforge.net/project/bs1770gain/bs1770gain/0.6.0/bs1770gain-0.6.0-win32.7z
-   x64: https://iweb.dl.sourceforge.net/project/bs1770gain/bs1770gain/0.6.0/bs1770gain-0.6.0-win64.7z
+   x32: https://iweb.dl.sourceforge.net/project/bs1770gain/bs1770gain/0.6.1/bs1770gain-0.6.1-win32.7z
+   x64: https://iweb.dl.sourceforge.net/project/bs1770gain/bs1770gain/0.6.1/bs1770gain-0.6.1-win64.7z
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 54A1376CE4853FB41323E9EC3B14C408AECC79C3FC88A260DF3EA0EA5B605BC9
-   checksum64: 50A165472742A91A5DE68EF530C364998F2BE5DE2E6359C01AFA2958A1BD77CB
+   checksum32: 4C8815B20E660F367F97C45167029CC1F232B71E2AA2E83444FAD155730FB795
+   checksum64: D3BDA96786170E95CE312E8C6CF78DB19C8517C47D6FF9BAB3250A032100E313
  
 File 'LICENSE.txt' is obtained from:
    http://bs1770gain.sourceforge.net

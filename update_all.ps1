@@ -69,6 +69,16 @@ $Options = [ordered]@{
         $global:au_Force   = $true
         $global:au_Version = ($p -split ':')[1]
     }
+
+    #IgnoreOn = @(                                      #Error message parts to set the package ignore status
+    #'Timeout'
+    #'Access denied'
+    #)                                  
+    RepeatOn = @(                                      #Error message parts on which to repeat package updater
+        'The request was aborted: Could not create SSL/TLS secure channel.'        
+    )
+    RepeatSleep   = 30                                 #How much to sleep between repeats in seconds, by default 0
+    RepeatCount   = 2                                  #How many times to repeat on errors, by default 1
 }
 
 if ($ForcedPackages) { Write-Host "FORCED PACKAGES: $ForcedPackages" }

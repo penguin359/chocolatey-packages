@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>realpopup</id>
+    <version>6.5</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/realpopup</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>RealPopup LAN Chat</title>
+    <authors>RealPopup LAN Chat Team.</authors>
+    <projectUrl>https://www.realpopup.it</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/realpopup/realpopup.png</iconUrl>
+    <copyright>COPYRIGHT © 2019 | REALPOPUP LAN CHAT SOFTWARE</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://www.realpopup.it/help.html</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://www.realpopup.it/support.html</bugTrackerUrl>
+    <tags>realpopup messaging chat lan trial</tags>
+    <summary>Simple. Secure. Winpopup Replacer.
+@'
+$description	    = @'
+RealPopup LAN chat is a small tool to replace old WinPopup or net</summary>
+    <description><![CDATA[
+[[Description]]
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/realpopup/screenshot.png)
+]]></description>
+    <releaseNotes>https://www.realpopup.it</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

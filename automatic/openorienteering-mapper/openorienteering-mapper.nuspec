@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>openorienteering-mapper</id>
+    <version>0.8.4</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/openorienteering-mapper</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>OpenOrienteering Mapper</title>
+    <authors>OpenOrienteering Mapper Team.</authors>
+    <projectUrl>https://www.openorienteering.org/apps/mapper</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/openorienteering-mapper/openorienteering-mapper.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/OpenOrienteering/mapper/dev/COPYING</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/OpenOrienteering/mapper</projectSourceUrl>
+    <docsUrl>http://www.openorienteering.org/mapper-manual</docsUrl>
+    <mailingListUrl>https://lists.sourceforge.net/lists/listinfo/oorienteering-devel</mailingListUrl>
+    <bugTrackerUrl>https://github.com/OpenOrienteering/mapper/issues</bugTrackerUrl>
+    <tags>openorienteering-mapper OpenOrienteering Mapper orienteering mapmaking program</tags>
+    <summary>OpenOrienteering Mapper is an orienteering mapmaking program and provides a free and open source alternative to existing commercial software.</summary>
+    <description><![CDATA[
+OpenOrienteering Mapper is an orienteering mapmaking program and provides a free and open source alternative to existing commercial software. OpenOrienteering Mapper runs on Android, Windows, Mac OS X and Linux.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/openorienteering-mapper/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/OpenOrienteering/mapper/releases</releaseNotes>
+    <dependencies>
+      <dependency id="openorienteering-mapper.install" version="[0.8.4]" />
+    </dependencies>
+  </metadata>
+  <files></files>
+</package>

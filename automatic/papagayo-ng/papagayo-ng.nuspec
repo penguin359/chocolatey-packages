@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>papagayo-ng</id>
+    <version>1.4.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/papagayo-ng</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Papagayo-NG</title>
+    <authors>Papagayo and Papagayo-NG Team.</authors>
+    <projectUrl>https://morevnaproject.org/papagayo-ng</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/papagayo-ng/papagayo-ng.png</iconUrl>
+    <copyright>Original Copyright © 2005 Mike Clifton - Modifications © 2010 Benjamin Lau - Papagayo-NG © 2019</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/morevnaproject/papagayo-ng/master/gpl.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/morevnaproject/papagayo-ng</projectSourceUrl>
+    <docsUrl>https://morevnaproject.org/papagayo-ng</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/morevnaproject/papagayo-ng/issues</bugTrackerUrl>
+    <tags>papagayo-ng lip-sync phoneme mouth shape</tags>
+    <summary>“Papagayo” is a lip-syncing program designed to line up phonemes (mouth shapes) with the actual recorded sound of actors speaking.</summary>
+    <description><![CDATA[
+“Papagayo” is a lip-syncing program designed to line up phonemes (mouth shapes) with the actual recorded sound of actors speaking.
+
+Papagayo was originally developed and released as open-source by Lost Marble. The version presented here is maintained by Morevna Project and have following differences:
+
+Support for various languages (English, Dutch, Finnish, German, Hungarian, Italian, Norwegian, Portuguese, Russian, Spanish, Swedish, Turkish, Ukrainian).
+Support for various phoneme sets (Preston-Blair or Flemming-Dobbs).
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/papagayo-ng/screenshot.png)
+]]></description>
+    <releaseNotes>https://morevnaproject.org/papagayo-ng</releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
+      <dependency id="python" version="3.7.4" />
+    </dependencies>    
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

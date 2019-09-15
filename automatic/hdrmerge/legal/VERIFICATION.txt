@@ -1,0 +1,22 @@
+﻿VERIFICATION
+ 
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+Package can be verified like this:
+ 
+1. Download:
+ 
+   x32: https://github.com/jcelaya/hdrmerge/releases/download/v0.5.0/hdrmerge-setup-0.5.0.exe
+   x64: https://github.com/jcelaya/hdrmerge/releases/download/v0.5.0/hdrmerge-setup64-0.5.0.exe
+  
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+ 
+   checksum type: sha256
+   checksum32: 6352A47047AB4140B80145EA585B9EF85B68EF93EAE831CD21B472AA769BE921
+   checksum64: 867B16BFC57EAB7BB70DB7D29E189A91AF65F4B3855820DDBF7B6AB2A8530188
+ 
+File 'LICENSE.txt' is obtained from:
+   https://raw.githubusercontent.com/jcelaya/hdrmerge/master/LICENSE

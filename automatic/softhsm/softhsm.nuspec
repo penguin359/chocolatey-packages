@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>softhsm</id>
+    <version>2.5.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/softhsm</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>SoftHSM</title>
+    <authors>SoftHSM Team.</authors>
+    <projectUrl>https://www.opendnssec.org/softhsm</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/softhsm/softhsm.png</iconUrl>-->
+    <copyright>© 2019 OpenDNSSEC. All Rights Reserved.</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/opendnssec/SoftHSMv2/develop/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/opendnssec/SoftHSMv2</projectSourceUrl>
+    <docsUrl>https://www.opendnssec.org/documentation</docsUrl>
+    <mailingListUrl>http://www.opendnssec.org/support/community</mailingListUrl>
+    <bugTrackerUrl>https://github.com/opendnssec/SoftHSMv2/issues</bugTrackerUrl>
+    <tags>softhsm crypto store pkcs interface</tags>
+    <summary>SoftHSM is an implementation of a cryptographic store accessible through a PKCS #11 interface. You can use it to explore PKCS #11 without having a Hardware Security Module.</summary>
+    <description><![CDATA[
+SoftHSM is an implementation of a cryptographic store accessible through a PKCS #11 interface. You can use it to explore PKCS #11 without having a Hardware Security Module. It is being developed as a part of the OpenDNSSEC project. SoftHSM uses Botan for its cryptographic operations.
+
+**Background**
+
+OpenDNSSEC handles and stores its cryptographic keys via the PKCS #11 interface. This interface specifies how to communicate with cryptographic devices such as HSM:s (Hardware Security Modules) and smart cards. The purpose of these devices is, among others, to generate cryptographic keys and sign information without revealing private-key material to the outside world. They are often designed to perform well on these specific tasks compared to ordinary processes in a normal computer.
+
+A potential problem with the use of the PKCS #11 interface is that it might limit the wide spread use of OpenDNSSEC, since a potential user might not be willing to invest in a new hardware device. To counter this effect, OpenDNSSEC is providing a software implementation of a generic cryptographic device with a PKCS#11 interface, the SoftHSM. SoftHSM is designed to meet the requirements of OpenDNSSEC, but can also work together with other cryptographic products because of the PKCS #11 interface.
+]]></description>
+    <releaseNotes>https://github.com/opendnssec/SoftHSMv2/blob/develop/NEWS</releaseNotes>
+    <dependencies>
+      <dependency id="softhsm.install" version="[2.5.0]" />
+    </dependencies>
+  </metadata>
+  <files></files>
+</package>

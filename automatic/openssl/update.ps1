@@ -10,12 +10,12 @@ function global:au_GetLatest {
     $regex64  = 'Win64OpenSSL-(?<Version>[\d_]+)(?<VersionLetter>[a-z]+).exe'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing	
-	$url32    = $download_page.links | ? href -match $regex32 | Select -First 1
-    $url64    = $download_page.links | ? href -match $regex64 | Select -First 1
+	$url32   = $download_page.links | ? href -match $regex32 | Select -First 1
+    $url64   = $download_page.links | ? href -match $regex64 | Select -First 1
     $version = $matches.Version -Replace '_','.'
 
     if ($matches.VersionLetter) {
-        $version = $version + '.' + ( [int][char]$matches.VersionLetter - 96 )
+        $version = $version + '.' + ( [int][char]$matches.VersionLetter - 96 ) + '00'
     }
 
     return @{

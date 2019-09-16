@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>carotdav</id>
-    <version>1.15.5</version>
+    <version>1.15.6</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/carotdav.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>CarotDAV</title>
@@ -19,8 +19,7 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>carotdav.portable online storage tool webdav ftp sftp</tags>
     <summary>CarotDAV is a Simple WebDAV / FTP / SFTP / Online Storages client for Windows OS, available free of charge. In addition, simplified WebDAV server for local use are embedded.</summary>
-    <description><![CDATA[
-## Complied Standards, Features
+    <description><![CDATA[## Complied Standards, Features
 - HTTP/1.1 (RFC2616)
 - HTTPS (RFC2818)
 - DAV class 1(RFC2518), 3(RFC4918)
@@ -88,7 +87,7 @@ CarotDAV collect no other information.
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <dependencies>
-      <dependency id="carotdav.portable" version="[1.15.5]" />
+      <dependency id="carotdav.portable" version="[1.15.6]" />
     </dependencies>
   </metadata>
   <files></files>

@@ -1,0 +1,1 @@
+﻿Uninstall-ChocolateyEnvironmentVariable -VariableName OPENSSL_CONF

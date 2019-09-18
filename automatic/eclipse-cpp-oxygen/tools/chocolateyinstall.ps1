@@ -1,12 +1,12 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = "$toolsDir"
 
-  url           = 'https://mirror.dkm.cz/eclipse/technology/epp/downloads/release/2019-06/R/eclipse-cpp-2019-06-R-win32-x86_64.zip'
-  checksum      = 'F5452535CCDC89F33B24B2844A3AA7F31769D031141B1A7AE52F76D3A1DE2A15'
+  url           = 'https://ftp.halifax.rwth-aachen.de/eclipse//technology/epp/downloads/release/2019-09/R/eclipse-cpp-2019-09-R-win32-x86_64.zip'
+  checksum      = '60aa80e98ff895e5adda9b4a666b80c0dc40acad4f9730f846fbab57b43a19d2'
   checksumType  = 'sha256'
 }
 

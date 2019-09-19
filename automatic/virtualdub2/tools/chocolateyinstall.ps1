@@ -4,7 +4,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = "$env:ChocolateyPackageName"
   destination   = "$toolsDir"    
-  file          = "$toolsDir\VirtualDub2_43786.zip"  
+  file          = "$toolsDir\VirtualDub2_43803.zip"  
 }
 
 # Shims

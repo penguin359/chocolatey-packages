@@ -7,8 +7,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $botpressDir
   
-  url           = 'https://s3.amazonaws.com/botpress-binaries/botpress-v12_1_3-win-x64.zip'  
-  checksum      = '06ee9ba0deca6f630a27169a3e7d4fffbc7a016b4a4a101b1494ef354b461251'
+  url           = 'https://s3.amazonaws.com/botpress-binaries/botpress-v12_1_4-win-x64.zip'  
+  checksum      = '08357b7cefd28341868713f50b0ede3ee5b537b684a24f550eec6e74f956cb4c'
   checksumType  = 'sha256'
 }
 

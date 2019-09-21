@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>photoflare</id>
+    <version>1.5.9</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/photoflare</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>PhotoFlare</title>
+    <authors>Dylan Coakley</authors>
+    <projectUrl>https://photoflare.io</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/photoflare/photoflare.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/PhotoFlare/photoflare/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/PhotoFlare/photoflare</projectSourceUrl>
+    <docsUrl>https://photoflare.io/documentation</docsUrl>
+    <mailingListUrl>https://www.facebook.com/photoflare.io</mailingListUrl>
+    <bugTrackerUrl>https://github.com/PhotoFlare/photoflare/issues</bugTrackerUrl>
+    <tags>photoflare image editor</tags>
+    <summary>Photoflare is a cross-platform image editor with an aim to balance between powerful features and a very friendly graphical user interface.</summary>
+    <description><![CDATA[
+Photoflare is a cross-platform image editor with an aim to balance between powerful features and a very friendly graphical user interface. It suits a wide variety of different tasks and users who value a more nimble workflow. Features include basic image editing capabilities, paint brushes, image filters, colour adjustments and more advanced features such as Batch image processing.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/photoflare/screenshot.png)
+]]></description>
+    <releaseNotes>https://photoflare.io/changelog/</releaseNotes>
+    <dependencies>
+      <dependency id="photoflare.install" version="[1.5.9]" />
+    </dependencies>
+  </metadata>
+  <files></files>
+</package>

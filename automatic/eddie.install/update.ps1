@@ -3,16 +3,17 @@
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-    $releases = 'https://airvpn.org/windows/'
-    $regex    = 'data-version="(?<Version>[\d\.]+)"'
+    $github_repository = 'AirVPN/Eddie'
+    $releases = 'https://github.com/' + $github_repository + '/releases/latest'    
+    $regex    = 'v(?<Version>[\d\.]+).zip$'
 
-    (Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null
+    $url     = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex
     $version = $matches.Version
 
     return @{
         Version = $version
-        URL32 = 'https://airvpn.org/mirrors/eddie.website/download/?platform=windows-10&arch=x86&ui=ui&format=installer.exe&version=' + $version
-        URL64 = 'https://airvpn.org/mirrors/eddie.website/download/?platform=windows-10&arch=x64&ui=ui&format=installer.exe&version=' + $version
+        URL32   = 'https://airvpn.org/mirrors/eddie.website/download/?platform=windows-10&arch=x86&ui=ui&format=installer.exe&version=' + $version
+        URL64   = 'https://airvpn.org/mirrors/eddie.website/download/?platform=windows-10&arch=x64&ui=ui&format=installer.exe&version=' + $version
     }
 }
 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pyzo.install</id>
+    <version>4.9.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/pyzo.install</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Pyzo (Install)</title>
+    <authors>Pyzo Team.</authors>
+    <projectUrl>https://pyzo.org</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pyzo.install/pyzo.install.png</iconUrl>
+    <copyright>© Copyright 2015-2019, The Pyzo team.</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/pyzo/pyzo/master/pyzo/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/pyzo/pyzo/</projectSourceUrl>
+    <docsUrl>https://pyzo.org/guide.html</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/pyzo/pyzo/issues</bugTrackerUrl>
+    <tags>pyzo.install IDE Python editor</tags>
+    <summary>Pyzo is a cross-platform Python IDE focused on interactivity and introspection, which makes it very suitable for scientific computing.</summary>
+    <description><![CDATA[
+Pyzo is a cross-platform Python IDE focused on interactivity and introspection, which makes it very suitable for scientific computing. Its practical design is aimed at simplicity and efficiency. It consists of two main components, the editor and the shell, and uses a set of pluggable tools to help the programmer in various ways. Some example tools are source structure, project manager, interactive help, workspace ... Pyzo is written in (pure) Python 3 and uses the Qt GUI toolkit. Binaries are provided for all major operating system. After installing Pyzo, it can be used to execute code on any Python version available on your system (Python 2.4 - 3.x, including Pypy).
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pyzo.install/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/pyzo/pyzo/wiki/Release_notes</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

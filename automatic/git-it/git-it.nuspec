@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>git-it</id>
+    <version>4.4.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/git-it</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Git-it</title>
+    <authors>Jessica Lord</authors>
+    <projectUrl>https://github.com/jlord/git-it-electron</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/git-it/git-it.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/jlord/git-it-electron/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/jlord/git-it-electron</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/jlord/git-it-electron/issues</bugTrackerUrl>
+    <tags>git-it learn git github</tags>
+    <summary>Git-it is a (Mac, Win, Linux) Desktop App for Learning Git and GitHub.</summary>
+    <description><![CDATA[
+Git-it is a desktop (Mac, Windows and Linux) app that teaches you how to use Git and GitHub on the command line.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/git-it/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/jlord/git-it-electron/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

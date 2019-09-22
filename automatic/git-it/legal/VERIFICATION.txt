@@ -1,0 +1,22 @@
+﻿VERIFICATION
+ 
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+Package can be verified like this:
+ 
+1. Download:
+ 
+   x32: https://github.com/jlord/git-it-electron/releases/download/4.4.0/Git-it-Win-ia32.zip
+   x64: https://github.com/jlord/git-it-electron/releases/download/4.4.0/Git-it-Win-ia32.zip
+  
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+ 
+   checksum type: sha256
+   checksum32: 9A787EF9EFE5F6F0F8E444DC4EDDDB0974FB15C36FB8E9DF0E9421E0318CE409
+   checksum64: 9A787EF9EFE5F6F0F8E444DC4EDDDB0974FB15C36FB8E9DF0E9421E0318CE409
+ 
+File 'LICENSE.txt' is obtained from:
+   https://raw.githubusercontent.com/jlord/git-it-electron/master/LICENSE

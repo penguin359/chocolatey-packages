@@ -3,7 +3,7 @@ $toolsDir = Split-Path -parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
   packageName	= $ENV:ChocolateyPackageName
-  unzipLocation = $toolsDir
+  unzipLocation = "$toolsDir"
   file          = Get-Item -path $toolsDir\*.zip
 
   url			= 'https://www.pspad.com/files/pspad/pspad501en.zip'
@@ -20,10 +20,10 @@ foreach ( $file in 'phpCB.exe', 'TiDy.exe' ) {
 
 Install-ChocolateyZipPackage @packageArgs
 
-#Install start menu shortcuts
+#Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = Join-Path $programs "PSPad.lnk"
 $targetPath = Join-Path $toolsDir "PSPad.exe"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath
 
-Remove-Item -path $toolsDir\pspad*.zip -errorAction SilentlyContinue
+Remove-Item -Path "$toolsDir\pspad*.zip" -ErrorAction SilentlyContinue

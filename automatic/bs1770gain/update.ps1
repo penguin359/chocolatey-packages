@@ -6,7 +6,7 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     $releases = 'https://sourceforge.net/projects/bs1770gain/files/bs1770gain/'
-    $regex   = 'bs1770gain-(?<Version>[\d\.]+)-win32.7z'
+    $regex   = 'bs1770gain-(?<Version>[\d\.]+)-win(32|64).7z'
 
     (Invoke-WebRequest -Uri $releases).Content -match $regex | Select -First 1
     $version = $matches.Version

@@ -1,10 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
-$toolsDir = Split-Path -parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   softwareName   = 'PSPad editor'
-  unzipLocation  = "$toolsDir"
   fileType       = 'exe'
 
   url            = 'https://www.pspad.com/files/pspad/pspad501_setup.exe'
@@ -16,4 +14,3 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
-Remove-Item -Path "$toolsDir\pspad*setup.exe" -ErrorAction SilentlyContinue

@@ -1,8 +1,9 @@
+﻿$ErrorActionPreference = 'Stop'
 import-module au
 
 function global:au_GetLatest {
     $releases = 'http://www.pspad.com/en/download.php'
-    $regex   = 'pspad(\d+)_setup.exe'
+    $regex    = 'pspad(\d+)_setup.exe'
 
     $download_page = Invoke-WebRequest -Uri $releases
  

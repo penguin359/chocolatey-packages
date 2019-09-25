@@ -20,10 +20,8 @@ foreach ( $file in 'phpCB.exe', 'TiDy.exe' ) {
 
 Install-ChocolateyZipPackage @packageArgs
 
-#Install start menu shortcut
+# Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = Join-Path $programs "PSPad.lnk"
 $targetPath = Join-Path $toolsDir "PSPad.exe"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath
-
-Remove-Item -Path "$toolsDir\pspad*.zip" -ErrorAction SilentlyContinue

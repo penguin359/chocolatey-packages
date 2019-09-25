@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop';
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $OSArchitectureWidth = Get-OSArchitectureWidth
 
 # Install start menu shortcut

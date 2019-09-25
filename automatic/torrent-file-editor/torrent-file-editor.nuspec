@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>torrent-file-editor</id>
-    <version>0.3.15</version>
+    <version>0.3.16</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/torrent-file-editor</packageSourceUrl>
     <owners>chtof</owners>
     <title>Torrent File Editor</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/torrent-file-editor/torrent-file-editor/issues</bugTrackerUrl>
     <tags>torrent-file-editor torrent file editor</tags>
     <summary>Cross-platform application intended to create and edit .torrent and uTorrent .dat files. Replacement for [BEncode Editor](https://sites.google.com/site/ultimasites/bencode-editor) which has modern design and extra features.</summary>
-    <description><![CDATA[
-## Features
+    <description><![CDATA[## Features
 - Create .torrent file from a scratch.
 - Add new files to .torrent file.
 - Removing files from .torrent file.

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>jami</id>
-    <version>2019.09.22</version>
+    <version>2019.09.26</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/jami</packageSourceUrl>
     <owners>chtof</owners>
     <title>Jami</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://git.jami.net/groups/savoirfairelinux/-/issues</bugTrackerUrl>
     <tags>jami instant messenger universal communication platform user privacy freedom</tags>
     <summary>Jami is a free and universal communication platform which preserves the user's privacy and freedoms.</summary>
-    <description><![CDATA[### Features
-Specific features for each use.
+    <description><![CDATA[Specific features for each use.
 Because Privacy matters on the internet, Jami allows you to communicate freely and will always maintain your privacy whether you want to send a message, start an audio or video call, or share files.
 
 ## Audio calls between Jami users

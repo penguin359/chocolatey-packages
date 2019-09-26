@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dos2unix</id>
-    <version>7.4.0</version>
+    <version>7.4.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/dos2unix</packageSourceUrl>
     <owners>chtof</owners>
     <title>Dos2Unix / Unix2Dos - Text file format converters</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://sourceforge.net/p/dos2unix/_list/tickets</bugTrackerUrl>
     <tags>dos2unix text file format converter dos unix</tags>
     <summary>Text file format converters</summary>
-    <description><![CDATA[
-## Features
+    <description><![CDATA[## Features
 - Native language support: Brazilian Portuguese, Chinese simplified, Chinese traditional, Danish, Dutch, English, Esperanto, French, German, Hungarian, Japanese, Norwegian Bokmaal, Polish, Russian, Serbian, Spanish, Swedish, Ukrainian, Vietnamese.
 - Automatically skips binary and non-regular files
 - In-place, paired, or stdio mode conversion.
@@ -30,9 +29,7 @@
 - Handles Unicode Byte Order Mark (BOM)
 - Display file information
 - Secure
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/dos2unix/screenshot.png)
-]]></description>
+</description>
     <releaseNotes>https://waterlan.home.xs4all.nl/dos2unix.html</releaseNotes>
   </metadata>
   <files>

@@ -27,8 +27,6 @@ function global:au_SearchReplace {
         }
 
         "tools\chocolateyinstall.ps1" = @{
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
-          "(?i)(^\s*file64\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName64)`""
           "(torrent-file-editor-)[\d\.]+(-x[$]{OSArchitectureWidth}.exe)" = "`$1$($Latest.Version)`$2"
         }
     }

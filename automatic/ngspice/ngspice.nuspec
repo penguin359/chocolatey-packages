@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ngspice</id>
-    <version>30.0</version>
+    <version>31.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/ngspice</packageSourceUrl>
     <owners>chtof</owners>
     <title>Ngspice</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://sourceforge.net/p/ngspice/_list/tickets</bugTrackerUrl>
     <tags>ngspice mixed-mode mixed level circuit simulator</tags>
     <summary>Mixed-mode - mixed level circuit simulator based on Berkeley's spice3f5. Open source spice simulator.</summary>
-    <description><![CDATA[
-ngspice is the open source spice simulator for electric and electronic circuits.
+    <description><![CDATA[ngspice is the open source spice simulator for electric and electronic circuits.
 
 Such a circuit may comprise of JFETs, bipolar and MOS transistors, passive elements like R, L, or C, diodes, transmission lines and other devices, all interconnected in a netlist. Digital circuits are simulated as well, event driven and fast, from single gates to complex circuits. And you may enter the combination of both analog and digital as a mixed-signal circuit.
 

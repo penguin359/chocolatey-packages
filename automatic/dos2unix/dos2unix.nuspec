@@ -29,9 +29,7 @@
 - Handles Unicode Byte Order Mark (BOM)
 - Display file information
 - Secure
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/dos2unix/screenshot.png)
-]]></description>
+</description>
     <releaseNotes>https://waterlan.home.xs4all.nl/dos2unix.html</releaseNotes>
   </metadata>
   <files>

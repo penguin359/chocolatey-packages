@@ -1,10 +1,18 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
+if ( [environment]::OSVersion.Version.Major -ge 10 )  {
+  $file64_win10 = "$toolsDir\pyzo-4.9.0-win64-windows10.zip"    
+  $file64       = "$file64_win10"
+} else {
+  $file64_win7 = "$toolsDir\pyzo-4.9.0-win64-windows7.zip"
+  $file64      = "$file64_win7"
+}
+
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  destination   = "$toolsDir"
-  file64        = "$toolsDir\pyzo-4.9.0-win64-windows10.zip"
+  packageName = $env:ChocolateyPackageName
+  destination = "$toolsDir"
+  file64      = "$file64"
 }
 
 Get-ChocolateyUnzip @packageArgs

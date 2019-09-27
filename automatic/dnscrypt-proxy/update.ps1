@@ -1,4 +1,5 @@
-﻿import-module au
+﻿$ErrorActionPreference = 'Stop'
+import-module au
 $github_repository = "jedisct1/dnscrypt-proxy"
 $releases = "https://github.com/" + $github_repository + "/releases/latest"
 $regex32 = "/dnscrypt-proxy-win32-(?<Version>[\d\.]+).zip$"

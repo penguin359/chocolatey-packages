@@ -29,7 +29,7 @@
 - Handles Unicode Byte Order Mark (BOM)
 - Display file information
 - Secure
-</description>
+]]></description>
     <releaseNotes>https://waterlan.home.xs4all.nl/dos2unix.html</releaseNotes>
   </metadata>
   <files>

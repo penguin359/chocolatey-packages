@@ -9,7 +9,7 @@
     <title>DNSCrypt Proxy</title>
     <authors>Frank Denis</authors>
     <projectUrl>https://dnscrypt.org</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/dnscrypt-proxy/dnscrypt-proxy.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/dnscrypt-proxy/dnscrypt-proxy.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://raw.githubusercontent.com/jedisct1/dnscrypt-proxy/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

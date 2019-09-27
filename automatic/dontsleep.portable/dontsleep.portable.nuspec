@@ -9,7 +9,7 @@
     <title>Don't Sleep (Portable)</title>
     <authors>Nenad Hrg</authors>
     <projectUrl>http://www.softwareok.com/?seite=Microsoft/DontSleep</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/dontsleep.portable/dontsleep.portable.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/dontsleep.portable/dontsleep.portable.png</iconUrl>
     <copyright>© 2019 by Nenad Hrg</copyright>
     <licenseUrl>http://www.softwareok.com/?seite=Microsoft/DontSleep/Eula</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

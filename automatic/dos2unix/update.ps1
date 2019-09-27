@@ -1,4 +1,5 @@
-﻿import-module au
+﻿$ErrorActionPreference = 'Stop'
+import-module au
 
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 

@@ -9,7 +9,7 @@
     <title>Don't Sleep (Install)</title>
     <authors>Nenad Hrg</authors>
     <projectUrl>http://www.softwareok.com/?seite=Microsoft/DontSleep</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/dontsleep.install/dontsleep.install.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/dontsleep.install/dontsleep.install.png</iconUrl>
     <copyright>© 2019 by Nenad Hrg</copyright>
     <licenseUrl>http://www.softwareok.com/?seite=Microsoft/DontSleep/Eula</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

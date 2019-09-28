@@ -5,9 +5,11 @@ $releases = 'https://www.kdevelop.org/download'
 function global:au_GetLatest {
      $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
      $regex   = 'kdevelop-(?<Version>[\d\.]+)-x64-setup.exe$'
-     $url     = $download_page.links | ? href -match $regex
+     $download_page.links | ? href -match $regex | Select -First 1 | Out-Null
+     $version = $matches.Version
+     $versionRelease = $version -Replace "\.", ""
 
-     return @{ Version = $matches.Version ; VersionRelease = $matches.Version -Replace "\.", ""; URL64 = $url.href }
+     return @{ Version = $version ; VersionRelease = $matches.versionRelease }
 }
 
 function global:au_SearchReplace {

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
@@ -49,6 +49,9 @@ image::http://i.giphy.com/l3vR4SlEtY3juZfXy.gif[Pseudo Terminal Emulator]
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/asciidocfx/screenshot.png)
 ]]></description>
     <releaseNotes>https://github.com/asciidocfx/AsciidocFX/blob/master/CHANGELOG.asc</releaseNotes>
+    <dependencies>
+      <dependency id="jre8" version="8.0.221" />
+    </dependencies>
   </metadata>
   <files>
     <file src="legal\**" target="legal" />

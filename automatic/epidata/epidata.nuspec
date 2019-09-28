@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>epidata</id>
+    <version>4.6.0.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/epidata</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>EpiData All-In-One (Manager, EntryClient and Analysis)</title>
+    <authors>EpiData Association.</authors>
+    <projectUrl>https://www.epidata.dk</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/epidata/epidata.png</iconUrl>
+    <copyright>All materials copyright by EpiData Association 2000-2019 unless otherwise stated.</copyright>
+    <licenseUrl>https://www.epidata.dk/about.htm#license</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://www.epidata.dk/documentation.php</docsUrl>
+    <mailingListUrl>http://lists.umanitoba.ca/mailman/listinfo/epidata-list</mailingListUrl>
+    <bugTrackerUrl>http://lists.umanitoba.ca/mailman/listinfo/epidata-list</bugTrackerUrl>
+    <tags>epidata documentation data structure analysis quantitative data</tags>
+    <summary>EpiData is a group of applications used in combination for creating documented data structures and analysis of quantitative data.</summary>
+    <description><![CDATA[
+**EpiData Entry** is used for simple or programmed data entry and data documentation. Entry handles simple forms or related systems Optimised documentation and error detection features. E.g. double entry verifi cation, list of ID numbers in several fi les, codebook overview of data, date added to backup and encryption procedures.
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/epidata/screenshot1.png)
+
+**EpiData Analysis** performs basic statistical analysis, graphs, and comprehensive data management. E.g. descriptive statistics, SPC Charts, Recoding data, label values and variables. Defi ning missing values.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/epidata/screenshot2.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

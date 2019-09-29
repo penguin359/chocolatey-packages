@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>milton</id>
-    <version>1.6.2</version>
+    <version>1.9.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/milton.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>Milton</title>
@@ -42,7 +42,7 @@ Check out the [patreon page](https://www.patreon.com/serge_rgb?ty=h) if you woul
 ]]></description>
   <releaseNotes>https://github.com/serge-rgb/milton/releases</releaseNotes>
   <dependencies>
-    <dependency id="milton.install" version="[1.6.2]" />
+    <dependency id="milton.install" version="[1.9.0]" />
   </dependencies>
   </metadata>
   <files></files>

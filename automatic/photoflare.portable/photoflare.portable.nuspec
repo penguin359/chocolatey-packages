@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>photoflare.portable</id>
-    <version>1.5.9</version>
+    <version>1.6.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/photoflare.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>PhotoFlare (Portable)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/PhotoFlare/photoflare/issues</bugTrackerUrl>
     <tags>photoflare.portable image editor</tags>
     <summary>Photoflare is a cross-platform image editor with an aim to balance between powerful features and a very friendly graphical user interface.</summary>
-    <description><![CDATA[
-Photoflare is a cross-platform image editor with an aim to balance between powerful features and a very friendly graphical user interface. It suits a wide variety of different tasks and users who value a more nimble workflow. Features include basic image editing capabilities, paint brushes, image filters, colour adjustments and more advanced features such as Batch image processing.
+    <description><![CDATA[Photoflare is a cross-platform image editor with an aim to balance between powerful features and a very friendly graphical user interface. It suits a wide variety of different tasks and users who value a more nimble workflow. Features include basic image editing capabilities, paint brushes, image filters, colour adjustments and more advanced features such as Batch image processing.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/photoflare.portable/screenshot.png)
 ]]></description>

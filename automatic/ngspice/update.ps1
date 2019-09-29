@@ -3,8 +3,10 @@
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-  $releases = 'https://sourceforge.net/projects/ngspice/files/ng-spice-rework'  
-  $regex    = 'title="/ng-spice-rework/\d+/ngspice-(?<Version>[\d]+)_64.zip'
+  #$releases = 'https://sourceforge.net/projects/ngspice/files/ng-spice-rework'  
+  #$regex    = 'title="/ng-spice-rework/\d+/ngspice-(?<Version>[\d]+)_64.zip'
+  $releases  = 'https://sourceforge.net/p/ngspice/news/'
+  $regex     = 'ngspice-(?<Version>[\d]+) is available.'
 
   $download_page = (Invoke-WebRequest -Uri $releases).RawContent -match $regex
   

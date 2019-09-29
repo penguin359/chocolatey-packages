@@ -1,4 +1,4 @@
-﻿VERIFICATION
+VERIFICATION
  
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
@@ -6,14 +6,14 @@ in verifying that this package's contents are trustworthy.
 Package can be verified like this:
  
 1. Download:
-   x64: https://launchpad.net/photofiltre-lx/trunk/v1.5.9/+download/PhotoFlare_CE_1.5.9_amd64_win_portable.zip
+   x64: https://launchpad.net/photofiltre-lx/trunk/v1.6.0/+download/Photoflare_CE_1.6.0_amd64_win_portable.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum64: 792F9139D70B50307354F17F9E6AF0CC7336FDA7DA8D2C6F47EF3E38C84A3B3E
+   checksum64: CB36CDA311D5E9B1B06D79EAEB6EE9714175CA9542DAE322B441219910D37EDB
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/PhotoFlare/photoflare/master/LICENSE.md

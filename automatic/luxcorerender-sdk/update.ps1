@@ -22,7 +22,7 @@ function global:au_SearchReplace {
 
         "tools\chocolateyinstall.ps1" = @{
           "(?i)(^\s*file64\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName64)`""
-          "(Join-Path [$]toolsDir `"luxcorerender-v)[\d\.]+(-win64-sdk\luxcoreui.exe`")" = "`$1$($Latest.Version)`$2"
+          "(Join-Path [$]toolsDir `"luxcorerender-v)[\d\.]+(-win64-sdk\\luxcoreui.exe`")" = "`$1$($Latest.Version)`$2"
           "([$]toolsDir\luxcorerender-v)[\d\.]+(-win64-sdk)" = "`$1$($Latest.Version)`$2"
         }
     }

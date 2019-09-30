@@ -1,19 +1,20 @@
 import-module au
 
-function global:au_GetLatest {
-    $releases = 'https://www.hamrick.com'    
-    $regex    = 'Version (?<Version>[\d\.]+)\. '
+function global:au_GetLatest {    
+    $releases     = 'https://www.hamrick.com/alternate-versions.html'    
+    $regex32      = '<a href="(?<File32>files/vuex32\d+.exe)" onclick="pageTracker._trackPageview\(''files/vuex32\d+.exe''\);">[\d\.]+</a>'
+    $regex64      = '<a href="(?<File64>files/vuex64\d+.exe)" onclick="pageTracker._trackPageview\(''files/vuex64\d+.exe''\);">(?<Version>[\d\.]+)</a>'
 
-    $ie = New-Object -com internetexplorer.application
-    $ie.Visible = $false
-    $ie.Navigate($releases)
-    while ($ie.Busy -eq $true){Start-Sleep -seconds 4;}
-    $ie.Document.body.outerHTML -match $regex | Out-Null
+    $download_page = (Invoke-WebRequest -Uri $releases).Content
+    $download_page -match $regex32 | Out-Null    
+    $file32  = $matches.File32
+    $download_page -match $regex64 | Out-Null    
+    $file64  = $matches.File64
 
     return @{
         Version = $matches.Version
-        URL32   = 'https://www.hamrick.com/files/vuex3296.exe'
-        URL64   = 'https://www.hamrick.com/files/vuex6496.exe'
+        URL32   = 'https://www.hamrick.com/' +$file32
+        URL64   = 'https://www.hamrick.com/' +$file64
     }
 }
 

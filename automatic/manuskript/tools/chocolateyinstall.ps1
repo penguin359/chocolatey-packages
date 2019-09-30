@@ -1,12 +1,12 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
 
-  url           = 'https://github.com/olivierkes/manuskript/releases/download/0.9.0/manuskript-0.9.0-win32.zip'
-  checksum      = '2C928D4FEE67FD4D94DE813218E9A23650E6880EB6DDD823A3FA5356EBC96DAF'
+  url           = 'https://github.com/olivierkes/manuskript/releases/download/0.10.0/manuskript-0.10.0-win32.zip'
+  checksum      = '84cfd7f63f2ec06434e121ea64c7602ae666e75c942fb878cf1a167dcd4dc755'
   checksumType  = 'sha256'
 }
 

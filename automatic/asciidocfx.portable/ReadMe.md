@@ -24,6 +24,5 @@ Asciidoc FX is a book / document editor to build PDF, Epub, Mobi and HTML books,
 * Themeing (Dark & White)
 
 ## Pseudo Terminal Emulator
-image::http://i.giphy.com/l3vR4SlEtY3juZfXy.gif[Pseudo Terminal Emulator]
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/asciidocfx.portable/screenshot.png)

@@ -1,4 +1,4 @@
-﻿VERIFICATION
+VERIFICATION
  
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
@@ -7,14 +7,14 @@ Package can be verified like this:
 
 1. Download:
     
-   x64: https://github.com/LuxCoreRender/LuxCore/releases/download/luxcorerender_v2.1/luxcorerender-v2.1-win64.zip
+   x64: https://github.com/LuxCoreRender/LuxCore/releases/download/luxcorerender_v2.2/luxcorerender-v2.2-win64.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
-   checksum type: sha256 
-   checksum64: 639B59813AD3B0355E7650CC6BADDF7464007331D4DC72966B6158A825A11456
+   checksum type: sha256
+   checksum64: D5606D81D64CB793B0CC2E7C16BCF52B45B84648BCD0AF92D6E33067DD8D02EE
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/LuxCoreRender/LuxCore/master/COPYING.txt

@@ -1,12 +1,12 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"  
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = "$toolsDir"  
 
-  url64          = 'https://netcologne.dl.sourceforge.net/project/jasperstudio/JaspersoftStudio-6.9.0/TIB_js-studiocomm_6.9.0_windows_x86_64.zip'
-  checksum64     = 'AD99F8186A8BD9446F6DB9F89ED550B14470FE92AE824B5ACCD64684D4BEDAB4'
+  url64          = 'https://netcologne.dl.sourceforge.net/project/jasperstudio/JaspersoftStudio-6.10.0/TIB_js-studiocomm_6.10.0_windows_x86_64.zip'
+  checksum64     = 'a93bc299a1135d2ae8d510c6c3026cce92b1a78a5854124f70f01b25bb808291'
   checksumType64 = 'sha256'  
 }
 

@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>tjs</id>
-    <version>6.9.0</version>
+    <version>6.10.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/tjs</packageSourceUrl>
     <owners>chtof</owners>
     <title>TIBCO Jaspersoft Studio</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://community.jaspersoft.com/project/jaspersoft-studio/tracker</bugTrackerUrl>
     <tags>tjs report development tool eclipse JasperReports</tags>
     <summary>The Eclipse-based report development tool for JasperReports and JasperReports Server.</summary>
-    <description><![CDATA[
-TIBCO Jaspersoft® Studio is editing software for TIBCO JasperReports®. It will help you design and run report templates; build report queries; write complex expressions; layout visual components like 50+ types of charts, maps, tables, crosstabs, and custom visualizations; and much more. It integrates TIBCO JasperReports® Server to create powerful report publishing workflows.
+    <description><![CDATA[TIBCO Jaspersoft® Studio is editing software for TIBCO JasperReports®. It will help you design and run report templates; build report queries; write complex expressions; layout visual components like 50+ types of charts, maps, tables, crosstabs, and custom visualizations; and much more. It integrates TIBCO JasperReports® Server to create powerful report publishing workflows.
 
  
 With Jaspersoft Studio you can build documents of any complexity from your data—from print-ready in PDFs to interactive masterpieces in dynamic HTML, with navigation to interactive components, like maps and charts that may be inside or outside the report. You can generate high quality OpenOffice, PowerPoint , RTF, Word, and spreadsheet documents or you can generate raw CSV, JSON, or XML  documents. It's not difficult to build your own custom exporter to suit any data need.
@@ -37,7 +36,7 @@ The Community version of TIBCO Jaspersoft® Studio uses the [Java Profiler JProf
 ]]></description>
     <releaseNotes>https://community.jaspersoft.com/project/jaspersoft-studio/releases</releaseNotes>
     <dependencies>
-      <dependency id="tjs.install" version="[6.9.0]" />
+      <dependency id="tjs.install" version="[6.10.0]" />
     </dependencies>
   </metadata>
   <files></files>

@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>firestorm-secondlife</id>
-    <version>6.2.4</version>
+    <version>6.3.2</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/firestorm-secondlife</packageSourceUrl>
     <owners>chtof</owners>
     <title>Firestorm Viewer for Second Life</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://jira.firestormviewer.org/secure/Dashboard.jspa</bugTrackerUrl>
     <tags>firestorm secondlife viewer</tags>
     <summary>Firestorm Viewer for Second Life.</summary>
-    <description><![CDATA[
-**Firestorm now has separate downloads for Second Life and Open Simulator grids. Please choose which platform you wish to log into for the appropriate viewer. [More info about this change HERE](https://www.firestormviewer.org/second-life-opensim-are-no-longer-joined-at-the-hip)**
+    <description><![CDATA[**Firestorm now has separate downloads for Second Life and Open Simulator grids. Please choose which platform you wish to log into for the appropriate viewer. [More info about this change HERE](https://www.firestormviewer.org/second-life-opensim-are-no-longer-joined-at-the-hip)**
 
 The Phoenix Firestorm Project is currently active in developing the Firestorm Viewer, the successor to the now discontinued Phoenix Viewer. Firestorm Viewer is based on the Linden Lab V3 LGPL code base and has an enormous number of features, options and interface customization choices, including a look similar to its predecessor Phoenix Viewer. Firestorm is developed for Windows, Linux and Mac OS X operating systems.
 

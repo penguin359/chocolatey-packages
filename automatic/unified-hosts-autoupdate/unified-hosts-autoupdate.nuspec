@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>unified-hosts-autoupdate</id>
-    <version>1.25</version>
+    <version>1.26</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/unified-hosts-autoupdate</packageSourceUrl>
     <owners>chtof</owners>
     <title>Unified Hosts AutoUpdate</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/ScriptTiger/Unified-Hosts-AutoUpdate/issues</bugTrackerUrl>
     <tags>unified-hosts-autoupdate automatic update Steven Black unified hosts autoupdate</tags>
     <summary>Quickly and easily install, uninstall, and set up automatic updates for any of Steven Black's unified hosts files.</summary>
-    <description><![CDATA[
-Quickly and easily install, uninstall, and set up automatic updates for any of Steven Black's unified hosts files.
+    <description><![CDATA[Quickly and easily install, uninstall, and set up automatic updates for any of Steven Black's unified hosts files.
 
 This AutoUpdate project is maintained by ScriptTiger: https://github.com/ScriptTiger/Unified-Hosts-AutoUpdate
 

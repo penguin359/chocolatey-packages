@@ -4,8 +4,8 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
   destination = "$toolsDir"
-  file        = "$toolsDir\marktext-0.15.0-ia32-win.zip"
-  file64      = "$toolsDir\marktext-0.15.0-x64-win.zip"
+  file        = "$toolsDir\marktext-0.15.1-ia32-win.zip"
+  file64      = "$toolsDir\marktext-0.15.1-x64-win.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs

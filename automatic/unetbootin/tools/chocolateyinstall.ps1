@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
@@ -6,8 +6,8 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileFullPath	= "$toolsDir\unetbootin.exe"
   
-  url           = 'https://github.com/unetbootin/unetbootin/releases/download/661/unetbootin-windows-661.exe'
-  checksum      = 'E2614493C4E5CA6BE32A72DCAE1FDCD155D11EBB49B3F37E9D4C7DB6DD71EC22'
+  url           = 'https://github.com/unetbootin/unetbootin/releases/download/675/unetbootin-windows-675.exe'
+  checksum      = '7f91fabb2bde521355342b6c9f3408203a9e1dfe9494cededdac9135a7bdb7c4'
   checksumType  = 'sha256' 
 }
 

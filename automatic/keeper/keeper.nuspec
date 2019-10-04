@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>keeper</id>
+    <version>14.9.3</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/keeper</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Keeper Desktop App</title>
+    <authors>Keeper Security, Inc.</authors>
+    <projectUrl>https://keepersecurity.com</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/keeper/keeper.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://keepersecurity.com/termsofuse.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://keepersecurity.com/support.html</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://keepersecurity.com/support.html</bugTrackerUrl>
+    <tags>keeper password manager safe security</tags>
+    <summary>Fully-featured desktop application for fast and secure access to your Keeper vault.</summary>
+    <description><![CDATA[
+_Cybersecurity starts with password security._
+
+Keeper is the top-rated password manager for protecting you, your family and your business from password-related data breaches and cyberthreats.
+
+With Keeper, you can securely store and autofill unlimited passwords with our free password manager. You’ll never have to remember or worry about passwords again.
+
+Includes:
+
+- Unlimited password storage
+- Autofill Passwords (Mobile Only)
+- Unlimited payment & identity info
+- Fingerprint & Face ID login
+- Access on one device
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/keeper/screenshot.png)
+]]></description>
+    <releaseNotes>https://docs.keeper.io/release-notes/desktop-platforms/web-vault-+-desktop-app</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vuescan</id>
+    <version>9.6.47</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/vuescan</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>VueScan</title>
+    <authors>Hamrick Software</authors>
+    <projectUrl>https://www.hamrick.com</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/vuescan.png</iconUrl>
+    <copyright>© 2019 Hamrick Software</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://www.hamrick.com/problem-report.html</bugTrackerUrl>
+    <tags>vuescan scan document trial</tags>
+    <summary>VueScan is an application for scanning documents, photos, film, and slides on Windows, macOS, and Linux. VueScan supports over 6000 scanners from 42 manufacturers - even when there is not a driver available from the manufacturer.</summary>
+    <description><![CDATA[VueScan Scanner Software
+Can't Find a Driver for Your Scanner?
+VueScan is here to help. We reverse engineered over 6000 scanners so you can keep using the scanner you already have.
+
+## What is VueScan?
+VueScan is an application for scanning documents, photos, film, and slides on Windows, macOS, and Linux. VueScan supports over 6000 scanners from 42 manufacturers - even when there isn’t a driver available from the manufacturer.
+
+Whether you’re having trouble getting your scanner connected to your computer, or you want to use the scanner software with the most features, VueScan is the tool for you.
+
+## Overview
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot1.png) Works on 6000+ scanners
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot2.png) Works on Windows, Mac OS X, and Linux
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot3.png) Try for free
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot4.png) Updated every week or two
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot5.png) Advanced Scanning Control
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot6.png) Basic Mode
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot7.png) Works on Flatbed, Document, and Film/Slide Scanner
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot8.png) Translated in to 28+ languages
+
+**The Tool For All Your Scanning Needs**
+VueScan has the features you need no matter what you need to scan
+
+### SCAN DOCUMENTS
+Whether you need to scan a single page or a hundred page book, VueScan has the tools to help yo Scan with Flatbed and Automatic Document Feeders (ADF)
+
+- Scan to PDF (Single and Multipage)
+
+- Optical Character Recognition (OCR)
+
+- Automatic Color Detection
+
+- Small document file sizes
+
+- Automatic document deskewing
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshotA.png)
+
+### SCAN PHOTOS
+Do you have boxes full of photos in a drawer? Use VueScan to get them on your computer, and off your to-do list.
+
+- Scan with Flatbed and Automatic Document Feeders (ADF)
+
+- Scan to JPEG or TIFF
+
+- Preset photo sizes
+
+- Scan multiple photos on the flatbed
+
+- Automatic file naming
+
+[Learn more about scanning photos with VueScan »](https://www.hamrick.com/photo-scanning-software.html#features)
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshotB.png)
+
+### SCAN FILM AND SLIDES
+VueScan is the ultimate tool for all your film and slide scanning needs.
+
+- Works with almost all film/slide scanners
+
+- Scan to JPEG/TIFF/RAW
+
+- Infrared Dust Removal
+
+- Color correction
+
+- IT8 Calibration
+
+- Photoshop Integration
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshotC.png)
+
+**Trusted by over 600,000 customers across the globe**
+Since 1998, VueScan has saved hundreds of thousands scanners from ending up in the landfill.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot.gif)
+]]></description>
+    <releaseNotes>https://www.hamrick.com/vuescan/vuescan.htm</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.install" version="1.1.30.03" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

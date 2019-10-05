@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rapidminer-studio</id>
+    <version>9.4.1</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/rapidminer-studio</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>RapidMiner Studio</title>
+    <authors>RapidMiner GmbH.</authors>
+    <projectUrl>https://rapidminer.com/products/studio</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/rapidminer-studio/rapidminer-studio.png</iconUrl>
+    <copyright>© RapidMiner GmbH 2019. All rights reserved.</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/rapidminer/rapidminer-studio/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/rapidminer/rapidminer-studio</projectSourceUrl>
+    <docsUrl>https://docs.rapidminer.com</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://community.rapidminer.com</bugTrackerUrl>
+    <tags>rapidminer-studio visual workflow designer analytics</tags>
+    <summary>Visual workflow designer for the entire analytics team.</summary>
+    <description><![CDATA[
+Visual workflow designer for the entire analytics team
+
+## Visual Workflow Designer
+Increase productivity across the entire data science team, from analysts to experts
+
+## Connect to Any Data Source
+Work with all of your data, no matter where it lives
+
+## Automated In-database Processing
+Run data prep and ETL inside databases to keep your data optimized for advanced analytics
+
+## Data Visualization & Exploration
+Evaluate data health, completeness, and quality
+
+## Data Prep & Blending
+Eliminate the hassle of preparing data for predictive modeling
+
+## Visual & Automated Machine Learning
+Quickly create impactful machine learning models without writing code
+
+## Model Validation
+Understand the true performance of a model before deploying to production
+
+## Explainable Models Not Black Boxes
+Create visual data science workflows that are easy to explain and easy to understand
+
+## Get More From R & Python Code
+Scalable code deployment and collaboration between coders and non-coders
+
+## Flexible Scoring & Model Operations
+Turn predictive insights into business impact
+
+## Automation & Process Control
+Build sophisticated visual workflows and automate important tasks
+
+## Open & Extensible
+Integrate with existing applications and code
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/rapidminer-studio/screenshot.png)
+]]></description>
+    <releaseNotes>https://docs.rapidminer.com/latest/studio/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

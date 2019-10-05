@@ -9,7 +9,7 @@ function global:au_GetLatest {
 	$url = $download_page.links | ? href -match $regex
     $version = $matches.Version
 
-    return @{ Version = $matchesversion ; URL32 = 'http://www.epidata.dk/downloads/setup.all-in-one.' + $version + '.exe' }
+    return @{ Version = $matches.Version ; URL32 = 'http://www.epidata.dk/downloads/setup.all-in-one.' + $version + '.exe' }
 }
 
 function global:au_SearchReplace {

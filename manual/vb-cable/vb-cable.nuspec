@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vb-cable</id>
+    <version>43.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/vb-cable</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>VB-CABLE Virtual Audio Device</title>
+    <authors>Vincent Burel</authors>
+    <projectUrl>https://www.vb-audio.com/Cable</projectUrl>
+	<!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/vb-cable/vb-cable.png</iconUrl>-->
+    <copyright>Copyright V.Burel ©1998-2019. All rights reserved.</copyright>
+    <licenseUrl>https://www.vb-audio.com/Services/licensing.htm</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://www.vb-audio.com/Cable/VBCABLE_CaseStudy_XP.pdf</docsUrl>
+    <mailingListUrl>https://forum.vb-audio.com</mailingListUrl>
+    <bugTrackerUrl>https://www.vb-audio.com/Services/support.htm</bugTrackerUrl>
+    <tags>vb-cable virtual audio device cable</tags>
+    <summary>[[Summary]]</summary>
+    <description><![CDATA[
+VB-CABLE is a virtual audio device working as virtual audio cable. All audio signals coming in the CABLE input is transported to the CABLE output. Then It becomes simple to make computer audio recording or to connect a player application to a recorder one.
+
+## Virtual Audio Cables
+To Connect 2x Applications together! A Player to a Recorder.
+
+## VB-CABLE TECHNOLOGY
+
+VB-Audio CABLE is a Windows Audio Driver working as Virtual Audio Cable. Thanks to its Multi-Format Audio Engine, VB-CABLE can be used without any configuration! Ready to work with all Audio Application using MME, KS, DX, KS or WASAPI interfaces.
+
+## VIRTUAL AUDIO APPLICATIONS
+
+With VB-CABLE Technology, VB-Audio Applications can be endowed with Virtual I/O and provide new amazing audio experiences. So let's follow us and try our different products presented on this page!
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/vb-cable/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <dependencies>
+      <dependency id="autohotkey.install" version="1.1.30.03" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

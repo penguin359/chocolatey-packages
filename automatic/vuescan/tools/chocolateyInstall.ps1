@@ -4,12 +4,12 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
  
-  url            = 'https://www.hamrick.com/files/vuex3296.exe'
-  checksum       = '81FDDE484BAE3A4BBFF6E500E4E3525D60A5911969C097C655BFEF9DD638E549'
+  url            = 'https://www.hamrick.com/files/vuex3297.exe'
+  checksum       = '97d990acd822a8af230197a9b7b15fd8c5caedc0d77454c6192e79394624874f'
   checksumType   = 'sha256'
  
-  url64          = 'https://www.hamrick.com/files/vuex6496.exe'
-  checksum64     = 'D2DB1B3C090848E974B6C909A6A4BF96004E95C4D2A311F48B675A6F90ED45C7'
+  url64          = 'https://www.hamrick.com/files/vuex6497.exe'
+  checksum64     = '1cdc4ff86df5fec5376d0f791fea76bdc1ab6987533f754cff48343d6b4c8725'
   checksumType64 = 'sha256'
 }
 

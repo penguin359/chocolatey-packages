@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
@@ -12,13 +12,17 @@ $packageArgs = @{
 
 Install-ChocolateyZipPackage @packageArgs
 
-$packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  unzipLocation = "$toolsDir"
-  fileType      = 'exe'
-  file          = "$toolsDir\VBCABLE_Setup.exe"
-  file64        = "$toolsDir\VBCABLE_Setup_x64.exe"
+# Don't create shims for executables
+$files = Get-ChildItem "$toolsDir" -Recurse -Include *.exe
+foreach ($file in $files) {
+  New-Item "$file.ignore" -type file -force | Out-Null
 }
 
-Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyinstall.ahk`""
-Install-ChocolateyInstallPackage @packageArgs
+if ((([environment]::OSVersion.version.major) -eq 6) -And (([environment]::OSVersion.version.minor) -eq 1)) {
+  $inf = Join-Path $toolsDir "vbMmeCable_win7.inf"
+} else {
+  $inf = Join-Path $toolsDir "vbMmeCable_2003.inf"
+}
+
+$rundll = Join-Path (Join-Path $Env:SystemRoot "System32") "rundll32.exe"
+Start-ChocolateyProcessAsAdmin "advpack.dll,LaunchINFSectionEx $inf,,,4" "$rundll"

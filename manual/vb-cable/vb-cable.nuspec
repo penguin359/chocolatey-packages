@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
@@ -9,7 +9,7 @@
     <title>VB-CABLE Virtual Audio Device</title>
     <authors>Vincent Burel</authors>
     <projectUrl>https://www.vb-audio.com/Cable</projectUrl>
-	<!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/vb-cable/vb-cable.png</iconUrl>-->
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/vb-cable/vb-cable.png</iconUrl>-->
     <copyright>Copyright V.Burel ©1998-2019. All rights reserved.</copyright>
     <licenseUrl>https://www.vb-audio.com/Services/licensing.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/rapidminer-studio/rapidminer-studio.png" width="48" height="48"/> [RapidMiner Studio](https://chocolatey.org/packages/rapidminer-studio)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/rapidminer/rapidminer.png" width="48" height="48"/> [RapidMiner Studio](https://chocolatey.org/packages/rapidminer)
 
 Visual workflow designer for the entire analytics team
 
@@ -38,4 +38,4 @@ Build sophisticated visual workflows and automate important tasks
 ## Open & Extensible
 Integrate with existing applications and code
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/rapidminer-studio/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/rapidminer/screenshot.png)

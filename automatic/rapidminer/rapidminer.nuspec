@@ -2,14 +2,14 @@
 <!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>rapidminer-studio</id>
+    <id>rapidminer</id>
     <version>9.4.1</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/rapidminer-studio</packageSourceUrl>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/rapidminer</packageSourceUrl>
     <owners>chtof</owners>
     <title>RapidMiner Studio</title>
     <authors>RapidMiner GmbH.</authors>
     <projectUrl>https://rapidminer.com/products/studio</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/rapidminer-studio/rapidminer-studio.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/rapidminer/rapidminer.png</iconUrl>
     <copyright>© RapidMiner GmbH 2019. All rights reserved.</copyright>
     <licenseUrl>https://raw.githubusercontent.com/rapidminer/rapidminer-studio/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -17,7 +17,7 @@
     <docsUrl>https://docs.rapidminer.com</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://community.rapidminer.com</bugTrackerUrl>
-    <tags>rapidminer-studio visual workflow designer analytics</tags>
+    <tags>rapidminer studio visual workflow designer analytics</tags>
     <summary>Visual workflow designer for the entire analytics team.</summary>
     <description><![CDATA[
 Visual workflow designer for the entire analytics team
@@ -58,7 +58,7 @@ Build sophisticated visual workflows and automate important tasks
 ## Open & Extensible
 Integrate with existing applications and code
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/rapidminer-studio/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/rapidminer/screenshot.png)
 ]]></description>
     <releaseNotes>https://docs.rapidminer.com/latest/studio/releases</releaseNotes>
   </metadata>

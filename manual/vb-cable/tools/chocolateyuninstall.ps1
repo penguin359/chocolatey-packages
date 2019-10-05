@@ -1,26 +1,11 @@
-﻿$ErrorActionPreference = 'Stop';
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+﻿$ErrorActionPreference = 'Stop'
+$toolsDir = split-path -parent $MyInvocation.MyCommand.Definition
 
-$packageArgs = @{
-  packageName  = $env:ChocolateyPackageName
-  softwareName = 'Voicemeeter, The Virtual Mixing Console'
-  fileType     = 'exe'  
+if ((([environment]::OSVersion.version.major) -eq 6) -And (([environment]::OSVersion.version.minor) -eq 1)) {
+  $inf = Join-Path $toolsDir "vbMmeCable_win7.inf"
+} else {
+  $inf = Join-Path $toolsDir "vbMmeCable_2003.inf"
 }
 
-$uninstalled = $false
-[array]$key = Get-UninstallRegistryKey -SoftwareName $packageArgs['softwareName']
-
-if ($key.Count -eq 1) {
-  $key | % { 
-    $packageArgs['file'] = "$($_.UninstallString)"
-	  Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyuninstall.ahk`""
-    Uninstall-ChocolateyPackage @packageArgs
-  }
-} elseif ($key.Count -eq 0) {
-  Write-Warning "$packageName has already been uninstalled by other means."
-} elseif ($key.Count -gt 1) {
-  Write-Warning "$($key.Count) matches found!"
-  Write-Warning "To prevent accidental data loss, no programs will be uninstalled."
-  Write-Warning "Please alert package maintainer the following keys were matched:"
-  $key | % {Write-Warning "- $($_.DisplayName)"}
-}
+$rundll = Join-Path (Join-Path $Env:SystemRoot "System32") "rundll32.exe"
+Start-ChocolateyProcessAsAdmin "SETUPAPI.DLL,InstallHinfSection DefaultUninstall 132 $inf" "$rundll"

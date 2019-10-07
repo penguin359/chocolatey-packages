@@ -13,7 +13,7 @@ function global:au_GetLatest {
 	$url = $download_page.links | ? href -match $regex | Select -First 1
     return @{
         Version = $matches.Version
-        URL32 = 'https://www.ausweisapp.bund.de/uploads/tx_ausweisdownloads/AusweisApp2-' + $version + '.msi'
+        URL32   = 'https://www.ausweisapp.bund.de/uploads/tx_ausweisdownloads/AusweisApp2-' + $matches.Version + '.msi'
     }
 }
 

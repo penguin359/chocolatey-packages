@@ -1,4 +1,4 @@
-﻿ml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
@@ -6,7 +6,7 @@
     <version>1.86.2.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/cudatext-beta</packageSourceUrl>
     <owners>chtof</owners>
-    <title>[DEPRECATED] CudaText (Beta version)</title>
+    <title>[Deprecated] CudaText (Beta version)</title>
     <authors>UVviewsoft</authors>
     <projectUrl>http://uvviewsoft.com/cudatext</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/cudatext-beta/cudatext-beta.png</iconUrl>
@@ -23,8 +23,8 @@
 **For technical reasons, this Chocolatey package is now deprecated under this name and available with the name of cudatext: https://chocolatey.org/packages/cudatext**
 
 `cudatext` package now provides:
-- Stable version`(`choco install cudatext`)
-- Beta version`(`choco install cudatext --pre`)
+- Stable version (`choco install cudatext`)
+- Beta version (`choco install cudatext --pre`)
 ]]></description>
     <releaseNotes>http://uvviewsoft.com/cudatext/history.txt</releaseNotes>
     <dependencies>

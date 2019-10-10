@@ -80,5 +80,3 @@ VueScan is the ultimate tool for all your film and slide scanning needs.
 
 **Trusted by over 600,000 customers across the globe**
 Since 1998, VueScan has saved hundreds of thousands scanners from ending up in the landfill.
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/vuescan/screenshot.gif)

@@ -11,9 +11,9 @@
     <projectUrl>https://physics.princeton.edu/pulsar/k1jt/wsjtx.html</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/wsjtx/wsjtx.png</iconUrl>
     <copyright>©2001-2019  by Joe Taylor, K1JT</copyright>
-    <licenseUrl>https://physics.princeton.edu/pulsar/k1jt/</licenseUrl>
+    <licenseUrl>https://physics.princeton.edu/pulsar/k1jt/wsjtx.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://physics.princeton.edu/pulsar/k1jt/</projectSourceUrl>
+    <projectSourceUrl>https://physics.princeton.edu/pulsar/k1jt</projectSourceUrl>
     <docsUrl>https://physics.princeton.edu/pulsar/k1jt/wsjtx.html</docsUrl>
     <bugTrackerUrl>https://physics.princeton.edu/pulsar/k1jt/support.html</bugTrackerUrl>
     <tags>wsjtx HAM radio amateur FT8 JT4 JT9 JT65 QRA64 ISCAT MSK144 WSPR echo</tags>

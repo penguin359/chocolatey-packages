@@ -1,3 +1,4 @@
+﻿$ErrorActionPreference = 'Stop'
 import-module au
 
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
@@ -27,7 +28,7 @@ function global:au_SearchReplace {
         }
 
         "tools\chocolateyinstall.ps1" = @{
-          "(torrent-file-editor-)[\d\.]+(-x[$]{OSArchitectureWidth}.exe)" = "`$1$($Latest.Version)`$2"
+          "(torrent-file-editor-)[\d\.]+(-x[$]{OSArchitectureWidth}.exe)" = "`${1}$($Latest.Version)`${2}"
         }
     }
 }

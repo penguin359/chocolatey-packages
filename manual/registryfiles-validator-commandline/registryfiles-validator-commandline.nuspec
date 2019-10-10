@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>registryfiles-validator-commandline</id>
+    <version>1.00-beta2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/registryfiles-validator-commandline</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Registry File (.REG) Validator (CommandLine)</title>
+    <authors>Registry File (.REG) Validator Team.</authors>
+    <projectUrl>https://forum.xda-developers.com/showthread.php?t=770382</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/registryfiles-validator-commandline/registryfiles-validator-commandline.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>https://forum.xda-developers.com/showthread.php?t=770382</mailingListUrl>
+    <bugTrackerUrl>https://forum.xda-developers.com/showthread.php?t=770382</bugTrackerUrl>
+    <tags>registryfiles-validator-commandline commandline parsing reg regedit file check</tags>
+    <summary>This tool parses a .REG file to find all the invalid entries.</summary>
+    <description><![CDATA[
+This tool parses a .REG file to find all the invalid entries.
+]]></description>
+    <releaseNotes>- 1.00beta2: fixed issues with dwords with wrong value length and added support for REG_NONE hexadecimal strings and added a command-line version.
+- 1.00beta1: initial release.</releaseNotes>
+    <dependencies>
+      <dependency id="wormies-au-helpers" version="0.3.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

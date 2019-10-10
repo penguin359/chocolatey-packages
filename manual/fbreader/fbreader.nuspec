@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>fbreader</id>
-    <version>0.12.10</version>
+    <version>0.12.10.20190728</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/fbreader</packageSourceUrl>
     <owners>chtof</owners>
     <title>FBReader</title>
@@ -17,7 +17,7 @@
     <docsUrl>https://fbreader.org/content/documentation</docsUrl>
     <mailingListUrl>https://www.facebook.com/fbreader</mailingListUrl>
     <bugTrackerUrl>https://fbreader.org/faq-page#t27n332</bugTrackerUrl>
-    <tags>fbreader FBReader EPUB Reader Books</tags>
+    <tags>fbreader FBReader EPUB Reader Books fb2</tags>
     <summary>Free e-Book Reader</summary>
     <description><![CDATA[
 ## About FBReader

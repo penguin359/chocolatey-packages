@@ -24,7 +24,7 @@ foreach ($file in $files) {
 
 # Install start menu shortcuts
 if (Get-OSArchitectureWidth -compare 32) {
-    $architectureWidth = 86
+    $architectureWidth = 32
 } else {
     $architectureWidth = 64
 }

@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>atmel-studio</id>
-    <version>7.0.1931.20190907</version>
+    <version>7.0.2389</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/atmel-studio</packageSourceUrl>
     <owners>chtof</owners>
     <title>Atmel Studio</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://microchipsupport.force.com/s/</bugTrackerUrl>
     <tags>atmel-studio integrated development platform idp AVR SAM microchip</tags>
     <summary>Studio 7 is the integrated development platform (IDP) for developing and debugging all AVR® and SAM microcontroller applications. The Atmel Studio 7 IDP gives you a seamless and easy-to-use environment to write, build and debug your applications written in C/C++ or assembly code. It also connects seamlessly to the debuggers, programmers and development kits that support AVR® and SAM devices. Additionally, Studio includes Atmel Gallery, an online app store that allows you to extend your development environment with plug-ins developed by Microchip as well as third-party tool and embedded software vendors. Studio 7 can also seamlessly import your Arduino sketches as C++ projects, providing a simple transition path from Makerspace to Marketplace.</summary>
-    <description><![CDATA[
-## Remark
+    <description><![CDATA[## Remark
 **atmel-studio is installed in 2 steps. The second step will be started automatically after a restart of the computer and will prompt you to install 2 certificates from:**
 - Microchip Technology, Inc.
 - Atmel Corporation.

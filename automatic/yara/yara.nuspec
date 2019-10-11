@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>yara</id>
-    <version>3.10.0</version>
+    <version>3.11.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/yara</packageSourceUrl>
     <owners>chtof</owners>
     <title>Yara</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/VirusTotal/yara/issues</bugTrackerUrl>
     <tags>yara pattern matching malware research</tags>
     <summary>The pattern matching swiss knife for malware researchers (and everyone else).</summary>
-    <description><![CDATA[
-## YARA in a nutshell
+    <description><![CDATA[## YARA in a nutshell
 YARA is a tool aimed at (but not limited to) helping malware researchers to identify and classify malware samples. With YARA you can create descriptions of malware families (or whatever you want to describe) based on textual or binary patterns. Each description, a.k.a rule, consists of a set of strings and a boolean expression which determine its logic. Let's see an example:
 
 ``rule silent_banker : banker

@@ -1,11 +1,11 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName  = $env:ChocolateyPackageName
 
-  url          = 'http://studio.download.atmel.com/7.0.1931/as-installer-7.0.1931-full.exe'
-  checksum     = '4815F78C642968E8727E0B84AC79E8C0D9C8486678BD48224B72685CA4D695AB'
+  url          = 'http://studio.download.atmel.com/7.0.2389/as-installer-7.0.2389-full.exe'
+  checksum     = 'ea39ce68ac597c8c3cd0addf6d2f54a4eea124c23603f429045d9d44d0621f38'
   checksumType = 'sha256'
 
   silentArgs   = '-q'

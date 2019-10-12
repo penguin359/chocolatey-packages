@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>flash-decompiler-trillix</id>
+    <version>5.3.1400</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/flash-decompiler-trillix</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Flash Decompiler Trillix</title>
+    <authors>Eltima Software</authors>
+    <projectUrl>http://www.flash-decompiler.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/flash-decompiler-trillix/flash-decompiler-trillix.png</iconUrl>
+    <copyright>© 2000-2019 by Eltima Software</copyright>
+    <licenseUrl>https://wiki.eltima.com/software-licenses/fd-trial/full-fd-trial.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>flash-decompiler-trillix decompile flash SWF convert FLA trial</tags>
+    <summary>The supreme tool to convert SWF to FLA and decompile Flash (supports Flash up to CS6 CC and ActionScript 3.0).</summary>
+    <description><![CDATA[
+## Features
+### Decompile SWF and convert to FLA
+Convert SWF to FLA within seconds! Flash Decompiler Trillix is the only application capable of converting SWF to FLA with high speed, high quality and hundreds of additional features. It is the ultimate tool to recover your lost FLA files - being the market leader since 2003! Decompile SWF files and obtain source code FLA in seconds. It supports batch conversion, so you can leave a bunch of different tasks to it and do any other things while our application is working.
+Flash Decompiler supports [Adobe Flash](https://www.swf-flv-player.com/adobe-flash-player.html) Professional CS6 & CC and conversion of SWF files with a standard Flash preloader (e.g. files with TLF texts)!
+
+### Extract SWF Elements
+Flash Decompiler Trillix comes in handy when you don't need to re-do the whole SWF file, just some of its elements. You can easily export some separate elements of a Flash file and save them to your hard drive. Images, sounds, texts, links, morphs, fonts, shapes, sprites, buttons and ActionScript can be exported in a variety of formats to let you gain the best results possible.
+
+### Edit Flash & Flex Files
+Flash Decompiler Trillix opens a wide range of new creative opportunities when it comes to editing Flash movies. A unique feature - SWF Editor lets you easily edit existing images, sounds, texts, links, colors and lines of any [Flash movie](https://www.swf-flv-player.com/free-flash-players.html). SWF files are edited on the go - alter any of its elements, save and watch the result immediately!
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/flash-decompiler-trillix/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

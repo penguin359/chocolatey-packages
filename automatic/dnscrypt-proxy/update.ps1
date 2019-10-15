@@ -1,21 +1,23 @@
 ﻿$ErrorActionPreference = 'Stop'
 import-module au
-$github_repository = "jedisct1/dnscrypt-proxy"
-$releases = "https://github.com/" + $github_repository + "/releases/latest"
-$regex32 = "/dnscrypt-proxy-win32-(?<Version>[\d\.]+).zip$"
-$regex64 = "/dnscrypt-proxy-win64-(?<Version>[\d\.]+).zip$"
 
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
-function global:au_GetLatest {	
-     $urls = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links
-     $url32 = $urls | ? href -match $regex32
-     $url64 = $urls | ? href -match $regex64
-     return @{
-     	Version = $matches.Version
-     	URL32 = "https://github.com/" + $url32.href
-     	URL64 = "https://github.com/" + $url64.href
-     	}
+function global:au_GetLatest {
+    $github_repository = "jedisct1/dnscrypt-proxy"
+    $releases = "https://github.com/" + $github_repository + "/releases/latest"
+    $regex32 = "/dnscrypt-proxy-win32-([\d\.]+?(-beta\.[\d]+)).zip$"
+    $regex64 = "/dnscrypt-proxy-win64-(?<Version>[\d\.]+?(-beta\.[\d]+)).zip$"
+    $urls  = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links
+    $url32 = $urls | ? href -match $regex32
+    $url64 = $urls | ? href -match $regex64
+    $version = $matches.Version -Replace "beta\.", "beta"
+
+    return @{
+        Version = $version
+        URL32   = "https://github.com/" + $url32.href
+        URL64   = "https://github.com/" + $url64.href
+    }
 }
 
 function global:au_SearchReplace {

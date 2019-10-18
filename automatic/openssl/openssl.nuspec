@@ -24,6 +24,9 @@
 LEGAL NOTICE: This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit. (http://www.openssl.org/)
 ]]></description>
     <releaseNotes>https://www.openssl.org/news/newslog.html</releaseNotes>
+    <dependencies>
+      <dependency id="vcredist2015" version="14.0.24215.20170201" />
+    </dependencies>
   </metadata>
   <files>
     <file src="legal\**" target="legal" />

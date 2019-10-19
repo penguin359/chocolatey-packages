@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>crypto-notepad</id>
+    <version>1.5.1</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/crypto-notepad</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Crypto Notepad</title>
+    <authors>Alexander Sigmanor</authors>
+    <projectUrl>https://crypto-notepad.info</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/crypto-notepad/crypto-notepad.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/Crypto-Notepad/Crypto-Notepad/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Crypto-Notepad/Crypto-Notepad</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>https://www.fb.com/SlGMANOR</mailingListUrl>
+    <bugTrackerUrl>https://github.com/Crypto-Notepad/Crypto-Notepad/issues</bugTrackerUrl>
+    <tags>crypto-notepad crypto encryption notepad security</tags>
+    <summary>Crypto Notepad allows you to create secure notes using AES algorithms.</summary>
+    <description><![CDATA[
+## About
+It is often necessary to protect important notes in order to prevent them from being accessed by others, but text editors that offer encryption features are sometimes too complex for users who just want a secure Notepad alternative. Crypto Notepad stands out through its relatively simple design, as it looks very similar to the standard Windows Notepad. It offers a few extra features, such as encryption and a customizable UI, but it remains lightweight and very easy to use.
+
+## Features
+### Secure
+Crypto Notepad allows you to create secure notes using AES algorithms, able to customize different parameters of the encryption, such as: hash algorithm, key size, password iterations.
+
+### Multifunctional
+Crypto Notepad, besides the main features of the default Windows Notepad, also supports drag and drop, url detection, associate own file type with application, integrate with windows context menu.
+
+### Free
+Crypto Notepad is an open source project. It will always remain free and ad-free. If you`'re asked to pay for full
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/crypto-notepad/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/Crypto-Notepad/Crypto-Notepad/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -6,7 +6,7 @@ function global:au_GetLatest {
 
      $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	$regex   = $github_repository + '/releases/download/.*/activitywatch[-_]v(?<Version>.*)-windows-x86_64.zip'
-	$url = $download_page.links | ? href -match $regex
+	$url = $download_page.links | ? href -match $regex | Select -First 1
 	
      return @{ 
        Version = $matches.Version -Replace 'b','.b'

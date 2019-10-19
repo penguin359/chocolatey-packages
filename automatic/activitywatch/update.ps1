@@ -9,7 +9,7 @@ function global:au_GetLatest {
 	$url = $download_page.links | ? href -match $regex | Select -First 1
 	
      return @{ 
-       Version = $matches.Version -Replace 'b','.beta'
+       Version = $matches.Version -Replace 'b','-beta'
        URL32 = "https://github.com" + $url.href
      }
 }

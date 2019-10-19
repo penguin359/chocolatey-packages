@@ -1,11 +1,11 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
-  url           = 'https://github.com/ActivityWatch/activitywatch/releases/download/v0.7.1/activitywatch-v0.7.1-windows-x86_64.zip'
-  checksum      = '320A3ED29EE87FA9DE5B497F396F597CE51B74D91A5BBB9673D68AD5B7CBDB8B'
+  url           = 'https://github.com/ActivityWatch/activitywatch/releases/download/v0.8.0b9/activitywatch-v0.8.0b9-windows-x86_64.zip'
+  checksum      = '628ab0a0f9a4edf198291ef281a53ca105f956e4cada9e968c67fb205a4aa439'
   checksumType  = 'sha256'
 }
 

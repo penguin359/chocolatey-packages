@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>openorienteering-mapper</id>
-    <version>0.8.4</version>
+    <version>0.9.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/openorienteering-mapper</packageSourceUrl>
     <owners>chtof</owners>
     <title>OpenOrienteering Mapper</title>
@@ -19,14 +19,13 @@
     <bugTrackerUrl>https://github.com/OpenOrienteering/mapper/issues</bugTrackerUrl>
     <tags>openorienteering-mapper OpenOrienteering Mapper orienteering mapmaking program</tags>
     <summary>OpenOrienteering Mapper is an orienteering mapmaking program and provides a free and open source alternative to existing commercial software.</summary>
-    <description><![CDATA[
-OpenOrienteering Mapper is an orienteering mapmaking program and provides a free and open source alternative to existing commercial software. OpenOrienteering Mapper runs on Android, Windows, Mac OS X and Linux.
+    <description><![CDATA[OpenOrienteering Mapper is an orienteering mapmaking program and provides a free and open source alternative to existing commercial software. OpenOrienteering Mapper runs on Android, Windows, Mac OS X and Linux.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/openorienteering-mapper/screenshot.png)
 ]]></description>
     <releaseNotes>https://github.com/OpenOrienteering/mapper/releases</releaseNotes>
     <dependencies>
-      <dependency id="openorienteering-mapper.install" version="[0.8.4]" />
+      <dependency id="openorienteering-mapper.install" version="[0.9.0]" />
     </dependencies>
   </metadata>
   <files></files>

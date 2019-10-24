@@ -24,6 +24,9 @@
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/goodsync/screenshot.png)
 ]]></description>
     <releaseNotes>https://www.goodsync.com/news-windows</releaseNotes>
+    <dependencies>
+      <dependency id="kb2919355" version="1.0.20160915" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

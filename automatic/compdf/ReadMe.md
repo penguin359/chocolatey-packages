@@ -2,7 +2,7 @@
 
 It allows to merge PDF files, extract pages from PDF file and give security to PDF files.
 
-*Restrictions before registration*
+**Restrictions before registration**
 - In program start, "Trial Version" dialog is displayed.
 - Extract pages ... First 2 pages only
 - Merge PDF files ... First 2 files only

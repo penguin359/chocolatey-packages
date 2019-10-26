@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>compdf-console</id>
+    <version>1.07</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/compdf-console</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>ComPDF Console</title>
+    <authors>ForestH</authors>
+    <projectUrl>http://www.ne.jp/asahi/foresth/home/indexe.htm</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/compdf-console/compdf-console.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>compdf-console merge extract split security PDF files console command-line trial</tags>
+    <summary>At a command line, you can merge PDF files, extract pages from PDF file, split PDF file and give security to PDF files.</summary>
+    <description><![CDATA[
+At a command line, you can merge PDF files, extract pages from PDF file, split PDF file and give security to PDF files.
+
+*Restrictions before registration*
+- Merge PDF files ... First 2 files only
+- Extract pages ... First 2 pages only
+- Split PDF file ... First 2 pages only
+- Extract/Split when you use wild card '*' '?' ... First 2 files only
+- Extract/Merge/Split ... The page which indicates Trial is inserted.
+- ・Outline which indicates Trial may be inserted.
+(The trial period is one month though it is possible to use this software even if one month is passed.)
+]]></description>
+    <releaseNotes>http://www.ne.jp/asahi/foresth/home/indexe.htm</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

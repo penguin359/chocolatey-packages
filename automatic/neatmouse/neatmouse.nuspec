@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>neatmouse</id>
+    <version>1.05.002</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/neatmouse</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>NeatMouse</title>
+    <authors>Neat Decisions</authors>
+    <projectUrl>https://neatdecisions.com/products/neatmouse</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/neatmouse/neatmouse.png</iconUrl>
+    <copyright>© 2019 Neat Decisions</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/neatdecisions/neatmouse/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/neatdecisions/neatmouse</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/neatdecisions/neatmouse/issues</bugTrackerUrl>
+    <tags>neatmouse keyboard mouse emulator</tags>
+    <summary>Free keyboard mouse emulator.</summary>
+    <description><![CDATA[
+*NeatMouse* is a small tool for Windows that allows controlling your mouse cursor via keyboard.
+
+This is very useful when your physical mouse is unavailable:
+
+- If you haven’t installed its driver yet, and Windows was unable to do this automatically.
+- If you use wireless mouse and its battery is low so you need to charge it.
+- If you are a person with reduced mobility.
+*NeatMouse* also comes in handy when you need high precision in mouse pointer moving. It allows setting pointer moves accuracy up to one pixel.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/neatmouse/screenshot.png)
+
+## Key features
+1. *NeatMouse* can be activated by one of the following keys: Num Lock, Scroll Lock, Caps Lock, or by the custom hotkey.
+2. Select one of the Ctrl, Alt or Shift buttons for alternate speed modifiers. When this button is pressed, mouse pointer moves with alternate speed.
+3. Select one of the Ctrl, Alt or Shift for no-emulation mode. When this button is pressed and you press a keyboard button bound to the mouse action, this button performs its primary task as if there is no mouse emulation.
+4. Specify regular and alternate mouse speed.
+5. Bind keys for moving mouse left, right, up, down, and diagonally.
+6. Bind keys for left mouse button click, right mouse button click, middle mouse button click.
+7. Bind keys for scrolling up and down.
+8. Manage custom user settings: if you use portable version of NeatMouse, you can create different settings for your laptop and workstation.
+
+By default, the mouse control keys for *NeatMouse* located on the keyboard numpad. The default key bindings are shown below, and each of them can be altered.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/neatmouse/screenshot1.png)
+
+*NeatMouse* has English, French, German, Greek, Italian, Polish, Romanian, Russian and Ukrainian translations. Both regular and portable versions are available. It is small, convenient, efficient and *completely free!*
+]]></description>
+    <releaseNotes>https://neatdecisions.com/products/neatmouse/history.php</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.install" version="1.1.30.03" />
+  </dependencies>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

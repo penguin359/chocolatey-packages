@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>btopdf</id>
+    <version>0.85</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/btopdf</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>BtoPDF</title>
+    <authors>ForestH</authors>
+    <projectUrl>http://www.ne.jp/asahi/foresth/home/indexe.htm</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/btopdf/btopdf.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>btopdf BMP JPG JPEG convert PDF</tags>
+    <summary>Convert BMP/JPG file into a PDF file or extract BMP/JPG file from a PDF file.</summary>
+    <description><![CDATA[
+BtoPDF allows to convert BMP/JPG file into a PDF file or to extract BMP/JPG file from a PDF file.
+
+- BtoPDF.exe: Create PDF file from a BMP/JPG file.
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/btopdf/screenshot.png)
+
+- PtoBMP.exe: Extract BMP/JPG file from a PDF file.
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/btopdf/screenshot1.png)
+]]></description>
+    <releaseNotes>http://www.ne.jp/asahi/foresth/home/indexe.htm</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

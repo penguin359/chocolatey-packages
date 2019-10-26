@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ispc</id>
+    <version>1.12.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/ispc</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Intel SPMD Program Compiler</title>
+    <authors>Intel Corporation</authors>
+    <projectUrl>https://ispc.github.io</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ispc/ispc.png</iconUrl>
+    <copyright>© 2011-2019 Intel Corporation</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/ispc/ispc/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/ispc/ispc</projectSourceUrl>
+    <docsUrl>https://ispc.github.io/documentation.html</docsUrl>
+    <mailingListUrl>https://groups.google.com/forum/#!forum/ispc-users</mailingListUrl>
+    <bugTrackerUrl>https://github.com/ispc/ispc/issues</bugTrackerUrl>
+    <tags>ispc intel SPMD program compiler high-performance SIMD programming</tags>
+    <summary>An open-source compiler for high-performance SIMD programming on the CPU.</summary>
+    <description><![CDATA[
+## Overview
+ispc is a compiler for a variant of the C programming language, with extensions for single
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ispc/screenshot.png)
+]]></description>
+    <releaseNotes>https://ispc.github.io/news.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

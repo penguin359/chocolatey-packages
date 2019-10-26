@@ -2,7 +2,7 @@
 
 At a command line, you can merge PDF files, extract pages from PDF file, split PDF file and give security to PDF files.
 
-*Restrictions before registration*
+**Restrictions before registration**
 - Merge PDF files ... First 2 files only
 - Extract pages ... First 2 pages only
 - Split PDF file ... First 2 pages only

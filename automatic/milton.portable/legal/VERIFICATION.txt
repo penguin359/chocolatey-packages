@@ -7,14 +7,14 @@ Package can be verified like this:
  
 1. Download:
  
-   x64: https://github.com/serge-rgb/milton/releases/download/v1.9.0/Milton_1.9.0_Standalone_x64.zip
+   x64: https://github.com/serge-rgb/milton/releases/download/v1.9.1/Milton_1.9.1_Standalone_x64.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum64: 9F6EF871451B53B85AAC273AFD5323A6EECBA1DFC37ADCD312F85F24E8A86DEC
+   checksum64: 5A732D60349C924AC8D7E85716FC4E920A9B6713D2FC741D45A115046E6B8665
 
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/serge-rgb/milton/master/LICENSE.txt

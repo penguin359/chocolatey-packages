@@ -9,7 +9,7 @@ $packageArgs = @{
   checksum      = '683E7B2D6CC3090FAD6688241D091F65F175C4A2B540B3AD181E18714713C490'
   checksumType  = 'sha256'
 
-  url64bit      = 'https://www.orfeo-toolbox.org/packages/OTB-6.6.1-Win64.zip'
+  url64         = 'https://www.orfeo-toolbox.org/packages/OTB-6.6.1-Win64.zip'
   checksum64    = 'E88241444E7BE392B604019FB8AC3554295251BD85019EABA346C9D058F1EB89'
   checksumType64= 'sha256'
 }

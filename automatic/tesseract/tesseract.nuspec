@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>tesseract</id>
-    <version>5.0.0.20190708-alpha</version>
+    <version>5.0.0.20191010-alpha</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/tesseract</packageSourceUrl>
     <owners>chtof</owners>
     <title>Tesseract Open Source OCR Engine</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/tesseract-ocr/tesseract/issues</bugTrackerUrl>
     <tags>tesseract ocr engine</tags>
     <summary>Tesseract Open Source OCR Engine.</summary>
-    <description><![CDATA[
-This package contains an **OCR engine** - `libtesseract` and a **command line program** - `tesseract`.
+    <description><![CDATA[This package contains an **OCR engine** - `libtesseract` and a **command line program** - `tesseract`.
 Tesseract 4 adds a new neural net (LSTM) based OCR engine which is focused
 on line recognition, but also still supports the legacy Tesseract OCR engine of
 Tesseract 3 which works by recognizing character patterns. Compatibility with

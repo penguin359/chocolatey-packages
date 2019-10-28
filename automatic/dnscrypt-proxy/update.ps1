@@ -6,8 +6,9 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 function global:au_GetLatest {
     $github_repository = "jedisct1/dnscrypt-proxy"
     $releases = "https://github.com/" + $github_repository + "/releases/latest"
-    $regex32 = "/dnscrypt-proxy-win32-([\d\.]+?(-beta\.[\d]+)).zip$"
-    $regex64 = "/dnscrypt-proxy-win64-(?<Version>[\d\.]+?(-beta\.[\d]+)).zip$"
+    $regex32 = "dnscrypt-proxy-win32-([\d\.]+(-beta\.[\d]+)?).zip$"
+    $regex64 = "dnscrypt-proxy-win64-(?<Version>[\d\.]+(-beta\.[\d]+)?).zip$"
+
     $urls  = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links
     $url32 = $urls | ? href -match $regex32
     $url64 = $urls | ? href -match $regex64

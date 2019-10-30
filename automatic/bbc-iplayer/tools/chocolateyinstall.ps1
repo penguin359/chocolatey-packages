@@ -1,12 +1,12 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
 
-  url           = 'https://live-downloads-app-bucket-staticassetsbucket-ydn3z4ggyaof.s3.amazonaws.com/releases/win32-x64/BBCiPlayerDownloadsSetup-2.9.0.exe'
-  checksum      = '841700C4B340A72025F94EFA43165B9A2C7CD5D300C05F156CE498A0A769083E'
+  url           = 'https://live-downloads-app-bucket-staticassetsbucket-ydn3z4ggyaof.s3.amazonaws.com/releases/win32-x64/BBCiPlayerDownloadsSetup-2.10.2.exe'
+  checksum      = 'f09b8a060dd99611d64f77f92e86e4531b39ebdfbe92059b48aee73675973781'
   checksumType  = 'sha256'
 }
 
@@ -16,7 +16,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
 
-  file          = "$toolsDir\bbciplayerdownloads-2.9.0-full.nupkg" 
+  file          = "$toolsDir\bbciplayerdownloads-2.10.2-full.nupkg" 
 }
 
 Install-ChocolateyZipPackage @packageArgs

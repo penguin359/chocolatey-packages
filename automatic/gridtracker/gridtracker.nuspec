@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gridtracker</id>
+    <version>1.19.1026</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/gridtracker</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>GridTracker</title>
+    <authors>Stephen Loomis N0TTL and Henry Forte N2VFL</authors>
+    <projectUrl>https://tagloomis.com/grid-tracker</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gridtracker/gridtracker.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://tagloomis.com/docs</docsUrl>
+    <mailingListUrl>https://twitter.com/GridTracker</mailingListUrl>
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>gridtracker grid tracker HAM radio amateur</tags>
+    <summary>GridTracker is a companion program for [WSJT-X](https://physics.princeton.edu/pulsar/k1jt/wsjtx.html).</summary>
+    <description><![CDATA[
+GridTracker is a companion program for [WSJT-X](https://physics.princeton.edu/pulsar/k1jt/wsjtx.html). It listens to WSJT-X or JTDX decodes and displays them on a map for Linux, Mac, and Windows.
+
+Display on a large second monitor in your amateur radio club, hamfest or as a demonstration in a classroom.  Everyone gets excited when they can see what you’re doing!
+
+## Features
+- Realtime Traffic Decoding to world map.
+- Audio / Visual / Text-to-Speech Alerts on Callsign, DXCC, CQ Designator, Grid and more.
+- ADIF Log parsing
+- QSO log reporting / uploading
+- QRZ.com , HamQTH, CALLOOK and QRZCQ.com Callsign lookups
+- Band and Mode filtering
+- Complete DXCC, Country, Callsign Prefix recognition
+- Band activity from PSK-Reporter
+- Maidenhead 4 and 6 wide views
+- CQ and ITU Zone parsing from QSOs
+- Worked All Continent and Worked All States parsing
+- Contest Map Overlays
+- 100% offline mode available for field-day use.
+- UDP Multicast message support
+- UDP message forwarding
+- State / Province / Locality information
+- Decode history charting for propagation and radio performance  analysis
+- Log4OM, N1MM+ local logger support
+- Active development with you in mind, tell us what you’d like to see!
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gridtracker/screenshot.png)
+]]></description>
+    <releaseNotes>https://tagloomis.com</releaseNotes>
+    <dependencies>
+      <dependency id="wormies-au-helpers" version="0.3.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

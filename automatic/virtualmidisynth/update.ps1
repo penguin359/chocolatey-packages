@@ -11,7 +11,7 @@ function global:au_BeforeUpdate {
     Invoke-WebRequest -Uri $urlDownload -outFile "tools\$filename"
 
     $Latest.ChecksumType32 = 'sha256'
-    $Latest.Checksum32     = (Get-FileHash -Algorithm SHA256 "tools\$filename").Hash
+    $Latest.Checksum32     = (Get-FileHash -Algorithm SHA256 -Path "tools\$filename").Hash
     $Latest.URL32          = $url
 }
 

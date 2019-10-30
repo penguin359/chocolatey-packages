@@ -11,7 +11,7 @@ function global:au_BeforeUpdate {
     Invoke-WebRequest -Uri $urlDownload -outFile "tools\$filename"
 
     $Latest.ChecksumType32 = 'sha256'
-    $Latest.Checksum32     = checksum -t sha256 "tools\$filename"
+    $Latest.Checksum32     = (Get-FileHash -Algorithm SHA256 "tools\$filename").Hash
     $Latest.URL32          = $url
 }
 
@@ -20,7 +20,7 @@ function global:au_GetLatest {
     $regex    = 'CoolSoft_VirtualMIDISynth_(?<Version>[\d\.]+).exe$'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	$download_page.links | ? href -match $regex | Select -First 1 | Out-Null
+    $download_page.links | ? href -match $regex | Select -First 1 | Out-Null
 
     return @{
         Version  = $matches.Version

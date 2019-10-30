@@ -11,9 +11,9 @@ function global:au_GetLatest {
 function global:au_SearchReplace {
     @{
         "tools\chocolateyInstall.ps1" = @{
-			"(^(\s)*url\s*=\s*)('.*')" = "`$1'$($Latest.URL32)'"
-            "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
-            "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\bbciplayerdownloads-)[\d\.]+(.*)`"" = "`$1$($Latest.Version)`$2`""             
+			"(^(\s)*url\s*=\s*)('.*')" = "`${1}'$($Latest.URL32)'"
+            "(^(\s)*checksum\s*=\s*)('.*')" = "`${1}'$($Latest.Checksum32)'"
+            "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\bbciplayerdownloads-)[\d\.]+(.*)`"" = "`${1}$($Latest.Version)`${2}`""             
         }
     }
 }

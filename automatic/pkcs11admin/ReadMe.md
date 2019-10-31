@@ -20,4 +20,5 @@ By default, **installation** of this package:
 
 To have choco remember parameters on upgrade, be sure to set `choco feature enable -n=useRememberedArgumentsForUpgrades`.
 
+## Screenshot
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pkcs11admin/screenshot.png)

@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
-  file          = "$toolsDir\Pkcs11Admin-0.4.0.zip"
+  file          = "$toolsDir\Pkcs11Admin-0.5.0.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs
@@ -14,5 +14,5 @@ Remove-Item -Path $packageArgs.file
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $OSArchitectureWidth = Get-OSArchitectureWidth
 $shortcutFilePath = Join-Path $programs "Pkcs11Admin.lnk"
-$targetPath = Join-Path $toolsDir "Pkcs11Admin-0.4.0\Pkcs11Admin-x${OSArchitectureWidth}.exe"
+$targetPath = Join-Path $toolsDir "Pkcs11Admin-0.5.0{$}2Pkcs11Admin-x${OSArchitectureWidth}.exe"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath

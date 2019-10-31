@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>pkcs11admin</id>
-    <version>0.4.0</version>
+    <version>0.5.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/pkcs11admin</packageSourceUrl>
     <owners>chtof</owners>
     <title>Pkcs11Admin</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/Pkcs11Admin/Pkcs11Admin/issues</bugTrackerUrl>
     <tags>pkcs11admin admin PKCS#11 enabled device</tags>
     <summary>GUI tool for administration of PKCS#11 enabled devices.</summary>
-    <description><![CDATA[
-GUI tool for administration of PKCS#11 enabled devices.
+    <description><![CDATA[GUI tool for administration of PKCS#11 enabled devices.
 
 Pkcs11Admin is an open-source GUI tool for administration of PKCS#11 enabled devices (smartcards, HSMs etc.).
 

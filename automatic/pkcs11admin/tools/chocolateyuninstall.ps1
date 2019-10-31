@@ -8,5 +8,5 @@ if (Test-Path $shortcutFilePath) { Remove-Item $shortcutFilePath }
 
 # Remove desktop icon
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
-$shortcutFilePath = "$Env:USERPROFILE\Desktop\pkcs11admin.lnk"
+$shortcutFilePath = "$Env:USERPROFILE\Desktop\Pkcs11Admin.lnk"
 if (Test-Path $shortcutFilePath) { Remove-Item $shortcutFilePath }

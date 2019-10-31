@@ -28,6 +28,10 @@ function global:au_SearchReplace {
           "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`${1}$($Latest.FileName32)`""
           "([$]toolsDir `"Pkcs11Admin-)[\d\.]+(\\)"    = "`${1}$($Latest.Version)`${2}"
         }
+
+        "tools\chocolateyuninstall.ps1" = @{
+          "`'(Pkcs11Admin-)[\d\.]+(.zip`')"    = "`${1}$($Latest.Version)`${2}"
+        }
     }
 }
 

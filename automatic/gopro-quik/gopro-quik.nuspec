@@ -1,5 +1,5 @@
-﻿ml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gopro-quik</id>
@@ -17,7 +17,7 @@
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <mailingListUrl>https://www.facebook.com/gopro</mailingListUrl>
     <bugTrackerUrl>https://community.gopro.com</bugTrackerUrl>
-    <tags>gopro-quik GoPro Quik access edit photo video</tags>
+    <tags>gopro-quik GoPro Quik editor viewer photo video</tags>
     <summary>Quik makes it easy to access, edit and enjoy your GoPro photos and videos.</summary>
     <description><![CDATA[
 **Access. Edit. Enjoy.**
@@ -37,6 +37,9 @@ Quik makes it easy to access, edit and enjoy your GoPro photos and videos. Autom
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gopro-quik/screenshot.png)
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <dependencies>
+      <dependency id="autohotkey.install" version="1.1.31.01" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

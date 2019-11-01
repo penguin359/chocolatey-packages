@@ -31,7 +31,7 @@ ControlSend,, {Enter}, %winTitle1%
 loop
 {
   Sleep 2000
-  if FileExist("C:\ProgramData\Package Cache\{AA5F7FCE-311C-46D8-B93A-ABF4DDCAB832}v0.1.945\GDA.msi")
+  if FileExist("%ProgramData%\Package Cache\{AA5F7FCE-311C-46D8-B93A-ABF4DDCAB832}v0.1.945\GDA.msi")
   {    
     Run TASKKILL /F /IM GoPro_Quik-WinInstaller-2.7.0.945.exe
 

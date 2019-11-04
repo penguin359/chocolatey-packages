@@ -3,15 +3,15 @@
 function global:au_GetLatest {
     $github_repository = "mifi/lossless-cut"
     $releases = "https://github.com/" + $github_repository + "/releases/latest"
-    $regex    = $github_repository + '/tree/v(?<Version>[\d\.]+)$'
+    # $regex    = $github_repository + '/tree/v(?<Version>[\d\.]+)$'
+    $regex    = 'LosslessCut-(?<Version>[\d\.]+).exe$'    
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	$download_page.links | ? href -match $regex | Out-Null
+	$url           = $download_page.links | ? href -match $regex
 
     return @{
         Version = $matches.Version
-        URL32   = 'https://github.com/mifi/lossless-cut/releases/download/v' + $matches.Version +'/LosslessCut-win32-ia32.zip'
-        URL64   = 'https://github.com/mifi/lossless-cut/releases/download/v' + $matches.Version +'/LosslessCut-win32-x64.zip'
+        URL32   = 'https://github.com' + $url.href
     }
 }
 
@@ -20,8 +20,16 @@ function global:au_SearchReplace {
         "tools\chocolateyinstall.ps1" = @{
             "(^(\s)*url\s*=\s*)('.*')"        = "`$1'$($Latest.URL32)'"
             "(^(\s)*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
-            "(^(\s)*url64\s*=\s*)('.*')"      = "`$1'$($Latest.URL64)'"
-            "(^(\s)*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
+            "(^(\s)*url64\s*=\s*)('.*')"      = "`$1'$($Latest.URL32)'"
+            "(^(\s)*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
+        }
+
+        "tools\chocolateybeforemodify.ps1" = @{
+            "(LosslessCut-)[\d\.]+(.exe)" = "`${1}$($Latest.Version)`${2}"
+        }
+
+        "tools\chocolateyinstall.ps1" = @{
+            "(LosslessCut-)[\d\.]+(.exe)" = "`${1}$($Latest.Version)`${2}"
         }        
     }
 }

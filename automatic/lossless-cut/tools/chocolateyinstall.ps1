@@ -1,30 +1,44 @@
-﻿$ErrorActionPreference = 'Stop';
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$ErrorActionPreference = 'Stop';
+$toolsDir = $installDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$pp = Get-PackageParameters
+
+if ( $pp.InstallDir ) { $installDir = $pp.InstallDir }
+Write-Host "$env:ChocolateyPackageName is going to be installed in '$installDir'..."
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
-  unzipLocation  = "$toolsDir"
+  fileFullPath   = "$installDir\LosslessCut.exe"
 
-  url            = 'https://github.com/mifi/lossless-cut/releases/download/v2.4.0/LosslessCut-win32-ia32.zip'
-  checksum       = '0F87BD29D44266F65F30ECE2AF766347B4D4E16FD9CD753F24BC75EE35252F0B'
+  url            = 'https://github.com/mifi/lossless-cut/releases/download/v2.6.0/LosslessCut-2.6.0.exe'
+  checksum       = '24aee5ff57197c06f57b68db2cc101d5186dd2eb5fda9962d5f4949ae5b65f07'
   checksumType   = 'sha256'
 
-  url64          = 'https://github.com/mifi/lossless-cut/releases/download/v2.4.0/LosslessCut-win32-x64.zip'
-  checksum64     = '49CF1E1A250FAB8DFD42F33CE4E7D4E1DE19EBD29CAA975CE579CF22E7DC130F'
+  url64          = 'https://github.com/mifi/lossless-cut/releases/download/v2.6.0/LosslessCut-2.6.0.exe'
+  checksum64     = '24aee5ff57197c06f57b68db2cc101d5186dd2eb5fda9962d5f4949ae5b65f07'
   checksumType64 = 'sha256'
 }
 
-Install-ChocolateyZipPackage @packageArgs
+Get-ChocolateyWebFile @packageArgs
 
-# Don't create shims for other executables
-$files = Get-ChildItem "$toolsDir" -Recurse -Include *.exe -Exclude LosslessCut.exe
-foreach ($file in $files) {
-    New-Item "$file.ignore" -type file -force | Out-Null
+# Shortcut parameters
+$sparams = @{
+  link       = 'LosslessCut.lnk'
+  targetPath = $packageArgs.fileFullPath
 }
 
 # Install start menu shortcut
-if (Get-OSArchitectureWidth -Compare "32") { $dir = "LosslessCut-win32-ia32" } else { $dir = "LosslessCut-win32-x64" }
-$programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
-$shortcutFilePath = Join-Path $programs "LosslessCut.lnk"
-$targetPath = Join-Path $toolsDir "$dir\LosslessCut.exe"
-Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath
+if ( !$pp.NoStartMenu ) {
+  Write-Host "Creating Start menu shortcut for $env:ChocolateyPackageName..."
+  $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
+  $sparams.shortcutFilePath = Join-Path $programs $sparams.link
+  Install-ChocolateyShortcut @sparams
+}
+
+# Install desktop icon
+if ( $pp.DesktopIcon ) {
+    Write-Host "Creating Desktop icon for $env:ChocolateyPackageName..."
+    $sparams.ShortcutFilePath = Join-Path "$Env:USERPROFILE\Desktop" $sparams.link
+    Install-ChocolateyShortcut @sparams
+}
+
+Set-Content -Path "$toolsDir\installDir" -value "$installDir"

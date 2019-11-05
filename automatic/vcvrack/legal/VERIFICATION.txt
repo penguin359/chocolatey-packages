@@ -1,4 +1,4 @@
-﻿IFICATION
+IFICATION
  
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
@@ -6,14 +6,14 @@ in verifying that this package's contents are trustworthy.
 Package can be verified like this:
  
 1. Download:
-   x64: https://vcvrack.com/downloads/Rack-1.1.5-win.exe
+   x64: https://vcvrack.com/downloads/Rack-1.1.6-win.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum64: B3505F8128AA6F7F0D4EEEC4F54DF39BED57A45C8F806794C75F607E488A95B3
+   checksum64: F9F82B9EF2D6ECA0D6E8840B02CFD7527C9B638AEDBC396263B8CD8AB2C67A42
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/VCVRack/Rack/v1/LICENSE.md

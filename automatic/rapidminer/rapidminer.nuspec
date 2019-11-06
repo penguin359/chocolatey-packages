@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>rapidminer</id>
-    <version>9.4.1</version>
+    <version>9.5</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/rapidminer</packageSourceUrl>
     <owners>chtof</owners>
     <title>RapidMiner Studio</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://community.rapidminer.com</bugTrackerUrl>
     <tags>rapidminer studio visual workflow designer analytics</tags>
     <summary>Visual workflow designer for the entire analytics team.</summary>
-    <description><![CDATA[
-Visual workflow designer for the entire analytics team
+    <description><![CDATA[Visual workflow designer for the entire analytics team
 
 ## Visual Workflow Designer
 Increase productivity across the entire data science team, from analysts to experts

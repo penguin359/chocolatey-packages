@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
@@ -7,7 +7,7 @@ $packageArgs = @{
   file         =  'toff.exe'
 
   url           = 'https://dennisbabkin.com/php/downloads/TOff.zip'
-  checksum      = 'A88467141BCFFB6F1A755BC3AEE557639AFC20ABADE115CAA152210AE7CAD7FC'
+  checksum      = '75bb3e195597c66de2424f1b13ab6298e16902907e6309f2f5b922165801bb1d'
   checksumType  = 'sha256'
 }
 

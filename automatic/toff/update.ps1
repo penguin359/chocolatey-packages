@@ -1,4 +1,5 @@
-﻿import-module au
+﻿$ErrorActionPreference = 'Stop'
+import-module au
 $releases = "https://dennisbabkin.com/toff"
 $regex   = 'ver=(?<Version>[\d\.]*)">Report Errors and Glitches'
 

@@ -1,16 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
-  <metadata>    
-    <id>toff</id>    
-    <version>2.5.8</version>    
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/toff</packageSourceUrl>    
-    <owners>chtof</owners>    
+  <metadata>
+    <id>toff</id>
+    <version>2.5.8.20191106</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/toff</packageSourceUrl>
+    <owners>chtof</owners>
     <title>TOff</title>
-    <authors>Dennis Babkin</authors>    
+    <authors>Dennis Babkin</authors>
     <projectUrl>https://www.dennisbabkin.com/toff</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/toff/toff.png</iconUrl>    
-    <copyright>(C) 2003-2019 www.dennisbabkin.com. All Rights Reserved.</copyright>    
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/toff/toff.png</iconUrl>
+    <copyright>(C) 2003-2019 www.dennisbabkin.com. All Rights Reserved.</copyright>
     <licenseUrl>https://www.dennisbabkin.com/toff</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://dennisbabkin.com/sfb</bugTrackerUrl>
     <tags>toff energy saver</tags>
     <summary>Advanced power operations to save energy.</summary>
-    <description><![CDATA[
-This utility will be handy for people who would like to leave their computers unattended for some time before automatically turning them off (logging off users, rebooting, hibernating or putting them into sleep mode). TOff can perform these tasks at a certain day and time (one time or every day), as well as after a certain period of mouse & keyboard, CPU or network inactivity with the seconds precision. TOff is unequivocally your ticket to save energy.
+    <description><![CDATA[This utility will be handy for people who would like to leave their computers unattended for some time before automatically turning them off (logging off users, rebooting, hibernating or putting them into sleep mode). TOff can perform these tasks at a certain day and time (one time or every day), as well as after a certain period of mouse & keyboard, CPU or network inactivity with the seconds precision. TOff is unequivocally your ticket to save energy.
 
 Need even more?  [We can customize it specifically for you, to meet your organization's needs](https://dennisbabkin.com/php/fb.php).
 
@@ -41,7 +40,7 @@ Start small. Let's Save Energy!
 - You can save the state of the program in a Windows batch file to run TOff with the same settings later.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/toff/screenshot.png)
-]]></description>    
+]]></description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

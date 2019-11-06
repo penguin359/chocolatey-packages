@@ -5,7 +5,7 @@ $packageArgs = @{
   packageName  = $env:ChocolateyPackageName
   softwareName = 'BUFFALO NAS Navigator2'
   fileType     = 'exe'
-  silentArgs   = "/UNINST"
+  silentArgs   = '/UNINST'
 }
 
 $uninstalled = $false

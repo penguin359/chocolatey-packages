@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>wakeuponstandby</id>
-    <version>1.7.20.6</version>
+    <version>1.7.20.600</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/wakeuponstandby</packageSourceUrl>
     <owners>chtof</owners>
     <title>WakeupOnStandBy</title>
     <authors>Dennis Babkin</authors>
     <projectUrl>https://www.dennisbabkin.com/wosb</projectUrl>
-	  <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/wakeuponstandby/wakeuponstandby.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/wakeuponstandby/wakeuponstandby.png</iconUrl>
     <copyright>© 2003-2019 www.dennisbabkin.com. All Rights Reserved.</copyright>
     <licenseUrl>https://www.dennisbabkin.com/wosb</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://dennisbabkin.com/sfb</bugTrackerUrl>
     <tags>wakeuponstandby energy saver hibernation sleep mode wake-up</tags>
     <summary>Saves energy by waking computers from sleep.</summary>
-    <description><![CDATA[
-Have you ever thought how much energy your computers use up at night or when they're not in use? Have you ever wondered if it's possible to wake up your system from a sleep mode (or hibernation) using a resident program and not waste all that energy? 
+    <description><![CDATA[Have you ever thought how much energy your computers use up at night or when they're not in use? Have you ever wondered if it's possible to wake up your system from a sleep mode (or hibernation) using a resident program and not waste all that energy? 
 
 The answer is yes, it is possible! This simple utility will let you do it. Besides that it can also send your system back into a sleep mode (hibernate it, power it off, or log-off a user). Moreover, you can also use this utility as a scheduler to do your tasks without involving a sleep mode.
 
@@ -45,7 +44,7 @@ Start small. Let's Save Energy!
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/wakeuponstandby/screenshot.png)
 ]]></description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->    
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

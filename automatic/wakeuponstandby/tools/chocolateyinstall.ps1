@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir  
 
   url           = 'https://dennisbabkin.com/php/downloads/WakeupOnStandBy.zip'
-  checksum      = '58189BBB715303A5C8038924C50641BA14E4C964AB1847F04ADB163FA0DEDF81'
+  checksum      = '44f69df199b1476930d7f9db8fce96493ee90ea3651b49f8749a47559594531a'
   checksumType  = 'sha256'
 }
 

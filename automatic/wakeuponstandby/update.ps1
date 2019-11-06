@@ -1,10 +1,19 @@
-﻿import-module au
-$releases = "https://dennisbabkin.com/wosb/"
-$regex   = 'ver=(?<Version>[\d\.]*)">Report Errors and Glitches'
+﻿$ErrorActionPreference = 'Stop'
+import-module au
 
 function global:au_GetLatest {
-     (Invoke-WebRequest -Uri $releases) -match $regex
-     return @{ Version = $matches.Version }
+    $releases = "https://dennisbabkin.com/wosb/"
+    $regex    = 'ver=(?<Version>[\d\.]*)">Report Errors and Glitches'
+
+    (Invoke-WebRequest -Uri $releases) -match $regex | Out-Null
+    $version = $matches.Version
+    $versionNbSegment = ($version.ToCharArray() | Where-Object {$_ -eq '.'} | Measure-Object).Count
+    if ($versionNbSegment -eq 3) { $version += "00" }
+    
+    return @{
+        Version = $version
+        URL32   = 'https://dennisbabkin.com/php/downloads/WakeupOnStandBy.zip'
+    }
 }
 
 function global:au_SearchReplace {

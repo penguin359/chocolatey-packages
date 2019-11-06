@@ -2,14 +2,18 @@
 
 function global:au_GetLatest {
     $releases = 'https://www.buffalotech.com/support'
-    $regex    = 'nasnavi-(?<VersionFile>(?<VersionMajor>\d)(?<VersionMinor>\d\d)).zip$'
+    $regex    = 'nasnavi-(?<VersionFile>(?<VersionMajor>\d)(?<VersionMinor>\d(\d|[a-z]))).zip$'
 
-    (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Out-Null
+    $url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex
+    $versionFile = $matches.VersionFile
+
+    $version     = $matches.VersionMajor + '.' + $matches.VersionMinor
+    if ($version -eq '2.9b') { $version = '2.911' }
 
     return @{
-        Version     = $matches.VersionMajor + '.' + $matches.VersionMinor
+        Version     = $version
         VersionFile = $matches.VersionFile
-        URL         = 'https://www.buffalotech.com/support/download/nasnavi-' + $matches.VersionFile + '.zip'
+        URL         = $url.href
     }
 }
 

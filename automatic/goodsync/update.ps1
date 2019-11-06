@@ -8,7 +8,7 @@ function global:au_GetLatest {
 
     (Invoke-WebRequest -Uri $releases).Content -match $regexVersion | Out-Null
 	$version = $matches.Version
-    $url     = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links  | ? href -match $regexUrl
+    $url     = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regexUrl
 
     return @{
         Version = $version

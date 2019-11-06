@@ -1,4 +1,5 @@
-﻿import-module au
+﻿$ErrorActionPreference = 'Stop'
+import-module au
 
 function global:au_GetLatest {
     $github_repository = "mifi/lossless-cut"
@@ -23,14 +24,6 @@ function global:au_SearchReplace {
             "(^(\s)*url64\s*=\s*)('.*')"      = "`$1'$($Latest.URL32)'"
             "(^(\s)*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
         }
-
-        "tools\chocolateybeforemodify.ps1" = @{
-            "(LosslessCut-)[\d\.]+(.exe)" = "`${1}$($Latest.Version)`${2}"
-        }
-
-        "tools\chocolateyinstall.ps1" = @{
-            "(LosslessCut-)[\d\.]+(.exe)" = "`${1}$($Latest.Version)`${2}"
-        }        
     }
 }
 

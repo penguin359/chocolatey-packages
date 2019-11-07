@@ -8,11 +8,11 @@ function global:au_GetLatest {
     $regex    = 'LosslessCut-(?<Version>[\d\.]+).exe$'    
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	$url           = $download_page.links | ? href -match $regex
+    $url           = $download_page.links | ? href -match $regex
 
     return @{
         Version = $matches.Version
-        URL32   = $url.href
+        URL32   = 'https://github.com/' + $url.href
     }
 }
 

@@ -1,14 +1,14 @@
-$ErrorActionPreference = 'Stop';
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+﻿$ErrorActionPreference = 'Stop';
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe'
   file         =  "$toolsDir\\SRR Setup 1.2.7.1.exe"
-  
+
   url           = 'https://dennisbabkin.com/php/downloads/simple_radio_recorder.zip'
-  checksum      = '02A10E197BC54EA0540940104EAC98C5CFAD5255D1B0347142485CD8899051E6'
+  checksum      = '84837FCDF35723D3CFF6B90E5A360DF388A9891B129A00FFEFE68C308F803518'
   checksumType  = 'sha256'
 }
 

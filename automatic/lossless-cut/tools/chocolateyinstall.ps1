@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir = $installDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $pp = Get-PackageParameters
 
@@ -9,12 +9,12 @@ $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   fileFullPath   = "$installDir\LosslessCut.exe"
 
-  url            = 'https://github.com/mifi/lossless-cut/releases/download/v2.6.0/LosslessCut-2.6.0.exe'
-  checksum       = '24aee5ff57197c06f57b68db2cc101d5186dd2eb5fda9962d5f4949ae5b65f07'
+  url            = 'https://github.com//mifi/lossless-cut/releases/download/v2.6.2/LosslessCut-2.6.2.exe'
+  checksum       = '2e99be1fe8be6dd6e6a10e7103635cdcd5d52dac1329c3175c68c8026e4048fc'
   checksumType   = 'sha256'
 
-  url64          = 'https://github.com/mifi/lossless-cut/releases/download/v2.6.0/LosslessCut-2.6.0.exe'
-  checksum64     = '24aee5ff57197c06f57b68db2cc101d5186dd2eb5fda9962d5f4949ae5b65f07'
+  url64          = 'https://github.com//mifi/lossless-cut/releases/download/v2.6.2/LosslessCut-2.6.2.exe'
+  checksum64     = '2e99be1fe8be6dd6e6a10e7103635cdcd5d52dac1329c3175c68c8026e4048fc'
   checksumType64 = 'sha256'
 }
 

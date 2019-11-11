@@ -16,12 +16,12 @@ function global:au_GetLatest {
 
 function global:au_SearchReplace {
     @{
-        "tools\chocolateyinstall.ps1" = @{			
+        "tools\chocolateyinstall.ps1" = @{
             "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
         }
-        "tools\chocolateyuninstall.ps1" = @{          
+        "tools\chocolateyuninstall.ps1" = @{
             "(^(\s)*SRR_Version\s*=\s*)('.*')" = "`$1$($Latest.Version)"
-        }        
+        }
     }
 }
 

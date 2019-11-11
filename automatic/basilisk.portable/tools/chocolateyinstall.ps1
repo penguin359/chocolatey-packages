@@ -6,11 +6,11 @@ $packageArgs = @{
   unzipLocation = $toolsDir
 
   url           = 'https://eu.basilisk-browser.org/release/basilisk-latest.win32.zip'
-  checksum      = 'f63188a715df3f853d95f5025c58cd4bf867008ab9ded7bde798d56a9b47dc43'
+  checksum      = 'a67e3a07c94c1159da06a170e68e98eda86b498d78e5037961ae9e2547e9db53'
   checksumType  = 'sha256'
   
   url64         = 'https://eu.basilisk-browser.org/release/basilisk-latest.win64.zip'
-  checksum64    = 'b4cb0d9aea01f4a53dac630353148c748154a458e82e328e75e28422744c0252'
+  checksum64    = '8e444ab963610bd040aaac95b146831dc4507126e89f34f0301a1600e2ed20a1'
   checksumType64= 'sha256'
 }
 

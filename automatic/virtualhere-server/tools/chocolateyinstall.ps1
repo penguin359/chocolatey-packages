@@ -9,7 +9,7 @@ $packageArgs = @{
   checksum       = 'CBC8098167D534098D3921FDFBC05AD34F5BFDDC78F5AB73355A031163687F63'
   checksumType   = 'sha256'
 
-  url64bit       = 'https://virtualhere.com/sites/default/files/usbserver/vhusbdwin64.exe'
+  url64          = 'https://virtualhere.com/sites/default/files/usbserver/vhusbdwin64.exe'
   checksum64     = 'D0422C0A4BF32D6DEFBA6A5C4A7E4914A34E7E7552CAB9563949AE158AC5926E'
   checksumType64 = 'sha256'
 }

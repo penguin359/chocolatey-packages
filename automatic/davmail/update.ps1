@@ -4,9 +4,9 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     $releases = 'https://sourceforge.net/projects/davmail/files'
-    $regex    = 'davmail-(?<Version>[\d\.-]+)-setup.exe'
+    $regex    = 'davmail-(?<Version>[\d\.-]+)-setup(64)?.exe'
 
-    (Invoke-WebRequest -Uri $releases) -Match $regex | out-null
+    (Invoke-WebRequest -Uri $releases).RawContent -Match $regex | out-null
     $version      = $matches.Version
     $majorVersion = $version -Split '-' | Select -First 1
 

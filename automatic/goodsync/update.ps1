@@ -11,8 +11,9 @@ function global:au_GetLatest {
     $url     = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regexUrl
 
     return @{
-        Version = $version
-        URL32   = $url.href
+        Version     = $version
+        URL32       = $url.href
+        PackageName = 'goodync'
     }
 }
 

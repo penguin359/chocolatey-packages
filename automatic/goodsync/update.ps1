@@ -6,13 +6,13 @@ function global:au_GetLatest {
     $regexVersion = 'GoodSync for Windows v (?<Version>[\d\.]+)\<'
     $regexUrl     = 'GoodSync-v[\d\.]+-Setup.msi$'
 
-    (Invoke-WebRequest -Uri $releases -UseBasicParsing).RawContent -match $regexVersion | Out-Null
+    (Invoke-WebRequest -Uri $releases -UseBasicParsing).RawContent -match "$regexVersion" | Out-Null
 	$version = $matches.Version
     $url     = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regexUrl
 
     return @{
         Version     = $version
-        URL32       = $url.href
+        URL32       = "$url.href"
         PackageName = 'goodsync'
     }
 }
@@ -26,4 +26,4 @@ function global:au_SearchReplace {
     }
 }
 
-update
+update -NoCheckUrl

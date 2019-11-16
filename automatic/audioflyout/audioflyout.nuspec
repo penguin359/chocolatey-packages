@@ -17,7 +17,7 @@
     <docsUrl>https://github.com/ADeltaX/AudioFlyout/blob/master/guide.md</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/ADeltaX/AudioFlyout/issues</bugTrackerUrl>
-    <tags>audioflyout custom volume HUD STMC</tags>
+    <tags>audioflyout custom volume HUD STMC admin</tags>
     <summary>Replace the Volume/SMTC UI with a custom one.</summary>
     <description><![CDATA[
 Replace the Volume/SMTC UI with a custom one. Only for Windows 10 17763+

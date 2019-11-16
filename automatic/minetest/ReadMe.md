@@ -1,0 +1,38 @@
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/minetest/minetest.png" width="48" height="48"/> [Minetest](https://chocolatey.org/packages/minetest)
+
+An open source voxel game engine. Play one of our many games, mod a game to your liking, make your own game, or play on a multiplayer server.
+
+## Features
+### Players
+#### Choose from Multiple Games
+There are many games to choose from. You could survive in a harsh environment, build creatively, or fight other players. Just download a game or connect to a server.
+
+#### Enormous Maps
+With 62,000 × 62,000 × 62,000 blocks, there’s no running out of space. You can mine 31,000 blocks down, or build 31,000 blocks up.
+
+#### Multiplayer Support
+Play by yourself, locally with your friends, or online with dozens of players on a server.
+
+#### Texture Packs
+Not happy with the look of the textures? Change them!
+
+#### Beautiful Map Generators
+Choose from many different fast map generators included in the engine, or install one as a mod.
+
+### Developers
+Make a Game
+Create your own voxel game using our Lua API. No need to worry about tricky voxel rendering or networking; instead, write scripts to add items and control game play.
+
+#### Modding API
+Use the same Lua API to make mods for any Minetest-based game. Publish your mods on the forums, and contribute to others’ mods.
+
+#### Large Collection of Existing Mods
+There are over 1,000 open source mods on our forums which are ready to be used, adapted or learned from.
+
+#### Friendly Community
+You can find help with any problems on our forums or IRC channels.
+
+#### Open Source
+The engine is open source and transparently developed. Submit an issue for anything you’re missing, or get the source code and dig into it yourself.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/minetest/screenshot.png)

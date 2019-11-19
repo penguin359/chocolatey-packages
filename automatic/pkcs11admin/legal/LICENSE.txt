@@ -1,5 +1,5 @@
 ﻿
-From: https://raw.githubusercontent.com/Pkcs11Admin/Pkcs11Admin/v0.4.0/LICENSE
+From: https://raw.githubusercontent.com/Pkcs11Admin/Pkcs11Admin/LICENSE
 
 LICENSE
 

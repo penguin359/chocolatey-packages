@@ -2,13 +2,13 @@
 
 function global:au_GetLatest {
     $releases = 'https://developer.nvidia.com/cuda-downloads'
-    $regex    = '(?<File>cuda_(?<Version>[\d\.]+)_[\d\.]+_win10.exe)'
+    $regex    = '/(?<MajorVersion>[\d\.]+)/Prod/local_installers/(?<File>cuda_(?<Version>[\d\.]+)_[\d\.]+_win10.exe)'
 
-    (Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null
+    (Invoke-WebRequest -Uri $releases -UseBasicParsing).RawContent -match $regex | Out-Null
 
     return @{
         Version = $matches.Version
-        URL32   = 'https://developer.download.nvidia.com/compute/cuda/10.1/Prod/local_installers/' + $matches.File
+        URL32   = 'https://developer.download.nvidia.com/compute/cuda/' + $matches.MajorVersion + '/Prod/local_installers/' + $matches.File
     }
 }
 

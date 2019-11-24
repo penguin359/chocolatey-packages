@@ -12,7 +12,7 @@ function global:au_GetLatest {
   
   return @{
     Version = $matches.Version + ".0"
-    URL64 = 'https://netix.dl.sourceforge.net/project/ngspice/ng-spice-rework/' + $matches.Version + '/ngspice-' + $matches.Version + '_64.zip'
+    URL64 = 'https://freefr.dl.sourceforge.net/project/ngspice/ng-spice-rework/' + $matches.Version + '/ngspice-' + $matches.Version + '_64.zip'
   }
 }
 

@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
     
-  url           = 'https://github.com/getstation/desktop-app-releases/releases/download/1.58.2/browserX-Setup-1.58.2.exe'
-  checksum      = '90d89dbb3817c567691dcf9f4845791ba502c9735b6f832d375d26173ef6337c'
+  url           = 'https://github.com/getstation/desktop-app-releases/releases/download/1.59.2/browserX-Setup-1.59.2.exe'
+  checksum      = 'f7f98fc37b2b2a01c7646f60fbf6bee7769268d1e258de12f3259fec889f7f71'
   checksumType  = 'sha256'
 }
 

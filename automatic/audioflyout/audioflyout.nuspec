@@ -9,7 +9,7 @@
     <title>AudioFlyout</title>
     <authors>ADeltaX</authors>
     <projectUrl>https://github.com/ADeltaX/AudioFlyout</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/audioflyout/audioflyout.png</iconUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/audioflyout/audioflyout.png</iconUrl>-->
     <copyright>Copyright © 2019 ADeltaX</copyright>
     <licenseUrl>https://raw.githubusercontent.com/ADeltaX/AudioFlyout/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

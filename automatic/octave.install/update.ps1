@@ -3,7 +3,7 @@
 [Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
 
 function global:au_GetLatest {
-    $releases = 'https://ftpmirror.gnu.org/octave/windows/'
+    $releases = 'https://ftp.gnu.org/octave/windows/'
     $regex32  = 'octave-(?<Version>[\d\.]+)-w32-installer.exe$'
     $regex64  = 'octave-([\d\.]+)-w64-installer.exe$'
 

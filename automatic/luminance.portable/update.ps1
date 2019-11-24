@@ -14,7 +14,7 @@ function global:au_GetLatest {
 
   return @{
     Version = $matches.Version
-    URL64   = 'https://netix.dl.sourceforge.net/project/qtpfsgui/luminance/' + $version + '/Luminance-HDR_v.' + $version + '_Windows_64.zip'
+    URL64   = 'https://freefr.dl.sourceforge.net/project/qtpfsgui/luminance/' + $version + '/Luminance-HDR_v.' + $version + '_Windows_64.zip'
   }
 }
 

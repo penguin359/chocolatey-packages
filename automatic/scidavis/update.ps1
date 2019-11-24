@@ -11,7 +11,7 @@ function global:au_GetLatest {
 
     return @{
       Version = $version
-      URL32   = 'https://netix.dl.sourceforge.net/project/scidavis/SciDAVis/' + $version + '/scidavis.' + $version + '-win-dist.msi'
+      URL32   = 'https://freefr.dl.sourceforge.net/project/scidavis/SciDAVis/' + $version + '/scidavis.' + $version + '-win-dist.msi'
     }
 }
 

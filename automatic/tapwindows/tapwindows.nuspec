@@ -1,16 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
-  <metadata> 
-    <id>tapwindows</id>    
-    <version>9.21.2</version>    
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/tapwindows</packageSourceUrl>    
-    <owners>chtof</owners>    
+  <metadata>
+    <id>tapwindows</id>
+    <version>9.24.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/tapwindows</packageSourceUrl>
+    <owners>chtof</owners>
     <title>OpenVPN TAP Windows adapter</title>
-    <authors>OpenVPN</authors>    
+    <authors>OpenVPN</authors>
     <projectUrl>https://openvpn.net</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tapwindows/tapwindows.png</iconUrl>    
-    <copyright>COPYRIGHT © 2019 OPENVPN INC.</copyright>    
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tapwindows/tapwindows.png</iconUrl>
+    <copyright>COPYRIGHT © 2019 OPENVPN INC.</copyright>
     <licenseUrl>https://raw.githubusercontent.com/OpenVPN/tap-windows6/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/OpenVPN/tap-windows6</projectSourceUrl>

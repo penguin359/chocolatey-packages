@@ -4,7 +4,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   softwareName  = 'TAP-Windows *'
   fileType      = 'exe'
-  silentArgs	= '/S'
+  silentArgs    = '/S'
 }
 
 $uninstalled = $false

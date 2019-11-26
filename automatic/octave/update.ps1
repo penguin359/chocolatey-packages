@@ -1,7 +1,7 @@
 ﻿import-module au
 
 function global:au_GetLatest {
-    $releases = 'https://ftp.gnu.org/octave/windows/'
+    $releases = 'https://ftpmirror.gnu.org/octave/windows/'
     $regex32  = 'octave-(?<Version>[\d\.]+)-w32-installer.exe$'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing

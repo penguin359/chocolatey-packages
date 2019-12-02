@@ -7,15 +7,13 @@ Package can be verified like this:
 
 1. Download:
  
-   x32: https://datapacket.dl.sourceforge.net/project/gnuplot/gnuplot/5.2.7/gp527-win32-mingw.exe
    x64: https://datapacket.dl.sourceforge.net/project/gnuplot/gnuplot/5.2.7/gp527-win64-mingw.exe
  
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum type: sha256
-   checksum32: d852956827ca63364f5bc55aabf3bd0a4ed465f47bf1025fb945fe4ad728add9
+   checksum type: sha256   
    checksum64: cd94e96b6942156437c200a1855185bd7ab29dafd0ba8da921967176d82d19d2
 
 File 'LICENSE.txt' is obtained from:

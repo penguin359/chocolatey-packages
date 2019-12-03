@@ -4,8 +4,8 @@ $packageArgs = @{
   packageName  = $env:ChocolateyPackageName
   filetype     = 'MSI'
 
-  url          = 'https://egnyte-cdn.egnyte.com/egnytedrive/win/en-us/3.5.3/EgnyteConnect_3.5.3_1.msi'
-  checksum     = '1a9e2275f1392874f1d979a23d531c4d0526b6b324f2a401176c55f0b4be7f2d'
+  url          = 'https://egnyte-cdn.egnyte.com/egnytedrive/win/en-us/3.6.0/EgnyteConnect_3.6.0_3.msi'
+  checksum     = 'a10c0a3a90e0188a80431ecff924c4d30d8e1111733a757acaa20953d34c4fc2'
   checksumType = 'sha256'  
 
   silentArgs   = "/qn /norestart /l*v `"$env:TEMP\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""

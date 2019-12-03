@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>magicsplat-tcl-tk</id>
-    <version>1.9.1</version>
+    <version>1.10.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/magicsplat-tcl-tk</packageSourceUrl>
     <owners>chtof</owners>
     <title>Magicsplat Tcl/Tk</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://sourceforge.net/p/magicsplat/tickets</bugTrackerUrl>
     <tags>magicsplat-tcl-tk magicsplat tcl tk</tags>
     <summary>The Magicsplat Tcl/Tk for Windows distribution is a binary Windows Installer based distribution of Tcl/Tk for Windows systems. It includes commonly used libraries, extensions and development tools.</summary>
-    <description><![CDATA[
-## Note
+    <description><![CDATA[## Note
 All binaries and libraries are built with Visual Studio 2017.
 
 ## Cryptography legalities

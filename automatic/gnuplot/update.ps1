@@ -6,13 +6,13 @@ function global:au_GetLatest {
     $releases = 'http://gnuplot.sourceforge.net'
     $regex    = 'https://sourceforge.net/projects/gnuplot/files/gnuplot/(?<Version>[\d\.]+)/'
 
-    (Invoke-WebRequest -Uri $releases -UseBasicParsing).links  | ? href -match $regex | Select -Last 1
+    $url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Select -Last 1
     $version = $matches.Version
     $versionSoftware = $version -Replace '\.', ''
 
     return @{
-        Version = $version        
-        URL64   = 'https://sourceforge.net/projects/gnuplot/files/gnuplot/' + $version + '/gp' + $versionSoftware + '-win64-mingw.exe'
+        Version = $version
+        URL64   = $url.href +'gp' + $versionSoftware +'-win64-mingw.exe'
     }
 }
 

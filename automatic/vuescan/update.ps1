@@ -1,6 +1,11 @@
 ﻿$ErrorActionPreference = 'Stop'
 import-module au
 
+function global:au_BeforeUpdate() {
+    $Latest.Checksum32 = Get-RemoteChecksum $Latest.Url32
+    $Latest.Checksum64 = Get-RemoteChecksum $Latest.Url64
+}
+
 function global:au_GetLatest {    
     $releases     = 'https://www.hamrick.com/alternate-versions.html'    
     $regex32      = '<a href="(?<File32>files/vuex32\d+.exe)" onclick="pageTracker._trackPageview\(''files/vuex32\d+.exe''\);">[\d\.]+</a>'

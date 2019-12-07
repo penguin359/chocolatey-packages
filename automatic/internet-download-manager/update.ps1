@@ -8,7 +8,9 @@ function global:au_GetLatest {
     $url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Select -First 1
     $version = $matches.VersionMajor + '.' + $matches.VersionMinor + '.' + $matches.Build
 
-    return @{ Version = $version ; URL32 = $url.href }
+    return @{ Version = $version
+        URL32 = 'http://mirror2.internetdownloadmanager.com' + (Get-RedirectedUrl $url.href).AbsolutePath
+    }
 }
 
 function global:au_SearchReplace {

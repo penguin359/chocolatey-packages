@@ -2,9 +2,11 @@
 
 function global:au_GetLatest {
     $github_repository = "chrismaltby/gb-studio"
-    $releases = "https://github.com/" + $github_repository + "/releases/latest"
-    $regex32  = 'GB.Studio-win32-ia32-squirrel-([\d\.]+).zip$'
-    $regex64  = 'GB.Studio-win32-x64-squirrel-(?<Version>[\d\.]+).zip$'
+    $releases          = "https://github.com/" + $github_repository + "/releases/latest"
+
+    #$regex32  = 'GB.Studio-win32-ia32-squirrel-([\d\.]+).zip$'
+    $regex32  = 'GB.Studio-.*32.*-squirrel-([\d\.]+).zip$'
+    $regex64  = 'GB.Studio-.*64.*-squirrel-(?<Version>[\d\.]+).zip$'
 
     $download_page = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links
     $url32         = $download_page | ? href -match $regex32

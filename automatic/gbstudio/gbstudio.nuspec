@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gbstudio</id>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/gbstudio</packageSourceUrl>
     <owners>chtof</owners>
     <title>GB Studio</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/chrismaltby/gb-studio/issues</bugTrackerUrl>
     <tags>gbstudio retro adventure game creator</tags>
     <summary>A free and easy to use retro adventure game creator for your favourite handheld video game system.</summary>
-    <description><![CDATA[
-## Create Real ROM files
+    <description><![CDATA[## Create Real ROM files
 Run your games on any compatible emulator, if you've got a flash cart you can play them on a real console!
 
 ## Simple Setup
@@ -47,7 +46,7 @@ GB Studio comes with a web based emulator that even works great on mobile. You c
 ]]></description>
     <releaseNotes>https://github.com/chrismaltby/gb-studio/releases</releaseNotes>
   <dependencies>
-    <dependency id="gbstudio.install" version="[1.1.0]" />
+    <dependency id="gbstudio.install" version="[1.2.0]" />
   </dependencies>
   </metadata>
   <files></files>

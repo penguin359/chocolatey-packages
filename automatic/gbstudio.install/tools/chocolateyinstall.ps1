@@ -5,12 +5,12 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
 
-  url           = 'https://github.com/chrismaltby/gb-studio/releases/download/v1.1.0/GB.Studio-win32-ia32-squirrel-1.1.0.zip'
-  checksum      = '8DF8AFC82AFF215BE8CE218CD7157950FBB0B80D5C7CA0C88532F765E0146AF5'
+  url           = 'https://github.com//chrismaltby/gb-studio/releases/download/v1.2.0/GB-Studio-Windows-32bit-squirrel-1.2.0.zip'
+  checksum      = '3924c9832f5f4edd577fc0aacfe00c7b3a995b6ba364006a40ecaae18db83864'
   checksumType  = 'sha256'
   
-  url64         = 'https://github.com/chrismaltby/gb-studio/releases/download/v1.1.0/GB.Studio-win32-x64-squirrel-1.1.0.zip'
-  checksum64    = '5C7AD41817685D0AF2E47C6B98CFBE8571C73DC5242495E22F5A8A2DAFF57A06'
+  url64         = 'https://github.com//chrismaltby/gb-studio/releases/download/v1.2.0/GB-Studio-Windows-64bit-squirrel-1.2.0.zip'
+  checksum64    = '0b57324c47509ca8e33488169f21c2faa3b3297653cd6856ee91982f6ba603ca'
   checksumType64= 'sha256'
 }
 

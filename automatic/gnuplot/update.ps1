@@ -1,18 +1,21 @@
 ﻿import-module au
 
-function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
+function global:au_BeforeUpdate {
+    Get-RemoteFiles -NoSuffix -Purge
+    $Latest.Checksum64 = Get-RemoteChecksum $Latest.Url64
+}
 
 function global:au_GetLatest {    
     $releases = 'http://gnuplot.sourceforge.net'
     $regex    = 'https://sourceforge.net/projects/gnuplot/files/gnuplot/(?<Version>[\d\.]+)/'
 
-    $url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Select -Last 1
-    $version = $matches.Version
+    $url             = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Select -Last 1
+    $version         = $matches.Version
     $versionSoftware = $version -Replace '\.', ''
 
     return @{
         Version = $version
-        URL64   = $url.href +'gp' + $versionSoftware +'-win64-mingw.exe'
+        URL64   = Get-RedirectedURL $($url.href +'gp' + $versionSoftware +'-win64-mingw.exe')
     }
 }
 
@@ -31,5 +34,5 @@ function global:au_SearchReplace {
 }
 
 if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor 64
+    update -ChecksumFor 64 -NoCheckUrl
 }

@@ -11,7 +11,7 @@ function global:au_GetLatest {
 
     $url             = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Select -Last 1
     $version         = $matches.Version
-    $versionSoftware = $version -Replace '\.', ''
+    $versionSoftware = $version -Replace '\.', ''    
 
     return @{
         Version = $version
@@ -34,5 +34,5 @@ function global:au_SearchReplace {
 }
 
 if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor 64 -NoCheckUrl
+    update -ChecksumFor none -NoCheckUrl
 }

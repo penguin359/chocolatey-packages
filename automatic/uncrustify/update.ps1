@@ -5,16 +5,17 @@
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-  $releases = 'https://sourceforge.net/projects/uncrustify/files/uncrustify'  
-  $regex    = 'href="/projects/uncrustify/files/latest/download" title="/uncrustify/uncrustify-(?<Version>[\d\.]+)/'
+  $releases = 'https://sourceforge.net/projects/uncrustify/files/'
+  $regex    = 'href="/projects/uncrustify/files/latest/download" title="/uncrustify-(?<Version>[\d\.]+)/uncrustify-(?<VersionFile>.*).zip'
   
   (Invoke-WebRequest -Uri $releases) -match $regex | Out-Null
-  $version = $matches.Version
+  $version     = $matches.Version
+  $versionFile = $matches.VersionFile
   
   return @{
     Version = $version
-    URL32 = $releases + '/uncrustify-' + $version + '/uncrustify-' + $version + '-win32.zip'
-    URL64 = $releases + '/uncrustify-' + $version + '/uncrustify-' + $version + '-win64.zip'
+    URL32   = $releases + '/uncrustify-' + $version + '/uncrustify-' + $versionFile + '-win32.zip'
+    URL64   = $releases + '/uncrustify-' + $version + '/uncrustify-' + $versionFile + '-win64.zip'
   }
 }
 

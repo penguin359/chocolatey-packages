@@ -1,7 +1,7 @@
 ﻿import-module au
 
 function global:au_GetLatest {
-    $releases = get-redirectedurl 'https://www.binaryfortress.com/Data/Download/?package=hashtools&log=100'
+    $releases = Get-RedirectedUrl 'https://www.binaryfortress.com/Data/Download/?package=hashtools&log=100'
     $regex    = 'HashToolsSetup-(?<Version>[\d.]+).exe$'
 
     $releases -match $regex | Out-Null

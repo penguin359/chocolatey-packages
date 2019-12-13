@@ -18,8 +18,8 @@ Install-ChocolateyZipPackage @packageArgs
 
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
-  file32      = "$toolsDir\gb-studio-master-windows_x86-squirrel\GB Studio-1.1.0 Setup.exe"
-  file64      = "$toolsDir\gb-studio-master-windows_x86_64-squirrel\GB Studio-1.1.0 Setup.exe"
+  file32      = "$toolsDir\gb-studio-master-windows_x86-squirrel\GB Studio-1.2.0 Setup.exe"
+  file64      = "$toolsDir\gb-studio-master-windows_x86_64-squirrel\GB Studio-1.2.0 Setup.exe"
   silentArgs  = '--silent'
 }
 Install-ChocolateyInstallPackage @packageArgs

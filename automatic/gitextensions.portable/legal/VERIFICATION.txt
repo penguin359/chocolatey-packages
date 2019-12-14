@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/gitextensions/gitextensions/releases/download/v3.2.1/GitExtensions-Portable-3.2.1.6628.zip
-   x64: https://github.com/gitextensions/gitextensions/releases/download/v3.2.1/GitExtensions-Portable-3.2.1.6628.zip
+   x32: https://github.com/gitextensions/gitextensions/releases/download/v3.3/GitExtensions-Portable-3.3.0.7719.zip
+   x64: https://github.com/gitextensions/gitextensions/releases/download/v3.3/GitExtensions-Portable-3.3.0.7719.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 21CDF9E3663E462FB0E0899EF45C76C46ABACC277C78F41891DE96884811C6D8
-   checksum64: 21CDF9E3663E462FB0E0899EF45C76C46ABACC277C78F41891DE96884811C6D8
+   checksum32: 5A86AFD39F546F71672D2FE236053487F17D53DF51AA6237EC4E2D10271F619B
+   checksum64: 5A86AFD39F546F71672D2FE236053487F17D53DF51AA6237EC4E2D10271F619B
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/gitextensions/gitextensions/master/LICENSE.md

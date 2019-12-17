@@ -3,7 +3,7 @@ import-module au
 
 function global:au_GetLatest {
     $releases = "https://dennisbabkin.com/wosb/"
-    $regex    = 'ver=(?<Version>[\d\.]*)">Report Errors and Glitches'
+    $regex    = 'ver=(?<Version>[\d\.]*)">'
 
     (Invoke-WebRequest -Uri $releases) -match $regex | Out-Null
     $version = $matches.Version

@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com//DNSCrypt/dnscrypt-proxy/releases/download/2.0.35/dnscrypt-proxy-win32-2.0.35.zip
-   x64: https://github.com//DNSCrypt/dnscrypt-proxy/releases/download/2.0.35/dnscrypt-proxy-win64-2.0.35.zip
+   x32: https://github.com//DNSCrypt/dnscrypt-proxy/releases/download/2.0.36-beta.1/dnscrypt-proxy-win32-2.0.36-beta.1.zip
+   x64: https://github.com//DNSCrypt/dnscrypt-proxy/releases/download/2.0.36-beta.1/dnscrypt-proxy-win64-2.0.36-beta.1.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: BF99D8BEF3D53F7BE80EB74FCAA19DD229341CAFF981018DFD3EDFD80878F82A
-   checksum64: F1819A978C03EFB598507D05D86427E8304599C70A1DDB6733924AB5F315FFB5
+   checksum32: A8D60FEF5128C6E8500E0DE8B850A251DFE36EFC83A193F3499254C46A7AF2AC
+   checksum64: 027F194E442301FC1C0DA8DD49C9E9B2C7CAED92350F91F852C81ED034836651
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/jedisct1/dnscrypt-proxy/master/LICENSE

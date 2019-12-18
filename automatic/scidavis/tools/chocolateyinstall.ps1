@@ -1,9 +1,9 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  file          = "$toolsDir\scidavis.1.25-win-dist.msi"
+  file          = "$toolsDir\scidavis.1.26-win-dist.msi"
   filetype      = "MSI"
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
   validExitCodes= @(0, 3010, 1641)

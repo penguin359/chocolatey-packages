@@ -15,8 +15,8 @@ Package can be verified like this:
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 578b680a5cdb30dce06938cb74b1333cfca7628707a5e1dbd9a7049bbf2b8b36
-   checksum64: 578b680a5cdb30dce06938cb74b1333cfca7628707a5e1dbd9a7049bbf2b8b36
+   checksum32: 784db0fcff01b47be88e2147c9b2e6f3ec269d05b83dc157eba59d39b7b41959
+   checksum64: 784db0fcff01b47be88e2147c9b2e6f3ec269d05b83dc157eba59d39b7b41959
  
 File 'LICENSE.txt' is obtained from:
    https://github.com/Crypt32/Asn1Editor.WPF/blob/master/LICENSE.md

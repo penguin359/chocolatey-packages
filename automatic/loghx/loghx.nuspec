@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>loghx</id>
+    <version>0.0.0.517</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/loghx</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>LogHX</title>
+    <authors>Alexei V.Chernobai RX4HX</authors>
+    <projectUrl>http://rx4hx.qrz.ru/index.php?page=projects_loghx</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/loghx/loghx.png</iconUrl>
+    <copyright>© 2015 R2DFD · All Rights reserved.</copyright>
+    <!--<licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>-->
+    <!--<requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>http://groups.yahoo.com/group/hxsoft</mailingListUrl>
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>loghx log HAM radio amateur</tags>
+    <summary>The freeware logger software, designed as complete Ham Radio environment.</summary>
+    <description><![CDATA[
+## Features
+
+- Keep a QSO accounting
+- Track and check of e-QSL and paper QSL exchange, via QSL-manager or direct
+- Check preview QSO in run time
+- Use data from a most popular callbook
+- Make various search in the logbook database
+- Keep an any kind of any award statistic
+- Import and export logbook from/to most popular formats i.e. adif, cabrillo etc
+- Interoperate with telnet cluster and third party hamradio software
+- Antenna rotator control
+- Use an editable macros for PSK, RTTY, CW and SSB operation
+
+MMVari, MMTTY, CWServer is include into LogHX as embedded modules.
+
+Sure, LogHX can be connected with your TRxs CAT by OmniRig or direct.
+
+One of the LogHX features - multiwindows structure allows you use nedded tools only and keep your monitor screen space for another application.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/loghx/screenshot.png)
+]]></description>
+    <releaseNotes>http://rx4hx.qrz.ru/files/loghx/Whatsnew.txt</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

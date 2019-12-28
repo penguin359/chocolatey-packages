@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName  = $env:ChocolateyPackageName
 
-  url          = Get-RedirectedURL 'https://www.dropbox.com/s/n661tz0nd3zah9m/GridTracker-Installer.1.19.1026.exe?dl=1'
-  checksum     = '139c50f269a90949ae7748c9ad67833c33a0eba4501ff5498c99fb233d4a5416'
+  url          = 'https://uc396a2b688fc2ed1550ef224389.dl.dropboxusercontent.com/cd/0/get/AvH_fjjURIpEekxIqhHBofeSXGmCbZkxJBynYLbKEXoMjaE2voPMi_vQNTWbCMuOHPtodM67WT7c-Yrv9SrV5qjGHYqNRr_Q6Eyl_-dbFb98hezoazpPgy51eosEhpokJuE/file?dl=1#'
+  checksum     = ''
   checksumType = 'sha256'
 
   silentArgs   = '/S'

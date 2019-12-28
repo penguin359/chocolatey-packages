@@ -15,7 +15,7 @@
 
 MMVari, MMTTY, CWServer is include into LogHX as embedded modules.
 
-Sure, LogHX can be connected with your TRxs CAT by OmniRig or direct.
+Sure, LogHX can be connected with your TRx's CAT by OmniRig or direct.
 
 One of the LogHX features - multiwindows structure allows you use nedded tools only and keep your monitor screen space for another application.
 

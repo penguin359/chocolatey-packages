@@ -19,4 +19,4 @@ Package can be verified like this:
    checksum64: E40BBE810785AA55DC6574798B4DCBD95BEF75CBEE551EA390E7C2156840A2D2
  
 File 'LICENSE.txt' is obtained from:
-   https://raw.githubusercontent.com/LibreHardwareMonitor/LibreHardwareMonitor/master/LICENSE
+   https://raw.githubusercontent.com/LibreHardwareMonitor/LibreHardwareMonitor/master/Licenses/LICENSE

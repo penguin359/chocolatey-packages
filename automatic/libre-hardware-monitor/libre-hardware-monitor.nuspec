@@ -11,7 +11,7 @@
     <projectUrl>https://github.com/LibreHardwareMonitor/LibreHardwareMonitor</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/libre-hardware-monitor/libre-hardware-monitor.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
-    <licenseUrl>https://raw.githubusercontent.com/LibreHardwareMonitor/LibreHardwareMonitor/master/LICENSE</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/LibreHardwareMonitor/LibreHardwareMonitor/master/Licenses/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/LibreHardwareMonitor/LibreHardwareMonitor</projectSourceUrl>
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->

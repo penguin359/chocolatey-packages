@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>hugin</id>
-    <version>2019.0.0.20190512</version>
+    <version>2019.2.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/hugin</packageSourceUrl>
     <owners>chtof</owners>
     <title>Hugin</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://bugs.launchpad.net/hugin</bugTrackerUrl>
     <tags>hugin photo image panorama</tags>
     <summary>With Hugin you can assemble a mosaic of photographs into a complete immersive panorama, stitch any series of overlapping pictures and much more.</summary>
-    <description><![CDATA[
-With Hugin you can assemble a mosaic of photographs into a complete immersive panorama, stitch any series of overlapping pictures and much more.
+    <description><![CDATA[With Hugin you can assemble a mosaic of photographs into a complete immersive panorama, stitch any series of overlapping pictures and much more.
 
 Hugin is an Open Source panorama stitcher and graphical user interface (GUI) for Panorama tools. It also provides a number of additional components and command line tools.
 
@@ -41,7 +40,7 @@ Starting with version 2011.2.0, Hugin is scriptable in Python. The scripting fun
 ]]></description>
     <releaseNotes>http://hugin.sourceforge.net/releases</releaseNotes>
     <dependencies>
-      <dependency id="hugin.install" version="[2019.0.0.20190512]" />
+      <dependency id="hugin.install" version="[2019.2.0]" />
     </dependencies>
   </metadata>
   <files></files>

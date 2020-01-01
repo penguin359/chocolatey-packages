@@ -1,4 +1,5 @@
-﻿import-module au
+﻿$ErrorActionPreference = 'Stop'
+import-module au
 
 function global:au_GetLatest {
     $releases = Get-RedirectedUrl 'https://www.binaryfortress.com/Data/Download/?package=hashtools&log=100'

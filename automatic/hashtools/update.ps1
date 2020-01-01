@@ -1,6 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop'
 import-module au
 
+function global:au_BeforeUpdate {    
+    $Latest.Checksum32 = Get-RemoteChecksum $Latest.URL32
+}
+
 function global:au_GetLatest {
     $releases = Get-RedirectedUrl 'https://www.binaryfortress.com/Data/Download/?package=hashtools&log=100'
     $regex    = 'HashToolsSetup-(?<Version>[\d.]+)(?<VersionLetter>[a-z]+).exe$'
@@ -27,4 +31,4 @@ function global:au_SearchReplace {
     }
 }
 
-update -noCheckurl
+update -noCheckurl -checksumFor none

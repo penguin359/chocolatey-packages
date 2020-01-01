@@ -10,5 +10,8 @@ $packageArgs = @{
 
 Install-ChocolateyInstallPackage @packageArgs
 $path = Get-AppInstallLocation OpenSSL-Win
+
+Install-ChocolateyPath -PathToInstall "$path\bin"
+
 Set-EnvironmentVariable -Name OPENSSL_CONF -Value "$path\bin\openssl.cfg"
 Write-Warning "OPENSSL_CONF has been set to $path\bin\openssl.cfg"

@@ -2,16 +2,18 @@
 import-module au
 
 function global:au_GetLatest {
-     $releases     = 'http://www.ne.jp/asahi/foresth/home/indexe.htm'
-	 $regexVersion = 'ComPDF</a> 
-        Ver(?<Version>[\d\._]+)'
-     $regex = 'cpdf[\d.]+.zip'
+    $releases     = 'http://www.ne.jp/asahi/foresth/home/indexe.htm'
+	$regexVersion = 'ComPDF Ver(?<Version>[\d\._]+)'
+    $regex        = 'cpdf[\d.]+.zip'
 
-	 $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	 $url = $download_page.links | ? href -match $regex | Select -First 1
-     $download_page.Content -match $regexVersion
+	$download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+	$url           = $download_page.links | ? href -match $regex | Select -First 1
 
-     return @{ Version = $version ; URL32 = 'http://www.ne.jp/asahi/foresth/home/' + $url.href }
+    $HTML = New-Object -Com "HTMLFile"
+    $HTML.IHTMLDocument2_write($download_page.Content)
+    ($HTML.all.tags("strong") |% InnerText | Out-String) -match $regexVersion | Out-Null
+
+     return @{ Version = $matches.Version ; URL32 = 'http://www.ne.jp/asahi/foresth/home/' + $url.href }
 }
 
 function global:au_SearchReplace {

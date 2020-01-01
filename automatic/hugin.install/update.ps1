@@ -10,7 +10,7 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	$url = $download_page.links | ? href -match $regex
     
-    return @{ Version = $matches.Version ; URL32 = $url.href }
+    return @{ Version = $matches.Version ; URL32 = Get-RedirectedURL $url.href }
 }
 
 function global:au_SearchReplace {

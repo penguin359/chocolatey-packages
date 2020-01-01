@@ -2,17 +2,13 @@
 
 function global:au_GetLatest {
     $releases = Get-RedirectedUrl 'https://www.binaryfortress.com/Data/Download/?package=hashtools&log=100'
-    $regex    = 'HashToolsSetup-(?<Version>[a-z\d.]+).exe$'
+    $regex    = 'HashToolsSetup-(?<Version>[\d.]+)(?<VersionLetter>[a-z]+).exe$'
 
-    $releases -match $regex | Out-Null    
+    $releases -match $regex | Out-Null
     $version = $matches.Version
 
-    # If version is like "1.2c", replacing char by a value to obtain "1.2.3"
-    $lastChar = ($version.Substring($version.Length-1));
-
-    if ($lastChar -like "[a-z]") {
-        $char_value = [byte][char]$lastchar - 96
-        $version = $version -replace "$lastChar", ".$char_value"
+     if ($matches.VersionLetter) {
+        $version = $version + '.' + ( [int][char]$matches.VersionLetter - 96 )
     }
 
     return @{

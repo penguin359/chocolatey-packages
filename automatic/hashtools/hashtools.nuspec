@@ -3,14 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>hashtools</id>
-    <version>4.2</version>    
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/hashtools</packageSourceUrl>    
-    <owners>chtof</owners>    
+    <version>4.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/hashtools</packageSourceUrl>
+    <owners>chtof</owners>
     <title>HashTools</title>
-    <authors>Binary Fortress Software</authors>    
+    <authors>Binary Fortress Software</authors>
     <projectUrl>https://www.binaryfortress.com/HashTools/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/hashtools/hashtools.png</iconUrl>
-    <copyright>Binary Fortress Software</copyright>    
+    <copyright>Binary Fortress Software</copyright>
     <licenseUrl>https://www.binaryfortress.com/HashTools/License/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <bugTrackerUrl>https://www.binaryfortress.com/HashTools/Discussions/</bugTrackerUrl>
@@ -30,10 +30,10 @@ Completely FreeHashTools is completely free, now and forever!
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/hashtools/screenshot.png)
 ]]></description>
     <releaseNotes>https://www.binaryfortress.com/HashTools/ChangeLog/</releaseNotes>
-	<dependencies>
-    <dependency id="dotnetfx" version="4.6.2" />
-	  <dependency id="autohotkey.install" version="1.1.30" />
-  </dependencies>
+    <dependencies>
+      <dependency id="dotnetfx" version="4.6.2" />
+      <dependency id="autohotkey.install" version="1.1.30" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

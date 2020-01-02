@@ -2,7 +2,7 @@
 import-module au
 
 function global:au_GetLatest {
-    $releases     = 'https://www.ne.jp/asahi/foresth/home'
+    $releases     = 'https://www.ne.jp/asahi/foresth/home/'
 	$regexVersion = 'SepAVI Ver(?<Version>[\d\._]+)'
     $regex        = 'savi([\d\._]+).zip'
  

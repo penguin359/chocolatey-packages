@@ -1,4 +1,5 @@
-﻿Import-Module au
+﻿$ErrorActionPreference = 'Stop'
+Import-Module au
 Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1"
 
 function global:au_GetLatest {

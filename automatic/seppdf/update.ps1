@@ -2,7 +2,7 @@
 import-module au
 
 function global:au_GetLatest {
-    $releases     = 'https://www.ne.jp/asahi/foresth/home'    
+    $releases     = 'https://www.ne.jp/asahi/foresth/home/'    
     $regexVersion = 'SepPDF Ver(?<Version>[\d\.]+)'
 	$regex        = 'spdf([\d\._]+).zip'
 

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>seppdf</id>
-    <version>3.24</version>
+    <version>3.26</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/seppdf</packageSourceUrl>
     <owners>chtof</owners>
     <title>SepPDF</title>
@@ -19,8 +19,7 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>seppdf split PDF page</tags>
     <summary>Split PDF file containing multiple pages into individualized single PDF files for each page.</summary>
-    <description><![CDATA[
-You can split PDF file containing multiple pages into individualized single PDF files for each page.
+    <description><![CDATA[You can split PDF file containing multiple pages into individualized single PDF files for each page.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/seppdf/screenshot.png)
 ]]></description>

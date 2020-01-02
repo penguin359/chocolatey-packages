@@ -60,5 +60,5 @@ function GetETagIfChanged() {
 }
 
 if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none
+    update
 }

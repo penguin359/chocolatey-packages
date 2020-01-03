@@ -1,6 +1,11 @@
 ﻿$ErrorActionPreference = 'Stop'
 import-module au
 
+function global:au_BeforeUpdate() {
+    $Latest.Checksum32 = Get-RemoteChecksum $Latest.Url32
+    $Latest.Checksum64 = Get-RemoteChecksum $Latest.Url64
+}
+
 function global:au_GetLatest {
 	$releases = 'https://virtualhere.com/windows_server_software'
 	$regex    = '\>version (?<Version>[\d\._]+) Changes\<'
@@ -25,4 +30,4 @@ function global:au_SearchReplace {
     }
 }
 
-update
+update -ChecksumFor none

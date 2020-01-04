@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>qrq</id>
+    <version>0.3.3</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/qrq</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>QRQ - yet another CW trainer</title>
+    <authors>Fabian Kurz, DJ1YFK</authors>
+    <projectUrl>https://fkurz.net/ham/qrq.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/qrq/qrq.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://fkurz.net/ham/qrq</projectSourceUrl>
+    <docsUrl>https://fkurz.net/ham/qrq.html</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>qrq HAM radio amateur CW morse trainer tutor</tags>
+    <summary>QRQ is an open source Morse telegraphy trainer to improve the ability to copy callsigns at high speeds.</summary>
+    <description><![CDATA[
+QRQ is an open source Morse telegraphy trainer which runs on several operating systems (Linux, Unix, OS X and Windows), similar to the classic DOS version of [Rufz](http://www.rufzxp.net) by DL4MM.
+
+It's not intended for learning telegraphy (check out [LCWO](http://lcwo.net) or have a look at [radio.linux.org.au](http://radio.linux.org.au/?sectpat=morse&ordpat=title) for CW learning software), but to improve the ability to copy callsigns at high speeds, as needed for example for [Contesting](http://en.wikipedia.org/wiki/Contesting).
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/qrq/screenshot.png)
+]]></description>
+    <releaseNotes>https://fkurz.net/ham/qrq/ChangeLog</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

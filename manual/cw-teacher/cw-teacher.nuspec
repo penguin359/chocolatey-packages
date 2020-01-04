@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cw-teacher</id>
+    <version>1.1</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/cw-teacher</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>CW Teacher</title>
+    <authors>Scott Davis N3FJP</authors>
+    <projectUrl>http://www.n3fjp.com/cwteacher.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/cw-teacher/cw-teacher.png</iconUrl>
+    <copyright>Copyright 1997-2020, N3FJP Software - Affirmatech, Inc</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>cw-teacher HAM radio amateur CW morse teacher tutor</tags>
+    <summary>CW Teacher will teach you Morse Code at your own pace.</summary>
+    <description><![CDATA[
+CW Teacher will teach you Morse Code at your own pace. Set the sending rate at 18 WPM or higher so that you learn the characters at a functional speed, but don't worry, the software will send you each character, one at a time and wait for you to respond. There is zero rush. The entire emphasis of the software is teaching you to associate a sound with a letter. With just a bit of practice, that's really easy to do!
+
+Since copying CW with a keyboard is exactly what you will be doing when you are CW contesting, this software helps you become comfortable transferring what you hear to your keyboard directly as well.
+
+The emphasis of this software is teaching Morse code from the absolute beginning, but I've also included options for more advanced practice, such as copying random call signs and Field Day style exchanges.
+
+This program is completely free! Please enjoy it and share it with anyone you may know who would like to learn CW!
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/cw-teacher/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

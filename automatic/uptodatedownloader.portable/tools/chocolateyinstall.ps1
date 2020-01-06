@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
@@ -6,7 +6,7 @@ $packageArgs = @{
   filefullpath  = "$toolsDir\uptodatedl.exe"
 
   url           = 'https://www.wintools.info/Download/uptodatedl.exe'
-  checksum      = '9C838222EDDE713ACDAE9A912D63C238AC3CAD90904BD5F41E01B08FEF637743'
+  checksum      = 'c6b270c66273987a2c712a6d57756eaffd14ba887289077e573ca0add66e6e25'
   checksumType  = 'sha256'  
 }
 

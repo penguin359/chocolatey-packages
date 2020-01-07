@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>    
     <id>uptodatedownloader.portable</id>    
-    <version>1.2.0.10</version>    
+    <version>1.3.0.11</version>    
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/uptodatedownloader.portable</packageSourceUrl>    
     <owners>chtof</owners>    
     <title>upToDate Downloader (Portable)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://www.wintools.info/index.php/contact</bugTrackerUrl>
     <tags>uptodatedownloader downloader remote files sync uptodate</tags>
     <summary>Download A List Of Files And Keep Them Up To Date</summary>
-    <description><![CDATA[
-With the help of upToDate Downloader, an Internet-based file downloader, the elements of a download list can be continuously kept up to date. The program can update large amounts of files downloadable from the Internet (e.g. installation programs, drivers, media files etc.) in one step.
+    <description><![CDATA[With the help of upToDate Downloader, an Internet-based file downloader, the elements of a download list can be continuously kept up to date. The program can update large amounts of files downloadable from the Internet (e.g. installation programs, drivers, media files etc.) in one step.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/uptodatedownloader.portable/screenshot.png)
 

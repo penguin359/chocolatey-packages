@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>pcw-fistcheck</id>
-    <version>3.0.0</version>
+    <version>3.0.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/pcw-fistcheck</packageSourceUrl>
     <owners>chtof</owners>
     <title>Precision CW Fistcheck</title>

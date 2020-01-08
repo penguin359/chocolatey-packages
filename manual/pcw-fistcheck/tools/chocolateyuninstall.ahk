@@ -12,5 +12,6 @@ WinWait, %winTitle1%,, 30
 ControlClick, Button1, %winTitle1% ; &Next >
 
 ; Finish
+
 WinWait, %winTitle1%, &Finish, 60
 ControlClick, Button1, %winTitle1% ; &Finish

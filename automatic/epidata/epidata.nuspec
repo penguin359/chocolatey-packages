@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>epidata</id>
-    <version>4.6.0.0</version>
+    <version>4.6.0.2</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/epidata</packageSourceUrl>
     <owners>chtof</owners>
     <title>EpiData All-In-One (Manager, EntryClient and Analysis)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>http://lists.umanitoba.ca/mailman/listinfo/epidata-list</bugTrackerUrl>
     <tags>epidata documentation data structure analysis quantitative data</tags>
     <summary>EpiData is a group of applications used in combination for creating documented data structures and analysis of quantitative data.</summary>
-    <description><![CDATA[
-**EpiData Entry** is used for simple or programmed data entry and data documentation. Entry handles simple forms or related systems Optimised documentation and error detection features. E.g. double entry verifi cation, list of ID numbers in several fi les, codebook overview of data, date added to backup and encryption procedures.
+    <description><![CDATA[**EpiData Entry** is used for simple or programmed data entry and data documentation. Entry handles simple forms or related systems Optimised documentation and error detection features. E.g. double entry verifi cation, list of ID numbers in several fi les, codebook overview of data, date added to backup and encryption procedures.
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/epidata/screenshot1.png)
 
 **EpiData Analysis** performs basic statistical analysis, graphs, and comprehensive data management. E.g. descriptive statistics, SPC Charts, Recoding data, label values and variables. Defi ning missing values.

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cute-cw</id>
+    <version>1.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/cute-cw</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Cute CW</title>
+    <authors>Wes Hardaker WS6Z</authors>
+    <projectUrl>http://www.hamtools.org/cutecw</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/cute-cw/cute-cw.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/hardaker/CuteCW/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/hardaker/CuteCW</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>http://mail.hamtools.org/mailman/listinfo/cutecw-announce</mailingListUrl>
+    <bugTrackerUrl>https://github.com/hardaker/CuteCW/issues</bugTrackerUrl>
+    <tags>cute-cw HAM radio amateur CW morse tutor learn</tags>
+    <summary>Learning morse code is hard; this software breaks it into phases to make learning easier.</summary>
+    <description><![CDATA[
+Learning morse code is hard; this software breaks it into phases to make learning easier.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/cute-cw/screenshot.png)
+]]></description>
+    <releaseNotes>http://www.hamtools.org/cutecw/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

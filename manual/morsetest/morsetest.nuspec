@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>morsetest</id>
+    <version>4.6</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/morsetest</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>MorseTest</title>
+    <authors>Gordon Sweet</authors>
+    <projectUrl>http://www.sigord.co.uk/Submits/Software.htm</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/morsetest/morsetest.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>morsetest HAM radio amateur CW morse learn tutor</tags>
+    <summary>MorseCode and MorseTest allow you to create Morse either from keyboard entries, or by using a TXT file such as created with Windows Notepad.</summary>
+    <description><![CDATA[
+These programs allow you to create Morse either from keyboard entries, or by using a TXT file such as created with Windows Notepad. You can also use the Mouse as a Morse Key, one even as a simple LBUG for repetitive Dots and Dashes. The speed and tone can also be changed and a variety of suitable instrumental sounds used with one version, including using the little single speaker in the Console. This new version 4 now includes the option to use the Farnsworth system of learning, or to include a small selected random delay to attempt to Humanise the timing.
+
+## Screenshots
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/morsetest/screenshot-morsetest.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/morsetest/screenshot-morsecode.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

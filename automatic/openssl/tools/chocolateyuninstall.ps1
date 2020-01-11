@@ -1,4 +1,5 @@
-﻿Uninstall-ChocolateyEnvironmentVariable -VariableName OPENSSL_CONF
+﻿$ErrorActionPreference = 'Stop'
+Uninstall-ChocolateyEnvironmentVariable -VariableName OPENSSL_CONF
 
 $path = Get-AppInstallLocation OpenSSL-Win
 $pathToRemove = "$path\bin\"

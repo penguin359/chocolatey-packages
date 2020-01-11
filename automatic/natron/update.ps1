@@ -2,7 +2,7 @@
 
 function global:au_GetLatest {
     $github_repository = 'NatronGitHub/Natron'
-    $releases = 'https://github.com/' + $github_repository + '/releases'
+    $releases = 'https://github.com/' + $github_repository + '/releases/latest'
     $regex    = 'Natron-(?<Version>[\d\.]+)-Windows-x86_32bit-setup.exe$'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing

@@ -1,3 +1,4 @@
+﻿$ErrorActionPreference = 'Stop'
 import-module au
 
 [Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
@@ -17,6 +18,10 @@ function global:au_GetLatest {
     if ($matches.VersionLetter) {
         $version = $version + '.' + ( [int][char]$matches.VersionLetter - 96 ) + '00'
     }
+
+    # When the fourth segment is already used, it is recommended to add two zeroes (00) to the end of the version. Then when you need to fix, you just increment that number.
+    $versionNbSegment = ($version.ToCharArray() | Where-Object {$_ -eq '.'} | Measure-Object).Count
+    if ($versionNbSegment -eq 3) { $version += "00" }
 
     return @{
         Version = $version

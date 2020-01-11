@@ -5,7 +5,7 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 function global:au_GetLatest {
     $github_repository = "embree/embree"
     $releases = "https://github.com/" + $github_repository + "/releases/latest"
-    $regex    = 'embree-(?<Version>[\d\.]+).x64.vc12.msi$'
+    $regex    = 'embree-(?<Version>[\d\.]+).x64.vc[\d]+.msi$'
 
     $url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Select -First 1
 

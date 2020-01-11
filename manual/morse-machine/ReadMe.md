@@ -1,0 +1,10 @@
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/morse-machine/morse-machine.png" width="48" height="48"/> [Morse Machine](https://chocolatey.org/packages/morse-machine)
+
+Morse Machine is one of the best tools ever for learning to read Morse at a good speed. It is an adaptation for Microsoft Windows of the [Morse Code Teaching Machine](http://c2.com/morse) designed by Ward Cunningham and first described in an article in the May 1977 issue of QST.
+
+## Description
+Morse Machine teaches Morse code using a tried and tested technique called the Koch Method. Instead of encouraging you to memorize the dots and dashes for each letter and number - a bad practise that usually results in an inability to receive at faster than about 12wpm - Morse Machine sends quickly enough that you have to learn to recognize the sound of each letter, right from the start. The slowest it will send is 20wpm, so once you have learned the code using this program you will be able to receive at that speed - fast enough to QSO with 80% or 90% of stations on the air! The only ability you need is a reasonable familiarity with the computer keyboard, so that you can quickly press the right key for the character you heard.
+
+You can choose to learn letters only, numbers only, or a combination of letters, numbers and symbols. Morse Machine sends a character and then waits for you to type what you heard. If you get the character wrong it repeats it until you get it right. You start off with two characters, and when the program sees you are copying them correctly it adds another, and then another, until you are accurately copying the whole alphabet, numbers and punctuation characters! As you correctly read each character, the green bar above it goes down, so that you can easily see which characters are causing the most difficulty.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/morse-machine/screenshot.png)

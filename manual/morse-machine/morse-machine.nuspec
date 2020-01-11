@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>morse-machine</id>
+    <version>1.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/morse-machine</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Morse Machine</title>
+    <authors>Julian Moss, G4ILO</authors>
+    <projectUrl>http://www.g4ilo.com/morse-machine.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/morse-machine/morse-machine.png</iconUrl>
+    <copyright>Copyright © 1998 - 2012 Julian, G4ILO. All rights reserved.</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>morse-machine HAM radio amateur CW morse learn tutor</tags>
+    <summary>Morse Machine is one of the best tools ever for learning to read Morse at a good speed.</summary>
+    <description><![CDATA[
+Morse Machine is one of the best tools ever for learning to read Morse at a good speed. It is an adaptation for Microsoft Windows of the [Morse Code Teaching Machine](http://c2.com/morse) designed by Ward Cunningham and first described in an article in the May 1977 issue of QST.
+
+## Description
+Morse Machine teaches Morse code using a tried and tested technique called the Koch Method. Instead of encouraging you to memorize the dots and dashes for each letter and number - a bad practise that usually results in an inability to receive at faster than about 12wpm - Morse Machine sends quickly enough that you have to learn to recognize the sound of each letter, right from the start. The slowest it will send is 20wpm, so once you have learned the code using this program you will be able to receive at that speed - fast enough to QSO with 80% or 90% of stations on the air! The only ability you need is a reasonable familiarity with the computer keyboard, so that you can quickly press the right key for the character you heard.
+
+You can choose to learn letters only, numbers only, or a combination of letters, numbers and symbols. Morse Machine sends a character and then waits for you to type what you heard. If you get the character wrong it repeats it until you get it right. You start off with two characters, and when the program sees you are copying them correctly it adds another, and then another, until you are accurately copying the whole alphabet, numbers and punctuation characters! As you correctly read each character, the green bar above it goes down, so that you can easily see which characters are causing the most difficulty.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/morse-machine/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

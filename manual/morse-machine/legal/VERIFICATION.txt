@@ -1,0 +1,22 @@
+﻿VERIFICATION
+ 
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+Package can be verified like this:
+ 
+1. Download:
+ 
+   x32: http://www.g4ilo.com/files/mmsetup.exe
+   x64: http://www.g4ilo.com/files/mmsetup.exe
+  
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+ 
+   checksum type: sha256
+   checksum32: 8D61AD1AB31336B509C336C6DD645963C676576D8193C6CD5AD7D86B75F11A9B
+   checksum64: 8D61AD1AB31336B509C336C6DD645963C676576D8193C6CD5AD7D86B75F11A9B
+ 
+File 'LICENSE.txt' is obtained from:
+   https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt

@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>logisim-evolution</id>
-    <version>2.15.0</version>
+    <version>3.3.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/logisim-evolution</packageSourceUrl>
     <owners>chtof</owners>
     <title>Logisim Evolution</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/reds-heig/logisim-evolution/issues</bugTrackerUrl>
     <tags>logisim-evolution digital logic designer simulator</tags>
     <summary>Digital logic designer and simulator</summary>
-    <description><![CDATA[
-Logisim is an educational tool for designing and simulating digital logic circuits.
+    <description><![CDATA[Logisim is an educational tool for designing and simulating digital logic circuits.
 It has been originally created by [Dr. Carl Burch](http://www.cburch.com/logisim/) and actively developed until 2011.
 After this date the author focused on other projects, and recently the development has been officially stopped  [(see his message here)](http://www.cburch.com/logisim/retire-note.html).
 

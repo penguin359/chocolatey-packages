@@ -1,12 +1,12 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName  
   FileFullPath  = "$toolsDir\logisim-evolution.jar"
 
-  url           = 'https://github.com/reds-heig/logisim-evolution/releases/download/v2.15.0/logisim-evolution.jar'
-  checksum      = '2D56D01A692E26DD2E5C19A6139ED66D9352FB4BC2C81171B2153B9099CFD91D'
+  url           = 'https://github.com/reds-heig/logisim-evolution/releases/download/v3.3.0/logisim-evolution-3.3.0-all.jar'
+  checksum      = '55a9ed8069fd677b0caa9cccc39ce5f64be4d16293b4daddb8c54d2082f2a847'
   checksumType  = 'sha256'
 }
 

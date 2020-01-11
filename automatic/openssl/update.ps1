@@ -20,8 +20,8 @@ function global:au_GetLatest {
     }
 
     # When the fourth segment is already used, it is recommended to add two zeroes (00) to the end of the version. Then when you need to fix, you just increment that number.
-    $versionNbSegment = ($version.ToCharArray() | Where-Object {$_ -eq '.'} | Measure-Object).Count
-    if ($versionNbSegment -eq 3) { $version += "00" }
+    #$versionNbSegment = ($version.ToCharArray() | Where-Object {$_ -eq '.'} | Measure-Object).Count
+    #if ($versionNbSegment -eq 3) { $version += "00" }
 
     return @{
         Version = $version

@@ -4,11 +4,11 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
 
   url           = 'http://www.kafkatool.com/download2/kafkatool.exe'
-  checksum      = '6b49469afa27a12b157636e60fc311f5d193f2a1f4ad0786d378980ebede96d0'
+  checksum      = 'f5dc6b9fe17c6ab6fe3e3d39109689824edd276401e45b19ba5d1ac52597e4ab'
   checksumType  = 'sha256'
 
   url64bit      = 'http://www.kafkatool.com/download2/kafkatool_64bit.exe'
-  checksum64    = 'c1c49b4fbd2b4f34bf002db1d8a757040cfe3e534e185868a8a0eb7edcba1c96'
+  checksum64    = '3ba44d11b15172701c3c9e398dbe78b2427813ea647d97300ec80c884dc5a97e'
   checksumType64= 'sha256'
 
   silentArgs    = "-q"

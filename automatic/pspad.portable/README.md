@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/master/pspad.portable/pspad.png" width="48" height="48"/> [PSPad](https://chocolatey.org/packages/pspad.portable)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/master/pspad.portable/pspad.portable.png" width="48" height="48"/> [PSPad (Portable)](https://chocolatey.org/packages/pspad.portable)
 
 [PSPad](http://www.pspad.com/en) is a freeware programmer's editor for Microsoft Windows operating systems, 
 useful for people who:

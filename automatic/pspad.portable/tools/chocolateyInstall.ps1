@@ -6,11 +6,9 @@ $packageArgs = @{
   unzipLocation = "$toolsDir"
   file          = Get-Item -path $toolsDir\*.zip
 
-  url			= 'https://www.pspad.com/files/pspad/pspad501en.zip'
+  url			= 'https://www.pspad.com/files/pspad/pspad502en.zip'
   checksumType	= 'sha256'
-  checksum		= 'D3B19FDC3FF879282C3671081BEE53B4A9CB61D5857DF29DD2D7F2BF81E34EB8'
-    
-  validExitCodes =  @(0)
+  checksum		= '5DABB55F90A8D727ED0479E66AE81159D581B49AE55CAABED22569AE66A03F0D'
 }
 
 # prevent chocolatey from creating shims for supplementary executables
@@ -24,4 +22,4 @@ Install-ChocolateyZipPackage @packageArgs
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = Join-Path $programs "PSPad.lnk"
 $targetPath = Join-Path $toolsDir "PSPad.exe"
-Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath
+Install-ChocolateyShortcut -shortcutFilePath "$shortcutFilePath" -targetPath "$targetPath"

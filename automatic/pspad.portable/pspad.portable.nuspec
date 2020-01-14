@@ -8,7 +8,7 @@
     <authors>Jan Fiala</authors>
     <owners>chtof</owners>
     <projectUrl>http://www.pspad.com</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/master/pspad.portable/pspad.portable.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/master/automatic/pspad.portable/pspad.portable.png</iconUrl>
     <licenseUrl>http://www.pspad.com/en/licence.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description><![CDATA[[PSPad](http://www.pspad.com/en) is a freeware programmer's editor for Microsoft Windows operating systems, 
@@ -60,7 +60,7 @@ useful for people who:
     <releaseNotes>http://www.pspad.com/en/whatsnew.htm</releaseNotes>
     <copyright>Copyright (C) 2001-2015 Jan Fiala</copyright>
     <tags>pspad text editor foss portable windows freeware development</tags>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/pspad.portable</packageSourceUrl>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/pspad.portable</packageSourceUrl>
     <docsUrl>http://www.pspad.com/en/helpfiles.htm</docsUrl>
   </metadata>
   <files>

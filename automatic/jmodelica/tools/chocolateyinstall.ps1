@@ -3,11 +3,11 @@
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
 
-  url          = 'https://jmodelica.org/downloads/JModelica.org-2.10.exe'
-  checksum     = 'c790934c761502e0c06f39148fe11ee2341173e680559ef0349df4a0b23fc627'
+  url          = 'https://downloads.modelon.com/download/?a=JMODELICA'
+  checksum     = 'f4d4fce582d01230f7546d2fe64c0588433ddfd0633d35e88d984f5cd1dca181'
   checksumType = 'sha256'
 
-  silentArgs   = "/S"
+  silentArgs   = '/S'
 }
 
 Install-ChocolateyPackage @packageArgs

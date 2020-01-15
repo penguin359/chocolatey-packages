@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ausweisapp2</id>
-    <version>1.16.2</version>
+    <version>1.20.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/ausweisapp2</packageSourceUrl>
     <owners>chtof</owners>
     <title>AusweisApp 2</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://www.ausweisapp.bund.de/en/qa/support</bugTrackerUrl>
     <tags>ausweisapp2 german federal id card online identification reader transport-PIN integrated self-assessment</tags>
     <summary>App to use the German federal ID card.</summary>
-    <description><![CDATA[
-## Briefly explained...
+    <description><![CDATA[## Briefly explained...
 To use the online identification function, you have to create the following preconditions:   
 
 - Online identification function activated

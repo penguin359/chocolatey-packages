@@ -1,15 +1,21 @@
 ﻿import-module au
 
 function global:au_GetLatest {
-    $releases = 'https://github.com/MoonchildProductions/UXP/releases'
-    $regex    = '\>Basilisk (?<Version>[\d\.]+)'
+    $releases = 'http://archive.palemoon.org/basilisk/'
+    $regex32  = 'basilisk-(?<FullVersion32>[\d]+[\d]{6}).win32.installer.exe'
+    $regex64  = 'basilisk-(?<FullVersion64>(?<Version>[\d]+)[\d]{6}).win64.installer.exe'
     
-    (Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null
+    $download_page = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links
+    $url32 = $download_page |? href -match $regex32 | Select -Last 1
+    $fullVersion32 = $matches.FullVersion32
+    $url64 = $download_page |? href -match $regex64 | Select -Last 1
+    $fullVersion64 = $matches.FullVersion64
+    $version     = $matches.Version -replace '([\d]+)([\d]{2})([\d]{2})','$1.$2.$3'
 
     return @{
-        Version = $matches.Version
-        URL32   = 'https://eu.basilisk-browser.org/release/basilisk-latest.win32.installer.exe'
-        URL64   = 'https://eu.basilisk-browser.org/release/basilisk-latest.win64.installer.exe'
+        Version = $version
+        URL32   = $releases + $url32.href
+        URL64   = $releases + $url64.href
     }
 }
 

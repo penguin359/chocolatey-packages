@@ -22,7 +22,7 @@ function global:au_SearchReplace {
         "tools\chocolateyInstall.ps1" = @{
 			"(^(\s)*url\s*=\s*)('.*')"      = "`$1'$($Latest.URL)'"
             "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
-            "([$]toolsDir\\nasnavi-)(\d|[a-z])(\\NASNaviInst.exe)" = "`${1}$($Latest.VersionFile)`${2}"            
+            "([$]toolsDir\\nasnavi-)[\da-z](\\NASNaviInst.exe)" = "`${1}$($Latest.VersionFile)`${2}"
         }
     }
 }

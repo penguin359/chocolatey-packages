@@ -3,17 +3,15 @@ import-module au
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-  $releases = 'http://www.log4om.com/dl/'
-  $regex    = 'Log4OM_(?<Version>[\d_]+).zip'
+    $releases = 'https://www.log4om.com/download/'
+    $regex    = 'Log4OM\d+_(?<Version>[\d_]+).zip'
 
-  (Invoke-WebRequest -Uri $releases).RawContent -match $regex | select -First 1
-  $version = $matches.Version -Replace "_", "."
-    
-	return @{
-    Version = $version
-    VersionUrl = $matches.Version
-    URL32 = 'http://www.log4om.com/log4om/release/Log4OM_' + $matches.Version + '.zip'
-  }
+    $url     = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links |? href -match $regex | select -First 1
+    $version = $matches.Version -Replace "_", "."
+
+  return @{
+        Version = $version
+        URL32   = $url.href
 }
 
 function global:au_SearchReplace {

@@ -10,6 +10,7 @@ function global:au_GetLatest {
 	return @{
         Version = $version
         URL32   = $url.href
+    }
 }
 
 function global:au_SearchReplace {

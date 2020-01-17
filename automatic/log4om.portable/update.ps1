@@ -1,7 +1,7 @@
 import-module au
 
 function global:au_GetLatest {
-    $releases = 'https://www.log4om.com/download/'
+    $releases = 'https://www.log4om.com/download-v1/'
     $regex    = 'Log4OM\d+_(?<Version>[\d_]+)_Portable.zip'
 
     $url     = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links |? href -match $regex | select -First 1

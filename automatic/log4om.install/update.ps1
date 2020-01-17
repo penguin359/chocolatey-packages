@@ -9,9 +9,10 @@ function global:au_GetLatest {
     $url     = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links |? href -match $regex | select -First 1
     $version = $matches.Version -Replace "_", "."
 
-  return @{
+    return @{
         Version = $version
         URL32   = $url.href
+    }
 }
 
 function global:au_SearchReplace {

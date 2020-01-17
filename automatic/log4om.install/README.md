@@ -6,6 +6,9 @@ Software focused on Ham Radio activity and requires very low resources from the 
 
 It has been tested on all Windows operating systems from Windows Vista to the latest version  available. Log4Om runs on Window Tablets with its full features and can be executed from a memory stick, it’s installation doesn’t use system registry to store information. Windows XP SP3 support terminated with release 1.32.1
 
+## Note
+__Users of Log4OM version 1 must export an ADIF file from version 1 and import it into version 2 once a database has been created in version 2 as described in Quick_Start_Guide.pdf.__
+
 ## Features
 
 - Interfaced with QRZ.COM and HAMQTH.COM for rapid searches and QSO data enhancements (massive (Bulk) updates are supported).

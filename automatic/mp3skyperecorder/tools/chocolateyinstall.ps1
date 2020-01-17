@@ -4,8 +4,8 @@ $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   filetype       = 'msi'
 
-  url            = 'https://voipcallrecording.com/old/MP3SkypeRecorderSetup452.msi'
-  checksum       = 'b81195aeadb06d9e087dfa34c14e79665d3f67af5ba8d4c9e47f47a48b09cc37'
+  url            = 'http://download.mp3skyperecorder.com/MP3SkypeRecorderSetup.exe?version=6.0.8'
+  checksum       = '601b0d0072141f9bbb44afbca82afdd136ef020c46ff9d8d5138d409d26b5ad2'
   checksumType   = 'sha256'
 
   silentArgs	 = "/qn /norestart /l*v `"$env:Temp\$env:ChocolateyPackageName.MsiInstall.log`""

@@ -1,4 +1,4 @@
-. $PSScriptRoot\..\cpu-z.install\update.ps1
+. $PSScriptRoot\..\log4om.install\update.ps1
 
 function global:au_SearchReplace {
    @{

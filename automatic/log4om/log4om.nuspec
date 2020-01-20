@@ -13,7 +13,7 @@
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/log4om/log4om.png</iconUrl>
     <copyright>2011-2012 Daniele Pistollato</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
-    <licenseUrl>http://www.pisto.it/LogOm/Log4OM_enu.pdf</licenseUrl>
+    <licenseUrl>https://www.log4om.com/l4ong/usermanual/Log4OMNG_ENU.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <docsUrl>http://www.log4om.com/resources/</docsUrl>

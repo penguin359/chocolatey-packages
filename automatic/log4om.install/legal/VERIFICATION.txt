@@ -19,4 +19,4 @@ Package can be verified like this:
    checksum64: 334ADD564B72479BEF2017B9829AA9D3CD39B1CD530FE6CBB68DFBC038528FBD
  
 File 'LICENSE.txt' is obtained from:
-   http://www.pisto.it/LogOm/Log4OM_enu.pdf
+   https://www.log4om.com/l4ong/usermanual/Log4OMNG_ENU.pdf

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>log4om.install</id>
-    <version>2.0.0.1</version>
+    <version>2.0.1.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/log4om.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>Log4OM (Install)</title>
@@ -19,7 +19,7 @@
     <bugTrackerUrl>http://forum.log4om.com/viewforum.php?f=7</bugTrackerUrl>
     <tags>log4om log HAM radio amateur</tags>
     <summary>Ham Radio Log Software</summary>
-    <description><![CDATA[Log4OM is developed by **IW3HMH Daniele Pistollato**.
+    <description><![CDATA[Log4OM is developed by **IW3HMH Daniele Pistollato**. 
 
 Software focused on Ham Radio activity and requires very low resources from the host computer.
 

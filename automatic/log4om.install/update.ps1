@@ -3,8 +3,8 @@ import-module au
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-  $releases = 'http://www.log4om.com/download-v1/'
-  $regex    = 'Log4OM_(?<Version>[\d_]+).zip'
+  $releases = 'http://www.log4om.com/download/'
+  $regex    = 'Log4OM\d+_(?<Version>[\d_]+).zip'
 
   $url     = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | select -First 1
   $version = $matches.Version -Replace "_", "."

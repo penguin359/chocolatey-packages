@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
-  <metadata>    
-    <id>log4om.portable</id>    
+  <metadata>
+    <id>log4om.portable</id>
     <version>2.0.1.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/log4om.portable</packageSourceUrl>
-    <owners>chtof</owners>    
+    <owners>chtof</owners>
     <title>Log4OM (Portable)</title>
     <authors>Daniele Pistollato IW3HMH, Terry G4POP, Chuck K7PT , Rolf LA9FFA, Doug W7DRM, Peter G3ZSS, Claus OE6CLD</authors>
     <!-- projectUrl is required for the community feed -->
@@ -55,8 +55,7 @@ __Users of Log4OM version 1 must export an ADIF file from version 1 and import i
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/log4om.portable/screenshot.png)
 ]]></description>
-
-<releaseNotes><![CDATA[
+    <releaseNotes><![CDATA[
 ## MAINTENANCE RELEASE
 
 - Added support to QARTest direct QSO import in Log4OM Communicator (Inbound settings, default port is 9458)
@@ -64,13 +63,13 @@ __Users of Log4OM version 1 must export an ADIF file from version 1 and import i
 - Added new CAT mode in settings (Source: N1MM – selection: External) that overrides Omnirig and Hamlib (requires a running communicator instance)
 - Set autofocus over search fields of QSO Management and QSL Management forms
 - Added Aircraft Scatter in the propagation mode list and moved the whole list to external configuration file (propagation.csv)
-]]></releaseNotes>    
-<dependencies>
-	<dependency id="dotnetfx" version="[4.6.2]" />
-	<dependency id="omnirig" version="1.18" />
-</dependencies>    
+]]></releaseNotes>
+    <dependencies>
+      <dependency id="dotnetfx" version="[4.6.2]" />
+      <dependency id="omnirig" version="1.18" />
+    </dependencies>
   </metadata>
-  <files>    
-    <file src="tools\**" target="tools" />    
+  <files>
+    <file src="tools\**" target="tools" />
   </files>
 </package>

@@ -5,7 +5,7 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 function global:au_GetLatest {	
     $github_repository = 'ospray/ospray'
     $releases = 'https://github.com/' + $github_repository + '/releases/latest'
-    $regex   = 'ospray-(?<Version>[\d\.]+).windows.zip$'
+    $regex   = 'ospray-(?<Version>[\d\.]+)(x86_64)?.windows.zip$'
 
 	$url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex
 

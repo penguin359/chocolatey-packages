@@ -5,8 +5,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
 
-  url           = 'https://github.com/olivierkes/manuskript/releases/download/0.10.0/manuskript-0.10.0-2-win32.zip'
-  checksum      = 'bda4eb1c3a983822c6a24a4ca00b0afe334bf16d6c44f5fb24b39a5bf7ebf206'
+  url           = 'https://github.com/olivierkes/manuskript/releases/download/0.11.0/manuskript-0.11.0-win32.zip'
+  checksum      = '5e631677911bd2313945ec7d3117b4ad9ff1f72f7f0a7dc396e3f05c73345996'
   checksumType  = 'sha256'
 }
 

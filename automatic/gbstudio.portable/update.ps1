@@ -1,4 +1,10 @@
-﻿import-module au
+﻿$ErrorActionPreference = 'Stop'
+import-module au
+
+function global:au_BeforeUpdate {
+    $Latest.Checksum32 = Get-RemoteChecksum $Latest.URL32
+    $Latest.Checksum64 = Get-RemoteChecksum $Latest.URL64
+}
 
 function global:au_GetLatest {
     $github_repository = "chrismaltby/gb-studio"
@@ -29,4 +35,4 @@ function global:au_SearchReplace {
     }
 }
 
-update
+update -ChecksumFor none

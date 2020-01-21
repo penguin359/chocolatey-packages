@@ -5,12 +5,12 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = "$toolsDir"
 
-  url           = 'https://www.orfeo-toolbox.org/packages/OTB-6.6.1-Win32.zip'
-  checksum      = '683E7B2D6CC3090FAD6688241D091F65F175C4A2B540B3AD181E18714713C490'
+  url           = 'https://www.orfeo-toolbox.org/packages/OTB-7.0.0-Win32.zip'
+  checksum      = '351db080cb3f13540397c8bb32eee1b735be720234e4b76cd9368d93092c4785'
   checksumType  = 'sha256'
 
-  url64         = 'https://www.orfeo-toolbox.org/packages/OTB-6.6.1-Win64.zip'
-  checksum64    = 'E88241444E7BE392B604019FB8AC3554295251BD85019EABA346C9D058F1EB89'
+  url64         = 'https://www.orfeo-toolbox.org/packages/OTB-7.0.0-Win64.zip'
+  checksum64    = '708d06aadca48497ead55a34b23286fff5147f446a5d7f6bec1042eeb6678bcf'
   checksumType64= 'sha256'
 }
 

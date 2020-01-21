@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>orfeo-toolbox</id>
-    <version>6.6.1</version>
+    <version>7.0.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/orfeo-toolbox</packageSourceUrl>
     <owners>chtof</owners>
     <title>Orfeo ToolBox</title>
@@ -19,9 +19,8 @@
     <bugTrackerUrl>https://gitlab.orfeo-toolbox.org/orfeotoolbox/otb/issues</bugTrackerUrl>
     <tags>orfeo-toolbox remote sensing image</tags>
     <summary>Orfeo ToolBox is an open-source project for state-of-the-art remote sensing, including a fast image viewer, apps callable from Bash, Python or QGIS, and a powerful C++ API.</summary>
-    <description><![CDATA[
-An [open-source](https://gitlab.orfeo-toolbox.org/orfeotoolbox/otb/blob/develop/LICENSE) project for state-of-the-art remote sensing. It can process high resolution optical, multispectral and radar images at the terabyte scale. ...from ortho-rectification or pansharpening, all the way to classification, SAR processing, and [much more](https://www.orfeo-toolbox.org/CookBook/Applications.html).
-Algorithms are accessible from [Monteverdi](https://www.orfeo-toolbox.org/CookBook/Monteverdi.html), [QGIS](http://docs.qgis.org/testing/en/docs/user_manual/processing_algs/otb/index.html), [Python](https://www.orfeo-toolbox.org/CookBook/recipes/numpy.html), the [command line](https://www.orfeo-toolbox.org/CookBook/OTB-Applications.html) or [C++](https://www.orfeo-toolbox.org/SoftwareGuide). Monteverdi is an easy to use visualization tool with an emphasis on hardware accelerated rendering for high resolution imagery (optical and SAR). End-users can visualize huge raw imagery products and access all of the applications in the toolbox. From resource limited laptops to high performance MPI clusters, OTB is available on Linux, macOS and Windows. It is community driven, extensible and heavily documented.
+    <description><![CDATA[An [open-source](https://gitlab.orfeo-toolbox.org/orfeotoolbox/otb/blob/develop/LICENSE) project for state-of-the-art remote sensing. It can process high resolution optical, multispectral and radar images at the terabyte scale. ...from ortho-rectification or pansharpening, all the way to classification, SAR processing, and [much more](https://www.orfeo-toolbox.org/CookBook/Applications.html).
+ Algorithms are accessible from [Monteverdi](https://www.orfeo-toolbox.org/CookBook/Monteverdi.html), [QGIS](http://docs.qgis.org/testing/en/docs/user_manual/processing_algs/otb/index.html), [Python](https://www.orfeo-toolbox.org/CookBook/recipes/numpy.html), the [command line](https://www.orfeo-toolbox.org/CookBook/OTB-Applications.html) or [C++](https://www.orfeo-toolbox.org/SoftwareGuide). Monteverdi is an easy to use visualization tool with an emphasis on hardware accelerated rendering for high resolution imagery (optical and SAR). End-users can visualize huge raw imagery products and access all of the applications in the toolbox. From resource limited laptops to high performance MPI clusters, OTB is available on Linux, macOS and Windows. It is community driven, extensible and heavily documented.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/orfeo-toolbox/screenshot.png)
 ]]></description>

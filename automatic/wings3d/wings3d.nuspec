@@ -52,10 +52,10 @@ Add textures to your model using the AutoUV facility. AutoUV helps you cut and u
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/wings3d/screenshot.png)
 ]]></description>
-  <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
-  <dependencies>
-    <dependency id="vcredist2013" version="12.0.40660.20180427" />
-  </dependencies>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <dependencies>
+      <dependency id="vcredist2013" version="12.0.40660.20180427" />
+    </dependencies>
   </metadata>
   <files>
     <file src="legal\**" target="legal" />

@@ -2,10 +2,10 @@
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName  
-  file          = "$toolsDir\wings-2.2.5.exe"    
-  file64        = "$toolsDir\wings-x64-2.2.4.exe"    
-  silentArgs	= "/S"
+  packageName = $env:ChocolateyPackageName  
+  file        = "$toolsDir\wings-2.2.5.exe"    
+  file64      = "$toolsDir\wings-x64-2.2.5.exe"    
+  silentArgs  = '/S'
 }
 
 Install-ChocolateyInstallPackage @packageArgs

@@ -1,4 +1,9 @@
-﻿import-module au
+﻿$ErrorActionPreference = 'Stop'
+import-module au
+
+function global:au_BeforeUpdate {
+    $Latest.Checksum32 = Get-RemoteChecksum $Latest.URL32
+}
 
 function global:au_GetLatest {
     $releases = 'https://www.skytopia.com/software/sunsetscreen'
@@ -21,4 +26,4 @@ function global:au_SearchReplace {
     }
 }
 
-update
+update -ChecksumFor none

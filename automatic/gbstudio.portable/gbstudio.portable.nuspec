@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gbstudio.portable</id>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/gbstudio.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>GB Studio (Portable)</title>
@@ -46,7 +46,7 @@ GB Studio comes with a web based emulator that even works great on mobile. You c
 ]]></description>
     <releaseNotes>https://github.com/chrismaltby/gb-studio/releases</releaseNotes>
   </metadata>
-  <files>    
+  <files>
     <file src="tools\**" target="tools" />
   </files>
 </package>

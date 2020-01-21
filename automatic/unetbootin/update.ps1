@@ -26,4 +26,4 @@ function global:au_SearchReplace {
     }
 }
 
-update -ChecksumFor none -noCheckUrl
+update -ChecksumFor none

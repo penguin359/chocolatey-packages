@@ -1,4 +1,5 @@
-﻿$programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
+﻿$ErrorActionPreference = 'Stop'
+$programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 
 $shortcutFilePath = Join-Path $programs "UNetbootin.lnk"
 if(Test-Path $shortcutFilePath) {

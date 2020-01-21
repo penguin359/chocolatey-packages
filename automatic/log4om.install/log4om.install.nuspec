@@ -9,7 +9,7 @@
     <title>Log4OM (Install)</title>
     <authors>Daniele Pistollato IW3HMH, Terry G4POP, Chuck K7PT , Rolf LA9FFA, Doug W7DRM, Peter G3ZSS, Claus OE6CLD</authors>
     <projectUrl>https://www.log4om.com</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/log4om.install/log4om.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/log4om.install/log4om.install.png</iconUrl>
     <copyright>2011-2012 Daniele Pistollato</copyright>
     <licenseUrl>https://www.log4om.com/l4ong/usermanual/Log4OMNG_ENU.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -57,12 +57,11 @@ __Users of Log4OM version 1 must export an ADIF file from version 1 and import i
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/log4om.install/screenshot.png)
 ]]></description>
-
-<releaseNotes>http://www.log4om.com</releaseNotes>
-<dependencies>
-	<dependency id="dotnetfx" version="4.6.3" />
-	<dependency id="omnirig" version="1.18.0.20190228" />
-</dependencies>
+    <releaseNotes>http://www.log4om.com</releaseNotes>
+    <dependencies>
+      <dependency id="dotnetfx" version="4.6.3" />
+      <dependency id="omnirig" version="1.18.0.20190228" />
+    </dependencies>
   </metadata>
   <files>
     <file src="legal\**" target="legal" />

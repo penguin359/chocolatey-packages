@@ -31,7 +31,7 @@ if ( !$pp.NoStartMenu ) {
 
 # Install desktop icon
 if ( $pp.DesktopIcon ) {
-    Write-Host "Creating desktop icon for pkcs11admin..."
+    Write-Host "Creating Desktop icon for pkcs11admin..."
     $sparams.ShortcutFilePath = "$Env:USERPROFILE\Desktop\Pkcs11Admin.lnk"
     Install-ChocolateyShortcut @sparams
 }

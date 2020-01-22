@@ -1,4 +1,5 @@
-﻿import-module au
+﻿$ErrorActionPreference = 'Stop'
+import-module au
 
 function global:au_BeforeUpdate {
     $filename       = 'CoolSoft_VirtualMIDISynth_' + $Latest.Version + '.exe'
@@ -13,6 +14,7 @@ function global:au_BeforeUpdate {
     $Latest.ChecksumType32 = 'sha256'
     $Latest.Checksum32     = (Get-FileHash -Algorithm SHA256 -Path "tools\$filename").Hash
     $Latest.URL32          = $url
+    $Latest.FileName32     = $filename
 }
 
 function global:au_GetLatest {

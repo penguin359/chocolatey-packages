@@ -8,7 +8,8 @@ if (!$pp['InstallationPath']) { $pp['InstallationPath'] = 'C:\CudaText' }
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
   destination = $pp['InstallationPath']
-  file64      = "$toolsDir\cudatext-win-x64-1.88.1.0.zip"
+  file        = "$toolsDir\cudatext-win-x32-1.89.0.2.zip"
+  file64      = "$toolsDir\cudatext-win-x64-1.89.0.2.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs
@@ -20,5 +21,10 @@ $myDocuments = [Environment]::GetFolderPath("MyDocuments")
 $shortcutFilePath = Join-Path $programs "CudaText.lnk"
 $targetPath = Join-Path $pp.InstallationPath "cudatext.exe"
 Install-ChocolateyShortcut -WorkingDirectory "$myDocuments" -shortcutFilePath $shortcutFilePath -targetPath $targetPath
+
+
+
+
+
 
 

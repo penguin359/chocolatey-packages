@@ -15,8 +15,8 @@ Package can be verified like this:
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: c45276d71ada7b39487a7dd9ecb24198ce90f7e0456696b2d34c3d32b7c3c9fa
-   checksum64: c45276d71ada7b39487a7dd9ecb24198ce90f7e0456696b2d34c3d32b7c3c9fa
+   checksum32: e731fdfeaca6d92b90fc48329e6a92af139d83891a5e3c06a271bc429920080e
+   checksum64: e731fdfeaca6d92b90fc48329e6a92af139d83891a5e3c06a271bc429920080e
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/Crypt32/SSLVerifier.WPF/master/LICENSE.md

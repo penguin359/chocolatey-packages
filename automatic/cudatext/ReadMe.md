@@ -2,7 +2,7 @@
 
 **CudaText** is a cross-platform text editor, written in Lazarus.
 It is fully open source, see [Wiki info](http://wiki.freepascal.org/CudaText#How_to_compile_program).
-It starts quite fast (0.5 sec with ~30 plugins on CPU Intel Core i3 3Hz).
+It starts quite fast (0.5 sec with about 30 plugins on CPU Intel Core i3 3Hz).
 It is extensible by Python add-ons (plugins, linters, code tree parsers, external tools).
 
 ### Package Specific

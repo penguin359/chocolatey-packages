@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ospray.install</id>
-    <version>1.8.5</version>
+    <version>2.0.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/ospray.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>Intel® OSPRay (Install)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/ospray/OSPRay/issues</bugTrackerUrl>
     <tags>ospray.install intel ray tracing engine</tags>
     <summary>The Open, Scalable, and Portable Ray Tracing Engine.</summary>
-    <description><![CDATA[
-## Prerequisites
+    <description><![CDATA[## Prerequisites
 Your CPU must support at least SSE4.1 to run OSPRay. The TGZ/ZIP packages contain most needed 3rd party dependencies, whereas for the (much smaller) RPM/installer packages you need to have installed:
 
 - Intel® [TBB](https://www.threadingbuildingblocks.org) v3.0 or newer

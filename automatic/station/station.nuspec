@@ -16,7 +16,7 @@
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
-    <bugTrackerUrl>https://community.getstation.com/c/bugs</bugTrackerUrl>
+    <bugTrackerUrl>https://feedback.getstation.com/bugs-support</bugTrackerUrl>
     <tags>station smart browser centralize web application</tags>
     <summary>One app to rule them all. Station is the first smart browser for busy people. A single place for all of your web applications.</summary>
     <description><![CDATA[## Overview

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>earth-alerts</id>
+    <version>2020.1.102</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/earth-alerts</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Earth Alerts</title>
+    <authors>South Wind Technologies</authors>
+    <projectUrl>https://earthalerts.manyjourneys.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/earth-alerts/earth-alerts.png</iconUrl>
+    <copyright>Copyright © 2003-2020 South Wind Technologies</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>earth-alerts earth monitor natural hazard event weather alert forecast </tags>
+    <summary>Earth Alerts is an application that allows you to monitor in near real-time a variety of natural hazard events that are occurring anywhere around the world.</summary>
+    <description><![CDATA[
+## What is EARTH ALERTS?
+Earth Alerts is an application that allows you to monitor in near real-time a variety of natural hazard events that are occurring anywhere around the world. Alert notifications, reports, and imagery provide the user with a convenient way to view natural phenomenon as they occur, whether close to home or some far-flung corner of the globe!
+
+## Features
+Earth Alerts includes basic weather tracking features such as National Weather Service alerts, current conditions, local forecasts and radar/satellite imagery. Note that this program does not provide the most extensive weather data or fanciest weather related imagery compared to what is available online. If weather information is all you're interested in, then Earth Alerts is probably NOT for you. There are many comprehensive applications, web browser add-ins, and websites available for monitoring weather.
+
+Earth Alerts is a little program for anybody who is fascinated with the power of nature and enjoys keeping track of what our little blue planet is dishing out on a regular basis!
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/earth-alerts/screenshot.png)
+]]></description>
+    <releaseNotes>https://earthalerts.manyjourneys.com/Changelog.txt</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

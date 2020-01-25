@@ -9,4 +9,6 @@ $packageArgs = @{
 }
 
 Install-ChocolateyInstallPackage @packageArgs
-Install-ChocolateyPath -PathToInstall "$env:ProgramFiles\Intel\OSPRay v1\bin"
+
+$packageArgs.file -match "ospray-(?<majorVersion>\d+)\..*" | Out-Null
+Install-ChocolateyPath -PathToInstall "$env:ProgramFiles\Intel\OSPRay v$($matches.majorVersion)\bin"

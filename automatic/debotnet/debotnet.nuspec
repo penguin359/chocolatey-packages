@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>debotnet</id>
+    <version>0.3.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/debotnet</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Debotnet</title>
+    <authors>Mirinsoft</authors>
+    <projectUrl>https://www.mirinsoft.com/ms-apps/debotnet</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/debotnet/debotnet.png</iconUrl>
+    <copyright>© 2020 Mirinsoft - Good apps are as little apps as possible. All rights reserved.</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/mirinsoft/debotnet/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/mirinsoft/debotnet</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>https://twitter.com/Mirinsoft</mailingListUrl>
+    <bugTrackerUrl>https://github.com/mirinsoft/debotnet/issues</bugTrackerUrl>
+    <tags>debotnet privacy security personal data</tags>
+    <summary>Debotnet is a free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.</summary>
+    <description><![CDATA[
+Debotnet is a free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.
+
+## The most important features at a glance 
+- Disable telemetry and online features, which send your data (sensitive and not) to Microsoft
+- Choose which unwanted functions you wish to disable
+- Uninstall Windows 10’s Built-in Apps 
+- Debotnet will show you what it's doing. You have full control, because the executing code can be viewed in a simple text editor
+- Debug mode. E.g. the Test mode lets you see which values are twisted in registry or commands executed
+- Simple scripting engine for adding custom privacy rules
+- Scripts updated on GitHub
+- Modern and familiar UI, with [template support](https://github.com/Mirinsoft/Roboget/blob/master/templates/templates.md)
+- Small footprint. No installation required.
+- Portable
+- 100% Free Software ([License](https://github.com/mirinsoft/debotnet/blob/master/LICENSE.md))
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/debotnet/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/mirinsoft/debotnet/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

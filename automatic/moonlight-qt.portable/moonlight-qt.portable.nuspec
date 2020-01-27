@@ -15,7 +15,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/moonlight-stream/moonlight-qt</projectSourceUrl>
     <docsUrl>https://github.com/moonlight-stream/moonlight-docs/wiki/Setup-Guide</docsUrl>
-    <mailingListUrl>https://discord.gg/MySTSdq</mailingListUrl>
+    <mailingListUrl>https://moonlight-stream.org/discord</mailingListUrl>
     <bugTrackerUrl>https://github.com/moonlight-stream/moonlight-qt/issues</bugTrackerUrl>
     <tags>moonlight-qt.portable nvidia gametream client</tags>
     <summary>Open source NVidia Gamestream client.</summary>

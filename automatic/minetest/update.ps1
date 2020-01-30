@@ -31,10 +31,10 @@ function global:au_SearchReplace {
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum64)"
         }
 
-        "tools\chocolateyinstall.ps1" = @{
+        "tools\chocolateyInstall.ps1" = @{
           "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
           "(?i)(^\s*file64\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`$1$($Latest.FileName64)`""
-          "(`"[$]toolsDir\\dexed-)[\d\.]+(-win.exe)"     = "`$1$($Latest.Version)`$3`""
+          "([$]toolsDir `"minetest-)[\d\.]+(-win.*)"     = "`$1$($Latest.Version)`$2`""
         }
     }
 }

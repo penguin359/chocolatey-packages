@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://ci.appveyor.com/api/buildjobs/hv364042lefs57pe/artifacts/bin/Release.zip
-   x64: https://ci.appveyor.com/api/buildjobs/hv364042lefs57pe/artifacts/bin/Release.zip
+   x32: https://ci.appveyor.com/api/buildjobs/4tv1r25ag0d2600m/artifacts/bin/Release.zip
+   x64: https://ci.appveyor.com/api/buildjobs/4tv1r25ag0d2600m/artifacts/bin/Release.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: DA39FC8D6467B65ECA7AE39F278A1E568BF2CD8CF13FA4C958B62EC4D8FEE6C8
-   checksum64: DA39FC8D6467B65ECA7AE39F278A1E568BF2CD8CF13FA4C958B62EC4D8FEE6C8
+   checksum32: 707671C54EFDEDEB35C44ABEEE9932E77D714F1E652001576CCDCB77BFA66227
+   checksum64: 707671C54EFDEDEB35C44ABEEE9932E77D714F1E652001576CCDCB77BFA66227
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/LibreHardwareMonitor/LibreHardwareMonitor/master/Licenses/LICENSE

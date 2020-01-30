@@ -12,7 +12,6 @@ function global:au_GetLatest {
             
     (Invoke-WebRequest -Uri $releases).RawContent -match $regex_version | Out-Null
 
-     return @{ Version = $matches.Version ; URL32 = $url.href }
      return @{ Version = $matches.Version ; URL32 = $url.href + 'ccenhancer-install-' + $matches.Version + '.zip' }
 }
 

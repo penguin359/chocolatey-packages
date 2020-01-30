@@ -9,7 +9,7 @@
     <title>CCEnhancer (Install)</title>
     <authors>SingularLabs</authors>
     <projectUrl>https://singularlabs.com/software/ccenhancer</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ccenhancer.install/ccenhancer.install.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ccenhancer.install/ccenhancer.install.png</iconUrl>
     <copyright>© 2019 SingularLabs</copyright>
     <licenseUrl>https://singularlabs.com/legal</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -37,10 +37,10 @@ winapp2.ini is licensed under the [Attribution-ShareAlike 4.0 International (CC 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ccenhancer.install/screenshot.png)
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
-  <dependencies>
-    <dependency id="ccleaner" version="5.39" />
-  </dependencies>
-  </metadata> 
+    <dependencies>
+      <dependency id="ccleaner" version="5.39" />
+    </dependencies>
+  </metadata>
   <files>
     <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />

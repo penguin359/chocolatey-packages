@@ -10,8 +10,9 @@ function global:au_BeforeUpdate {
 
 function global:au_GetLatest {
   $download_url = 'https://www.pkisolutions.com/download/16449/'
-  $regex        = '(Asn1Editor-v(?<Version>[\d\.]+).zip)'
+  $regex        = 'Asn1Editor-v(?<Version>[\d\.]+).zip'
 
+  $download = Invoke-WebRequest $download_url -UseBasicParsing
   $download.Headers.'Content-Disposition' -match $regex | Out-Null
  
   return @{ Version = $matches.Version ; FileName32 = $matches[0] ; URL32 = $download_url }

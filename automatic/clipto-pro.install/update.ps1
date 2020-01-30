@@ -1,6 +1,5 @@
-﻿import-module au
-
-function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
+﻿$ErrorActionPreference = 'Stop'
+import-module au
 
 function global:au_GetLatest {
     $github_repository = 'clipto-pro/Desktop'
@@ -18,18 +17,11 @@ function global:au_GetLatest {
 
 function global:au_SearchReplace {
     @{
-       "legal\VERIFICATION.txt"  = @{
-            "(?i)(x32: ).*"             = "`${1}$($Latest.URL32)"
-            "(?i)(x64: ).*"             = "`${1}$($Latest.URL32)"
-            "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
-            "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
-            "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
-        }
-
-        "tools\chocolateyinstall.ps1" = @{
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`${1}$($Latest.FileName32)`""
+        "tools\chocolateyInstall.ps1" = @{
+            "(^(\s)*url\s*=\s*)('.*')" = "`$1'$($Latest.URL32)'"
+            "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
         }
     }
 }
 
-update -ChecksumFor none
+update

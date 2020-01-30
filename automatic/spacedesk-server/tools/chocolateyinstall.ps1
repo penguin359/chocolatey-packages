@@ -2,11 +2,11 @@
 
 if ( [environment]::OSVersion.Version.Major -ge 10 )  {
   $url32_win10      = 'https://spacedesk.datronic.de/download/spacedesk_driver_Win_10_32_v0930_BETA.msi'
-  $checksum32_win10 = ''
+  $checksum32_win10 = '0B2D6E3350FE3E7081ACDF8641D2B4F03C837C71CE34CDF8A6A99FDD91797032'
   $url32            = $url32_win10
   $checksum32       = $checksum32_win10
   $url64_win10      = 'https://spacedesk.datronic.de/download/spacedesk_driver_Win_10_64_v0930_BETA.msi'
-  $checksum64_win10 = ''
+  $checksum64_win10 = '8B5F31D736BA1636B53FA62A630A059F98CECFC3708FDE032606C85D9B4A6FCA'
   $url64            = $url64_win10
   $checksum64       = $checksum64_win10
 } elseif ( [environment]::OSVersion.Version.Major -ge 7 ) {

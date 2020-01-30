@@ -9,23 +9,17 @@ function global:au_BeforeUpdate {
 }
 
 function global:au_GetLatest {
-    $releases  = 'https://www.pkisolutions.com/tools/sslcertverifier/'
-    $regex     = '(?<Filename>SSLVerifier-v(?<Version>[\d\.]+)\.zip)'
-    $regex_url = 'href="(?<Url>.*/download/\d+/)"'
+  $download_url = 'https://www.pkisolutions.com/download/16432/'
+  $regex        = '(SSLVerifier-v(?<Version>[\d\.]+)\.zip)'
 
-    $download_page = Invoke-WebRequest -Uri $releases
-    $download_page -match $regex | Out-Null
-    $version  = $matches.Version
-    $filename = $matches.Filename
-
-    $download_page -match $regex_url | Out-Null
-
-    return @{ Version = $version ; FileName32 = $filename ; URL32 = $matches.Url }
+  $download.Headers.'Content-Disposition' -match $regex | Out-Null
+ 
+  return @{ Version = $matches.Version ; FileName32 = $matches[0] ; URL32 = $download_url }
 }
 
 function global:au_SearchReplace {
     @{
-        "legal\VERIFICATION.txt"  = @{
+        "legal\VERIFICATION.txt"  = @{            
             "(?i)(x32: ).*"             = "`${1}$($Latest.URL32)"
             "(?i)(x64: ).*"             = "`${1}$($Latest.URL32)"
             "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
@@ -33,12 +27,11 @@ function global:au_SearchReplace {
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
         }
 
-        "tools\chocolateyinstall.ps1" = @{
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`$1$($Latest.FileName32)`""           
+        "tools\chocolateyinstall.ps1" = @{        
+          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`$1$($Latest.FileName32)`""
+           "(^.*`"SSLVerifier-v)[\d\.]+(.*)$"          = "`${1}$($Latest.Version)`${2}"
         }
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none -noCheckUrl
-}
+update -ChecksumFor none -noCheckUrl

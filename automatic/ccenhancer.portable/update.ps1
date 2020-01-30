@@ -13,6 +13,7 @@ function global:au_GetLatest {
     (Invoke-WebRequest -Uri $releases).RawContent -match $regex_version | Out-Null
 
      return @{ Version = $matches.Version ; URL32 = $url.href }
+     return @{ Version = $matches.Version ; URL32 = $url.href + 'ccenhancer-install-' + $matches.Version + '.zip' }
 }
 
 function global:au_SearchReplace {
@@ -32,6 +33,4 @@ function global:au_SearchReplace {
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none
-}
+update -ChecksumFor none

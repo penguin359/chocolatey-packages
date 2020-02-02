@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ccenhancer.portable</id>
-    <version>4.5.4.20190515</version>
+    <version>4.5.5</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/ccenhancer.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>CCEnhancer (Portable)</title>
@@ -19,8 +19,7 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>ccenhancer.portable ccleaner enhancer plugin add-on cleaner</tags>
     <summary>CCEnhancer is a small tool which adds support for over 1,000 new programs into the popular program CCleaner.</summary>
-    <description><![CDATA[
-CCEnhancer is a small tool which adds support for over 1,000 new programs into the popular program CCleaner. The tool uses the winapp2.ini system built into CCleaner to easily add new rules and definitions for programs. The rules were sourced mainly from the Piriform Support Forum, with several sourced from other places around the internet. Directly download the winapp2.ini file [here](https://content.thewebatom.net/files/winapp2.ini).
+    <description><![CDATA[CCEnhancer is a small tool which adds support for over 1,000 new programs into the popular program CCleaner. The tool uses the winapp2.ini system built into CCleaner to easily add new rules and definitions for programs. The rules were sourced mainly from the Piriform Support Forum, with several sourced from other places around the internet. Directly download the winapp2.ini file [here](https://content.thewebatom.net/files/winapp2.ini).
 
 ## Instructions
 The actual file containing the definitions is not included with the program, but is instead downloaded by the program. Simply press ‘Download Latest’ and the tool will automatically download the most recent version of the definitions. If CCEnhancer cannot locate the CCleaner.exe file you can open a dialog box and select the page yourself.

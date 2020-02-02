@@ -3,20 +3,20 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>multipar.portable</id>
-    <version>1.3.0.501</version>
+    <version>1.3.0.600</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/multipar.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>MultiPar (Portable)</title>
     <authors>Yukata Sawada</authors>
-    <projectUrl>https://multipar.eu</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/multipar.portable/multipar.portable.png</iconUrl>
-    <copyright>© 2012 - 2019 Multipar.eu | All rights reserved</copyright>
-    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <projectUrl>https://hp.vector.co.jp/authors/VA021385</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/multipar.portable/multipar.portable.png</iconUrl>
+    <!--<copyright></copyright>-->
+    <!--<licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <docsUrl>https://multipar.eu/docs.html</docsUrl>
+    <!--<docsUrl></docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
-    <bugTrackerUrl>https://www.livebusinesschat.com/smf/index.php?board=396.0</bugTrackerUrl>
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>multipar.portable parchive NG data protect</tags>
     <summary>MultiPar is the next-generation of Parchive (PAR3) to protect data.</summary>
     <description><![CDATA[MultiPar can do file verification, error detection, correction and recovery to protect your files and folders from deletion, copy errors, download errors, software errors, hardware errors, virus infection, malicious tampering, and all other forms of data corruption.
@@ -30,7 +30,7 @@ See the [Parchive project](http://parchive.sourceforge.net) for details of Parch
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/multipar.portable/screenshot.png)
 ]]></description>
-    <releaseNotes>https://multipar.eu/changelog.html</releaseNotes>    
+    <releaseNotes>https://multipar.eu/changelog.html</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

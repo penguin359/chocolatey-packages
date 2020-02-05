@@ -3,10 +3,10 @@ import-module au
 
 function global:au_GetLatest {
     $github_repository = 'clipto-pro/Desktop'
-    $releases = "https://github.com/" + $github_repository + '/releases/latest'
+    $releases = 'https://github.com/' + $github_repository + '/releases/latest'
     $regex    = 'clipto.pro-(?<Version>[\d\.]+).exe'
 
-    $url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links |? href -match $regex
+    $url     = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links |? href -match $regex
     $version = $matches.Version
 
     return @{
@@ -18,10 +18,12 @@ function global:au_GetLatest {
 function global:au_SearchReplace {
     @{
         "tools\chocolateyInstall.ps1" = @{
-            "(^(\s)*url\s*=\s*)('.*')" = "`$1'$($Latest.URL32)'"
+            "(^(\s)*url\s*=\s*)('.*')"      = "`$1'$($Latest.URL32)'"
             "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
         }
     }
 }
 
-update
+if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
+    update
+}

@@ -3,7 +3,7 @@ import-module au
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-    $releases     = 'https://www.keyferret.com/get'
+    $releases     = 'http://www.keyferret.com/get'
     $regexVersion = 'title="Version (?<Version>[\d\.]+)"'
     $regexUrl     = '(?<Url>http://www.keyferret.com/download/[\d\.]+/)'
 

@@ -5,7 +5,7 @@ $packageArgs = @{
   filetype       = "MSI"
 
   url            = 'https://www.goodsync.com/download/GoodSync-v10-Setup.msi'
-  checksum       = '6a1421aed9c3523b56644433fb4d42c90defe62dd8a9f39ce1dc635bb8194ea7'
+  checksum       = '9e1ab71ae3c3e599dbbbed1bde377b0cd40e3bc25eba2d6f5b1d66e8cac5c601'
   checksumType   = 'sha256'
 
   silentArgs     = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""

@@ -12,6 +12,6 @@ Remove-Item -Path $packageArgs.file
 
 # Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
-$shortcutFilePath = Join-Path $programs "Debotnet.lnk"
-$targetPath = Join-Path $toolsDir "debotnet.exe"
+$shortcutFilePath = Join-Path $programs 'Debotnet.lnk'
+$targetPath = Join-Path $toolsDir 'debotnet.exe'
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath

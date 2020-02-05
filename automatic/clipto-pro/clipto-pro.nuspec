@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>clipto-pro</id>
-    <version>1.8.6</version>
+    <version>2.1.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/clipto-pro</packageSourceUrl>
     <owners>chtof</owners>
     <title>Clipto Pro</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/clipto-pro/Desktop/issues</bugTrackerUrl>
     <tags>clipto-pro.install notes clipboard manager</tags>
     <summary>Clipto Pro is an effortless, super fast and flexible notes taking app and clipboard manager.</summary>
-    <description><![CDATA[
-Clipto Pro is an effortless, super fast and flexible notes taking app and clipboard manager.
+    <description><![CDATA[Clipto Pro is an effortless, super fast and flexible notes taking app and clipboard manager.
 
 ## Features
 See https://clipto.pro for details.
@@ -42,7 +41,7 @@ See https://clipto.pro for details.
 ]]></description>
     <releaseNotes>https://github.com/clipto-pro/Desktop/releases</releaseNotes>
     <dependencies>
-      <dependency id="clipto-pro.install" version="[1.8.6]" />
+      <dependency id="clipto-pro.install" version="2.1.0" />
     </dependencies>
   </metadata>
   <files></files>

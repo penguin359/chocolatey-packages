@@ -7,11 +7,17 @@ $packageArgs = @{
   file          = "$toolsDir\kid3-3.8.2-win32.zip"
 }
 
+if (Get-OSArchitectureWidth -compare 32) {
+    $architectureWidth = ''
+} else {
+    $architectureWidth = '-x64'
+}
+
 Get-ChocolateyUnzip @packageArgs
 Remove-Item $packageArgs.file
 
 # Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = Join-Path $programs "Kid3.lnk"
-$targetPath = Join-Path $toolsDir "kid3-3.8.2-win32\kid3.exe"
+$targetPath = Join-Path $toolsDir "kid3-3.8.2-win32${architectureWidth}\kid3.exe"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath

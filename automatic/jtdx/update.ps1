@@ -8,14 +8,18 @@ function global:au_GetLatest {
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	$url = $download_page.links | ? href -match $regex
-    return @{ Version = $matches.Version ; URL32 = $url.href }
+
+    return @{
+        Version = $matches.Version
+        URL32   = 'https://www.release.jtdx.tech/Windows/' +$matches.0
+    }
 }
 
 function global:au_SearchReplace {
     @{
        "legal\VERIFICATION.txt"  = @{
-            "(?i)(x32: ).*"               = "`${1}$($Latest.URL32)"
-            "(?i)(x64: ).*"               = "`${1}$($Latest.URL64)"
+            "(?i)(x32: ).*"             = "`${1}$($Latest.URL32)"
+            "(?i)(x64: ).*"             = "`${1}$($Latest.URL64)"
             "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
             "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum64)"
@@ -27,6 +31,4 @@ function global:au_SearchReplace {
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none
-}
+update -ChecksumFor none

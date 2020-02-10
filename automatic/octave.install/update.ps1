@@ -1,7 +1,5 @@
 ﻿import-module au
 
-[Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
-
 function global:au_GetLatest {
     $releases = 'https://ftpmirror.gnu.org/octave/windows/'
     $regex32  = 'octave-(?<Version>[\d\.]+)-w32-installer.exe$'
@@ -22,10 +20,10 @@ function global:au_GetLatest {
 function global:au_SearchReplace {
     @{
         "tools\chocolateyinstall.ps1" = @{
-          "(^(\s)*url\s*=\s*)('.*')"        = "`$1'$($Latest.URL32)'"
-          "(^(\s)*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
-          "(^(\s)*url64\s*=\s*)('.*')"      = "`$1'$($Latest.URL64)'"
-          "(^(\s)*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"          
+          "(^(\s)*url\s*=\s*)('.*')"        = "`${1}'$($Latest.URL32)'"
+          "(^(\s)*checksum\s*=\s*)('.*')"   = "`${1}'$($Latest.Checksum32)'"
+          "(^(\s)*url64\s*=\s*)('.*')"      = "`${1}'$($Latest.URL64)'"
+          "(^(\s)*checksum64\s*=\s*)('.*')" = "`${1}'$($Latest.Checksum64)'"          
         }
         "tools\chocolateyinstall.ahk" = @{
           "Octave-[\d\.]+" = "Octave-$($Latest.Version)"

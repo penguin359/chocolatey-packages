@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>liberationfonts</id>
-    <version>2.00.5</version>
+    <version>2.1.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/liberationfonts</packageSourceUrl>
     <owners>chtof</owners> 
     <title>Liberation Fonts</title>
@@ -19,7 +19,8 @@
     <bugTrackerUrl>https://github.com/liberationfonts/liberation-fonts/issues</bugTrackerUrl>
     <tags>liberation font</tags>
     <summary>The Liberation Fonts, font collection.</summary>
-    <description>The Liberation Fonts is font collection which aims to provide document layout compatibility as usage of Times New Roman, Arial, Courier New.</description>    
+    <description><![CDATA[The Liberation Fonts is font collection which aims to provide document layout compatibility as usage of Times New Roman, Arial, Courier New.
+]]></description>    
     <releaseNotes>https://github.com/liberationfonts/liberation-fonts/blob/devel/ChangeLog</releaseNotes>    
   </metadata>
   <files>    

@@ -2,16 +2,19 @@
 import-module au
 
 function global:au_GetLatest {
-    $github_repository = "mifi/lossless-cut"
-    $releases = "https://github.com/" + $github_repository + "/releases/latest"
-    # $regex    = $github_repository + '/tree/v(?<Version>[\d\.]+)$'
-    $regex    = 'LosslessCut-(?<Version>[\d\.]+).exe$'    
+    $github_repository = 'mifi/lossless-cut'
+    $releases          = "https://github.com/" + $github_repository + "/releases/latest"
+    $regexVersion      = $github_repository + '/tree/v(?<Version>[\d\.]+)$'
+    $regexUrl          = 'LosslessCut-(.*).exe$'
+    #$regex    = 'LosslessCut-(?<Version>[\d\.]+).exe$'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-    $url           = $download_page.links | ? href -match $regex
+    $download_page.links | ? href -match $regexVersion | Out-Null
+    $version = $matches.Version
+    $url = $download_page.links | ? href -match $regexUrl
 
     return @{
-        Version = $matches.Version
+        Version = $version
         URL32   = 'https://github.com/' + $url.href
     }
 }

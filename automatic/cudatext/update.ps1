@@ -73,8 +73,8 @@ function global:au_GetLatest {
 function global:au_SearchReplace {
    @{
         "legal\VERIFICATION.txt"  = @{
-            "(?i)(x32: ).*"             = "https://www.fosshub.com/CudaText.html?dwl=$($Latest.FileName32)"
-            "(?i)(x64: ).*"             = "https://www.fosshub.com/CudaText.html?dwl=$($Latest.FileName64)"            
+            "(?i)(x32: ).*"             = "`${1}https://www.fosshub.com/CudaText.html?dwl=$($Latest.FileName32)"
+            "(?i)(x64: ).*"             = "`${1}https://www.fosshub.com/CudaText.html?dwl=$($Latest.FileName64)"            
             "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
             "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum64)"

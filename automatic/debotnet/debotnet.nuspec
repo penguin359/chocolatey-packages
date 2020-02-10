@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>debotnet</id>
-    <version>0.3.0</version>
+    <version>0.5.4</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/debotnet</packageSourceUrl>
     <owners>chtof</owners>
     <title>Debotnet</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/mirinsoft/debotnet/issues</bugTrackerUrl>
     <tags>debotnet privacy security personal data</tags>
     <summary>Debotnet is a free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.</summary>
-    <description><![CDATA[
-Debotnet is a free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.
+    <description><![CDATA[Debotnet is a free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.
 
 ## The most important features at a glance 
 - Disable telemetry and online features, which send your data (sensitive and not) to Microsoft

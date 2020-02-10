@@ -1,4 +1,4 @@
-# The code structure for this from https://chocolatey.org/packages/hackfont
+﻿# The code structure for this from https://chocolatey.org/packages/hackfont
  
 # create temp directory
 do {
@@ -11,8 +11,8 @@ $packageArgs = @{
     unzipLocation  = $tempPath
     specificFolder = 'ttf'
 
-    url            = 'https://github.com/liberationfonts/liberation-fonts/files/2926169/liberation-fonts-ttf-2.00.5.tar.gz'
-    checksum       = 'F14FF0A0BE87B5AEB672E669363B5A699DB76FEB1144B06798261C0FDCD2B24D'
+    url            = 'https://github.com/liberationfonts/liberation-fonts/files/4178407/liberation-fonts-ttf-2.1.0.tar.gz'
+    checksum       = 'a55243d135229da4d0783a6f04ae058d3ab39c4eaeddff99afa5879877cb616c'
     checksumType   = 'sha256'
 }
  

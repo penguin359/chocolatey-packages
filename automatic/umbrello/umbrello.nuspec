@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>umbrello</id>
-    <version>2.30.0</version>
+    <version>2.30.2</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/umbrello</packageSourceUrl>
     <owners>chtof</owners>
     <title>Umbrello - The UML Modeller</title>
@@ -29,7 +29,7 @@ More details [here](https://umbrello.kde.org/features.php).
 ]]></description>
     <releaseNotes>https://umbrello.kde.org/news.php</releaseNotes>
     <dependencies>
-      <dependency id="umbrello.install" version="[2.30.0]" />
+      <dependency id="umbrello.install" version="[2.30.2]" />
     </dependencies>
   </metadata>
   <files></files>

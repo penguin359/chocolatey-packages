@@ -4,39 +4,38 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     $github_repository = 'pyzo/pyzo'
-    $releases   = "https://github.com/" + $github_repository + "/releases/latest"
-    $regex_win7 = 'pyzo-([\d\.]+)-win64-windows7.zip$'
-    $regex      = 'pyzo-(?<Version>[\d\.]+)-win64-windows10.zip$'
+    $releases = "https://github.com/" + $github_repository + "/releases/latest"
+    #$regex_win7 = 'pyzo-([\d\.]+)-win64-windows7.zip$'
+    $regex32  = 'pyzo-([\d\.]+-win32.zip$'
+    $regex64  = 'pyzo-(?<Version>[\d\.]+)-win64.zip$'
 
     $download_page = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links
-    $url_win7 = $download_page | ? href -match $regex_win7 | Select -First 1
-    $url      = $download_page | ? href -match $regex | Select -First 1
+    #$url_win7 = $download_page | ? href -match $regex_win7 | Select -First 1
+    $url32 = $download_page | ? href -match $regex32 | Select -First 1
+    $url64 = $download_page | ? href -match $regex64 | Select -First 1
 
     return @{
-        Version    = $matches.Version
-        URL64_win7 = "https://github.com" + $url_win7.href
-        URL64      = "https://github.com" + $url.href
+        Version = $matches.Version
+        URL32   = "https://github.com" + $url32.href
+        URL64   = "https://github.com" + $url64.href
     }
 }
 
-function global:au_SearchReplace {
-    $Checksum64_win7 = Get-RemoteChecksum "$($Latest.URL64_win7)"
+function global:au_SearchReplace {    
     @{
         "legal\VERIFICATION.txt"  = @{            
-            "(?i)(x64-win7: ).*"        = "`${1}$($Latest.URL64_win7)"
-            "(?i)(x64-win10: ).*"       = "`${1}$($Latest.URL64)"
+            "(?i)(x32: ).*"             = "`${1}$($Latest.URL32)"
+            "(?i)(x64: ).*"             = "`${1}$($Latest.URL64)"
             "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType64)"
-            "(?i)(checksum64-win7:).*"  = "`${1} $($Latest.Checksum64_win7)"
-            "(?i)(checksum64-win10:).*" = "`${1} $($Latest.Checksum64)"
+            "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
+            "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum64)"
         }
 
         "tools\chocolateyinstall.ps1" = @{
-          "(^(\s)*\`$file64_win7\s*=\s*`"`$toolsDir`\)(.*)"  = "`${1}$($Latest.FileName64_win7)`""
-          "(^(\s)*\`$file64_win10\s*=\s*`"`$toolsDir`\)(.*)" = "`${1}$($Latest.FileName64)`""
+          "(^(\s)*\`$file32\s*=\s*`"`$toolsDir`\)(.*)"  = "`${1}$($Latest.FileName32)`""
+          "(^(\s)*\`$file64\s*=\s*`"`$toolsDir`\)(.*)" = "`${1}$($Latest.FileName64)`""
         }
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor 64
-}
+update

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>pspad</id>
-    <version>5.0.1.20190925</version>
+    <version>5.0.3</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/pspad</packageSourceUrl>
     <owners>chtof</owners>
     <title>PSPad</title>
@@ -16,7 +16,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>pspad text editor foss windows freeware development</tags>
     <summary>PSPad is a freeware programmer's editor for Microsoft Windows operating systems.</summary>
-    <description><![CDATA[[PSPad](http://www.pspad.com/en) is a freeware programmer's editor for Microsoft Windows operating systems, useful for people who:
+    <description><![CDATA[[PSPad](http://www.pspad.com/en) is a freeware programmer's editor for Microsoft Windows operating systems, 
+useful for people who:
 
 - work with various programming environments
 - like highlighted syntax in their source code

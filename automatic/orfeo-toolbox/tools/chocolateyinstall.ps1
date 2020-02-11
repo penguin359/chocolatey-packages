@@ -31,9 +31,9 @@ if (Get-OSArchitectureWidth -compare 32) {
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 
 $shortcutFilePath = Join-Path $programs "Orfeo Toolbox\Monteverdi.lnk"
-$targetPath = Join-Path $toolsDir "OTB-6.6.1-Win${architectureWidth}\monteverdi.bat"
+$targetPath = Join-Path $toolsDir "OTB-7.0.0-Win${architectureWidth}\monteverdi.bat"
 Install-ChocolateyShortcut -iconLocation "$toolsDir\orfeo-toolbox.ico" -shortcutFilePath $shortcutFilePath -targetPath $targetPath
 
 $shortcutFilePath = Join-Path $programs "Orfeo Toolbox\OTB application browser - mapla.lnk"
-$targetPath = Join-Path $toolsDir "OTB-6.6.1-Win${architectureWidth}\mapla.bat"
+$targetPath = Join-Path $toolsDir "OTB-7.0.0-Win${architectureWidth}\mapla.bat"
 Install-ChocolateyShortcut -iconLocation "$toolsDir\orfeo-toolbox.ico" -shortcutFilePath $shortcutFilePath -targetPath $targetPath

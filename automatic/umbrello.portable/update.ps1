@@ -4,21 +4,21 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
   $releases_32 = 'https://download.kde.org/stable/umbrello/latest/win32'
-  $regex_32    = 'umbrello-(i686-)?(w64-)?mingw32-(?<Version>[\d\.]+).*-bin.7z$'
+  $regex_32    = 'umbrello-(i686-)?(w64-)?mingw32-(?<Version>[\d\.]+).*-(bin|portable).7z$'
   $releases_64 = 'https://download.kde.org/stable/umbrello/latest/win64'
-  $regex_64    = 'umbrello-(x86_64-)?(w64-)?mingw64-[\d\.]+.*-bin.7z$'
+  $regex_64    = 'umbrello-(x86_64-)?(w64-)?mingw64-[\d\.]+.*-(bin|portable).7z$'
 
   $download_page_32 = (Invoke-WebRequest -Uri $releases_32 -UseBasicParsing)
-  $file_32 = $download_page_32.links | ? href -match $regex_32
+  $url_32 = $download_page_32.links | ? href -match $regex_32
   $version = $matches.Version
 
   $download_page_64 = (Invoke-WebRequest -Uri $releases_64 -UseBasicParsing)
-  $file_64 = $download_page_64.links | ? href -match $regex_64
+  $url_64 = $download_page_64.links | ? href -match $regex_64
 
   return @{
     Version = $version
-    URL32 = $releases_32 + "/" + $file_32.href
-    URL64 = $releases_64 + "/" + $file_64.href
+    URL32   = $releases_32 + "/" + $url_32.href
+    URL64   = $releases_64 + "/" + $url_64.href
   }
 }
 

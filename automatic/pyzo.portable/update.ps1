@@ -4,9 +4,9 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     $github_repository = 'pyzo/pyzo'
-    $releases = "https://github.com/" + $github_repository + "/releases/latest"
+    $releases = 'https://github.com/' + $github_repository + '/releases/latest'
     #$regex_win7 = 'pyzo-([\d\.]+)-win64-windows7.zip$'
-    $regex32  = 'pyzo-([\d\.]+-win32.zip$'
+    $regex32  = 'pyzo-[\d\.]+-win32.zip$'
     $regex64  = 'pyzo-(?<Version>[\d\.]+)-win64.zip$'
 
     $download_page = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links
@@ -16,8 +16,8 @@ function global:au_GetLatest {
 
     return @{
         Version = $matches.Version
-        URL32   = "https://github.com" + $url32.href
-        URL64   = "https://github.com" + $url64.href
+        URL32   = 'https://github.com' + $url32.href
+        URL64   = 'https://github.com' + $url64.href
     }
 }
 

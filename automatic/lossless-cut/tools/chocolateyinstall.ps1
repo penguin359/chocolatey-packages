@@ -9,12 +9,12 @@ $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   fileFullPath   = "$installDir\LosslessCut.exe"
 
-  url            = 'https://github.com//mifi/lossless-cut/releases/download/v2.6.2/LosslessCut-2.6.2.exe'
-  checksum       = '2e99be1fe8be6dd6e6a10e7103635cdcd5d52dac1329c3175c68c8026e4048fc'
+  url            = 'https://github.com//mifi/lossless-cut/releases/download/v2.7.1/LosslessCut-win.exe'
+  checksum       = '48d6c14e346488e944c912268218e7afa299aaf016139daf602f11ab325534c6'
   checksumType   = 'sha256'
 
-  url64          = 'https://github.com//mifi/lossless-cut/releases/download/v2.6.2/LosslessCut-2.6.2.exe'
-  checksum64     = '2e99be1fe8be6dd6e6a10e7103635cdcd5d52dac1329c3175c68c8026e4048fc'
+  url64          = 'https://github.com//mifi/lossless-cut/releases/download/v2.7.1/LosslessCut-win.exe'
+  checksum64     = '48d6c14e346488e944c912268218e7afa299aaf016139daf602f11ab325534c6'
   checksumType64 = 'sha256'
 }
 

@@ -2,8 +2,8 @@
 
 function global:au_GetLatest {
     $releases = 'https://ftpmirror.gnu.org/octave/windows/'
-    $regex32  = 'octave-(?<Version>[\d\.]+)-w32-installer.exe$'
-    $regex64  = 'octave-([\d\.]+)-w64-installer.exe$'
+    $regex32  = 'octave-(?<Version>[\d\._]+)-w32-installer.exe$'
+    $regex64  = 'octave-([\d\._]+)-w64-installer.exe$'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
     $url32         = $download_page.links | ? href -match $regex32 | select -Last 1
@@ -12,8 +12,8 @@ function global:au_GetLatest {
 	
     return @{
         Version = $version
-        URL32   = $releases + $url32.href
-        URL64   = $releases + $url64.href
+        URL32   = Get-RedirectedUrl ($releases + $url32.href)
+        URL64   = Get-RedirectedUrl ($releases + $url64.href)
     }
 }
 

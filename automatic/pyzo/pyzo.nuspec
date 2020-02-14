@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>pyzo</id>
-    <version>4.9.0</version>
+    <version>4.10.2</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/pyzo</packageSourceUrl>
     <owners>chtof</owners>
     <title>Pyzo</title>
@@ -19,14 +19,13 @@
     <bugTrackerUrl>https://github.com/pyzo/pyzo/issues</bugTrackerUrl>
     <tags>pyzo IDE Python editor</tags>
     <summary>Pyzo is a cross-platform Python IDE focused on interactivity and introspection, which makes it very suitable for scientific computing.</summary>
-    <description><![CDATA[
-Pyzo is a cross-platform Python IDE focused on interactivity and introspection, which makes it very suitable for scientific computing. Its practical design is aimed at simplicity and efficiency. It consists of two main components, the editor and the shell, and uses a set of pluggable tools to help the programmer in various ways. Some example tools are source structure, project manager, interactive help, workspace ... Pyzo is written in (pure) Python 3 and uses the Qt GUI toolkit. Binaries are provided for all major operating system. After installing Pyzo, it can be used to execute code on any Python version available on your system (Python 2.4 - 3.x, including Pypy).
+    <description><![CDATA[Pyzo is a cross-platform Python IDE focused on interactivity and introspection, which makes it very suitable for scientific computing. Its practical design is aimed at simplicity and efficiency. It consists of two main components, the editor and the shell, and uses a set of pluggable tools to help the programmer in various ways. Some example tools are source structure, project manager, interactive help, workspace ... Pyzo is written in (pure) Python 3 and uses the Qt GUI toolkit. Binaries are provided for all major operating system. After installing Pyzo, it can be used to execute code on any Python version available on your system (Python 2.4 - 3.x, including Pypy).
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pyzo/screenshot.png)
 ]]></description>
     <releaseNotes>https://github.com/pyzo/pyzo/wiki/Release_notes</releaseNotes>
     <dependencies>
-      <dependency id="pyzo.install" version="[4.9.0]" />
+      <dependency id="pyzo.install" version="4.10.2" />
     </dependencies>
   </metadata>
   <files></files>

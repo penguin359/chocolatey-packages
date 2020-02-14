@@ -16,7 +16,7 @@
     <projectSourceUrl>https://www.octave.org/hg/octave</projectSourceUrl>
     <docsUrl>https://octave.org/doc/interpreter</docsUrl>
     <mailingListUrl>https://lists.gnu.org/mailman/listinfo/help-octave</mailingListUrl>
-    <bugTrackerUrl>https://lists.gnu.org/mailman/listinfo/help-octave</bugTrackerUrl>
+    <bugTrackerUrl>https://savannah.gnu.org/bugs/?group=octave</bugTrackerUrl>
     <tags>octave octave matlab math numerical computations</tags>
     <summary>Scientific Programming Language</summary>
     <description><![CDATA[

@@ -32,8 +32,9 @@ function global:au_SearchReplace {
         }
 
         "tools\chocolateyinstall.ps1" = @{
-          "(^(\s)*\`$file32\s*=\s*`"`$toolsDir`\)(.*)"  = "`${1}$($Latest.FileName32)`""
-          "(^(\s)*\`$file64\s*=\s*`"`$toolsDir`\)(.*)" = "`${1}$($Latest.FileName64)`""
+          "(?i)(^\s*file32\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`$1$($Latest.FileName32)`""
+          "(?i)(^\s*file64\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`$1$($Latest.FileName64)`""
+          "(`"[$]toolsDir\\pyzo-)[\d\.]+(.*\.exe)"       = "`$1$($Latest.Version)`$3`""
         }
     }
 }

@@ -26,7 +26,7 @@ function global:au_SearchReplace {
           "(^(\s)*checksum64\s*=\s*)('.*')" = "`${1}'$($Latest.Checksum64)'"          
         }
         "tools\chocolateyinstall.ahk" = @{
-          "Octave-[\d\.]+" = "Octave-$($Latest.Version)"
+          "Octave-[\d\._]+" = "Octave-$($Latest.Version)"
         }
     }
 }

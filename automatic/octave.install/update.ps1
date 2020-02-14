@@ -1,5 +1,10 @@
 ﻿import-module au
 
+function global:au_BeforeUpdate() {
+  $Latest.Checksum32 = Get-RemoteChecksum $Latest.Url32
+  $Latest.Checksum64 = Get-RemoteChecksum $Latest.Url64
+}
+
 function global:au_GetLatest {
     $releases = 'https://ftpmirror.gnu.org/octave/windows/'
     $regex32  = 'octave-(?<Version>[\d\._]+)-w32-installer.exe$'
@@ -33,7 +38,7 @@ function global:au_SearchReplace {
 
 try {
     if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-        update -noCheckUrl
+        update -ChecksumFor none -noCheckUrl
     }
 } catch {
     $ignore = 'The request was aborted: Could not create SSL/TLS secure channel.'

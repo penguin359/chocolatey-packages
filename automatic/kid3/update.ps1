@@ -18,8 +18,8 @@ function global:au_GetLatest {
   
 	return @{
     Version = $version
-    URL32   = 'https://netcologne.dl.sourceforge.net/project/kid3/files/' + $version + '/' + $file32
-    URL64   = 'https://netcologne.dl.sourceforge.net/project/kid3/files/' + $version + '/' + $file64    
+    URL32   = 'https://netcologne.dl.sourceforge.net/project/kid3/kid3/' + $version + '/' + $file32
+    URL64   = 'https://netcologne.dl.sourceforge.net/project/kid3/kid3/' + $version + '/' + $file64    
   }
 }
 

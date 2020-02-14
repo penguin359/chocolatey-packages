@@ -10,9 +10,9 @@ function global:au_GetLatest {
 	$regex32  = 'kid3-([\d\.]+)-win32.zip'
 
 	$download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-  $url32   = $download_page.links | ? href -match $regex32
+  $download_page.links | ? href -match $regex32 | Out-Null
   $file32  = $matches.0
-	$url64   = $download_page.links | ? href -match $regex64
+	$download_page.links | ? href -match $regex64 | Out-Null
   $file64  = $matches.0
   $version = $matches.Version
   

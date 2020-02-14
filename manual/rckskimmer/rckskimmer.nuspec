@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rckskimmer</id>
+    <version>3.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/rckskimmer</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>RCKskimmer</title>
+    <authors>Walter Dallmeier DL4RCK</authors>
+    <projectUrl>https://www.sites.google.com/site/rckskimmer</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/rckskimmer/rckskimmer.png</iconUrl>
+    <copyright>© Walter Dallmeier, DL4RCK</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://www.sites.google.com/site/rckskimmerhelp</docsUrl>
+    <mailingListUrl>http://groups.yahoo.com/group/rckskimmer</mailingListUrl>
+    <bugTrackerUrl>http://groups.yahoo.com/group/rckskimmer</bugTrackerUrl>
+    <tags>rckskimmer HAM radio amateur digital signal RTTY BPSK31 BPSK63 BPSK125</tags>
+    <summary>RCKskimmer is able to search for digital signals (RTTY, BPSK31, BPSK63 and BPSK125) in a FFT-spectrum of a standard receiver like K3, FT1000x, ... or a SDR receiver with a NF-connection to the soundcard of the PC by using the MMVARI module.</summary>
+    <description><![CDATA[
+RCKskimmer is able to search for digital signals (RTTY, BPSK31, BPSK63 and BPSK125) in a FFT-spectrum of a standard receiver like K3, FT1000x, ... or a SDR receiver with a NF-connection to the soundcard of the PC by using the MMVARI module.
+
+All bands and frequencies can be scanned in a row.
+
+All callsigns with CQ, QRZ, DE or TEST will be detected and listed with exactly mark-frequency by using the OmniRig Transceiver Control by VE3NEA, thanks Alex.
+
+The callsigns are posted in real time to the RCK - Digital-Cluster-System what is specially designed for RCKskimmer and accessable for everyone and the spots are going also to the [www.reversebeacon.net](http://www.reversebeacon.net) network.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/rckskimmer/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

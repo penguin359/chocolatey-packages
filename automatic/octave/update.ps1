@@ -1,4 +1,5 @@
-﻿. $PSScriptRoot\..\octave.install\update.ps1
+﻿$ErrorActionPreference = 'Stop'
+. $PSScriptRoot\..\octave.install\update.ps1
 
 function global:au_SearchReplace {
    @{

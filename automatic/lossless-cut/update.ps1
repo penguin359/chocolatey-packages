@@ -19,7 +19,7 @@ function global:au_GetLatest {
 
     return @{
         Version = $version
-        URL32   = 'https://github.com/' + $url.href
+        URL32   = 'https://github.com' + $url.href
     }
 }
 

@@ -6,7 +6,7 @@ SetControlDelay -1
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
-Post_install_scriptDir = C:\Octave\Octave-5.2.0.1\post-install.bat
+Post_install_scriptDir = C:\Octave\Octave-5.2.0\post-install.bat
 
 winTitle = GNU Octave
 
@@ -47,4 +47,5 @@ FileAppend, %BUFF%, %Post_install_scriptDir%
 WinWait, %winTitle%, Completing GNU Octave Setup, 600
 Sleep 350
 ControlClick, Button4, %winTitle%,,,, NA ; Don't launch octave automatically after the end of the installation
+Sleep 350
 ControlClick, Button2, %winTitle%,,,, NA ; &Finish

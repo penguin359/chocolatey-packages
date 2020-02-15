@@ -1,4 +1,4 @@
-﻿VERIFICATION
+VERIFICATION
  
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x64-win7: https://github.com/pyzo/pyzo/releases/download/v4.9.0/pyzo-4.9.0-win64-windows7.zip
-   x64-win10: https://github.com/pyzo/pyzo/releases/download/v4.9.0/pyzo-4.9.0-win64-windows10.zip
+   x32: https://github.com/pyzo/pyzo/releases/download/v4.10.2/pyzo-4.10.2-win32.zip
+   x64: https://github.com/pyzo/pyzo/releases/download/v4.10.2/pyzo-4.10.2-win64.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum64-win7: 6c0f04f6ad3a172b7babe3578bfc3c76d9bc0aa52ba037b145eebbc98b7f812d
-   checksum64-win10: D9CD99F73D3035187B4AAAAAC05AC0D63A7A9DE9980B4CEE0BA92F5E286F8A49
+   checksum32: 0462CA68B31F015C06A6B5C6C5F91436A6AA78E8A1B74F0AAA553EAB0FA2DD6B
+   checksum64: 45C15FB74EB7DCDDF9645A6E1C299689A29B9A72BA67D5BE272096E467A873E0
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/pyzo/pyzo/master/pyzo/license.txt

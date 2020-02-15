@@ -11,7 +11,7 @@
     <projectUrl>https://pyzo.org</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pyzo.install/pyzo.install.png</iconUrl>
     <copyright>© Copyright 2015-2019, The Pyzo team.</copyright>
-    <licenseUrl>https://raw.githubusercontent.com/pyzo/pyzo/master/pyzo/license.txt</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/pyzo/pyzo/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/pyzo/pyzo/</projectSourceUrl>
     <docsUrl>https://pyzo.org/guide.html</docsUrl>

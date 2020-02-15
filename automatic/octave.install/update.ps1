@@ -1,4 +1,5 @@
-﻿import-module au
+﻿$ErrorActionPreference = 'Stop'
+import-module au
 
 function global:au_BeforeUpdate() {
   $Latest.Checksum32 = Get-RemoteChecksum $Latest.Url32

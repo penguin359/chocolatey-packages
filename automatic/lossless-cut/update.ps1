@@ -1,6 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop'
 import-module au
 
+function global:au_BeforeUpdate() {
+  $Latest.Checksum32 = Get-RemoteChecksum $Latest.Url32  
+}
+
 function global:au_GetLatest {
     $github_repository = 'mifi/lossless-cut'
     $releases          = "https://github.com/" + $github_repository + "/releases/latest"
@@ -30,4 +34,4 @@ function global:au_SearchReplace {
     }
 }
 
-update
+update -ChecksumFor none

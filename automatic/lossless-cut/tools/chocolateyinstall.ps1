@@ -5,13 +5,9 @@ $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   unzipLocation  = "$toolsDir"
 
-  url            = 'https://github.com/mifi/lossless-cut/releases/download/v2.4.0/LosslessCut-win32-ia32.zip'
-  checksum       = '0F87BD29D44266F65F30ECE2AF766347B4D4E16FD9CD753F24BC75EE35252F0B'
+  url            = 'https://github.com/mifi/lossless-cut/releases/download/v2.8.0/LosslessCut-win.zip'
+  checksum       = 'ca2692e2ad05f08d365f10906afcf5bdb7a4cb25d6bf40cad0d9f713415cf9e8'
   checksumType   = 'sha256'
-
-  url64          = 'https://github.com/mifi/lossless-cut/releases/download/v2.4.0/LosslessCut-win32-x64.zip'
-  checksum64     = '49CF1E1A250FAB8DFD42F33CE4E7D4E1DE19EBD29CAA975CE579CF22E7DC130F'
-  checksumType64 = 'sha256'
 }
 
 Install-ChocolateyZipPackage @packageArgs
@@ -23,8 +19,7 @@ foreach ($file in $files) {
 }
 
 # Install start menu shortcut
-if (Get-OSArchitectureWidth -Compare "32") { $dir = "LosslessCut-win32-ia32" } else { $dir = "LosslessCut-win32-x64" }
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = Join-Path $programs "LosslessCut.lnk"
-$targetPath = Join-Path $toolsDir "$dir\LosslessCut.exe"
+$targetPath = Join-Path $toolsDir "LosslessCut.exe"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath

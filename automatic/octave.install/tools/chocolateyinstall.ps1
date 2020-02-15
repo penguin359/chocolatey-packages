@@ -1,16 +1,16 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
     
-  url           = 'https://ftpmirror.gnu.org/octave/windows/octave-5.1.0-w32-installer.exe'
-  checksum      = 'D2E4D5821496A0C7533ABB660810BB31C73CF6DC1BC19430B6B35586BC2F5FF9'
+  url           = 'https://mirror.cyberbits.eu/gnu/octave/windows/octave-5.2.0_1-w32-installer.exe'
+  checksum      = '9b9a3f17014ce1aec9d97d417db9e469d2523408a77415c2b1eebeedd6a28da9'
   checksumType  = 'sha256'
   
-  url64         = 'https://ftpmirror.gnu.org/octave/windows/octave-5.1.0-w64-installer.exe'
-  checksum64    = '9F80C37BAF041BD741C2660E7E5E12AFBD19DAAB7E59AABA96288E630282122B'
+  url64         = 'https://ftp.igh.cnrs.fr/pub/gnu/octave/windows/octave-5.2.0_1-w64-installer.exe'
+  checksum64    = 'b35f85c93dea126922560c04e6cb472c19e457c44d9a8898b4561db1107e9094'
   checksumType64= 'sha256'
   
   # Note: silentArgs doesn't work as expected for octave.install

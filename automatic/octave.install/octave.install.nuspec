@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>octave.install</id>
-    <version>5.1.0</version>
+    <version>5.2.0.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/octave.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>GNU Octave (Install)</title>
     <authors>GNU Octave Team</authors>
     <projectUrl>https://www.gnu.org/software/octave</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/octave.install/octave.install.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/octave.install/octave.install.png</iconUrl>
     <copyright>Copyright © 1998-2019 John W. Eaton</copyright>
     <licenseUrl>https://www.gnu.org/software/octave/license.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://savannah.gnu.org/bugs/?group=octave</bugTrackerUrl>
     <tags>octave.install octave matlab math numerical computations</tags>
     <summary>Scientific Programming Language</summary>
-    <description><![CDATA[
-- Powerful mathematics-oriented syntax with built-in plotting and visualization tools.
+    <description><![CDATA[- Powerful mathematics-oriented syntax with built-in plotting and visualization tools.
 - Free software, runs on GNU/Linux, macOS, BSD, and Windows.
 - Drop-in compatible with many Matlab scripts.
 
@@ -43,12 +42,16 @@ Full-time development began in the Spring of 1992. The first alpha release was J
 Since then, Octave has been through several major revisions, is included with [Debian GNU/Linux](https://www.debian.org), [openSUSE](https://www.opensuse.org), and many other GNU/Linux distributions. Octave was reviewed in the in the July, 1997 issue of the [Linux Journal](http://www.linuxjournal.com/article/1225).
 Clearly, Octave is now much more than just another courseware package with limited utility beyond the classroom. Although our initial goals were somewhat vague, we knew that we wanted to create something that would enable students to solve realistic problems, and that they could use for many things other than chemical reactor design problems. Today, thousands of people worldwide are using Octave in teaching, research, and commercial applications.
 
+Just about everyone thinks that the name Octave has something to do with music, but it is actually the name of one of the author’s former professors who wrote a famous textbook on chemical reaction engineering, and who was also well known for his ability to do quick “back of the envelope” calculations. We hope that this software will make it possible for many people to do more ambitious computations just as easily.
+
+Everyone is encouraged to share this software with others under the terms of the [GNU General Public License (GPL)](https://www.gnu.org/copyleft/gpl.html). You are also encouraged to help make Octave more useful by writing and contributing additional functions for it, and by reporting any problems you may have.
+
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/octave.install/screenshot.png)
 ]]></description>
-  <releaseNotes>https://www.gnu.org/software/octave/news.html</releaseNotes>
-  <dependencies>
-    <dependency id="autohotkey.install" version="1.1.30.03" />
-  </dependencies>
+    <releaseNotes>https://www.gnu.org/software/octave/news.html</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.install" version="1.1.30.03" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

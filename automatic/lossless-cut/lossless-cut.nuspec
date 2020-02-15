@@ -32,28 +32,11 @@
 - Apply a timecode offset
 - Change rotation/orientation metadata in videos. Great for rotating phone videos that come out the wrong way without actually re-encoding the video.
 
-## Package installation defaults
-
-By default, **installation** of this package:
-- Will be installed in Chocolatey tools directory.
-- Will _NOT_ install a desktop icon.
-- Will install a start menu shorcut.
-
-## Package parameters
-- `/InstallDir` - Installation directory, by default Chocolatey tools directory.
-- `/DesktopIcon` - Create a desktop shortcut.
-- `/NoStartMenu` - Do not create a start menu shortcut.
-
-**Example:**
-`choco install lossless-cut --params '"/InstallDir:C:\your\install\path /DesktopIcon /NoStartMenu"'`
-
-To have choco remember parameters on upgrade, be sure to set `choco feature enable -n=useRememberedArgumentsForUpgrades`
-
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/lossless-cut/screenshot.gif)
 ]]></description>
     <releaseNotes>https://github.com/mifi/lossless-cut/releases</releaseNotes>
   </metadata>
-  <files>    
+  <files>
     <file src="tools\**" target="tools" />
   </files>
 </package>

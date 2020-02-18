@@ -3,7 +3,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
-  file        = "$toolsDir\LyX-234-Installer-2.exe"
+  file        = "$toolsDir\LyX-2343-Installer-3.exe"
   silentArgs  = "/S"
 }
 

@@ -32,7 +32,7 @@
 - Apply a timecode offset
 - Change rotation/orientation metadata in videos. Great for rotating phone videos that come out the wrong way without actually re-encoding the video.
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/lossless-cut/screenshot.gif)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/lossless-cut/screenshot.png)
 ]]></description>
     <releaseNotes>https://github.com/mifi/lossless-cut/releases</releaseNotes>
   </metadata>

@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
  
 $params = @{
-  packageName    = ${env:packageName}
+  packageName    = $env:ChocolateyPackageName
   fileType       = 'EXE'
   silentArgs     = '/S'   
 

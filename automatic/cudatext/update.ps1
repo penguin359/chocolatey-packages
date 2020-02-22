@@ -36,12 +36,12 @@ function global:au_GetLatest {
     $version    = $matches.Version
 
     #if ([System.Version]$version -gt [System.Version]$remoteVersionCudatext) {      
-        $jsonRaw    = Invoke-WebRequest -Uri "https://api.fosshub.com/download/" -Method "POST" -Headers @{"referer"="https://www.fosshub.com/";"method"="POST"} -ContentType "application/json; charset=UTF-8" -Body "{`"projectId`":`"5c191d1d0b70535796ca860d`",`"releaseId`":`"$releaseId`",`"projectUri`":`"CudaText.html`",`"fileName`":`"$fileName32`",`"source`":`"CF`"}"
-        $json32     = ConvertFrom-Json $jsonRaw
+        #$jsonRaw    = Invoke-WebRequest -Uri "https://api.fosshub.com/download/" -Method "POST" -Headers @{"referer"="https://www.fosshub.com/";"method"="POST"} -ContentType "application/json; charset=UTF-8" -Body "{`"projectId`":`"5c191d1d0b70535796ca860d`",`"releaseId`":`"$releaseId`",`"projectUri`":`"CudaText.html`",`"fileName`":`"$fileName32`",`"source`":`"CF`"}"
+        #$json32     = ConvertFrom-Json $jsonRaw
         #$checksum32 = Get-RemoteChecksum $json32.data.url
-        #$jsonRaw    = Invoke-WebRequest -Uri "https://api.fosshub.com/download/" -Method "POST" -Headers @{"referer"="https://www.fosshub.com/";"method"="POST"} -ContentType "application/json; charset=UTF-8" -Body "{`"projectId`":`"5c191d1d0b70535796ca860d`",`"releaseId`":`"$releaseId`",`"projectUri`":`"CudaText.html`",`"fileName`":`"$fileName64`",`"source`":`"CF`"}"
-        #$json64     = ConvertFrom-Json $jsonRaw
-        #$checksum64 = Get-RemoteChecksum $json64.data.url
+        $jsonRaw    = Invoke-WebRequest -Uri "https://api.fosshub.com/download/" -Method "POST" -Headers @{"referer"="https://www.fosshub.com/";"method"="POST"} -ContentType "application/json; charset=UTF-8" -Body "{`"projectId`":`"5c191d1d0b70535796ca860d`",`"releaseId`":`"$releaseId`",`"projectUri`":`"CudaText.html`",`"fileName`":`"$fileName64`",`"source`":`"CF`"}"
+        $json64     = ConvertFrom-Json $jsonRaw
+        $checksum64 = Get-RemoteChecksum $json64.data.url
 
     #    (Get-Content tools\chocolateyinstall.ps1) -notmatch 'file ' | Set-Content -Encoding UTF8 tools\chocolateyinstall.ps1
     #    (Get-Content tools\chocolateyinstall.ps1).Replace("(?i)(\s*file64\s*=\s*`"[$]toolsDir\\)(.*)`"", "  file        = `"`$toolsDir`\$($Filename32)`"`r`$1$($FileName64)`"") | Set-Content -Encoding UTF8 tools\chocolateyinstall.ps1        

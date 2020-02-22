@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>screenpresso</id>
+    <version>1.7.16</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/screenpresso</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Screenpresso</title>
+    <authors>LEARNPULSE SAS</authors>
+    <projectUrl>https://www.screenpresso.com</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/screenpresso/screenpresso.png</iconUrl>
+    <copyright>© 2020 LEARNPULSE SAS - All Rights Reserved</copyright>
+    <licenseUrl>https://www.screenpresso.com/software-license-agreement</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>https://facebook.com/screenpresso</mailingListUrl>
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>screenpresso screenshots capture recording screen grab </tags>
+    <summary>Screenpresso captures your desktop (screenshots and HD videos) for your training documents, collaborative design work, IT bug reports, and more...</summary>
+    <description><![CDATA[
+Screenpresso captures your desktop (screenshots and HD videos) for your training documents, collaborative design work, IT bug reports, and more...
+## [Main features](https://www.screenpresso.com/features)
+### Capture screenshots including scrolling parts
+### Capture your screen in HD videos
+### Smooth workflow
+### Powerful built-in image editor
+### Workspaces and libraries
+### Sharing of captures
+### Android screen capture
+### Document generator
+### Multilingual with support for 19 languages
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

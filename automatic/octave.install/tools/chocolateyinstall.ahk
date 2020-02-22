@@ -44,7 +44,7 @@ StringReplace, BUFF, BUFF, `%MSYSDIR`%\bin\bash.exe --login -c echo, REM ** Choc
 FileDelete, %Post_install_scriptDir%
 FileAppend, %BUFF%, %Post_install_scriptDir%
 
-WinWait, %winTitle%, Completing GNU Octave Setup, 600
+WinWait, %winTitle%, Completing GNU Octave Setup, 900
 Sleep 350
 ControlClick, Button4, %winTitle%,,,, NA ; Don't launch octave automatically after the end of the installation
 Sleep 350

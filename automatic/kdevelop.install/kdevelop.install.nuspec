@@ -36,7 +36,7 @@ Screenshot of KDevelop 5 under Windows with the native Windows 10 style
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kdevelop.install/screenshot.png)
 ]]></description>
-    <releaseNotes>https://www.kdevelop.org/news/kdevelop-532-released</releaseNotes>    
+    <releaseNotes>https://www.kdevelop.org/taxonomy/term/28</releaseNotes>    
   </metadata>
   <files>    
     <file src="tools\**" target="tools" />    

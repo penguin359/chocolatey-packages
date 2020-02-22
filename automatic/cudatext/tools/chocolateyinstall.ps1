@@ -7,13 +7,12 @@ if (!$pp['InstallationPath']) { $pp['InstallationPath'] = 'C:\CudaText' }
 
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
-  destination = $pp['InstallationPath']
-  file        = "$toolsDir\cudatext-win-x32-1.95.0.0.zip"
+  destination = $pp['InstallationPath']  
   file64      = "$toolsDir\cudatext-win-x64-1.95.0.0.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs
-Remove-Item -Path $packageArgs.file,$packageArgs.file64
+Remove-Item -Path $packageArgs.file64
 
 # Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)

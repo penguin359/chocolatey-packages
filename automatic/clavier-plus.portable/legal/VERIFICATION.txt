@@ -1,4 +1,4 @@
-﻿VERIFICATION
+VERIFICATION
  
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
@@ -15,8 +15,8 @@ Package can be verified like this:
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 1E550F6456E73B35BF9B3D4E0EF611AB5EE7F09A4CB95188F05D053F091543FC
-   checksum64: C6CCA8C49A87810F70910A5B06E3FD7494F98AB75C76DC98AE5CB55D00F82B2B
+   checksum32: AB4EE9E99F95B6C914EF63BE3CDF19B458D3BFB4113565532A290F909D41E7FD
+   checksum64: 3D209C63A3080F2A14DA4199432049CE6218E6A3FCB9F10E02E585E961BDB0F0
  
 File 'LICENSE.txt' is obtained from:
    https://www.gnu.org/licenses/gpl-3.0.txt

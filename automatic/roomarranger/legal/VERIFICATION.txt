@@ -1,4 +1,4 @@
-﻿VERIFICATION
+VERIFICATION
  
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://s3.eu-central-1.amazonaws.com/rooarr/rooarr955.exe
-   x64: https://s3.eu-central-1.amazonaws.com/rooarr/rooarr955_64bit.exe
+   x32: https://s3.eu-central-1.amazonaws.com/rooarr/rooarr956.exe
+   x64: https://s3.eu-central-1.amazonaws.com/rooarr/rooarr956_64bit.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: CB03CD4F127D263C1FDD22233CF26D7C6EF50663F92F46C0A437073F3C9CCD65
-   checksum64: 57BB02D3BFC7B9699485CC3FE15060AC6B4AF068D9BC69414043C9F856440C5F
+   checksum32: 08FF38D0041093AE5732818259BDD2BEEBE6C1D2BE482A7556B3D06C3EAD9494
+   checksum64: 9C42AEF82A310BF8E735FEDF9D18C0B299C7CF9999F03A2CEAD42A3C316461F3
  
 File 'LICENSE.txt' is obtained from:
    http://www.roomarranger.com/wiki/doku.php?id=license_agreement

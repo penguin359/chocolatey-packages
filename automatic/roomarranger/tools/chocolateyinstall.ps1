@@ -1,12 +1,12 @@
 ﻿$ErrorActionPreference = 'Stop';
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  destination   = "$toolsDir"
-  file          = "$toolsDir\rooarr955.exe"
-  file64        = "$toolsDir\rooarr955_64bit.exe"
-  silentArgs	= "/S"
+  packageName = $env:ChocolateyPackageName
+  destination = "$toolsDir"
+  file        = "$toolsDir\rooarr956.exe"
+  file64      = "$toolsDir\rooarr956_64bit.exe"
+  silentArgs	= '/S'
 }
 
 Install-ChocolateyInstallPackage @packageArgs
@@ -14,8 +14,8 @@ Install-ChocolateyInstallPackage @packageArgs
 $pp = Get-PackageParameters
  
 if ($pp['licenseCode'] -And $pp['licenseName']) {
-    $licenseCode = $pp["licenseCode"]
-    $licenseName = $pp["licenseName"]
+    $licenseCode = $pp['licenseCode']
+    $licenseName = $pp['licenseName']
  
     $registrationFile = Join-Path ([environment]::getfolderpath("mydocuments")) "Room Arranger\regbak.rrg"
     "[Options]" > $registrationFile

@@ -5,9 +5,14 @@ $regex = 'version (?<Version>[\d\.]+) \('
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-     (Invoke-WebRequest -Uri $releases) -match $regex | Out-Null
-     $version_url = $matches.Version -Replace '\.', ''
-     return @{ Version = $matches.Version ; URL32 = 'https://s3.eu-central-1.amazonaws.com/rooarr/rooarr' + $version_url + '.exe' }
+  (Invoke-WebRequest -Uri $releases) -match $regex | Out-Null
+  $version_url = $matches.Version -Replace '\.', ''
+
+  return @{
+      Version = $matches.Version
+      URL32 = 'https://s3.eu-central-1.amazonaws.com/rooarr/rooarr' + $version_url + '.exe'
+      URL64 = 'https://s3.eu-central-1.amazonaws.com/rooarr/rooarr' + $version_url + '_64bit.exe'
+    }
 }
 
 function global:au_SearchReplace {

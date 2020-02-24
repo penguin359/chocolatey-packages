@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  softwareName  = 'Room Arranger*'
-  fileType      = 'exe'
-  silentArgs    = "/S"
+  packageName  = $env:ChocolateyPackageName
+  softwareName = 'Room Arranger*'
+  fileType     = 'exe'
+  silentArgs   = '/S'
 }
 
 $uninstalled = $false

@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>clavier-plus.portable</id>
-    <version>10.8.3</version>
+    <version>10.8.4</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/clavier-plus.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>Clavier+ (Portable)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/guilryder/clavier-plus/issues</bugTrackerUrl>
     <tags>clavier-plus.portable keyboard shortcut admin</tags>
     <summary>Clavier allows creating keyboard shortcuts involving almost any key, including the Windows keys located around the spacebar.</summary>
-    <description><![CDATA[
-Clavier allows creating keyboard shortcuts involving almost any key, including the Windows keys located around the spacebar.
+    <description><![CDATA[Clavier allows creating keyboard shortcuts involving almost any key, including the Windows keys located around the spacebar.
 
 The created shortcuts can be associated to launching programs or writing text.
 

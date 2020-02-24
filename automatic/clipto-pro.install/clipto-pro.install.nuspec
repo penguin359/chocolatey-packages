@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>clipto-pro.install</id>
-    <version>2.0.8</version>
+    <version>2.2.2</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/clipto-pro.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>Clipto Pro (Install)</title>

@@ -40,7 +40,7 @@ ControlClick, Button2, %winTitle%,,,, NA ; &Install
 ;}
 Sleep, 10000
 FileRead, BUFF, %Post_install_scriptDir%
-StringReplace, BUFF, BUFF, `%MSYSDIR`%\bin\bash.exe --login -c echo, REM ** Chocolatey installation fix** `%MSYSDIR`%\bin\bash.exe --login -c echo, All
+StringReplace, BUFF, BUFF, "`%MSYSDIR`%\bin\bash.exe" --login -c echo, REM ** Chocolatey installation fix** "`%MSYSDIR`%\bin\bash.exe" --login -c echo, All
 FileDelete, %Post_install_scriptDir%
 FileAppend, %BUFF%, %Post_install_scriptDir%
 

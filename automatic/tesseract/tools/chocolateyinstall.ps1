@@ -3,8 +3,8 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
-  file        = "$toolsDir\tesseract-ocr-w32-setup-v5.0.0-alpha.20191030.exe"
-  file64      = "$toolsDir\tesseract-ocr-w64-setup-v5.0.0-alpha.20191030.exe"
+  file        = "$toolsDir\tesseract-ocr-w32-setup-v5.0.0-alpha.20200223.exe"
+  file64      = "$toolsDir\tesseract-ocr-w64-setup-v5.0.0-alpha.20200223.exe"
   silentArgs  = '/S'
 }
 

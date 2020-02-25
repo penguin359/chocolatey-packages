@@ -31,6 +31,9 @@ Earth Alerts is a little program for anybody who is fascinated with the power of
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/earth-alerts/screenshot.png)
 ]]></description>
     <releaseNotes>https://earthalerts.manyjourneys.com/Changelog.txt</releaseNotes>
+    <dependencies>
+      <dependency id="dotnetfx" version="4.8.0.20190930" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>earth-alerts</id>
-    <version>2020.1.102</version>
+    <version>2020.1.120</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/earth-alerts</packageSourceUrl>
     <owners>chtof</owners>
     <title>Earth Alerts</title>
@@ -19,8 +19,7 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>earth-alerts earth monitor natural hazard event weather alert forecast </tags>
     <summary>Earth Alerts is an application that allows you to monitor in near real-time a variety of natural hazard events that are occurring anywhere around the world.</summary>
-    <description><![CDATA[
-## What is EARTH ALERTS?
+    <description><![CDATA[## What is EARTH ALERTS?
 Earth Alerts is an application that allows you to monitor in near real-time a variety of natural hazard events that are occurring anywhere around the world. Alert notifications, reports, and imagery provide the user with a convenient way to view natural phenomenon as they occur, whether close to home or some far-flung corner of the globe!
 
 ## Features

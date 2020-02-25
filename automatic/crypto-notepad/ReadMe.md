@@ -17,7 +17,6 @@ Crypto Notepad is an open source project. It will always remain free and ad-free
 Crypto Notepad can be run from any location without being installed on your PC beforehand. For example, you can place it on a portable storage device and use it to create secure notes on the go.
 
 ## Support the project
-If you are a developer, and want to help improve Crypto Notepad, please visit [the contributing guide](https://github.com/Sigmanor/Crypto-Notepad/blob/master/CONTRIBUTING.md). Also you can donate any amount for the development of the project. Any support is greatly appreciated. Thank you!
-[Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AK9FYCBAHV4U8&source=url) | [Ko-fi](https://ko-fi.com/sigmanor) | [Liberapay](https://liberapay.com/sigmanor)
+If you are a developer, and want to help improve Crypto Notepad, please visit [the contributing guide](https://github.com/Sigmanor/Crypto-Notepad/blob/master/CONTRIBUTING.md). Also you can donate any amount for the development of the project. Any support is greatly appreciated. Thank you! [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AK9FYCBAHV4U8&source=url) | [Ko-fi](https://ko-fi.com/sigmanor) | [Liberapay](https://liberapay.com/sigmanor)
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/crypto-notepad/screenshot.png)

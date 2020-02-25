@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = "$toolsDir"
 
   url           = 'https://earthalerts.manyjourneys.com/files/Setup_EarthAlerts.zip'
-  checksum      = '81E942A99336AD18DCF31B985B0D89947754FFD2B62EE3503A1A48C41BF884E3'
+  checksum      = 'fe92e52593128b2ec48d750aa1a03b0a08d669920a57b8c303a624442b0af01b'
   checksumType  = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs

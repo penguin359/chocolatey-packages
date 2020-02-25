@@ -51,24 +51,9 @@ function global:au_GetLatest {
     #    (Get-Content legal\VERIFICATION.txt).Replace("(?i)(x64: ).*", "   x32: https://www.fosshub.com/CudaText.html?dwl=cudatext-win-x32-$($version).zip`r`${1} https://www.fosshub.com/CudaText.html?dwl=cudatext-win-x64-$($version).zip") | Set-Content -Encoding UTF8 legal\VERIFICATION.txt
 
         return @{
-            Version = $version
-            #URL32   = $json32.data.url
+            Version = $version            
             URL64   = $json64.data.url
         }
-    #} elseif ([System.Version]$versionBeta -gt [System.Version]$remoteVersionCudatextBeta) {
-    #    (Get-Content tools\chocolateyinstall.ps1 -Raw) -Replace "(?i)(\s*file64\s*=\s*`"[$]toolsDir\\)(.*)`"", "`$1$($FileName64)`"" | Set-Content -Encoding UTF8 tools\chocolateyinstall.ps1 
-    #    (Get-Content tools\chocolateyinstall.ps1) -notmatch 'file ' | Set-Content -Encoding UTF8 tools\chocolateyinstall.ps1
-    #    (Get-Content legal\VERIFICATION.txt) -notmatch 'checksum32: ' | Set-Content -Encoding UTF8 legal\VERIFICATION.txt
-    #    (Get-Content legal\VERIFICATION.txt).Replace("(?i)(checksum64: ).*", "`${1} $checksum64") | Set-Content -Encoding UTF8 legal\VERIFICATION.txt
-    #    (Get-Content legal\VERIFICATION.txt) -notmatch 'x32: ' | Set-Content -Encoding UTF8 legal\VERIFICATION.txt
-    #    (Get-Content legal\VERIFICATION.txt).Replace("(?i)(x64: ).*", "`${1} https://www.fosshub.com/CudaText.html?dwl=cudatext-win-x64-$($version).zip") | Set-Content -Encoding UTF8 legal\VERIFICATION.txt
-
-        #return @{
-        #    Version = $versionBeta + '-beta'
-
-        #    URL64   = 'https://sourceforge.net/projects/cudatext/files/beta_version/' + $filenameBeta
-        #}
-    #} 
 }
 
 function global:au_SearchReplace {

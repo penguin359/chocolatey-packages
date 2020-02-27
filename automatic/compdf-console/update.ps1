@@ -7,9 +7,11 @@ function global:au_GetLatest {
 	$regexURL     = 'cpdfc([\d]+).zip'
     $regexVersion = 'ComPDF Console Ver(?<Version>[\d.]+)'
 
-    $HTML = New-Object -Com "HTMLFile"
-    $HTML.IHTMLDocument2_write($download_page.Content)
-    ($HTML.all.tags("strong") |% InnerText | Out-String) -match $regexVersion | Out-Null
+    $ie = New-Object -com internetexplorer.application
+    $ie.Visible = $false
+    $ie.Navigate($releases)
+    while ($ie.Busy -eq $true){Start-Sleep -seconds 4;}
+    ($ie.Document.body.all.tags("strong") |% InnerText | Out-String) -match $regexVersion | Out-Null
     $version = $matches.Version
 
     $download_page = Invoke-WebRequest -Uri $releases_en -UseBasicParsing

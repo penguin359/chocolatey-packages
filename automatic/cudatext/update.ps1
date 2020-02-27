@@ -43,14 +43,7 @@ function global:au_GetLatest {
         $json64     = ConvertFrom-Json $jsonRaw
         $checksum64 = Get-RemoteChecksum $json64.data.url
 
-    #    (Get-Content tools\chocolateyinstall.ps1) -notmatch 'file ' | Set-Content -Encoding UTF8 tools\chocolateyinstall.ps1
-    #    (Get-Content tools\chocolateyinstall.ps1).Replace("(?i)(\s*file64\s*=\s*`"[$]toolsDir\\)(.*)`"", "  file        = `"`$toolsDir`\$($Filename32)`"`r`$1$($FileName64)`"") | Set-Content -Encoding UTF8 tools\chocolateyinstall.ps1        
-    #    (Get-Content legal\VERIFICATION.txt) -notmatch 'checksum32: ' | Set-Content -Encoding UTF8 legal\VERIFICATION.txt
-    #    (Get-Content legal\VERIFICATION.txt).Replace("(?i)(checksum64: ).*", "   checksum32: $checksum32`r`${1} $checksum64") | Set-Content -Encoding UTF8 legal\VERIFICATION.txt
-    #    (Get-Content legal\VERIFICATION.txt) -notmatch 'x32: ' | Set-Content -Encoding UTF8 legal\VERIFICATION.txt
-    #    (Get-Content legal\VERIFICATION.txt).Replace("(?i)(x64: ).*", "   x32: https://www.fosshub.com/CudaText.html?dwl=cudatext-win-x32-$($version).zip`r`${1} https://www.fosshub.com/CudaText.html?dwl=cudatext-win-x64-$($version).zip") | Set-Content -Encoding UTF8 legal\VERIFICATION.txt
-
-        return @{
+          return @{
             Version = $version            
             URL64   = $json64.data.url
         }
@@ -72,4 +65,4 @@ function global:au_SearchReplace {
     }
 }
 
-update -ChecksumFor 64
+update -ChecksumFor none

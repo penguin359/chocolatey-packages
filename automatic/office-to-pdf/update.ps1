@@ -3,10 +3,10 @@
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-    $github_repository = "cognidox/OfficeToPDF"
-    $releases = "https://github.com/" + $github_repository + "/releases/latest"
-    $regex   = "/release-(?<Version>[\d\.]+)/OfficeToPDF.exe$"
-
+    $github_repository = 'cognidox/OfficeToPDF'
+    $releases = 'https://github.com/' + $github_repository + '/releases/latest'
+    #$regex   = "/release-(?<Version>[\d\.]+)/OfficeToPDF.exe$"
+    $regex = '/cognidox/OfficeToPDF/tree/v(?<Version>[\d\.]+)'
 	$url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex
 
 	return @{ Version = $matches.Version ; URL32 = "https://github.com" + $url.href }

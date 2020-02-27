@@ -42,6 +42,9 @@ This project **does not include a GUI application**. If you need one, please see
 Tesseract **can be trained to recognize other languages**. See [Tesseract Training](https://github.com/tesseract-ocr/tesseract/wiki/TrainingTesseract) for more information.
 ]]></description>
     <releaseNotes>https://github.com/UB-Mannheim/tesseract/wiki</releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.3.5.1" />
+    </dependencies>
   </metadata>
   <files>
     <file src="legal\**" target="legal" />

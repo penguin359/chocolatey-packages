@@ -4,9 +4,9 @@ import-module au
 
 function global:au_GetLatest {
   $releases = 'https://www.plantronics.com/us/en/support/downloads-apps/hub-desktop'
-  $regex    = '<b>Version (?<Version>[\d\.]+)</b>'
+  $regex    = 'Version (?<Version>[\d\.]+)</b>'
 
-  (Invoke-WebRequest -Uri $releases).Content -match $regex | Out-Null
+  (Invoke-WebRequest -Uri $releases -UseBasicParsing).Content -match $regex | Out-Null
 
 	return @{
     Version = $matches.Version

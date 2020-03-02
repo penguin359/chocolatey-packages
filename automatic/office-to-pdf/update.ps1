@@ -7,8 +7,11 @@ function global:au_GetLatest {
     $releases = 'https://github.com/' + $github_repository + '/releases/latest'    
     $regex = '/cognidox/OfficeToPDF/tree/v(?<Version>[\d\.]+)'
 	$url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Select -First 1
+    $version = $matches.Version
 
-	return @{ Version = $matches.Version ; URL32 = 'https://github.com' + $url.href }
+	return @{
+        Version = $version
+        URL32 = 'https://github.com/cognidox/OfficeToPDF/releases/download/v' + $version + '/OfficeToPDF.exe' }    
 }
 
 function global:au_SearchReplace {

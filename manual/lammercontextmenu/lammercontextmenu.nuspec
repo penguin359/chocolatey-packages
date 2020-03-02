@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>lammercontextmenu</id>
+    <version>1.0.3.1901</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/lammercontextmenu</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Lammer Context Menu</title>
+    <authors>weDev4you Team.</authors>
+    <projectUrl>http://www.wedev4you.com/Pages/Products/LammerContextMenu</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/lammercontextmenu/lammercontextmenu.png</iconUrl>
+    <copyright>© 2014 weDev4you</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>http://www.facebook.com/pages/weDev4you/446527562058158</mailingListUrl>
+    <bugTrackerUrl>http://www.wedev4you.com/Pages/Contacts.aspx</bugTrackerUrl>
+    <tags>lammercontextmenu Right-click one or more files or folders, the desktop or the window background for instant access to very handy context-sensitive features.</tags>
+    <summary>context menu</summary>
+    <description><![CDATA[
+Right-click one or more files or folders, the desktop or the window background for instant access to very handy context-sensitive features.
+
+## Features
+- Copy Path (Full Path, File Name, File Url, UNC Path)
+- Explore Here
+- Command Prompt
+- Path Operations (Move, copy, delete based on advanced wildcards like: delete all folders matching *\bin\obj)
+- Batch rename files (manual changes, sequences generator, etc)
+- Search and Replace
+- Select all files in a folder by extension
+- Mount virtual drivers (aka subst)
+- Register/Unregister COM Modules (*.ocx, *.dll)
+- Hex Editor
+- Touch Files
+- Pack To Folder
+- Menu is customizable
+- Auto-Updates
+- Copy Contents
+- Run With Arguments
+- Lammer Context Menu is UAC friendly
+
+If you are using it in Windows Vista or better, hold down Shift key while selecting the command from Lammer Context Menu and the command will execute with administrative privileges.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/lammercontextmenu/screenshot.png)
+]]></description>
+    <releaseNotes>http://www.wedev4you.com/Pages/ChangeLog.aspx?app=1</releaseNotes>
+    <dependencies>
+      <dependency id="dotnet3.5" version="3.5.20160716" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

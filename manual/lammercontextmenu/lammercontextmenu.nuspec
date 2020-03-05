@@ -8,14 +8,14 @@
     <owners>chtof</owners>
     <title>Lammer Context Menu</title>
     <authors>weDev4you Team.</authors>
-    <projectUrl>https://twitter.com/wedev4you</projectUrl>
+    <projectUrl>http://www.wedev4you.com/Pages/Products/LammerContextMenu</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/lammercontextmenu/lammercontextmenu.png</iconUrl>
     <copyright>© 2014 weDev4you</copyright>
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
-    <mailingListUrl>http://www.facebook.com/pages/weDev4you/446527562058158</mailingListUrl>
+    <mailingListUrl>https://twitter.com/wedev4you</mailingListUrl>
     <bugTrackerUrl>http://www.wedev4you.com/Pages/Contacts.aspx</bugTrackerUrl>
     <tags>lammercontextmenu lammer context shell menu explorer</tags>
     <summary>Right-click one or more files or folders, the desktop or the window background for instant access to very handy context-sensitive features.</summary>

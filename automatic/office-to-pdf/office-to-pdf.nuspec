@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>office-to-pdf</id>
-    <version>1.8</version>
+    <version>1.9.0.2</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/office-to-pdf</packageSourceUrl>
     <owners>chtof</owners>
     <title>Office to PDF</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/cognidox/OfficeToPDF/issues</bugTrackerUrl>
     <tags>office-to-pdf convert office pdf</tags>
     <summary>OfficeToPDF is a command line utility that converts Microsoft Office 2003, 2007, 2010, 2013 and 2016 documents from their native format into PDF using Office's in-built PDF export features.</summary>
-    <description><![CDATA[
-# OfficeToPDF
+    <description><![CDATA[# OfficeToPDF
 
 ## Giving back to the community
 

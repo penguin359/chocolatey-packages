@@ -1,0 +1,6 @@
+From: help\ReadMe2_English.txt included in the software zip file.
+
+LICENSE
+
+This PAR2 client is written by Yutaka Sawada.
+License is under GPL.

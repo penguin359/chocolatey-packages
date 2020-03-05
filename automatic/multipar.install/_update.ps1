@@ -1,8 +1,8 @@
-﻿$ErrorActionPreference = 'Stop'
+$ErrorActionPreference = 'Stop'
 import-module au
 
 function global:au_BeforeUpdate { 
-    $releases = 'https://multipar.eu'
+    $releases = 'https://hp.vector.co.jp/authors/VA021385/'
     $regex    = 'MultiPar[\d]+_setup.exe$'
     $url      = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex
 
@@ -14,7 +14,7 @@ function global:au_BeforeUpdate {
 }
 
 function global:au_GetLatest {
-    $releases = 'https://multipar.eu'
+    $releases = 'https://hp.vector.co.jp/authors/VA021385/'
     $regex    = 'MultiPar(?<Version>[\d]+)_setup.exe$'
     $url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex
     $version = $matches.Version -replace "(\d+)(\d)(\d)(\d)", '$1.$2.$3.$4'

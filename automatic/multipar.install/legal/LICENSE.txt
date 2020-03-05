@@ -1,0 +1,4 @@
+[ License ]
+
+This PAR2 client is written by Yutaka Sawada.
+License is under GPL.

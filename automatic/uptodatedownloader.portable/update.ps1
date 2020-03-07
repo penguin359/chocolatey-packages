@@ -1,6 +1,10 @@
 ﻿Import-Module au
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
+function global:au_BeforeUpdate() {
+    $Latest.Checksum32 = Get-RemoteChecksum $Latest.Url32    
+}
+
 function global:au_GetLatest {
     $releases = 'https://www.wintools.info/index.php/uptodate-downloader-changelog'
     $regex    = '>Version: (?<Version>[\d\.]*) \|'
@@ -20,4 +24,4 @@ function global:au_SearchReplace {
     }
 }
 
-update
+update -ChecksumFor none

@@ -6,7 +6,7 @@ $packageArgs = @{
   filefullpath  = "$toolsDir\uptodatedl.exe"
 
   url           = 'https://www.wintools.info/Download/uptodatedl.exe'
-  checksum      = 'c427ba00f4c6263b2faae2a15252161736145333950472dac185aa15c479ee1f'
+  checksum      = 'C427BA00F4C6263B2FAAE2A15252161736145333950472DAC185AA15C479EE1F'
   checksumType  = 'sha256'  
 }
 

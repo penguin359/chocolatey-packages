@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
 
-  url64          = 'https://netcologne.dl.sourceforge.net/project/jasperstudio/JaspersoftStudio-6.11.0/TIB_js-studiocomm_6.11.0_windows_x86_64.exe'
-  checksum64     = '16f64434bc139cda2d7c6660421813b7d1aaaf73bf545eac361ac397f6c3bed5'
+  url64          = 'https://netcologne.dl.sourceforge.net/project/jasperstudio/JaspersoftStudio-6.12.0/TIB_js-studiocomm_6.12.0_windows_x86_64.exe'
+  checksum64     = '061fde419c1baa2abc5a29a34502dc1d9610e2d37151952c6f708dfac6ceecea'
   checksumType64 = 'sha256'
 
   silentArgs     = "/S"

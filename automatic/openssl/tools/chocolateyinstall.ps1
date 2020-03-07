@@ -9,6 +9,10 @@ $packageArgs = @{
 }
 
 Install-ChocolateyInstallPackage @packageArgs
+
+New-Item -ItemType File -Path ($packageArgs.file   + '.ignore') -Force | Out-Null
+New-Item -ItemType File -Path ($packageArgs.file64 + '.ignore') -Force | Out-Null
+
 $path = Get-AppInstallLocation OpenSSL-Win
 
 Install-ChocolateyPath -PathToInstall "$path\bin"

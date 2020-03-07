@@ -30,7 +30,7 @@ See the [Parchive project](http://parchive.sourceforge.net) for details of Parch
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/multipar.portable/screenshot.png)
 ]]></description>
-    <releaseNotes>https://multipar.eu/changelog.html</releaseNotes>
+    <releaseNotes>https://github.com/Yutaka-Sawada/MultiPar/blob/master/README.md</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

@@ -1,4 +1,4 @@
-﻿VERIFICATION
+VERIFICATION
  
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/minetest/minetest/releases/download/5.1.0/minetest-5.1.0-win32.zip
-   x64: https://github.com/minetest/minetest/releases/download/5.1.0/minetest-5.1.0-win64.zip
+   x32: https://github.com/minetest/minetest/releases/download/5.1.1/minetest-5.1.1-win64.zip
+   x64: https://github.com/minetest/minetest/releases/download/5.1.1/minetest-5.1.1-win32.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 05ADB03C692096332C2BE07A1ABCF91707D9EE660D757DA144A6371CC33CE164
-   checksum64: 1BB5C133FDA326D59AF703CEB2163403059DD42FFE249660AB6C1C4607C4C55C
+   checksum32: 741315DE5A53AF6E1A29AE5CD8ACFEBF4499446D5E486249553601E625C862B9
+   checksum64: 6A6DE4801FA5D11C4CD40D69EF0E6042ACF621477C081E15790FDF4F42D83F4B
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/minetest/minetest/master/LICENSE.txt

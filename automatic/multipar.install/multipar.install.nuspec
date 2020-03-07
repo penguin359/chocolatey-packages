@@ -33,6 +33,7 @@ See the [Parchive project](http://parchive.sourceforge.net) for details of Parch
     <releaseNotes>https://github.com/Yutaka-Sawada/MultiPar/blob/master/README.md</releaseNotes>
   </metadata>
   <files>
+    <file src="legal\**" target="tools" />
     <file src="tools\**" target="tools" />
   </files>
 </package>

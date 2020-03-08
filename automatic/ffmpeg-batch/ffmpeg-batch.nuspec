@@ -9,7 +9,7 @@
     <title>FFmpeg Batch AV Converter</title>
     <authors>eibol</authors>
     <projectUrl>https://sourceforge.net/projects/ffmpeg-batch</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ffmpeg-batch.install/ffmpeg-batch.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ffmpeg-batch/ffmpeg-batch.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

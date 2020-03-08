@@ -40,11 +40,8 @@ FFmpeg Batch AV Converter is a front-end for Windows ffmpeg users, that allows t
 ]]></description>
     <releaseNotes>https://sourceforge.net/p/ffmpeg-batch/wiki/Changelog</releaseNotes>
     <dependencies>
-      <dependency id="ffmpeg-batch.install" version="2.1.3" />      
+      <dependency id="ffmpeg-batch.install" version="2.1.3" />
     </dependencies>
   </metadata>
-  <files>
-    <file src="legal\**" target="legal" />
-    <file src="tools\**" target="tools" />
-  </files>
+  <files></files>
 </package>

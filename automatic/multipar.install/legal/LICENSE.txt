@@ -1,4 +1,6 @@
-[ License ]
+From: %LOCALAPPDATA\help\ReadMe2_English.txt included in the software zip file when the default path is used to install it.
+
+LICENSE
 
 This PAR2 client is written by Yutaka Sawada.
 License is under GPL.

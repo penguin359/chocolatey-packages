@@ -3,14 +3,14 @@ import-module au
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-    $github_repository = "M2Team/NSudo"
-    $releases          = "https://github.com/" + $github_repository + "/releases/latest"
-    $regex             = 'NSudo_(?<Version>[\d\.]+)_All_Binary.zip$'
+    $github_repository = 'M2Team/NSudo'
+    $releases          = 'https://github.com/' + $github_repository + '/releases/latest'
+    $regex             = 'NSudo_(?<Version>[\d\.]+)_All_(Binary|Components).zip$'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
     $url = $download_page.links | ? href -match $regex
 
-    return @{ Version = $matches.Version ; URL32 = "https://github.com" + $url.href }
+    return @{ Version = $matches.Version ; URL32 = 'https://github.com' + $url.href }
 }
 
 function global:au_SearchReplace {
@@ -24,12 +24,10 @@ function global:au_SearchReplace {
         }
 
         "tools\chocolateyinstall.ps1" = @{
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`$1$($Latest.FileName32)`""
-          "(Join-Path [$]toolsDir `"NSudo )[\d\.]+\\"  =  "`$1$($Latest.Version)\\"
+          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`${1}$($Latest.FileName32)`""
+          "(Join-Path [$]toolsDir `"NSudo )[\d\.]+\\"  =  "`${1}$($Latest.Version)\\"
         }
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none
-}
+update -ChecksumFor none

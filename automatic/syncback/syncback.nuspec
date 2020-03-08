@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>syncback</id>
+    <version>9.3.4.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/syncback</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>SyncBackFree</title>
+    <authors>2BrightSparks Pte. Ltd.</authors>
+    <projectUrl>https://www.2brightsparks.com/freeware</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/syncback/syncback.png</iconUrl>
+    <copyright>© 2003-2020 2BrightSparks Pte. Ltd.</copyright>
+    <licenseUrl>https://www.2brightsparks.com/download-syncbackfree.html#tab2</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://www.2brightsparks.com/assets/pdf/SyncBackFreeV9.pdf</docsUrl>
+    <mailingListUrl>https://www.2brightsparks.com/freeinfo.php</mailingListUrl>
+    <bugTrackerUrl>https://www.2brightsparks.com/download-syncbackfree.html#tab3</bugTrackerUrl>
+    <tags>syncback backup synchronize</tags>
+    <summary>backup synchronize</summary>
+    <description><![CDATA[
+## Features
+- Backup and Synchronize: Copy files in both directions
+- Restore backup files easily
+- Email logs
+- Run programs before and after profiles
+- Schedule backups
+- Unicode enabled for non-English filenames
+- Simple and Advanced mode
+- Runs on Windows 10, 8, 7 and Vista (32/64 bit)
+- For Windows Server use SyncBackPro or SyncBackSE
+- Extensive Help Documentation
+- Completely Free Windows Backup solution!
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/syncback/screenshot.png)
+]]></description>
+    <releaseNotes>https://www.2brightsparks.com/syncback/changes.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

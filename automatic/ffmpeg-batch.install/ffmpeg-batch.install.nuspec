@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ffmpeg-batch.install</id>
+    <version>2.1.3</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/ffmpeg-batch.install</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>FFmpeg Batch AV Converter (Install)</title>
+    <authors>eibol</authors>
+    <projectUrl>https://sourceforge.net/projects/ffmpeg-batch</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ffmpeg-batch.install/ffmpeg-batch.install.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://sourceforge.net/p/ffmpeg-batch/code/ci/master/tree</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>https://sourceforge.net/p/ffmpeg-batch/discussion/general</mailingListUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/ffmpeg-batch/tickets</bugTrackerUrl>
+    <tags>ffmpeg-batch.install ffmpeg batch processing audio video encoding trim concatenate</tags>
+    <summary>GUI for batch processing audio/video using ffmpeg commands.</summary>
+    <description><![CDATA[
+FFmpeg Batch AV Converter is a front-end for Windows ffmpeg users, that allows to use the full potential of ffmpeg command line with a few mouse clicks in a convenient GUI with drag and drop, progress information, You can change encoding priority, pause and resume, set automatic shutdown.
+
+## Features
+- Video encoding h264 / h265 / NVENC / QuickSync / ProRes
+- Audio encoding MP3 / AAC / AC3 / FLAC / WAV
+- Multi-file encoding.
+- Automatic shutdown
+- Batch processing
+- Set encoding priority
+- Drag and drop
+- Stream mapping and multiplex
+- Batch m3u8 urls
+- FFmpeg wizard
+- Filter files
+- Trim and concatenate files
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ffmpeg-batch.install/screenshot.png)
+]]></description>
+    <releaseNotes>https://sourceforge.net/p/ffmpeg-batch/wiki/Changelog</releaseNotes>
+    <dependencies>      
+      <dependency id="dotnetfx" version="4.6.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -9,7 +9,7 @@ $packageArgs = @{
   checksum      = '9b9a3f17014ce1aec9d97d417db9e469d2523408a77415c2b1eebeedd6a28da9'
   checksumType  = 'sha256'
 
-  url           = 'https://mirror.ibcp.fr/pub/gnu/octave/windows/octave-5.2.0_1-w64-installer.exe'
+  url64         = 'https://mirror.ibcp.fr/pub/gnu/octave/windows/octave-5.2.0_1-w64-installer.exe'
   checksum64    = 'b35f85c93dea126922560c04e6cb472c19e457c44d9a8898b4561db1107e9094'
   checksumType64= 'sha256'
 

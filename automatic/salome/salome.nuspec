@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>salome</id>
+    <version>9.4.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/salome</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Salome</title>
+    <authors>Open Cascade Team.</authors>
+    <projectUrl>https://www.salome-platform.org</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/salome/salome.png</iconUrl>-->
+    <copyright>Copyright © 2005-2020 OPEN CASCADE.</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>http://files.salome-platform.org/Salome/Salome9.4.0/src9.4.0.tar.gz</projectSourceUrl>
+    <docsUrl>https://www.salome-platform.org/user-section/documentation/current-release</docsUrl>
+    <mailingListUrl>https://www.salome-platform.org/forum</mailingListUrl>
+    <bugTrackerUrl>https://www.salome-platform.org/service-and-support</bugTrackerUrl>
+    <tags>salome numerical simulation processing</tags>
+    <summary>SALOME is an open-source software that provides a generic Pre- and Post-Processing platform for numerical simulation.</summary>
+    <description><![CDATA[
+SALOME is an open-source software that provides a generic Pre- and Post-Processing platform for numerical simulation.
+
+## What is SALOME
+SALOME is an open-source software that provides a generic Pre- and Post-Processing platform for numerical simulation. It is based on an open and flexible architecture made of reusable components.
+
+SALOME is a cross-platform solution. It is distributed under the terms of the GNU LGPL license. You can download both the source code and the executables from this site.
+
+## How can SALOME be used?
+SALOME can be used as a standalone application for generation of the CAD model, its preparation for the numerical calculations and post-processing of the calculation results.
+
+SALOME can also be used as a platform for integration of the external third-party numerical codes to produce a new application for the full life-cycle management of CAD models.
+
+## SALOME core features
+- Supports interoperability between CAD modeling and computation software (CAD-CAE link).
+- Facilitates integration of new components into heterogeneous systems for the numerical computation.
+- Sets priority to the multi-physics coupling between computation softwares.
+- Provides generic, user-friendly and efficient, user interface, which helps to reduce the costs and delays of carrying out the studies.
+- Reduces training time to the specific time for learning the software solution based on this platform.
+- Provides access to all functionalities via the integrated Python console.
+
+## What can you do with SALOME?
+- Create, modify, import and export (IGES, STEP, BREP, ...), repair and clean CAD models.
+- Generate mesh for CAD models; edit meshes; check mesh quality; import and export mesh data (MED, UNV, DAT, STL, ...).
+- Handle physical properties and quantities attached to geometrical items.
+- Perform computation using one or more external solvers (coupling).
+- Display computation results (scalar, vectorial data).
+- Manage studies (create, save, reload, ...).
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/salome/screenshot.png)
+]]></description>
+    <releaseNotes>http://files.salome-platform.org/Salome/Salome9.4.0/SALOME_9_4_0_Release_Notes.pdf</releaseNotes>
+    <dependencies>
+      <dependency id="vcredist2017" version="14.16.27033" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>earth-alerts</id>
-    <version>2020.1.120</version>
+    <version>2020.1.122</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/earth-alerts</packageSourceUrl>
     <owners>chtof</owners>
     <title>Earth Alerts</title>

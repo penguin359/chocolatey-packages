@@ -1,0 +1,21 @@
+﻿VERIFICATION
+ 
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+Package can be verified like this:
+ 
+1. Download:
+ 
+   x32: http://www.nic.funet.fi/pub/sci/physics/elmer/bin/windows/elmerfem-8.4_Windows-AMD64.exe
+   x64: http://www.nic.funet.fi/pub/sci/physics/elmer/bin/windows/elmerfem-8.4_Windows-AMD64.exe
+  
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+ 
+   checksum type: sha256
+   checksum32: 8EEBF0F7BE5A2F8EEFBC5B198D51B8CD8FECECF553508D214D6AA56593F21BEF
+   checksum64: 8EEBF0F7BE5A2F8EEFBC5B198D51B8CD8FECECF553508D214D6AA56593F21BEF
+ 
+File 'LICENSE.txt' is obtained from: The software installer.

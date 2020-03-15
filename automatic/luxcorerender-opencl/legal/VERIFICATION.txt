@@ -7,14 +7,14 @@ Package can be verified like this:
 
 1. Download:
     
-   x64: https://github.com/LuxCoreRender/LuxCore/releases/download/luxcorerender_v2.2/luxcorerender-v2.2-win64-opencl.zip
+   x64: https://github.com/LuxCoreRender/LuxCore/releases/download/luxcorerender_v2.3/luxcorerender-v2.3-win64-opencl.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum64: 41AA4B0EF1069783C5DE317EC0A0E2E3ACC98DE30307C1C01A236A78C7191407
+   checksum64: CA99E49BC14BD86EC115F83A107E6B8F7DE7DB5975281FFA898267EFE6FEF403
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/LuxCoreRender/LuxCore/master/COPYING.txt

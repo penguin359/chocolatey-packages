@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/clipto-pro.install/clipto-pro.install.png" width="48" height="48"/> [Clipto Pro (Install)](https://chocolatey.org/packages/clipto-pro.install)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/clipto/clipto.png" width="48" height="48"/> [Clipto](https://chocolatey.org/packages/clipto)
 
 Clipto Pro is an effortless, super fast and flexible notes taking app and clipboard manager.
 
@@ -18,4 +18,4 @@ See https://clipto.pro for details.
 ### Share with everyone
 ### Keep your data truly yours
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/clipto-pro.install/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/clipto/screenshot.png)

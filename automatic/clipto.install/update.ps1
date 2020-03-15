@@ -4,7 +4,7 @@ import-module au
 function global:au_GetLatest {
     $github_repository = 'clipto-pro/Desktop'
     $releases = 'https://github.com/' + $github_repository + '/releases/latest'
-    $regex    = 'clipto.pro-(?<Version>[\d\.]+).exe'
+    $regex    = 'clipto-(?<Version>[\d\.]+).exe'
 
     $url     = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links |? href -match $regex
     $version = $matches.Version

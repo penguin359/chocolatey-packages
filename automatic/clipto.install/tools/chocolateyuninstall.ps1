@@ -2,7 +2,7 @@
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'Clipto Pro '  
+  softwareName  = 'Clipto '  
 }
 
 $uninstalled = $false

@@ -3,10 +3,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>clipto-pro</id>
-    <version>2.4.0</version>
+    <version>2.4.6</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/clipto-pro</packageSourceUrl>
     <owners>chtof</owners>
-    <title>Clipto Pro</title>
+    <title>[Deprecated] Clipto Pro</title>
     <authors>Workbasket Ltd.</authors>
     <projectUrl>https://clipto.pro</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/clipto-pro/clipto-pro.png</iconUrl>
@@ -19,29 +19,14 @@
     <bugTrackerUrl>https://github.com/clipto-pro/Desktop/issues</bugTrackerUrl>
     <tags>clipto-pro.install notes clipboard manager</tags>
     <summary>Clipto Pro is an effortless, super fast and flexible notes taking app and clipboard manager.</summary>
-    <description><![CDATA[Clipto Pro is an effortless, super fast and flexible notes taking app and clipboard manager.
-
-## Features
-See https://clipto.pro for details.
-
-### Use it everywhere
-### Get changes instantly
-### Take notes faster then ever
-#### One click navigation
-#### Notes from clipboard
-#### Unlimited tags
-### Boost your productivity
-#### Formatting Tools
-#### Fast Actions
-### Configure for yourself
-### Share with everyone
-### Keep your data truly yours
+    <description><![CDATA[
+**Deprecated**: Since version 2.4.0, Clipto Pro has been renamed for Clipto.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/clipto-pro/screenshot.png)
 ]]></description>
     <releaseNotes>https://github.com/clipto-pro/Desktop/releases</releaseNotes>
     <dependencies>
-      <dependency id="clipto-pro.install" version="2.4.0" />
+      <dependency id="clipto.install" version="2.4.6" />
     </dependencies>
   </metadata>
   <files></files>

@@ -4,8 +4,7 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
-  file64        = "$toolsDir\elmerfem-8.4_Windows-AMD64.exe"
-  silentArgs    = '/S'
+  file64        = "$toolsDir\elmerfem-8.4_Windows-AMD64.exe"  
 }
 
 #Install-ChocolateyInstallPackage @packageArgs

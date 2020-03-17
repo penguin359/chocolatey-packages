@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>elmer-mpi</id>
+    <version>8.4</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/elmer-mpi</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Elmer-MPI FEM (finite element method)</title>
+    <authors>CSC - IT Center for Science</authors>
+    <projectUrl>https://www.csc.fi/web/elmer/elmer</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/elmer-mpi/elmer-mpi.png</iconUrl>
+    <copyright>Copyright © 1995- , CSC - IT Center for Science Ltd.</copyright>
+    <licenseUrl>https://sourceforge.net/projects/elmerfem/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/elmercsc/elmerfem</projectSourceUrl>
+    <docsUrl>https://www.csc.fi/web/elmer/documentation</docsUrl>
+    <mailingListUrl>https://www.csc.fi/web/elmer/user-forums</mailingListUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/elmerfem/_list/tickets</bugTrackerUrl>
+    <tags>elmer mpi multiphysical simulation</tags>
+    <summary>Elmer is an open source multiphysical simulation software mainly developed by CSC - IT Center for Science (CSC).</summary>
+    <description><![CDATA[
+Elmer is an open source multiphysical simulation software mainly developed by CSC - IT Center for Science (CSC). Elmer development was started 1995 in collaboration with Finnish Universities, research institutes and industry. After it's open source publication in 2005, the use and development of Elmer has become international.
+
+Elmer includes physical models of fluid dynamics, structural mechanics, electromagnetics, heat transfer and acoustics, for example. These are described by partial differential equations which Elmer solves by the Finite Element Method (FEM).
+
+These pages are intended to give basic information on the Elmer software. The content of the pages is rather static, For more concurrent information visit the discussion forum and wiki at http://www.elmerfem.org.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/elmer-mpi/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <dependencies>
+      <dependency id="vcredist2010" version="10.0.40219.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

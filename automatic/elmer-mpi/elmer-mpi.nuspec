@@ -11,7 +11,7 @@
     <projectUrl>https://www.csc.fi/web/elmer/elmer</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/elmer-mpi/elmer-mpi.png</iconUrl>
     <copyright>Copyright © 1995- , CSC - IT Center for Science Ltd.</copyright>
-    <licenseUrl>https://sourceforge.net/projects/elmerfem/</licenseUrl>
+    <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/elmercsc/elmerfem</projectSourceUrl>
     <docsUrl>https://www.csc.fi/web/elmer/documentation</docsUrl>

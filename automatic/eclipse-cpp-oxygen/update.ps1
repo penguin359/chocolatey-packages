@@ -11,7 +11,8 @@ function global:au_GetLatest {
 
     return @{
         Version = $version
-        URL32   = 'https://ftp.halifax.rwth-aachen.de/eclipse//technology/epp/downloads/release/' + $matches.VersionUrl + '/R/eclipse-cpp-' + $matches.VersionUrl + '-R-win32-x86_64.zip'
+        #URL32   = 'https://ftp.halifax.rwth-aachen.de/eclipse//technology/epp/downloads/release/' + $matches.VersionUrl + '/R/eclipse-cpp-' + $matches.VersionUrl + '-R-win32-x86_64.zip'
+        URL32   = 'https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/' + $matches.VersionUrl + '/R/' + $matches.0
     }
 }
 

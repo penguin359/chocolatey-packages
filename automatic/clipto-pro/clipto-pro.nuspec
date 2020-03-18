@@ -26,7 +26,7 @@
 ]]></description>
     <releaseNotes>https://github.com/clipto-pro/Desktop/releases</releaseNotes>
     <dependencies>
-      <dependency id="clipto.install" version="2.4.6" />
+      <dependency id="clipto" version="2.4.6" />
     </dependencies>
   </metadata>
   <files></files>

@@ -1,4 +1,4 @@
-﻿. $PSScriptRoot\..\clipto-pro.install\update.ps1
+﻿. $PSScriptRoot\..\clipto.install\update.ps1
 
 function global:au_SearchReplace {
    @{

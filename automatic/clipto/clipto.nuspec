@@ -2,7 +2,7 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>clipto-pro</id>
+    <id>clipto</id>
     <version>2.4.6</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/clipto</packageSourceUrl>
     <owners>chtof</owners>

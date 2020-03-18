@@ -9,7 +9,7 @@
     <title>[Deprecated] Clipto Pro (Install)</title>
     <authors>Workbasket Ltd.</authors>
     <projectUrl>https://clipto.pro</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/clipto-pro.install/clipto-pro.install.png</iconUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/clipto-pro.install/clipto-pro.install.png</iconUrl>-->
     <copyright>Copyright © 2019 Workbasket Ltd. All rights reserved.</copyright>
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->

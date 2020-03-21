@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://slproweb.com/download/Win32OpenSSL-1_1_1d.exe
-   x64: https://slproweb.com/download/Win64OpenSSL-1_1_1d.exe
+   x32: https://slproweb.com/download/Win32OpenSSL-1_1_1e.exe
+   x64: https://slproweb.com/download/Win64OpenSSL-1_1_1e.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 414FB64197A60B4167B367A5B7975511231C439B9D0237625450CB87D47550AB
-   checksum64: 6AFA17D0768CF91B6F69F31FBC67CAB1AC2E3F40CCAAADB7A9D6C7FC37B38492
+   checksum32: B4D325F3FB43DEB9F7A3BC2BA1B14C9029212B3865430EEB2FDBCA86E1B76008
+   checksum64: 757A3B38370362DF05756E45249F96C3193A387F04A650A7001B365F4EB11F10
  
 File 'LICENSE.txt' is obtained from:
    https://www.openssl.org/source/license-openssl-ssleay.txt

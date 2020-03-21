@@ -13,5 +13,5 @@ $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 if (Get-OSArchitectureWidth -Compare "64") { $arch = "_x64" } else { $arch = "" }
 
 $shortcutFilePath = Join-Path $programs "FFmpeg Batch Portable.lnk"
-$targetPath = Join-Path $toolsDir "FFmpeg_Batch_2.1.3_Portable${arch}.exe"
+$targetPath = Join-Path $toolsDir "FFmpeg_Batch_2.1.3_Portable_${arch}.exe"
 Install-ChocolateyShortcut -RunAsAdmin -shortcutFilePath "$shortcutFilePath" -targetPath "$targetPath"

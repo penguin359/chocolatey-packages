@@ -28,8 +28,8 @@ function global:au_SearchReplace {
         }
 
         "tools\chocolateyinstall.ps1" = @{        
-          "(?i)(^\s*fileFullPath\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1Log4OM_$($Latest.VersionURL).exe`""
+          "(?i)(^\s*fileFullPath\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`${1}$($Latest.FileName32)`""
+          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`${1}Log4OM2_$($Latest.VersionURL).exe`""
         }
     }
 }

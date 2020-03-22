@@ -10,7 +10,7 @@ Get-ChocolateyUnzip @packageArgs
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName  
-  file          = "$toolsDir\Log4OM_2_4_0_0.exe"
+  file          = "$toolsDir\Log4OM2_2_4_0_0.exe"
   silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /components=""'
 }
 Install-ChocolateyInstallPackage @packageArgs

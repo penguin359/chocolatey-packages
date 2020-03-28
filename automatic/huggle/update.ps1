@@ -11,18 +11,18 @@ function global:au_GetLatest {
 
     return @{
         Version = $matches.Version
-        URL32 = 'https://github.com' + $url32.href
-        URL64 = 'https://github.com' + $url64.href
+        URL32   = 'https://github.com' + $url32.href
+        URL64   = 'https://github.com' + $url64.href
     }
 }
 
 function global:au_SearchReplace {
     @{
         "tools\chocolateyinstall.ps1" = @{
-			"(^(\s)*url\s*=\s*)('.*')" = "`$1'$($Latest.URL32)'"
-            "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
-            "(^(\s)*url64\s*=\s*)('.*')" = "`$1'$($Latest.URL64)'"
-            "(^(\s)*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
+			"(^(\s)*url\s*=\s*)('.*')"        = "`${1}'$($Latest.URL32)'"
+            "(^(\s)*checksum\s*=\s*)('.*')"   = "`${1}'$($Latest.Checksum32)'"
+            "(^(\s)*url64\s*=\s*)('.*')"      = "`${1}'$($Latest.URL64)'"
+            "(^(\s)*checksum64\s*=\s*)('.*')" = "`${1}'$($Latest.Checksum64)'"
         }        
     }
 }

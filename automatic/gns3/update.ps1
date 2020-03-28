@@ -5,7 +5,7 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 function global:au_GetLatest {
     $github_repository = "GNS3/gns3-gui"
     $releases = "https://github.com/" + $github_repository + "/releases/latest"
-    $regex   = $github_repository + '/releases/download/.*/GNS3-(?<Version>[\d\.]*)[\w-]*.exe'
+    $regex   = $github_repository + '/releases/download/.*/GNS3-(?<Version>[\d\.]*)[\w-]*.exe$'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing	
 	$url = $download_page.links | ? href -match $regex

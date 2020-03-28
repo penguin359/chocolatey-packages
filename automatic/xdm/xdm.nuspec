@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>xdm</id>
+    <version>7.2.10</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/xdm</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Xtreme Download Manager</title>
+    <authors>Subhra Das Gupta</authors>
+    <projectUrl>https://subhra74.github.io/xdm</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/xdm/xdm.png</iconUrl>
+    <copyright>Copyright: Subhra Das Gupta</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/subhra74/xdm/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/subhra74/xdm</projectSourceUrl>
+    <docsUrl>https://github.com/subhra74/xdm/wiki</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/xdman/discussion</mailingListUrl>
+    <bugTrackerUrl>https://github.com/subhra74/xdm/issues</bugTrackerUrl>
+    <tags>xdm xtreme download manager</tags>
+    <summary>Xtreme Download Manager is a powerful tool to increase download speed up-to 500%, save streaming videos from YouTube, DailyMotion, Facebook, Vimeo, Google Video and 1000+ other websites, resume broken/dead downloads, schedule and convert downloads.</summary>
+    <description><![CDATA[
+Xtreme Download Manager is a powerful tool to increase download speed up-to 500%, save streaming videos from YouTube, DailyMotion, Facebook, Vimeo, Google Video and 1000+ other websites, resume broken/dead downloads, schedule and convert downloads. XDM seamlessly integrates with Google Chrome, Mozilla Firefox Quantum, Opera, Vivaldi and other Chroumium and Firefox based browsers, to take over downloads and saving streaming videos from web. XDM has a built in video converter which lets you convert your downloaded videos to different formats so that you can watch then on your mobile or TV (100+ devices are supported)
+
+## [Features](https://subhra74.github.io/xdm/#features)
+
+### Download any streaming video
+### Download 5 time faster
+### Works with all browsers!
+### Download Resume
+### Smart Scheduler, Speed limiter and queued downloads
+### Support for proxy server, authentication and other advanced features
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/xdm/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/subhra74/xdm/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

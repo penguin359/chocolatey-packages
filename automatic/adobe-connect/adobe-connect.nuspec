@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>adobe-connect</id>
+    <version>2020.1.5</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/adobe-connect</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Adobe Connect</title>
+    <authors>Adobe.</authors>
+    <projectUrl>https://www.adobe.com/products/adobeconnect.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/adobe-connect/adobe-connect.png</iconUrl>
+    <copyright>Copyright © 2020 Adobe. All rights reserved.</copyright>
+    <licenseUrl>https://helpx.adobe.com/adobe-connect/adobe-connect-copyright-trademarks-third-party.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://helpx.adobe.com/adobe-connect/using/user-guide.html</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://helpx.adobe.com/support/connect.html</bugTrackerUrl>
+    <tags>adobe-connect web conferencing trial</tags>
+    <summary>The most flexible, secure, extensible and feature-rich web conferencing product on the market.</summary>
+    <description><![CDATA[
+The most flexible, secure, extensible and feature-rich web conferencing product on the market.
+
+### Features
+
+#### Customizable
+Design your own immersive experiences with custom pods, images & layouts to
+personalize and brand your virtual room.
+ 
+#### Engaging
+Drive and measure audience engagement unlike any other tool. Add interactivity to
+your sessions with multiple chat pods, polls, quizzes, simulations, breakout
+rooms, games and more. 
+ 
+#### Powerful
+Leverage Backstage & Prepare Mode to allow presenters and hosts to collaborate behind the scene during live session. Leverage limitless functionality and extensibility with custom apps.
+ 
+#### Persistent
+Create your virtual room once with the right layouts, pods and content and use it
+forever.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/adobe-connect/screenshot.png)
+]]></description>
+    <releaseNotes>https://helpx.adobe.com/adobe-connect/connect-releasenotes.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

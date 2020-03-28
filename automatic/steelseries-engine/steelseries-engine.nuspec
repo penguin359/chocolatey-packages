@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>steelseries-engine</id>
+    <version>3.17.6</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/steelseries-engine</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>SteelSeries Engine</title>
+    <authors>SteelSeries Team.</authors>
+    <projectUrl>https://steelseries.com/engine</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/steelseries-engine/steelseries-engine.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>https://twitter.com/steelseries</mailingListUrl>
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>steelseries-engine gaming setting SteelSeries engine</tags>
+    <summary>Engine was designed to have a low impact on your gaming rig while handling all of your important gaming settings.</summary>
+    <description><![CDATA[
+## Features
+
+### One application for all your settings
+Engine was designed to have a low impact on your gaming rig while handling all of your important gaming settings.
+
+### Automatic game configurations
+User configurations like the [Rival 710's](https://steelseries.com/gaming-mice/rival-710) OLED display can change based on which game you're playing.
+
+### Illumination, macros, binds and more
+Customize illumination settings on your [Arctis 5](), or set up advanced macros and binds for your [Apex M750](https://steelseries.com/gaming-keyboards/apex-m750) or [Apex M750 TKL](https://steelseries.com/gaming-keyboards/apex-m750-tkl) keyboard.
+
+### Tactile alerts
+Use Engine to customize the vibration patterns, duration, intensity, and triggers for your [Rival 500](https://steelseries.com/gaming-mice/rival-500) or [Rival 710](https://steelseries.com/gaming-mice/rival-710).
+
+### Settings across platforms
+SteelSeries CloudSync lets you backup, share and sync your settings across all your platforms. Create a SteelSeries ID, login, and send your data to the cloud.
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

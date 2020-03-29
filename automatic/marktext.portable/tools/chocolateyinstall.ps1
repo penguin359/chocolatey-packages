@@ -13,6 +13,6 @@ Remove-Item -Path $packageArgs.file,$packageArgs.file64
 
 # Install start menu shortcuts
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
-$shortcutFilePath = Join-Path $programs "Mark Text.lnk"
-$targetPath = Join-Path $toolsDir "Mark Text.exe"
-Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath
+$shortcutFilePath = Join-Path "$programs" 'Mark Text.lnk'
+$targetPath = Join-Path "$toolsDir" 'Mark Text.exe'
+Install-ChocolateyShortcut -ShortcutFilePath "$shortcutFilePath" -TargetPath "$targetPath"

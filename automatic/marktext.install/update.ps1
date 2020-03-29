@@ -3,7 +3,7 @@
 function global:au_GetLatest {
     $github_repository = "marktext/marktext"
     $releases = "https://github.com/" + $github_repository + "/releases/latest"
-    $regex   = '/v(?<Version>[\d\.]*)/.*.exe'
+    $regex   = '/v(?<Version>[\d\.]*)/.*.exe$'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	$url = $download_page.links | ? href -match $regex

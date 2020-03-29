@@ -29,9 +29,9 @@ function global:au_SearchReplace {
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum64)"
         }
 
-        "tools\chocolateyinstall.ps1" = @{			
-            "(marktext-)[\d\.]+(-\w+-win.zip)" = "`${1}$($Latest.Version)`${2}"
-        }
+        #"tools\chocolateyinstall.ps1" = @{			
+        #    "(marktext-)[\d\.]+(-\w+-win.zip)" = "`${1}$($Latest.Version)`${2}"
+        #}
     }
 }
 

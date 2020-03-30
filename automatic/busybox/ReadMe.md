@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/busybox/busybox.png" width="48" height="48"/> [BusyBox-w32](https://chocolatey.org/packages/busybox)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/busybox/busybox.png" width="48" height="48"/> [BusyBox](https://chocolatey.org/packages/busybox)
 
 [BusyBox](http://busybox.net) is a single binary that contains many common Unix tools. It's often found in embedded Linux systems like routers, in Android smartphones, in Linux containers and anywhere else it would be handy to have a compact set of Unix command line tools.
 busybox-w32 is a port of BusyBox to the Microsoft Windows WIN32 API. It brings a subset of the functionality of BusyBox to Windows in a single self-contained native executable.

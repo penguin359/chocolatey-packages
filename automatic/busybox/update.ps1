@@ -11,6 +11,7 @@ function global:au_GetLatest {
      return @{
         Version = $matches.Version + '.0'
         URL32   = 'https://frippery.org/files/busybox/busybox.exe'
+        URL64   = 'https://frippery.org/files/busybox/busybox64.exe'
     }
 }
 
@@ -19,11 +20,10 @@ function global:au_SearchReplace {
         "legal\VERIFICATION.txt"  = @{            
             "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
             "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
-            "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
+            "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum64)"
+
         }        
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none
-}
+update -ChecksumFor none

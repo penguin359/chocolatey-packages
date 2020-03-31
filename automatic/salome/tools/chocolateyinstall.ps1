@@ -19,8 +19,14 @@ $packageArgs = @{
 Get-ChocolateyUnzip @packageArgs
 Remove-Item $packageArgs.file64
 
+# Don't create shims for other executables
+$files = Get-ChildItem "$toolsDir" -Recurse -Include *.exe
+foreach ($file in $files) {
+  New-Item "$file.ignore" -type file -force | Out-Null
+}
+
 # Install start menu shortcuts
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
-$shortcutFilePath = Join-Path $programs 'Salome.lnk'
+$shortcutFilePath = Join-Path $programs 'SALOME.lnk'
 $targetPath       = Join-Path $toolsDir 'SALOME-9.4.0\run_salome.bat'
 Install-ChocolateyShortcut -ShortcutFilePath "$shortcutFilePath" -TargetPath "$targetPath"

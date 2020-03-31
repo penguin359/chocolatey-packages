@@ -1,4 +1,4 @@
-﻿# [Salome](https://chocolatey.org/packages/salome)
+﻿# [SALOME](https://chocolatey.org/packages/salome)
 
 ## What is SALOME
 SALOME is an open-source software that provides a generic Pre- and Post-Processing platform for numerical simulation. It is based on an open and flexible architecture made of reusable components.

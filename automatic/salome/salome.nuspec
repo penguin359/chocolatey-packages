@@ -6,7 +6,7 @@
     <version>9.4.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/salome</packageSourceUrl>
     <owners>chtof</owners>
-    <title>Salome</title>
+    <title>SALOME</title>
     <authors>Open Cascade Team.</authors>
     <projectUrl>https://www.salome-platform.org</projectUrl>
     <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/salome/salome.png</iconUrl>-->

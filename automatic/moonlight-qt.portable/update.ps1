@@ -6,8 +6,8 @@ function global:au_GetLatest {
     $github_repository = "moonlight-stream/moonlight-qt"
     $releases          = "https://github.com/" + $github_repository + "/releases/latest"
     $regex32           = 'MoonlightPortable-x86-(?<Version>[\d\.]+).zip'
-    $regex64           = 'MoonlightPortable-x64-([\d\.]+).zip'    
-    
+    $regex64           = 'MoonlightPortable-x64-([\d\.]+).zip'
+
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	$url32         = $download_page.links | ? href -match $regex32 | Select -First 1
     $version       = $matches.Version
@@ -32,7 +32,7 @@ function global:au_SearchReplace {
 
         "tools\chocolateyinstall.ps1" = @{        
           "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
-          "(?i)(^\s*file64\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName64)`""
+          "(?i)(^\s*file64\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`$1$($Latest.FileName64)`""
         }
     }
 }

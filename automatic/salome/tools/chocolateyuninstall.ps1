@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
 # Remove start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
-$shortcutFilePath = Join-Path $programs 'Salome.lnk'
+$shortcutFilePath = Join-Path $programs 'SALOME.lnk'
 if (Test-Path "$shortcutFilePath") { Remove-Item "$shortcutFilePath" }

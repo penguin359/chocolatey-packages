@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>neatmouse</id>
-    <version>1.05.002</version>
+    <version>1.05.004</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/neatmouse</packageSourceUrl>
     <owners>chtof</owners>
     <title>NeatMouse</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/neatdecisions/neatmouse/issues</bugTrackerUrl>
     <tags>neatmouse keyboard mouse emulator</tags>
     <summary>Free keyboard mouse emulator.</summary>
-    <description><![CDATA[
-*NeatMouse* is a small tool for Windows that allows controlling your mouse cursor via keyboard.
+    <description><![CDATA[*NeatMouse* is a small tool for Windows that allows controlling your mouse cursor via keyboard.
 
 This is very useful when your physical mouse is unavailable:
 

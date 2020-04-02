@@ -3,8 +3,8 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
-  file        = "$toolsDir\Win32OpenSSL-1_1_1e.exe"
-  file64      = "$toolsDir\Win64OpenSSL-1_1_1e.exe"
+  file        = "$toolsDir\Win32OpenSSL-1_1_1f.exe"
+  file64      = "$toolsDir\Win64OpenSSL-1_1_1f.exe"
   silentArgs  = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 }
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>iawriter</id>
+    <version>1.2.7320.18263</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/iawriter</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>iA Writer</title>
+    <authors>iA Inc.</authors>
+    <projectUrl>https://ia.net/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/iawriter/iawriter.png</iconUrl>
+    <copyright>©2020 iA Inc.</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://ia.net/writer/support/general</docsUrl>
+    <mailingListUrl>https://ia.net/writer</mailingListUrl>
+    <bugTrackerUrl>https://ia.net/writer/support</bugTrackerUrl>
+    <tags>iawriter ia writer writing markdown plain text trial</tags>
+    <summary>The Writing App. Plain text. Full ownership. Total focus. The original iA Writer.</summary>
+    <description><![CDATA[
+The Writing App. Plain text. Full ownership. Total focus. The original iA Writer.
+
+## Features
+- Focus Mode, Reading Time, Automarkdown (since V1)
+- [Syntax Highlight](https://ia.net/writer/support/writing-tips/parts-of-speech)
+- [Content Blocks](https://ia.net/writer/support/general/content-blocks)
+- [Hashtags](https://ia.net/writer/blog/write-to-organize)
+- Try the [custom made writing Fonts](https://ia.net/writer/blog/a-typographic-christmas)
+- Our [Word Export](https://ia.net/writer/blog/word-and-github) is very powerful, as it covers tables, pictures, footnotes…
+- A writing app should be fast
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/iawriter/screenshot.png)
+]]></description>
+    <releaseNotes>https://ia.net/writer/support/windows/release-notes</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>textexpander</id>
+    <version>2.1.1</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/textexpander</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>TextExpander</title>
+    <authors>SmileOnMyMac, LLC dba TextExpander.</authors>
+    <projectUrl>https://textexpander.com</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/textexpander/textexpander.png</iconUrl>
+    <copyright>© 2020 SmileOnMyMac, LLC dba TextExpander. TextExpander is a registered trademark of Smile.</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>https://twitter.com/textexpander</mailingListUrl>
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>textexpander trial</tags>
+    <summary>Easily insert text snippets in any application from a library of content created by you and your team.</summary>
+    <description><![CDATA[
+TextExpander lets you instantly insert snippets of text from a repository of emails, boilerplate and other content, as you type – using a quick search or abbreviation.
+
+## [Features](https://textexpander.com/features)
+- Keep your team consistent, accurate, and current
+- Work faster and smarter
+- Customize the standardized
+- It’s about Time
+- Streamline code & data. Advanced functions
+- Mac Specific Features
+- Windows Specific Features
+- iOS Specific Features
+- Chrome Specific Features
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

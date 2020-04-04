@@ -1,4 +1,4 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ultraviewer.install/ultraviewer.install.png" width="48" height="48"/> [UltraViewer](https://chocolatey.org/packages/ultraviewer.install)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ultraviewer.install/ultraviewer.install.png" width="48" height="48"/> [UltraViewer (Install)](https://chocolatey.org/packages/ultraviewer.install)
 
 ## Features
 

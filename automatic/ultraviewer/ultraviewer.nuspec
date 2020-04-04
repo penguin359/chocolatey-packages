@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ultraviewer</id>
+    <version>6.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/ultraviewer</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>UltraViewer</title>
+    <authors>UltraViewer</authors>
+    <projectUrl>https://ultraviewer.net</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ultraviewer/ultraviewer.png</iconUrl>
+    <copyright>@ Copyright UltraViewer 2020 | All Rights ReservedTM</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://ultraviewer.net/en/faq.html</docsUrl>
+    <mailingListUrl>http://facebook.com/ultraviewer</mailingListUrl>
+    <bugTrackerUrl>https://ultraviewer.net/en/contact.html</bugTrackerUrl>
+    <tags>ultraviewer.install ultra viewer remote control support online</tags>
+    <summary>UltraViewer helps you control your partner's computer to support them as if you were sitting in front of their screen.</summary>
+    <description><![CDATA[
+## Features
+
+**Remote support so easy**
+Remote control to support your clients / partners from everywhere.
+
+- Safe remote control
+UltraViewer is designed to support customer, partner remotely. Your clients can observe all you do on their screen and take control whenever they want.
+
+- Chat window
+Conveniently chat with your partner while controlling their machine. You can toggle chat on/off when controlling by press default hotkey F1 or any hotkey you set.
+
+- Share files
+You can send and receive files to/ from your partner easily from the chat window. All under the safe control of your partner.
+
+- Multi-computer
+You can control multiple computers simultaneously or share your screen with multiple computers.
+
+- Latest version
+See new version features and information.
+
+- Support all versions of Windows
+Window XP, Window 7, Window 8, Window 10, Window Server.
+
+- Support anywhere
+Remote control support your partner from anywhere.
+
+- Now you will not need to visit
+In the past, before remote control software hadn't been invented, technicians from software companies usually needed to go to customer's premises to support them. This was inconvenience, cost time and money for both customer and supporter. Nowadays, UltraViewer helps you support your clients quickly and remotely, makes your work easier, faster and more convenient.
+
+## Your benefit
+
+- Saving time
+- Saving effort
+- Saving traffic cost
+- Saving employees cost
+- Support more professional
+- No geographical restriction
+
+## Why choose UltraViewer?
+
+- More five year experience
+- Cost effective
+- Freely update
+- Easy to install
+- Behind firewall
+- Free support
+- Secure payment
+- Unlimited installation
+- Easy to use
+- Multi-language
+
+## How-to
+
+### How to remote control a computer
+You ask your partner to send you the ID and Password displayed on their UltraViewer. Input that ID and Password to your UltraViewer and press 'Connect'. 
+
+### How to allow remote control
+You run UltraViewer and send ID and Password displayed on your UltraViewer to your partner and require them connect to that ID and Password.</summary>
+    <description><![CDATA[
+[[Description]]
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ultraviewer.install/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <dependencies>
+      <dependency id="ultraviewer.install" version="[6.2]" />
+    </dependencies>
+  </metadata>
+  <files></files>
+</package>

@@ -77,9 +77,7 @@ In the past, before remote control software hadn't been invented, technicians fr
 You ask your partner to send you the ID and Password displayed on their UltraViewer. Input that ID and Password to your UltraViewer and press 'Connect'. 
 
 ### How to allow remote control
-You run UltraViewer and send ID and Password displayed on your UltraViewer to your partner and require them connect to that ID and Password.</summary>
-    <description><![CDATA[
-[[Description]]
+You run UltraViewer and send ID and Password displayed on your UltraViewer to your partner and require them connect to that ID and Password.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ultraviewer.install/screenshot.png)
 ]]></description>

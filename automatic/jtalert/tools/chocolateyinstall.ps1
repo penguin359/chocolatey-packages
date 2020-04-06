@@ -1,8 +1,8 @@
 ﻿$packageArgs = @{
   packageName  = $env:ChocolateyPackageName
 
-  url          = 'https://dnl.hamapps.com/JTAlert/5ef7fbbd77eb6a94121d2880b882b815'
-  checksum     = 'b77f9b3499617de675875e566efddf55af26549cb508671bd934eaff6cd844fd'
+  url          = 'https://dnl.hamapps.com/JTAlert/b4d05b5174ca5c7c1ee3f9bf01b911d8'
+  checksum     = '3a24c02c35560cc247403d27b25ad05e534d37f29a9a69b752520c2b85cfe909'
   checksumType = 'sha256'
 
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /components=""'

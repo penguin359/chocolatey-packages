@@ -6,11 +6,11 @@ import-module au
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-    $releases = 'https://launchpad.net/photofiltre-lx'
-    $regex    = 'Photoflare_CE_(?<Version>[\d\.]+)_amd64.msi'    
+    $releases = 'https://launchpad.net/photofiltre-lx/+download'
+    $regex    = 'Photoflare_CE_(?<Version>[\d\.]+)_amd64.msi$'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	$url = $download_page.links | ? href -match $regex
+	$url = $download_page.links | ? href -match $regex | Select -First 1
 
     return @{ Version = $matches.Version ; URL64 = $url.href }
 }

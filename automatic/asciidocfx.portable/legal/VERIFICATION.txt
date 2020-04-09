@@ -1,4 +1,4 @@
-﻿VERIFICATION
+VERIFICATION
  
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/asciidocfx/AsciidocFX/releases/download/v1.7.1/AsciidocFX_Windows.zip
-   x64: https://github.com/asciidocfx/AsciidocFX/releases/download/v1.7.1/AsciidocFX_Windows.zip
+   x32: https://github.com/asciidocfx/AsciidocFX/releases/download/v1.7.2/AsciidocFX_Windows.zip
+   x64: https://github.com/asciidocfx/AsciidocFX/releases/download/v1.7.2/AsciidocFX_Windows.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: b871c670fdf8d5e3371741d0145db7a96df4fbdf56e65996baa5b19218ecf79c
-   checksum64: b871c670fdf8d5e3371741d0145db7a96df4fbdf56e65996baa5b19218ecf79c
+   checksum32: BAC1E5E78CEC198D096719B2E03009231345424F829F2190FD625C127A2F813A
+   checksum64: BAC1E5E78CEC198D096719B2E03009231345424F829F2190FD625C127A2F813A
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/asciidocfx/AsciidocFX/master/LICENSE

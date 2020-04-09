@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>asciidocfx</id>
-    <version>1.7.1</version>
+    <version>1.7.2</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/asciidocfx</packageSourceUrl>
     <owners>chtof</owners>
     <title>AsciidocFX - Asciidoc Book Editor based on JavaFX 8</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/chocolatey-community/chocolatey-package-requests/issues</bugTrackerUrl>
     <tags>asciidocfx book document editor build pdf epub mobi html document slide</tags>
     <summary>Asciidoc FX is a book / document editor to build PDF, Epub, Mobi and HTML books, documents and slides.</summary>
-    <description><![CDATA[
-Asciidoc FX is a book / document editor to build PDF, Epub, Mobi and HTML books, documents and slides. AsciidocFX is also a winner of [Duke’s Choice Award 2015](https://www.oracle.com/corporate/pressrelease/dukes-award-102815.html).
+    <description><![CDATA[Asciidoc FX is a book / document editor to build PDF, Epub, Mobi and HTML books, documents and slides. AsciidocFX is also a winner of [Duke’s Choice Award 2015](https://www.oracle.com/corporate/pressrelease/dukes-award-102815.html).
 ## Features
 
 * Real-Time Preview
@@ -41,7 +40,7 @@ Asciidoc FX is a book / document editor to build PDF, Epub, Mobi and HTML books,
 * Deck.js Converter
 * Nashorn support
 * Pseudo Terminal Emulator
-* Themeing (Dark & White) _New _
+* Themeing (Dark & White)
 
 ## Pseudo Terminal Emulator
 image::http://i.giphy.com/l3vR4SlEtY3juZfXy.gif[Pseudo Terminal Emulator]
@@ -50,7 +49,7 @@ image::http://i.giphy.com/l3vR4SlEtY3juZfXy.gif[Pseudo Terminal Emulator]
 ]]></description>
     <releaseNotes>https://github.com/asciidocfx/AsciidocFX/blob/master/CHANGELOG.asc</releaseNotes>
     <dependencies>
-      <dependency id="asciidocfx.install" version="[1.7.1]" />
+      <dependency id="asciidocfx.install" version="[1.7.2]" />
     </dependencies>
   </metadata>
   <files></files>

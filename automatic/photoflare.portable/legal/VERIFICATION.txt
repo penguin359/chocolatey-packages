@@ -6,14 +6,14 @@ in verifying that this package's contents are trustworthy.
 Package can be verified like this:
  
 1. Download:
-   x64: https://launchpad.net/photofiltre-lx/trunk/v1.6.2/+download/Photoflare_CE_1.6.2_amd64_win_portable.zip
+   x64: https://launchpad.net/photofiltre-lx/trunk/v1.6.4/+download/Photoflare_CE_1.6.4_amd64_win_portable.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum64: 932A854A9ED359BE55D178F9A207CD882EC68C698FB2AD750EF6EB2855B2489D
+   checksum64: 7D4B6DAC61FEA081357FB088314BCC790D7958EAD8511C2234891A761EB4772A
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/PhotoFlare/photoflare/master/LICENSE.md

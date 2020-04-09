@@ -4,13 +4,14 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
   $releases = 'http://www.calluna-software.com/Products/Downloads'
-  $regex    = '<td>(?<Version>[\d\.]+) \(<a href=\"/Products/ChangeLog\"'
+  $regex    = 'NCollectorStudio_(?<Version>[\d\.]+).msi$'
 
-  (Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null
-  
+  $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+  $url32         = $download_page.links | ? href -match $regex
+
   return @{
     Version = $matches.Version
-    URL32   = 'http://www.calluna-software.com/downloads/ncollector/NCollectorStudioLite.msi'
+    URL32   = 'http://www.calluna-software.com/downloads/ncollector/' + $matches.0
   }
 }
 

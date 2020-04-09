@@ -8,7 +8,7 @@
     <owners>chtof</owners>
     <title>Eddie - OpenVPN GUI</title>
     <authors>Eddie Team.</authors>
-    <projectUrl>https://github.com/AirVPN/Eddie</projectUrl>
+    <projectUrl>https://eddie.website</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/eddie/eddie.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://raw.githubusercontent.com/AirVPN/Eddie/master/LICENSE</licenseUrl>

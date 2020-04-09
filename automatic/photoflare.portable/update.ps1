@@ -6,7 +6,7 @@ import-module au
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-    $releases = 'https://launchpad.net/photofiltre-lx'
+    $releases = 'https://launchpad.net/photofiltre-lx/+download'
     $regex    = 'Photoflare_CE_(?<Version>[\d\.]+)_amd64_win_portable.zip'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing

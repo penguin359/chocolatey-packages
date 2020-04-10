@@ -5,6 +5,7 @@ $packageArgs = @{
   packageName = $env:ChocolateyPackageName
   destination = "$toolsDir"
   file        = "$toolsDir\dust3d-1.0.0-beta.29-x86.zip"
+  file64        = "$toolsDir\dust3d-1.0.0-beta.29.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs
@@ -12,6 +13,6 @@ Remove-Item -Path $packageArgs.file
 
 # Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
-$shortcutFilePath = Join-Path $programs "Dust3D.lnk"
-$targetPath = Join-Path $toolsDir "dust3d.exe"
-Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath
+$shortcutFilePath = Join-Path "$programs" 'Dust3D.lnk'
+$targetPath = Join-Path "$toolsDir" 'dust3d.exe'
+Install-ChocolateyShortcut -shortcutFilePath "$shortcutFilePath" -targetPath "$targetPath"

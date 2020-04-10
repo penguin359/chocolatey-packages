@@ -10,7 +10,7 @@ function global:au_GetLatest {
     $regex    = 'Photoflare_CE_(?<Version>[\d\.]+)_amd64_win_portable.zip'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	$url = $download_page.links | ? href -match $regex
+	$url = $download_page.links | ? href -match $regex | Select -First 1
 
     return @{ Version = $matches.Version ; URL64 = $url.href }
 }

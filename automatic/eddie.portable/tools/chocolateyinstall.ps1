@@ -20,5 +20,5 @@ foreach ($file in $files) {
 # Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = Join-Path $programs "Eddie-UI.lnk"
-$targetPath = Join-Path $toolsDir "eddie-ui_2.16.3_windows-10_x64_portable\Eddie-UI.exe"
-Install-ChocolateyShortcut -RunAsAdmin -shortcutFilePath $shortcutFilePath -targetPath $targetPath
+$targetPath = Join-Path "$toolsDir" "eddie-ui_2.16.3_windows-10_x64_portable\Eddie-UI.exe"
+Install-ChocolateyShortcut -RunAsAdmin -shortcutFilePath "$shortcutFilePath" -targetPath "$targetPath"

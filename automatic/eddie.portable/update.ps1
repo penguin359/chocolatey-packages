@@ -1,6 +1,25 @@
 ﻿import-module au
 
-function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
+function global:au_BeforeUpdate {
+    $github_repository = 'AirVPN/Eddie'
+    $releases = 'https://github.com/' + $github_repository + '/releases/latest'    
+    $regex    = 'tree/(?<Version>[\d\.]+)'
+
+    Remove-Item "$PSScriptRoot\tools\*.exe"
+
+    (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Out-Null
+    $version = $matches.Version
+
+    $Latest.FileName32 = "eddie-ui_$($version)_windows-10_x86_portable.exe"
+    $Latest.URL32 = 'https://airvpn.org/mirrors/eddie.website/download/?platform=windows-10&arch=x86&ui=ui&format=portable.zip&version=' + $version
+    Invoke-WebRequest -Uri $Latest.URL32 -OutFile "$PSScriptRoot\tools\$($Latest.Filename32)" | Out-Null
+    $Latest.Checksum32 = checksum -t sha256 "$PSScriptRoot\tools\$($Latest.Filename32)"
+
+    $Latest.FileName64 = "eddie-ui_$($version)_windows-10_x64_installer.exe"
+    $Latest.URL64 = 'https://airvpn.org/mirrors/eddie.website/download/?platform=windows-10&arch=x64&ui=ui&format=portable.zip&version=' + $version
+    Invoke-WebRequest -Uri $Latest.URL64 -OutFile "$PSScriptRoot\tools\$($Latest.Filename64)" | Out-Null
+    $Latest.Checksum64 = checksum -t sha256 "$PSScriptRoot\tools\$($Latest.Filename64)"
+}
 
 function global:au_GetLatest {
     $github_repository = 'AirVPN/Eddie'
@@ -12,8 +31,6 @@ function global:au_GetLatest {
 
     return @{
         Version = $version
-        URL32   = 'https://airvpn.org/mirrors/eddie.website/download/?platform=windows-10&arch=x86&ui=ui&format=portable.zip&version=' + $version
-        URL64   = 'https://airvpn.org/mirrors/eddie.website/download/?platform=windows-10&arch=x64&ui=ui&format=portable.zip&version=' + $version
     }
 }
 

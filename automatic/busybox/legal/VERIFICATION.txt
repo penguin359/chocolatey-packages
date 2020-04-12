@@ -15,8 +15,8 @@ Package can be verified like this:
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 068744FBE3308807C7658DA711821AF13AF6563DAB6D86F7ACA1AC45E3710EBA
-   checksum64: f46547c7a3553f070a658068ec2cbdfb76fa9728a9fc9f5f382ef0542f5b0f3c
+   checksum32: 9A97C5A8123E7DCFA47AB79AF5C3A2421151908451470F6EF877886BA7BE7AF2
+   checksum64: B40FB9528BB16E4AF0ACAD3BDBDAB274DB11BB15693C8BE6ED44AEE8DA7BB04F
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/rmyorston/busybox-w32/master/LICENSE

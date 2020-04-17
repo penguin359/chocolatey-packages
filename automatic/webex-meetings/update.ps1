@@ -12,12 +12,12 @@ function global:au_GetLatest {
     while ($ie.Busy -eq $true){Start-Sleep -seconds 4;}
     $ie.Document.body.outerHTML -match $regex | Out-Null
 
-	$UrlVersion        = $matches.Version
-    $NugetVersion      = $UrlVersion -replace '-', '.'    
+	$urlVersion     = $matches.Version
+    $packageVersion = $UrlVersion -replace '-', '.'    
 
     return @{
-        Version = $version
-        URL32   = $downloadUrl_part1 + $UrlVersion + '/webexapp.msi'
+        Version = $packageVersion
+        URL32   = $downloadUrl_part1 + $urlVersion + '/webexapp.msi'
     }
 }
 

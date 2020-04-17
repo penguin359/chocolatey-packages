@@ -13,7 +13,7 @@ function global:au_GetLatest {
     $ie.Document.body.outerHTML -match $regex | Out-Null
 
 	$urlVersion     = $matches.Version
-    $packageVersion = $UrlVersion -replace '-', '.'    
+    $packageVersion = $UrlVersion -replace '-', '.'
 
     return @{
         Version = $packageVersion

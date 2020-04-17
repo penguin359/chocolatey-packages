@@ -3,7 +3,7 @@ import-module au
 
 function global:au_GetLatest {    
 	$releases          = 'https://cisco.webex.com/webappng/sites/cisco/dashboard/download'
-    $downloadUrl_part1 = 'https://akamaicdn.webex.com/client/'
+    $downloadUrl_part1 = 'https://akamaicdn.webex.com/client/WBXclient-'
     $regex             = 'https://cisco.webex.com/client/WBXclient-(?<version>[\d\.-]+)/webexapp.msi'
 
     $ie = New-Object -com internetexplorer.application

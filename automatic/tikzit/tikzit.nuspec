@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>tikzit</id>
-    <version>2.1.4</version>
+    <version>2.1.5</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/tikzit</packageSourceUrl>
     <owners>chtof</owners>
     <title>TikZiT</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/tikzit/tikzit/issues</bugTrackerUrl>
     <tags>tikzit GUI editor graphs string diagram</tags>
     <summary>TikZiT is a super simple GUI editor for graphs and string diagrams.</summary>
-    <description><![CDATA[
-TikZiT is a super simple GUI editor for graphs and string diagrams. Its native file format is a subset of PGF/TikZ, which means TikZiT files can be included directly in papers typeset using [LaTeX](https://www.latex-project.org). Pre-built versions are available for systems running Windows, Linux, or macOS. [Packages](https://tikzit.github.io/#install) are available for some Linux distributions, or you can [build from source](https://github.com/tikzit/tikzit).
+    <description><![CDATA[TikZiT is a super simple GUI editor for graphs and string diagrams. Its native file format is a subset of PGF/TikZ, which means TikZiT files can be included directly in papers typeset using [LaTeX](https://www.latex-project.org). Pre-built versions are available for systems running Windows, Linux, or macOS. [Packages](https://tikzit.github.io/#install) are available for some Linux distributions, or you can [build from source](https://github.com/tikzit/tikzit).
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tikzit/screenshot.png)
 ]]></description>

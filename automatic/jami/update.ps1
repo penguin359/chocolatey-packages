@@ -51,8 +51,8 @@ function GetETagIfChanged() {
   return $etag
 }
 
-function global:au_GetLatest {
-  $downloadUrl = 'https://dl.jami.net/windows/jami-x64.msi'
+function global:au_GetLatest {  
+  $downloadUrl = 'https://dl.jami.net/windows/jami.release.x64.msi'
   $etag = GetETagIfChanged -uri $downloadUrl
 
   if ($etag) {

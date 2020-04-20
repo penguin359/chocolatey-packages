@@ -4,8 +4,8 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName  = $env:ChocolateyPackageName
 
-  url          = 'https://github.com/clipto-pro/Desktop/releases/download/v2.7.2/clipto-2.7.2.exe'
-  checksum     = '5045e1bba28616165285dfb4479369ca45e8f61e3d2e3b6fff0390b2cca3ee72'
+  url          = 'https://github.com/clipto-pro/Desktop/releases/download/v2.7.9/clipto-2.7.9.exe'
+  checksum     = 'c5519682e9edbd14889c2aba291d67dd79289f438460bdaa083ab556b0a586be'
   checksumType = 'sha256'
 
   silentArgs   = '/S'

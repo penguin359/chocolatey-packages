@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ffmpeg-batch</id>
-    <version>2.1.3</version>
+    <version>2.1.5</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/ffmpeg-batch.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>FFmpeg Batch AV Converter</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://sourceforge.net/p/ffmpeg-batch/tickets</bugTrackerUrl>
     <tags>ffmpeg-batch.install ffmpeg batch processing audio video encoding trim concatenate</tags>
     <summary>GUI for batch processing audio/video using ffmpeg commands.</summary>
-    <description><![CDATA[
-FFmpeg Batch AV Converter is a front-end for Windows ffmpeg users, that allows to use the full potential of ffmpeg command line with a few mouse clicks in a convenient GUI with drag and drop, progress information, You can change encoding priority, pause and resume, set automatic shutdown.
+    <description><![CDATA[FFmpeg Batch AV Converter is a front-end for Windows ffmpeg users, that allows to use the full potential of ffmpeg command line with a few mouse clicks in a convenient GUI with drag and drop, progress information, You can change encoding priority, pause and resume, set automatic shutdown.
 
 ## Features
 - Video encoding h264 / h265 / NVENC / QuickSync / ProRes
@@ -36,11 +35,11 @@ FFmpeg Batch AV Converter is a front-end for Windows ffmpeg users, that allows t
 - Filter files
 - Trim and concatenate files
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ffmpeg-batch.install/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ffmpeg-batch/screenshot.png)
 ]]></description>
     <releaseNotes>https://sourceforge.net/p/ffmpeg-batch/wiki/Changelog</releaseNotes>
     <dependencies>
-      <dependency id="ffmpeg-batch.install" version="2.1.3" />
+      <dependency id="ffmpeg-batch.install" version="2.1.5" />
     </dependencies>
   </metadata>
   <files></files>

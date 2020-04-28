@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>apo-ok.install</id>
-    <version>2.22</version>
+    <version>2.44</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/apo-ok.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>AutoPowerOptionsOK (Install)</title>

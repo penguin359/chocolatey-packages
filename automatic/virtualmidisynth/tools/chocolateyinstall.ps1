@@ -3,7 +3,7 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
-  file        = "$toolsDir\CoolSoft_VirtualMIDISynth_2.8.0.exe"
+  file        = "$toolsDir\CoolSoft_VirtualMIDISynth_2.9.1.exe"
   silentArgs  = '/S'
 }
 

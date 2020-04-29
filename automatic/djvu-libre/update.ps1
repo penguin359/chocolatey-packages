@@ -6,13 +6,13 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     $releases = 'https://sourceforge.net/projects/djvu/files/DjVuLibre_Windows'
-    $regex   = '(?<Path>/DjVuLibre_Windows/[\d\.]+\+(?<VersionDjView>[\d\.]+)/DjVuLibre-(?<Version>[\d\.]+)_DjView-4.11_Setup.exe)'
+    $regex   = '(?<Path>/DjVuLibre_Windows/[\d\.]+\+(?<VersionDjView>[\d\.]+)/DjVuLibre-(?<Version>[\d\.]+)_DjView-4.11_.*.exe)'
 
     (Invoke-WebRequest -Uri $releases).Content -match $regex | Out-Null
 
     return @{
-        Version = $matches.Version + '.' + $matches.VersionDjView.Replace('.','')
-        URL32   = 'https://netcologne.dl.sourceforge.net/project/djvu/' + $matches.Path
+        Version = $matches.Version + '.' + $matches.VersionDjView.Replace('.','')        
+        URL32   = 'https://netcologne.dl.sourceforge.net/project/djvu/DjVuLibre_Windows/' + $matches.Version + '+' + $matches.VersionDjView + '/DjVuLibre-' + $matches.Version + '_DjView-' + $matches.VersionDjView + '_Setup.exe'
     }
 }
 
@@ -32,6 +32,4 @@ function global:au_SearchReplace {
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none
-}
+update -ChecksumFor none

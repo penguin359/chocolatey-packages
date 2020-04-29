@@ -48,7 +48,7 @@ function global:au_SearchReplace {
         "tools\chocolateyinstall.ps1" = @{
           "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
           "(?i)(^\s*file64\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`$1$($Latest.FileName64)`""          
-          "(Join-Path [$]toolsDir `"eddie-ui_)[\d\.]+(_windows-10_x64_portable\Eddie-UI.exe`")" = "`$1$($Latest.Version)`$2"          
+          "(Join-Path [$]toolsDir `"eddie-ui_)[\d\.]+(_windows-10_x64_portable\\Eddie-UI.exe`")" = "`$1$($Latest.Version)`$2"          
         }
     }
 }

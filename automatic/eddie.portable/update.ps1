@@ -13,12 +13,13 @@ function global:au_BeforeUpdate {
     $Latest.FileName32 = "eddie-ui_$($version)_windows-10_x86_portable.exe"
     $Latest.URL32 = 'https://airvpn.org/mirrors/eddie.website/download/?platform=windows-10&arch=x86&ui=ui&format=portable.zip&version=' + $version
     Invoke-WebRequest -Uri $Latest.URL32 -OutFile "$PSScriptRoot\tools\$($Latest.Filename32)" | Out-Null
-    $Latest.Checksum32 = checksum -t sha256 "$PSScriptRoot\tools\$($Latest.Filename32)"
-
+    $Latest.ChecksumType = "sha256"
+    $Latest.Checksum32   = Get-FileHash -Algorithm $Latest.ChecksumType -Path "$PSScriptRoot\tools\$($Latest.Filename32)" | ForEach-Object Hash
+    
     $Latest.FileName64 = "eddie-ui_$($version)_windows-10_x64_installer.exe"
     $Latest.URL64 = 'https://airvpn.org/mirrors/eddie.website/download/?platform=windows-10&arch=x64&ui=ui&format=portable.zip&version=' + $version
     Invoke-WebRequest -Uri $Latest.URL64 -OutFile "$PSScriptRoot\tools\$($Latest.Filename64)" | Out-Null
-    $Latest.Checksum64 = checksum -t sha256 "$PSScriptRoot\tools\$($Latest.Filename64)"
+    $Latest.Checksum64 = Get-FileHash -Algorithm $Latest.ChecksumType -Path "$PSScriptRoot\tools\$($Latest.Filename64)" | ForEach-Object Hash
 }
 
 function global:au_GetLatest {

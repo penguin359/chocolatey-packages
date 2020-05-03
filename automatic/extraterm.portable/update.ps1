@@ -30,7 +30,7 @@ function global:au_SearchReplace {
 
         "tools\chocolateyinstall.ps1" = @{
           "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`$1$($Latest.FileName32)`""
-          "(Join-Path [$]toolsDir `"extraterm-)[\d\.]+(-win32-x64\\extraterm.exe`")" = "`${1}$($Latest.VersionFile)`${2}"
+          "(Join-Path `"[$]toolsDir`" `"extraterm-)[\d\.]+(-win32-x64\\extraterm.exe`")" = "`${1}$($Latest.VersionFile)`${2}"
         }
     }
 }

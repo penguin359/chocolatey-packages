@@ -7,7 +7,10 @@ function global:au_GetLatest {
     (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Out-Null
 	$version = $matches.VersionYear + '.' + $matches.VersionMonth
 
-    return @{ Version = $version ; URL32 = 'https://ftp.halifax.rwth-aachen.de/eclipse//technology/epp/downloads/release/' + $matches.VersionUrl + '/R/eclipse-java-' + $matches.VersionUrl + '-R-win32-x86_64.zip' }
+    return @{
+        Version = $version
+        URL32 = 'http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/technology/epp/downloads/release/' + $matches.VersionUrl + '/R/eclipse-java-' + $matches.VersionUrl + '-R-win32-x86_64.zip'
+    }
 }
 
 function global:au_SearchReplace {

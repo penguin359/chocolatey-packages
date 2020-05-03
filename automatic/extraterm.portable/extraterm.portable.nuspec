@@ -9,7 +9,7 @@
     <title>Extraterm (Portable)</title>
     <authors>Simon Edwards</authors>
     <projectUrl>http://extraterm.org</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/extraterm.portable/extraterm.portable.png</iconUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/extraterm.portable/extraterm.portable.png</iconUrl>-->
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://raw.githubusercontent.com/sedwards2009/extraterm/v0.42.2/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/mirinsoft/debotnet/releases/download/0.7.5/debotnet.zip
-   x64: https://github.com/mirinsoft/debotnet/releases/download/0.7.5/debotnet.zip
+   x32: https://github.com/mirinsoft/debotnet/releases/download/0.7.8/debotnet.zip
+   x64: https://github.com/mirinsoft/debotnet/releases/download/0.7.8/debotnet.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 9A0E788324E0FC04F5C3EE4DC0A853B4C31AC46DA2631BA2268B1E3970AEB2BA
-   checksum64: 9A0E788324E0FC04F5C3EE4DC0A853B4C31AC46DA2631BA2268B1E3970AEB2BA
+   checksum32: BA3BCFFFB996BDFD83953079F4E17C084C88AA3FDBBCDA4E263295CACE6E21CC
+   checksum64: BA3BCFFFB996BDFD83953079F4E17C084C88AA3FDBBCDA4E263295CACE6E21CC
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/mirinsoft/debotnet/master/LICENSE.md

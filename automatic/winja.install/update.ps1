@@ -9,7 +9,7 @@ function global:au_GetLatest {
     $url = $download_page.links | ? href -match $regex
 
     return @{
-        Version = $version
+        Version = $matches.Version -Replace '-', '.'
         URL32   = 'https://www.phrozen.io' + $url.href
     }
 }

@@ -8,8 +8,8 @@
     <owners>chtof</owners>
     <title>Winja (Portable)</title>
     <authors>PHROZEN SAS</authors>
-    <projectUrl>https://www.phrozen.io/projects/2020/03/winja-virustotal-uploader-binary/</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/winja.portable/winja.portable.png</iconUrl>
+    <projectUrl>https://www.phrozen.io/docs/windows/projects/freeware/winja</projectUrl>
+    <!--<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/winja.portable/winja.portable.png</iconUrl>-->
     <copyright>Copyright © 2020 - Phrozen SAS. Some Rights Reserved.</copyright>
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->

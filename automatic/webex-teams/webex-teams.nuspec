@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>webex-teams</id>
-    <version>3.0.15131.0</version>
+    <version>3.0.15333.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/webex-teams</packageSourceUrl>
     <owners>chtof</owners>
     <title>Cisco Webex Teams</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://help.webex.com/contact</bugTrackerUrl>
     <tags>webex-teams cisco webex teams team collaboration</tags>
     <summary>Make teamwork your best work.</summary>
-    <description><![CDATA[
-**Make teamwork your best work.**
+    <description><![CDATA[**Make teamwork your best work.**
 Whether on the go, at a desk, or together in a meeting room, Webex Teams helps speed up projects, build better relationships, and solve business challenges. It’s got all the team collaboration tools you need to keep work moving forward and connects with the other tools you use to simplify life.
 
 ## All the tools, all the time, everywhere.

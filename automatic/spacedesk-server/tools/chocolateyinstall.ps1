@@ -1,21 +1,21 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 if ( [environment]::OSVersion.Version.Major -ge 10 )  {
-  $url32_win10      = 'https://spacedesk.net/downloads/spacedesk_driver_Win_10_32_v0933_BETA.msi'
+  $url32_win10      = 'https://spacedesk.net/downloads/spacedesk_driver_Win_10_32_v0937_BETA.msi'
   $checksum32_win10 = ''
   $url32            = $url32_win10
   $checksum32       = $checksum32_win10
-  $url64_win10      = 'https://spacedesk.net/downloads/spacedesk_driver_Win_10_64_v0933_BETA.msi'
+  $url64_win10      = 'https://spacedesk.net/downloads/spacedesk_driver_Win_10_64_v0937_BETA.msi'
   $checksum64_win10 = ''
   $url64            = $url64_win10
   $checksum64       = $checksum64_win10
 } elseif ( [environment]::OSVersion.Version.Major -ge 7 ) {
-  $url32_win7_81      = 'https://spacedesk.net/downloads/spacedesk_driver_Win_7_32_v0933_BETA.msi'
-  $checksum32_win7_81 = '5a9280e2abc2239a5a0410d671f6995f59ac9c9427782c8fef7d6e872a49ca1a'
+  $url32_win7_81      = 'https://spacedesk.net/downloads/spacedesk_driver_Win_7_32_v0937_BETA.msi'
+  $checksum32_win7_81 = '6c61b0d5743aa24356bd75eb30f60e5661af1fb94339ef98080aa4f574ecd98c'
   $url32              = $url32_win7_81
   $checksum32         = $checksum32_win7_81
-  $url64_win7_81      = 'https://spacedesk.net/downloads/spacedesk_driver_Win_7_64_v0933_BETA.msi'
-  $checksum64_win7_81 = '92bac821a0b3144f6711c7ce8bbe619b1017cdbed2b2d57062dab6c190a2b8db'
+  $url64_win7_81      = 'https://spacedesk.net/downloads/spacedesk_driver_Win_7_64_v0937_BETA.msi'
+  $checksum64_win7_81 = 'b2dc80ee4f6353119773fc854313ffc18f638d9d77ac32189257ea2ab0691334'
   $url64              = $url64_win7_81
   $checksum64         = $checksum64_win7_81  
 } else {

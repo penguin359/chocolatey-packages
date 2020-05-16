@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>loghx</id>
-    <version>0.0.0.517</version>
+    <version>0.0.0.545</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/loghx</packageSourceUrl>
     <owners>chtof</owners>
     <title>LogHX</title>
@@ -19,8 +19,7 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>loghx log HAM radio amateur</tags>
     <summary>The freeware logger software, designed as complete Ham Radio environment.</summary>
-    <description><![CDATA[
-## Features
+    <description><![CDATA[## Features
 
 - Keep a QSO accounting
 - Track and check of e-QSL and paper QSL exchange, via QSL-manager or direct

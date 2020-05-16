@@ -5,8 +5,8 @@ $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   unzipLocation  = "$toolsDir"
 
-  url            = 'https://github.com/mifi/lossless-cut/releases/download/v3.17.9/LosslessCut-win.zip'
-  checksum       = '417271d0cabb4d9014597aa910b41ff345b3e5fbf56273923af77ff671fb3634'
+  url            = 'https://github.com/mifi/lossless-cut/releases/download/v3.22.3/LosslessCut-win.zip'
+  checksum       = '5da6861be7cf2972ba1ab4eff27a59d25ea704d849923a89c1df0a5e6f5691a7'
   checksumType   = 'sha256'
 }
 

@@ -5,6 +5,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
   file          = "$toolsDir\kid3-3.8.2-win32.zip"
+  file64        = "$toolsDir\kid3-3.8.2-win32-x64.zip"  
 }
 
 if (Get-OSArchitectureWidth -compare 32) {

@@ -26,8 +26,8 @@ function global:au_GetLatest {
   $version = $matches.Version
 
   return @{
-    Version    = $version
-    URL32      = $releases_32 + '/' + $file_32.href    
+    Version = $version
+    URL32   = $releases_32 + '/' + $file_32.href    
   }
 }
 

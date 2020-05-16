@@ -11,6 +11,7 @@ function global:au_BeforeUpdate {
   $Latest.URL64          = $releases_64 + '/' + $file_64.href
   $Latest.ChecksumType64 = 'sha256'
   $Latest.Checksum64     = (Get-FileHash -Algorithm SHA256 -Path "$toolsDir\$($file_64.href)").Hash
+  $Latest.FileName64     = $file_64.href
 
   Remove-Item -Path "$toolsDir\*.exe"
   Invoke-WebRequest -Uri $Latest.URL64 -outFile "$toolsDir\$($file_64.href)"
@@ -25,8 +26,8 @@ function global:au_GetLatest {
   $version = $matches.Version
 
   return @{
-    Version = $version
-    URL32   = $releases_32 + "/" + $file_32.href
+    Version    = $version
+    URL32      = $releases_32 + '/' + $file_32.href    
   }
 }
 
@@ -34,13 +35,13 @@ function global:au_SearchReplace {
     @{
        "legal\VERIFICATION.txt"  = @{            
             "(?i)(x64: ).*"             = "`${1}$($Latest.URL64)"            
-            "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"            
+            "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType64)"            
             "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum64)"
         }
 
         "tools\chocolateyinstall.ps1" = @{        
           "(^(\s)*url\s*=\s*)('.*')"      = "`${1}'$($Latest.URL32)'"
-          "(^(\s)*checksum\s*=\s*)('.*')" = "`${1}'$($Latest.Checksum32)'"
+          "(^(\s)*checksum\s*=\s*)('.*')" = "`${1}'$($Latest.Checksum64)'"
           "(?i)(^\s*file64\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`$1$($Latest.FileName64)`""
         }
     }

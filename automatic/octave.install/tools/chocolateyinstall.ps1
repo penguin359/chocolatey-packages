@@ -1,6 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;
+
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"

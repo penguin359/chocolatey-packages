@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>toolwiz-time-freeze</id>
+    <version>4.3.1.5000</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/toolwiz-time-freeze</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Toolwiz Time Freeze</title>
+    <authors>ToolWiz Team.</authors>
+    <projectUrl>http://www.toolwiz.com/lead/toolwiz_time_freeze/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/toolwiz-time-freeze/toolwiz-time-freeze.png</iconUrl>
+    <copyright>Copyright @ 2016 ToolWiz. All Rights Reserved.</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>https://www.facebook.com/toolwizfamily</mailingListUrl>
+    <bugTrackerUrl>http://www.toolwiz.com/lead/contact/</bugTrackerUrl>
+    <tags>toolwiz-time-freeze instant system restore</tags>
+    <summary>Toolwiz Time Freeze is an easy and effective Instant system restore software to keep your system safe and protect your computer from unwanted changes.</summary>
+    <description><![CDATA[
+Toolwiz Time Freeze is an easy and effective Instant system restore software to keep your system safe and protect your computer from unwanted changes.
+Turnning on the Time Freeze mode, the whole system is running in the sandbox. Only the changes to the files in the exclusion list will be saved.
+
+## Features
+
+### Implement of Virtualization
+Create a virtual environment as a copy of the real system where allows an unmodified operating system with all of its installed software to run, keeping your actual system ‘frozen’ and away from unwanted changes and malicious threats. Nothing bad can happen to your PC while Toolwiz Time Freeze is up and running.
+
+### Real Time Protection
+Run multiple operation systems (real&virtual systems) at the same time on the same PC without reboot and easily switch between them to optimize your PC resources and improve efficiency.
+
+### Infrastructure Consolidation
+Consolidate the management and utilization of your system’s resources to help you build a more flexible and responsive IT infrastructure.
+
+### Restore & Recovery
+No matter what changes are made, no matter what happens, a simple restart will return things to the way they were. Modifications made to the settings can be undone, files downloaded from the web can be removed, and other unwanted changes will all can be undone when you restart your PC.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/toolwiz-time-freeze/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

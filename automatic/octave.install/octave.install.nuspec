@@ -37,7 +37,7 @@ Everyone is encouraged to share this software with others under the terms of the
     <releaseNotes>https://www.gnu.org/software/octave/news.html</releaseNotes>
     <dependencies>
       <dependency id="autohotkey.install" version="1.1.30.03" />
-      <dependency id="dotnetfx" version="4.8.0.20190930" />
+      <dependency id="kb2919355" version="1.0.20160915" />
     </dependencies>    
   </metadata>
   <files>

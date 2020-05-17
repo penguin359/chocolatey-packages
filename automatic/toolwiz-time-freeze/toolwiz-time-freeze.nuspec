@@ -37,6 +37,12 @@ Consolidate the management and utilization of your system’s resources to help 
 ### Restore & Recovery
 No matter what changes are made, no matter what happens, a simple restart will return things to the way they were. Modifications made to the settings can be undone, files downloaded from the web can be removed, and other unwanted changes will all can be undone when you restart your PC.
 
+## Support OS
+WinXP/Win2003/Vista/Win7/Win8/Win10(32/64bit)
+
+## Requirement
+Disable the scheduler defrag and backup of Windows.
+
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/toolwiz-time-freeze/screenshot.png)
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->

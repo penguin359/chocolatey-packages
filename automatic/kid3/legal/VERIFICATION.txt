@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://netcologne.dl.sourceforge.net/project/kid3/kid3/3.8.2/kid3-3.8.2-win32.zip
-   x64: https://netcologne.dl.sourceforge.net/project/kid3/kid3/3.8.2/kid3-3.8.2-win32.zip
+   x32: https://netcologne.dl.sourceforge.net/project/kid3/kid3/3.8.3/kid3-3.8.3-win32.zip
+   x64: https://netcologne.dl.sourceforge.net/project/kid3/kid3/3.8.3/kid3-3.8.3-win32-x64.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 666BEF476EB2578FF622C657D0316F1E0D3846580852466F67020DF315D7118B
-   checksum64: 666BEF476EB2578FF622C657D0316F1E0D3846580852466F67020DF315D7118B
+   checksum32: CAC62C17240C1A989EC86F3E8B3E7FECCB1FBAB6565B6BC16E97FCB884F88B60
+   checksum64: 31FD66C83694B6E3C2A8F9B3C0706254E6FB882585C19604931FD8CE3AEEF9C1
  
 File 'LICENSE.txt' is obtained from:
    https://sourceforge.net/p/kid3/code/ci/master/tree/LICENSE

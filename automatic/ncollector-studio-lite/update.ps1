@@ -20,6 +20,7 @@ function global:au_SearchReplace {
        "legal\VERIFICATION.txt"  = @{
             "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)" 
             "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
+            "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
         }
 
         "tools\chocolateyinstall.ps1" = @{        

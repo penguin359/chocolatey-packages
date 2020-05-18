@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>klatexformula</id>
-    <version>4.0.0</version>
+    <version>4.1.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/klatexformula</packageSourceUrl>
     <owners>chtof</owners>
     <title>KLatexFormula</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://sourceforge.net/projects/klatexformula/support</bugTrackerUrl>
     <tags>klatexformula latex equation images</tags>
     <summary>KLatexFormula is an easy-to-use graphical application for generating images (that you can drag and drop, copy and paste or save to disk) from LaTeX equations.</summary>
-    <description><![CDATA[
-This application provides an easy-to-use graphical user interface for generating images from LaTeX equations. These images can be dragged and dropped or copied and pasted into external applications (presentations, text documents, graphics...), or can be saved to disk in a variety of formats (PNG, JPG, BMP, EPS, PDF, etc.). In addition to the graphical user interface, a command-line interface and a C++ library is provided to perform the same job.
+    <description><![CDATA[This application provides an easy-to-use graphical user interface for generating images from LaTeX equations. These images can be dragged and dropped or copied and pasted into external applications (presentations, text documents, graphics...), or can be saved to disk in a variety of formats (PNG, JPG, BMP, EPS, PDF, etc.). In addition to the graphical user interface, a command-line interface and a C++ library is provided to perform the same job.
 
 KLatexFormula is open-source, released under the [GNU General Public License](https://www.gnu.org/licenses/licenses.html#GPL) (v2 or later).
 

@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
@@ -11,7 +11,7 @@ Get-ChocolateyUnzip @packageArgs
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName  
-  file          = "$toolsDir\JTDX-18.0.0.133-GA-win32.exe"    
+  file          = "$toolsDir\JTDX-18.0.0.133-GA-win32.zip"    
   silentArgs    = "/S"
 }
 

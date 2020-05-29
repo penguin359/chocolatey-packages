@@ -4,7 +4,7 @@ $packageArgs = @{
   packageName  = $env:ChocolateyPackageName
     
   url          = 'https://cdn.screenpresso.com/binaries/v1/Screenpresso.exe'
-  checksum     = '5FBAEED37029D04DF451338CC013D57ADD5C5BEDFCF4C941FFA86BDD680F37EB'
+  checksum     = '5fbaeed37029d04df451338cc013d57add5c5bedfcf4c941ffa86bdd680f37eb'
   checksumType = 'sha256'
   
   silentArgs   = '-install pf -silent'

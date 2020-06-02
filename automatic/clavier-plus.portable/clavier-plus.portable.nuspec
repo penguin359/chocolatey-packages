@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>clavier-plus.portable</id>
-    <version>10.8.4</version>
+    <version>11.0.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/clavier-plus.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>Clavier+ (Portable)</title>

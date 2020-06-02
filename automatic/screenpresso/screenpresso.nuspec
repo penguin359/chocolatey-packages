@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>screenpresso</id>
-    <version>1.7.16</version>
+    <version>1.8.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/screenpresso</packageSourceUrl>
     <owners>chtof</owners>
     <title>Screenpresso</title>
@@ -19,8 +19,7 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>screenpresso screenshots capture recording screen grab </tags>
     <summary>Screenpresso captures your desktop (screenshots and HD videos) for your training documents, collaborative design work, IT bug reports, and more...</summary>
-    <description><![CDATA[
-Screenpresso captures your desktop (screenshots and HD videos) for your training documents, collaborative design work, IT bug reports, and more...
+    <description><![CDATA[Screenpresso captures your desktop (screenshots and HD videos) for your training documents, collaborative design work, IT bug reports, and more...
 ## [Main features](https://www.screenpresso.com/features)
 ### Capture screenshots including scrolling parts
 ### Capture your screen in HD videos

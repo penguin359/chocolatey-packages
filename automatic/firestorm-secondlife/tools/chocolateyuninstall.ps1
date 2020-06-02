@@ -4,7 +4,7 @@ $packageArgs = @{
   packageName  = $env:ChocolateyPackageName
   softwareName = 'FirestormOS-Release*'
   fileType     = 'exe'
-  silentArgs   = "/S"
+  silentArgs   = '/S'
 }
 
 $uninstalled = $false

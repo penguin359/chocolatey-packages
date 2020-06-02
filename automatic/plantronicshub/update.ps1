@@ -2,6 +2,11 @@ import-module au
 
 [Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
 
+function global:au_BeforeUpdate {
+    $Latest.ChecksumType32 = 'sha256'
+    $Latest.Checksum32     = Get-RemoteChecksum $Latest.URL32 -Algorithm $Latest.ChecksumType32
+}
+
 function global:au_GetLatest {
   $releases = 'https://www.poly.com/us/en/support/downloads-apps/hub-desktop'
   $regex    = 'Version (?<Version>[\d\.]+)<'
@@ -23,4 +28,4 @@ function global:au_SearchReplace {
     }
 }
 
-update
+update -ChecksumFor none

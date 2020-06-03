@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>automouseclick</id>
-    <version>98.9.20200503.20200602</version>
+    <version>98.9.20200503.20200603</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/automouseclick</packageSourceUrl>
     <owners>chtof</owners>
     <title>Auto Mouse Click</title>

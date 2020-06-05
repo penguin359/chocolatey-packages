@@ -11,8 +11,8 @@ function global:au_GetLatest {
     $versionMajor = $matches.VersionMajor
 
     return @{
-        Version = $version
-        URL32   = 'https://cdn.screenpresso.com/binaries/v' +$versionMajor + '/Screenpresso.exe'
+        Version = $version        
+        URL32   = 'https://www.screenpresso.com/binaries/releases/stable/dotnet47/Screenpresso.exe'
     }
 }
 

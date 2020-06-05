@@ -2,9 +2,9 @@
 Import-Module au
 Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1"
 
-function global:au_BeforeUpdate() {  
-    $Latest.Checksum32 = Get-RemoteChecksum $($Latest.Url32)    
-    $Latest.Checksum64 = Get-RemoteChecksum $($Latest.Url64)
+function global:au_BeforeUpdate() {
+    $Latest.Checksum32 = Get-RemoteChecksum $($Latest.URL32)
+    $Latest.Checksum64 = Get-RemoteChecksum $($Latest.URL64)
 }
 
 function global:au_GetLatest {    
@@ -49,12 +49,13 @@ function global:au_AfterUpdate {
   "$($Latest.ETAG)|$($Latest.Version)" | Out-File "$PSScriptRoot\info" -Encoding utf8
 }
 
-function GetResultInformation([string]$url32) {
+function GetResultInformation([string]$url32, [string]$url64) {
   $dest = "$env:TEMP\vuex32.exe"
   Get-WebFile $url32 $dest | Out-Null
 
   $result = @{
-    URL32          = $url32    
+    URL32          = $url32
+    URL64          = $url64
     Version        = (Get-Item $dest).VersionInfo.FileVersion.Trim()
     Checksum       = Get-FileHash $dest -Algorithm SHA512 | % Hash
     ChecksumType32 = 'sha512'

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>clavier-plus</id>
-    <version>11.0.0</version>
+    <version>11.0.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/clavier-plus</packageSourceUrl>
     <owners>chtof</owners>
     <title>Clavier+</title>
@@ -36,7 +36,7 @@ If you would like to contribute an additional translation, please contact me at 
 ]]></description>
     <releaseNotes>https://github.com/guilryder/clavier-plus/releases</releaseNotes>
     <dependencies>
-      <dependency id="clavier-plus.install" version="[11.0.0]" />
+      <dependency id="clavier-plus.install" version="[11.0.1]" />
     </dependencies>
   </metadata>
   <files></files>

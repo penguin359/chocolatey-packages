@@ -1,4 +1,5 @@
-﻿import-module au
+﻿$ErrorActionPreference = 'Stop'
+import-module au
 $github_repository = "liberationfonts/liberation-fonts"
 $releases = "https://github.com/" + $github_repository + "/releases/latest"
 $regex   = "^https://github.com/" + $github_repository + "/files/.*/liberation-fonts-ttf-(?<Version>[\d\.]+).tar.gz$"

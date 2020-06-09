@@ -1,3 +1,4 @@
+﻿$ErrorActionPreference = 'Stop'
 $packageArgs = @{
     packageName = $env:ChocolateyPackageName
     zipFileName = "liberation-fonts-ttf-$($env:ChocolateyPackageVersion).zip"

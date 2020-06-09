@@ -1,4 +1,5 @@
-﻿# The code structure for this from https://chocolatey.org/packages/hackfont
+﻿$ErrorActionPreference = 'Stop'
+# The code structure for this from https://chocolatey.org/packages/hackfont
  
 # create temp directory
 do {

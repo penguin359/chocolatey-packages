@@ -32,6 +32,9 @@
 ### Multilingual with support for 19 languages
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <dependencies>
+      <dependency id="dotnetfx" version="4.8.0.20190930" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

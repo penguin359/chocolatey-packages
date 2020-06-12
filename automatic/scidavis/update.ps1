@@ -3,15 +3,15 @@ import-module au
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-    $releases          = "https://sourceforge.net/projects/scidavis"
-    $regex             = 'scidavis.(?<Version>[\d\.]+)-win-dist.msi'
+    $releases = 'https://sourceforge.net/projects/scidavis'
+    $regex    = 'scidavis.(?<Version>(?<VersionMajor>[\d]+)\.(?<VersionMid>[\d]+)\.[\d]+)-win-dist.msi'
 
-    (Invoke-WebRequest -Uri $releases).RawContent -match $regex
+    (Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null
     $version = $matches.Version
 
     return @{
       Version = $version
-      URL32   = 'https://freefr.dl.sourceforge.net/project/scidavis/SciDAVis/' + $version + '/scidavis.' + $version + '-win-dist.msi'
+      URL32   = Get-RedirectedUrl $('https://downloads.sourceforge.net/project/scidavis/SciDAVis/' + $matches.VersionMajor + '/' + $matches.VersionMajor + '.' + $matches.VersionMid + '/' + $matches.0)
     }
 }
 
@@ -26,11 +26,9 @@ function global:au_SearchReplace {
         }
 
         "tools\chocolateyinstall.ps1" = @{
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
+          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`$1$($Latest.FileName32)`""
         }
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none
-}
+update -ChecksumFor none

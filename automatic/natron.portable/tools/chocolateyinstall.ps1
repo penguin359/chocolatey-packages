@@ -5,8 +5,8 @@ $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   unzipLocation  = "$toolsDir"
 
-  url64          = 'https://github.com/NatronGitHub/Natron/releases/download/v2.3.14/Natron-2.3.14-Windows-x86_64bit-no-installer.zip'
-  checksum64     = 'b693dceeb564420964030175060488241d4745f42c7b7796aaaeb90e7f152a3c'
+  url64          = 'https://github.com/NatronGitHub/Natron/releases/download/v2.3.15/Natron-2.3.15-Windows-64-no-installer.zip'
+  checksum64     = '954df1f1edc9442a315ef0aec6dac0caf3bd58590026fe67a79d779aecbe94e2'
   checksumType64 = 'sha256'
 }
 
@@ -22,5 +22,5 @@ foreach ($file in $files) {
 $OSArchitectureWidth = Get-OSArchitectureWidth
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = Join-Path $programs "Natron.lnk"
-$targetPath = Join-Path $toolsDir "Natron-2.3.14-Windows-x86_${OSArchitectureWidth}bit-no-installer\bin\natron.exe"
+$targetPath = Join-Path $toolsDir "Natron-2.3.15-Windows-x86_${OSArchitectureWidth}bit-no-installer\bin\natron.exe"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://jtdx.groups.io/g/main</bugTrackerUrl>
     <tags>HAM radio amateur JT9 JT65 T10 FT8</tags>
     <summary>HAM Multimode Software.</summary>
-    <description><![CDATA[
-## What is JTDX?
+    <description><![CDATA[## What is JTDX?
 
 JTDX means "JT,T10 and FT8 modes for DXing", it is being developed with main focus on the sensitivity and decoding efficiency, both, in overcrowded and half empty HF band conditions. 
 

@@ -18,8 +18,8 @@ function global:au_GetLatest {
 function global:au_SearchReplace {
     @{
         "tools\chocolateyinstall.ps1" = @{
-          "(^(\s)*url64\s*=\s*)('.*')"          = "`${1]'$($Latest.URL64)'"
-          "(^(\s)*checksum64\s*=\s*)('.*')"     = "`${1]'$($Latest.Checksum64)'"
+          "(^(\s)*url64\s*=\s*)('.*')"          = "`${1}'$($Latest.URL64)'"
+          "(^(\s)*checksum64\s*=\s*)('.*')"     = "`${1}'$($Latest.Checksum64)'"
           "(^(\s)*[$]NatronDir\s*=\s*)("".*"")" = "`${1}""`${env:ProgramFiles}\INRIA\Natron-$($Latest.Version)"""
         }
     }

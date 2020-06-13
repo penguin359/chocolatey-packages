@@ -44,8 +44,9 @@ function global:au_GetLatest {
         $checksum64 = Get-RemoteChecksum $json64.data.url
 
           return @{
-            Version = $version            
-            URL64   = $json64.data.url
+            Version    = $version            
+            URL64      = $json64.data.url
+            Checksum64 = $checksum64
         }
 }
 

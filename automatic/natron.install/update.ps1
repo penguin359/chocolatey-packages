@@ -1,5 +1,9 @@
 ﻿import-module au
 
+function global:au_BeforeUpdate {    
+    $Latest.Checksum64 = Get-RemoteChecksum $Latest.URL64
+}
+
 function global:au_GetLatest {
   $github_repository = 'NatronGitHub/Natron'
   $releases = 'https://github.com/' + $github_repository + '/releases/latest'
@@ -26,5 +30,5 @@ function global:au_SearchReplace {
 }
 
 if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor 64
+    update -NoCheckUrl -ChecksumFor 64
 }

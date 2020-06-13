@@ -17,9 +17,9 @@ function global:au_GetLatest {
   $version = $matches.Version
   
 	return @{
-    Version = $version
-    URL32   = 'https://netcologne.dl.sourceforge.net/project/kid3/kid3/' + $version + '/' + $file32
-    URL64   = 'https://netcologne.dl.sourceforge.net/project/kid3/kid3/' + $version + '/' + $file64    
+    Version = $version    
+    URL32   = Get-RedirectedUrl ('https://downloads.sourceforge.net/project/kid3/kid3/' + $version + '/' + $file32)
+    URL64   = Get-RedirectedUrl ('https://downloads.sourceforge.net/project/kid3/kid3/' + $version + '/' + $file64)
   }
 }
 

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>natron.install</id>
-    <version>2.3.14.20190807</version>
+    <version>2.3.15</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/natron.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>Natron Open-Source Compositing Software (Install)</title>

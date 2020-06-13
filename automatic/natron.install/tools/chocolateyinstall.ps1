@@ -4,12 +4,12 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
 
-  url64          = 'https://github.com/NatronGitHub/Natron/releases/download/v2.3.14/Natron-2.3.14-Windows-x86_64bit-setup.exe'
-  checksum64     = '7e5365b3964fa2f662719b9eb4748e11f88be37734659badab03e32fc5e01834'
+  url64          = 'https://github.com/NatronGitHub/Natron/releases/download/v2.3.15/Natron-2.3.15-Windows-64.exe'
+  checksum64     = '971a54f739da509b078864359028677e024ba400b863c88665889cf19b284318'
   checksumType64 = 'sha256'
 }
 
-$NatronDir = "${env:ProgramFiles}\INRIA\Natron-2.3.14"
+$NatronDir = "${env:ProgramFiles}\INRIA\Natron-2.3.15"
 
 If ((Test-Path "$NatronDir" -PathType Container) -And ((Get-ChildItem "$NatronDir" | Measure-Object ).Count -eq 1) -And (Test-Path "$NatronDir\NatronSetup.exe" -PathType Leaf)) {
   Remove-Item -Path "$NatronDir\NatronSetup.exe"

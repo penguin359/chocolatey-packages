@@ -7,15 +7,15 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: http://sourceforge.net/projects/smtube/files/SMTube/19.6.0/smtube-19.6.0-win32.exe
-   x64: http://sourceforge.net/projects/smtube/files/SMTube/19.6.0/smtube-19.6.0-x64.exe
+   x32: https://sourceforge.net/projects/smtube/files/SMTube/20.6.0/smtube-20.6.0-win32.exe
+   x64: https://sourceforge.net/projects/smtube/files/SMTube/20.6.0/smtube-20.6.0-x64.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 18A40F231CF8ECDA5F87C00CDDD2284114447C071291C641C65330ED58D002FE
-   checksum64: 033871D1696D80F49595EA89FC858A4C47BF3201B3B7CA293D2D5B61CF6C2980
+   checksum32: 46473DC4B43AD67F63C1E992D13E560A316CC5AFC50C520AE69858F1D5CBA9AC
+   checksum64: D716E2747FA99944258BE10E7703109648F3B5088C5B1B1F498C503CF37ED208
  
 File 'LICENSE.txt' is obtained from the software folder 'SMPlayer\docs\en\gpl.html'.

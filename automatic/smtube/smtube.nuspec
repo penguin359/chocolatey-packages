@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>smtube</id>
-    <version>19.6.0</version>
+    <version>20.6.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/smtube</packageSourceUrl>
     <owners>chtof</owners>
     <title>SMTube - YouTube browser for SMPlayer</title>

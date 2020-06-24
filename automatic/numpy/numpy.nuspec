@@ -7,14 +7,14 @@
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/numpy</packageSourceUrl>
     <owners>chtof</owners>
     <title>NumPy</title>
-    <authors>SciPy developers</authors>
+    <authors>NumPy developers</authors>
     <projectUrl>https://www.numpy.org</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/numpy/numpy.png</iconUrl>
-    <copyright>© Copyright 2019 SciPy developers</copyright>
-    <licenseUrl>https://www.numpy.org/license.html</licenseUrl>
+    <copyright>© 2019-2020 NumPy. All rights reserved.</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/numpy/numpy/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/numpy/numpy</projectSourceUrl>
-    <docsUrl>https://docs.scipy.org/doc/numpy</docsUrl>
+    <docsUrl>https://numpy.org/doc/stable</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/numpy/numpy/issues</bugTrackerUrl>
     <tags>numpy python scientific computing</tags>
@@ -27,7 +27,7 @@
 - useful linear algebra, Fourier transform, and random number capabilities
 Besides its obvious scientific uses, NumPy can also be used as an efficient multi-dimensional container of generic data. Arbitrary data-types can be defined. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases.
 
-NumPy is licensed under the [BSD license](https://www.numpy.org/license.html), enabling reuse with few restrictions.
+NumPy is licensed under the [BSD license](https://raw.githubusercontent.com/numpy/numpy/master/LICENSE.txt), enabling reuse with few restrictions.
 
 ## Getting Started
 To install NumPy, we strongly recommend using a ***scientific Python distribution***. See [Installing the SciPy Stack](https://www.scipy.org/install.html) for details.

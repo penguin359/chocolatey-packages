@@ -1,23 +1,11 @@
-﻿import-module au
-
-function global:au_GetLatest {
-    $github_repository = "embree/embree"
-    $releases = "https://github.com/" + $github_repository + "/releases/latest"
-    $regex    = 'embree-(?<Version>[\d\.]+).x64.vc[\d]+.msi$'
-
-    (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Select -First 1 | Out-Null
-
-    return @{
-        Version = $matches.Version
-    }
-}
+﻿. $PSScriptRoot\..\embree.install\update.ps1
 
 function global:au_SearchReplace {
    @{
         "$($Latest.PackageName).nuspec" = @{
-            "(\<dependency .+?`"$($Latest.PackageName).install`" version=)`"([^`"]+)`"" = "`$1`"[$($Latest.Version)]`""
+            "(\<dependency .+?`"$($Latest.PackageName).install`" version=)`"([^`"]+)`"" = "`$1`"$($Latest.Version)`""
         }
     }
 }
 
-update -ChecksumFor none -NoCheckUrl
+update -ChecksumFor none

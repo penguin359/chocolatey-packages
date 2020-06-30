@@ -4,8 +4,8 @@ $packageArgs = @{
   packageName  = $env:ChocolateyPackageName
   fileType     = 'MSI'
 
-  url          = 'https://akamaicdn.webex.com/client/WBXclient-40.4.12-8/webexapp.msi'
-  checksum     = 'a8c0845baac664823dab702389a360429eb9e579f5f0ae98ed56e50a55e111b2'
+  url          = 'https://akamaicdn.webex.com/client/WBXclient-40.6.5-5/webexapp.msi'
+  checksum     = 'd5d12fcedd98abfb31db87828a5804aa2ed770c69472dd75869af817e5c3d520'
   checksumType = 'sha256'
 
   silentArgs   = "/qn /norestart /l*v `"$env:TEMP\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""

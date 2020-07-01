@@ -11,7 +11,7 @@
     <projectUrl>https://www.mirinsoft.com/ms-apps/debotnet</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/debotnet/debotnet.png</iconUrl>
     <copyright>© 2020 Mirinsoft - Good apps are as little apps as possible. All rights reserved.</copyright>
-    <licenseUrl>https://raw.githubusercontent.com/mirinsoft/debotnet/master/LICENSE.md</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/builtbybel/debotnet/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/mirinsoft/debotnet</projectSourceUrl>
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->

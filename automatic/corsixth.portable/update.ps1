@@ -3,16 +3,18 @@
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-    $github_repository = "CorsixTH/CorsixTH"
-    $releases = "https://github.com/" + $github_repository + "/releases/latest"
-    $regex = '<title>Release CorsixTH (?<Version>[\d\.]+) · '
+    $github_repository = 'CorsixTH/CorsixTH'
+    $releases = 'https://github.com/' + $github_repository + '/releases/latest'
+    $regex    = '/v(?<Version>[\d\.]+)/(?<Filename>CorsixTh.*.zip)'
 
-    $download_page = (Invoke-WebRequest -Uri $releases).RawContent -match $regex
-    $version = $matches.Version
+    $download_page = (Invoke-WebRequest -Uri $releases -UseBasicParsing) | ? href -match $regex 
+
+    $version  = $matches.Version
+    $filename = $matches.Filename
 
     return @{
         Version = $version
-        URL32 = 'https://github.com/' + $github_repository + '/releases/download/v' + $version + '/CorsixTH_Windows_Portable_x64.zip'
+        URL32 = 'https://github.com/' + $github_repository + '/releases/download/v' + $version + '/' + $filename
     }
 }
 
@@ -32,6 +34,4 @@ function global:au_SearchReplace {
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none
-}
+update -ChecksumFor none

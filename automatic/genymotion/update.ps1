@@ -4,7 +4,7 @@ function global:au_BeforeUpdate {
     $url = 'https://dl.genymotion.com/releases/genymotion-' + $Latest.Version + '/genymotion-' + $Latest.Version + '.exe'
 
     Invoke-WebRequest -Uri $url -outFile "${env:tmp}\genymotion.exe"
-    $Latest.Checksum32 = checksum -t sha256 "${env:tmp}\genymotion.exe"
+    $Latest.Checksum32 = Get-FileHash -Algorithm sha256 "${env:tmp}\genymotion.exe"
     Remove-Item -Path "${env:tmp}\genymotion.exe"
     $Latest.URL32 = $url
 }

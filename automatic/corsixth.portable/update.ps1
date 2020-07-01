@@ -7,7 +7,7 @@ function global:au_GetLatest {
     $releases = 'https://github.com/' + $github_repository + '/releases/latest'
     $regex    = '/v(?<Version>[\d\.]+)/(?<Filename>CorsixTh.*.zip)'
 
-    $download_page = (Invoke-WebRequest -Uri $releases -UseBasicParsing) | ? href -match $regex 
+    $download_page = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex 
 
     $version  = $matches.Version
     $filename = $matches.Filename

@@ -6,7 +6,7 @@
     <version>0.7.800</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/debotnet</packageSourceUrl>
     <owners>chtof</owners>
-    <title>Debotnet</title>
+    <title>Debotnet (Final Version 0.7.8)</title>
     <authors>Mirinsoft</authors>
     <projectUrl>https://www.mirinsoft.com/ms-apps/debotnet</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/debotnet/debotnet.png</iconUrl>
@@ -20,10 +20,10 @@
     <tags>debotnet privacy security personal data</tags>
     <summary>Debotnet is a free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.</summary>
     <description><![CDATA[
-## Important Note
+## Important Notes
 __The development of Debotnet was discontinued.__
 Please switch to the replacement apps __Spydish__ or __SharpApp__
-
+The latest version of debotnet is __0.7.8__ and displayed here as __0.7.800__ for versioning reasons.
 
 Debotnet is a free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.
 

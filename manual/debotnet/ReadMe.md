@@ -1,9 +1,9 @@
 ﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/debotnet/debotnet.png" width="48" height="48"/> [Debotnet](https://chocolatey.org/packages/debotnet)
 
-## Important Note
+## Important Notes
 __The development of Debotnet was discontinued.__
 Please switch to the replacement apps __Spydish__ or __SharpApp__
-
+The latest version of debotnet is __0.7.8__ and displayed here as __0.7.800__ for versioning reasons.
 
 Debotnet is a free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.
 

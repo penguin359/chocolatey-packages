@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>debotnet</id>
-    <version>0.7.8</version>
-    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/debotnet</packageSourceUrl>
+    <version>0.7.800</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/debotnet</packageSourceUrl>
     <owners>chtof</owners>
     <title>Debotnet</title>
     <authors>Mirinsoft</authors>
     <projectUrl>https://www.mirinsoft.com/ms-apps/debotnet</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/debotnet/debotnet.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/debotnet/debotnet.png</iconUrl>
     <copyright>© 2020 Mirinsoft - Good apps are as little apps as possible. All rights reserved.</copyright>
     <licenseUrl>https://raw.githubusercontent.com/mirinsoft/debotnet/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -19,7 +19,13 @@
     <bugTrackerUrl>https://github.com/mirinsoft/debotnet/issues</bugTrackerUrl>
     <tags>debotnet privacy security personal data</tags>
     <summary>Debotnet is a free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.</summary>
-    <description><![CDATA[Debotnet is a free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.
+    <description><![CDATA[
+## Important Note
+__The development of Debotnet was discontinued.__
+Please switch to the replacement apps __Spydish__ or __SharpApp__
+
+
+Debotnet is a free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.
 
 ## The most important features at a glance 
 - Disable telemetry and online features, which send your data (sensitive and not) to Microsoft
@@ -34,7 +40,7 @@
 - Portable
 - 100% Free Software ([License](https://github.com/mirinsoft/debotnet/blob/master/LICENSE.md))
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/debotnet/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/debotnet/screenshot.png)
 ]]></description>
     <releaseNotes>https://github.com/mirinsoft/debotnet/releases</releaseNotes>
   </metadata>

@@ -1,4 +1,9 @@
-﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/debotnet/debotnet.png" width="48" height="48"/> [Debotnet](https://chocolatey.org/packages/debotnet)
+﻿# <img src="https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/debotnet/debotnet.png" width="48" height="48"/> [Debotnet](https://chocolatey.org/packages/debotnet)
+
+## Important Note
+__The development of Debotnet was discontinued.__
+Please switch to the replacement apps __Spydish__ or __SharpApp__
+
 
 Debotnet is a free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.
 
@@ -15,4 +20,4 @@ Debotnet is a free and portable tool for controlling Windows 10's many privacy-r
 - Portable
 - 100% Free Software ([License](https://github.com/mirinsoft/debotnet/blob/master/LICENSE.md))
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/debotnet/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/debotnet/screenshot.png)

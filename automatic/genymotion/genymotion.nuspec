@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>genymotion</id>
-    <version>3.0.2</version>
+    <version>3.1.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/genymotion</packageSourceUrl>
     <owners>chtof</owners>
     <title>Genymotion Desktop</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://www.genymotion.com/contact/</bugTrackerUrl>
     <tags>genymotion android emulator</tags>
     <summary>Android emulator with over 3.000 Android configurations.</summary>
-    <description><![CDATA[
-**Genymotion Desktop:** Develop higher quality apps with Genymotion Desktop!
+    <description><![CDATA[**Genymotion Desktop:** Develop higher quality apps with Genymotion Desktop!
 Make better apps: Over 3000 Android configurations
 Create any Android device | Emulate all Android versions and screen size
 

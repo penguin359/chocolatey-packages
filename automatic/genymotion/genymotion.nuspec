@@ -14,7 +14,7 @@
     <licenseUrl>https://www.genymotion.com/legal/terms-and-conditions</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <docsUrl>https://docs.genymotion.com/latest/Content</docsUrl>
+    <docsUrl>https://docs.genymotion.com</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://www.genymotion.com/contact/</bugTrackerUrl>
     <tags>genymotion android emulator</tags>

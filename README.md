@@ -13,4 +13,4 @@
 Welcome on the repository of Chocolatey Packages created and/or maintained by chtof !
 
 ---
-[![Patreonize me!](https://c5.patreon.com/external/logo/downloads_wordmark_white_on_coral.png)](https://www.patreon.com/chtof)
+<a href="https://www.patreon.com/bePatron?u=21028106" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>

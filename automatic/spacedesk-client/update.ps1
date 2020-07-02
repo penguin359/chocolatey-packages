@@ -2,8 +2,8 @@
 
 function global:au_GetLatest {
     $releases = 'https://spacedesk.net'
-    $regex    = 'Current version for Windows:.*v(?<Version>[\d\.]+)\</p\>'
-    
+    $regex    = 'msi version: (?<Version>[\d\.]+)\</span\>'
+
     $url = Get-RedirectedUrl https://spacedesk.net/downloadclient
     (Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null
 
@@ -16,8 +16,8 @@ function global:au_GetLatest {
 function global:au_SearchReplace {
     @{
         "tools\chocolateyinstall.ps1" = @{
-            "(^(\s)*url\s*=\s*)('.*')"      = "`$1'$($Latest.URL32)'"
-            "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
+            "(^(\s)*url\s*=\s*)('.*')"      = "`${1}'$($Latest.URL32)'"
+            "(^(\s)*checksum\s*=\s*)('.*')" = "`${1}'$($Latest.Checksum32)'"
         }
     }
 }

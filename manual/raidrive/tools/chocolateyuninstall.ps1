@@ -3,7 +3,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   softwareName  = 'RaiDrive'
   fileType      = 'MSI'
-  silentArgs    = "/qn /norestart"
+  silentArgs    = '/qn /norestart'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)
 }
 

@@ -14,7 +14,7 @@ function global:au_GetLatest {
 
     return @{
         Version = $matches.Version
-        URL32 = Get-RedirectedUrl ('https://downloads.sourceforge.net/project/ffmpeg-batch/FFmpeg_Batch_' + $matches.Version + '_Portable.exe')
+        URL32 = Get-RedirectedUrl ('https://downloads.sourceforge.net/project/ffmpeg-batch/FFmpeg_Batch_' + $matches.Version + '_Portable_x86.exe')
         URL64 = Get-RedirectedUrl ('https://downloads.sourceforge.net/project/ffmpeg-batch/FFmpeg_Batch_' + $matches.Version + '_Portable_x64.exe')
     }
 }

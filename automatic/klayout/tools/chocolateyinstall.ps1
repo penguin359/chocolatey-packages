@@ -3,12 +3,12 @@
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
 
-  url           = 'https://www.klayout.org/downloads/Windows/klayout-0.26.6-win32-install.exe'
-  checksum      = '5ddb3cbfaa997b7ab974cae71ca4a573ad31005d685f5cfac491a9c2a2453280'
+  url           = 'https://www.klayout.org/downloads/Windows/klayout-0.26.7-win32-install.exe'
+  checksum      = '6b99d6226ac56f2261e5b28363d1bae37491904baac78018fed49e9d435dd1be'
   checksumType  = 'sha256'
 
-  url64         = 'https://www.klayout.org/downloads/Windows/klayout-0.26.6-win64-install.exe'
-  checksum64    = '325465b94d656d6f350c67ff8673951b4117f515cc3cbe43cf3154ed2a7d237b'
+  url64         = 'https://www.klayout.org/downloads/Windows/klayout-0.26.7-win64-install.exe'
+  checksum64    = '02906e399850c6cacb678c1929c014f3ddc1ba45ae47341a60fa5478049b3116'
   checksumType64= 'sha256'
 
   silentArgs	= "/S"

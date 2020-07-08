@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>egnyte-connect</id>
-    <version>3.8.1.24</version>
+    <version>3.8.2.25</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/egnyte-connect</packageSourceUrl>
     <owners>chtof</owners>
     <title>Egnyte desktop apps</title>

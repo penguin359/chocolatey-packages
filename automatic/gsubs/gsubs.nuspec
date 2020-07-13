@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gsubs</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/gsubs</packageSourceUrl>
     <owners>chtof</owners>
     <title>gSubs</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/sanjevirau/gsubs/issues</bugTrackerUrl>
     <tags>gsubs subtitle grabber videos</tags>
     <summary>A desktop app that finds you the perfect subtitle match for your videos.</summary>
-    <description><![CDATA[
-## Finds you the perfect subtitle match.
+    <description><![CDATA[## Finds you the perfect subtitle match.
 Meet gSubs. A desktop app that finds you the perfect subtitle match for your videos. Simply install now and drag and drop videos to get started.
 
 **No more hassle finding matching subtitles. gSubs does the job for you.**

@@ -5,15 +5,20 @@
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-    $releases = 'https://download.kde.org/stable/labplot/2.6.0/labplot-2.6.0-64bit-setup.exe.mirrorlist'
+    $releases = 'https://download.kde.org/stable/labplot/'
+    $regexLastMajorVersion = '<a href="(?<Version>[\d\.]+)/">'
+    (Invoke-WebRequest -Uri $releases -UseBasicParsing).links |? href -match '([\d\.]+)/' | Select -Last 1
+    $majorVersion = $matches.1
+
+    $releases = 'https://download.kde.org/stable/labplot/' + $majorVersion + '/labplot-' + $majorVersion + '-64bit-setup.exe.mirrorlist'
     $regex    = 'labplot-(?<Version>[\d\.]+)-64bit-setup.exe'
 
-    (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Select -First 1
-    $version = $matches.Version
+    #(Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Select -First 1
+    #$version = $matches.Version
 
     return @{
-        Version = $version
-        URL32   = 'http://ftp.gwdg.de/pub/linux/kde/stable/labplot/' + $version + '/labplot-' + $version + '-64bit-setup.exe'
+        Version = $majorVersion
+        URL32   = Get-RedirectedUrl ('https://download.kde.org/stable/labplot/' + $majorVersion + '/labplot-' + $majorVersion + '-64bit-setup.exe')
     }
 }
 
@@ -31,6 +36,4 @@ function global:au_SearchReplace {
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor 64
-}
+update -ChecksumFor 64

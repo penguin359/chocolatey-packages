@@ -11,7 +11,7 @@ function global:au_GetLatest {
 
     return @{
         Version = $matches.Version
-        URL32   = 'https://www.jtdx.tech/downloads/Windows/' +$matches.0
+        URL32   = 'https://www.jtdx.tech' + $url
     }
 }
 
@@ -31,4 +31,4 @@ function global:au_SearchReplace {
     }
 }
 
-update -ChecksumFor none
+update -ChecksumFor none -noCheckUrl

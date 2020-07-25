@@ -3,7 +3,7 @@
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-    $releases = 'https://www.jtdx.tech/en'
+    $releases = 'https://www.jtdx.tech/en/'
     $regex    = 'JTDX-(?<Version>[\d\.]+)-GA-win32.zip$'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing

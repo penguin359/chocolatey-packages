@@ -9,7 +9,7 @@ function global:au_GetLatest {
     $regexUrl = '/.*AutoDarkMode.*\.zip'
 
     $download_page = (Invoke-WebRequest -Uri $releases).RawContent
-    $download_page -match $regex | Out-Null
+    $download_page -match $regexVersion | Out-Null
     $version = $matches.Version
     $download_page -match $regexUrl | Out-Null
     $path = $matches.0

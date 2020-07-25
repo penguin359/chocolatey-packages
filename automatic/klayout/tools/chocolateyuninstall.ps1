@@ -4,7 +4,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   softwareName  = 'Klayout - Layout Viewer and Editor'
   fileType      = 'exe'
-  silentArgs    = "/S"
+  silentArgs    = '/S'
 }
 
 $uninstalled = $false

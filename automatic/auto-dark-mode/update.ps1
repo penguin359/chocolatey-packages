@@ -3,16 +3,20 @@
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-    $github_repository = "Armin2208/Windows-Auto-Night-Mode"
+    $github_repository = 'Armin2208/Windows-Auto-Night-Mode'
     $releases = "https://github.com/" + $github_repository + "/releases/latest"    
-    $regex    = 'Armin2208/Windows-Auto-Night-Mode/tree/(?<Version>[\d\.]+)'
+    $regexVersion = 'Armin2208/Windows-Auto-Night-Mode/tree/(?<Version>[\d\.]+)'
+    $regexUrl = '/.*AutoDarkMode.*\.zip'
 
-    $download_page = (Invoke-WebRequest -Uri $releases).RawContent -match $regex
+    $download_page = (Invoke-WebRequest -Uri $releases).RawContent
+    $download_page -match $regex | Out-Null
     $version = $matches.Version
+    $download_page -match $regexUrl | Out-Null
+    $path = $matches.0
 
     return @{
         Version = $version
-        URL32   = 'https://github.com/' + $github_repository + '/releases/download/' + $version + '/AutoDarkMode_Setup.exe'
+        URL32   = 'https://github.com' + $path
     }
 }
 
@@ -28,6 +32,4 @@ function global:au_SearchReplace {
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none
-}
+update -ChecksumFor none

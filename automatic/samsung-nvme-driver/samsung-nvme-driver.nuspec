@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>samsung-nvme-driver</id>
+    <version>3.3</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/samsung-nvme-driver</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Samsung NVMe Driver</title>
+    <authors>Samsung</authors>
+    <projectUrl>https://www.samsung.com/semiconductor/minisite/ssd/download/tools/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/samsung-nvme-driver/samsung-nvme-driver.png</iconUrl>
+    <copyright>Copyright © 1995-2020 SAMSUNG All Rights Reserved.</copyright>
+    <licenseUrl>https://www.samsung.com/semiconductor/legal/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://s3.ap-northeast-2.amazonaws.com/global.semi.static/Samsung_NVMeDriver_InstallationGuide.pdf</docsUrl>
+    <mailingListUrl>https://www.facebook.com/SamsungSSD/</mailingListUrl>
+    <bugTrackerUrl>https://www.samsung.com/fr/support/contact/</bugTrackerUrl>
+    <tags>samsung-nvme-driver Samsung NVMe nvm express driver</tags>
+    <summary>This driver supports Samsung NVMe SSD 970 PRO, 970 EVO, 970 EVO Plus, 960 PRO, 960 EVO and 950 PRO.</summary>
+    <description><![CDATA[
+This driver supports Samsung NVMe SSD 970 PRO, 970 EVO, 970 EVO Plus, 960 PRO, 960 EVO and 950 PRO.
+
+## Notice
+The driver supports Windows 7, Windows 8.1 and Windows 10.
+Recommended minimum system configuration is Intel Haswell Refresh Processor, 2GB RAM, 50MB free disk space and UEFI Bios v2.3.
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

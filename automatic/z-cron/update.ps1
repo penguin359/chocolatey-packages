@@ -7,18 +7,21 @@ function global:au_GetLatest {
 
 	$download_page.Content -match $regex | Out-Null
 	if ($matches.Build) {
-	  $version = $matches.Version + "." + $matches.Build
+	   $version = $matches.Version + "." + $matches.Build
 	} else {
-	  $version = $matches.Version
+	   $version = $matches.Version
 	}
-	return @{ Version = $version }
+	return @{
+        Version = $version
+        URL     = 'http://www.z-download.de/down/zcron.zip'
+    }
 }
 
 function global:au_SearchReplace {
     @{
         "tools\chocolateyInstall.ps1" = @{
-			"(^(\s)*url\s*=\s*)('.*')" = "`$1'$($Latest.URL32)'"
-            "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
+			"(^(\s)*url\s*=\s*)('.*')"      = "`${1}'$($Latest.URL32)'"
+            "(^(\s)*checksum\s*=\s*)('.*')" = "`${1}'$($Latest.Checksum32)'"
         }
     }
 }

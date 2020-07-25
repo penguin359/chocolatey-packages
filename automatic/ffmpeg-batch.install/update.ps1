@@ -7,7 +7,7 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     $releases = 'https://sourceforge.net/projects/ffmpeg-batch/files/'
-    $regex   = 'FFbatch_setup_(?<Version>[\d\.]+)_x86.exe'
+    $regex   = 'FFbatch_setup_(?<Version>[\d\.]+)_x64.exe'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	$url = $download_page.links | ? href -match $regex | Select -First 1

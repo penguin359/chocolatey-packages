@@ -3,7 +3,7 @@ import-module au
 
 function global:au_GetLatest {
 	$releases = 'https://help.webex.com/en-us/mqkve8/Webex-Teams-Release-Notes'
-	$regex    = 'Version (?<Version>[\d\.]+)'
+	$regex    = 'Version:? (?<Version>[\d\.]+)'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	$download_page.Content -match $regex | Out-Null

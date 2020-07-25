@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>numpy</id>
-    <version>1.19.0</version>
+    <version>1.19.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/numpy</packageSourceUrl>
     <owners>chtof</owners>
     <title>NumPy</title>
@@ -27,7 +27,7 @@
 - useful linear algebra, Fourier transform, and random number capabilities
 Besides its obvious scientific uses, NumPy can also be used as an efficient multi-dimensional container of generic data. Arbitrary data-types can be defined. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases.
 
-NumPy is licensed under the [BSD license](https://raw.githubusercontent.com/numpy/numpy/master/LICENSE.txt), enabling reuse with few restrictions.
+NumPy is licensed under the [BSD license](https://www.numpy.org/license.html), enabling reuse with few restrictions.
 
 ## Getting Started
 To install NumPy, we strongly recommend using a ***scientific Python distribution***. See [Installing the SciPy Stack](https://www.scipy.org/install.html) for details.

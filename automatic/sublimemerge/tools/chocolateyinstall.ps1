@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
     
-  url           = 'https://download.sublimetext.com/sublime_merge_build_2020_x64_setup.exe'
-  checksum      = 'e8af5a38e0a05365bda56e432bbe7968360e48aa5cfbc0c9cb9b32dacd9e4e75'
+  url           = 'https://download.sublimetext.com/sublime_merge_build_2025_x64_setup.exe'
+  checksum      = '42c3d53e3d2cf4856f3416db0cc7f59e8e2dc4ff34690aa9191b1a3850bdcebe'
   checksumType  = 'sha256'
   
   

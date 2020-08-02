@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>webex-meetings</id>
-    <version>40.7.4.15</version>
+    <version>40.7.6.10</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/webex-meetings</packageSourceUrl>
     <owners>chtof</owners>
     <title>Cisco Webex Meetings</title>
@@ -20,7 +20,8 @@
     <tags>webex-meeting video web conference conferencing online meeting</tags>
     <summary>Simply the Best Video Conferencing and Online Meetings.</summary>
     <description><![CDATA[Simply the Best Video Conferencing & Online Meetings.
--<## Meet face to face. Wherever you--u are.
+
+## Meet face to face. Wherever you are.
 Video conferencing is as simple and seamless as meeting in person. With the Webex mobile app, you can meet absolutely anywhere. Hosting is easy and joining is easier—simply click on your link to join. You can even learn about the people you’re meeting for the first time, with instant access to participants’ background and company.
 
 ## Get on the same page.

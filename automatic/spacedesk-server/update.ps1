@@ -3,41 +3,41 @@
 function global:au_GetLatest {
     $releases = 'https://spacedesk.net'
     $regexVersion = 'spacedesk DRIVER (Beta )?(III )?v(?<Version>[\d\.]+)\</td\>'
-    $regex_Win_10_64  = 'spacedesk_driver_Win_10_64_v\d+_BETA.msi'
+    <# $regex_Win_10_64  = 'spacedesk_driver_Win_10_64_v\d+_BETA.msi'
     $regex_Win_10_32  = 'spacedesk_driver_Win_10_32_v\d+_BETA.msi'
     $regex_Win_8_1_64 = 'spacedesk_driver_Win_8.1_64_v\d+_BETA.msi'
-    $regex_Win_8_1_32 = 'spacedesk_driver_Win_8.1_32_v\d+_BETA.msi'
+    $regex_Win_8_1_32 = 'spacedesk_driver_Win_8.1_32_v\d+_BETA.msi' #>
     #https://spacedesk.net/downloads/spacedesk_driver_Win_10_64_v0954_BETA.msi
     #https://spacedesk.net/downloads/spacedesk_driver_Win_10_32_v0954_BETA.msi
     #https://spacedesk.net/downloads/spacedesk_driver_Win_8.1_64_v0943_BETA.msi
     #https://spacedesk.net/downloads/spacedesk_driver_Win_8.1_32_v0943_BETA.msi
 
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    <# $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
     $download_page.Content -match $regexVersion | Out-Null
     $version = $matches.Version
     $url32 = $download_page.links | ? href -match $regex_Win_10_32
     $url64 = $download_page.links | ? href -match $regex_Win_10_64
     $url32_win81 = $download_page.links | ? href -match $regex_Win_8_1_32
-    $url64_win81 = $download_page.links | ? href -match $regex_Win_8_1_64
+    $url64_win81 = $download_page.links | ? href -match $regex_Win_8_1_64 #>
 
-    #$url32 = Get-RedirectedUrl https://spacedesk.net/downloadidd32
-    #$url64 = Get-RedirectedUrl https://spacedesk.net/downloadidd64
-    #$url32_win81 = Get-RedirectedUrl https://spacedesk.net/downloadlegacy
+    $url32 = Get-RedirectedUrl https://spacedesk.net/downloadidd32
+    $url64 = Get-RedirectedUrl https://spacedesk.net/downloadidd64
+    $url32_win81 = Get-RedirectedUrl https://spacedesk.net/downloadlegacy
     $checksum32_win81 = Get-RemoteChecksum $url32_win81.href
-    #$url64_win81 = Get-RedirectedUrl https://spacedesk.net/downloadlegacy64
+    $url64_win81 = Get-RedirectedUrl https://spacedesk.net/downloadlegacy64
     $checksum64_win81 = Get-RemoteChecksum $url64_win81.href
-    #(Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null
+    (Invoke-WebRequest -Uri $releases).RawContent -match $regexVersion | Out-Null
 
     return @{
         Version = $version
 
-        URL32 = $url32.href
-        URL64 = $url64.href
+        URL32 = $url32
+        URL64 = $url64
 
-        URL32_win81 = $url32_win81.href
+        URL32_win81      = $url32_win81
         Checksum32_win81 = $checksum32_win81
 
-        URL64_win81 = $url64_win81.href
+        URL64_win81      = $url64_win81
         Checksum64_win81 = $checksum64_win81
     }
 }

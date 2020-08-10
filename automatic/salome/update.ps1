@@ -10,17 +10,17 @@ function global:au_GetLatest {
 
     return @{
         Version = $matches.Version
-        URL32 = $releases + '/' + $url.href
+        URL64   = $releases + '/' + $url.href
     }
 }
 
 function global:au_SearchReplace {
     @{
         "tools\chocolateyInstall.ps1" = @{
-			"(^(\s)*url\s*=\s*)('.*')"      = "`${1}'$($Latest.URL32)'"
-            "(^(\s)*checksum\s*=\s*)('.*')" = "`${1}'$($Latest.Checksum32)'"
+			"(^(\s)*url64\s*=\s*)('.*')"      = "`${1}'$($Latest.URL32)'"
+            "(^(\s)*checksum64\s*=\s*)('.*')" = "`${1}'$($Latest.Checksum32)'"
         }
     }
 }
 
-update -noCheckUrl
+update -noCheckUrl -ChecksumFor 64

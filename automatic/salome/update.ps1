@@ -3,7 +3,7 @@ import-module au
 
 function global:au_GetLatest {
 	$releases = 'https://www.salome-platform.org/downloads/current-version'
-	$regex    = 'DownloadDistr[?]platform=SP.W10&amp;version=(?<Version>[\d\.]+)'
+	$regex    = 'DownloadDistr[?]platform=SP.W10(EXE)?&amp;version=(?<Version>[\d\.]+)'                   
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	$url = $download_page.links | ? href -match $regex | select -First 1

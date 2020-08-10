@@ -5,7 +5,8 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     $releases = 'https://luxcorerender.org/download'
-    $regex    = 'luxcorerender-v(?<Version>[\d\.]+)-win64-opencl.zip'
+    #$regex    = 'luxcorerender-v(?<Version>[\d\.]+)-win64-opencl.zip'
+    $regex    = 'luxcorerender-v(?<Version>[\d\.]+)-win64-sdk.zip'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
     $url = $download_page.links | ? href -match $regex
@@ -28,6 +29,4 @@ function global:au_SearchReplace {
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none
-}
+update -ChecksumFor none

@@ -10,7 +10,7 @@ function global:au_BeforeUpdate {
 
 function global:au_GetLatest {
   $download_url = 'https://www.pkisolutions.com/download/16432/'
-  $regex        = '(SSLVerifier-v(?<Version>[\d\.]+)\.zip)'
+  $regex        = '(SSL(-)?Verifier-v(?<Version>[\d\.]+)\.zip)'
 
   $download = Invoke-WebRequest $download_url -UseBasicParsing
   $download.Headers.'Content-Disposition' -match $regex | Out-Null

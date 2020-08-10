@@ -4,7 +4,7 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     $github_repository = 'Armin2208/Windows-Auto-Night-Mode'
-    $releases = "https://github.com/" + $github_repository + "/releases/latest"    
+    $releases = 'https://github.com/' + $github_repository + '/releases/latest'
     $regexVersion = 'Armin2208/Windows-Auto-Night-Mode/tree/(?<Version>[\d\.]+)'
     $regexUrl = '/.*AutoDarkMode.*\.zip'
 
@@ -16,7 +16,7 @@ function global:au_GetLatest {
 
     return @{
         Version = $version
-        URL32   = 'https://github.com' + $path
+        URL32   = 'https://github.com/' + $path
     }
 }
 

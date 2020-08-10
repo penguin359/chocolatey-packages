@@ -8,13 +8,13 @@
     <owners>chtof</owners>
     <title>Crypto Notepad</title>
     <authors>Alexander Sigmanor</authors>
-    <projectUrl>https://crypto-notepad.info</projectUrl>
+    <projectUrl>https://crypto-notepad.github.io</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/crypto-notepad/crypto-notepad.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://raw.githubusercontent.com/Crypto-Notepad/Crypto-Notepad/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/Crypto-Notepad/Crypto-Notepad</projectSourceUrl>
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <docsUrl>https://github.com/Crypto-Notepad/Crypto-Notepad/wiki/Documentation</docsUrl>
     <mailingListUrl>https://www.fb.com/SlGMANOR</mailingListUrl>
     <bugTrackerUrl>https://github.com/Crypto-Notepad/Crypto-Notepad/issues</bugTrackerUrl>
     <tags>crypto-notepad crypto encryption notepad security</tags>

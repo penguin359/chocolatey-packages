@@ -29,8 +29,8 @@ function global:au_SearchReplace {
         }
 
         "tools\chocolateyinstall.ps1" = @{        
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`$1$($Latest.FileName32)`""
-           "(^.*`"SSLVerifier-v)[\d\.]+(.*)$"          = "`${1}$($Latest.Version)`${2}"
+          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`${1}$($Latest.FileName32)`""
+           "(^.*`"SSL(-)?Verifier-v)[\d\.]+(.*)$"          = "`${1}$($Latest.Version)`${3}"
         }
     }
 }

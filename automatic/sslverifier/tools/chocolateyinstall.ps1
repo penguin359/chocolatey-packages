@@ -4,7 +4,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
   destination = "$toolsDir"
-  file        = "$toolsDir\SSLVerifier-v1.3.0.1.zip"
+  file        = "$toolsDir\SSL-Verifier-v1.5.4.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs
@@ -12,6 +12,6 @@ Get-ChocolateyUnzip @packageArgs
 # Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $OSArchitectureWidth = Get-OSArchitectureWidth
-$shortcutFilePath = Join-Path $programs "SSLVerifier.lnk"
+$shortcutFilePath = Join-Path $programs 'SSLVerifier.lnk'
 $targetPath = Join-Path $toolsDir "SSLVerifier-x{$OSArchitectureWidth}.exe"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath

@@ -20,4 +20,4 @@ Install-ChocolateyZipPackage @packageArgs
 Install-ChocolateyInstallPackage @packageArgs
 
 # Close z-cron due to the automatic startup after installation
-Get-Process "z-cron" | Stop-Process
+Get-Process 'z-cron' | Stop-Process

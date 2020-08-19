@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/tikzit/tikzit/releases/download/v2.1.5/tikzit-win.zip
-   x64: https://github.com/tikzit/tikzit/releases/download/v2.1.5/tikzit-win.zip
+   x32: https://github.com/tikzit/tikzit/releases/download/v2.1.6/tikzit-win.zip
+   x64: https://github.com/tikzit/tikzit/releases/download/v2.1.6/tikzit-win.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 331702C709BADFAE00CF87C82A04623C82FB207C51BF2C72731A4F77D4BD57C0
-   checksum64: 331702C709BADFAE00CF87C82A04623C82FB207C51BF2C72731A4F77D4BD57C0
+   checksum32: E97BC93434B719D891E1C24BAFB025D9176B94F24B32D675BC1C73FE4AAF0375
+   checksum64: E97BC93434B719D891E1C24BAFB025D9176B94F24B32D675BC1C73FE4AAF0375
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/tikzit/tikzit/master/COPYING

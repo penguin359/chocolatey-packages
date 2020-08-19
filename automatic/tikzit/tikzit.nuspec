@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>tikzit</id>
-    <version>2.1.5</version>
+    <version>2.1.6</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/tikzit</packageSourceUrl>
     <owners>chtof</owners>
     <title>TikZiT</title>

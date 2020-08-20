@@ -11,7 +11,7 @@ function global:au_BeforeUpdate {
 
 function global:au_GetLatest {
     $releases = 'https://www.genymotion.com/product-release-note/desktop'
-    $regex    = 'Genymotion Desktop (?<Version>[\d\.]+) \('
+    $regex    = 'Genymotion Desktop (?<Version>[\d\.]+)'
 
     (Invoke-WebRequest -Uri $releases).Content -match $regex | Out-Null
     $version = $matches.Version

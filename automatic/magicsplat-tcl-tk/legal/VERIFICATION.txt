@@ -7,15 +7,15 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://svwh.dl.sourceforge.net/project/magicsplat/magicsplat-tcl/tcl-8.6.10-installer-1.10.0-x86.msi
-   x64: https://svwh.dl.sourceforge.net/project/magicsplat/magicsplat-tcl/tcl-8.6.10-installer-1.10.0-x64.msi
+   x32: https://netactuate.dl.sourceforge.net/project/magicsplat/magicsplat-tcl/tcl-8.6.10-installer-1.10.1-x86.msi
+   x64: https://cfhcable.dl.sourceforge.net/project/magicsplat/magicsplat-tcl/tcl-8.6.10-installer-1.10.1-x64.msi
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 895417CFE9AC5AE2DAE3EB2CBF15799008A459917F88F4C395D98A004A2AB794
-   checksum64: 7B9F503B8BD80C7CC587BE7CEAFCA611693A07BD81139BBE9AEDD69D62A4EFB6
+   checksum32: 853FF6D6CDF6574339BB28CEEF0E4A507B7367D04334E68A8F86A253387F7726
+   checksum64: E4804F529C2B27B29925C202926821ED1BF96A4D4244A04EC0549077917138EC
  
 File 'LICENSE.txt' is obtained from the software installer.

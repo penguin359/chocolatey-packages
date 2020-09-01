@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
 
-  url           = 'https://www.radiantviewer.com/files/RadiAnt-2020.1.1-Setup.exe'
-  checksum      = '72f0fe9331c5c46f588a42f4c2ab723bee0f33db5b24b970bc872b033600e38e'
+  url           = 'https://www.radiantviewer.com/files/RadiAnt-2020.2-Setup.exe'
+  checksum      = '6f6786dbda092375aebddc21e7a2a5415c16629654fa60a90a86c8302eaf67b8'
   checksumType  = 'sha256'
 
   silentArgs    = "/S"

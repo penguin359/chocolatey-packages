@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>tjs</id>
-    <version>6.13.0</version>
+    <version>6.14.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/tjs</packageSourceUrl>
     <owners>chtof</owners>
     <title>TIBCO Jaspersoft Studio</title>
@@ -36,7 +36,7 @@ The Community version of TIBCO Jaspersoft® Studio uses the [Java Profiler JProf
 ]]></description>
     <releaseNotes>https://community.jaspersoft.com/project/jaspersoft-studio/releases</releaseNotes>
     <dependencies>
-      <dependency id="tjs.install" version="[6.13.0]" />
+      <dependency id="tjs.install" version="[6.14.0]" />
     </dependencies>
   </metadata>
   <files></files>

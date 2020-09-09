@@ -5,7 +5,7 @@ $packageArgs = @{
   filetype     = 'MSI'
 
   url          = 'https://www.realpopup.it/files/RealPopupSetup.msi'
-  checksum     = 'e1e75f4f5dfdef1839a4663444e57cc5f2239e965a6042d0536f40dfa7f622cd'
+  checksum     = '549eb24955fb8d054b2a0591ce185fe57769ea651a1869632b694e399b772cb2'
   checksumType = 'sha256'
 
   silentArgs   = "/qn /norestart /l*v `"$env:TEMP\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""

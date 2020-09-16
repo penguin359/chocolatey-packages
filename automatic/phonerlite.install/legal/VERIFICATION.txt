@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://www.phoner.de/PhonerLiteSetup_2.81.exe
-   x64: https://www.phoner.de/PhonerLiteSetup_2.81.exe
+   x32: https://www.phoner.de/PhonerLiteSetup_2.83.exe
+   x64: https://www.phoner.de/PhonerLiteSetup_2.83.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 4DF76055E52A70C2FC942B7422014352D1E690FE44295F17452731C7B3C92287
-   checksum64: 4DF76055E52A70C2FC942B7422014352D1E690FE44295F17452731C7B3C92287
+   checksum32: 19D6D7407688E3DA0888F7ABE029DB4C2584C71257AE39ED697736D6CB2CB2B3
+   checksum64: 19D6D7407688E3DA0888F7ABE029DB4C2584C71257AE39ED697736D6CB2CB2B3
  
 File 'LICENSE.txt' is obtained from:
    http://phonerlite.de/license_en.htm

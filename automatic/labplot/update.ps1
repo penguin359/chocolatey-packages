@@ -7,14 +7,14 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 function global:au_GetLatest {
     $releases = 'https://download.kde.org/stable/labplot/'
     $regexLastMajorVersion = '<a href="(?<Version>[\d\.]+)/">'
-    (Invoke-WebRequest -Uri $releases -UseBasicParsing).links |? href -match '([\d\.]+)/' | Select -Last 1
+    (Invoke-WebRequest -Uri $releases -UseBasicParsing).links |? href -match '([\d\.]+)/' | Select -Last 1 | Out-Null
     $majorVersion = $matches.1
 
     $releases = 'https://download.kde.org/stable/labplot/' + $majorVersion + '/labplot-' + $majorVersion + '-64bit-setup.exe.mirrorlist'
     $regex    = 'labplot-(?<Version>[\d\.]+)-64bit-setup.exe'
 
-    #(Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Select -First 1
-    #$version = $matches.Version
+    (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Select -First 1
+    $version = $matches.Version
 
     return @{
         Version = $majorVersion

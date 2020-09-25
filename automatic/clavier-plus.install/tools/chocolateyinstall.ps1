@@ -3,7 +3,6 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
-  file        = "$toolsDir\ClavierSetup32.exe"
   file64      = "$toolsDir\ClavierSetup64.exe"
   silentArgs  = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
 }

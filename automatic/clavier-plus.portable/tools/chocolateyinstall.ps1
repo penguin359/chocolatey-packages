@@ -4,7 +4,6 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
-  file          = "$toolsDir\Clavier32.zip"
   file64        = "$toolsDir\Clavier64.zip"
 }
 

@@ -4,7 +4,7 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
   destination = "$toolsDir"
-  file        = "$toolsDir\Crypto.Notepad.7z"
+  file        = "$toolsDir\Crypto.Notepad.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs

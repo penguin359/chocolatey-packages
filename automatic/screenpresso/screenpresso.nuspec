@@ -21,15 +21,15 @@
     <summary>Screenpresso captures your desktop (screenshots and HD videos) for your training documents, collaborative design work, IT bug reports, and more...</summary>
     <description><![CDATA[Screenpresso captures your desktop (screenshots and HD videos) for your training documents, collaborative design work, IT bug reports, and more...
 ## [Main features](https://www.screenpresso.com/features)
-### Capture screenshots including scrolling parts
-### Capture your screen in HD videos
-### Smooth workflow
-### Powerful built-in image editor
-### Workspaces and libraries
-### Sharing of captures
-### Android screen capture
-### Document generator
-### Multilingual with support for 19 languages
+- Capture screenshots including scrolling parts
+- Capture your screen in HD videos
+- Smooth workflow
+- Powerful built-in image editor
+- Workspaces and libraries
+- Sharing of captures
+- Android screen capture
+- Document generator
+- Multilingual with support for 19 languages
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <dependencies>

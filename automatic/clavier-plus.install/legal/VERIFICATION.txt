@@ -7,7 +7,6 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: http://utilfr42.free.fr/dn/ClavierSetup32.exe
    x64: http://utilfr42.free.fr/dn/ClavierSetup64.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
@@ -15,7 +14,6 @@ Package can be verified like this:
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: D6BF7C5A441F27410744AAC4204A29BCDB1677C7588E38461D49FA8162C4BE80
    checksum64: B2DDCF48D05D188133D53FA4BEE372B24E1246328F4827CEB69DE9CF1432EB0E
  
 File 'LICENSE.txt' is obtained from:

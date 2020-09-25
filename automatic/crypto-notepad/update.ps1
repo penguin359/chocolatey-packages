@@ -8,18 +8,20 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 function global:au_GetLatest {
     $github     = 'https://github.com/'
     $repository = 'Crypto-Notepad/Crypto-Notepad'
-    $file       = '/Crypto.Notepad.7z'
+    $regexUrl   = '.*/Crypto.Notepad.(7z|zip)'
 
     $github_repository = $github + $repository
     $releases = $github_repository + '/releases/latest'
     $regex    = '/tree/v(?<Version>[\d\.]+)'
 
-    (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex | Out-Null
+    $download_page = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links
+    $download_page | ? href -match $regex | Out-Null
     $version = $matches.Version
+    $path = ($download_page | ? href -match $regexUrl).href
 
     return @{
         Version = $version
-        URL32   = $github_repository + '/releases/download/v' + $version + $file
+        URL32   = 'https://github.com/' + $path
     }
 }
 

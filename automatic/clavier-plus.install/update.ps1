@@ -16,7 +16,7 @@ function global:au_GetLatest {
     $path = ((Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regexUrl).href
 
      return @{
-        Version = $matches.Version
+        Version = $version
         URL64   = 'https://github.com' + $path
     }
 }

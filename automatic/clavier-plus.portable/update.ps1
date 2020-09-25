@@ -18,7 +18,7 @@ function global:au_GetLatest {
     (Invoke-WebRequest -Uri $releases).Content -match $regex | Out-Null
 
      return @{
-        Version = $matches.Version
+        Version = $version
         URL64   = 'https://github.com' + $path
     }
 }

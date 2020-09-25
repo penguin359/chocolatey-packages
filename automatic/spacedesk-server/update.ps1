@@ -23,9 +23,9 @@ function global:au_GetLatest {
     $url32 = Get-RedirectedUrl https://spacedesk.net/downloadidd32
     $url64 = Get-RedirectedUrl https://spacedesk.net/downloadidd64
     $url32_win81 = Get-RedirectedUrl https://spacedesk.net/downloadlegacy
-    $checksum32_win81 = Get-RemoteChecksum $url32_win81.href
+    $checksum32_win81 = Get-RemoteChecksum $url32_win81
     $url64_win81 = Get-RedirectedUrl https://spacedesk.net/downloadlegacy64
-    $checksum64_win81 = Get-RemoteChecksum $url64_win81.href
+    $checksum64_win81 = Get-RemoteChecksum $url64_win81
     (Invoke-WebRequest -Uri $releases).RawContent -match $regexVersion | Out-Null
 
     return @{

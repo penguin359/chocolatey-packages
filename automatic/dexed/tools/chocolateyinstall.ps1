@@ -11,8 +11,8 @@ Get-ChocolateyUnzip @packageArgs
 
 $packageArgs = @{
   packageName  = $env:ChocolateyPackageName  
-  fileFullPath = "$toolsDir\dexed-0.9.4hf1-win.exe"
-  silentArgs   = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
+  file         = "$toolsDir\dexed-0.9.4hf1-win.exe"
+  silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 }
 
 Install-ChocolateyInstallPackage @packageArgs

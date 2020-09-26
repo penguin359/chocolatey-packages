@@ -29,7 +29,7 @@ function global:au_GetLatest {
     (Invoke-WebRequest -Uri $releases).RawContent -match $regexVersion | Out-Null
 
     return @{
-        Version = $version
+        Version = $matches.Version
 
         URL32 = $url32
         URL64 = $url64

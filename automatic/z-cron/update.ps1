@@ -13,7 +13,7 @@ function global:au_GetLatest {
 	}
 	return @{
         Version = $version
-        URL     = 'http://www.z-download.de/down/zcron.zip'
+        URL     = 'https://www.z-download.de/down/zcron.zip'
     }
 }
 

@@ -1,9 +1,11 @@
 ﻿$ErrorActionPreference = 'Stop'
 Import-Module au
 Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1"
-
+Set-PSDEBUG -trace 1
 function global:au_BeforeUpdate() {
     $Latest.Checksum32 = Get-RemoteChecksum $($Latest.URL32)
+    #write-warning "*** $($Latest.Url64)"
+    #$Latest.Url64 = 'https://www.hamrick.com/files/vuex6497.exe'
     $Latest.Checksum64 = Get-RemoteChecksum $($Latest.URL64)
 }
 
@@ -21,7 +23,7 @@ function global:au_GetLatest {
     $etag = GetETagIfChanged -uri "https://www.hamrick.com/$file32"
 
     if ($etag) {        
-        $result = GetResultInformation "https://www.hamrick.com/$file32"
+        $result = GetResultInformation "https://www.hamrick.com/$file32" "https://www.hamrick.com/$file64"
         $result["ETAG"] = $etag
     }
     else {        
@@ -51,13 +53,13 @@ function global:au_AfterUpdate {
 
 function GetResultInformation([string]$url32, [string]$url64) {
   $dest = "$env:TEMP\vuex32.exe"
-  Get-WebFile $url32 $dest | Out-Null
+  Get-WebFile $url32 $dest | Out-Null  
 
   $result = @{
     URL32          = $url32
     URL64          = $url64
     Version        = (Get-Item $dest).VersionInfo.FileVersion.Trim()
-    Checksum       = Get-FileHash $dest -Algorithm SHA512 | % Hash
+    Checksum       = Get-FileHash $dest -Algorithm SHA512 | % Hash    
     ChecksumType32 = 'sha512'
   }
   Remove-Item -Force $dest

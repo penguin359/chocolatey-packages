@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>spacedesk-server</id>
-    <version>0.9.54.20200806</version>
+    <version>0.9.64</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/spacedesk-server</packageSourceUrl>
     <owners>chtof</owners>
     <title>Spacedesk Driver Software for Windows PRIMARY PC (server)</title>
@@ -20,8 +20,7 @@
     <tags>spacedesk-server network display software</tags>
     <summary>Windows network display monitor software.</summary>
     <description><![CDATA[## Prerequisites
-**Spacedesk Driver Software for Windows PRIMARY PC (server)** runs only with Windows 10 and windows 8.1.
-Spacedesk does not support Windows 7 any more (Windows 7 life cycle has expired). At your own risk spacedesk Windows 8.1 driver can still be installed on Windows 7.
+**Spacedesk Driver Software for Windows PRIMARY PC (server)** runs only with Windows 10, windows 8.1 and windows 7.
 
 ## Features and System Requirements
 ### NETWORK DISPLAY MULTI MONITOR SOFTWARE

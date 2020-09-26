@@ -1,11 +1,9 @@
 ﻿$ErrorActionPreference = 'Stop'
 Import-Module au
 Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1"
-Set-PSDEBUG -trace 1
+
 function global:au_BeforeUpdate() {
     $Latest.Checksum32 = Get-RemoteChecksum $($Latest.URL32)
-    #write-warning "*** $($Latest.Url64)"
-    #$Latest.Url64 = 'https://www.hamrick.com/files/vuex6497.exe'
     $Latest.Checksum64 = Get-RemoteChecksum $($Latest.URL64)
 }
 

@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>google2srt.install</id>
-    <version>0.7.7</version>
+    <version>0.7.9</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/google2srt.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>Google2SRT (Install)</title>
@@ -19,8 +19,10 @@
     <bugTrackerUrl>https://sourceforge.net/p/google2srt/_list/tickets</bugTrackerUrl>
     <tags>download save convert YouTube Google Video subtitles SubRip srt</tags>
     <summary>Download, save and convert multiple subtitles from YouTube videos</summary>
-    <description><![CDATA[
-Google2SRT allows you to download, save and convert multiple subtitles and translations from YouTube and Google Video to SubRip (.srt) format, which is recognized by most video players. You can download XML subtitles or simply type video's URL, Google2SRT will do the rest.
+    <description><![CDATA[Google2SRT allows you to download, save and convert multiple subtitles and translations from YouTube and Google Video to SubRip (.srt) format, which is recognized by most video players. You can download XML subtitles or simply type video's URL, Google2SRT will do the rest.
+
+## Prerequisites
+Java JRE: Google2SRT cannot be installed on systems with JRE version lower than 1.6.
 
 ## Features
 - Download YouTube subtitles - Closed Captions (CC)

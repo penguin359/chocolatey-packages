@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName  = $env:ChocolateyPackageName
 
-  url          = 'https://uc97ee1f836148a50a561f1f5f83.dl.dropboxusercontent.com/cd/0/get/A__Z1WfZNKyGRV-DFIpHmya5Td7SilAd3CLABjAd8ULPLRi6ebVxQcAD5bnhuVc9W_qK10Wp12_HOjkZBmU8d0bw4grUQVQ4IaP478aiiVoqzAXiwcapZXqelbuQckbTrqc/file?dl=1#'
-  checksum     = '9a3b542822739975139cb7068335314605d6716d6180cbafb0ea584985dbc55b'
+  url          = 'https://ucc1a10a4e6f11f921a07c89d2a6.dl.dropboxusercontent.com/cd/0/get/BAOxrzrOayYcwNQWGbQKbZ1GJEP0JsEoum2Vz1hT4HbZvlqN7tr7RB7EbfhxW6AmUxwDXNwQ8umJM9h9oTAjjx7fBWQFwl2BJpav5jcc4qBPNaPB6IMeGqGLhDQMPxMExws/file?dl=1#'
+  checksum     = '213503faa2c3b52efd26a5fa8b1cd9f7b039c6aab4502265061c8090be0cc32e'
   checksumType = 'sha256'
 
   silentArgs   = '/S'

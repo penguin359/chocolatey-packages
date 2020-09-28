@@ -4,7 +4,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
   filetype    = 'MSI'
-  file        = "$toolsDir\google2srt-0.7.7.msi"
+  file        = "$toolsDir\google2srt-0.7.9.msi"
   silentArgs  = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
 }
 

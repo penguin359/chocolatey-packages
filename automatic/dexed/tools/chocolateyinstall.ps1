@@ -13,7 +13,7 @@ $exe_file = (gci $toolsDir\dexed-*-win.exe).name
 
 $packageArgs = @{
   packageName  = $env:ChocolateyPackageName  
-  file         = "$toolsDir\$exe_file"
+  fileFullPath = "$toolsDir\$exe_file"
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 }
 

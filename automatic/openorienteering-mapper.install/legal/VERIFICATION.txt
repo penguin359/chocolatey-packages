@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/OpenOrienteering/mapper/releases/download/v0.9.3/OpenOrienteering-Mapper-0.9.3-Windows-x86.exe
-   x64: https://github.com/OpenOrienteering/mapper/releases/download/v0.9.3/OpenOrienteering-Mapper-0.9.3-Windows-x64.exe
+   x32: https://github.com/OpenOrienteering/mapper/releases/download/v0.9.4/OpenOrienteering-Mapper-0.9.4-Windows-x86.exe
+   x64: https://github.com/OpenOrienteering/mapper/releases/download/v0.9.4/OpenOrienteering-Mapper-0.9.4-Windows-x64.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: FBC9F12DB5BAAC8E283BFF5F336BE1233EC83EFC5268CB0105B5AFC4E278DFF0
-   checksum64: 30D693CCF09FBA740F5D4982C4FD808225D1E18F0E7B556E3EB1FAE75E415680
+   checksum32: F6F1D2DB9C45C19689681DF75C157AD3E20859BCC103F1AFD2EE8D1D10424894
+   checksum64: A5049340FDCC44DA4837B7F14E80C51E3FE184D6AA11E649FDFC625771EC3090
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/OpenOrienteering/mapper/dev/COPYING

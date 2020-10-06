@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>sonarlint-vs2017</id>
-    <version>4.24.0.20196</version>
+    <version>4.26.0.22454</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/sonarlint-vs2017</packageSourceUrl>
     <owners>chtof</owners>
     <title>SonarLint for Visual Studio 2017</title>

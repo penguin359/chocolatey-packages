@@ -12,12 +12,13 @@ function global:au_GetLatest {
 	$url32    = ($download_page.links | ? href -match $regex32).href | Select -Last 1
     $url64    = ($download_page.links | ? href -match $regex64).href | Select -Last 1
     $version  = $matches.Version
-    $isBeta   = $version -match "^0\..*"
+    #$isBeta   = $version -match "^0\..*"
 
-    if ($isBeta) { $versionSuffix = "-pre" } else { $versionSuffix = "" }
+    #if ($isBeta) { $versionSuffix = '-pre' } else { $versionSuffix = '' }
 
 	return @{
-        Version = $version + $versionSuffix
+        #Version = $version + $versionSuffix
+        Version = $version
         URL32   = $releases + $url32
         URL64   = $releases + $url64
     }
@@ -40,6 +41,4 @@ function global:au_SearchReplace {
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none
-}
+update -ChecksumFor none

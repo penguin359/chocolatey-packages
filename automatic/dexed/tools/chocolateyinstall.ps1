@@ -9,9 +9,11 @@ $packageArgs = @{
 
 Get-ChocolateyUnzip @packageArgs
 
+$exe_file = (gci $toolsDir\dexed-*-win.exe).name
+
 $packageArgs = @{
   packageName  = $env:ChocolateyPackageName  
-  file         = "$toolsDir\dexed-0.9.4hf1-win.exe"
+  fileFullPath = "$toolsDir\$exe_file"
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 }
 

@@ -4,7 +4,7 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
   destination = "$toolsDir"
-  file        = "$toolsDir\ospray-2.3.0.x86_64.windows.zip"
+  file        = "$toolsDir\ospray-2.4.0.x86_64.windows.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs

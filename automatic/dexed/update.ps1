@@ -25,11 +25,8 @@ function global:au_SearchReplace {
 
         "tools\chocolateyinstall.ps1" = @{        
           "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`$1$($Latest.FileName32)`""
-          "(`"[$]toolsDir\\dexed-)[\d\.]+(-win.exe)"   = "`$1$($Latest.Version)`$3`""
         }
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none
-}
+update -ChecksumFor none

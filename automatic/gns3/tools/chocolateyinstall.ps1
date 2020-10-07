@@ -3,7 +3,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  file          = "$toolsDir\GNS3-2.2.14-all-in-one.exe"
+  file          = "$toolsDir\GNS3-2.2.15-all-in-one.exe"
 }
 
 Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyinstall.ahk`""

@@ -4,7 +4,7 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     $releases = 'http://rei.to/carotdav_en.html'
-    $regex    = 'CarotDAV(?<Version>[\d\.]+).zip$'
+    $regex    = 'CarotDAV(?<Version>[\d\.]+).portable.zip$'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
     $url = $download_page.links | ? href -match $regex | Select -First 1
@@ -26,8 +26,7 @@ function global:au_SearchReplace {
         }
 
         "tools\chocolateyinstall.ps1" = @{
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`$1$($Latest.FileName32)`""
-          "(`"[$]toolsDir\\CarotDAV)[\d\.]+(\\CarotDAV)[\d\.]+(.msi`")" = "`${1}$($Latest.Version)`${2}$($Latest.Version)`${3}"
+          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`$1$($Latest.FileName32)`""
         }
     }
 }

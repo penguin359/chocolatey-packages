@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>littlenavmap</id>
+    <version>2.4.5</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/littlenavmap</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Little Navmap</title>
+    <authors>Little Navmap Team.</authors>
+    <projectUrl>https://albar965.github.io/littlenavmap.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/littlenavmap/littlenavmap.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/albar965/littlenavmap/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/albar965/littlenavmap</projectSourceUrl>
+    <docsUrl>https://albar965.github.io/manuals.html</docsUrl>
+    <mailingListUrl>https://www.avsim.com/forums/forum/780-little-navmap-little-navconnect-little-logbook-support-forum</mailingListUrl>
+    <bugTrackerUrl>https://github.com/albar965/littlenavmap/issues</bugTrackerUrl>
+    <tags>littlenavmap littlenavmap little navmap flight planner navigation airport information system simulator map flightplan flightplanner fsx fs2020 prepar3d x-plane</tags>
+    <summary>Little Navmap is a free open source flight planner, navigation tool, moving map, airport search and airport information system.</summary>
+    <description><![CDATA[
+Little Navmap is a free open source flight planner, navigation tool, moving map, airport search and airport information system for Flight Simulator X, Prepar3D and X-Plane and is available for Windows, Apple macOS and Linux.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/littlenavmap/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/albar965/littlenavmap/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

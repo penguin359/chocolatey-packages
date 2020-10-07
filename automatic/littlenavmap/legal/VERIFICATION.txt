@@ -1,0 +1,22 @@
+﻿VERIFICATION
+ 
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+Package can be verified like this:
+ 
+1. Download:
+ 
+   x32: https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-win-2.4.5.zip
+   x64: https://github.com/albar965/littlenavmap/releases/download/v2.4.5/LittleNavmap-win-2.4.5.zip
+  
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+ 
+   checksum type: sha256
+   checksum32: 198B000CE81DB5DA1DD90762129B1B9EA42718A55B6E3C52A8C18C8D4ED3A64B
+   checksum64: 198B000CE81DB5DA1DD90762129B1B9EA42718A55B6E3C52A8C18C8D4ED3A64B
+ 
+File 'LICENSE.txt' is obtained from:
+   https://raw.githubusercontent.com/albar965/littlenavmap/master/LICENSE.txt

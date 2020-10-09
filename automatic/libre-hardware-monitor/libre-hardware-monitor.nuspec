@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>libre-hardware-monitor</id>
-    <version>1.0.221</version>
+    <version>1.0.223</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/libre-hardware-monitor</packageSourceUrl>
     <owners>chtof</owners>
     <title>Libre Hardware Monitor</title>

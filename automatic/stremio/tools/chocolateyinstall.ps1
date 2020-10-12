@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName  = $env:ChocolateyPackageName
 
-  url          = 'https://dl.strem.io/shell-win/v4.4.116/Stremio+4.4.116.exe'
-  checksum     = '99fddb28141ae88d658096660e5fe207fb1cb7fd0197bc7e8b9716cb883f47e4'
+  url          = 'https://dl.strem.io/shell-win/v4.4.120/Stremio+4.4.120.exe'
+  checksum     = '02a92cc8572322e6017f20a1c73400d29b2d7d616f84796e10dffdc8181e991b'
   checksumType = 'sha256'
 
   silentArgs   = '/S'

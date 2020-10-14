@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>rapidminer</id>
-    <version>9.7</version>
+    <version>9.8</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/rapidminer</packageSourceUrl>
     <owners>chtof</owners>
     <title>RapidMiner Studio</title>

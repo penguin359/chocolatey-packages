@@ -11,7 +11,7 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName  
-  file64      = "$toolsDir\pyzo-4.10.2-win64.exe"
+  file64      = "$toolsDir\pyzo-4.11.0-win64.exe"
   silentArgs  = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 }
 

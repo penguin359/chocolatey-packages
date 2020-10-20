@@ -4,7 +4,7 @@ $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
 
   url64          = 'https://infinitekind.com/stabledl/current/Moneydance_windows_amd64.exe'
-  checksum64     = 'fc65f4551911ca08ef1a889bdd8aacb5a64613d779c494ed9f6f67767f1a954d'
+  checksum64     = '6d1140f0974b189a6bc64a96af17904de8f7de44eb190cecdb0b7d8f6fe6c017'
   checksumType64 = 'sha256'
 
   silentArgs     = "-q"

@@ -4,8 +4,8 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     $github_repository = 'Yutaka-Sawada/MultiPar'
-    $releases     = "https://github.com/" + $github_repository    
-    $regex        = "(.*/MultiPar[\d]+_Setup.zip)"
+    $releases     = 'https://github.com/' + $github_repository    
+    $regex        = "(.*/MultiPar[\d]+.zip)"
     $regexVersion = 'Installer version (?<Version>[\d\.]+)'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing

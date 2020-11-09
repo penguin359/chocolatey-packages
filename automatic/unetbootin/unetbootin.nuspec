@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>unetbootin</id>
-    <version>6.8.1</version>
+    <version>7.0.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/unetbootin</packageSourceUrl>
     <owners>chtof</owners>
     <title>UNetbootin</title>

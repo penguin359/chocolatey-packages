@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>fontforge</id>
-    <version>2019.08.01</version>
+    <version>2020.11.07</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/fontforge</packageSourceUrl>
     <owners>chtof</owners>
     <title>FontForge</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/fontforge/fontforge/issues</bugTrackerUrl>
     <tags>fontforge font editor</tags>
     <summary>Free (libre) font editor for Windows, Mac OS X and GNU+Linux.</summary>
-    <description><![CDATA[
-FontForge allows scripting via python, or with it’s legacy scripter, has built-in error recovery, and allows opening, editing, and converting any of the following formats:
+    <description><![CDATA[FontForge allows scripting via python, or with it’s legacy scripter, has built-in error recovery, and allows opening, editing, and converting any of the following formats:
 
 - UFO (Unified Font Object)
 - WOFF (Web Open Format)

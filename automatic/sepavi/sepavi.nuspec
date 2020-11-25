@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>sepavi</id>
-    <version>0.82</version>
+    <version>0.84</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/sepavi</packageSourceUrl>
     <owners>chtof</owners>
     <title>SepAVI</title>
@@ -19,8 +19,7 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>sepavi divide split merge AVI file trial</tags>
     <summary>By slightly short time, you can divide Avi file into two Avi files.</summary>
-    <description><![CDATA[
-By slightly short time, you can divide Avi file into two Avi files.
+    <description><![CDATA[By slightly short time, you can divide Avi file into two Avi files.
 
 **Restrictions before registration**
 - "Set File Size and Divide" is not possible.

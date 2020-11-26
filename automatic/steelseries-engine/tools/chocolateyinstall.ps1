@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
 
-  url           = 'https://engine.steelseriescdn.com/SteelSeriesEngine3.17.6Setup.exe'
-  checksum      = 'D1E763808387EF3E9C5DDE3E72D6608E03181694E8D7455C3D642FB8E684DFA3'
+  url           = 'https://engine.steelseriescdn.com/SteelSeriesEngine3.18.12Setup.exe'
+  checksum      = '09b909c5e3cc1799c35efd9d2b42d4dd60f47225df9c7b450d3afcbafad1dff8'
   checksumType  = 'sha256'
 
   silentArgs    = '/S'

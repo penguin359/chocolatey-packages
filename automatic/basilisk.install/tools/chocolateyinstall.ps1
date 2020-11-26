@@ -3,12 +3,12 @@
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
     
-  url            = 'http://archive.palemoon.org/basilisk/basilisk-20200911102752.win32.installer.exe'
-  checksum       = '9990450d162f3df2a1c174e71f2e7ba3d9f311e48b05ef0ad306bca23578549e'
+  url            = 'http://archive.palemoon.org/basilisk/basilisk-20201125140449.win32.installer.exe'
+  checksum       = '05240bb65daf43fdda01cc45b483a4a9326cd3f8e4f2123e8ec7d0b7ec958341'
   checksumType   = 'sha256'
 
-  url64          = 'http://archive.palemoon.org/basilisk/basilisk-20200911130518.win64.installer.exe'
-  checksum64     = '9e0546951d2642c8cb0050726ad5c51e165b8f5c7f84fa9f0d7e5c01ffe70b65'
+  url64          = 'http://archive.palemoon.org/basilisk/basilisk-20201125154120.win64.installer.exe'
+  checksum64     = '8f44b9397755e265646a763ce6166c4e6cbb93f16c27e285d9be8b4516fd7f30'
   checksumType64 = 'sha256'
 
   silentArgs     = "/S"

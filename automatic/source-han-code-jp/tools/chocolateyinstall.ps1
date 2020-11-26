@@ -1,4 +1,4 @@
-# The code structure for this from https://chocolatey.org/packages/hackfont
+﻿# The code structure for this from https://chocolatey.org/packages/hackfont
  
 # create temp directory
 do {
@@ -10,8 +10,8 @@ $packageArgs = @{
     packageName    = $env:ChocolateyPackageName
     unzipLocation  = $tempPath    
 
-    url            = 'https://github.com/adobe-fonts/source-han-code-jp/archive/2.011R.zip'
-    checksum       = '0F98BEB0A381D9D19067F9B58F65D2DD65C808A3012AC9CB9866E575AD6D2E7F'
+    url            = 'https://github.com/adobe-fonts/source-han-code-jp/archive/2.012.zip'
+    checksum       = '08a30d02c24dbd6f7974fdf23b8acb6b7768b0722ad1fea2b1b2fd037def964e'
     checksumType   = 'sha256'
 }
  

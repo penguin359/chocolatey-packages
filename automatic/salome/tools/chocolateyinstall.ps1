@@ -5,8 +5,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = "$toolsDir"
 
-  url64         = 'ftp://ftp.cea.fr/pub/salome/targz/SALOME-9.4.0/SALOME-9.4.0-W10.tar.gz'
-  checksum64    = '1CD0EA104CDC006B8B4E17DAAC2271C89B2C0A49A8DD4B48F7FE1D5CBA36D8DA'
+  url64         = 'https://www.salome-platform.org/downloads/current-version/DownloadDistr?platform=SP.W10EXE&amp;version=9.6.0'
+  checksum64    = 'f66775d714d81659d25d8d2dc5869455b35dfe97b6fc5dee98fc08f0aab8dd7a'
   checksumType64= 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs

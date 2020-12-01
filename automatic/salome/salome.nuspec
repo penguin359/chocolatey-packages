@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>salome</id>
-    <version>9.4.0</version>
+    <version>9.6.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/salome</packageSourceUrl>
     <owners>chtof</owners>
     <title>SALOME</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://www.salome-platform.org/service-and-support</bugTrackerUrl>
     <tags>salome numerical simulation processing</tags>
     <summary>SALOME is an open-source software that provides a generic Pre- and Post-Processing platform for numerical simulation.</summary>
-    <description><![CDATA[
-## What is SALOME
+    <description><![CDATA[## What is SALOME
 SALOME is an open-source software that provides a generic Pre- and Post-Processing platform for numerical simulation. It is based on an open and flexible architecture made of reusable components.
 
 SALOME is a cross-platform solution. It is distributed under the terms of the GNU LGPL license. You can download both the source code and the executables from this site.

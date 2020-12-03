@@ -8,7 +8,7 @@ $packageArgs = @{
   file        = "$toolsDir\wireguard-x86-0.3.3.msi"
   file64      = "$toolsDir\wireguard-amd64-0.3.3.msi"
 
-  silentArgs  = "/qn /norestart /l*v `"$env:TEMP\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""  
+  silentArgs  = "/qn /norestart /l*v `"$env:TEMP\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`" DO_NOT_LAUNCH=1"  
 }
 
 Install-ChocolateyInstallPackage @packageArgs

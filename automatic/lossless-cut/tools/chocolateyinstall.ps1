@@ -19,7 +19,7 @@ foreach ($file in $files) {
 }
 
 # Install start menu shortcut
-$programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
+$programs = "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\"
 $shortcutFilePath = Join-Path $programs "LosslessCut.lnk"
 $targetPath = Join-Path $toolsDir "LosslessCut.exe"
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath

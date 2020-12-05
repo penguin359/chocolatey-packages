@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>winja.install</id>
-    <version>7.1</version>
+    <version>7.1.0.20201205</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/winja.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>Winja (Install)</title>

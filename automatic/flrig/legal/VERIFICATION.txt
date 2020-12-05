@@ -7,20 +7,20 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: http://www.w1hkj.com/files/flrig/flrig-1.3.52_setup.exe
-   x64: http://www.w1hkj.com/files/flrig/flrig-1.3.52_setup.exe
+   x32: http://www.w1hkj.com/files/flrig/flrig-1.3.53_setup.exe
+   x64: http://www.w1hkj.com/files/flrig/flrig-1.3.53_setup.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: A6D05EA23ADC772CF1EFB5C3B787F3E2A136C9CB6F4F3252460E73334BBCA31D
-   checksum64: A6D05EA23ADC772CF1EFB5C3B787F3E2A136C9CB6F4F3252460E73334BBCA31D
+   checksum32: 5C4E9ADE1A17A22489DF90516D80D6CA77876ED5A89546AB2A2C3442E43DCCC7
+   checksum64: 5C4E9ADE1A17A22489DF90516D80D6CA77876ED5A89546AB2A2C3442E43DCCC7
  
 Using AU:
  
-   Get-RemoteChecksum http://www.w1hkj.com/files/flrig/flrig-1.3.52_setup.exe
+   Get-RemoteChecksum http://www.w1hkj.com/files/flrig/flrig-1.3.53_setup.exe
  
 File 'LICENSE.txt' is obtained from:
    https://sourceforge.net/p/fldigi/flrig/ci/master/tree/COPYING

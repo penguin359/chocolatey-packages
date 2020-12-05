@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>steelseries-engine</id>
-    <version>3.17.6</version>
+    <version>3.18.12</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/steelseries-engine</packageSourceUrl>
     <owners>chtof</owners>
     <title>SteelSeries Engine</title>
@@ -19,8 +19,7 @@
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>steelseries-engine gaming setting SteelSeries engine</tags>
     <summary>Engine was designed to have a low impact on your gaming rig while handling all of your important gaming settings.</summary>
-    <description><![CDATA[
-## Features
+    <description><![CDATA[## Features
 
 ### One application for all your settings
 Engine was designed to have a low impact on your gaming rig while handling all of your important gaming settings.

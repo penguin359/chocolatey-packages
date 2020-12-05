@@ -8,7 +8,7 @@ $packageArgs = @{
   file          = "$toolsDir\setup.exe"
   silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 
-  url           = 'https://www.phrozen.io/bin/winja7-1.zip'
+  url           = 'https://s3.eu-central-1.amazonaws.com/www.phrozen.io/uploads/winja7-1.zip'
   checksum      = 'DD3685B45F833E10DACCC85EA7D1838E4DD0E99E7C32812C06DD0BDAEBA9A6C6'
   checksumType  = 'sha256'
   

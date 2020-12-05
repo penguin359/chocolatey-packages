@@ -8,7 +8,7 @@
     <owners>chtof</owners>
     <title>Winja</title>
     <authors>PHROZEN SAS</authors>
-    <projectUrl>https://www.phrozen.io/projects/2020/03/winja-virustotal-uploader-binary/</projectUrl>
+    <projectUrl>https://www.phrozen.io/downloads/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/winja.install/winja.install.png</iconUrl>
     <copyright>Copyright © 2020 - Phrozen SAS. Some Rights Reserved.</copyright>
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>

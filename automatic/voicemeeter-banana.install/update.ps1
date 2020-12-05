@@ -9,7 +9,7 @@ function global:au_GetLatest {
   $download_page = (Invoke-WebRequest -Uri $releases)
   $download_page.RawContent -match $regex_version
   
-  return @{ Version = $matches.Version ; URL32 = 'https://download.vb-audio.com/Download_CABLE/VoicemeeterSetup.exe' }
+  return @{ Version = $matches.Version ; URL32 = 'https://download.vb-audio.com/Download_CABLE/VoicemeeterProSetup.exe' }
 }
 
 function global:au_SearchReplace {

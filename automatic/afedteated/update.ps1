@@ -3,7 +3,7 @@ Import-Module au
 Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1"
 
 function global:au_GetLatest {
-    $downloadUrl = 'http://update.iobit.com/dl/advanced-systemcare-setup.exe'
+    $downloadUrl = 'https://cdn.iobit.com/dl/advanced-systemcare-setup.exe'
     $etag = GetETagIfChanged -uri $downloadUrl    
 
     if ($etag) {        

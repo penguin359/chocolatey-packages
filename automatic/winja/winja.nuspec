@@ -49,7 +49,7 @@ For this reason, Winja remains a passive analysis tool and is not a substitute f
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <dependencies>
-      <dependency id="winja.install" version="[7.1]" />
+      <dependency id="winja.install" version="[7.1.0.20201205]" />
     </dependencies>
   </metadata>
   <files></files>

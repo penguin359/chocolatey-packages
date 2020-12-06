@@ -3,7 +3,7 @@
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-  $releases       = 'https://vb-audio.com/Voicemeeter/banana.htm'
+  $releases       = 'https://vb-audio.com/Voicemeeter/potato.htm'
   $regex_filename = '(?<Filename>VoicemeeterSetup_v\d+.zip)'
   $regex_version  = 'Voicemeeter (?<Version>[\d\.]+).*\(ZIP Package\)'
 

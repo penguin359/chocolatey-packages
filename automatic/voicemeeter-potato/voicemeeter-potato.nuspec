@@ -33,7 +33,7 @@ For any professional use, you may pay the recommended license price on the websh
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   <dependencies>
-    <dependency id="voicemeeter-potato.install" version="[2.0.5.4]" />
+    <dependency id="voicemeeter-potato.install" version="[3.0.1.4]" />
   </dependencies>
   </metadata>
    <files></files>

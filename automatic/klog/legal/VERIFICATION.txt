@@ -7,21 +7,21 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://mirrors.up.pt/pub/nongnu/klog/win/KLog-1.3.2-windows-installer.exe
-   x64: https://mirrors.up.pt/pub/nongnu/klog/win/KLog-1.3.2-windows-installer.exe
+   x32: https://mirrors.up.pt/pub/nongnu/klog/win/KLog-1.4-windows-installer.exe
+   x64: https://mirrors.up.pt/pub/nongnu/klog/win/KLog-1.4-windows-installer.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 4CDACB7D5690B3434C802818E5273C175E6402EE5017158F10B3953460B6A1E3
-   checksum64: 4CDACB7D5690B3434C802818E5273C175E6402EE5017158F10B3953460B6A1E3
+   checksum32: 19BE33D63F437F3452FC619FD1B721411EA75A04C36A133F728FC123A6BEF826
+   checksum64: 19BE33D63F437F3452FC619FD1B721411EA75A04C36A133F728FC123A6BEF826
  
 Using AU:
  
-   Get-RemoteChecksum https://mirrors.up.pt/pub/nongnu/klog/win/KLog-1.3.2-windows-installer.exe
-   Get-RemoteChecksum https://mirrors.up.pt/pub/nongnu/klog/win/KLog-1.3.2-windows-installer.exe
+   Get-RemoteChecksum https://mirrors.up.pt/pub/nongnu/klog/win/KLog-1.4-windows-installer.exe
+   Get-RemoteChecksum https://mirrors.up.pt/pub/nongnu/klog/win/KLog-1.4-windows-installer.exe
  
 File 'LICENSE.txt' is obtained from:
    https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt

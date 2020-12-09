@@ -10,11 +10,11 @@ winTitle1 = VB-Audio Voicemeeter Installation
 WinWait, %winTitle1%,, 30
 ControlSend,, {Enter}, %winTitle1%
 
-Sleep 10000
+;Sleep 10000
 
 SetTitleMatchMode, 2  ; A windows's title can contain WinTitle anywhere inside it to be a match
 winTitle3 = Windows
-WinWait, %winTitle3%,, 10
+WinWait, %winTitle3%,, 30
 ifWinExist, %winTitle3%
 {
 WinActivate

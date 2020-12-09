@@ -14,12 +14,14 @@ $packageArgs = @{
 
 Install-ChocolateyZipPackage @packageArgs
 
+$exe_file = (Get-ChildItem -Recurse $toolsDir\IVAO_Pilot_MSFS2020_*.exe).fullname | Select -First 1
+
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName  
-  file          = "$toolsDir\IVAO_Pilot_MSFS2020_1.10.2b.exe"
+  file          = "$exe_file"
   silentArgs    = '/S'
 }
 
-Write-Warning "The installation takes about 10-15 minutes as MTL libraries are downloaded."
+Write-Warning "The installation takes several dozens of minutes as MTL libraries are downloaded."
 
 Install-ChocolateyInstallPackage @packageArgs

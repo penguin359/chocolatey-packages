@@ -32,6 +32,9 @@ For any professional use, you may pay the recommended license price on the websh
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/voicemeeter-potato/screenshot.png)
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  <dependencies>
+    <dependency id="autohotkey.install" version="1.1.30" />
+  </dependencies>
   </metadata>
   <files>
     <file src="legal\**" target="legal" />

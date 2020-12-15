@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://coolsoft.altervista.org/download/CoolSoft_VirtualMIDISynth_2.10.1.exe
-   x64: https://coolsoft.altervista.org/download/CoolSoft_VirtualMIDISynth_2.10.1.exe
+   x32: https://coolsoft.altervista.org/download/CoolSoft_VirtualMIDISynth_2.10.2.exe
+   x64: https://coolsoft.altervista.org/download/CoolSoft_VirtualMIDISynth_2.10.2.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 3FAB8DB2DC76F8305AC94456BD14B348D5D7397A79E26741968A5B71087D7E25
-   checksum64: 3FAB8DB2DC76F8305AC94456BD14B348D5D7397A79E26741968A5B71087D7E25
+   checksum32: 6ECF99C5C22AF653952BA6D5404CDFAB1C547F06FDA36990C6EDBDBB2E34FA12
+   checksum64: 6ECF99C5C22AF653952BA6D5404CDFAB1C547F06FDA36990C6EDBDBB2E34FA12
  
 File 'LICENSE.txt' is obtained from:
    https://coolsoft.altervista.org/en/virtualmidisynth

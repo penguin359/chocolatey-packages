@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName  = $env:ChocolateyPackageName
 
-  url          = 'https://cdist2.perforce.com/alm/helixalm/r2020.3.0/ttwinclientinstall.exe'
-  checksum     = 'f1343d777d9b2273e71de82bd0a4302d4714f9c13130b93a068968d960e5be8b'
+  url          = 'https://cdist2.perforce.com/alm/helixalm/r2020.3.1/ttwinclientinstall.exe'
+  checksum     = '161caeb04cc53cb1c34d46a9a92fbf10d31630c787218f96b3b37428c4dfedb4'
   checksumType = 'sha256'
 
   silentArgs   = "-i SILENT LAX_VM resource\jre\bin\java.exe"

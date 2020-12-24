@@ -4,7 +4,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
-  file          = "$toolsDir\Log4OM2_2_10_0_0_portable.zip"           
+  file          = "$toolsDir\Log4OM2_2_11_0_0_portable.zip"            
 }
 
 Get-ChocolateyUnzip @packageArgs

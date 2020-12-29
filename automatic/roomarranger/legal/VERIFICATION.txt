@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://s3.eu-central-1.amazonaws.com/rooarr/rooarr956.exe
-   x64: https://s3.eu-central-1.amazonaws.com/rooarr/rooarr956_64bit.exe
+   x32: https://s3.eu-central-1.amazonaws.com/rooarr/rooarr96.exe
+   x64: https://s3.eu-central-1.amazonaws.com/rooarr/rooarr96_64bit.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 08FF38D0041093AE5732818259BDD2BEEBE6C1D2BE482A7556B3D06C3EAD9494
-   checksum64: 9C42AEF82A310BF8E735FEDF9D18C0B299C7CF9999F03A2CEAD42A3C316461F3
+   checksum32: DF4ADF5FE38C235B0DBCA720A5C29DA18079AE9483AB363F7261BC0F28DEC56A
+   checksum64: 7E2BEFC81EC0202F8C2B0FC05272E0A5F876F4396A2B033D185B9FBF35DE42EA
  
 File 'LICENSE.txt' is obtained from:
    http://www.roomarranger.com/wiki/doku.php?id=license_agreement

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>sunset-screen</id>
-    <version>1.34</version>
+    <version>1.36</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/sunset-screen</packageSourceUrl>
     <owners>chtof</owners>
     <title>Sunset Screen</title>
@@ -39,7 +39,7 @@ Whether you're a morning lark or night owl, SunsetScreen allows you to set the t
 ]]></description>
     <releaseNotes>https://www.skytopia.com/software/sunsetscreen/#history</releaseNotes>
     <dependencies>
-      <dependency id="sunset-screen.install" version="[1.34]" />
+      <dependency id="sunset-screen.install" version="[1.36]" />
     </dependencies>
   </metadata>
   <files></files>

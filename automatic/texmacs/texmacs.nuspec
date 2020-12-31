@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>texmacs</id>
-    <version>1.99.17</version>
+    <version>1.99.18</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/texmacs</packageSourceUrl>
     <owners>chtof</owners>
     <title>TeXmacs</title>

@@ -5,7 +5,7 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge -FileNameSkip
 
 function global:au_GetLatest {
     $releases = 'https://ispc.github.io/downloads.html'
-    $regex   = 'ispc-v(?<Version>[\d\.]+)-windows.zip'
+    $regex   = 'ispc-v(?<Version>[\d\.]+)-windows.msi'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	$url = $download_page.links | ? href -match $regex | Select -First 1

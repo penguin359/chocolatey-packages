@@ -6,7 +6,10 @@ function global:au_GetLatest {
 
     (Invoke-WebRequest -Uri $releases).Content -match $regex | Out-Null
 
-    return @{ Version = $matches.Version ; URL32 = 'https://12noon.com/files/dc-setup.exe' }
+    return @{
+        Version = $matches.Version
+        URL32 = 'https://12noon.com/files/dc.zip'
+    }
 }
 
 function global:au_SearchReplace {

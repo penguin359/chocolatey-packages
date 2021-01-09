@@ -1,4 +1,4 @@
-﻿import-module au
+import-module au
 
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
@@ -7,11 +7,12 @@ function global:au_GetLatest {
     $regex = 'target="dl">v(?<Version>[\d\.b]+) Voice'
 
     (Invoke-WebRequest -Uri $releases -UseBasicParsing).RawContent -match $regex | Out-Null
-    $version = $matches.Version -Replace '-', '.'
+    #$version = $matches.Version -Replace 'b', '-beta'
+    $version = $matches.Version.Replace('b', '-beta')
 
     return @{
         Version = $version
-        URL32 = 'https://api.ivao.aero/v2/softwares/altitude/52/files/latest/download'
+        URL32   = 'https://api.ivao.aero/v2/softwares/altitude/52/files/latest/download'
     }
 }
 
@@ -26,7 +27,7 @@ function global:au_SearchReplace {
         }
 
         "tools\chocolateyinstall.ps1" = @{
-          "amidst-v[\d\-]+.exe" = "$($Latest.FileName32)"
+          "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
         }
     }
 }

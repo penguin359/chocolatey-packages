@@ -8,7 +8,7 @@ function global:au_GetLatest {
 
     return @{
         Version = $matches.Version
-        URL32 = 'https://12noon.com/files/dc.zip'
+        URL32   = 'https://12noon.com/files/dc.zip'
     }
 }
 

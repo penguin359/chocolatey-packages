@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
@@ -6,7 +6,7 @@ $packageArgs = @{
   destination  = "$toolsDir"
 
   url          = 'https://12noon.com/files/dc.zip'
-  checksum     = '01FAF70A4640E3AD89AE1DB78AA6B95F4FDC0CF162FCC92CF279442FBFFF20CB'
+  checksum     = 'ffd9d44fb6768717c9d47929203ba5ba738d53730b7d5c582d3f768ff7707982'
   checksumType = 'sha256'
 
   # silentArgs   = '/S'

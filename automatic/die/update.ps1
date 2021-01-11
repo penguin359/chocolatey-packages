@@ -4,7 +4,7 @@ function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
     # $releases = 'http://ntinfo.biz/index.html'
-    $releases = 'https://github.com/horsicq/DIE-engine/releases'
+    $releases = 'https://github.com/horsicq/DIE-engine/releases/latest'
     $regex32   = 'die_win32_portable_(?<Version>[\d\.]+).zip$'
     $regex64   = 'die_win64_portable_(?<Version>[\d\.]+).zip$'
 

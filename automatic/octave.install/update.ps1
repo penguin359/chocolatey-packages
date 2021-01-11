@@ -18,8 +18,8 @@ function global:au_GetLatest {
 	
     return @{
         Version = $version
-        URL32   = 'https://mirror.ibcp.fr/pub/gnu/octave/windows/' + $url32.href
-        URL64   = 'https://mirror.ibcp.fr/pub/gnu/octave/windows/' + $url64.href
+        URL32   = 'https://ftpmirror.gnu.org/octave/windows/' + $url32.href
+        URL64   = 'https://ftpmirror.gnu.org/octave/windows/' + $url64.href
     }
 }
 

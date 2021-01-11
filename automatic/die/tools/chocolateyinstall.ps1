@@ -5,6 +5,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
   file          = "$toolsDir\die_win32_portable_2.05.zip"
+  file64        = "$toolsDir\die_win64_portable_2.05.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs

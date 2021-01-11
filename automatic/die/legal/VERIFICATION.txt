@@ -18,9 +18,5 @@ Package can be verified like this:
    checksum32: 4274DC088543216F6305414BC1B46D56EA51E6A952CB657684753755541DC8B6
    checksum64: 65B7731D23C34CEE5D2EDBDC0D02CAF2D9363BE41CE1D1C2B0D23534B99EBD10
  
-Using AU:
- 
-   Get-RemoteChecksum https://github.com/horsicq/DIE-engine/releases/download/2.02/die_win32_portable_2.02.zip
- 
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/horsicq/Detect-It-Easy/master/LICENSE

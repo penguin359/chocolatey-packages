@@ -24,8 +24,8 @@ function global:au_SearchReplace {
         }
 
         "tools\chocolateyinstall.ps1" = @{
-          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`${1}$($Latest.FileName32)`""
-          "(Join-Path [$]toolsDir `"NSudo )[\d\.]+\\"  =  "`${1}$($Latest.Version)\\"
+          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`${1}$($Latest.FileName32)`""
+          "(Join-Path [$]toolsDir `"NSudo_)[\d\.]+_" =  "`${1}$($Latest.Version)_"
         }
     }
 }

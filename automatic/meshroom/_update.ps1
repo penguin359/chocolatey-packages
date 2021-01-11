@@ -1,3 +1,4 @@
+# Disabled (package not embeddable and no available on another location than fosshub) - https://docs.chocolatey.org/en-us/community-repository/moderation/package-validator/rules/cpmr0028
 import-module au
 
 function global:au_GetLatest {

@@ -14,8 +14,8 @@ function global:au_GetLatest {
 
     return @{
         Version = $matches.Version
-        URL32   = 'https//github.com' + $url32.href
-        URL64   = 'https//github.com' + $url64.href
+        URL32   = 'https://github.com' + $url32.href
+        URL64   = 'https://github.com' + $url64.href
     }
 }
 

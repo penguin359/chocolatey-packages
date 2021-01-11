@@ -11,10 +11,11 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	$url32 = $download_page.links | ? href -match $regex32
     $url64 = $download_page.links | ? href -match $regex64
+
     return @{
         Version = $matches.Version
-        URL32 = $url32.href
-        URL64 = $url64.href
+        URL32   = 'https//github.com' + $url32.href
+        URL64   = 'https//github.com' + $url64.href
     }
 }
 
@@ -35,6 +36,4 @@ function global:au_SearchReplace {
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none
-}
+update -ChecksumFor none

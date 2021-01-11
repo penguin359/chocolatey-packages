@@ -7,7 +7,7 @@ function global:au_GetLatest {
 
     $url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex
 
-    return @{ Version = $matches.Version ; URL32 = $url.href }
+    return @{ Version = $matches.Version ; URL64 = $url.href }
 }
 
 function global:au_SearchReplace {

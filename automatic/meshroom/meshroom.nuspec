@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>meshroom</id>
-    <version>2019.2.0</version>
+    <version>2020.1.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/meshroom</packageSourceUrl>
     <owners>chtof</owners>
     <title>Meshroom</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/alicevision/meshroom/issues</bugTrackerUrl>
     <tags>meshroom 3D reconstruction alicevision photogrammetric computer vision framework</tags>
     <summary>Meshroom is a free, open-source 3D Reconstruction Software based on the AliceVision Photogrammetric Computer Vision framework.</summary>
-    <description><![CDATA[
-Meshroom is a free, open-source 3D Reconstruction Software based on the [AliceVision](https://github.com/alicevision/AliceVision) Photogrammetric Computer Vision framework.
+    <description><![CDATA[Meshroom is a free, open-source 3D Reconstruction Software based on the [AliceVision](https://github.com/alicevision/AliceVision) Photogrammetric Computer Vision framework.
 
 Learn more details about the pipeline on [AliceVision website]'http://alicevision.github.io).
 

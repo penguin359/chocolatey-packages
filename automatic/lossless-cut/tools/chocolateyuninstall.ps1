@@ -1,8 +1,14 @@
 ﻿$ErrorActionPreference = 'Stop'
+
 # Remove start menu shortcut
-$programs = "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\"
-$shortcutFilePath = Join-Path $programs "LosslessCut.lnk"
-if (Test-Path $shortcutFilePath) { Remove-Item $shortcutFilePath }
+$programsPath = "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\"
+$programsFilePath = Join-Path $programsPath "LosslessCut.lnk"
+if (Test-Path $programsFilePath) { Remove-Item $programsFilePath }
+
+# Remove send to menu shortcut
+$sendtoPath = "$env:APPDATA\Microsoft\Windows\SendTo\"
+$sendtoFilePath = Join-Path $sendtoPath "Merge videos in LosslessCut.lnk"
+if (Test-Path $sendtoFilePath) { Remove-Item $sendtoFilePath }
 
 # Remove File Association for .MP4
 Remove-Item -LiteralPath "HKLM:\SOFTWARE\Classes\SystemFileAssociations\.mp4\Shell\cut" -force;

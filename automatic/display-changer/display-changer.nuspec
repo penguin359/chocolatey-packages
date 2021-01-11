@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>display-changer</id>
-    <version>4.3.2</version>
+    <version>4.4.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/display-changer</packageSourceUrl>
     <owners>chtof</owners>
     <title>Display Changer</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://12noon.com/?page_id=216</bugTrackerUrl>
     <tags>display-changer display resolution</tags>
     <summary>Display Changer changes the display resolution, runs a program, then restores the original settings.</summary>
-    <description><![CDATA[
-- Display Changer changes your monitor’s resolution.
+    <description><![CDATA[- Display Changer changes your monitor’s resolution.
 - Display Changer runs your application. (optional)
 - Display Changer restores the original resolution. (optional)
 

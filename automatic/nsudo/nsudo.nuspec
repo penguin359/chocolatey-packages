@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>nsudo</id>
-    <version>6.2.1812.31</version>
+    <version>8.0.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/nsudo</packageSourceUrl>
     <owners>chtof</owners>
     <title>NSudo - A Powerful System Administration Tool</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/M2Team/NSudo/issues</bugTrackerUrl>
     <tags>nsudo system management tool avanced user admin command program full privileges</tags>
     <summary>NSudo is a system management tool for advanced users to launch programs with full privileges.</summary>
-    <description><![CDATA[
-## About
+    <description><![CDATA[## About
 ### Prototype
 NSudo is based on SuperCMD by Raymai97. Visit here for more information about SuperCMD.
 ### Third-party introduction

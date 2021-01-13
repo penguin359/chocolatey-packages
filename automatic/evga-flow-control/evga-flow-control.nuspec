@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>evga-flow-control</id>
+    <version>2.0.9</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/evga-flow-control</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>EVGA Flow Control</title>
+    <authors>EVGA® Corporation.</authors>
+    <projectUrl>https://www.evga.com/software/</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/evga-flow-control/evga-flow-control.png</iconUrl>
+    <copyright>© 2021 EVGA® Corporation | All Rights Reserved</copyright>
+    <licenseUrl>https://www.evga.com/legal/terms/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>https://forums.evga.com/EVGA-CLC-HYBRID-Coolers-f111.aspx</mailingListUrl>
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>evga-flow-control evga flow control CLC liquid cooler firmware</tags>
+    <summary>Full control of your EVGA CLC Liquid Cooler.</summary>
+    <description><![CDATA[
+## Features
+- Full control of your EVGA CLC Liquid Cooler
+- Settings save to firmware
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/evga-flow-control/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

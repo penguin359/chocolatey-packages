@@ -1,12 +1,16 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
+# Remove previous setup
+Remove-Item -Path "$toolsDir\*.exe" -ErrorAction SilentlyContinue
+
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
   fileFullPath  = "$toolsDir\Log4OM2_2_11_0_0.zip"  
 }
 Get-ChocolateyUnzip @packageArgs
+Remove-Item -Path @packageArgs.fileFullPath
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName  

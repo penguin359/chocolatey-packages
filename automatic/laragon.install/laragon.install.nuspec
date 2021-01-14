@@ -21,6 +21,34 @@
     <summary>Laragon is an universal development environment.</summary>
     <description><![CDATA[# Laragon - The Dev Environment for Web Artisans
 
+## Package installation defaults
+
+By default, **installation** of this package:
+
+- Will run Laragon at Windows startup.
+- Will enable auto virtual hosts (Your app will get a pretty url --> http://app.test).
+- Will add Notepad++ & Terminal to the Right-Click Menu.
+
+## Package Parameters
+
+- `/DisableRunAtStartup` - Laragon will not be launched at Windows startup.
+- `/DisableAutoVirtualHosts` - Auto virtual hosts will not be enabled.
+- `/DisableRightClickMenu` - Notepad++ & Terminal will not be added to the Right-Click Menu.
+
+## Installation
+
+Installation without parameters:
+
+```ps1
+choco install laragon.install
+```
+
+Installation with parameters:
+
+```powershell
+ choco install laragon.install --params='"/DisableRunAtStartup /DisableRightClickMenu"'
+```
+
 ## What is Laragon?
 
 Laragon is a portable, isolated, fast & powerful universal development environment for PHP, Node.js, Python, Java, Go, Ruby. It is fast, lightweight, easy-to-use and easy-to-extend.

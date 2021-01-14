@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>eclipse-cpp</id>
+    <version>2020.12</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/eclipse-cpp</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Eclipse IDE for C/C++ Developers</title>
+    <authors>Eclipse Team</authors>
+    <projectUrl>https://www.eclipse.org/downloads/packages/release/kepler/sr2/eclipse-ide-cc-developers</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/eclipse-cpp/eclipse-cpp.png</iconUrl>
+    <copyright>© Copyright Eclipse contributors and others 2000, 2019. All rights reserved.</copyright>
+    <licenseUrl>https://www.eclipse.org/legal/epl-2.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://git.eclipse.org/c</projectSourceUrl>
+    <docsUrl>http://help.eclipse.org</docsUrl>
+    <mailingListUrl>https://www.eclipse.org/forums</mailingListUrl>
+    <bugTrackerUrl>https://bugs.eclipse.org/bugs/query.cgi</bugTrackerUrl>
+    <tags>eclipse-cpp eclipse ide c c++ development</tags>
+    <summary>An IDE for C/C++ developers with Mylyn integration.</summary>
+    <description><![CDATA[## Prerequisites
+You will need a [Java runtime environment (JRE)](https://wiki.eclipse.org/Eclipse/Installation#Install_a_JVM) to use Eclipse (Java SE 8 or greater is recommended). All downloads are provided under the terms and conditions of the [Eclipse Foundation Software User Agreement](https://www.eclipse.org/legal/epl/notice.php) unless otherwise specified.
+
+## Features
+This package includes:
+- C/C++ Development Tools
+- Git integration for Eclipse
+- Mylyn Task List
+- Remote System Explorer
+
+### Detailed features list
+- org.eclipse.epp.package.cpp.feature
+- org.eclipse.epp.package.common.feature
+- org.eclipse.platform
+- org.eclipse.cdt
+- org.eclipse.cdt.autotools
+- org.eclipse.cdt.build.crossgcc
+- org.eclipse.cdt.debug.standalone
+- org.eclipse.cdt.debug.ui.memory
+- org.eclipse.cdt.launch.remote
+- org.eclipse.cdt.mylyn
+- org.eclipse.egit
+- org.eclipse.linuxtools.cdt.libhover.feature
+- org.eclipse.linuxtools.cdt.libhover.devhelp.feature
+- org.eclipse.linuxtools.changelog.c
+- org.eclipse.linuxtools.gcov
+- org.eclipse.linuxtools.gprof.feature
+- org.eclipse.linuxtools.rpm
+- org.eclipse.linuxtools.valgrind
+- org.eclipse.mylyn.bugzilla_feature
+- org.eclipse.mylyn.context_feature
+- org.eclipse.mylyn_feature
+- org.eclipse.mylyn.ide_feature
+- org.eclipse.mylyn.team_feature
+- org.eclipse.mylyn.wikitext_feature
+- org.eclipse.rse
+- org.eclipse.tm.terminal.feature
+- org.eclipse.tm.terminal.connector.cdtserial.feature
+- org.eclipse.tracecompass.gdbtrace
+- org.eclipse.tracecompass.lttng2.control
+- org.eclipse.tracecompass.lttng2.kernel
+- org.eclipse.tracecompass.lttng2.ust
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/eclipse-cpp/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

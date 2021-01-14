@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>eclipse-cpp-oxygen</id>
-    <version>2020.12</version>
+    <version>2020.12.0.20210112</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/eclipse-cpp-oxygen</packageSourceUrl>
     <owners>chtof</owners>
     <title>Eclipse IDE for C/C++ Developers</title>
@@ -65,8 +65,10 @@ This package includes:
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/eclipse-cpp-oxygen/screenshot.png)
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  <dependencies>
+    <dependency id="eclipse-cpp" version="2020.12.0" />
+  </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
+  <files>    
   </files>
 </package>

@@ -95,7 +95,7 @@ Here is the GUI of Laragon:
 ]]></description>
     <releaseNotes>https://github.com/leokhoa/laragon/releases</releaseNotes>
     <dependencies>
-      <dependency id="laragon.install" version="[4.0.15]" />
+      <dependency id="laragon.install" version="[4.0.15.20210114]" />
     </dependencies>
   </metadata>
   <files></files>

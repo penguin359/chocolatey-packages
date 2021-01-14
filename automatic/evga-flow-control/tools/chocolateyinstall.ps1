@@ -17,16 +17,3 @@ $packageArgs = @{
 
 Install-ChocolateyZipPackage @packageArgs
 Install-ChocolateyInstallPackage @packageArgs
-
-
-
-$options =
-@{
-  Headers = @{
-    Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8';
-    'Accept-Charset' = 'ISO-8859-1,utf-8;q=0.7,*;q=0.3';
-    'Accept-Language' = 'en-GB,en-US;q=0.8,en;q=0.6';
-    Cookie = 'requiredinfo=info';
-    Referer = 'https://somelocation.com/';
-  }
-}

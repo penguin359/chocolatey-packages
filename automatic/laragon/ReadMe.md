@@ -21,13 +21,13 @@ By default, **installation** of this package:
 Installation without parameters:
 
 ```ps1
-choco install laragon.install
+choco install laragon
 ```
 
 Installation with parameters:
 
 ```powershell
- choco install laragon.install --params='"/DisableRunAtStartup /DisableRightClickMenu"'
+ choco install laragon --params='"/DisableRunAtStartup /DisableRightClickMenu"'
 ```
 
 ## What is Laragon?

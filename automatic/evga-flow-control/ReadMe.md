@@ -2,6 +2,6 @@
 
 ## Features
 - Full control of your EVGA CLC Liquid Cooler
-- Settings save to firmware
+- Settings saved to firmware
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/evga-flow-control/screenshot.png)

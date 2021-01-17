@@ -4,16 +4,16 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
   destination = "$toolsDir"
-  file        = "$toolsDir\dexed-0.9.4-win.zip"
+  file        = "$toolsDir\dexed-0.9.5-win.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs
 
-$exe_file = (gci $toolsDir\dexed-*-win.exe).name
+$exe_file = (Get-ChildItem -Recurse $toolsDir\dexed-*-win.exe).fullname | Select -First 1
 
 $packageArgs = @{
   packageName  = $env:ChocolateyPackageName  
-  fileFullPath = "$toolsDir\$exe_file"
+  fileFullPath = "$exe_file"
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 }
 

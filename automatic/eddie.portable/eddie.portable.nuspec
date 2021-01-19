@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>eddie.portable</id>
-    <version>2.16.3</version>
+    <version>2.19.7</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/eddie.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>Eddie - OpenVPN GUI (Portable)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://github.com/AirVPN/Eddie/issues</bugTrackerUrl>
     <tags>eddie.portable AirVPN client</tags>
     <summary>Eddie is developed by and is the official client of AirVPN.</summary>
-    <description><![CDATA[
-OpenVPN GUI (open source under GPLv3 license) with additional features like:
+    <description><![CDATA[OpenVPN GUI (open source under GPLv3 license) with additional features like:
 
 - User-friendly UI
 - Multiplatform support: Windows, OS X, macOS, GNU/Linux (with particular effort to [support a lot of distro](https://airvpn.org/forum/35-client-software-platforms-environments) with multiple architectures: x64, x86, armv7i (Raspberry)

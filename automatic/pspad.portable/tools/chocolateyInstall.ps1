@@ -1,6 +1,9 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir = Split-Path -parent $MyInvocation.MyCommand.Definition
 
+# Remove zip files from previous versions
+Remove-Item "$toolsDir\*.zip" -ErrorAction SilentlyContinue
+
 $packageArgs = @{
   packageName	= $ENV:ChocolateyPackageName
   unzipLocation = "$toolsDir"
@@ -8,7 +11,7 @@ $packageArgs = @{
 
   url			= 'https://www.pspad.com/files/pspad/pspad504en.zip'
   checksumType	= 'sha256'
-  checksum		= 'bd257e0fed44242291d548379b89387ad25da5fb2a1350e50b451174650f78c0'
+  checksum		= 'e0ce0ddd24bb37ef265c233e918fb1aab2c6df65a5d3d462d0132ede7f929f43'
 }
 
 # prevent chocolatey from creating shims for supplementary executables

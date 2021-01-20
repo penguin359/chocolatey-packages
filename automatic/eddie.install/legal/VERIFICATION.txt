@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://airvpn.org/mirrors/eddie.website/download/?platform=windows-10&arch=x86&ui=ui&format=installer.exe&version=2.18.9
-   x64: https://airvpn.org/mirrors/eddie.website/download/?platform=windows-10&arch=x64&ui=ui&format=installer.exe&version=2.18.9
+   x32: https://airvpn.org/mirrors/eddie.website/download/?platform=windows-10&arch=x86&ui=ui&format=installer.exe&version=2.19.7
+   x64: https://airvpn.org/mirrors/eddie.website/download/?platform=windows-10&arch=x64&ui=ui&format=installer.exe&version=2.19.7
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: 
-   checksum32: EDB7ECFFF57787E9B44B98240CC2F3E5918758ED9815205EF42E2EA0E7CC8E57
-   checksum64: 930AC01B0AAE137D6EC8E445353312858D30FE2AED9DA1CF70D2870491322710
+   checksum32: 2CBA226DB636C7B9EABA628AC35B48750F14A98D297AE2E0D66FF4BB9AC4804B
+   checksum64: AFD3C4BEE79C7378A9F1F3ECBF8470E6758CA3C814A06AF1D7685DFACCCA68A0
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/AirVPN/Eddie/master/LICENSE

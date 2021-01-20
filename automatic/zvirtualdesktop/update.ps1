@@ -1,6 +1,6 @@
 ﻿import-module au
 
-$github_repository = "mzomparelli/zVirtualDesktop"
+$github_repository = 'mzomparelli/zVirtualDesktop'
 
 function global:au_BeforeUpdate {
     Remove-Item "$PSScriptRoot\tools\*.exe"

@@ -6,7 +6,7 @@ $packageArgs = @{
   fileType       = 'exe'
 
   url            = 'https://www.pspad.com/files/pspad/pspad504_setup.exe'
-  checksum       = 'de1f9e04cab330b5c8485999664be8cfde6d09832c9f54104fc81d664d00f807'
+  checksum       = 'ad65056bf97f537428d8726a394619cd253de8e5a97f8371d6e0e958e6d10537'
   checksumType   = 'sha256'
 
   silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'

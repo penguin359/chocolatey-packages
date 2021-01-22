@@ -76,7 +76,7 @@ Presentations, Sketch and EPS import, design templates, transformations, and mor
 ]]></description>
     <releaseNotes>https://www.designer.io/changelog</releaseNotes>
     <dependencies>
-      <dependency id="gravitdesigner.install" version="[2020.1.3.4]" />
+      <dependency id="gravitdesigner.install" version="[2020.1.3.410]" />
     </dependencies>
   </metadata>
   <files></files>

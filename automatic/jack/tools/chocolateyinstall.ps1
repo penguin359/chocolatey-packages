@@ -4,8 +4,8 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
-  file          = "$toolsDir\Jack_v1.9.11_32_setup.exe"
-  file64        = "$toolsDir\Jack_v1.9.11_64_setup.exe"
+  file          = "$toolsDir\jack2-win32-v1.9.17.exe"
+  file64        = "$toolsDir\jack2-win64-v1.9.17.exe"
   silentArgs	= "-silent"
 }
 

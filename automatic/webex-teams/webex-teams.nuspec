@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>webex-teams</id>
-    <version>41.1.0.17621</version>
+    <version>41.1.0.17740</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/webex-teams</packageSourceUrl>
     <owners>chtof</owners>
     <title>Cisco Webex Teams</title>

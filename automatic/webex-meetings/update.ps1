@@ -4,11 +4,11 @@ Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1"
 
 function global:au_GetLatest {
     $downloadUrl = 'https://akamaicdn.webex.com/client/webexapp.msi'
-    $etag = GetETagIfChanged -uri $downloadUrl    
+    $etag = GetETagIfChanged -uri $downloadUrl
 
-    If ($etag) {    
-        $result = GetResultInformation $downloadUrl
-        $result["ETAG"] = $etag
+    If ($etag) {        
+        $result = GetResultInformation $downloadUrl       
+        $result += @{ETAG=$etag}        
     } Else {    
         $result = @{
             URL32   = $downloadUrl
@@ -40,16 +40,19 @@ function GetResultInformation([string]$url32) {
   $Database = $Installer.GetType().InvokeMember("OpenDatabase", "InvokeMethod", $Null, $Installer, $( $dest,0))
   $SummaryInfo = $Database.GetType().InvokeMember("SummaryInformation", "GetProperty",$Null , $Database, $Null)  
   $version = $SummaryInfo.GetType().InvokeMember("Property", "GetProperty", $Null, $SummaryInfo, 6) -replace 'Version ([\d\.]+)','$1'
-
+  [System.Runtime.Interopservices.Marshal]::ReleaseComObject($Installer)
+  [System.Runtime.Interopservices.Marshal]::ReleaseComObject($Database)
+  [System.Runtime.Interopservices.Marshal]::ReleaseComObject($SummaryInfo)
+  Remove-Variable Installer, Database, SummaryInfo  
 
   $result = @{
     URL32          = $url32
-    #Version        = (Get-Item $dest).VersionInfo.ProductVersion.Trim()
     Version        = $version
     Checksum       = Get-FileHash $dest -Algorithm SHA512 | % Hash
     ChecksumType32 = 'sha512'
   }
-  Remove-Item -Force $dest
+  
+  Remove-Item -Force $dest  
   return $result
 }
 

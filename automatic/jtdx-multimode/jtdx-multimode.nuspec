@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>jtdx-multimode</id>
+    <version>2.2.0-beta155</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/jtdx-multimode</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>JTDX</title>
+    <authors>JTDX Team</authors>
+    <projectUrl>https://www.jtdx.tech</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jtdx-multimode/jtdx.png</iconUrl>
+    <copyright>© 2016-2017 by Igor Chernikov, UA3DJY and Arvo Järve ES1JA</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://www.release.jtdx.tech/Guides/JTDX_User_Manual_EN_2018_01_08.pdf</docsUrl>
+    <mailingListUrl>https://jtdx.groups.io/g/main</mailingListUrl>
+    <bugTrackerUrl>https://jtdx.groups.io/g/main</bugTrackerUrl>
+    <tags>HAM radio amateur JT9 JT65 T10 FT8</tags>
+    <summary>HAM Multimode Software.</summary>
+    <description><![CDATA[## What is JTDX?
+
+JTDX means "JT,T10 and FT8 modes for DXing", it is being developed with main focus on the sensitivity and decoding efficiency, both, in overcrowded and half empty HF band conditions. 
+
+It is modified WSJT-X software forked from WSJT-X r6462. 
+JTDX supports JT9, JT65, T10 and FT8 © digital modes for HF amateur radio communication, focused on DXing and being shaped by community of DXers.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jtdx-multimode/screenshot.png)
+]]></description>
+    <releaseNotes>https://www.jtdx.tech/en/videos-guides/2-ft8v2/17-jtdx-release-history</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

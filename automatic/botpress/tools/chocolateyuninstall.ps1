@@ -1,5 +1,5 @@
 ﻿$botpressDir = Join-Path $env:ProgramData $env:ChocolateyPackageName
-$zipFileName = "botpress-v12_16_3-win-x64.zip"
+$zipFileName = "botpress-v12_17_0-win-x64.zip"
 
 Uninstall-ChocolateyZipPackage $packageName $zipFileName
 # If uninstalling and not just upgrading

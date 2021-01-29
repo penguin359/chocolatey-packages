@@ -1,41 +1,72 @@
 ﻿$ErrorActionPreference = 'Stop'
-import-module au
+Import-Module au
+Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1"
 
-function global:au_GetLatest {    
-	#$releases          = 'https://cisco.webex.com/webappng/sites/cisco/dashboard/download'    
-    #$downloadUrl_part1 = 'https://akamaicdn.webex.com/client/WBXclient-'
-    #$regex             = 'https://cisco.webex.com/client/WBXclient-(?<version>[\d\.-]+)/webexapp.msi'
+function global:au_GetLatest {
+    $downloadUrl = 'https://akamaicdn.webex.com/client/webexapp.msi'
+    $etag = GetETagIfChanged -uri $downloadUrl    
 
-    $releases          = 'https://help.webex.com/en-us/xcwws1/What-s-New-for-the-Latest-Channel-of-Webex-Meetings'
-    $regex             = '[A-Za-z]+\ \d+ \((?<Version>[\d\.]+)\)'
-
-    #$ie = New-Object -com internetexplorer.application
-    #$ie.Visible = $false
-    #$ie.Navigate($releases)
-    #while ($ie.Busy -eq $true){Start-Sleep -seconds 4;}
-    #$ie.Document.body.outerHTML -match $regex | Out-Null
-
-    (Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null
-
-    $urlVersion     = $matches.Version
-    $packageVersion = $UrlVersion -replace '-', '.'
-
-    return @{
-        Version = $packageVersion
-        # URL32   = $downloadUrl_part1 + $urlVersion + '/webexapp.msi'
-        URL32   = 'https://akamaicdn.webex.com/client/webexapp.msi'        
+    If ($etag) {    
+        $result = GetResultInformation $downloadUrl
+        $result["ETAG"] = $etag
+    } Else {    
+        $result = @{
+            URL32   = $downloadUrl
+            Version = Get-Content "$PSScriptRoot\info" -Encoding UTF8 | select -First 1 | % { $_ -split '\|' } | select -Last 1
+        }
     }
+    return $result
 }
 
 function global:au_SearchReplace {
     @{
-        "tools\chocolateyInstall.ps1" = @{
-			"(^(\s)*url\s*=\s*)('.*')"      = "`${1}'$($Latest.URL32)'"
-            "(^(\s)*url64\s*=\s*)('.*')"      = "`${1}'$($Latest.URL32)'"
-            "(^(\s)*checksum\s*=\s*)('.*')" = "`${1}'$($Latest.Checksum32)'"
-            "(^(\s)*checksum64\s*=\s*)('.*')" = "`${1}'$($Latest.Checksum32)'"
+        "tools\chocolateyinstall.ps1" = @{
+            "(^(\s)*url\s*=\s*)('.*')"          = "`$1'$($Latest.URL32)'"
+            "(^(\s)*checksum\s*=\s*)('.*')"     = "`$1'$($Latest.Checksum32)'"
+            "(^(\s)*checksumType\s*=\s*)('.*')" = "`$1'$($Latest.ChecksumType32)'"
         }
     }
 }
 
-update
+function global:au_AfterUpdate {
+  "$($Latest.ETAG)|$($Latest.Version)" | Out-File "$PSScriptRoot\info" -Encoding utf8
+}
+
+function GetResultInformation([string]$url32) {
+  $dest = "$env:TEMP\webexapp.msi"
+  Get-WebFile $url32 $dest | Out-Null
+
+  $Installer = New-Object -com WindowsInstaller.Installer
+  $Database = $Installer.GetType().InvokeMember("OpenDatabase", "InvokeMethod", $Null, $Installer, $( $dest,0))
+  $SummaryInfo = $Database.GetType().InvokeMember("SummaryInformation", "GetProperty",$Null , $Database, $Null)  
+  $version = $SummaryInfo.GetType().InvokeMember("Property", "GetProperty", $Null, $SummaryInfo, 6) -replace 'Version ([\d\.]+)','$1'
+
+
+  $result = @{
+    URL32          = $url32
+    #Version        = (Get-Item $dest).VersionInfo.ProductVersion.Trim()
+    Version        = $version
+    Checksum       = Get-FileHash $dest -Algorithm SHA512 | % Hash
+    ChecksumType32 = 'sha512'
+  }
+  Remove-Item -Force $dest
+  return $result
+}
+
+function GetETagIfChanged() {
+  param([string]$uri)
+  If (($global:au_Force -ne $true) -and (Test-Path $PSScriptRoot\info)) {
+    $existingETag = $etag = Get-Content "$PSScriptRoot\info" -Encoding UTF8 | select -First 1 | % { $_ -split '\|' } | select -first 1
+  }
+  Else { $existingETag = $null }
+
+  $etag = Invoke-WebRequest -Method Head -Uri $uri -UseBasicParsing
+  $etag = $etag | % { $_.Headers.ETag }
+  If ($etag -eq $existingETag) { return $null }
+
+  return $etag
+}
+
+If ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
+    update
+}

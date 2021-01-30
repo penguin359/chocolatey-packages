@@ -14,7 +14,7 @@
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <docsUrl>https://www.release.jtdx.tech/Guides/JTDX_User_Manual_EN_2018_01_08.pdf</docsUrl>
+    <!-- <docsUrl>https://www.release.jtdx.tech/Guides/JTDX_User_Manual_EN_2018_01_08.pdf</docsUrl>-->
     <mailingListUrl>https://jtdx.groups.io/g/main</mailingListUrl>
     <bugTrackerUrl>https://jtdx.groups.io/g/main</bugTrackerUrl>
     <tags>HAM radio amateur JT9 JT65 T10 FT8</tags>

@@ -17,3 +17,19 @@ if (Test-Path "$env:APPDATA\.emacs.d" -PathType Container){
 }
 
 Get-ChildItem -Path "$toolsDir\spacemacs-0.200.13\" -Recurse |  Move-Item -Force -Destination "$env:APPDATA\.emacs.d"
+
+If (!(Test-Path -PathType Container "$env:APPDATA\.emacs.d\.cache\auto-save\site")) {
+  New-Item -Force -ItemType "directory" -Path "$env:APPDATA\.emacs.d\.cache\auto-save\site" | Out-Null
+}
+
+If (!(Test-Path -PathType Container "$env:APPDATA\.emacs.d\.cache\auto-save\dist")) {
+  New-Item -ItemType "directory" -Path "$env:APPDATA\.emacs.d\.cache\auto-save\dist" | Out-Null
+}
+
+If (!(Test-Path -PathType Container "$env:APPDATA\.emacs.d\elpa")) {
+  New-Item -ItemType "directory" -Path "$env:APPDATA\.emacs.d\elpa" | Out-Null
+}
+
+If (!(Get-Content "$env:APPDATA\.emacs.d\init.el" | Select-String "package-check-signature nil" )) {
+  "  (setq package-check-signature nil)" | Out-File -Append -Encoding ASCII "$env:APPDATA\.emacs.d\init.el"
+}

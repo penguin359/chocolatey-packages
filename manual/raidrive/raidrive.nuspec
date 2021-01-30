@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>raidrive</id>
-    <version>2020.11.30.20210117</version>
+    <version>2020.11.38</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/manual/raidrive</packageSourceUrl>
     <owners>chtof</owners>
     <title>RaiDrive</title>
@@ -71,7 +71,7 @@ Do you use Dropbox? Now you can easily use synced files with your smartphone. Yo
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   <dependencies>
     <dependency id="dotnetfx" version="4.7.2" />
-    <dependency id="vcredist2013" version="12.0.40660.20180427" />
+    <dependency id="vcredist140" version="14.28.29325.2" />
   </dependencies>
   </metadata>
   <files>

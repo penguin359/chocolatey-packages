@@ -15,7 +15,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
-    <mailingListUrl>https://forums.iobit.com</mailingListUrl>
+    <!-- <mailingListUrl>https://forums.iobit.com</mailingListUrl> -->
     <bugTrackerUrl>https://www.iobit.com/en/onlinefeedback.php</bugTrackerUrl>
     <tags>afedteated cleaner system optimization privacy protection</tags>
     <summary>One-Click Solution to PC Clean, System Optimization and Privacy Protection</summary>

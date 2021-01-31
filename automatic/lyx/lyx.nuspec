@@ -40,6 +40,9 @@ See. https://www.lyx.org/Features for more details
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/lyx/screenshot.png)
 ]]></description>
     <releaseNotes>https://www.lyx.org/News</releaseNotes>
+    <dependencies>
+      <dependency id="miktex" version="21.1" />
+    </dependencies>
   </metadata>
   <files>
     <file src="legal\**" target="legal" />

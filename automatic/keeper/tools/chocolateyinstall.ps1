@@ -9,11 +9,11 @@ $packageArgs = @{
   file64        = "$toolsDir\KeeperSetup64.exe"
 
   url           = 'https://keepersecurity.com/desktop_electron/Win32/KeeperSetup32.zip'
-  checksum      = '468c9bbedbddd9fe9db83f0dde65a4ee7246146cb6f18a90e622887e2d053b8a'
+  checksum      = '28f8a0692214a88f9fae13d9f968c98a69ea63202eabac10528c5348691932d6'
   checksumType  = 'sha256'
 
   url64         = 'https://keepersecurity.com/desktop_electron/Win64/KeeperSetup64.zip'
-  checksum64    = 'e110e51936148475a7209a5df529dcd9a5ca3c0d5ca2a3165ec73d0d14b4fd84'
+  checksum64    = '4383cf4700aa2055b8134d11e5f672d795216a22bb812a07dd9f47438cd6db12'
   checksumType64= 'sha256'
 
   silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'

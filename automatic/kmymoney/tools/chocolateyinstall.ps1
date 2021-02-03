@@ -1,4 +1,5 @@
-﻿$packageName= 'kmymoney'
+﻿$ErrorActionPreference = 'Stop'
+$packageName= 'kmymoney'
 
 $packageArgs = @{
   packageName    = $packageName  

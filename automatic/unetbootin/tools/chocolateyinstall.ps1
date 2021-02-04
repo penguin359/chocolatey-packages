@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileFullPath	= "$toolsDir\unetbootin.exe"
   
-  url           = 'https://github.com/unetbootin/unetbootin/releases/download/700/unetbootin-windows-700.exe'
+  url           = 'https://github.com/unetbootin/unetbootin/releases/download/702/unetbootin-windows-702.exe'
   checksum      = '65ba5ff090be1cc96dec40509c9002582f4663634cb63b311941321907701483'
   checksumType  = 'sha256' 
 }

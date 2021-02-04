@@ -3,16 +3,18 @@
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-  $releases = 'https://www.magicsplat.com/tcl-installer/'
-  $regex = 'tcl-[\d\.]+-installer-(?<Version>[\d\.]+)-.*?.msi'
+  $releases = 'https://sourceforge.net/projects/magicsplat/files/magicsplat-tcl/'
+  $regex32 = 'tcl-[\d\.]+-installer-[\d\.]+-x86.msi'
+  $regex64 = 'tcl-[\d\.]+-installer-(?<Version>[\d\.]+)-x64.msi'
 
   $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-  $url = $download_page.links | ? href -match $regex
+  $url32 = $download_page.links | ? href -match $regex32 | Select -First 1
+  $url64 = $download_page.links | ? href -match $regex64 | Select -First 1
 
   return @{
     Version = $matches.Version
-    URL32   = Get-RedirectedUrl $($url.href | Select -Last 1)
-    URL64   = Get-RedirectedUrl $($url.href | Select -First 1)
+    URL32   = Get-RedirectedUrl $url32.href
+    URL64   = Get-RedirectedUrl $url64.href
   }
 }
 
@@ -33,6 +35,4 @@ function global:au_SearchReplace {
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none -noCheckUrl
-}
+update -ChecksumFor none -noCheckUrl

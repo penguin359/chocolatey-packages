@@ -13,7 +13,7 @@ function global:au_GetLatest {
     $regex   = '<h3>Version (?<Version>[\d\.\-]+)</h3>'
     (Invoke-WebRequest -Uri $releases) -match $regex | Out-Null
 
-	return @{ Version = $matches.Version -replace '-', '.' }
+	return @{ Version = $matches.Version -replace '-', '.' -replace "(\d+\.\d+\.\d+\.\d+).*", '$1' }
 }
 
 function global:au_SearchReplace {
@@ -24,4 +24,6 @@ function global:au_SearchReplace {
     }
 }
 
-update -ChecksumFor none
+if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
+    update -ChecksumFor none
+}

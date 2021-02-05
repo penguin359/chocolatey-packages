@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://netix.dl.sourceforge.net/project/wings/wings/2.2.5/wings-2.2.5.exe
-   x64: https://netix.dl.sourceforge.net/project/wings/wings/2.2.5/wings-x64-2.2.5.exe
+   x32: https://versaweb.dl.sourceforge.net/project/wings/wings/2.2.6.1/wings-2.2.6.1.exe
+   x64: https://managedway.dl.sourceforge.net/project/wings/wings/2.2.6.1/wings-x64-2.2.6.1.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 41EEE6F4CBC8112CD5C248FF20107988DDCD6E0EBE074726C188D26372266BF1
-   checksum64: D14F8B07C07D2BF6A6766A540BE7A82B7E5B367C5BA88DA54A5728C7F173A1C8
+   checksum32: 6F3F4B51603083B79B0146E5EF7A839D4FA672B4BC587F5675C0D26F3C306256
+   checksum64: FD55FF8A2380A92B276DD37B7B8D36A1B3B5B729D8091C837A6785B71AC0F0AE
  
 Using AU:
  

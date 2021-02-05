@@ -9,7 +9,7 @@
     <title>JTDX</title>
     <authors>JTDX Team</authors>
     <projectUrl>https://www.jtdx.tech</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jtdx-multimode/jtdx.png</iconUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/jtdx-multimode/jtdx-multimode.png</iconUrl>
     <copyright>© 2016-2017 by Igor Chernikov, UA3DJY and Arvo Järve ES1JA</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>octave</id>
-    <version>5.2.0.101</version>
+    <version>6.1.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/octave</packageSourceUrl>
     <owners>chtof</owners>
     <title>GNU Octave</title>
@@ -28,15 +28,17 @@ GNU Octave is a high-level language, primarily intended for numerical computatio
 
 Octave has extensive tools for solving common numerical linear algebra problems, finding the roots of nonlinear equations, integrating ordinary functions, manipulating polynomials, and integrating ordinary differential and differential-algebraic equations. It is easily extensible and customizable via user-defined functions written in Octave’s own language, or using dynamically loaded modules written in C++, C, Fortran, or other languages.
 
+GNU Octave is also freely redistributable software. You may redistribute it and/or modify it under the terms of the [GNU General Public License (GPL)](https://www.gnu.org/copyleft/gpl.html) as published by the [Free Software Foundation](https://www.gnu.org).
+
 Octave was written by [John W. Eaton](mailto:jwe@octave.org) and [many others](https://hg.savannah.gnu.org/hgweb/octave/file/tip/doc/interpreter/contributors.in). Because Octave is [free software](https://www.gnu.org/philosophy/free-sw.html) you are encouraged to help make Octave more useful by writing and contributing additional functions for it, and by reporting any problems you may have.
 
 Everyone is encouraged to share this software with others under the terms of the [GNU General Public License (GPL)](https://www.gnu.org/copyleft/gpl.html). You are also encouraged to help make Octave more useful by writing and contributing additional functions for it, and by reporting any problems you may have.
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/octave.install/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/octave/screenshot.png)
 ]]></description>
     <releaseNotes>https://www.gnu.org/software/octave/news.html</releaseNotes>
     <dependencies>
-      <dependency id="octave.install" version="[5.2.0.101]" />
+      <dependency id="octave.install" version="6.1.0" />
     </dependencies>
   </metadata>
   <files></files>

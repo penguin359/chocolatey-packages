@@ -22,7 +22,7 @@ function global:au_GetLatest {
   $regex_32    = 'umbrello-(i686-)?(w64-)?mingw32-(?<Version>[\d\.]+).*-setup.exe$'
 
   $download_page_32 = (Invoke-WebRequest -Uri $releases_32 -UseBasicParsing)
-  $file_32 = $download_page_32.links | ? href -match $regex_32
+  $file_32 = $download_page_32.links | ? href -match $regex_32 | Select -First 1
   $version = $matches.Version
 
   return @{

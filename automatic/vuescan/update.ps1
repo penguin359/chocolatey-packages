@@ -9,8 +9,8 @@ function global:au_BeforeUpdate() {
 
 function global:au_GetLatest {    
     $releases     = 'https://www.hamrick.com/alternate-versions.html'    
-    $regex32      = '<a href="(?<File32>files/vuex32\d+.exe)" onclick="pageTracker._trackPageview\(''files/vuex32\d+.exe''\);">[\d\.]+</a>'
-    $regex64      = '<a href="(?<File64>files/vuex64\d+.exe)" onclick="pageTracker._trackPageview\(''files/vuex64\d+.exe''\);">(?<Version>[\d\.]+)</a>'
+    $regex32      = '<a href="(?<File32>files/vuex32\d+.exe)">[\d\.]+</a>'
+    $regex64      = '<a href="(?<File64>files/vuex64\d+.exe)">(?<Version>[\d\.]+)</a>'
 
     $download_page = (Invoke-WebRequest -Uri $releases).RawContent
     $download_page -match $regex32 | Out-Null

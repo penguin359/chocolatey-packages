@@ -9,11 +9,11 @@ function global:au_GetLatest {
   $regex_64    = 'umbrello-(x86_64-)?(w64-)?mingw64-[\d\.]+.*-(bin|portable).7z$'
 
   $download_page_32 = (Invoke-WebRequest -Uri $releases_32 -UseBasicParsing)
-  $url_32 = $download_page_32.links | ? href -match $regex_32
+  $url_32 = $download_page_32.links | ? href -match $regex_32 | Select -First 1
   $version = $matches.Version
 
   $download_page_64 = (Invoke-WebRequest -Uri $releases_64 -UseBasicParsing)
-  $url_64 = $download_page_64.links | ? href -match $regex_64
+  $url_64 = $download_page_64.links | ? href -match $regex_64 | Select -First 1
 
   return @{
     Version = $version

@@ -4,14 +4,16 @@ import-module au
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-    $releases = 'http://www.wings3d.com/?page_id=84'
-    $regex    = '<h1>Stable Release (?<Version>[\d\.]+)</h1>'
+    $releases = 'https://sourceforge.net/projects/wings/files/wings/'
+    $regex    = 'wings-x64-(?<Version>[\d\.]+).exe'
 
-    (Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null
-	
-    return @{ Version = $matches.Version
-        URL32 = get-redirectedurl http://www.wings3d.com/redirect_download.php?title=stable_win
-        URL64 = get-redirectedurl http://www.wings3d.com/redirect_download.php?title=stable_win64
+    (Invoke-WebRequest -Uri $releases).RawContent -match $regex | Out-Null    
+    $version = $matches.Version
+
+    return @{
+        Version = $version        
+        URL32 = Get-RedirectedUrl ('https://downloads.sourceforge.net/project/wings/wings/' + $version + '/wings-' + $version + '.exe')
+        URL64 = Get-RedirectedUrl ('https://downloads.sourceforge.net/project/wings/wings/' + $version + '/wings-x64-' + $version + '.exe')
     }
 }
 

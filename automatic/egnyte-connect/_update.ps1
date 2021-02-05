@@ -3,6 +3,7 @@
 function global:au_GetLatest {
     $releases = 'https://helpdesk.egnyte.com/hc/en-us/articles/205237150-Download-Egnyte-Drive-Installers'
     $regex    = 'EgnyteConnect_(?<Version>[\d\._]+).msi$'
+    # EgnyteDesktopApp_ renamed
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
 	$url     = $download_page.links | ? href -match $regex

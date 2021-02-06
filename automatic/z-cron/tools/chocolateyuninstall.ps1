@@ -4,7 +4,7 @@ $packageArgs = @{
   packageName	= $env:ChocolateyPackageName  
   softwareName	= 'Z-Cron'
   fileType      = 'exe'
-  silentArgs	= '/x /Silent /Languageid 1033'
+  silentArgs	  = '/x /Silent /Languageid 1033'
   validExitCodes= @(0)
 }
 

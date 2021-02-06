@@ -1,4 +1,4 @@
-﻿VERIFICATION
+VERIFICATION
  
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://netcologne.dl.sourceforge.net/project/djvu/DjVuLibre_Windows/3.5.27%2B4.11/DjVuLibre-3.5.27_DjView-4.11_Setup.exe
-   x64: https://netcologne.dl.sourceforge.net/project/djvu/DjVuLibre_Windows/3.5.27%2B4.11/DjVuLibre-3.5.27_DjView-4.11_Setup.exe
+   x32: https://pilotfiber.dl.sourceforge.net/project/djvu/DjVuLibre_Windows/3.5.28%2B4.12/DjVuLibre-3.5.28_DjView-4.12_Setup.exe
+   x64: https://pilotfiber.dl.sourceforge.net/project/djvu/DjVuLibre_Windows/3.5.28%2B4.12/DjVuLibre-3.5.28_DjView-4.12_Setup.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: DD147600F10E891B613DC1790E25F2D568154CA65777B060F1AA6FF91AE4E0B3
-   checksum64: DD147600F10E891B613DC1790E25F2D568154CA65777B060F1AA6FF91AE4E0B3
+   checksum32: 16C0A63926D0380280F35C8D9570EFE01032C03C262BA61AA72A341B8CB58469
+   checksum64: 16C0A63926D0380280F35C8D9570EFE01032C03C262BA61AA72A341B8CB58469
  
 File 'LICENSE.txt' is obtained from:
    http://djvu.sourceforge.net/licensing.html

@@ -1,9 +1,9 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
-  file        = "$toolsDir\DjVuLibre-3.5.27_DjView-4.11_Setup.exe"
+  file        = "$toolsDir\DjVuLibre-3.5.28_DjView-4.12_Setup.exe"
   silentArgs  = '/S'
 }
 

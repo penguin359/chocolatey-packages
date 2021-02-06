@@ -13,7 +13,7 @@ function global:au_GetLatest {
 	$url64 = $download_page.links | ? href -match $regex64
     $version = $matches.Version
     If ($version | Select-String '-rc') {
-        $version = $version -Replace '-rc', '-beta'
+        $version = $version.Replace('-rc', '-beta')
     }
 
     return @{

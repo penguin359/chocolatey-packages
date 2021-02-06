@@ -1,22 +1,29 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
-  fileType      = 'exe'
+  fileType      = 'zip'
   url           = 'https://www.z-download.de/down/zcron.zip'
 
-  checksum      = 'D974AF336093F2B365ED3A924445EAF42EBEBC324290A29B48DF1CAD27A3A703'
-  checksumType  = 'sha256'
-  
-  file          = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)\\zcron.exe"
+  checksum      = '0CBD0F6D0F6348EC775B38F7B496E9468438F6C649E074ADC892F43ACB1A0F5C'
+  checksumType  = 'sha256'  
+}
+
+Install-ChocolateyZipPackage @packageArgs
+
+$packageArgs = @{
+  packageName   = $env:ChocolateyPackageName
+  unzipLocation = $toolsDir
+  fileType      = 'exe'
+
+  file          = "$toolsDir\zcron.exe"
   softwareName  = 'Z-Cron'
   
   silentArgs	= '/Silent /Languageid 1033'
 }
 
-Install-ChocolateyZipPackage @packageArgs
 Install-ChocolateyInstallPackage @packageArgs
 
 # Close z-cron due to the automatic startup after installation

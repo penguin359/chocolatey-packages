@@ -13,7 +13,7 @@ function global:au_GetLatest {
 	}
 	return @{
         Version = $version
-        URL     = 'https://www.z-download.de/down/zcron.zip'
+        URL32   = 'https://www.z-download.de/down/zcron.zip'        
     }
 }
 
@@ -26,4 +26,4 @@ function global:au_SearchReplace {
     }
 }
 
-update
+update -checksumfor none

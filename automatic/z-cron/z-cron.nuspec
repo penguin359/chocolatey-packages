@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>    
     <id>z-cron</id>    
-    <version>5.7</version>    
+    <version>5.7.03</version>    
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/z-cron</packageSourceUrl>    
     <owners>chtof</owners>    
     <title>Z-Cron</title>
@@ -15,8 +15,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>z-cron portable</tags>
     <summary>Cron-like scheduler for Windows</summary>
-    <description><![CDATA[
-**Automate your tasks with Z-Cron - The Task and Backup Scheduler**
+    <description><![CDATA[**Automate your tasks with Z-Cron - The Task and Backup Scheduler**
 With Z-Cron you can plan the execution of commands, programs or scripts, at particular times, so that recurring tasks on your PC are run automatically on schedule. Z-Cron is a central coordinating point for the scheduling or automation of software. Z-Cron can also be installed a system service. A system service is a program that starts automatically when Windows was booted, and runs in the background until Windows is shut down. With the Z-Cron scheduler you can have programs of all kinds started automatically by the system even if no user is logged in â€“ for example nightly data backups with Z-DBackup.
 
 **Example tasks that can be scheduled with Z-Cron:**
@@ -46,6 +45,8 @@ With Z-Cron you can plan the execution of commands, programs or scripts, at part
 - Automatic FTP data transfer (for example with Z-FTPcopyII).
 - Defragmentation and Scandisk
 - Virus scans
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/z-cron/screenshot.png)
 ]]></description> 
   </metadata>
   <files>    

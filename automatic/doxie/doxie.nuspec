@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>doxie</id>
-    <version>2.12.2</version>
+    <version>2.13</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/doxie</packageSourceUrl>
     <owners>chtof</owners>
     <title>Doxie</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://help.getdoxie.com/doxieq/faq/</bugTrackerUrl>
     <tags>doxie scan import export cloud</tags>
     <summary>Companion software intended for use with most Doxie-branded portable scanners. Enables importing of scans via USB connection, SD cards, or Wi-Fi connection, edits for organization (multiple pages, interleaving, stitching, OCR), readability adjustments (contrast, rotations, crops), and exporting via multiple image file formats (JPEG, PNG, PDF).</summary>
-    <description><![CDATA[
-Doxie’s software copies the documents and photos you’ve scanned from your scanner or removable media, then makes it easy to organize, stack, save, and share your scans. It offers a range of features including automatic image optimization, PDF creation, saving to local and cloud apps (like Photoshop, Google Drive, OneNote, Dropbox, and Evernote), and much more.
+    <description><![CDATA[Doxie’s software copies the documents and photos you’ve scanned from your scanner or removable media, then makes it easy to organize, stack, save, and share your scans. It offers a range of features including automatic image optimization, PDF creation, saving to local and cloud apps (like Photoshop, Google Drive, OneNote, Dropbox, and Evernote), and much more.
 
 ## Features
 ### [Import Scans](https://help.getdoxie.com/doxieq/software/import)

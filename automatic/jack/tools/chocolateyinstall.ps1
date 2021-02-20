@@ -5,9 +5,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
   file          = "$toolsDir\jack2-win32-v1.9.17.exe"
-  file64        = "$toolsDir\jack2-win64-v1.9.17.exe"
-  silentArgs	= "-silent"
+  file64        = "$toolsDir\jack2-win64-v1.9.17.exe"  
 }
 
-Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyinstall.ahk`""
+Start-Process 'AutoHotKey' -Verb runas -ArgumentList "`"$toolsDir\chocolateyinstall.ahk`""
 Install-ChocolateyInstallPackage @packageArgs

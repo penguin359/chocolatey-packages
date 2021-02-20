@@ -10,7 +10,7 @@
     <authors>BandLab Technologies</authors>
     <projectUrl>https://www.bandlab.com</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/bandlab-assistant/bandlab-assistant.png</iconUrl>
-    <copyright>© 2019 BandLab Technologies</copyright>
+    <copyright>© 2021 BandLab Technologies</copyright>
     <licenseUrl>https://blog.bandlab.com/terms-of-use</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->

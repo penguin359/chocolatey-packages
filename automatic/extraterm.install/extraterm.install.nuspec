@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>extraterm.install</id>
-    <version>0.57.1-pre</version>
+    <version>0.58.0-pre</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/extraterm.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>Extraterm (Install)</title>

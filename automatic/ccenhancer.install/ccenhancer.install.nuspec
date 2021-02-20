@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ccenhancer.install</id>
-    <version>4.5.5</version>
+    <version>4.5.7</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/ccenhancer.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>CCEnhancer (Install)</title>

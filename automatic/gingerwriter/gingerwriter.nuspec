@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gingerwriter</id>
+    <version>1.0.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/gingerwriter</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Ginger</title>
+    <authors>Ginger Software Team</authors>
+    <projectUrl>https://www.gingersoftware.com/ginger-for-windows/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gingerwriter/gingerwriter.png</iconUrl>
+    <copyright>Copyright 2021 Ginger Software</copyright>
+    <licenseUrl>https://www.gingersoftware.com/termsandprivacy</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>https://twitter.com/gingersoftware</mailingListUrl>
+    <bugTrackerUrl>https://www.gingersoftware.com/contactus</bugTrackerUrl>
+    <tags>gingerwriter ginger writer ai-powered writing assistant text</tags>
+    <summary>With Ginger, the AI-powered writing assistant, correct your texts, improve your style and boost your creativity.</summary>
+    <description><![CDATA[
+With Ginger, the AI-powered writing assistant, correct your texts, improve your style and boost your creativity.
+
+## Features
+### [Grammar Checker](https://www.gingersoftware.com/grammarcheck)
+### [Sentence Rephraser](https://www.gingersoftware.com/products/sentence-rephraser)
+### [Punctuation Checker](https://www.gingersoftware.com/punctuation-checker)
+### [Spell Checker](https://www.gingersoftware.com/spellcheck)
+### [Translation](https://context.reverso.net/translation/)
+### [Synonyms](https://synonyms.reverso.net/synonym/)
+### [Personal Trainer](https://www.gingersoftware.com/products/english-personal-trainer)
+### [Translation in Context](https://www.gingersoftware.com/translation)
+### [Online Proofreading](https://www.gingersoftware.com/proofreading)
+### [Essay Checker](https://www.gingersoftware.com/essay-checker)
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/gingerwriter/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  <dependencies>
+    <dependency id="autohotkey.install" version="1.1.30.03" />
+  </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

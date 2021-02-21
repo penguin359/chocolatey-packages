@@ -4,7 +4,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
   destination = "$toolsDir"
-  file        = "$toolsDir\SSL-Verifier-v1.5.5.zip"
+  file        = "$toolsDir\SSL-Verifier-v1.5.6-1.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs

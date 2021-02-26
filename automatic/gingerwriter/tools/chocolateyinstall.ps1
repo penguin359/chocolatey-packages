@@ -10,5 +10,10 @@ $packageArgs = @{
   checksumType  = 'sha256'
 }
 
-Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyinstall.ahk`""
-Install-ChocolateyPackage @packageArgs
+If (( Get-Item 'HKLM:SOFTWARE\Microsoft\Windows NT\CurrentVersion').GetValue('ReleaseID') -lt "1803" ) {
+  Write-Error 'Ginger Writer runs only with Windows 10 version 1803 or greater'
+  Return
+} else {
+  Start-Process AutoHotKey -Verb runas -ArgumentList "`"$toolsDir\chocolateyinstall.ahk`""
+  Install-ChocolateyPackage @packageArgs
+}

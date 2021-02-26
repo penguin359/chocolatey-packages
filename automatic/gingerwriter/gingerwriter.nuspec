@@ -22,6 +22,9 @@
     <description><![CDATA[
 With Ginger, the AI-powered writing assistant, correct your texts, improve your style and boost your creativity.
 
+## Prerequisites
+Ginger Writer runs only with Windows 10 version 1803 or greater.
+
 ## Features
 [Grammar Checker](https://www.gingersoftware.com/grammarcheck)
 [Sentence Rephraser](https://www.gingersoftware.com/products/sentence-rephraser)

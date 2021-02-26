@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>starleaf</id>
+    <version>4.4.26.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/starleaf</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>StarLeaf</title>
+    <authors>StarLeaf Team</authors>
+    <projectUrl>https://support.starleaf.com/installing/starleaf-app/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/starleaf/starleaf.png</iconUrl>
+    <copyright>© StarLeaf 2011-2021</copyright>
+    <licenseUrl>https://support.starleaf.com/legal-information/end-user-license-agreement-for-starleaf-applications/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://support.starleaf.com/using/</docsUrl>
+    <mailingListUrl>https://twitter.com/starleafco</mailingListUrl>
+    <bugTrackerUrl>https://support.starleaf.com/contact-support/</bugTrackerUrl>
+    <tags>starleaf videoconferencing</tags>
+    <summary>StarLeaf is a videoconfering tool.</summary>
+    <description><![CDATA[
+StarLeaf is a videoconfering tool.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/starleaf/screenshot.png)
+]]></description>
+    <releaseNotes>https://support.starleaf.com/managing/cloud-releases/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

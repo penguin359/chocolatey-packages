@@ -8,7 +8,7 @@ $packageArgs = @{
   checksumType  = 'sha256'
   
   
-  silentArgs    = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
+  silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 }
 
 Install-ChocolateyPackage @packageArgs

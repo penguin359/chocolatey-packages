@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>klatexformula</id>
-    <version>4.1.0</version>
+    <version>4.1.0.20210227</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/klatexformula</packageSourceUrl>
     <owners>chtof</owners>
     <title>KLatexFormula</title>
@@ -13,7 +13,7 @@
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://sourceforge.net/projects/klatexformula</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://sourceforge.net/p/klatexformula/code/HEAD/tree</projectSourceUrl>
+    <projectSourceUrl>https://sourceforge.net/projects/klatexformula/files/</projectSourceUrl>
     <docsUrl>https://klatexformula.sourceforge.io/doc</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://sourceforge.net/projects/klatexformula/support</bugTrackerUrl>

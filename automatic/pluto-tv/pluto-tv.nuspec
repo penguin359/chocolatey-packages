@@ -21,8 +21,6 @@
     <summary>Pluto TV is free TV over the Internet.</summary>
     <description><![CDATA[
 Pluto TV is free TV over the Internet.
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pluto-tv/screenshot.png)
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   </metadata>

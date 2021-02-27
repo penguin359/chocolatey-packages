@@ -11,7 +11,8 @@ function global:au_GetLatest {
 
     return @{
         Version = $matches.Version
-        URL32   = 'https://freefr.dl.sourceforge.net/project/klatexformula/klatexformula/klatexformula-' + $version + '/klatexformula-' + $version + '-win32.exe'
+        URL32 = Get-RedirectedUrl 'https://downloads.sourceforge.net/project/klatexformula/klatexformula/klatexformula-' + $version + '/klatexformula-' + $version + '-win32.exe'
+        #URL32   = 'https://freefr.dl.sourceforge.net/project/klatexformula/klatexformula/klatexformula-' + $version + '/klatexformula-' + $version + '-win32.exe'
     }
 }
 

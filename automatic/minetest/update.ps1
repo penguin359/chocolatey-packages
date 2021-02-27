@@ -16,8 +16,8 @@ function global:au_GetLatest {
 
     return @{
         Version = $matches.Version
-        URL32   = $url64.href
-        URL64   = $url32.href
+        URL32   = $url32.href
+        URL64   = $url64.href
     }
 }
 

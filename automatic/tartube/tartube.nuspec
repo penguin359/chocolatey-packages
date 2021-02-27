@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tartube</id>
+    <version>2.3.085</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/tartube</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Tartube</title>
+    <authors>Tartube Team</authors>
+    <projectUrl>https://tartube.sourceforge.io</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tartube/tartube.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/axcore/tartube/v2.3.085/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/axcore/tartube</projectSourceUrl>
+    <docsUrl>https://tartube.sourceforge.io/#quick-start-guide</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/axcore/tartube/issues</bugTrackerUrl>
+    <tags>tartube video downloader youtube bitchute</tags>
+    <summary>Tartube is a GUI front-end for youtube-dlc, youtube-dl and other compatible video downloaders.</summary>
+    <description><![CDATA[
+Tartube is a GUI front-end for [youtube-dlc](https://pypi.org/project/youtube-dlc/), [youtube-dl](https://youtube-dl.org/) and other compatible video downloaders.
+
+It is partly based on [youtube-dl-gui](https://mrs0m30n3.github.io/youtube-dl-gui/) and is written in Python 3 / Gtk 3. Tartube runs on MS Windows, Linux, BSD and MacOS.
+
+## Features
+### You can fetch a list of videos from your favourite channels and playlists on [YouTube](https://www.youtube.com/), [BitChute](https://www.bitchute.com/), and hundreds of other websites (see [here](https://ytdl-org.github.io/youtube-dl/supportedsites.html) for a full list)
+### If buffering is an issue, you can download a temporary copy of a video before automatically opening it in your favourite media player
+### **Tartube** will organise your videos into convenient folders (if that's what you want)
+### **Tartube** can alert you when livestreams and debut videos are starting (**YouTube** only)
+### If creators upload their videos to more than one website (**YouTube** and **BitChute**, for example), **Tartube** can interact with both sites without creating duplicates
+### Certain websites operate an only
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/tartube/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/axcore/tartube/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

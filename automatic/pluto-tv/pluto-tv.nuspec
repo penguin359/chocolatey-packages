@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pluto-tv</id>
+    <version>0.4.2</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/pluto-tv</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Pluto TV</title>
+    <authors>Pluto TV Team</authors>
+    <projectUrl>https://www.pluto.tv/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pluto-tv/pluto-tv.png</iconUrl>
+    <copyright>© 2021 Pluto Inc. Tous droits réservés.</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://support.pluto.tv</bugTrackerUrl>
+    <tags>pluto-tv TV television</tags>
+    <summary>Pluto TV is free TV over the Internet.</summary>
+    <description><![CDATA[
+Pluto TV is free TV over the Internet.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pluto-tv/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -11,5 +11,5 @@ $sendtoFilePath = Join-Path $sendtoPath "Merge videos in LosslessCut.lnk"
 if (Test-Path $sendtoFilePath) { Remove-Item $sendtoFilePath }
 
 # Remove File Association for .MP4
-Remove-Item -LiteralPath "HKLM:\SOFTWARE\Classes\SystemFileAssociations\.mp4\Shell\cut" -force;
-Remove-Item -LiteralPath "HKLM:\SOFTWARE\Classes\Applications\LosslessCut.exe" -force;
+Remove-Item -Recurse -Force -LiteralPath "HKLM:\SOFTWARE\Classes\SystemFileAssociations\.mp4\Shell\cut" 
+Remove-Item -Recurse -Force -LiteralPath "HKLM:\SOFTWARE\Classes\Applications\LosslessCut.exe"

@@ -14,7 +14,7 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
     $url32         = $download_page.links | ? href -match $regex32 | select -Last 1
     $version       = $matches.Version -Replace '_', '.'
-	$url64         = $download_page.links | ? href -match $regex64 | select -Last 1
+ 	  $url64         = $download_page.links | ? href -match $regex64 | select -Last 1
 	
     return @{
         Version = $version

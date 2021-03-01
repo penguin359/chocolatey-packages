@@ -5,8 +5,8 @@ $packageArgs = @{
   softwareName   = 'PSPad editor'
   fileType       = 'exe'
 
-  url            = 'https://www.pspad.com/files/pspad/pspad504_setup.exe'
-  checksum       = 'ad65056bf97f537428d8726a394619cd253de8e5a97f8371d6e0e958e6d10537'
+  url            = 'https://www.pspad.com/files/pspad/pspad505_setup.exe'
+  checksum       = '63db0be75d38be92e5f9000c2ad73b7f62c8db9d33c4504785bfe348c5318314'
   checksumType   = 'sha256'
 
   silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'

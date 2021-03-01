@@ -25,6 +25,9 @@ StarLeaf is a videoconfering tool.
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/starleaf/screenshot.png)
 ]]></description>
     <releaseNotes>https://support.starleaf.com/managing/cloud-releases/</releaseNotes>
+  <dependencies>
+    <dependency id="dotnetfx" version="4.8.0.20190930" />
+  </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

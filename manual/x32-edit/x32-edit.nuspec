@@ -11,7 +11,7 @@
     <projectUrl>https://www.behringer.com/Categories/Behringer/Mixers/Apps/X32-EDIT/p/P0AWF</projectUrl>
 	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/x32-edit/x32-edit.png</iconUrl>
     <copyright>Copyright © 2019 Music Tribe Global Brands Ltd. All rights reserved.</copyright>
-    <licenseUrl>https://community.musictribe.com/t5/custom/page/page-id/TermsOfUse</licenseUrl>
+    <licenseUrl>https://community.musictribe.com/pages/terms-of-service</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <docsUrl>https://www.behringer.com/Categories/Behringer/Mixers/Digital-Mixers/X32-COMPACT/p/P0AAP/Downloads</docsUrl>

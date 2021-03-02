@@ -9,7 +9,9 @@ if ( [environment]::OSVersion.Version.Major -ge 10 )  {
   $checksum64_win10 = ''
   $url64            = $url64_win10
   $checksum64       = $checksum64_win10
-} elseif ( [environment]::OSVersion.Version.Major -ge 7 ) {
+} elseif ( ( [environment]::OSVersion.Version.Major -ge 7 ) -or
+           ( ( [environment]::OSVersion.Version.Major -eq 6 ) -and
+             ( [environment]::OSVersion.Version.Minor -eq 1 ) ) ) {
   $url32_win7_81      = 'https://spacedesk.net/downloads/spacedesk_driver_Win_8.1_32_v0973_BETA.msi'
   $checksum32_win7_81 = '48091a45254436440855b6e6c911690236cf2e90a466518bdab42f12cedd99f8'
   $url32              = $url32_win7_81

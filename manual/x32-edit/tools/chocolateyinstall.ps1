@@ -5,8 +5,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = "$toolsDir"
 
-  url           = 'https://downloads.music-group.com/software/behringer/X32/X32-Edit_PC_3.2.zip'
-  checksum      = '03772E3C3C3AC90F59062EC672C6F428987B0245700C87B958EBCC534B45DE47'
+  url           = 'https://mediadl.musictribe.com/download/software/behringer/X32/X32-Edit_PC_4.2.zip'
+  checksum      = 'a5971f783a5454f4ef66528d1e0d26510e984e07f524f3b179193f8e4e057192'
   checksumType  = 'sha256'
 }
 
@@ -14,6 +14,6 @@ Install-ChocolateyZipPackage @packageArgs
 
 # Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
-$shortcutFilePath = Join-Path $programs "X32 Edit.lnk"
-$targetPath = Join-Path $toolsDir "X32-Edit.exe"
-Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath
+$shortcutFilePath = Join-Path $programs 'X32 Edit.lnk'
+$targetPath = Join-Path $toolsDir 'X32-Edit.exe'
+Install-ChocolateyShortcut -shortcutFilePath "$shortcutFilePath" -targetPath "$targetPath"

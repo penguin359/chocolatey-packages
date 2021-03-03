@@ -5,7 +5,7 @@ $packageArgs = @{
   fileType     = 'MSI'
 
   url          = 'https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/WebexTeams.msi'
-  checksum     = 'bf465b9ec8872be6d71c764042c663262bdd31a4cd5b98986d5936d0f8eb1d6c'
+  checksum     = '2ab57c51b5e9e797f628e80e7922fac91d8a136a8e73af7389bdc2b738ab4aea'
   checksumType = 'sha256'
 
   silentArgs   = "/qn /norestart /l*v `"$env:TEMP\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""

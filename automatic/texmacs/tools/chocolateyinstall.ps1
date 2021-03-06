@@ -3,7 +3,7 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
-  file        = "$toolsDir\TeXmacs-1.99.18-installer.exe"
+  file        = "$toolsDir\TeXmacs-1.99.19-installer.exe"
   silentArgs  = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
 }
 

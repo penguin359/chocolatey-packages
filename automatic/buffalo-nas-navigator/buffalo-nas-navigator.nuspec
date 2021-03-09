@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>buffalo-nas-navigator</id>
-    <version>3.02</version>
+    <version>3.04</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/buffalo-nas-navigator</packageSourceUrl>
     <owners>chtof</owners>
     <title>Buffalo NAS Navigator</title>

@@ -8,8 +8,8 @@
     <owners>chtof</owners>
     <title>X32 Edit</title>
     <authors>Music Tribe Global Brands Ltd.</authors>
-    <projectUrl>https://www.behringer.com/Categories/Behringer/Mixers/Apps/X32-EDIT/p/P0AWF</projectUrl>
-	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/x32-edit/x32-edit.png</iconUrl>
+    <projectUrl>https://www.behringer.com/behringer/product?modelCode=P0AWP</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/manual/x32-edit/x32-edit.png</iconUrl>
     <copyright>Copyright © 2019 Music Tribe Global Brands Ltd. All rights reserved.</copyright>
     <licenseUrl>https://community.musictribe.com/pages/terms-of-service</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

@@ -4,10 +4,13 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
   destination = "$toolsDir"
-  file        = "$toolsDir\SSL-Verifier-v1.5.6-1.zip"
+  fileType    = "EXE"
+  file        = "$toolsDir\SSL Verifier-v1.5.7.exe"
+
+  silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
 }
 
-Get-ChocolateyUnzip @packageArgs
+Install-ChocolateyInstallPackage @packageArgs
 
 # Install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)

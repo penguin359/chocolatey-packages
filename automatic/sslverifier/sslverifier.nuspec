@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>sslverifier</id>
-    <version>1.5.6.1</version>
+    <version>1.5.7</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/sslverifier</packageSourceUrl>
     <owners>chtof</owners>
     <title>SSL Certificate Verifier</title>

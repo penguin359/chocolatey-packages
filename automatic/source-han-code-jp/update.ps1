@@ -1,9 +1,10 @@
-﻿import-module au
-$github_repository = "adobe-fonts/source-han-code-jp"
-$releases = "https://github.com/" + $github_repository + "/releases/latest"
-$regex   = "/archive/(?<Version>[\d\.]+)[A-Z]*.zip$"
+﻿Import-Module au
 
-function global:au_GetLatest {	
+function global:au_GetLatest {
+  $github_repository = "adobe-fonts/source-han-code-jp"
+  $releases = "https://github.com/" + $github_repository + "/releases/latest"
+  $regex   = "/(?<Version>[\d\.]+)[A-Z]*.zip$"
+
   $url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex
   return @{
     Version = $matches.Version

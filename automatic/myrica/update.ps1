@@ -3,7 +3,7 @@
 function global:au_GetLatest {
 	$github_repository = "tomokuni/Myrica"
 	$releases = "https://github.com/" + $github_repository + "/releases/latest"
-	$regex   = "/archive/(?<Version>[\d\.]+).zip$"
+	$regex   = "/(?<Version>[\d\.]+).zip$"
 	
 	$url = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex
 	return @{

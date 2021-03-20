@@ -6,15 +6,15 @@ in verifying that this package's contents are trustworthy.
 Package can be verified like this:
  
 1. Download:
-   x32: http://download3.dmde.com/download/dmde-3.6.0.770-win32-gui.zip
-   x64: http://download3.dmde.com/download/dmde-3.6.0.770-win64-gui.zip
+   x32: http://download3.dmde.com/download/dmde-3-8-0-790-win32-gui.zip
+   x64: http://download3.dmde.com/download/dmde-3-8-0-790-win64-gui.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
-   checksum type: sha256
-   checksum32: 00e9d05a512acc9a5bd013d5464d8b6badcf65d7e361b8d5252dc34d6dbd208a
-   checksum64: 83445d2a33e7df3d4ba3320bf6e55df23603ddc85ec2000866196a748b27527c
+   checksum type: 
+   checksum32: 6320D4B36FE0C6974A358C6C9A868615D2BA67B570048D1959ABC1612D0E5C7F
+   checksum64: 6ABB687D2C3B8C180A57D6C75FAB331C1B87717B6703C281AC3972C1A25BFDBB
  
 File 'LICENSE.txt' is obtained from: Uncompressed zip file, fileula_en.txt

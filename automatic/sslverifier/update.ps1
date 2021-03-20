@@ -10,7 +10,8 @@ function global:au_BeforeUpdate {
 
 function global:au_GetLatest {
   $download_url = 'https://www.pkisolutions.com/download/16432/'
-  $regex        = '(SSL(-)?Verifier-v(?<Version>[\d\.-]+)\.zip)'
+  # $regex        = '(SSL(-)?Verifier-v(?<Version>[\d\.-]+)\.zip)'
+  $regex        = '(SSL[-\ ]?Verifier-v(?<Version>[\d\.-]+)\.exe)'
 
   $download = Invoke-WebRequest $download_url -UseBasicParsing
   $download.Headers.'Content-Disposition' -match $regex | Out-Null
@@ -34,7 +35,7 @@ function global:au_SearchReplace {
 
         "tools\chocolateyinstall.ps1" = @{        
           "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`"" = "`${1}$($Latest.FileName32)`""
-           "(^.*SSL(-)?Verifier-v)[\d\.]+(\.zip)"      = "`${1}$($Latest.Version)`${2}"            
+           "(^.*SSL[-\ ]?Verifier-v)[\d\.-]+(\.exe)"      = "`${1}$($Latest.Version)`${2}"            
         }
     }
 }

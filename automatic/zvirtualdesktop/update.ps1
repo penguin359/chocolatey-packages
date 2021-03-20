@@ -1,6 +1,5 @@
-﻿import-module au
+import-module au
 
-$github_repository = 'mzomparelli/zVirtualDesktop'
 
 function global:au_BeforeUpdate {
     Remove-Item "$PSScriptRoot\tools\*.exe"
@@ -12,14 +11,17 @@ function global:au_BeforeUpdate {
 }
 
 function global:au_GetLatest {
-    $releases      = "https://github.com/" + $github_repository + "/releases/latest"
-    $regex_version = "/archive/(?<Version>[\d\.]+).zip$"
-    $regex_url     = "^(https://zomp.co/Files.aspx\?id=.*)$"
-    
-	(Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex_version | Out-Null
+    $github_repository = 'mzomparelli/zVirtualDesktop'
+    $releases      = "https://github.com/" + $github_repository + "/releases/latest"    
+    #$regex = "zVirtualDesktop.exe"
+    $regex = "https://zomp.co/Files.aspx\?id="
+    $regex_version = '/tag/(?<Version>[\d\.]+)'
+
+    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+	$url = ($download_page).links | ? href -match $regex
+    $download_page -match $regex_version
     $version = $matches.Version
-    $url     = (Invoke-WebRequest -Uri $releases -UseBasicParsing).links | ? href -match $regex_url
-    
+        
 	return @{ Version = $version ; URL32 = $url.href }
 }
 

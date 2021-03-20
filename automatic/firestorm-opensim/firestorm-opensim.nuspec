@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>firestorm-opensim</id>
-    <version>6.4.12.20210315</version>
+    <version>6.4.13</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/firestorm-opensim</packageSourceUrl>
     <owners>chtof</owners>
     <title>Firestorm Viewer for Open Simulator</title>

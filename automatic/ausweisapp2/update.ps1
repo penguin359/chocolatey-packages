@@ -13,7 +13,7 @@ function global:au_GetLatest {
 	$url = ($download_page.links | ? href -match $regex).href
     return @{
         Version = $matches.Version
-        URL32   = 'https://www.ausweisapp.bund.de' + $url
+        URL32   = 'https://www.ausweisapp.bund.de/' + $url
     }
 }
 

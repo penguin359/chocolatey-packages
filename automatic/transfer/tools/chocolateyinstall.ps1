@@ -11,10 +11,10 @@ $packageArgs = @{
 Install-ChocolateyPackage @packageArgs
 
 # Stop Frame.io Transfer as it is automatically launched after installation.
-$started = $false
+$started = $false ; $elapsed = 0;
 Do {
     $status = Get-Process 'Frame.io Transfer' -ErrorAction SilentlyContinue
-    If (!($status)) { Start-Sleep -Seconds 2 } 
+    If (!($status)) { Start-Sleep -Seconds 2 ; $elapsed += 2 }
     Else { Stop-Process -Name 'Frame.io Transfer' ; $started = $true }
 }
-Until ( $started )
+Until ( $started -Or ($elapsed -ge 60) )

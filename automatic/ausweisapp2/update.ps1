@@ -6,14 +6,14 @@ import-module au
 function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
 
 function global:au_GetLatest {
-    $releases = 'https://github.com/Governikus/AusweisApp2/releases'
+    $releases = 'https://www.ausweisapp.bund.de/software/downloads/'
     $regex   = 'AusweisApp2-(?<Version>[\d\.]+).msi'
 
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	$url = $download_page.links | ? href -match $regex | Select -First 1
+	$url = ($download_page.links | ? href -match $regex).href
     return @{
         Version = $matches.Version
-        URL32   = 'https://www.ausweisapp.bund.de/uploads/tx_ausweisdownloads/AusweisApp2-' + $matches.Version + '.msi'
+        URL32   = 'https://www.ausweisapp.bund.de' + $url
     }
 }
 

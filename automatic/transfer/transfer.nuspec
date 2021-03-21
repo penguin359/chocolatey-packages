@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>transfer</id>
+    <version>1.1.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/transfer</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Frame.io Transfer</title>
+    <authors>Frame.io Team</authors>
+    <projectUrl>https://www.frame.io/transfer</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/transfer/transfer.png</iconUrl>
+    <copyright>© Frame.io, Inc.</copyright>
+    <licenseUrl>https://www.frame.io/terms</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>https://twitter.com/frame_io</mailingListUrl>
+    <bugTrackerUrl>https://support.frame.io/en/</bugTrackerUrl>
+    <tags>transfer transfer upload download downloader large huge files folder project</tags>
+    <summary>Use Frame.io Transfer to upload and download large files, entire folders—or entire projects—with a single click.</summary>
+    <description><![CDATA[
+Use Frame.io Transfer to upload and download large files, entire folders—or entire projects—with a single click.
+
+## Your control center for asset transfers
+Ultimate flexibility for how—and how fast—you move your assets.
+
+### More speed
+Accelerated, indestructible uploads and downloads with a single click.
+
+### More control
+Prioritize your transfer order and get progress updates for ongoing jobs.
+
+### More choices
+Configurable bandwidth allocation to optimize for speed or multitasking.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/transfer/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

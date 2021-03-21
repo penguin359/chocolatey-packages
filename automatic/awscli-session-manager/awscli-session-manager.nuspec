@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>awscli-session-manager</id>
+    <version>1.2.54.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/awscli-session-manager</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>AWS Session Manager Plugin</title>
+    <authors>Amazon Web Services Team</authors>
+    <projectUrl>https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/awscli-session-manager/awscli-session-manager.png</iconUrl>
+    <copyright>Copyright © Amazon Web Services. All rights reserved.</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>-->
+    <!--<requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://docs.aws.amazon.com/fr_fr/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html</docsUrl>
+    <mailingListUrl>http://forums.aws.amazon.com/forum.jspa?forumID=185</mailingListUrl>
+    <bugTrackerUrl>https://docs.aws.amazon.com/fr_fr/systems-manager/latest/userguide/session-manager-troubleshooting.html</bugTrackerUrl>
+    <tags>awscli-session-manager amazon web services aws cli session manager plugin start end stop session connection managed instances</tags>
+    <summary>If you want to use the AWS Command Line Interface (AWS CLI) to start and end sessions that connect you to your managed instances, you must first install the Session Manager plugin on your local machine.</summary>
+    <description><![CDATA[
+If you want to use the AWS Command Line Interface (AWS CLI) to start and end sessions that connect you to your managed instances, you must first install the Session Manager plugin on your local machine.
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

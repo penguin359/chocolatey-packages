@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mailslurper</id>
+    <version>1.14.1</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/mailslurper</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>MailSlurper</title>
+    <authors>MailSlurper Team</authors>
+    <projectUrl>https://mailslurper.com</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/mailslurper/mailslurper.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/mailslurper/mailslurper/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/mailslurper/mailslurper</projectSourceUrl>
+    <docsUrl>https://github.com/mailslurper/mailslurper/wiki</docsUrl>
+    <mailingListUrl>https://mailslurper.com/#contact</mailingListUrl>
+    <bugTrackerUrl>https://github.com/mailslurper/mailslurper/issues</bugTrackerUrl>
+    <tags>mailslurper SMTP mail server development developer</tags>
+    <summary>A handy SMTP mail server useful for local and team application development.</summary>
+    <description><![CDATA[
+MailSlurper is a small SMTP mail server that slurps mail into oblivion! MailSlurper is perfect for individual developers or small teams writing mail-enabled applications that wish to test email functionality without the risk or hassle of installing and configuring a full blown email server. It's simple to use! Simply setup MailSlurper, configure your code and/or application server to send mail through the address where MailSlurper is running, and start sending emails! MailSlurper will capture those emails into a database for you to view at your leisure.
+
+## Features
+- Responsive web-based interface
+- Themes
+- Search for mails by subject, body, sender, or recipient
+- Save frequently used searches
+- Captures attachments
+- Server runs on Windows, OSX, and Linux!
+- Configurable to run on any address and port
+- Support for SSL
+- Basic user authentication
+
+## Notes
+- mailslurper.exe must be launched from the directory containing the config file config.json
+
+## Package installation defaults
+
+By default, **installation** of this package:
+- Will be installed in Chocolatey tools directory.
+
+## Package parameters
+- `/InstallDir` - Installation directory, by default Chocolatey tools directory.
+
+**Example:**
+`choco install mailslurper --params '"/InstallDir:C:\your\install\path"'`
+
+To have choco remember parameters on upgrade, be sure to set `choco feature enable -n=useRememberedArgumentsForUpgrades`
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/mailslurper/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/mailslurper/mailslurper/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

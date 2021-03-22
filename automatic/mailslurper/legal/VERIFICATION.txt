@@ -1,0 +1,22 @@
+﻿VERIFICATION
+ 
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+Package can be verified like this:
+ 
+1. Download:
+ 
+   x32: https://github.com/mailslurper/mailslurper/releases/download/1.14.1/mailslurper-1.14.1-windows.zip
+   x64: https://github.com/mailslurper/mailslurper/releases/download/1.14.1/mailslurper-1.14.1-windows.zip
+  
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+ 
+   checksum type: sha256
+   checksum32: D618E8A33A893D0E787FF001411A5208E8AB93F9F315EEAAAF35F8BFDD35618F
+   checksum64: D618E8A33A893D0E787FF001411A5208E8AB93F9F315EEAAAF35F8BFDD35618F
+ 
+File 'LICENSE.txt' is obtained from:
+   https://raw.githubusercontent.com/mailslurper/mailslurper/master/LICENSE

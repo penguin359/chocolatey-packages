@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>voicemeeter</id>
-    <version>1.0.7.4</version>
+    <version>1.0.7.8</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/voicemeeter</packageSourceUrl>
     <owners>chtof</owners>
     <title>Voicemeeter Virtual Audio Mixer</title>
@@ -71,7 +71,7 @@ Voicemeeter is a Unique Application designed for everyone willing to manage audi
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   <dependencies>
-    <dependency id="voicemeeter.install" version="[1.0.7.4]" />
+    <dependency id="voicemeeter.install" version="[1.0.7.8]" />
   </dependencies>
   </metadata>
    <files></files>

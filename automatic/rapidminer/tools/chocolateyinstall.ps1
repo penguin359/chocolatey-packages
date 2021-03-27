@@ -4,11 +4,11 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
    
   url           = 'https://releases.rapidminer.com/latest/rapidminer-studio/rapidminer-studio-win32-install.exe?utm_source=nexus&utm_medium=nexus'
-  checksum      = '2916e8d699cce758d8b11bdb69a4decfc1de45cae890966bbb73dd3ca2ec00f5'
+  checksum      = 'c80a0a35566c3af74080114eb0f70741765a17240e7083668e004c8c2b25615a'
   checksumType  = 'sha256'
 
   url64bit      = 'https://releases.rapidminer.com/latest/rapidminer-studio/rapidminer-studio-win64-install.exe?utm_source=nexus&utm_medium=nexus'
-  checksum64    = 'c61e0323d2a0cf8a08783f0a114960400c774bb4c27ce3c6c4081080928bd189'
+  checksum64    = 'b3e2cea2ecd1bb6b0bb9f9d1e39915207739c8778c05f80d0cd968ad0aeba54a'
   checksumType64= 'sha256'
 
   silentArgs    = '/S'

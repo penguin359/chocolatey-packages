@@ -6,14 +6,14 @@ in verifying that this package's contents are trustworthy.
 Package can be verified like this:
  
 1. Download:   
-   x64: https://www.fosshub.com/CudaText.html?dwl=cudatext-win-x64-1.129.4.3.zip
+   x64: https://www.fosshub.com/CudaText.html?dwl=cudatext-win-x64-1.129.5.0.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum64: C1347C9BB15887C412D135C4D9F2285C70E61237A5DB8D91EF01A540A36C67E8
+   checksum64: 6C459766385C7D52E73925B2C9015D3F17E591311B7EAB746581BC073303F38B
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/Alexey-T/CudaText/master/license.txt

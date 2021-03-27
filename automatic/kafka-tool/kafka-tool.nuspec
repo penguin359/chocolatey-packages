@@ -6,7 +6,7 @@
     <version>2.0.9.20210327</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/kafka-tool</packageSourceUrl>
     <owners>chtof</owners>
-    <title>[Deprecated] Kafka Tool)</title>
+    <title>[Deprecated] Kafka Tool</title>
     <authors>DB Solo LLC</authors>
     <projectUrl>http://www.kafkatool.com</projectUrl>
     <!-- <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/kafka-tool/kafka-tool.png</iconUrl> -->
@@ -21,7 +21,7 @@
     <summary>The Ultimate UI Tool for Kafka.</summary>
     <description><![CDATA[
 ## DEPRECATION NOTICE
-**Kafka Tool** has been renamed to **Offset Explorer**.
+**Kafka Tool** has been renamed to **[Offset Explorer](https://chocolatey.org/packages/offset-explorer)**.
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   <dependencies>

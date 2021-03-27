@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>win10-brightnessslider</id>
+    <version>1.7.9</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/win10-brightnessslider</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Win10_BrightnessSlider</title>
+    <authors>blackholeearth</authors>
+    <projectUrl>https://github.com/blackholeearth/Win10_BrightnessSlider</projectUrl>
+    <!-- <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/win10-brightnessslider/win10-brightnessslider.png</iconUrl> -->
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/blackholeearth/Win10_BrightnessSlider/v1.7.9/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/blackholeearth/Win10_BrightnessSlider</projectSourceUrl>
+    <docsUrl>https://github.com/blackholeearth/Win10_BrightnessSlider/blob/master/README.md</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/blackholeearth/Win10_BrightnessSlider/issues</bugTrackerUrl>
+    <tags>win10-brightnessslider monitor brightness</tags>
+    <summary>Win10_BrightnessSlider puts a Monitor Brightness icon to on Taskbar Tray. So you can access it with 1 click. Targeting laptops.</summary>
+    <description><![CDATA[
+Win10_BrightnessSlider puts a Monitor Brightness icon to on Taskbar Tray. So you can access it with 1 click. Targeting laptops.
+
+## NOTES
+If slider working but suddenly (you plug/unplug monitor/MirrorScreen in any way) then screen act up weird for second, you CAN get error while trying to change birghtness, you gotta press Detect
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/win10-brightnessslider/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/blackholeearth/Win10_BrightnessSlider/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

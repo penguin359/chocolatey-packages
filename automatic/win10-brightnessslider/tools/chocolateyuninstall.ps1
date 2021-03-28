@@ -2,7 +2,7 @@
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 # Stop win10_brightnessslider.exe if needed
-If ( Get-Process "Win10_BrightnessSlider" | Out-Null ) {
+If ( Get-Process "Win10_BrightnessSlider" -ErrorAction SilentlyContinue ) {
   Stop-Process -Name "Win10_BrightnessSlider" | Out-Null
 }
 

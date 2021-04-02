@@ -31,6 +31,9 @@ Latino has extensions to work with MySQL, Redis, Json, VSCode, Sublime-Text, Vim
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/latino/screenshot.png)
 ]]></description>
     <releaseNotes>https://github.com/lenguaje-latino/latino/releases</releaseNotes>
+    <dependencies>
+      <dependency id="bitvise-ssh-server" version="8.45" />
+    </dependencies>
   </metadata>
   <files>
     <file src="legal\**" target="legal" />

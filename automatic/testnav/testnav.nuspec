@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>testnav</id>
+    <version>1.9.7</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/testnav</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>TestNav</title>
+    <authors>Pearson Education</authors>
+    <projectUrl>https://download.testnav.com</projectUrl>
+    <!-- <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/testnav/testnav.png</iconUrl> -->
+    <copyright>© Pearson Education, Inc. or its affiliate(s). All rights reserved.</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl> -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!-- <projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>testnav secure k12 student testing</tags>
+    <summary>Pearson Testing Software required in many states for secure k12 student testing.</summary>
+    <description><![CDATA[
+TestNav current capabilities include a wide-range of tools and features. TestNav is QTI-compliant and includes a wealth of testing tools, as well as built-in Early Warning System triggers and safeguards for student testing and options for accessibility.
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

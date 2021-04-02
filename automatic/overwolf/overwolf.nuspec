@@ -21,8 +21,6 @@
     <summary>Overwolf is a tech framework that allows 3rd party developers to easily build gaming apps in HTML and JavaScript.</summary>
     <description><![CDATA[
 Overwolf is a tech framework that allows 3rd party developers to easily build gaming apps in HTML and JavaScript.
-
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/overwolf/screenshot.png)
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   </metadata>

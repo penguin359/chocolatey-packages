@@ -9,11 +9,11 @@
     <title>TestNav</title>
     <authors>Pearson Education</authors>
     <projectUrl>https://download.testnav.com</projectUrl>
-    <!-- <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/testnav/testnav.png</iconUrl> -->
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/testnav/testnav.png</iconUrl>
     <copyright>© Pearson Education, Inc. or its affiliate(s). All rights reserved.</copyright>
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl> -->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!-- <projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
@@ -21,6 +21,8 @@
     <summary>Pearson Testing Software required in many states for secure k12 student testing.</summary>
     <description><![CDATA[
 TestNav current capabilities include a wide-range of tools and features. TestNav is QTI-compliant and includes a wealth of testing tools, as well as built-in Early Warning System triggers and safeguards for student testing and options for accessibility.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/testnav/screenshot.png)
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
   </metadata>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>xnshell.portable</id>
+    <version>4.1</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/xnshell.portable</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>XnView Shell Extension (Portable)</title>
+    <authors>XnSoft</authors>
+    <projectUrl>https://www.xnview.com/en/xnshell/</projectUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/xnshell.portable/xnshell.portable.png</iconUrl>
+    <copyright>© 2013-2021 XnSoft</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <mailingListUrl>https://twitter.com/xnview</mailingListUrl>
+    <!-- <bugTrackerUrl>http://newsgroup.xnview.com/viewtopic.php?f=35&t=19027</bugTrackerUrl> -->
+    <tags>xnshell.portable windows explorer shell extension</tags>
+    <summary>A powerful Shell extension for Windows Explorer</summary>
+    <description><![CDATA[
+XnShell is a powerful Shell extension for Windows ™ Explorer, allowing you to preview and perform various operations within Windows Explorer context menu.
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/xnshell.portable/screenshot.png)
+]]></description>
+    <!-- <releaseNotes>https://newsgroup.xnview.com/viewtopic.php?f=35&t=19027</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

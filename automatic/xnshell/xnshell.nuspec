@@ -6,7 +6,7 @@
     <version>4.1</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/xnshell</packageSourceUrl>
     <owners>chtof</owners>
-    <title>XnView Shell Extension (Install)</title>
+    <title>XnView Shell Extension</title>
     <authors>XnSoft</authors>
     <projectUrl>https://www.xnview.com/en/xnshell/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/xnshell.install/xnshell.png</iconUrl>

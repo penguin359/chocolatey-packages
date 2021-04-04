@@ -4,6 +4,6 @@ Glow is a terminal based markdown reader designed from the ground up to bring ou
 
 Use it to discover markdown files, read documentation directly on the command line and stash markdown files to your own private collection so you can read them anywhere. Glow will find local markdown files in subdirectories or a local Git repository.
 
-By the way, all data stashed is encrypted end-to-end: only you can decrypt it. More on that below.
+By the way, all data stashed is encrypted end-to-end: only you can decrypt it.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/glow/screenshot.gif)

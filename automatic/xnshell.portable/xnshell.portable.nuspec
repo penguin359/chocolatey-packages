@@ -17,7 +17,7 @@
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <mailingListUrl>https://twitter.com/xnview</mailingListUrl>
     <!-- <bugTrackerUrl>http://newsgroup.xnview.com/viewtopic.php?f=35&t=19027</bugTrackerUrl> -->
-    <tags>xnshell.portable windows explorer shell extension</tags>
+    <tags>xnshell windows explorer shell extension</tags>
     <summary>A powerful Shell extension for Windows Explorer</summary>
     <description><![CDATA[
 XnShell is a powerful Shell extension for Windows ™ Explorer, allowing you to preview and perform various operations within Windows Explorer context menu.

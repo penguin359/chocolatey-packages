@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if â€œÎ©â€ doesnâ€™t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>evoluentmousemanager</id>
@@ -20,7 +20,7 @@
     <tags>evoluentmousemanager evoluent mouse manager vertical mouse 4 d</tags>
     <summary>Evoluent Mouse Manager is an optional but powerful software that may be installed to configure the buttons to perform many common functions for VerticalMouse.</summary>
     <description><![CDATA[
-Evoluent Mouse Manager is an optional but powerful software that may be installed to configure the buttons to perform many common functions for VerticalMouse.. For example, button 2 may be configured to perform a double click with a single actual click to open a program, button 3 may be configured to open a link in a new tab, button 4 may be configured to cycle through open tabs, button 5 may be configured to close a tab, etc. This reduces the need to frequently move your hand between the mouse and the keyboard, and the need to move the mouse and click different areas of the screen.
+Evoluent Mouse Manager is an optional but powerful software that may be installed to configure the buttons to perform many common functions for VerticalMouse. For example, button 2 may be configured to perform a double click with a single actual click to open a program, button 3 may be configured to open a link in a new tab, button 4 may be configured to cycle through open tabs, button 5 may be configured to close a tab, etc. This reduces the need to frequently move your hand between the mouse and the keyboard, and the need to move the mouse and click different areas of the screen.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/evoluentmousemanager/screenshot.png)
 ]]></description>

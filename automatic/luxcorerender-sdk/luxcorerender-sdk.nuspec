@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>luxcorerender-sdk</id>
-    <version>2.4</version>
+    <version>2.5</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/luxcorerender-sdk</packageSourceUrl>
     <owners>chtof</owners>
     <title>LuxCore Render (LuxCore API SDK release with OpenCL support)</title>

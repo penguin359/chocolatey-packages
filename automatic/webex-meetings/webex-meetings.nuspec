@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>webex-meetings</id>
-    <version>41.4.3.19</version>
+    <version>41.4.4.10</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/webex-meetings</packageSourceUrl>
     <owners>chtof</owners>
     <title>Cisco Webex Meetings</title>

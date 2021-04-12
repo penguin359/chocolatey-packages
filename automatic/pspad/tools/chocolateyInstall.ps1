@@ -9,6 +9,10 @@ $packageArgs = @{
   checksum       = '04a6cc1d1c98dc9b559e703ed958406719bba822ee0f2301cac53575ababced8'
   checksumType   = 'sha256'
 
+  url64          = 'https://www.pspad.com/files/pspad/pspad506_x64_setup.exe'
+  checksum64     = '04a6cc1d1c98dc9b559e703ed958406719bba822ee0f2301cac53575ababced8'
+  checksumType64 = 'sha256'
+
   silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
   validExitCodes = @(0)
 }

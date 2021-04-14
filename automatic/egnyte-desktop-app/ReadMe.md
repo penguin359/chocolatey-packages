@@ -5,26 +5,26 @@ The Egnyte Connect Desktop App provides fast real-time access to your files and 
 ## Features
 
 ### Browse and modify cloud data directly from your computer
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot1.png)
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot2.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/screenshot1.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/screenshot2.png)
 
 ### Sync folders for offline access
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot3.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/screenshot3.png)
 
 ### Automatically access files from the best location
 
 ### Integrations with other desktop applications
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot4.png)
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot5.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/screenshot4.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/screenshot5.png)
 
 ### Global file locking
 
 ### File sharing directly from your computer
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot6.png)
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot7.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/screenshot6.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/screenshot7.png)
 
 ### Support for multiple accounts
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot8.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/screenshot8.png)
 
 ### Connect to Local Folders
 

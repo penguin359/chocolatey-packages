@@ -6,7 +6,7 @@
     <version>3.8.3.29</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/egnyte-desktop-app</packageSourceUrl>
     <owners>chtof</owners>
-    <title>Egnyte desktop app</title>
+    <title>Egnyte Desktop App</title>
     <authors>Egnyte Team.</authors>
     <projectUrl>https://helpdesk.egnyte.com/hc/en-us/articles/202206920-Desktop-App-Overview</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/egnyte-desktop-app.png</iconUrl>
@@ -17,33 +17,33 @@
     <docsUrl>https://helpdesk.egnyte.com/hc/en-us/categories/360001767951-Desktop-App</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://helpdesk.egnyte.com/hc/en-us/requests/new</bugTrackerUrl>
-    <tags>egnyte-connect egnyte connect desktop app cloud sync file</tags>
+    <tags>egnyte-desktop-app egnyte connect desktop app cloud sync file</tags>
     <summary>The Egnyte Connect Desktop App provides fast real-time access to your files and folders stored in the cloud from your computer.</summary>
     <description><![CDATA[The Egnyte Connect Desktop App provides fast real-time access to your files and folders stored in the cloud from your computer. Once connected, all Egnyte content you can access in the cloud will appear in a network drive in Windows Explorer or volume on Mac Finder. You will be able to view all your files and folders in the cloud without having first to sync them to your computer. Furthermore, you'll also be able to select specific folders to be synchronized for access, even when you are offline.
 
 ## Features
 
 ### Browse and modify cloud data directly from your computer
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot1.png)
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot2.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/screenshot1.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/screenshot2.png)
 
 ### Sync folders for offline access
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot3.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/screenshot3.png)
 
 ### Automatically access files from the best location
 
 ### Integrations with other desktop applications
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot4.png)
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot5.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/screenshot4.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/screenshot5.png)
 
 ### Global file locking
 
 ### File sharing directly from your computer
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot6.png)
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot7.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/screenshot6.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/screenshot7.png)
 
 ### Support for multiple accounts
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot8.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/screenshot8.png)
 
 ### Connect to Local Folders
 

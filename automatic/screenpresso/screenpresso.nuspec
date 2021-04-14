@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>screenpresso</id>
-    <version>1.9.5</version>
+    <version>1.9.5.20210414</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/screenpresso</packageSourceUrl>
     <owners>chtof</owners>
     <title>Screenpresso</title>

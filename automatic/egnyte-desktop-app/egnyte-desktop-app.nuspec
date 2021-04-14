@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>egnyte-desktop-app</id>
+    <version>3.8.3.29</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/egnyte-desktop-app</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>Egnyte desktop app</title>
+    <authors>Egnyte Team.</authors>
+    <projectUrl>https://helpdesk.egnyte.com/hc/en-us/articles/202206920-Desktop-App-Overview</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-desktop-app/egnyte-desktop-app.png</iconUrl>
+    <copyright>©2021 Egnyte, Inc. All Rights Reserved</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://helpdesk.egnyte.com/hc/en-us/categories/360001767951-Desktop-App</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://helpdesk.egnyte.com/hc/en-us/requests/new</bugTrackerUrl>
+    <tags>egnyte-connect egnyte connect desktop app cloud sync file</tags>
+    <summary>The Egnyte Connect Desktop App provides fast real-time access to your files and folders stored in the cloud from your computer.</summary>
+    <description><![CDATA[The Egnyte Connect Desktop App provides fast real-time access to your files and folders stored in the cloud from your computer. Once connected, all Egnyte content you can access in the cloud will appear in a network drive in Windows Explorer or volume on Mac Finder. You will be able to view all your files and folders in the cloud without having first to sync them to your computer. Furthermore, you'll also be able to select specific folders to be synchronized for access, even when you are offline.
+
+## Features
+
+### Browse and modify cloud data directly from your computer
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot1.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot2.png)
+
+### Sync folders for offline access
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot3.png)
+
+### Automatically access files from the best location
+
+### Integrations with other desktop applications
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot4.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot5.png)
+
+### Global file locking
+
+### File sharing directly from your computer
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot6.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot7.png)
+
+### Support for multiple accounts
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/egnyte-connect/screenshot8.png)
+
+### Connect to Local Folders
+
+### Support for large files
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <dependencies>
+      <dependency id="dotnetfx" version="4.7.2.20180712" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

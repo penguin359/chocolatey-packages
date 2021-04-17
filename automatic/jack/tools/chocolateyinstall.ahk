@@ -10,7 +10,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 winTitle = Setup - JACK2
 
 ; Installing Jack
-WinWait, %winTitle%, Welcome to the Jack Installation!, 120
+WinWait, %winTitle%, Welcome to the JACK, 120
 ControlClick, &Next >, %winTitle%
 
 ; Readme

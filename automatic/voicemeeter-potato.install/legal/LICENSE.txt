@@ -1,0 +1,20 @@
+
+From: https://www.vb-audio.com/Services/licensing.htm
+
+LICENSE
+
+Voicemeeter Distribution Rules
+
+[1] It's free to distribute or promote Voicemeeter (or Banana) AS IS to End Users if our donationware model stays applicable. " Donationware model is applicable ", means the End User can see and identify Voicemeeter as VB-Audio application AND this End User must be in a position to donate/pay license if finding it useful. You will have to communicate on this and make it clear for your clients by mentioning at least:
+
+The origin of Voicemeeter : www.voicemeeter.com.
+Voicemeeter is a donationware, all participations are welcome.
+
+[2] If you distribute Voicemeeter in a professional domain (to companies, institutions and any organizations) where users / employees are not in position to pay for the software they use, then you will have to pay for Voicemeeter licensing according volume (see Volume licensing base prices range above)
+
+[3] In the respect of the 2 previous points: You can also use Voicemeeter Remote API to take advantage of all Voicemeeter Audio Services in your own application.
+
+Voicemeeter Remote API Licensing:
+
+Voicemeeter Remote API SDK is free for free application, prototype, POC, educational project... For any commercial project you have to pay a fixed license fee: 500 EURO (when you release your project).
+Voicemeeter or Banana can be distributed with your application according the previous points. But Voicemeeter can also be embedded in your installation package or completely hidden in a fully integrated project. In this case, you will have to contact us to get specific quotation and adapted license agreement. 

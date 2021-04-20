@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>clipto</id>
-    <version>4.7.3</version>
+    <version>5.0.3</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/clipto</packageSourceUrl>
     <owners>chtof</owners>
     <title>Clipto</title>
@@ -41,7 +41,7 @@ See https://clipto.pro for details.
 ]]></description>
     <releaseNotes>https://github.com/clipto-pro/Desktop/releases</releaseNotes>
     <dependencies>
-      <dependency id="clipto.install" version="4.7.3" />
+      <dependency id="clipto.install" version="5.0.3" />
     </dependencies>
   </metadata>
   <files></files>

@@ -29,4 +29,4 @@ EasyUEFI also releases a feature which allows you to manage the EFI System Parti
 
 ### Create Windows PE emergency disk
 ![Create Windows PE emergency disk](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/easyuefi/screenshot3.png)
-- With EasyUEFI you can also build a bootable Windows PE image file. After building the image file, you can use it to create a bootable USB flash drives or use 3rd-party burner software to burn it to CD/DVD/USB. - With this Windows PE emergency disk you can easily fix EFI boot issues or repair efi system partition, such as missing or corrupt EFI boot option, missing or corrupt EFI System Partition.
+With EasyUEFI you can also build a bootable Windows PE image file. After building the image file, you can use it to create a bootable USB flash drives or use 3rd-party burner software to burn it to CD/DVD/USB. With this Windows PE emergency disk you can easily fix EFI boot issues or repair efi system partition, such as missing or corrupt EFI boot option, missing or corrupt EFI System Partition.

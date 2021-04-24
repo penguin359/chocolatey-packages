@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
@@ -14,7 +14,7 @@
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <docsUrl>https://evoluent.com/download/Win_Mouse_Manager_Instructions.pdf</docsUrl>
+    <docsUrl>https://evoluent.com/download/Win_Mouse_Manager_instructions.pdf</docsUrl>    
     <mailingListUrl>https://www.facebook.com/pages/Evoluent/988792151138197</mailingListUrl>
     <bugTrackerUrl>https://evoluent.com/support/</bugTrackerUrl>
     <tags>evoluentmousemanager evoluent mouse manager vertical mouse 4 d</tags>

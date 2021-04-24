@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/asciidocfx/AsciidocFX/releases/download/v1.7.3/AsciidocFX_Windows.exe
-   x64: https://github.com/asciidocfx/AsciidocFX/releases/download/v1.7.3/AsciidocFX_Windows.exe
+   x32: https://github.com/asciidocfx/AsciidocFX/releases/download/v1.7.4/AsciidocFX_Windows.exe
+   x64: https://github.com/asciidocfx/AsciidocFX/releases/download/v1.7.4/AsciidocFX_Windows.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: C5CF1CD9A2E149ACB547835070DE1C78C8358D95451C6A4FF47045E5AB7DB5AC
-   checksum64: C5CF1CD9A2E149ACB547835070DE1C78C8358D95451C6A4FF47045E5AB7DB5AC
+   checksum32: 554E1815F8812CE3E097EB4690401F9489F92F2CF67E693E912C229CB97A9D54
+   checksum64: 554E1815F8812CE3E097EB4690401F9489F92F2CF67E693E912C229CB97A9D54
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/asciidocfx/AsciidocFX/master/LICENSE

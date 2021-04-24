@@ -4,7 +4,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName  
   destination   = "$toolsDir"
-  file          = "$toolsDir\MultiPar1316_setup.exe"
+  file          = "$toolsDir\MultiPar1317_setup.exe"
 
   silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 }

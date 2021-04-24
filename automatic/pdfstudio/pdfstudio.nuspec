@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pdfstudio</id>
+    <version>2020.4.0</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/pdfstudio</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>PDF Studio (Free Trial)</title>
+    <authors>Present Qoppa Software.</authors>
+    <projectUrl>https://www.qoppa.com/pdfstudio</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pdfstudio/pdfstudio.png</iconUrl>
+    <copyright>Copyright © 2002-Present Qoppa Software. All rights reserved.</copyright>
+    <licenseUrl>https://www.qoppa.com/pdfstudio/buy/eula/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://www.qoppa.com/files/pdfstudio/guide/</docsUrl>
+    <mailingListUrl>https://twitter.com/QoppaPDF</mailingListUrl>
+    <bugTrackerUrl>https://kbpdfstudio.qoppa.com</bugTrackerUrl>
+    <tags>pdfstudio trial create edit PDF</tags>
+    <summary>Create, Review and Edit PDF Documents on Windows, Mac, and Linux.</summary>
+    <description><![CDATA[
+Create, Review and Edit PDF Documents on Windows, Mac, and Linux.
+
+## [Features](https://www.qoppa.com/pdfstudio/features/)
+
+- Reviewing and Annotating
+- Creating and Assembling Documents
+- Working with PDF Forms
+- Editing Content Pro
+- Conversion and PDF Sub-Formats
+- Advanced User Interface
+- Adding Security to PDF Documents
+- Batch Functions Pro
+- Advanced functions (Merge, Split, OCR, Rasterize) & more…Pro
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/pdfstudio/screenshot.png)
+]]></description>
+    <releaseNotes>https://blog.qoppa.com</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

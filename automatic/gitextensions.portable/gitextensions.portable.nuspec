@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gitextensions.portable</id>
-    <version>3.4.2</version>
+    <version>3.5.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/gitextensions.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>Git Extensions (Portable)</title>

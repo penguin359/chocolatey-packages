@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/VirusTotal/yara/releases/download/v4.0.5/yara-v4.0.5-1554-win32.zip
-   x64: https://github.com/VirusTotal/yara/releases/download/v4.0.5/yara-v4.0.5-1554-win64.zip
+   x32: https://github.com/VirusTotal/yara/releases/download/v4.1.0/yara-v4.1.0-1612-win32.zip
+   x64: https://github.com/VirusTotal/yara/releases/download/v4.1.0/yara-v4.1.0-1612-win64.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: A102E8670C59A09BFABBFE1F87E2102E710C419313A92E035CBEB598B9C206E6
-   checksum64: C239DEF956D91D41CA9DFDDB12428281707AA3859C69E64D84BAB537D0BCD285
+   checksum32: 3D4F2A1C5338B63A8866E831D1B1191D3400B413A96DBF24196B5C4138EE00D4
+   checksum64: E7089D483186832BD90269A81B70B188AC1CF30758F7DBCFD5CC0A4A895FE272
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/VirusTotal/yara/master/COPYING

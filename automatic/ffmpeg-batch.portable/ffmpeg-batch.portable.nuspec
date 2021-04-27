@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ffmpeg-batch.portable</id>
-    <version>2.3.7</version>
+    <version>2.3.8</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/ffmpeg-batch.portable</packageSourceUrl>
     <owners>chtof</owners>
     <title>FFmpeg Batch AV Converter (Portable)</title>

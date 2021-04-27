@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://master.dl.sourceforge.net/project/ffmpeg-batch/FFbatch_setup_2.3.7_x86.exe?viasf=1
-   x64: https://versaweb.dl.sourceforge.net/project/ffmpeg-batch/FFbatch_setup_2.3.7_x64.exe
+   x32: https://versaweb.dl.sourceforge.net/project/ffmpeg-batch/FFbatch_setup_2.3.8_x86.exe
+   x64: https://phoenixnap.dl.sourceforge.net/project/ffmpeg-batch/FFbatch_setup_2.3.8_x64.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: A0BD49A32178BDAF4BADF910FD809D372F9647872C5306D8E06AAEA3FD747D18
-   checksum64: 771F0FDC1AAE8B71DC8B2E7B882C24BD10012FDD04119D5D294FBDE17BF83480
+   checksum32: F9F997F3A1933092801518AB2DFFA592739875EB454EB55D403044B5E0170D06
+   checksum64: A8A524612DE54471A8B299ADB5D41995673DE0FEC7B08C2D0D42D90BDC86BAC3
  
 File 'LICENSE.txt' is obtained from:
    https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode.txt

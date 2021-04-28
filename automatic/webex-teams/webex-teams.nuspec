@@ -16,7 +16,7 @@
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <mailingListUrl>https://twitter.com/webex</mailingListUrl>
-    <bugTrackerUrl>https://help.webex.com/contact</bugTrackerUrl>
+    <!-- <bugTrackerUrl>https://help.webex.com/contact/</bugTrackerUrl> -->
     <tags>webex-teams cisco webex teams team collaboration</tags>
     <summary>Make teamwork your best work.</summary>
     <description><![CDATA[
@@ -24,8 +24,9 @@ The webex-teams package is deprecated due to a naming change.
 The new package **webex** have superceded this package.
 ]]></description>
     <releaseNotes>https://help.webex.com/en-us/mqkve8/Webex-Teams-Release-Notes</releaseNotes>
+    <dependencies>
+      <dependency id="webex" version="41.4.0.18516" />
+    </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
+  <files></files>
 </package>

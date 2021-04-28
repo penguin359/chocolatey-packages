@@ -16,7 +16,7 @@
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl>https://twitter.com/webex</mailingListUrl>-->
-    <bugTrackerUrl>https://help.webex.com/contact</bugTrackerUrl>
+    <!-- <bugTrackerUrl>https://help.webex.com/contact</bugTrackerUrl> -->
     <tags>webex-meeting video web conference conferencing online meeting</tags>
     <summary>Simply the Best Video Conferencing and Online Meetings.</summary>
     <description><![CDATA[Simply the Best Video Conferencing & Online Meetings.

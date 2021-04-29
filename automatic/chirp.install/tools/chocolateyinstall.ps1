@@ -4,7 +4,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName  
   fileType      = 'exe'
-  file          = "$toolsDir\chirp-daily-20210428-installer.exe"
+  file          = "$toolsDir\chirp-daily-20210429-installer.exe"
   silentArgs    = '/S'
 }
 

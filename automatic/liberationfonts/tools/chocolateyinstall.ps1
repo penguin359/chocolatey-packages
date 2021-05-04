@@ -12,8 +12,8 @@ $packageArgs = @{
     unzipLocation  = $tempPath
     specificFolder = 'ttf'
 
-    url            = 'https://github.com/liberationfonts/liberation-fonts/files/6026893/liberation-fonts-ttf-2.1.3.tar.gz'
-    checksum       = '8947bb7c0ad4d0d25b6ae93d40ec5fbe3dbbd4de21b81a62aa0c41a801e36fdd'
+    url            = 'https://github.com/liberationfonts/liberation-fonts/files/6418984/liberation-fonts-ttf-2.1.4.tar.gz'
+    checksum       = '26f85412dd0aa9d061504a1cc8aaf0aa12a70710e8d47d8b65a1251757c1a5ef'
     checksumType   = 'sha256'
 }
  

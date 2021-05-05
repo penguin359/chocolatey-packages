@@ -5,8 +5,8 @@ $packageArgs = @{
   packageName = $env:ChocolateyPackageName
 
   filetype    = "MSI"
-  file        = "$toolsDir\wireguard-x86-0.3.11.msi"
-  file64      = "$toolsDir\wireguard-amd64-0.3.11.msi"
+  file        = "$toolsDir\wireguard-x86-0.3.12.msi"
+  file64      = "$toolsDir\wireguard-amd64-0.3.12.msi"
 
   silentArgs  = "/qn /norestart /l*v `"$env:TEMP\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`" DO_NOT_LAUNCH=1"  
 }

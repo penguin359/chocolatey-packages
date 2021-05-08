@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/stephenegriffin/mfcmapi/releases/download/20.2.20104.1136/MFCMAPI.exe.20.2.20104.1136.zip
-   x64: https://github.com/stephenegriffin/mfcmapi/releases/download/20.2.20104.1136/MFCMAPI.exe.x64.20.2.20104.1136.zip
+   x32: https://github.com/stephenegriffin/mfcmapi/releases/download/21.0.21127.03/MFCMAPI.exe.21.0.21127.03.zip
+   x64: https://github.com
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 53A88C444271BF57CE9DEF1F07C68EDAA7686360E11336544C3FEE1C6BE7C0A6
-   checksum64: 7651D01EE9321BB923A8876495D8AD2ADC80E9BE6E6B725D4381327AA649BBD9
+   checksum32: 8119C78088A6BDAC7DE4A789492545F56CE238F31E0A59CEF0E43CB5B8B11512
+   checksum64: 111ABEE0916181DDFDD2667DA1E29FC6779607DE0D6268E633AD2E313D7B2F82
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/stephenegriffin/mfcmapi/master/license.md

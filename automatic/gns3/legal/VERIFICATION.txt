@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/GNS3/gns3-gui/releases/download/v2.2.20/GNS3-2.2.20-all-in-one.exe
-   x64: https://github.com/GNS3/gns3-gui/releases/download/v2.2.20/GNS3-2.2.20-all-in-one.exe
+   x32: https://github.com/GNS3/gns3-gui/releases/download/v2.2.21/GNS3-2.2.21-all-in-one.exe
+   x64: https://github.com/GNS3/gns3-gui/releases/download/v2.2.21/GNS3-2.2.21-all-in-one.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: A1BDFC20403FD228D846C176A6D70C9C9968785F493340C03CC8A315DBDF946F
-   checksum64: A1BDFC20403FD228D846C176A6D70C9C9968785F493340C03CC8A315DBDF946F
+   checksum32: 62C76D0C0443F5A405BF26288558608DDB5D0DE979C0CFC9E0E430C8FD8CF663
+   checksum64: 62C76D0C0443F5A405BF26288558608DDB5D0DE979C0CFC9E0E430C8FD8CF663
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/GNS3/gns3-gui/master/LICENSE

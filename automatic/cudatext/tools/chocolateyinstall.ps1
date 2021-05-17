@@ -8,7 +8,7 @@ if (!$pp['InstallationPath']) { $pp['InstallationPath'] = 'C:\CudaText' }
 $packageArgs = @{
   packageName = $env:ChocolateyPackageName
   destination = $pp['InstallationPath']  
-  file64      = "$toolsDir\cudatext-win-x64-1.133.0.8.zip"
+  file64      = "$toolsDir\cudatext-win-x64-1.133.1.0.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs

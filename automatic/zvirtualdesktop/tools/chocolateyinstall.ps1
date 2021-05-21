@@ -8,7 +8,7 @@ $packageArgs = @{
   file          = "$toolsDir\zVirtualDesktop.exe"
 
   url           = 'https://zomp.co/Files.aspx?id=zVDEXE'
-  checksum      = '1AB76D351593F30B50BEA15D0D0E37F85ED120B6DE989DF530C30D4E74F60A61'
+  checksum      = 'EF5CB8BE297A63F773BFCB0E123945C5CCA37908F414F3E45DF0DBD0AC831507'
   checksumType  = 'sha256'
 }
 

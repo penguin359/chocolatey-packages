@@ -4,8 +4,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = "$env:ProgramFiles\AGW_Chateaux"
 
-  url           = 'http://f1agw.free.fr/AGW_Chateaux/AGW_Chateaux_178_SI.zip'
-  checksum      = '044a822842e4cb8da2984e35b2991afc65dc70d05908bc5a4d4caa7e5978cb2c'
+  url           = 'http://f1agw.free.fr/AGW_Chateaux/AGW_Chateaux_179_SI.zip'
+  checksum      = '8f27661c1fafe55c72d5feb2c1f2516dc56acd1812875bf445d6584344842849'
   checksumType  = 'sha256'
 }
 

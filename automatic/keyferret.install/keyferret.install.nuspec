@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>keyferret.install</id>
-    <version>2.6</version>
+    <version>3.0</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/keyferret.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>Keyferret (Install)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://www.keyferret.com/contact</bugTrackerUrl>
     <tags>keyferret.install unicode keyboard input</tags>
     <summary>Intuitive Unicode keyboard input. Type accents, symbols, maths, Cyrillic, Greek and IPA in any Windows application.</summary>
-    <description><![CDATA[
-Keyferret is a simple way to type characters that you don't normally find on your keyboard, in any Windows application, using the Right Alt (AltGr) key. For example:
+    <description><![CDATA[Keyferret is a simple way to type characters that you don't normally find on your keyboard, in any Windows application, using the Right Alt (AltGr) key. For example:
 
 - à: Type a, then RAlt+\`
 - œ: Type RAlt+oe

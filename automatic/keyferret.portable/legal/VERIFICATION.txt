@@ -1,4 +1,4 @@
-﻿VERIFICATION
+VERIFICATION
  
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
@@ -7,15 +7,15 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: http://www.keyferret.com/download/7/keyferret-2.6.zip
-   x64: http://www.keyferret.com/download/7/keyferret-2.6.zip
+   x32: http://www.keyferret.com/download/7/keyferret-3.0.zip
+   x64: http://www.keyferret.com/download/7/keyferret-3.0.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: DB37F4D0D44E9D5073D2B3BF32DDB84C25E64AB30ADBD5A4CFAA3B890C7EE995
-   checksum64: DB37F4D0D44E9D5073D2B3BF32DDB84C25E64AB30ADBD5A4CFAA3B890C7EE995
+   checksum32: 9EBEF07EF41A31A8AFEF16E664D6A0B1F7DFDC39338F24379A44D5FD4C757489
+   checksum64: 9EBEF07EF41A31A8AFEF16E664D6A0B1F7DFDC39338F24379A44D5FD4C757489
  
 File 'LICENSE.txt' is obtained from: keyferret\license.txt in the zip file.

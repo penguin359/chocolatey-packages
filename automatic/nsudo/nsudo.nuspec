@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>nsudo</id>
-    <version>8.0.1</version>
+    <version>8.2</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/nsudo</packageSourceUrl>
     <owners>chtof</owners>
     <title>NSudo - A Powerful System Administration Tool</title>

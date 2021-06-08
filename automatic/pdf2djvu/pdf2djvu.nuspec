@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>pdf2djvu</id>
-    <version>0.9.17</version>
+    <version>0.9.18</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/pdf2djvu</packageSourceUrl>
     <owners>chtof</owners>
     <title>pdf2djvu</title>

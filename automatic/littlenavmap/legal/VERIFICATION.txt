@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-win-2.6.11.zip
-   x64: https://github.com/albar965/littlenavmap/releases/download/v2.6.11/LittleNavmap-win-2.6.11.zip
+   x32: https://github.com/albar965/littlenavmap/releases/download/v2.6.13/LittleNavmap-win-2.6.13.zip
+   x64: https://github.com/albar965/littlenavmap/releases/download/v2.6.13/LittleNavmap-win-2.6.13.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 17FE48328D3AAC236C8C93A39191D4802C488B7825C4D119710F47C56E6318E2
-   checksum64: 17FE48328D3AAC236C8C93A39191D4802C488B7825C4D119710F47C56E6318E2
+   checksum32: E191AFB9B2473C87C9C8B8C0E27ADFE5FDA347AE26D0C4848CA41EE16DEA7F64
+   checksum64: E191AFB9B2473C87C9C8B8C0E27ADFE5FDA347AE26D0C4848CA41EE16DEA7F64
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/albar965/littlenavmap/master/LICENSE.txt

@@ -5,7 +5,7 @@ $packageArgs = @{
   fileType     = 'MSI'
 
   url          = 'https://akamaicdn.webex.com/client/webexapp.msi'
-  checksum     = '3fc0d9b439b2873e5c870b955c137a9ae94c36b6b4ffd3c34a7331af6c8f0a355b624eb98680af428f8d23beef896cf2d3694ecbdce9e5f8279ac86637398e4c'  
+  checksum     = '979b959763d040c3afb4ef44dd1f7b946d96c4483a01485726a8f4bc219bda4639358d89961e2258002e5c120e8bcc5fa18572c47088494b46cc76326e0ab112'  
   checksumType = 'sha512'
 
   silentArgs   = "/qn /norestart /l*v `"$env:TEMP\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`" AUTOOC=0"

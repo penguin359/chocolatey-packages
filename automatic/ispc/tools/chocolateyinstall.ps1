@@ -5,7 +5,7 @@ $packageArgs = @{
   packageName = $env:ChocolateyPackageName
   fileType    = 'MSI'
 
-  file        = "$toolsDir\ispc-v1.15.0-windows.msi&response-content-type=application%2Foctet-stream"
+  file        = "$toolsDir\ispc-v1.16.0-windows.msi&response-content-type=application%2Foctet-stream"
   silentArgs   = "/qn /norestart /l*v `"$env:TEMP\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`" AUTOOC=0"
 }
 

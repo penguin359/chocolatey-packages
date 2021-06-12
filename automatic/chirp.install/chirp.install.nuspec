@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>chirp.install</id>
-    <version>2021.05.20</version>
+    <version>2021.06.12</version>
 	  <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/chirp.install</packageSourceUrl>
 	  <owners>chtof</owners>
     <title>CHIRP (Install)</title>

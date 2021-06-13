@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ultraviewer</id>
-    <version>6.2.0.20201207</version>
+    <version>6.3</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/ultraviewer</packageSourceUrl>
     <owners>chtof</owners>
     <title>UltraViewer</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://ultraviewer.net/en/contact.html</bugTrackerUrl>
     <tags>ultraviewer.install ultra viewer remote control support online</tags>
     <summary>UltraViewer helps you control your partner's computer to support them as if you were sitting in front of their screen.</summary>
-    <description><![CDATA[
-## Features
+    <description><![CDATA[## Features
 
 **Remote support so easy**
 Remote control to support your clients / partners from everywhere.
@@ -79,11 +78,11 @@ You ask your partner to send you the ID and Password displayed on their UltraVie
 ### How to allow remote control
 You run UltraViewer and send ID and Password displayed on your UltraViewer to your partner and require them connect to that ID and Password.
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ultraviewer.install/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/ultraviewer/screenshot.png)
 ]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <dependencies>
-      <dependency id="ultraviewer.install" version="[6.2]" />
+      <dependency id="ultraviewer.install" version="6.3" />
     </dependencies>
   </metadata>
   <files></files>

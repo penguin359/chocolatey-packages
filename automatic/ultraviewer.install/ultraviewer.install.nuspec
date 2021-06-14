@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ultraviewer.install</id>
-    <version>6.2.0.20201207</version>
+    <version>6.3</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/ultraviewer.install</packageSourceUrl>
     <owners>chtof</owners>
     <title>UltraViewer (Install)</title>
@@ -19,8 +19,7 @@
     <bugTrackerUrl>https://ultraviewer.net/en/contact.html</bugTrackerUrl>
     <tags>ultraviewer.install ultra viewer remote control support online</tags>
     <summary>UltraViewer helps you control your partner's computer to support them as if you were sitting in front of their screen.</summary>
-    <description><![CDATA[
-## Features
+    <description><![CDATA[## Features
 
 **Remote support so easy**
 Remote control to support your clients / partners from everywhere.

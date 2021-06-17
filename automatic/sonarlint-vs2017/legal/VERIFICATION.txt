@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/SonarSource/sonarlint-visualstudio/releases/download/v4.33.1.28913/SonarLint.VSIX-4.33.1.28913-2017.vsix
-   x64: https://github.com/SonarSource/sonarlint-visualstudio/releases/download/v4.33.1.28913/SonarLint.VSIX-4.33.1.28913-2017.vsix
+   x32: https://github.com/SonarSource/sonarlint-visualstudio/releases/download/v4.35.0.32570/SonarLint.VSIX-4.35.0.32570-2017.vsix
+   x64: https://github.com/SonarSource/sonarlint-visualstudio/releases/download/v4.35.0.32570/SonarLint.VSIX-4.35.0.32570-2017.vsix
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: D0813A13140BB0FD009B5CC98160EC5AF7668D582129F80AE5B6212D90CFA3E3
-   checksum64: D0813A13140BB0FD009B5CC98160EC5AF7668D582129F80AE5B6212D90CFA3E3
+   checksum32: 2C2070A67BB2BDC9934EBA2EADEDB1386C0BC01B513A0055DDC25D967611E7CB
+   checksum64: 2C2070A67BB2BDC9934EBA2EADEDB1386C0BC01B513A0055DDC25D967611E7CB
  
 File 'LICENSE.txt' is obtained from:
    https://marketplace.visualstudio.com/items/SonarSource.SonarLintforVisualStudio2017/license

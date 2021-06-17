@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>  
     <id>agwchateaux.portable</id>    
-    <version>1.7.8</version>    
+    <version>1.7.9</version>    
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/agwchateaux.portable</packageSourceUrl>    
     <owners>chtof</owners>    
     <title>AGW Châteaux (Portable)</title>

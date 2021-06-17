@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>tesseract</id>
-    <version>5.0.0.20201127-alpha</version>
+    <version>5.0.0.20210506-alpha</version>
     <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/tesseract</packageSourceUrl>
     <owners>chtof</owners>
     <title>Tesseract Open Source OCR Engine</title>

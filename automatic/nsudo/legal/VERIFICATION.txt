@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/M2Team/NSudo/releases/download/8.0.1/NSudo_8.0.1_All_Components.zip
-   x64: https://github.com/M2Team/NSudo/releases/download/8.0.1/NSudo_8.0.1_All_Components.zip
+   x32: https://github.com/M2Team/NSudo/releases/download/8.2/NSudo_8.2_All_Components.zip
+   x64: https://github.com/M2Team/NSudo/releases/download/8.2/NSudo_8.2_All_Components.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 4C6EC2029064295D64864C2154E1AC5FA887F5A43E72290CC3619C6907C58E96
-   checksum64: 4C6EC2029064295D64864C2154E1AC5FA887F5A43E72290CC3619C6907C58E96
+   checksum32: 346E38030CC9EEEF48223804BA27631DB96691D68BFC5D1728140D468F555204
+   checksum64: 346E38030CC9EEEF48223804BA27631DB96691D68BFC5D1728140D468F555204
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/M2Team/NSudo/master/License.md

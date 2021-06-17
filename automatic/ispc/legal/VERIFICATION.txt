@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github-production-release-asset-2e65be.s3.amazonaws.com/1931356/b8f9de80-417e-11eb-89a4-d011d116a6e6?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210110%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210110T014845Z&X-Amz-Expires=300&X-Amz-Signature=209277262205acc4811e1705569eac07fd04d5aa2827a871b32b7d300a356903&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=1931356&response-content-disposition=attachment%3B%20filename%3Dispc-v1.15.0-windows.msi&response-content-type=application%2Foctet-stream
-   x64: https://github-production-release-asset-2e65be.s3.amazonaws.com/1931356/b8f9de80-417e-11eb-89a4-d011d116a6e6?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210110%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210110T014845Z&X-Amz-Expires=300&X-Amz-Signature=209277262205acc4811e1705569eac07fd04d5aa2827a871b32b7d300a356903&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=1931356&response-content-disposition=attachment%3B%20filename%3Dispc-v1.15.0-windows.msi&response-content-type=application%2Foctet-stream
+   x32: https://github-releases.githubusercontent.com/1931356/9f5ba300-cae0-11eb-9056-d9e02f5741bd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T082216Z&X-Amz-Expires=300&X-Amz-Signature=331e12aa361a77bed8bc6b2a7b345bec3059f86f50c57bc2784e6437be9faa2d&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=1931356&response-content-disposition=attachment%3B%20filename%3Dispc-v1.16.0-windows.msi&response-content-type=application%2Foctet-stream
+   x64: https://github-releases.githubusercontent.com/1931356/9f5ba300-cae0-11eb-9056-d9e02f5741bd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210612T082216Z&X-Amz-Expires=300&X-Amz-Signature=331e12aa361a77bed8bc6b2a7b345bec3059f86f50c57bc2784e6437be9faa2d&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=1931356&response-content-disposition=attachment%3B%20filename%3Dispc-v1.16.0-windows.msi&response-content-type=application%2Foctet-stream
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: D856B795B653873271692E63CEA54F2152EB9D2B3A84B235F5040513467D931F
-   checksum64: D856B795B653873271692E63CEA54F2152EB9D2B3A84B235F5040513467D931F
+   checksum32: 48189455F7DF1F0E4E8DDF5ACF58270B5089AF4CBC279488440257F22F08F121
+   checksum64: 48189455F7DF1F0E4E8DDF5ACF58270B5089AF4CBC279488440257F22F08F121
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/ispc/ispc/master/LICENSE.txt

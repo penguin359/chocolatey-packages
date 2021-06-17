@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/jwilk/pdf2djvu/releases/download/0.9.17/pdf2djvu-win32-0.9.17.zip
-   x64: https://github.com/jwilk/pdf2djvu/releases/download/0.9.17/pdf2djvu-win32-0.9.17.zip
+   x32: https://github.com/jwilk/pdf2djvu/releases/download/0.9.18/pdf2djvu-win32-0.9.18.zip
+   x64: https://github.com/jwilk/pdf2djvu/releases/download/0.9.18/pdf2djvu-win32-0.9.18.zip
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 31E45AD0C0866BD4A286C30DE63F00ABA455FC00FFB84D6254B017A688A39E75
-   checksum64: 31E45AD0C0866BD4A286C30DE63F00ABA455FC00FFB84D6254B017A688A39E75
+   checksum32: 2484E7A8EC59ED463E83932CBC056CDCFAE6F667C178AE829808B575BBDC7849
+   checksum64: 2484E7A8EC59ED463E83932CBC056CDCFAE6F667C178AE829808B575BBDC7849
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/jwilk/pdf2djvu/master/COPYING

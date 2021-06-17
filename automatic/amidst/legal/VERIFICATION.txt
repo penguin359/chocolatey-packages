@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com//toolbox4minecraft/amidst/releases/download/v4.4/amidst-v4-4.exe
-   x64: https://github.com//toolbox4minecraft/amidst/releases/download/v4.4/amidst-v4-4.exe
+   x32: https://github.com//toolbox4minecraft/amidst/releases/download/v4.7/amidst-v4-7.exe
+   x64: https://github.com//toolbox4minecraft/amidst/releases/download/v4.7/amidst-v4-7.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 16F9187FFE457524AB39FC473CD1411AA795290CC2E66719FD47501213AC86F9
-   checksum64: 16F9187FFE457524AB39FC473CD1411AA795290CC2E66719FD47501213AC86F9
+   checksum32: 1AB1FC63EC206BFC196177F4E1F4EC0FAD539F1F836B08AA3D6B2239A09C35C6
+   checksum64: 1AB1FC63EC206BFC196177F4E1F4EC0FAD539F1F836B08AA3D6B2239A09C35C6
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/toolbox4minecraft/amidst/master/LICENSE.txt

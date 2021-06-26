@@ -4,8 +4,8 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
-  file          = "$toolsDir\MoonlightPortable-x86-3.1.3.zip"
-  file64        = "$toolsDir\MoonlightPortable-x64-3.1.3.zip"
+  file          = "$toolsDir\MoonlightPortable-x86-3.1.4.zip"
+  file64        = "$toolsDir\MoonlightPortable-x64-3.1.4.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs

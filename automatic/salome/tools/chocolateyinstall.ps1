@@ -5,8 +5,8 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = "$toolsDir"
 
-  url64         = 'https://www.salome-platform.org/downloads/current-version/DownloadDistr?platform=SP.W10EXE&amp;version=9.6.0'
-  checksum64    = 'f66775d714d81659d25d8d2dc5869455b35dfe97b6fc5dee98fc08f0aab8dd7a'
+  url64         = 'https://www.salome-platform.org/downloads/current-version/DownloadDistr?platform=SP.W10EXE&amp;version=9.7.0'
+  checksum64    = '7589d92196fb7254506feed34a052d5e24bf7826c84d369081a0b7c2ea658ed8'
   checksumType64= 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs

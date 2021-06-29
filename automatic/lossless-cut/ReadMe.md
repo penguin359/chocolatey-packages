@@ -18,11 +18,12 @@ Command-line options for installer configuration:
 - `/InstallDir:PATH`
 - `/NoDesktopShortcut` Do not create Desktop Shortcut
 - `/NoStartMenuShortcut` Do not create Start Menu Shortcut
-- `/NoStartMenuShortcut` Do not create Send To Shortcut
+- `/NoSendToShortcut` Do not create Send To Shortcut
+- `/DontRegisterApp` Do not register app
 
 ### Examples
 - Portable mode:
-`choco install lossless-cut --params "/InstallDir:C:\your\install\path /NoDesktopShortcut /NoStartMenuShortcut /NoSendToShortcut"`\
+`choco install lossless-cut --params "/InstallDir:C:\your\install\path /NoDesktopShortcut /NoStartMenuShortcut /NoSendToShortcut /DontRegisterApp"`\
 
 ### Default Parameters
 By default, **installation** of this package:

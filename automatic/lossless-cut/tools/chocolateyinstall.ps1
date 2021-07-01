@@ -43,7 +43,7 @@ If (-Not( $PackageParameters.NoDesktopShortcut )) {
 # Add SendTo shortcut
 If (-Not( $PackageParameters.NoSendToShortcut )) {
   $programsPath = "$env:APPDATA\Microsoft\Windows\SendTo\"
-  $programsFilePath = Join-Path $sendtoPath "Merge media in LosslessCut.lnk"
+  $programsFilePath = Join-Path "$programsPath" "Merge media in LosslessCut.lnk"
   Install-ChocolateyShortcut -shortcutFilePath "$programsFilePath" -targetPath "$targetPath"
 }
 

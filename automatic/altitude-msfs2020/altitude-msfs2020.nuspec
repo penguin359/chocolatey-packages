@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>altitude-msfs2020</id>
-    <version>1.10.2-beta</version>
+    <version>1.10.4-beta</version>
     <title>Altitude for Microsoft Flight Simulator 2020 (MSFS2020)</title>
     <authors>International Virtual Aviation Organisation.</authors>
     <owners>chtof</owners>
@@ -10,7 +10,7 @@
     <!--<licenseUrl>https://mediawiki.ivao.aero/index.php?title=End_User_License_Agreement_OF_IVAO_Pilot_Software</licenseUrl>-->
     <projectUrl>https://www.ivao.aero/softdev/beta/altitudebeta.asp</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/altitude-msfs2020/altitude-msfs2020.png</iconUrl>    
-    <description>Plug-in which allows Microsoft Flight Simulator 2020 to connect to the IVAO network.
+    <description><![CDATA[Plug-in which allows Microsoft Flight Simulator 2020 to connect to the IVAO network.
 
 ## NOTES
 
@@ -27,7 +27,9 @@ Link to FAQ: http://forum.ivao.aero/index.php?board=1888.0
 
 ## PREREQUISITES
 Microsoft Flight Simulator 2020 must be installed.
-![Altitude for Microsoft Flight Simulator 2020 (MSFS2020)](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/altitude-msfs2020/screenshot.png)</description>
+
+![Altitude for Microsoft Flight Simulator 2020 (MSFS2020)](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/altitude-msfs2020/screenshot.png)
+]]></description>
     <summary>Plug-in which allows Microsoft Flight Simulator 2020 to connect to the IVAO network.</summary>
     <copyright>2020 © International Virtual Aviation Organisation. All Rights Reserved.</copyright>
     <tags>altitude-msfs2020 altitude ivao pilot microsoft ms flight simulator fs 2020</tags>

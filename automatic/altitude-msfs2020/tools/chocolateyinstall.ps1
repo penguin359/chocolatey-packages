@@ -6,7 +6,7 @@ $packageArgs = @{
   destination   = "$toolsDir"
 
   url           = 'https://api.ivao.aero/v2/softwares/altitude/5/files/latest/download'
-  checksum      = '7823a444f5539dd71df9f0adc84c58d60062a5c6d462bb32dca95254c3a206f5'
+  checksum      = '0c66a16eb4b28af7e7886ecdda7941898c269d5c745412fa34e57dbc2665177c'
   checksumType  = 'sha256'
 
   silentArgs    = '/S'
@@ -22,6 +22,6 @@ $packageArgs = @{
   silentArgs    = '/S'
 }
 
-Write-Warning "The installation takes several dozens of minutes as MTL libraries are downloaded."
+Write-Warning "The installation takes several dozens of minutes while MTL libraries are downloaded."
 
 Install-ChocolateyInstallPackage @packageArgs

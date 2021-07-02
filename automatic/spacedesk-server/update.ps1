@@ -2,7 +2,8 @@
 
 function global:au_GetLatest {
     $releases = 'https://spacedesk.net'
-    $regexVersion = 'spacedesk DRIVER (Beta )?(III )?v(?<Version>[\d\.]+)\</td\>'
+    $regexVersion = 'spacedesk DRIVER( Beta)?( III)?( RC)? v(?<Version>[\d\.]+)\</td\>'
+
     <# $regex_Win_10_64  = 'spacedesk_driver_Win_10_64_v\d+_BETA.msi'
     $regex_Win_10_32  = 'spacedesk_driver_Win_10_32_v\d+_BETA.msi'
     $regex_Win_8_1_64 = 'spacedesk_driver_Win_8.1_64_v\d+_BETA.msi'
@@ -12,7 +13,7 @@ function global:au_GetLatest {
     #https://spacedesk.net/downloads/spacedesk_driver_Win_8.1_64_v0943_BETA.msi
     #https://spacedesk.net/downloads/spacedesk_driver_Win_8.1_32_v0943_BETA.msi
 
-    <# $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
     $download_page.Content -match $regexVersion | Out-Null
     $version = $matches.Version
     $url32 = $download_page.links | ? href -match $regex_Win_10_32

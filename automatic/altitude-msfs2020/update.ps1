@@ -1,6 +1,14 @@
 import-module au
 
-function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
+#function global:au_BeforeUpdate { Get-RemoteFiles -NoSuffix -Purge }
+
+function global:au_BeforeUpdate {
+    Remove-Item "$PSScriptRoot\tools\*.zip"
+    Invoke-WebRequest -Uri 'https://api.ivao.aero/v2/softwares/altitude/5/files/latest/download' -OutFile "$PSScriptRoot\tools\Altitude_MSFS_2020.zip"
+
+    $Latest.ChecksumType32 = 'sha256'
+    $Latest.Checksum32     = Get-RemoteChecksum $Latest.URL32 -Algorithm $Latest.ChecksumType32
+}
 
 function global:au_GetLatest {    
     $releases = "https://www.ivao.aero/softdev/beta/altitudebeta.asp"    
@@ -11,27 +19,17 @@ function global:au_GetLatest {
     $version = $matches.Version.Replace('b', '-beta')
 
     return @{
-        Version = $version
-        URL32   = 'https://api.ivao.aero/v2/softwares/altitude/52/files/latest/download'
+        Version    = $version
+        URL32      = 'https://api.ivao.aero/v2/softwares/altitude/5/files/latest/download'        
     }
 }
 
 function global:au_SearchReplace {
     @{
-       "legal\VERIFICATION.txt"  = @{            
-            "(?i)(x32: ).*"               = "`${1}$($Latest.URL32)"
-            "(?i)(x64: ).*"               = "`${1}$($Latest.URL32)"            
-            "(?i)(checksum type:\s+).*" = "`${1}$($Latest.ChecksumType32)"
-            "(?i)(checksum32:).*"       = "`${1} $($Latest.Checksum32)"
-            "(?i)(checksum64:).*"       = "`${1} $($Latest.Checksum32)"
-        }
-
         "tools\chocolateyinstall.ps1" = @{
           "(^(\s)*checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
         }
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { # run the update only if script is not sourced
-    update -ChecksumFor none
-}
+update -ChecksumFor none

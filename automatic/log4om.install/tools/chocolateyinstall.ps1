@@ -10,7 +10,7 @@ $packageArgs = @{
   fileFullPath  = "$toolsDir\Log4OM2_2_14_1_0.zip"  
 }
 Get-ChocolateyUnzip @packageArgs
-Remove-Item -Path @packageArgs.fileFullPath
+Remove-Item -Path $packageArgs.fileFullPath
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName  

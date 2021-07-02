@@ -13,21 +13,25 @@ Simple and ultra fast cross platform tool for lossless trimming/cutting of video
 - Apply a timecode offset
 - Change rotation/orientation metadata in videos. Great for rotating phone videos that come out the wrong way without actually re-encoding the video.
 
-## Package installation defaults
+## Package Parameters
+Command-line options for installer configuration:
+- `/InstallDir:PATH`
+- `/NoDesktopShortcut` Do not create Desktop Shortcut
+- `/NoStartMenuShortcut` Do not create Start Menu Shortcut
+- `/NoSendToShortcut` Do not create Send To Shortcut
+- `/DontRegisterApp` Do not register app
 
+### Examples
+- Portable mode:
+`choco install lossless-cut --params "/InstallDir:C:\your\install\path /NoDesktopShortcut /NoStartMenuShortcut /NoSendToShortcut /DontRegisterApp"`\
+
+### Default Parameters
 By default, **installation** of this package:
 - Will be installed in Chocolatey tools directory.
-- Will _NOT_ install a desktop icon.
-- Will install a start menu shorcut.
-
-## Package parameters
-- `/InstallDir` - Installation directory, by default Chocolatey tools directory.
-- `/DesktopIcon` - Create a desktop shortcut.
-- `/NoStartMenu` - Do not create a start menu shortcut.
-
-**Example:**
-`choco install lossless-cut --params '"/InstallDir:C:\your\install\path /DesktopIcon /NoStartMenu"'`
+- Will install a Desktop shortcut.
+- Will install a Start Menu shortcut.
+- Will install a Sent To shortcut.
 
 To have choco remember parameters on upgrade, be sure to set `choco feature enable -n=useRememberedArgumentsForUpgrades`
 
-![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/lossless-cut/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/lossless-cut/screenshot.gif)

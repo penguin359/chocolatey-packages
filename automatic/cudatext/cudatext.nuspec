@@ -15,7 +15,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/Alexey-T/CudaText</projectSourceUrl>
     <docsUrl>https://wiki.freepascal.org/CudaText</docsUrl>
-    <mailingListUrl>http://synwrite.sourceforge.net/forums</mailingListUrl>
+    <!--<mailingListUrl>http://synwrite.sourceforge.net/forums</mailingListUrl>-->
     <bugTrackerUrl>https://github.com/alexey-t/cudatext/issues</bugTrackerUrl>
     <tags>cudatext cross-platform code editor</tags>
     <summary>Cross-platform code editor, with syntax highlight for 180+ languages. Has lite interface with tabs. Has JSON config files instead of options-dialog. Supports Python plugins</summary>
@@ -58,7 +58,7 @@ To have choco remember parameters on upgrade, be sure to set `choco feature enab
 - Show pictures inside editor area (jpeg/png/gif/bmp/ico).
 - Show tooltip when mouse moves over picture tag, entity, color value.
 ]]></description>
-    <releaseNotes>http://uvviewsoft.com/cudatext/history.txt</releaseNotes>
+    <!--<releaseNotes>http://uvviewsoft.com/cudatext/history.txt</releaseNotes>-->
   </metadata>
   <files>
     <file src="legal\**" target="legal" />

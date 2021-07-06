@@ -3,7 +3,7 @@ import-module au
 
 function global:au_GetLatest {
     $releases = 'https://steelseries.com/engine'
-    $regex   = '>Download Engine (?<Version>[\d\.]+)<'
+    $regex   = '>Download Engine (?<Version>[\d\.]+)\ ?<'
 
     (Invoke-WebRequest -Uri $releases -UseBasicParsing) -match $regex
 

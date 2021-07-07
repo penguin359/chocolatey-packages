@@ -1,6 +1,9 @@
 ﻿$ErrorActionPreference = 'Stop'
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 # The code structure for this from https://chocolatey.org/packages/hackfont
- 
+
+Remove-Item $toolsDir\*.tar.gz -ErrorAction SilentlyContinue
+
 # create temp directory
 do {
     $tempPath = Join-Path -Path $env:TEMP -ChildPath ([System.Guid]::NewGuid().ToString())
@@ -9,16 +12,21 @@ New-Item -ItemType Directory -Path $tempPath | Out-Null
  
 $packageArgs = @{
     packageName    = $env:ChocolateyPackageName
-    unzipLocation  = $tempPath
-    specificFolder = 'ttf'
+    unzipLocation  = $toolsDir
 
     url            = 'https://github.com/liberationfonts/liberation-fonts/files/6418984/liberation-fonts-ttf-2.1.4.tar.gz'
     checksum       = '26f85412dd0aa9d061504a1cc8aaf0aa12a70710e8d47d8b65a1251757c1a5ef'
     checksumType   = 'sha256'
 }
- 
 Install-ChocolateyZipPackage @packageArgs
- 
+
+$packageArgs = @{
+    packageName    = $env:ChocolateyPackageName
+    destination    = "$tempPath"    
+    file           =  (Get-ChildItem "$toolsDir\liberation-fonts-ttf-*.tar").FullName
+}
+Get-ChocolateyUnzip @packageArgs
+
 # Obtain system font folder for extraction
 $shell = New-Object -ComObject Shell.Application
 $fontsFolder = $shell.Namespace(0x14)

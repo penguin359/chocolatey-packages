@@ -7,16 +7,16 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/jackaudio/jack2-releases/releases/download/v1.9.18/jack2-win32-v1.9.18.exe
-   x64: https://github.com/jackaudio/jack2-releases/releases/download/v1.9.18/jack2-win64-v1.9.18.exe
+   x32: https://github.com/jackaudio/jack2-releases/releases/download/v1.9.19/jack2-win32-v1.9.19.exe
+   x64: https://github.com/jackaudio/jack2-releases/releases/download/v1.9.19/jack2-win64-v1.9.19.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: B95D27D0B4D6273285D273B73697101F43854F18C65970E2AABEAD636E9D1A4F
-   checksum64: 8E1CC8B06533C62CEDCBC0D10FAF247062F7EC08227DA74C4AC5B0A703BA0DAE
+   checksum32: 998F580633054A3D3C6816D841C55AFA700B799027EC43990E8E69503BA528DD
+   checksum64: B05D111ACFC923B2B0C4368500A74B7CED99A45A22AE10EC27EBEBAEBC92D9C8
  
 File 'LICENSE.txt' is obtained from:
    https://raw.githubusercontent.com/jackaudio/jack2/develop/windows/Setup/src/COPYING

@@ -1,11 +1,11 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 if ( [environment]::OSVersion.Version.Major -ge 10 )  {
-  $url32_win10      = 'https://spacedesk.net/downloads/spacedesk_driver_Win_10_32_v103_BETA.msi'
+  $url32_win10      = 'https://spacedesk.net/downloads/spacedesk_driver_Win_10_32_v104_BETA.msi'
   $checksum32_win10 = ''
   $url32            = $url32_win10
   $checksum32       = $checksum32_win10
-  $url64_win10      = 'https://spacedesk.net/downloads/spacedesk_driver_Win_10_64_v103_BETA.msi'
+  $url64_win10      = 'https://spacedesk.net/downloads/spacedesk_driver_Win_10_64_v104_BETA.msi'
   $checksum64_win10 = ''
   $url64            = $url64_win10
   $checksum64       = $checksum64_win10

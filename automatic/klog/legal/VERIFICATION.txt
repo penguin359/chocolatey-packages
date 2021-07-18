@@ -7,21 +7,21 @@ Package can be verified like this:
  
 1. Download:
  
-   x32: https://github.com/ea4k/klog/releases/download/1.6/KLog-1.6-windows-installer.exe
-   x64: https://github.com/ea4k/klog/releases/download/1.6/KLog-1.6-windows-installer.exe
+   x32: https://github.com/ea4k/klog/releases/download/1.7/KLog-1.7-windows-installer.exe
+   x64: https://github.com/ea4k/klog/releases/download/1.7/KLog-1.7-windows-installer.exe
   
 2. You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
  
    checksum type: sha256
-   checksum32: 5A8822AA8BBBCFF524A729DFA0FFD4E8FBCBB1E5ED022988C387105CE9FC916F
-   checksum64: 5A8822AA8BBBCFF524A729DFA0FFD4E8FBCBB1E5ED022988C387105CE9FC916F
+   checksum32: 6CD65F6C749E1C10ADD5D8619069DC9A70249BDCC81C774B1EA633A0754FFE4C
+   checksum64: 6CD65F6C749E1C10ADD5D8619069DC9A70249BDCC81C774B1EA633A0754FFE4C
  
 Using AU:
  
-   Get-RemoteChecksum https://github.com/ea4k/klog/releases/download/1.6/KLog-1.6-windows-installer.exe
-   Get-RemoteChecksum https://github.com/ea4k/klog/releases/download/1.6/KLog-1.6-windows-installer.exe
+   Get-RemoteChecksum https://github.com/ea4k/klog/releases/download/1.7/KLog-1.7-windows-installer.exe
+   Get-RemoteChecksum https://github.com/ea4k/klog/releases/download/1.7/KLog-1.7-windows-installer.exe
  
 File 'LICENSE.txt' is obtained from:
    https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt

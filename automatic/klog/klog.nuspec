@@ -17,7 +17,7 @@
     <projectSourceUrl>http://svn.sv.gnu.org/viewvc/?root=klog</projectSourceUrl>
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <mailingListUrl>https://www.klog.xyz/mailing-lists/</mailingListUrl>
-    <bugTrackerUrl>https://savannah.nongnu.org/bugs/?group=klog</bugTrackerUrl>
+    <!--<bugTrackerUrl>https://savannah.nongnu.org/bugs/?group=klog</bugTrackerUrl>-->
     <tags>klog log HAM radio amateur</tags>
     <summary>KLog is a Ham radio logging program for Linux / OSX / Windows.</summary>
     <description><![CDATA[KLog is the only hamradio logging program that can be executed in several operating systems!

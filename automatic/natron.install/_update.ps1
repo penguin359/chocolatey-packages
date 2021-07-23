@@ -7,7 +7,8 @@ function global:au_BeforeUpdate {
 function global:au_GetLatest {
   $github_repository = 'NatronGitHub/Natron'
   $releases = 'https://github.com/' + $github_repository + '/releases/latest'
-  $regex64  = 'Natron-(?<Version>[\d\.]+)-Windows-(x86_)?64(bit-setup)?.exe$'
+  #$regex64  = 'Natron-(?<Version>[\d\.]+)-Windows-(x86_)?64(bit-setup)?.exe$'
+  $regex64  = 'Natron-(?<Version>[\d\.]+)-Windows-(x86_)?64(bit-setup)?.zip$'  
 
   $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
   $url64         = $download_page.links | ? href -match $regex64 | select -First 1
@@ -15,7 +16,8 @@ function global:au_GetLatest {
 
     return @{
         Version = $version
-        URL64   = 'https://github.com' + $url64.href
+        #URL64   = 'https://github.com' + $url64.href
+        URL64   = $url64.href
     }
 }
 
@@ -23,8 +25,8 @@ function global:au_SearchReplace {
     @{
         "tools\chocolateyinstall.ps1" = @{
           "(^(\s)*url64\s*=\s*)('.*')"          = "`${1}'$($Latest.URL64)'"
-          "(^(\s)*checksum64\s*=\s*)('.*')"     = "`${1}'$($Latest.Checksum64)'"
-          "(^(\s)*[$]NatronDir\s*=\s*)("".*"")" = "`${1}""`${env:ProgramFiles}\INRIA\Natron-$($Latest.Version)"""
+          "(^(\s)*checksum64\s*=\s*)('.*')"     = "`${1}'$($Latest.Checksum64)'"          
+          "(?i)(^\s*file\s*=\s*`"[$]toolsDir\\)(.*)`""   = "`${1}Natron-($Latest.Version)-Windows-64\Setup.exe`""          
         }
     }
 }

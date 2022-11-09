@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>trustedqsl</id>
+    <version>2.6</version>
+    <packageSourceUrl>https://github.com/penguin359/chocolatey-packages</packageSourceUrl>
+    <owners>Loren M. Lang</owners>
+    <title>TQSL</title>
+    <authors>American Radio Relay League</authors>
+    <projectUrl>https://www.arrl.org/tqsl-download</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/GeoMaciolek/trustedqsl-tqsl/master/apps/icons/key128.png</iconUrl>
+    <copyright>(c) 2001-2020 American Radio Relay League</copyright>
+    <licenseUrl>https://www.rickmurphy.net/trustedqsl.org/tQSL-documents/licence.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://www.rickmurphy.net/trustedqsl.org/</projectSourceUrl>
+    <docsUrl>http://www.arrl.org/quick-start</docsUrl>
+    <mailingListUrl>https://groups.arrl.org/g/ARRL-LoTW/</mailingListUrl>
+    <bugTrackerUrl>https://trustedqsl.sourceforge.net/mantis/my_view_page.php</bugTrackerUrl>
+    <tags>trustedqsl HAM amateur radio</tags>
+    <summary>Open source libraries and utilities to support using digital signatures for Amateur
+radio QSL information</summary>
+    <description><![CDATA[This is the TrustedQSL project, which provides tools for digitally
+signing Amateur Radio QSO records.
+
+
+**Please Note**: This is an automatically updated package. If you find it is
+out of date by more than a day or two, please contact the maintainer(s) and
+let them know the package is no longer updating correctly.]]></description>
+    <releaseNotes>https://www.arrl.org/files/file/LoTW%20Instructions/TrustedQSL-2-6-release.pdf</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

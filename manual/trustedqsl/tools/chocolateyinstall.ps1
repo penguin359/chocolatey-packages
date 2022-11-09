@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'Trusted QSL*'
 
-  checksum      = '098419f3da2f2b603dd13dfdf39ca70d8a0804d8478addf72b6ec6c3910570ab'
+  checksum      = 'BB160CEE515703D4ADE975E0FC97C44494DBD910DA2B12B72FF47AF9818ADCEB'
   checksumType  = 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>trustedqsl</id>
-    <version>2.5.6</version>
+    <version>2.5.7</version>
     <packageSourceUrl>https://github.com/penguin359/chocolatey-packages</packageSourceUrl>
     <owners>Loren M. Lang</owners>
     <title>TQSL</title>
@@ -22,7 +22,7 @@
 radio QSL information</summary>
     <description><![CDATA[This is the TrustedQSL project, which provides tools for digitally
 signing Amateur Radio QSO records.]]></description>
-    <releaseNotes>https://www.arrl.org/files/file/LoTW%20Instructions/TrustedQSL-2-5-6-release.pdf</releaseNotes>
+    <releaseNotes>https://www.arrl.org/files/file/LoTW%20Instructions/TrustedQSL-2-5-7-release.pdf</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

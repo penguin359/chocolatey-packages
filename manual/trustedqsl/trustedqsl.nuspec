@@ -5,7 +5,7 @@
     <id>trustedqsl</id>
     <version>2.6</version>
     <packageSourceUrl>https://github.com/penguin359/chocolatey-packages</packageSourceUrl>
-    <owners>Loren M. Lang</owners>
+    <owners>penguin359</owners>
     <title>TQSL</title>
     <authors>American Radio Relay League</authors>
     <projectUrl>https://www.arrl.org/tqsl-download</projectUrl>

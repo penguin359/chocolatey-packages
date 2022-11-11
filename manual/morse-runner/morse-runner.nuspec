@@ -6,7 +6,7 @@
     <version>1.68</version>
     <packageSourceUrl>https://github.com/penguin359/chocolatey-packages</packageSourceUrl>
     <owners>penguin359</owners>
-    <title>morse-runner (Install)</title>
+    <title>Morse Runner</title>
     <authors>Alex Shovkoplyas</authors>
     <projectUrl>http://www.dxatlas.com/MorseRunner/</projectUrl>
     <iconUrl>http://rawcdn.githack.com/VE3NEA/MorseRunner/master/icons/MorseRunner.ico</iconUrl>

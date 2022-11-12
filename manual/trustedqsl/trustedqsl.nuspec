@@ -9,7 +9,7 @@
     <title>TQSL</title>
     <authors>American Radio Relay League</authors>
     <projectUrl>https://www.arrl.org/tqsl-download</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/GeoMaciolek/trustedqsl-tqsl/master/apps/icons/key128.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/GeoMaciolek/trustedqsl-tqsl@master/apps/icons/key128.png</iconUrl>
     <copyright>(c) 2001-2020 American Radio Relay League</copyright>
     <licenseUrl>https://www.rickmurphy.net/trustedqsl.org/tQSL-documents/licence.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

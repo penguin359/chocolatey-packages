@@ -26,7 +26,7 @@ environment:
 
   # Mail credentials - for error notifications
   mail_user:
-    secure: C2Qio1LhgG3ZY0uSaAlU3w==
+    secure: 8B4gryGgsfoj5+pWzTAvNV+ZY/HcAruTdHlddFJD8K8=
   mail_pass:
     secure: b3PV8dIEA+DGci3WECG1QSl0LAGPb21kD8Mc7VYc87o=
   mail_server: smtp.gmail.com

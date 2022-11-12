@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rufzxp</id>
+    <version>1.1.2</version>
+    <packageSourceUrl>https://github.com/penguin359/chocolatey-packages</packageSourceUrl>
+    <owners>penguin359</owners>
+    <title>RufzXP</title>
+    <authors>Mathias (DL4MM), Alessandro (IV3XYM)</authors>
+    <projectUrl>https://www.rufzxp.net/</projectUrl>
+    <!--<iconUrl>http://rawcdn.githack.com/__REPLACE_YOUR_REPO__/master/icons/rufzxp.png</iconUrl>-->
+    <copyright>Copyright (C) 2007 Mathias Kolpe, Alessandro Vitiello</copyright>
+    <bugTrackerUrl>https://www.rufzxp.net/support.htm</bugTrackerUrl>
+    <tags>rufzxp ham amateur radio</tags>
+    <summary>RufzXP is an excellent training software for improving code speed and CW practice</summary>
+    <description><![CDATA["Rufz" is the abbreviation of the German word "Rufzeichen-Hören", which means "Listening to Callsigns". RufzXP is an excellent training software for improving code speed and CW practice, particularly (ultra) high speed memory copying of true amateur radio calls. Focussing on improvement of CW proficiency, it is no contest simulator and does not provide for QRM. It provides additional tools for keeping track of training progress and comparing with other operators via International RufzXP Toplist.
+
+RufzXP is a "must" for every serious high speed telegraphy operator and is an official competition of IARU High Speed Telegraphy Championships.
+
+The appendix "XP" indicates that this completely new version takes advantage of latest software technology and runs with MS Windows 8 and 7 (and additional XP, VISTA, 2000, NT, ME, 98).
+
+"Tancredi" is the name of this special RufzXP version.]]></description>
+    <releaseNotes><![CDATA[Version 1.1.2
+=================
+* Now, during the record sending procedure, the user title is correctly set (previously, was always set to OM) - tnx N3EOP;
+* International Toplist age categories changed to reflect the new IARU rules (have a look at the International Toplist window - CTRL+F12);]]></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\*.ps1" target="tools" />
+  </files>
+</package>

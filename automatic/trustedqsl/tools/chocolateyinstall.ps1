@@ -1,6 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = "{{DownloadUrl}}"
+$url        = '{{DownloadUrl}}'
+$checksum   = '{{Checksum}}'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,8 +11,8 @@ $packageArgs = @{
 
   softwareName  = 'Trusted QSL*'
 
-  checksum      = '{{Checksum}}'
-  checksumType  = '{{ChecksumType}}'
+  checksum      = $checksum
+  checksumType  = 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
   validExitCodes= @(0, 3010, 1641)

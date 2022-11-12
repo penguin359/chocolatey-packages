@@ -25,6 +25,6 @@ signing Amateur Radio QSO records.]]></description>
     <releaseNotes>https://www.arrl.org/files/file/LoTW%20Instructions/TrustedQSL-2-6-release.pdf</releaseNotes>
   </metadata>
   <files>
-    <file src="tools\**" target="tools" />
+    <file src="tools\*.ps1" target="tools" />
   </files>
 </package>

@@ -11,3 +11,15 @@
 Verify Markdown fields (no linebreaks in a sentence
   description
   releaseNotes
+Test upgradability of all packages
+
+Fedora Media Writer
+FunCUBE and friends
+HRD
+Logic
+MMTTY
+N1MM
+RcForb
+RX-SSTV
+SatPC
+Winlink

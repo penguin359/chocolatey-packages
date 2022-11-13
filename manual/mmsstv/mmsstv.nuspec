@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mmsstv</id>
+    <version>1.13.1</version>
+    <packageSourceUrl>https://github.com/penguin359/chocolatey-packages</packageSourceUrl>
+    <owners>penguin359</owners>
+    <title>MMSSTV</title>
+    <authors>Makoto Mori (JE3HHT)</authors>
+    <projectUrl>https://hamsoft.ca/pages/mmsstv.php</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/penguin359/chocolatey-packages/b0b8efad9dfd65d6d9ff3843744d492b15b722cb/icons/Mmsstv_Icon.png</iconUrl>
+    <copyright>(C) JE3HHT 2001-2010</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/lgpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/n5ac/mmsstv</projectSourceUrl>
+    <docsUrl>https://hamsoft.ca/pages/mmsstv.php?dwn=5d928d744e571962</docsUrl>
+    <mailingListUrl>https://groups.io/g/MMSSTV</mailingListUrl>
+    <tags>mmsstv HAM amateur radio</tags>
+    <summary>Slow-Scan Television encoder/decoder</summary>
+    <description><![CDATA[To the wonderful world of Slow Scan Television (SSTV). SSTV is a very fun and exciting mode to send and receive images using your computer, a keying circuit and your ham radio whether it's vhf or hf. Over the years sstv has grown in popularly and the software/hardware used to send and receive pictures with amateur radio has come a long ways as well. MMSSTV has many features not found in other sstv programs and the best part about MMSSTV is that it is free.]]></description>
+    <releaseNotes><![CDATA[Revision history Ver1.13 -> Ver1.13A
+=================
+* Fixed the sound card selection problem
+* Fixed minor glitches and improved several functions]]></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\*.ps1" target="tools" />
+  </files>
+</package>

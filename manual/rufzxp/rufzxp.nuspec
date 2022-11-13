@@ -12,7 +12,7 @@
     <!--<iconUrl>http://rawcdn.githack.com/__REPLACE_YOUR_REPO__/master/icons/rufzxp.png</iconUrl>-->
     <copyright>Copyright (C) 2007 Mathias Kolpe, Alessandro Vitiello</copyright>
     <bugTrackerUrl>https://www.rufzxp.net/support.htm</bugTrackerUrl>
-    <tags>rufzxp ham amateur radio</tags>
+    <tags>rufzxp HAM amateur radio</tags>
     <summary>RufzXP is an excellent training software for improving code speed and CW practice</summary>
     <description><![CDATA["Rufz" is the abbreviation of the German word "Rufzeichen-Hören", which means "Listening to Callsigns". RufzXP is an excellent training software for improving code speed and CW practice, particularly (ultra) high speed memory copying of true amateur radio calls. Focussing on improvement of CW proficiency, it is no contest simulator and does not provide for QRM. It provides additional tools for keeping track of training progress and comparing with other operators via International RufzXP Toplist.
 

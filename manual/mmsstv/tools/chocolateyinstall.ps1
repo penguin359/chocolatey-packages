@@ -20,8 +20,14 @@ $download = Invoke-WebRequest -Uri $baseUrl -SessionVariable session -UseBasicPa
 $re = "mmsstv.*\.exe"
 $downloadUrl = $download.links | ? {$_.outerHTML -match $re} | Select-Object -First 1 -ExpandProperty href
 
-$packageArgs['url'] = $baseUrl + $downloadUrl
-[Hashtable]$packageArgs['options'] = @{
-  WebSession = $session
-}
-Install-ChocolateyPackage @packageArgs
+#$packageArgs['url'] = $baseUrl + $downloadUrl
+#[Hashtable]$packageArgs['options'] = @{
+#  WebSession = $session
+#}
+#Install-ChocolateyPackage @packageArgs
+
+$url = $baseUrl + $downloadUrl
+$installerFile = "$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).exe"
+Invoke-WebRequest -Uri $url -WebSession $session -OutFile $installerFile
+$packageArgs['file'] = $installerFile
+Install-ChocolateyInstallPackage @packageArgs

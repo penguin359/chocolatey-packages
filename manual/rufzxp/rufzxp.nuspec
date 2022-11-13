@@ -9,7 +9,7 @@
     <title>RufzXP</title>
     <authors>Mathias (DL4MM), Alessandro (IV3XYM)</authors>
     <projectUrl>https://www.rufzxp.net/</projectUrl>
-    <!--<iconUrl>http://rawcdn.githack.com/__REPLACE_YOUR_REPO__/master/icons/rufzxp.png</iconUrl>-->
+    <iconUrl>https://rawcdn.githack.com/penguin359/chocolatey-packages/b0b8efad9dfd65d6d9ff3843744d492b15b722cb/icons/rufzxp.png</iconUrl>
     <copyright>Copyright (C) 2007 Mathias Kolpe, Alessandro Vitiello</copyright>
     <bugTrackerUrl>https://www.rufzxp.net/support.htm</bugTrackerUrl>
     <tags>rufzxp HAM amateur radio</tags>

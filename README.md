@@ -3,7 +3,7 @@
 ~~~
 <!-- EDIT ME-->
 
-[![](https://ci.appveyor.com/api/projects/status/github/YOUR_GITHUB_USERNAME_HERE/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/YOUR_GITHUB_USERNAME_HERE/chocolatey-packages)
+[![](https://ci.appveyor.com/api/projects/status/github/YOUR_GITHUB_USERNAME_HERE/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/YOUR_GITHUB_USERNAME_HERE/chocolatey-packages) [![Join the chat at https://gitter.im/penguin359/chocolatey-packages](https://badges.gitter.im/penguin359/chocolatey-packages.svg)](https://gitter.im/penguin359/chocolatey-packages?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [Update status](https://gist.github.com/YOUR_GITHUB_USERNAME_HERE/YOUR_GIST_ID)
 
 <!-- REMOVE THE squiggles "~" surrounding this (this should not be a code block) -->

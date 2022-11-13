@@ -39,6 +39,11 @@ $Options = [ordered]@{
     Git = @{
         User     = ''                                       #Git username, leave empty if github api key is used
         Password = $Env:github_api_key                      #Password if username is not empty, otherwise api key
+	Branch   = 'main'
+    }
+
+    Gitter = @{
+        WebHookUrl = $env:gitter_webhook
     }
 
     RunInfo = @{

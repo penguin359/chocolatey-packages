@@ -8,6 +8,7 @@ image: WMF 5
 branches:
   only:
   - main
+skip_tags: true
 #build:
 #  verbosity: minimal
 
@@ -43,6 +44,9 @@ environment:
   # Chocolatey API key - to push updated packages
   api_key:
     secure: ts8tlt1pPh7q8W0UfkmomavTgC3C1aZCBB6L/b/OxqoaKgX2Zuo0uVY/siHXmbla
+
+  gitter_webhook:
+    secure: zCoBIJsSMONjN1YmUsiQofARgin8iBM4uWBuz5wHJREE4NlVT8TZGDTkv4heEHz7I46gvnVVhuGcnx5A2Mmyhw==
 
 init:
 - git config --global user.email "chocolatey@realdimensions.net"

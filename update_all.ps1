@@ -42,6 +42,13 @@ $Options = [ordered]@{
 	Branch   = 'main'
     }
 
+    GitReleases = @{
+        ApiToken   = $Env:github_releases_api_key
+        ReleaseType= 'package'
+        Password = $Env:github_api_key                      #Password if username is not empty, otherwise api key
+	Branch   = 'main'
+    }
+
     Gitter = @{
         WebHookUrl = $env:gitter_webhook
     }

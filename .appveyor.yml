@@ -48,6 +48,9 @@ environment:
   gitter_webhook:
     secure: zCoBIJsSMONjN1YmUsiQofARgin8iBM4uWBuz5wHJREE4NlVT8TZGDTkv4heEHz7I46gvnVVhuGcnx5A2Mmyhw==
 
+  github_releases_api_key:
+    secure: E3sVPAL+q9wiihaCWdwlSVD2UrmvLzx8qziAMG1IfWMuRY2jyn3IRmiuAwSvlyFUHvHgB9llx9DIxZcbVlJyAjv3z/Tmj1FU0v3ePixNty7jWtLunM/E6bIvaqxerAqz
+
 init:
 - git config --global user.email "chocolatey@realdimensions.net"
 - git config --global user.name "Chocolatey"

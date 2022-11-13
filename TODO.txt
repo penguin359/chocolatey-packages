@@ -1,0 +1,13 @@
+Fix icon for Morse Runner
+Improve descriptions?
+RufzXP requires DirectX? No, doesn't fix uninstall error
+Fix releaseNotes to not be a URL
+RufzXP asks questions on uninstall
+No icon for RufzXP
+No releaseNotes for morse-runner
+No license for RufzXP?
+Add note for all auto-updated packages
+
+Verify Markdown fields (no linebreaks in a sentence
+  description
+  releaseNotes

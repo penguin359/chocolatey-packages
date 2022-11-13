@@ -19,6 +19,51 @@
     <tags>morse-runner HAM amateur radio</tags>
     <summary>Morse code contest simulator for Windows</summary>
     <description>Simulation software for practicing Morse Code as found in a CW Contest.</description>
+    <releaseNotes><![CDATA[Version History
+===============
+- 1.68
+  - TU + MyCall after the QSO is now equivalent to CQ
+- 1.67
+  - small changes in the HST competition mode.
+- 1.65, 1.66
+  - a few small bugs fixed.
+- 1.61 - 1.64
+  - small changes in the HST competition mode.
+
+- 1.6
+  - HST competition mode added;
+  - CallsFromKeyer option added.
+-1.52
+  - the CompetitionDuration setting added.
+- 1.51
+  - minor bugs fixed.
+- 1.5
+  - more realistic behavior of calling stations;
+  - self-monitoring volume control;
+  - more creative LIDS;
+  - CW speed hotkeys;
+  - WAV recording;
+  - menu commands for all settings (for blind hams).
+- 1.4
+  - RIT function;
+  - callsign completion/correction when sending;
+  - faster response to keyboard commands;
+  - bandwidth adjustment in 50 Hz steps;
+  - the middle digit is selected when the cursor enters the RST field;
+  - the QSO rate is now expressed in Q/hr;
+  - the problem with the Finnish character set fixed.
+- 1.3
+  - some key assignments corrected for compatibility with popular contesting
+    programs;
+  - statistical models refined for more realistic simulation;
+  - rate display added;
+  - a few bugs fixed.
+- 1.2 (first public release)
+  - Competetion mode added;
+  - some bugs fixed.
+- 1.1
+  - ESM (Enter Sends Messages) mode added;
+  - a lot of bugs fixed.]]></releaseNotes>
   </metadata>
   <files>
     <file src="tools\*.ps1" target="tools" />

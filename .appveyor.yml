@@ -21,7 +21,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: penguin359/chocolatey-packages
   github_api_key:
-    secure: E3sVPAL+q9wiihaCWdwlSQ2+YGGTXcvEpO7ht67tQS3jpIIOLU5sOz99H/wIMQWCePiKSU6j/0CRoglbxmUdGq1dZ9gTcgWcEyz5nR8q4jOFkNKVzc3t9eiVbhg963JP
+    secure: 8aaSi7he5jNmUKyHIdNCtPiXfvmoGMVlRgYEIKChYBeBzDWgM9J8TsxC9ktfC4OV
 
 
   # Mail credentials - for error notifications

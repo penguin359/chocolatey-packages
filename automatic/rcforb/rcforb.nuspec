@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rcforb</id>
+    <version>0.7.8014</version>
+    <packageSourceUrl>https://github.com/penguin359/chocolatey-packages</packageSourceUrl>
+    <owners>penguin359</owners>
+    <title>RCForb</title>
+    <authors>Brandon Hansen (KG6YPI)</authors>
+    <projectUrl>https://www.remotehams.com/</projectUrl>
+    <iconUrl>https://www.remotehams.com/images/orb_server_icon.png</iconUrl>
+    <copyright>© 2006-2012 RemoteHams.com</copyright>
+    <licenseUrl>https://www.remotehams.com/forums/index.php?action=register</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>http://beta.remotehams.com/orb/RCForb_Server_Manual.pdf</docsUrl>
+    <mailingListUrl>https://www.remotehams.com/forums/index.php?board=22.0</mailingListUrl>
+    <bugTrackerUrl>https://www.remotehams.com/forums/index.php/board,5.0.html</bugTrackerUrl>
+    <tags>rcforb HAM amateur radio</tags>
+    <summary>Remote-controlled Ham Radio Station</summary>
+    <description><![CDATA[The RcForb Server allows you to setup your own remote station on Remote Hams. Three connections
+to your transceiver are required, and an Internet connection.
+
+
+**Please Note**: This is an automatically updated package. If you find it is
+out of date by more than a day or two, please contact the maintainer(s) and
+let them know the package is no longer updating correctly.]]></description>
+    <dependencies>
+      <dependency id="dotnet4.0" />
+      <dependency id="vcredist2010" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\*.ps1" target="tools" />
+  </files>
+</package>

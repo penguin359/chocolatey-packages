@@ -16,7 +16,7 @@
     <projectSourceUrl>https://www.rickmurphy.net/trustedqsl.org/</projectSourceUrl>
     <docsUrl>http://www.arrl.org/quick-start</docsUrl>
     <mailingListUrl>https://groups.arrl.org/g/ARRL-LoTW/</mailingListUrl>
-    <bugTrackerUrl>https://trustedqsl.sourceforge.net/mantis/my_view_page.php</bugTrackerUrl>
+    <!--<bugTrackerUrl>https://trustedqsl.sourceforge.net/mantis/my_view_page.php</bugTrackerUrl>-->
     <tags>trustedqsl HAM amateur radio</tags>
     <summary>Open source libraries and utilities to support using digital signatures for Amateur
 radio QSL information</summary>

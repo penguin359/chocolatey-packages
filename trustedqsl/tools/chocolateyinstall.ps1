@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://www.arrl.org/files/file/LoTW%20Instructions/tqsl-2.7.1.msi'
+$url        = 'https://www.arrl.org/files/file/LoTW%20Instructions/tqsl-2.7.1.msi'
 $checksum   = '37bbbcefa1b60d9a13477971bf9f84fca3d4fcecbed790a6e8f8779011183b98'
 
 $packageArgs = @{

@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://www.dxatlas.com/MorseRunner/Files/MorseRunner.zip'
+$url        = 'https://www.dxatlas.com/MorseRunner/Files/MorseRunner.zip'
 $setupName  = 'setup.exe'
 
 $packageArgs = @{

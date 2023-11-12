@@ -11,7 +11,8 @@
             "username": "vscode",
             "upgradePackages": "false",
             "nonFreePackages": "true"
-        }
+        },
+        "ghcr.io/devcontainers/features/github-cli:1": {}
     },
     "postCreateCommand": "sudo chsh vscode -s \"$(which pwsh)\"",
     // Configure tool-specific properties.

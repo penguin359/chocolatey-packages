@@ -9,12 +9,12 @@
     <title>TQSL</title>
     <authors>American Radio Relay League</authors>
     <projectUrl>https://www.arrl.org/tqsl-download</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/GeoMaciolek/trustedqsl-tqsl@master/apps/icons/key128.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/penguin359/chocolatey-packages/562e265a4f9ea1dda18a63e507dd6b807af96d93/icons/trustedqsl.png</iconUrl>
     <copyright>(c) 2001-2020 American Radio Relay League</copyright>
     <licenseUrl>https://www.rickmurphy.net/trustedqsl.org/tQSL-documents/licence.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://www.rickmurphy.net/trustedqsl.org/</projectSourceUrl>
-    <docsUrl>http://www.arrl.org/quick-start</docsUrl>
+    <docsUrl>https://www.arrl.org/quick-start</docsUrl>
     <mailingListUrl>https://groups.arrl.org/g/ARRL-LoTW/</mailingListUrl>
     <!--<bugTrackerUrl>https://trustedqsl.sourceforge.net/mantis/my_view_page.php</bugTrackerUrl>-->
     <tags>trustedqsl HAM amateur radio</tags>

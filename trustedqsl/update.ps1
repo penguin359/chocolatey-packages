@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'http://www.arrl.org/tqsl-download'
+$releases = 'https://www.arrl.org/tqsl-download'
 
 function global:au_SearchReplace {
     @{

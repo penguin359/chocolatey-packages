@@ -16,7 +16,7 @@ Test upgradability of all packages
 Fedora Media Writer
 FunCUBE and friends
 HRD
-Logic
+Saleae Logic
 MMTTY
 N1MM
 RcForb

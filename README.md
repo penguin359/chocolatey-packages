@@ -5,8 +5,10 @@
 [![Update status](https://img.shields.io/badge/Update-Status-blue.svg)](https://gist.github.com/penguin359/82fb09d745a7785fa8580f1a4075d96b)
 [![](http://transparent-favicon.info/favicon.ico)](#)
 [![chocolatey/penguin359](https://img.shields.io/badge/Chocolatey-penguin359-yellowgreen.svg)](https://chocolatey.org/profiles/penguin359)
+[![](http://transparent-favicon.info/favicon.ico)](#)
+[![Project Chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://penguin359.zulipchat.com/#narrow/stream/417279-chocolatey-packages)
 
-Welcome on the repository of Chocolatey Packages created and/or maintained by penguin359 !
+Welcome on the repository of Chocolatey Packages created and/or maintained by penguin359!
 
 ---
 
@@ -16,7 +18,9 @@ The repository is setup so that you can manage your packages entirely from the G
 ### Folder Structure
 
 * icons - Where you keep icon files for the packages. This is done to reduce issues when packages themselves move around.
-* setup - items for prepping the system to ensure for auto packaging.
+* \_plugins - additional AU plugins for package updates
+* \_scripts - additional scripts from the AU package template
+* \_setup - items for prepping the system to ensure for auto packaging.
 
 For setting up your own automatic package repository, please see [Automatic Packaging](https://chocolatey.org/docs/automatic-packages)
 

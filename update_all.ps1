@@ -1,6 +1,6 @@
 # AU Packages Template: https://github.com/majkinetor/au-packages-template
 
-param([string[]] $Name, [string] $ForcedPackages, [string] $Root = "$PSScriptRoot")
+param([string[]] $Name, [string] $ForcedPackages, [string] $Root = $PSScriptRoot)
 
 if (Test-Path $PSScriptRoot/update_vars.ps1) { . $PSScriptRoot/update_vars.ps1 }
 
@@ -12,7 +12,7 @@ $Options = [ordered]@{
     Threads       = 10                                      #Number of background jobs to use
     Push          = $Env:au_Push -eq 'true'                 #Push to chocolatey
     PushAll       = $true                                   #Allow to push multiple packages at once
-    PluginPath    = ''                                      #Path to user plugins
+    PluginPath    = "$PSScriptRoot\_plugins"                #Path to user plugins
     IgnoreOn      = @(                                      #Error message parts to set the package ignore status
       'Could not create SSL/TLS secure channel'
       'Could not establish trust relationship'
@@ -73,8 +73,16 @@ $Options = [ordered]@{
         Branch      = 'main'
     }
 
-    Gitter = @{
-        WebHookUrl = $env:gitter_webhook
+    #Gitter = @{
+    #    WebHookUrl = $env:gitter_webhook
+    #}
+
+    Zulip = @{
+       WebHookUrl = $Env:zulip_url
+       botEmail   = $Env:zulip_bot_email
+       botApiKey  = $Env:zulip_bot_api_key
+       Channel    = $Env:zulip_channel
+       Topic      = $Env:zulip_topic
     }
 
     RunInfo = @{
@@ -93,7 +101,7 @@ $Options = [ordered]@{
                 EnableSsl  = $Env:mail_enablessl -eq 'true'
                 Attachment = "$PSScriptRoot\update_info.xml"
                 UserMessage = ''
-                SendAlways  = $false                        #Send notifications every time
+                SendAlways  = $true                         #Send notifications every time
              }
            } else {}
 

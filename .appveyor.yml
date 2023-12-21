@@ -47,6 +47,15 @@ environment:
   gitter_webhook:
     secure: zCoBIJsSMONjN1YmUsiQofARgin8iBM4uWBuz5wHJREE4NlVT8TZGDTkv4heEHz7I46gvnVVhuGcnx5A2Mmyhw==
 
+  zulip_url: https://penguin359.zulipchat.com/
+  zulip_channel: 417279
+  zulip_topic: updates
+  zulip_bot_email:
+    secure: xMFqwNbuo7sw5yhjo9h71oRgUrE5FpwpVK74ct0JUT2fJrxnuILtG1/F2Y5HXKJq
+
+  zulip_bot_api_key:
+    secure: zKqm4IeJMurj27cLc3DZD4eZ58etaFDjnAvxIcHZFp98/89OrDLO9pHhWKuXydIo
+
   github_releases_api_key:
     secure: E3sVPAL+q9wiihaCWdwlSfP32B9gpopegqWYvvFY8GxHZzRTmQka97thumZfM3h0Xlnz2xUEof2zlkCSd0UlaW1tRZ/5lguZ7OprIXHunIa8LQfYAuA+7gAOx5/JPgA/
 
@@ -72,7 +81,7 @@ install:
 
 # Uncomment the below line if you are using any of the functions from chocolatey-core.extension - https://chocolatey.org/packages/chocolatey-core.extension. Ensure you also have it listed in your package's dependencies
 # - cinst chocolatey-core.extension
-    
+
 build_script:
 - ps: |
     $ErrorActionPreference = 'Continue'

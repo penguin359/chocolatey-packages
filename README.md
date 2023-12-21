@@ -1,9 +1,17 @@
 # Chocolatey Packages
 
-[![](https://ci.appveyor.com/api/projects/status/github/penguin359/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/penguin359/chocolatey-packages)
-[Update status](https://gist.github.com/penguin359/82fb09d745a7785fa8580f1a4075d96b)
+[![Appveyor Build](https://ci.appveyor.com/api/projects/status/github/penguin359/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/penguin359/chocolatey-packages)
 [![](http://transparent-favicon.info/favicon.ico)](#)
-[chocolatey/penguin359](https://chocolatey.org/profiles/penguin359)
+[![Update status](https://img.shields.io/badge/Update-Status-blue.svg)](https://gist.github.com/penguin359/82fb09d745a7785fa8580f1a4075d96b)
+[![](http://transparent-favicon.info/favicon.ico)](#)
+[![chocolatey/penguin359](https://img.shields.io/badge/Chocolatey-penguin359-yellowgreen.svg)](https://chocolatey.org/profiles/penguin359)
+
+Welcome on the repository of Chocolatey Packages created and/or maintained by penguin359 !
+
+---
+
+This repository contains [chocolatey automatic packages](https://chocolatey.org/docs/automatic-packages).  
+The repository is setup so that you can manage your packages entirely from the GitHub web interface (using AppVeyor to update and push packages) and/or using the local repository copy.
 
 ### Folder Structure
 

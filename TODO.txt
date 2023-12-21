@@ -23,3 +23,17 @@ RcForb
 RX-SSTV
 SatPC
 Winlink
+
+
+Update README.md from both chocolatey-packages-template and
+au-packages-template
+Choose appropriate license
+Add Zulip
+Verify all plugins
+  mail
+  git releases
+  git
+  zulip
+Setup update_vars.ps1
+Re-run missing packages
+

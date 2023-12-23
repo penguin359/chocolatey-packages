@@ -26,11 +26,13 @@ to your transceiver are required, and an Internet connection.
 out of date by more than a day or two, please contact the maintainer(s) and
 let them know the package is no longer updating correctly.]]></description>
     <dependencies>
+      <dependency id="autohotkey" />
       <dependency id="dotnet4.0" />
-      <dependency id="vcredist2010" />
+      <dependency id="vcredist140" />
     </dependencies>
   </metadata>
   <files>
     <file src="tools\*.ps1" target="tools" />
+    <file src="tools\*.ahk" target="tools" />
   </files>
 </package>

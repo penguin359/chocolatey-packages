@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rcforb-client</id>
+    <version>0.9.297</version>
+    <packageSourceUrl>https://github.com/penguin359/chocolatey-packages</packageSourceUrl>
+    <owners>penguin359</owners>
+    <title>RCForb Client</title>
+    <authors>Brandon Hansen (KG6YPI)</authors>
+    <projectUrl>https://www.remotehams.com/</projectUrl>
+    <iconUrl>https://www.remotehams.com/images/orb_client_icon.png</iconUrl>
+    <copyright>© 2006-2012 RemoteHams.com</copyright>
+    <licenseUrl>https://www.remotehams.com/forums/index.php?action=register</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>http://beta.remotehams.com/orb/RCForb_Client_Manual.pdf</docsUrl>
+    <mailingListUrl>https://www.remotehams.com/forums/index.php/board,1.0.html</mailingListUrl>
+    <bugTrackerUrl>https://www.remotehams.com/forums/index.php/board,5.0.html</bugTrackerUrl>
+    <tags>rcforb-client HAM amateur radio</tags>
+    <summary>Client for connecting to remote-controlled Ham Radio Stations</summary>
+    <description><![CDATA[The RcForb Client allows you to control other, remote stations on Remote Hams. Don't
+miss rare DX you may never have a chance to hear. Test your own signal propagation, are you being heard in a DX
+location? Multiple operator support allows for new methods of contesting, nets, round tables, etc. between RF
+and REMOTE operators.
+
+
+**Please Note**: This is an automatically updated package. If you find it is
+out of date by more than a day or two, please contact the maintainer(s) and
+let them know the package is no longer updating correctly.]]></description>
+    <dependencies>
+      <dependency id="autohotkey" />
+      <dependency id="netfx-4.8" />
+      <dependency id="vcredist2010" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\*.ps1" target="tools" />
+    <file src="tools\*.ahk" target="tools" />
+  </files>
+</package>

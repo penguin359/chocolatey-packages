@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'http://www.arrl.org/tqsl-download'
+$releases = 'https://www.arrl.org/tqsl-download'
 
 function global:au_SearchReplace {
     @{
@@ -8,7 +8,7 @@ function global:au_SearchReplace {
             "(^[$]url\s*=\s*)('.*')"      = "`$1'$($Latest.URL32)'"
             "(^[$]checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
         }
-        'trustedqsl.nuspec' = @{
+        'wsjtx.nuspec' = @{
             "(<releaseNotes>).*(</releaseNotes>)" = "`$1$($Latest.ReleaseNotes)`$2"
         }
     }

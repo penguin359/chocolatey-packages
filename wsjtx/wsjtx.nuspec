@@ -3,45 +3,76 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>wsjtx</id>
-    <version>2.5.3</version>
+    <version>2.6.0</version>
     <packageSourceUrl>https://github.com/penguin359/chocolatey-packages</packageSourceUrl>
     <owners>penguin359</owners>
     <title>WSJT-X</title>
     <authors>Joseph H Taylor Jr (K1JT), Bill Somerville (G4WJS), Steve Franke (K9AN), Nico Palermo (IV3NWV)</authors>
-    <projectUrl>https://physics.princeton.edu/pulsar/k1jt/wsjtx.html</projectUrl>
+    <projectUrl>https://wsjt.sourceforge.io/wsjtx.html</projectUrl>
     <iconUrl>https://rawcdn.githack.com/penguin359/chocolatey-packages/1725ddcd75b3320d6b4d11c9277d2837c77c8664/icons/wsjtx.png</iconUrl>
     <copyright>Copyright (C) 2001 - 2021 by Joe Taylor, K1JT</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.en.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://sourceforge.net/p/wsjt/wsjtx/</projectSourceUrl>
-    <docsUrl>https://physics.princeton.edu/pulsar/k1jt/wsjtx-doc/wsjtx-main-2.5.3.html</docsUrl>
+    <docsUrl>https://wsjt.sourceforge.io/wsjtx-doc/wsjtx-main-2.6.0.html</docsUrl>
     <mailingListUrl>https://wsjtx.groups.io/g/main</mailingListUrl>
     <bugTrackerUrl>https://sourceforge.net/p/wsjt/mailman/wsjt-devel/</bugTrackerUrl>
     <tags>wsjtx HAM amateur radio</tags>
     <summary>WSJT-X is an open-source programs designed for weak-signal digital communication by amateur radio.</summary>
-    <description><![CDATA[[WSJT-X](https://physics.princeton.edu/pulsar/K1JT/wsjtx.html) ("Weak Signal Communication, by K1JT") offers specific digital protocols optimized for EME (moonbounce), meteor scatter, and ionospheric scatter, at VHF/UHF, as well as for LF, MF, and HF propagation.  The program can decode fraction-of-a-second signals reflected from ionized meteor trails and steady signals more than 10 dB below the audible threshold.  WSJT-X incorporates nearly all popular capabilities of programs WSJT and WSPR, while adding comprehensive rig control and many other features.  Check the [WSJT-X](https://physics.princeton.edu/pulsar/K1JT/wsjtx.html) page and links therein for details about modes FT4, FT8, FST4, FST4S, JT4, JT9, JT65, Q65, MSK144, and WSPR.
+    <description><![CDATA[WSJT-X implements communication protocols or "modes" called FST4, FST4W, FT4, FT8, JT4, JT9, JT65, Q65, MSK144, and WSPR, as well as one called Echo for detecting and measuring your own radio signals reflected from the Moon.  These modes were designed for making reliable, confirmed QSOs under extreme weak-signal conditions. 
 
-WSJT-X implements communication protocols or "modes" called **FST4**, **FST4W**, **FT4**, **FT8**, **JT4**, **JT9**, **JT65**, **Q65**, **MSK144**, and **WSPR**, as well as one called Echo for detecting and measuring your own radio signals reflected from the Moon.  These modes were designed for making reliable, confirmed QSOs under extreme weak-signal conditions.
+JT4, JT9, and JT65 use nearly identical message structure and source encoding (the efficient compression of standard messages used for minimal QSOs). They use timed 60-second T/R sequences synchronized with UTC.  JT4 and JT65 were designed for EME ("moonbounce") on the VHF/UHF/microwave bands.  JT9 is optimized for the MF and HF bands.  It  is about 2 dB more sensitive than JT65 while using less than 10% of the bandwidth.  Q65 offers submodes with a wide range of T/R sequence lengths and tone spacings; it is highly recommended for EME, ionospheric scatter, and other weak signal work on VHF, UHF, and microwave bands.
 
-**JT4**, **JT9**, and **JT65** use nearly identical message structure and source encoding (the efficient compression of standard messages used for minimal QSOs). They use timed 60-second T/R sequences synchronized with UTC.  **JT4** and **JT65** were designed for EME ("moonbounce") on the VHF/UHF/microwave bands.  **JT9** is optimized for the MF and HF bands.  It  is about 2 dB more sensitive than **JT65** while using less than 10% of the bandwidth.  **Q65** offers submodes with a wide range of T/R sequence lengths and tone spacings; it is highly recommended for EME, ionospheric scatter, and other weak signal work on VHF, UHF, and microwave bands.
+FT4 and FT8 are operationally similar but use T/R cycles only 7.5 and  15 s long, respectively.  MSK144 is designed for Meteor Scatter on the VHF bands.  These modes offer enhanced message formats with support for nonstandard callsigns and some popular contests.
 
-**FT4** and **FT8** are operationally similar but use T/R cycles only 7.5 and  15 s long, respectively.  **MSK144** is designed for Meteor Scatter on the VHF bands.  These modes offer enhanced message formats with support for nonstandard callsigns and some popular contests.
+FST4 and FST4W are designed particularly for the LF and MF bands. On these bands their fundamental sensitivities are better than other WSJT-X modes with the same sequence lengths, approaching the theoretical limits for their rates of information throughput. FST4 is optimized for two-way QSOs, while FST4W is for quasi-beacon transmissions of WSPR-style messages. FST4 and FST4W do not require the strict, independent time synchronization and phase locking of modes like EbNaut.
 
-**FST4** and **FST4W** are designed particularly for the LF and MF bands. On these bands their fundamental sensitivities are better than other WSJT-X modes with the same sequence lengths, approaching the theoretical limits for their rates of information throughput. **FST4** is optimized for two-way QSOs, while **FST4W** is for quasi-beacon transmissions of **WSPR**-style messages. **FST4** and **FST4W** do not require the strict, independent time synchronization and phase locking of modes like EbNaut.
+WSPR mode implements a protocol designed for probing potential propagation paths with low-power transmissions.  WSPR is fully implemented within WSJT-X, including programmable "band-hopping".]]></description>
+    <releaseNotes><![CDATA[WSJT-X 2.6.0 is a General Availability (GA) release, the first since
+version 2.5.4.  Its major enhancements include the following:
 
-As described more fully on [its own page](https://physics.princeton.edu/pulsar/K1JT/wspr.html), **WSPR** mode implements a protocol designed for probing potential propagation paths with low-power transmissions.  **WSPR** is fully implemented within WSJT-X, including programmable "band-hopping".]]></description>
-    <releaseNotes><![CDATA[This release has the following changes since release 2.5.2:
+ - Mode selection buttons on main window for FT4, FT8, JT65, MSK144, 
+   Q65, and FT8's Hound mode 
+ - Support for the ARRL International Digital Contest
+ - Performance enhancements for the FT8 and Q65 modes
+ - New features for EME Echo mode, including calibrated SNR reports
+ - Several new convenience features for Fox operators 
+ - Save/Restore capability, "Preferred" status, and effective date
+   ranges for mode-dependent tables of default frequencies
+ - Improved display features for contest log
+ - Improved calibration of SNR estimates for modes FST4 and FST4W
 
- - Add a note in memory of G4WJS to the About window
+Other enhancements and bug fixes since 2.6.0-rc5 include the following:
 
- - Add a simple $DXCALL macro capability for Tx messages, and update
-   the User Guide accordingly
+ - PSK Reporter spotting is now also possible for frequencies > 4 GHz. 
+   This is required for QO-100, for example.
 
- - Ensure that MAIN VFO is used for receiving on rigs that require it
- 
- - Repair a defect in reporting low-confidence decodes to PskReporter
+ - The minimum width of the main window has been further reduced, and 
+   such small sizes are now remembered and properly restored.
 
- - Updated CTY.DAT database, tnx to Jim AD1C]]></releaseNotes>
+ - Some further improvements for Fox operators.
+
+ - Fix the long-standing flaw that "Start new period decodes at top" 
+   didn't work anymore after several hours.
+
+ - Fix a flaw that could cause crashes by double-clicking messages 
+   with <...> in certain QSO situations.
+
+ - Fix a flaw that prevented the rig from initializing correctly after 
+   switching between configurations when connected via HRD.
+
+ - Add tooltips to better explain the split operation options.
+
+ - Add some additional FT roundup exchanges which can be used for 
+   local contests or QSO parties.
+
+ - Add an option to call CQ with an individual contest name.
+
+ - Update of some ARRL section abbreviations.
+
+For full details on changes since WSJT-X version 2.5.4, be sure to
+read the Release Notes sections for 2.6.0-rc1 through rc5, immediately
+following.]]></releaseNotes>
     <dependencies>
       <dependency id="vcredist2013" />
       <dependency id="OpenSSL.Light" />

@@ -1,9 +1,9 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://physics.princeton.edu/pulsar/k1jt/wsjtx-2.5.3-win32.exe'
-$url64      = 'https://physics.princeton.edu/pulsar/k1jt/wsjtx-2.5.3-win64.exe'
-$checksum   = '7E461B40DBA106A4D4FAF53A5BEB862D2C1D80663E4F08748F8B498BCD7F0C6B'
-$checksum64 = 'F0C89987DAB4F0666DA0E79F66D45295710B7926259FC9B259950C792321E860'
+$url        = 'https://wsjt.sourceforge.io/downloads/wsjtx-2.6.0-win32.exe'
+$url64      = 'https://wsjt.sourceforge.io/downloads/wsjtx-2.6.0-win64.exe'
+$checksum   = '662862389AF090BA858EBCD368A06B20E8D821FD23431E5A858856BC9AEEF5AE'
+$checksum64 = '37DA9ACBBA94538A51DDE84BACAFDFEA5EE14B9003891BE491158CEE88BA2B3D'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName

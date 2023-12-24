@@ -39,3 +39,7 @@ Re-run missing packages
 
 
 Check on version for Winlink Express update, does it need the + '00' ???
+
+Update tags of packages
+Add release notes
+Add minimum version on dependencies

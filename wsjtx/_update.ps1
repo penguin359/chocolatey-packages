@@ -1,15 +1,24 @@
 import-module au
 
-$releases = 'https://www.arrl.org/tqsl-download'
+$baseUrl  = 'https://wsjt.sourceforge.io/'
+$releases = $baseUrl + 'wsjtx.html'
+
+function global:au_AfterUpdate {
+	$releaseNotes = $Latest.ReleaseNotes
+	$content = (Get-Content -Encoding 'UTF8' 'wsjtx.nuspec') -join "`n"
+	$output = $content -replace "(?s)(<releaseNotes><!\[CDATA\[).*(]]></releaseNotes>)","`$1${releaseNotes}`$2" -split "`n"
+	$output | Out-File -Encoding 'UTF8' 'wsjtx.nuspec'
+	Write-Warning "$output"
+	Write-Warning (pwd)
+}
 
 function global:au_SearchReplace {
     @{
         'tools\chocolateyInstall.ps1' = @{
             "(^[$]url\s*=\s*)('.*')"      = "`$1'$($Latest.URL32)'"
+            "(^[$]url64\s*=\s*)('.*')"      = "`$1'$($Latest.URL64)'"
             "(^[$]checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
-        }
-        'wsjtx.nuspec' = @{
-            "(<releaseNotes>).*(</releaseNotes>)" = "`$1$($Latest.ReleaseNotes)`$2"
+            "(^[$]checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
         }
     }
 }
@@ -17,13 +26,15 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -UseBasicParsing -Uri $releases
 
-    #tqsl-2.5.1.msi
-    $re    = 'tqsl.*\.msi$'
-    $url   = $download_page.links | ? href -match $re | select -First 1 -expand href
+    #wsjtx-2.6.1-win64.exe
+    $re    = 'wsjtx-[0-9].*-win64\.exe$'
+    $path  = $download_page.links | ? href -match $re | select -First 1 -expand href
 
-    $version  = ($url -split '-' | select -Last 1) -split '\.msi' | select -First 1
+    $path32 = $path.replace('64', '32')
 
-    $releaseNotesUrl = 'https://physics.princeton.edu/pulsar/K1JT/Release_Notes.txt'
+    $version  = ($path -split 'wsjtx-' | select -Last 1) -split '-win64\.exe' | select -First 1
+
+    $releaseNotesUrl = "https://wsjt.sourceforge.io/wsjtx-doc/Release_Notes_${version}.txt"
     $page = Invoke-WebRequest -Uri $releaseNotesUrl -UseBasicParsing
     $start = $false
     $found = $false
@@ -42,7 +53,8 @@ function global:au_GetLatest {
     $releaseNotes = ($lines -join "`n").Trim()
 
     @{
-        URL32 = $url
+        URL32 = $baseUrl + $path32
+        URL64 = $baseUrl + $path
         Version = $version
         ReleaseNotes = $releaseNotes
     }

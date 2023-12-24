@@ -14,12 +14,12 @@
     <licenseUrl>https://www.remotehams.com/forums/index.php?action=register</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>http://beta.remotehams.com/orb/RCForb_Server_Manual.pdf</docsUrl>
-    <mailingListUrl>https://www.remotehams.com/forums/index.php?board=22.0</mailingListUrl>
+    <mailingListUrl>https://www.remotehams.com/forums/index.php/board,22.0.html</mailingListUrl>
     <bugTrackerUrl>https://www.remotehams.com/forums/index.php/board,5.0.html</bugTrackerUrl>
     <tags>rcforb HAM amateur radio</tags>
     <summary>Remote-controlled Ham Radio Station</summary>
-    <description><![CDATA[The RcForb Server allows you to setup your own remote station on Remote Hams. Three connections
-to your transceiver are required, and an Internet connection.
+    <description><![CDATA[The RcForb Server allows you to setup your own remote station on Remote Hams. Three
+connections to your transceiver are required, and an Internet connection.
 
 
 **Please Note**: This is an automatically updated package. If you find it is
@@ -27,7 +27,7 @@ out of date by more than a day or two, please contact the maintainer(s) and
 let them know the package is no longer updating correctly.]]></description>
     <dependencies>
       <dependency id="autohotkey" />
-      <dependency id="dotnet4.0" />
+      <dependency id="netfx-4.8" />
       <dependency id="vcredist140" />
     </dependencies>
   </metadata>

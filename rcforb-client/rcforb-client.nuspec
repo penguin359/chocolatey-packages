@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>rcforb-client</id>
-    <version>0.9.297</version>
+    <version>0.9.319</version>
     <packageSourceUrl>https://github.com/penguin359/chocolatey-packages</packageSourceUrl>
     <owners>penguin359</owners>
     <title>RCForb Client</title>
@@ -30,7 +30,7 @@ let them know the package is no longer updating correctly.]]></description>
     <dependencies>
       <dependency id="autohotkey" />
       <dependency id="netfx-4.8" />
-      <dependency id="vcredist2010" />
+      <dependency id="vcredist140" />
     </dependencies>
   </metadata>
   <files>

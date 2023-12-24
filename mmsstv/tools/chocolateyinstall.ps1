@@ -1,6 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $baseUrl    = 'https://hamsoft.ca/pages/mmsstv.php'
+$checksum   = 'C03B3E863A3F1580672DDC9BC2B0740C911C508CB20D00B254EEB725C2084F4A'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -9,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'MMSSTV*'
 
-  checksum      = 'C03B3E863A3F1580672DDC9BC2B0740C911C508CB20D00B254EEB725C2084F4A'
+  checksum      = $checksum
   checksumType  = 'sha256'
 
   silentArgs    = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'

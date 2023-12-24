@@ -25,7 +25,8 @@
             },
             // Add the IDs of extensions you want installed when the container is created.
             "extensions": [
-                "ms-vscode.powershell"
+                "ms-vscode.PowerShell",
+                "gep13.chocolatey-vscode"
             ]
         }
     }

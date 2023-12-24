@@ -14,7 +14,7 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -UseBasicParsing -Uri $releases
 
-    #RCForb_0.7.8014.exe
+    #RCForbClientSetup_v0.9.319.exe
     $re    = 'RCForbClientSetup_v[0-9].*\.exe$'
     $url   = $download_page.links | ? href -match $re | select -First 1 -expand href
 

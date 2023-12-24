@@ -37,3 +37,5 @@ Verify all plugins
 Setup update_vars.ps1
 Re-run missing packages
 
+
+Check on version for Winlink Express update, does it need the + '00' ???

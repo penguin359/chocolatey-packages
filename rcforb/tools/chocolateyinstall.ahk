@@ -6,7 +6,7 @@ DetectHiddenWindows, On
 
 winTitle = Windows Security
 
-WinWait, %winTitle%,, 120
+WinWait, %winTitle%,, 1200
 if ErrorLevel
 {
 	;MsgBox "WinWait timed out."

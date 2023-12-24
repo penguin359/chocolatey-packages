@@ -9,7 +9,7 @@
     <title>Winlink Express</title>
     <authors>Victor Poor (W5SMM), Rick Muething (KN6KB), Phil Sherrod (W4PHS), Peter Woods (N6PRW)</authors>
     <projectUrl>https://winlink.org/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/penguin359/chocolatey-packages/main/icons/winlink-express.ico</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/penguin359/chocolatey-packages/33fa2d94aa2340febee1d3b12654d0521752bc0f/icons/winlink-express.ico</iconUrl>
     <copyright>Copyright 2009-2022 Victor Poor, W5SMM (SK), Rick Muething, KN6KB, Phil Sherrod, W4PHS, and Peter Woods, N6PRW</copyright>
     <docsUrl>https://winlink.org/content/winlink_book_knowledge</docsUrl>
     <mailingListUrl>https://groups.google.com/g/winlink-programs-group</mailingListUrl>

@@ -18,4 +18,5 @@ $packageArgs = @{
   validExitCodes= @(0)
 }
 
+Start-Process "AutoHotKey" -Verb runas -ArgumentList "`"$toolsDir\chocolateyinstall.ahk`""
 Install-ChocolateyPackage @packageArgs

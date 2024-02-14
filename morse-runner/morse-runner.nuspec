@@ -11,8 +11,6 @@
     <projectUrl>https://www.dxatlas.com/MorseRunner/</projectUrl>
     <iconUrl>https://rawcdn.githack.com/penguin359/chocolatey-packages/b0b8efad9dfd65d6d9ff3843744d492b15b722cb/icons/MorseRunner.png</iconUrl>
     <copyright>Copyright © 2004-2006 Alex Shovkoplyas, VE3NEA</copyright>
-    <licenseUrl>https://www.dxatlas.com/MorseRunner/</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/VE3NEA/MorseRunner</projectSourceUrl>
     <docsUrl>https://cwops.org/cwa/Using%20Morse%20Runner.pdf</docsUrl>
     <bugTrackerUrl>https://github.com/VE3NEA/MorseRunner/issues</bugTrackerUrl>

@@ -12,7 +12,7 @@
     <iconUrl>https://rawcdn.githack.com/penguin359/chocolatey-packages/b0b8efad9dfd65d6d9ff3843744d492b15b722cb/icons/rufzxp.png</iconUrl>
     <copyright>Copyright (C) 2007 Mathias Kolpe, Alessandro Vitiello</copyright>
     <bugTrackerUrl>https://www.rufzxp.net/support.htm</bugTrackerUrl>
-    <tags>rufzxp HAM amateur radio</tags>
+    <tags>rufzxp HAM amateur radio CW morse learn tutor</tags>
     <summary>RufzXP is an excellent training software for improving code speed and CW practice</summary>
     <description><![CDATA["Rufz" is the abbreviation of the German word "Rufzeichen-Hören", which means "Listening to Callsigns". RufzXP is an excellent training software for improving code speed and CW practice, particularly (ultra) high speed memory copying of true amateur radio calls. Focussing on improvement of CW proficiency, it is no contest simulator and does not provide for QRM. It provides additional tools for keeping track of training progress and comparing with other operators via International RufzXP Toplist.
 
@@ -26,7 +26,7 @@ The appendix "XP" indicates that this completely new version takes advantage of 
 * Now, during the record sending procedure, the user title is correctly set (previously, was always set to OM) - tnx N3EOP;
 * International Toplist age categories changed to reflect the new IARU rules (have a look at the International Toplist window - CTRL+F12);]]></releaseNotes>
     <dependencies>
-      <dependency id="DotNet3.5" />
+      <dependency id="DotNet3.5" version="3.5" />
     </dependencies>
   </metadata>
   <files>

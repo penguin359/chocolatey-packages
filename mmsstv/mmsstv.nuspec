@@ -16,7 +16,7 @@
     <projectSourceUrl>https://github.com/n5ac/mmsstv</projectSourceUrl>
     <docsUrl>https://hamsoft.ca/pages/mmsstv.php?dwn=5d928d744e571962</docsUrl>
     <mailingListUrl>https://groups.io/g/MMSSTV</mailingListUrl>
-    <tags>mmsstv HAM amateur radio</tags>
+    <tags>mmsstv HAM amateur radio SSTV</tags>
     <summary>Slow-Scan Television encoder/decoder</summary>
     <description><![CDATA[To the wonderful world of Slow Scan Television (SSTV). SSTV is a very fun and exciting mode to send and receive images using your computer, a keying circuit and your ham radio whether it's vhf or hf. Over the years sstv has grown in popularly and the software/hardware used to send and receive pictures with amateur radio has come a long ways as well. MMSSTV has many features not found in other sstv programs and the best part about MMSSTV is that it is free.]]></description>
     <releaseNotes><![CDATA[Revision history Ver1.13 -> Ver1.13A

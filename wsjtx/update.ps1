@@ -8,8 +8,6 @@ function global:au_AfterUpdate {
 	$content = (Get-Content -Encoding 'UTF8' 'wsjtx.nuspec') -join "`n"
 	$output = $content -replace "(?s)(<releaseNotes><!\[CDATA\[).*(]]></releaseNotes>)","`$1${releaseNotes}`$2" -split "`n"
 	$output | Out-File -Encoding 'UTF8' 'wsjtx.nuspec'
-	Write-Warning "$output"
-	Write-Warning (pwd)
 }
 
 function global:au_SearchReplace {

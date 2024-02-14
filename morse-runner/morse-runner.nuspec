@@ -16,7 +16,7 @@
     <projectSourceUrl>https://github.com/VE3NEA/MorseRunner</projectSourceUrl>
     <docsUrl>https://cwops.org/cwa/Using%20Morse%20Runner.pdf</docsUrl>
     <bugTrackerUrl>https://github.com/VE3NEA/MorseRunner/issues</bugTrackerUrl>
-    <tags>morse-runner HAM amateur radio</tags>
+    <tags>morse-runner HAM amateur radio CW morse learn tutor</tags>
     <summary>Morse code contest simulator for Windows</summary>
     <description>Simulation software for practicing Morse Code as found in a CW Contest.</description>
     <releaseNotes><![CDATA[Version History

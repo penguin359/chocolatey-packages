@@ -26,5 +26,6 @@
   </metadata>
   <files>
     <file src="tools\*.ps1" target="tools" />
+    <file src="tools\*.exe" target="tools" />
   </files>
 </package>

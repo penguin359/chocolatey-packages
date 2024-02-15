@@ -28,9 +28,9 @@ and REMOTE operators.
 out of date by more than a day or two, please contact the maintainer(s) and
 let them know the package is no longer updating correctly.]]></description>
     <dependencies>
-      <dependency id="autohotkey" />
-      <dependency id="netfx-4.8" />
-      <dependency id="vcredist140" />
+      <dependency id="autohotkey" version="1.1" />
+      <dependency id="netfx-4.8" version="4.8.0" />
+      <dependency id="vcredist140" version="14.30" />
     </dependencies>
   </metadata>
   <files>

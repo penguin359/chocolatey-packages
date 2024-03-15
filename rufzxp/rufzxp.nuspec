@@ -26,10 +26,12 @@ The appendix "XP" indicates that this completely new version takes advantage of 
 * Now, during the record sending procedure, the user title is correctly set (previously, was always set to OM) - tnx N3EOP;
 * International Toplist age categories changed to reflect the new IARU rules (have a look at the International Toplist window - CTRL+F12);]]></releaseNotes>
     <dependencies>
+      <dependency id="autohotkey" />
       <dependency id="DotNet3.5" version="3.5" />
     </dependencies>
   </metadata>
   <files>
     <file src="tools\*.ps1" target="tools" />
+    <file src="tools\*.ahk" target="tools" />
   </files>
 </package>

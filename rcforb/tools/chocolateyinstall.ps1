@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://download.remotehams.com/download.php?dir=orb&file=RCForb_0.7.8560.exe'
-$checksum   = '8b7c0c13f3c6e74615a86d2eb2b14e43043671ff2bc1556bd973d2553244ed97'
+$url        = 'http://download.remotehams.com/download.php?dir=orb&file=RCForb_0.7.8756.exe'
+$checksum   = 'e95f6586d32ba48bf989cca85c4f9f1073b5c7f0c2aa01c2a67347bf330808dd'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName

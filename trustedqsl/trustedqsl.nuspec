@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>trustedqsl</id>
-    <version>2.7.2</version>
+    <version>2.7.3</version>
     <packageSourceUrl>https://github.com/penguin359/chocolatey-packages</packageSourceUrl>
     <owners>penguin359</owners>
     <title>TQSL</title>
@@ -27,7 +27,7 @@ signing Amateur Radio QSO records.
 **Please Note**: This is an automatically updated package. If you find it is
 out of date by more than a day or two, please contact the maintainer(s) and
 let them know the package is no longer updating correctly.]]></description>
-    <releaseNotes>https://www.arrl.org/files/file/LoTW%20Instructions/TrustedQSL-2-7-2-release.pdf</releaseNotes>
+    <releaseNotes>https://www.arrl.org/files/file/LoTW%20Instructions/TrustedQSL-2-7-3-release.pdf</releaseNotes>
   </metadata>
   <files>
     <file src="tools\*.ps1" target="tools" />

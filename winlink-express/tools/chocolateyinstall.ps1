@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://downloads.winlink.org/User%20Programs/Winlink_Express_install_1-7-18-0.zip'
-$checksum   = '7e83cf9a47874769e6a827d11efa70e2dfa018efc18c1e0007e220f5dc647ec1'
+$url        = 'https://downloads.winlink.org/User%20Programs/Winlink_Express_install_1-7-19-0.zip'
+$checksum   = 'ee80fbd617c6b9d4450656f911f05189db3290408f07d6b00b4fc8fec0811020'
 $setupName  = 'Winlink_Express_install.exe'
 
 $packageArgs = @{

@@ -6,7 +6,7 @@
     <version>0.7.8756</version>
     <packageSourceUrl>https://github.com/penguin359/chocolatey-packages</packageSourceUrl>
     <owners>penguin359</owners>
-    <title>RCForb</title>
+    <title>RCForb Server</title>
     <authors>Brandon Hansen (KG6YPI)</authors>
     <projectUrl>https://www.remotehams.com/</projectUrl>
     <iconUrl>https://www.remotehams.com/images/orb_server_icon.png</iconUrl>

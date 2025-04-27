@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.arrl.org/files/file/LoTW%20Instructions/tqsl-2.7.5.msi'
-$checksum   = '82754784c107d9a47d890b672dd4f020894c5b79c83a685d698c4ebc7e440ad4'
+$url        = 'https://www.arrl.org/files/file/LoTW%20Instructions/tqsl-2.8.msi'
+$checksum   = '9a9ab32d26b164cbd3cbf32eb96cd2404d6334d9bdc55364c583ed8e0d494d5f'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName

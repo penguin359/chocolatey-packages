@@ -21,7 +21,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: penguin359/chocolatey-packages
   github_api_key:
-    secure: s/vLOG++U2qjSySn/ejBR6iPcuBAfdx31Q1B6kNA82Fx3fSqPDFTkBti7nFbGlZN
+    secure: MtKwTdgemePZ77uNgB5EZZRKJkziTM2vjEvIlRpHJm3/mYl9C8F8X8Rb6C8i44ic
 
 
   # Mail credentials - for error notifications
@@ -57,7 +57,7 @@ environment:
     secure: zKqm4IeJMurj27cLc3DZD4eZ58etaFDjnAvxIcHZFp98/89OrDLO9pHhWKuXydIo
 
   github_releases_api_key:
-    secure: E3sVPAL+q9wiihaCWdwlSYv7LdPecHmo3ocA1o597o5A/hj5FjIh+Vc60Pi5u3XvzgKvd892a7+/o2rOdxWjDKypiVprRGfAJ8KXPrin8vEcsVIDqS/AXO6v/kM0CycN
+    secure: E3sVPAL+q9wiihaCWdwlSQVZrxHK6jqZCOfH3dBJUP8pWL4OXzTZKGGAgnqJf/JXdBLSAlCLIA1+kQni8uyx/rELufK9jqvlWIPmTpwYpwtcMOQX+IQgf+pdKdfhHp6B
 
 init:
 - git config --global user.email "chocolatey@realdimensions.net"
